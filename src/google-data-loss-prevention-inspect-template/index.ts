@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,23 +21,23 @@ export interface GoogleDataLossPreventionInspectTemplateConfig extends cdktn.Ter
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#deletion_policy GoogleDataLossPreventionInspectTemplate#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#deletion_policy GoogleDataLossPreventionInspectTemplate#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A description of the inspect template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#description GoogleDataLossPreventionInspectTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#description GoogleDataLossPreventionInspectTemplate#description}
   */
   readonly description?: string;
   /**
   * User set display name of the inspect template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#display_name GoogleDataLossPreventionInspectTemplate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#display_name GoogleDataLossPreventionInspectTemplate#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#id GoogleDataLossPreventionInspectTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#id GoogleDataLossPreventionInspectTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ export interface GoogleDataLossPreventionInspectTemplateConfig extends cdktn.Ter
   * * 'organizations/{{organization_id}}'
   * * 'organizations/{{organization_id}}/locations/{{location}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#parent GoogleDataLossPreventionInspectTemplate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#parent GoogleDataLossPreventionInspectTemplate#parent}
   */
   readonly parent: string;
   /**
@@ -59,19 +59,19 @@ export interface GoogleDataLossPreventionInspectTemplateConfig extends cdktn.Ter
   * that is, it must match the regular expression: [a-zA-Z\d-_]+. The maximum length is
   * 100 characters. Can be empty to allow the system to generate one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#template_id GoogleDataLossPreventionInspectTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#template_id GoogleDataLossPreventionInspectTemplate#template_id}
   */
   readonly templateId?: string;
   /**
   * inspect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#inspect_config GoogleDataLossPreventionInspectTemplate#inspect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#inspect_config GoogleDataLossPreventionInspectTemplate#inspect_config}
   */
   readonly inspectConfig?: GoogleDataLossPreventionInspectTemplateInspectConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#timeouts GoogleDataLossPreventionInspectTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#timeouts GoogleDataLossPreventionInspectTemplate#timeouts}
   */
   readonly timeouts?: GoogleDataLossPreventionInspectTemplateTimeouts;
 }
@@ -79,7 +79,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
   */
   readonly path: string;
 }
@@ -87,7 +87,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePathToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePathOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -98,7 +98,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePathToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePathOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -163,7 +163,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   * Words or phrases defining the dictionary. The dictionary must contain at least one
   * phrase and every phrase must contain at least 2 characters that are letters or digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
   */
   readonly words: string[];
 }
@@ -171,7 +171,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStructToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStructOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStruct): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     words: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.words),
@@ -182,7 +182,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStructToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStructOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStruct): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     words: {
@@ -246,13 +246,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * cloud_storage_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
   */
   readonly cloudStoragePath?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePath;
   /**
   * word_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
   */
   readonly wordList?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryWordListStruct;
 }
@@ -260,7 +260,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cloud_storage_path: googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryCloudStoragePathToTerraform(struct!.cloudStoragePath),
@@ -272,7 +272,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionaryOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cloud_storage_path: {
@@ -367,7 +367,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -375,7 +375,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScoreToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     score: cdktn.stringToTerraform(struct!.score),
@@ -386,7 +386,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScoreToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     score: {
@@ -451,19 +451,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names
   * listed at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeSensitivityScore;
 }
@@ -471,7 +471,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -484,7 +484,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -604,14 +604,14 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * The index of the submatch to extract as findings. When not specified, the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression.
   * Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -619,7 +619,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegexToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     group_indexes: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.groupIndexes),
@@ -631,7 +631,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegexToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     group_indexes: {
@@ -723,7 +723,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -731,7 +731,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScoreToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     score: cdktn.stringToTerraform(struct!.score),
@@ -742,7 +742,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScoreToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     score: {
@@ -807,7 +807,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   * Resource name of the requested StoredInfoType, for example 'organizations/433245324/storedInfoTypes/432452342'
   * or 'projects/project-id/storedInfoTypes/432452342'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
 }
@@ -815,7 +815,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredTypeToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -826,7 +826,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredTypeToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -892,7 +892,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateTypeToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -902,7 +902,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateTypeToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -939,50 +939,50 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
   /**
   * If set to EXCLUSION_TYPE_EXCLUDE this infoType will not cause a finding to be returned. It still can be used for rules matching. Possible values: ["EXCLUSION_TYPE_EXCLUDE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_type GoogleDataLossPreventionInspectTemplate#exclusion_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_type GoogleDataLossPreventionInspectTemplate#exclusion_type}
   */
   readonly exclusionType?: string;
   /**
   * Likelihood to return for this CustomInfoType. This base value can be altered by a detection rule if the finding meets the criteria
   * specified by the rule. Default value: "VERY_LIKELY" Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood GoogleDataLossPreventionInspectTemplate#likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood GoogleDataLossPreventionInspectTemplate#likelihood}
   */
   readonly likelihood?: string;
   /**
   * dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
   */
   readonly dictionary?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionary;
   /**
   * info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
   */
   readonly infoType: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoType;
   /**
   * regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
   */
   readonly regex?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScore;
   /**
   * stored_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#stored_type GoogleDataLossPreventionInspectTemplate#stored_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#stored_type GoogleDataLossPreventionInspectTemplate#stored_type}
   */
   readonly storedType?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredType;
   /**
   * surrogate_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#surrogate_type GoogleDataLossPreventionInspectTemplate#surrogate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#surrogate_type GoogleDataLossPreventionInspectTemplate#surrogate_type}
   */
   readonly surrogateType?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSurrogateType;
 }
@@ -990,7 +990,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     exclusion_type: cdktn.stringToTerraform(struct!.exclusionType),
@@ -1008,7 +1008,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTy
 export function googleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     exclusion_type: {
@@ -1300,7 +1300,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSe
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -1308,7 +1308,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSe
 export function googleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScoreToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     score: cdktn.stringToTerraform(struct!.score),
@@ -1319,7 +1319,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigInfoTypesSen
 export function googleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScoreToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     score: {
@@ -1384,19 +1384,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypes {
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version of the information type to use. By default, the version is set to stable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypesSensitivityScore;
 }
@@ -1404,7 +1404,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypes {
 export function googleDataLossPreventionInspectTemplateInspectConfigInfoTypesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1417,7 +1417,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigInfoTypesToT
 export function googleDataLossPreventionInspectTemplateInspectConfigInfoTypesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1569,7 +1569,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -1577,7 +1577,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScoreToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     score: cdktn.stringToTerraform(struct!.score),
@@ -1588,7 +1588,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFin
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScoreToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     score: {
@@ -1653,19 +1653,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeSensitivityScore;
 }
@@ -1673,7 +1673,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1686,7 +1686,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFin
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoTypeOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1806,13 +1806,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
   /**
   * Max findings limit for the given infoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings GoogleDataLossPreventionInspectTemplate#max_findings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings GoogleDataLossPreventionInspectTemplate#max_findings}
   */
   readonly maxFindings: number;
   /**
   * info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#info_type GoogleDataLossPreventionInspectTemplate#info_type}
   */
   readonly infoType?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeInfoType;
 }
@@ -1820,7 +1820,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFi
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoType | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_findings: cdktn.numberToTerraform(struct!.maxFindings),
@@ -1832,7 +1832,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFin
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoTypeToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoType | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_findings: {
@@ -1956,19 +1956,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimits {
   /**
   * Max number of findings that will be returned for each item scanned. The maximum returned is 2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_item GoogleDataLossPreventionInspectTemplate#max_findings_per_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_item GoogleDataLossPreventionInspectTemplate#max_findings_per_item}
   */
   readonly maxFindingsPerItem: number;
   /**
   * Max number of findings that will be returned per request/job. The maximum returned is 2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_request GoogleDataLossPreventionInspectTemplate#max_findings_per_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_request GoogleDataLossPreventionInspectTemplate#max_findings_per_request}
   */
   readonly maxFindingsPerRequest: number;
   /**
   * max_findings_per_info_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_info_type GoogleDataLossPreventionInspectTemplate#max_findings_per_info_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#max_findings_per_info_type GoogleDataLossPreventionInspectTemplate#max_findings_per_info_type}
   */
   readonly maxFindingsPerInfoType?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsMaxFindingsPerInfoType[] | cdktn.IResolvable;
 }
@@ -1976,7 +1976,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigLimits {
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigLimits): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_findings_per_item: cdktn.numberToTerraform(struct!.maxFindingsPerItem),
@@ -1989,7 +1989,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigLimitsToTerr
 export function googleDataLossPreventionInspectTemplateInspectConfigLimitsToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigLimitsOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigLimits): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_findings_per_item: {
@@ -2106,7 +2106,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfo
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -2114,7 +2114,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfo
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScoreToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     score: cdktn.stringToTerraform(struct!.score),
@@ -2125,7 +2125,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScoreToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     score: {
@@ -2190,19 +2190,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfo
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesSensitivityScore;
 }
@@ -2210,7 +2210,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfo
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -2223,7 +2223,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoT
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -2375,7 +2375,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#path GoogleDataLossPreventionInspectTemplate#path}
   */
   readonly path: string;
 }
@@ -2383,7 +2383,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePathToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePathOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -2394,7 +2394,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePathToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePathOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -2459,7 +2459,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * Words or phrases defining the dictionary. The dictionary must contain at least one
   * phrase and every phrase must contain at least 2 characters that are letters or digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#words GoogleDataLossPreventionInspectTemplate#words}
   */
   readonly words: string[];
 }
@@ -2467,7 +2467,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStructToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStructOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStruct): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     words: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.words),
@@ -2478,7 +2478,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStructToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStructOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStruct): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     words: {
@@ -2542,13 +2542,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * cloud_storage_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#cloud_storage_path GoogleDataLossPreventionInspectTemplate#cloud_storage_path}
   */
   readonly cloudStoragePath?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePath;
   /**
   * word_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#word_list GoogleDataLossPreventionInspectTemplate#word_list}
   */
   readonly wordList?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryWordListStruct;
 }
@@ -2556,7 +2556,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cloud_storage_path: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryCloudStoragePathToTerraform(struct!.cloudStoragePath),
@@ -2568,7 +2568,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionaryOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cloud_storage_path: {
@@ -2664,14 +2664,14 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * The index of the submatch to extract as findings. When not specified,
   * the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression. Its syntax
   * (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -2679,7 +2679,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegexToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     group_indexes: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.groupIndexes),
@@ -2691,7 +2691,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegexToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     group_indexes: {
@@ -2783,13 +2783,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * Number of characters after the finding to consider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
   */
   readonly windowAfter?: number;
   /**
   * Number of characters before the finding to consider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
   */
   readonly windowBefore?: number;
 }
@@ -2797,7 +2797,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximityToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximityOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     window_after: cdktn.numberToTerraform(struct!.windowAfter),
@@ -2809,7 +2809,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximityToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximityOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     window_after: {
@@ -2904,13 +2904,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * hotword_regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
   */
   readonly hotwordRegex: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegex;
   /**
   * proximity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
   */
   readonly proximity: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximity;
 }
@@ -2918,7 +2918,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hotword_regex: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegexToTerraform(struct!.hotwordRegex),
@@ -2930,7 +2930,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hotword_regex: {
@@ -3019,7 +3019,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * The sensitivity score applied to the resource. Possible values: ["SENSITIVITY_LOW", "SENSITIVITY_MODERATE", "SENSITIVITY_HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#score GoogleDataLossPreventionInspectTemplate#score}
   */
   readonly score: string;
 }
@@ -3027,7 +3027,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScoreToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     score: cdktn.stringToTerraform(struct!.score),
@@ -3038,7 +3038,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScoreToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScoreOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     score: {
@@ -3103,19 +3103,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * Name of the information type. Either a name of your choosing when creating a CustomInfoType, or one of the names listed
   * at https://cloud.google.com/dlp/docs/infotypes-reference when specifying a built-in type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#name GoogleDataLossPreventionInspectTemplate#name}
   */
   readonly name: string;
   /**
   * Version name for this InfoType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#version GoogleDataLossPreventionInspectTemplate#version}
   */
   readonly version?: string;
   /**
   * sensitivity_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#sensitivity_score GoogleDataLossPreventionInspectTemplate#sensitivity_score}
   */
   readonly sensitivityScore?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesSensitivityScore;
 }
@@ -3123,7 +3123,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -3136,7 +3136,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -3288,7 +3288,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
   */
   readonly infoTypes: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypes[] | cdktn.IResolvable;
 }
@@ -3296,7 +3296,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     info_types: cdktn.listMapper(googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesInfoTypesToTerraform, true)(struct!.infoTypes),
@@ -3307,7 +3307,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     info_types: {
@@ -3371,14 +3371,14 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * The index of the submatch to extract as findings. When not specified, the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression.
   * Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -3386,7 +3386,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegexToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     group_indexes: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.groupIndexes),
@@ -3398,7 +3398,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegexToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     group_indexes: {
@@ -3490,31 +3490,31 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * How the rule is applied. See the documentation for more information: https://cloud.google.com/dlp/docs/reference/rest/v2/InspectConfig#MatchingType Possible values: ["MATCHING_TYPE_FULL_MATCH", "MATCHING_TYPE_PARTIAL_MATCH", "MATCHING_TYPE_INVERSE_MATCH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#matching_type GoogleDataLossPreventionInspectTemplate#matching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#matching_type GoogleDataLossPreventionInspectTemplate#matching_type}
   */
   readonly matchingType: string;
   /**
   * dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#dictionary GoogleDataLossPreventionInspectTemplate#dictionary}
   */
   readonly dictionary?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionary;
   /**
   * exclude_by_hotword block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_by_hotword GoogleDataLossPreventionInspectTemplate#exclude_by_hotword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_by_hotword GoogleDataLossPreventionInspectTemplate#exclude_by_hotword}
   */
   readonly excludeByHotword?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotword;
   /**
   * exclude_info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
   */
   readonly excludeInfoTypes?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypes;
   /**
   * regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#regex GoogleDataLossPreventionInspectTemplate#regex}
   */
   readonly regex?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegex;
 }
@@ -3522,7 +3522,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     matching_type: cdktn.stringToTerraform(struct!.matchingType),
@@ -3537,7 +3537,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     matching_type: {
@@ -3714,14 +3714,14 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * The index of the submatch to extract as findings. When not specified,
   * the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#group_indexes GoogleDataLossPreventionInspectTemplate#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression. Its syntax
   * (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#pattern GoogleDataLossPreventionInspectTemplate#pattern}
   */
   readonly pattern: string;
 }
@@ -3729,7 +3729,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegexToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     group_indexes: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.groupIndexes),
@@ -3741,7 +3741,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegexToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegexOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     group_indexes: {
@@ -3833,7 +3833,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * Set the likelihood of a finding to a fixed value. Either this or relative_likelihood can be set. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#fixed_likelihood GoogleDataLossPreventionInspectTemplate#fixed_likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#fixed_likelihood GoogleDataLossPreventionInspectTemplate#fixed_likelihood}
   */
   readonly fixedLikelihood?: string;
   /**
@@ -3844,7 +3844,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   * adjustment of 1 followed by an adjustment of -1 when base likelihood is VERY_LIKELY
   * will result in a final likelihood of LIKELY. Either this or fixed_likelihood can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#relative_likelihood GoogleDataLossPreventionInspectTemplate#relative_likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#relative_likelihood GoogleDataLossPreventionInspectTemplate#relative_likelihood}
   */
   readonly relativeLikelihood?: number;
 }
@@ -3852,7 +3852,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustmentToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustmentOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fixed_likelihood: cdktn.stringToTerraform(struct!.fixedLikelihood),
@@ -3864,7 +3864,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustmentToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustmentOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fixed_likelihood: {
@@ -3959,13 +3959,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * Number of characters after the finding to consider. Either this or window_before must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#window_after GoogleDataLossPreventionInspectTemplate#window_after}
   */
   readonly windowAfter?: number;
   /**
   * Number of characters before the finding to consider. Either this or window_after must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#window_before GoogleDataLossPreventionInspectTemplate#window_before}
   */
   readonly windowBefore?: number;
 }
@@ -3973,7 +3973,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximityToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximityOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     window_after: cdktn.numberToTerraform(struct!.windowAfter),
@@ -3985,7 +3985,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximityToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximityOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     window_after: {
@@ -4080,19 +4080,19 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * hotword_regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_regex GoogleDataLossPreventionInspectTemplate#hotword_regex}
   */
   readonly hotwordRegex: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegex;
   /**
   * likelihood_adjustment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood_adjustment GoogleDataLossPreventionInspectTemplate#likelihood_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#likelihood_adjustment GoogleDataLossPreventionInspectTemplate#likelihood_adjustment}
   */
   readonly likelihoodAdjustment: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleLikelihoodAdjustment;
   /**
   * proximity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#proximity GoogleDataLossPreventionInspectTemplate#proximity}
   */
   readonly proximity: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleProximity;
 }
@@ -4100,7 +4100,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hotword_regex: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleHotwordRegexToTerraform(struct!.hotwordRegex),
@@ -4113,7 +4113,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRuleOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hotword_regex: {
@@ -4227,13 +4227,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
   /**
   * exclusion_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_rule GoogleDataLossPreventionInspectTemplate#exclusion_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#exclusion_rule GoogleDataLossPreventionInspectTemplate#exclusion_rule}
   */
   readonly exclusionRule?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRule;
   /**
   * hotword_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_rule GoogleDataLossPreventionInspectTemplate#hotword_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#hotword_rule GoogleDataLossPreventionInspectTemplate#hotword_rule}
   */
   readonly hotwordRule?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesHotwordRule;
 }
@@ -4241,7 +4241,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRule
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     exclusion_rule: googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleToTerraform(struct!.exclusionRule),
@@ -4253,7 +4253,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRules
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetRulesToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     exclusion_rule: {
@@ -4380,13 +4380,13 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSet {
   /**
   * info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
   */
   readonly infoTypes: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypes[] | cdktn.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#rules GoogleDataLossPreventionInspectTemplate#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#rules GoogleDataLossPreventionInspectTemplate#rules}
   */
   readonly rules: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetRules[] | cdktn.IResolvable;
 }
@@ -4394,7 +4394,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfigRuleSet {
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSet | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     info_types: cdktn.listMapper(googleDataLossPreventionInspectTemplateInspectConfigRuleSetInfoTypesToTerraform, true)(struct!.infoTypes),
@@ -4406,7 +4406,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetToTer
 export function googleDataLossPreventionInspectTemplateInspectConfigRuleSetToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSet | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     info_types: {
@@ -4527,49 +4527,49 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfig {
   /**
   * List of options defining data content to scan. If empty, text, images, and other content will be included. Possible values: ["CONTENT_TEXT", "CONTENT_IMAGE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#content_options GoogleDataLossPreventionInspectTemplate#content_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#content_options GoogleDataLossPreventionInspectTemplate#content_options}
   */
   readonly contentOptions?: string[];
   /**
   * When true, excludes type information of the findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#exclude_info_types GoogleDataLossPreventionInspectTemplate#exclude_info_types}
   */
   readonly excludeInfoTypes?: boolean | cdktn.IResolvable;
   /**
   * When true, a contextual quote from the data that triggered a finding is included in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#include_quote GoogleDataLossPreventionInspectTemplate#include_quote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#include_quote GoogleDataLossPreventionInspectTemplate#include_quote}
   */
   readonly includeQuote?: boolean | cdktn.IResolvable;
   /**
   * Only returns findings equal or above this threshold. See https://cloud.google.com/dlp/docs/likelihood for more info Default value: "POSSIBLE" Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood GoogleDataLossPreventionInspectTemplate#min_likelihood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#min_likelihood GoogleDataLossPreventionInspectTemplate#min_likelihood}
   */
   readonly minLikelihood?: string;
   /**
   * custom_info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#custom_info_types GoogleDataLossPreventionInspectTemplate#custom_info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#custom_info_types GoogleDataLossPreventionInspectTemplate#custom_info_types}
   */
   readonly customInfoTypes?: GoogleDataLossPreventionInspectTemplateInspectConfigCustomInfoTypes[] | cdktn.IResolvable;
   /**
   * info_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#info_types GoogleDataLossPreventionInspectTemplate#info_types}
   */
   readonly infoTypes?: GoogleDataLossPreventionInspectTemplateInspectConfigInfoTypes[] | cdktn.IResolvable;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#limits GoogleDataLossPreventionInspectTemplate#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#limits GoogleDataLossPreventionInspectTemplate#limits}
   */
   readonly limits?: GoogleDataLossPreventionInspectTemplateInspectConfigLimits;
   /**
   * rule_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#rule_set GoogleDataLossPreventionInspectTemplate#rule_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#rule_set GoogleDataLossPreventionInspectTemplate#rule_set}
   */
   readonly ruleSet?: GoogleDataLossPreventionInspectTemplateInspectConfigRuleSet[] | cdktn.IResolvable;
 }
@@ -4577,7 +4577,7 @@ export interface GoogleDataLossPreventionInspectTemplateInspectConfig {
 export function googleDataLossPreventionInspectTemplateInspectConfigToTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     content_options: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.contentOptions),
@@ -4595,7 +4595,7 @@ export function googleDataLossPreventionInspectTemplateInspectConfigToTerraform(
 export function googleDataLossPreventionInspectTemplateInspectConfigToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference | GoogleDataLossPreventionInspectTemplateInspectConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     content_options: {
@@ -4856,15 +4856,15 @@ export class GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference
 }
 export interface GoogleDataLossPreventionInspectTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#create GoogleDataLossPreventionInspectTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#create GoogleDataLossPreventionInspectTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#delete GoogleDataLossPreventionInspectTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#delete GoogleDataLossPreventionInspectTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#update GoogleDataLossPreventionInspectTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#update GoogleDataLossPreventionInspectTemplate#update}
   */
   readonly update?: string;
 }
@@ -4872,7 +4872,7 @@ export interface GoogleDataLossPreventionInspectTemplateTimeouts {
 export function googleDataLossPreventionInspectTemplateTimeoutsToTerraform(struct?: GoogleDataLossPreventionInspectTemplateTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -4885,7 +4885,7 @@ export function googleDataLossPreventionInspectTemplateTimeoutsToTerraform(struc
 export function googleDataLossPreventionInspectTemplateTimeoutsToHclTerraform(struct?: GoogleDataLossPreventionInspectTemplateTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -5016,7 +5016,7 @@ export class GoogleDataLossPreventionInspectTemplateTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}
 */
 export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformResource {
 
@@ -5032,7 +5032,7 @@ export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformReso
   * Generates CDKTN code for importing a GoogleDataLossPreventionInspectTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataLossPreventionInspectTemplate to import
-  * @param importFromId The id of the existing GoogleDataLossPreventionInspectTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataLossPreventionInspectTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataLossPreventionInspectTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5044,7 +5044,7 @@ export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5055,7 +5055,7 @@ export class GoogleDataLossPreventionInspectTemplate extends cdktn.TerraformReso
       terraformResourceType: 'google_data_loss_prevention_inspect_template',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

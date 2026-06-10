@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,11 +15,11 @@ export interface GoogleStorageControlFolderIntelligenceConfigConfig extends cdkt
   /**
   * Edition configuration of the Storage Intelligence resource. Valid values are INHERIT, TRIAL, DISABLED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#edition_config GoogleStorageControlFolderIntelligenceConfig#edition_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#edition_config GoogleStorageControlFolderIntelligenceConfig#edition_config}
   */
   readonly editionConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#id GoogleStorageControlFolderIntelligenceConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#id GoogleStorageControlFolderIntelligenceConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,19 +28,19 @@ export interface GoogleStorageControlFolderIntelligenceConfigConfig extends cdkt
   /**
   * Identifier of the GCP Folder. For GCP Folder, this field can be folder number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#name GoogleStorageControlFolderIntelligenceConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#name GoogleStorageControlFolderIntelligenceConfig#name}
   */
   readonly name: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#filter GoogleStorageControlFolderIntelligenceConfig#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#filter GoogleStorageControlFolderIntelligenceConfig#filter}
   */
   readonly filter?: GoogleStorageControlFolderIntelligenceConfigFilter;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#timeouts GoogleStorageControlFolderIntelligenceConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#timeouts GoogleStorageControlFolderIntelligenceConfig#timeouts}
   */
   readonly timeouts?: GoogleStorageControlFolderIntelligenceConfigTimeouts;
 }
@@ -50,7 +50,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligen
 export function googleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -60,7 +60,7 @@ export function googleStorageControlFolderIntelligenceConfigEffectiveIntelligenc
 export function googleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfigToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigEffectiveIntelligenceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -130,7 +130,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigTrialConfig {
 export function googleStorageControlFolderIntelligenceConfigTrialConfigToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTrialConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -140,7 +140,7 @@ export function googleStorageControlFolderIntelligenceConfigTrialConfigToTerrafo
 export function googleStorageControlFolderIntelligenceConfigTrialConfigToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTrialConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -203,7 +203,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloud
   /**
   * List of bucket id regexes to exclude in the storage intelligence plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#bucket_id_regexes GoogleStorageControlFolderIntelligenceConfig#bucket_id_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#bucket_id_regexes GoogleStorageControlFolderIntelligenceConfig#bucket_id_regexes}
   */
   readonly bucketIdRegexes: string[];
 }
@@ -211,7 +211,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloud
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBuckets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket_id_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.bucketIdRegexes),
@@ -222,7 +222,7 @@ export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudS
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBuckets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket_id_regexes: {
@@ -286,7 +286,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloud
   /**
   * List of locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#locations GoogleStorageControlFolderIntelligenceConfig#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#locations GoogleStorageControlFolderIntelligenceConfig#locations}
   */
   readonly locations: string[];
 }
@@ -294,7 +294,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloud
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocations): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.locations),
@@ -305,7 +305,7 @@ export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudS
 export function googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocations): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     locations: {
@@ -369,7 +369,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloud
   /**
   * List of bucket id regexes to exclude in the storage intelligence plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#bucket_id_regexes GoogleStorageControlFolderIntelligenceConfig#bucket_id_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#bucket_id_regexes GoogleStorageControlFolderIntelligenceConfig#bucket_id_regexes}
   */
   readonly bucketIdRegexes: string[];
 }
@@ -377,7 +377,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloud
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBuckets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket_id_regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.bucketIdRegexes),
@@ -388,7 +388,7 @@ export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudS
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBucketsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBuckets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket_id_regexes: {
@@ -452,7 +452,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloud
   /**
   * List of locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#locations GoogleStorageControlFolderIntelligenceConfig#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#locations GoogleStorageControlFolderIntelligenceConfig#locations}
   */
   readonly locations: string[];
 }
@@ -460,7 +460,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloud
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocations): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.locations),
@@ -471,7 +471,7 @@ export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudS
 export function googleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocationsOutputReference | GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocations): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     locations: {
@@ -535,25 +535,25 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilter {
   /**
   * excluded_cloud_storage_buckets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#excluded_cloud_storage_buckets GoogleStorageControlFolderIntelligenceConfig#excluded_cloud_storage_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#excluded_cloud_storage_buckets GoogleStorageControlFolderIntelligenceConfig#excluded_cloud_storage_buckets}
   */
   readonly excludedCloudStorageBuckets?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBuckets;
   /**
   * excluded_cloud_storage_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#excluded_cloud_storage_locations GoogleStorageControlFolderIntelligenceConfig#excluded_cloud_storage_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#excluded_cloud_storage_locations GoogleStorageControlFolderIntelligenceConfig#excluded_cloud_storage_locations}
   */
   readonly excludedCloudStorageLocations?: GoogleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageLocations;
   /**
   * included_cloud_storage_buckets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#included_cloud_storage_buckets GoogleStorageControlFolderIntelligenceConfig#included_cloud_storage_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#included_cloud_storage_buckets GoogleStorageControlFolderIntelligenceConfig#included_cloud_storage_buckets}
   */
   readonly includedCloudStorageBuckets?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageBuckets;
   /**
   * included_cloud_storage_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#included_cloud_storage_locations GoogleStorageControlFolderIntelligenceConfig#included_cloud_storage_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#included_cloud_storage_locations GoogleStorageControlFolderIntelligenceConfig#included_cloud_storage_locations}
   */
   readonly includedCloudStorageLocations?: GoogleStorageControlFolderIntelligenceConfigFilterIncludedCloudStorageLocations;
 }
@@ -561,7 +561,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigFilter {
 export function googleStorageControlFolderIntelligenceConfigFilterToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterOutputReference | GoogleStorageControlFolderIntelligenceConfigFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     excluded_cloud_storage_buckets: googleStorageControlFolderIntelligenceConfigFilterExcludedCloudStorageBucketsToTerraform(struct!.excludedCloudStorageBuckets),
@@ -575,7 +575,7 @@ export function googleStorageControlFolderIntelligenceConfigFilterToTerraform(st
 export function googleStorageControlFolderIntelligenceConfigFilterToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigFilterOutputReference | GoogleStorageControlFolderIntelligenceConfigFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     excluded_cloud_storage_buckets: {
@@ -724,15 +724,15 @@ export class GoogleStorageControlFolderIntelligenceConfigFilterOutputReference e
 }
 export interface GoogleStorageControlFolderIntelligenceConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#create GoogleStorageControlFolderIntelligenceConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#create GoogleStorageControlFolderIntelligenceConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#delete GoogleStorageControlFolderIntelligenceConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#delete GoogleStorageControlFolderIntelligenceConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#update GoogleStorageControlFolderIntelligenceConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#update GoogleStorageControlFolderIntelligenceConfig#update}
   */
   readonly update?: string;
 }
@@ -740,7 +740,7 @@ export interface GoogleStorageControlFolderIntelligenceConfigTimeouts {
 export function googleStorageControlFolderIntelligenceConfigTimeoutsToTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -753,7 +753,7 @@ export function googleStorageControlFolderIntelligenceConfigTimeoutsToTerraform(
 export function googleStorageControlFolderIntelligenceConfigTimeoutsToHclTerraform(struct?: GoogleStorageControlFolderIntelligenceConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -884,7 +884,7 @@ export class GoogleStorageControlFolderIntelligenceConfigTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config}
 */
 export class GoogleStorageControlFolderIntelligenceConfig extends cdktn.TerraformResource {
 
@@ -900,7 +900,7 @@ export class GoogleStorageControlFolderIntelligenceConfig extends cdktn.Terrafor
   * Generates CDKTN code for importing a GoogleStorageControlFolderIntelligenceConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageControlFolderIntelligenceConfig to import
-  * @param importFromId The id of the existing GoogleStorageControlFolderIntelligenceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleStorageControlFolderIntelligenceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageControlFolderIntelligenceConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -912,7 +912,7 @@ export class GoogleStorageControlFolderIntelligenceConfig extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -923,7 +923,7 @@ export class GoogleStorageControlFolderIntelligenceConfig extends cdktn.Terrafor
       terraformResourceType: 'google_storage_control_folder_intelligence_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,14 +21,14 @@ export interface GoogleMigrationCenterDiscoveryClientConfig extends cdktn.Terraf
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#deletion_policy GoogleMigrationCenterDiscoveryClient#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#deletion_policy GoogleMigrationCenterDiscoveryClient#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Free text description.
   * Maximum length is 1000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#description GoogleMigrationCenterDiscoveryClient#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#description GoogleMigrationCenterDiscoveryClient#description}
   */
   readonly description?: string;
   /**
@@ -38,25 +38,25 @@ export interface GoogleMigrationCenterDiscoveryClientConfig extends cdktn.Terraf
   * 63 characters. The ID must match the regular expression:
   * '[a-z]([a-z0-9-]{0,61}[a-z0-9])?'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#discovery_client_id GoogleMigrationCenterDiscoveryClient#discovery_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#discovery_client_id GoogleMigrationCenterDiscoveryClient#discovery_client_id}
   */
   readonly discoveryClientId: string;
   /**
   * Free text display name.
   * Maximum length is 63 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#display_name GoogleMigrationCenterDiscoveryClient#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#display_name GoogleMigrationCenterDiscoveryClient#display_name}
   */
   readonly displayName?: string;
   /**
   * Client expiration time in UTC. If specified, the backend will not accept
   * new frames after this time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#expire_time GoogleMigrationCenterDiscoveryClient#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#expire_time GoogleMigrationCenterDiscoveryClient#expire_time}
   */
   readonly expireTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#id GoogleMigrationCenterDiscoveryClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#id GoogleMigrationCenterDiscoveryClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,29 +68,29 @@ export interface GoogleMigrationCenterDiscoveryClientConfig extends cdktn.Terraf
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#labels GoogleMigrationCenterDiscoveryClient#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#labels GoogleMigrationCenterDiscoveryClient#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#location GoogleMigrationCenterDiscoveryClient#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#location GoogleMigrationCenterDiscoveryClient#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#project GoogleMigrationCenterDiscoveryClient#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#project GoogleMigrationCenterDiscoveryClient#project}
   */
   readonly project?: string;
   /**
   * Service account used by the discovery client for various operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#service_account GoogleMigrationCenterDiscoveryClient#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#service_account GoogleMigrationCenterDiscoveryClient#service_account}
   */
   readonly serviceAccount: string;
   /**
   * Full name of the source object associated with this discovery client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#source GoogleMigrationCenterDiscoveryClient#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#source GoogleMigrationCenterDiscoveryClient#source}
   */
   readonly source: string;
   /**
@@ -99,13 +99,13 @@ export interface GoogleMigrationCenterDiscoveryClientConfig extends cdktn.Terraf
   * This field is input only. The derived expiration time is provided as
   * output through the 'expire_time' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#ttl GoogleMigrationCenterDiscoveryClient#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#ttl GoogleMigrationCenterDiscoveryClient#ttl}
   */
   readonly ttl?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#timeouts GoogleMigrationCenterDiscoveryClient#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#timeouts GoogleMigrationCenterDiscoveryClient#timeouts}
   */
   readonly timeouts?: GoogleMigrationCenterDiscoveryClientTimeouts;
 }
@@ -115,7 +115,7 @@ export interface GoogleMigrationCenterDiscoveryClientErrorsDetails {
 export function googleMigrationCenterDiscoveryClientErrorsDetailsToTerraform(struct?: GoogleMigrationCenterDiscoveryClientErrorsDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -125,7 +125,7 @@ export function googleMigrationCenterDiscoveryClientErrorsDetailsToTerraform(str
 export function googleMigrationCenterDiscoveryClientErrorsDetailsToHclTerraform(struct?: GoogleMigrationCenterDiscoveryClientErrorsDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -185,7 +185,7 @@ export interface GoogleMigrationCenterDiscoveryClientErrors {
 export function googleMigrationCenterDiscoveryClientErrorsToTerraform(struct?: GoogleMigrationCenterDiscoveryClientErrors): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -195,7 +195,7 @@ export function googleMigrationCenterDiscoveryClientErrorsToTerraform(struct?: G
 export function googleMigrationCenterDiscoveryClientErrorsToHclTerraform(struct?: GoogleMigrationCenterDiscoveryClientErrors): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -267,15 +267,15 @@ export class GoogleMigrationCenterDiscoveryClientErrorsList extends cdktn.Comple
 }
 export interface GoogleMigrationCenterDiscoveryClientTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#create GoogleMigrationCenterDiscoveryClient#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#create GoogleMigrationCenterDiscoveryClient#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#delete GoogleMigrationCenterDiscoveryClient#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#delete GoogleMigrationCenterDiscoveryClient#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#update GoogleMigrationCenterDiscoveryClient#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#update GoogleMigrationCenterDiscoveryClient#update}
   */
   readonly update?: string;
 }
@@ -283,7 +283,7 @@ export interface GoogleMigrationCenterDiscoveryClientTimeouts {
 export function googleMigrationCenterDiscoveryClientTimeoutsToTerraform(struct?: GoogleMigrationCenterDiscoveryClientTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -296,7 +296,7 @@ export function googleMigrationCenterDiscoveryClientTimeoutsToTerraform(struct?:
 export function googleMigrationCenterDiscoveryClientTimeoutsToHclTerraform(struct?: GoogleMigrationCenterDiscoveryClientTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -427,7 +427,7 @@ export class GoogleMigrationCenterDiscoveryClientTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client}
 */
 export class GoogleMigrationCenterDiscoveryClient extends cdktn.TerraformResource {
 
@@ -443,7 +443,7 @@ export class GoogleMigrationCenterDiscoveryClient extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a GoogleMigrationCenterDiscoveryClient resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMigrationCenterDiscoveryClient to import
-  * @param importFromId The id of the existing GoogleMigrationCenterDiscoveryClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleMigrationCenterDiscoveryClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMigrationCenterDiscoveryClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -455,7 +455,7 @@ export class GoogleMigrationCenterDiscoveryClient extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -466,7 +466,7 @@ export class GoogleMigrationCenterDiscoveryClient extends cdktn.TerraformResourc
       terraformResourceType: 'google_migration_center_discovery_client',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

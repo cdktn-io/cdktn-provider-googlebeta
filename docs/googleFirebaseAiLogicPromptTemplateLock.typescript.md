@@ -4,7 +4,7 @@
 
 ### GoogleFirebaseAiLogicPromptTemplateLock <a name="GoogleFirebaseAiLogicPromptTemplateLock" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.resetRegionalPropagationDisabled">resetRegionalPropagationDisabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
 ---
@@ -421,6 +422,12 @@ public resetId(): void
 public resetProject(): void
 ```
 
+##### `resetRegionalPropagationDisabled` <a name="resetRegionalPropagationDisabled" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.resetRegionalPropagationDisabled"></a>
+
+```typescript
+public resetRegionalPropagationDisabled(): void
+```
+
 ##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.resetTimeouts"></a>
 
 ```typescript
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleFirebaseAiLogicPromp
 
 The id of the existing GoogleFirebaseAiLogicPromptTemplateLock that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -567,12 +574,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.regionalPropagationDisabledInput">regionalPropagationDisabledInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.templateIdInput">templateIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockTimeouts">GoogleFirebaseAiLogicPromptTemplateLockTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.location">location</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.project">project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.regionalPropagationDisabled">regionalPropagationDisabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.templateId">templateId</a></code> | <code>string</code> | *No description.* |
 
 ---
@@ -789,6 +798,16 @@ public readonly projectInput: string;
 
 ---
 
+##### `regionalPropagationDisabledInput`<sup>Optional</sup> <a name="regionalPropagationDisabledInput" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.regionalPropagationDisabledInput"></a>
+
+```typescript
+public readonly regionalPropagationDisabledInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
 ##### `templateIdInput`<sup>Optional</sup> <a name="templateIdInput" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.templateIdInput"></a>
 
 ```typescript
@@ -849,6 +868,16 @@ public readonly project: string;
 
 ---
 
+##### `regionalPropagationDisabled`<sup>Required</sup> <a name="regionalPropagationDisabled" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.regionalPropagationDisabled"></a>
+
+```typescript
+public readonly regionalPropagationDisabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
 ##### `templateId`<sup>Required</sup> <a name="templateId" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLock.property.templateId"></a>
 
 ```typescript
@@ -903,8 +932,9 @@ const googleFirebaseAiLogicPromptTemplateLockConfig: googleFirebaseAiLogicPrompt
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.location">location</a></code> | <code>string</code> | The location of the prompt template. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.templateId">templateId</a></code> | <code>string</code> | The ID of the prompt template. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#id GoogleFirebaseAiLogicPromptTemplateLock#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#project GoogleFirebaseAiLogicPromptTemplateLock#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#id GoogleFirebaseAiLogicPromptTemplateLock#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#project GoogleFirebaseAiLogicPromptTemplateLock#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.regionalPropagationDisabled">regionalPropagationDisabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | For the 'global' location only. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockTimeouts">GoogleFirebaseAiLogicPromptTemplateLockTimeouts</a></code> | timeouts block. |
 
 ---
@@ -989,7 +1019,7 @@ public readonly location: string;
 
 The location of the prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#location GoogleFirebaseAiLogicPromptTemplateLock#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#location GoogleFirebaseAiLogicPromptTemplateLock#location}
 
 ---
 
@@ -1003,7 +1033,7 @@ public readonly templateId: string;
 
 The ID of the prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#template_id GoogleFirebaseAiLogicPromptTemplateLock#template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#template_id GoogleFirebaseAiLogicPromptTemplateLock#template_id}
 
 ---
 
@@ -1025,7 +1055,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#deletion_policy GoogleFirebaseAiLogicPromptTemplateLock#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#deletion_policy GoogleFirebaseAiLogicPromptTemplateLock#deletion_policy}
 
 ---
 
@@ -1037,7 +1067,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#id GoogleFirebaseAiLogicPromptTemplateLock#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#id GoogleFirebaseAiLogicPromptTemplateLock#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1052,7 +1082,25 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#project GoogleFirebaseAiLogicPromptTemplateLock#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#project GoogleFirebaseAiLogicPromptTemplateLock#project}.
+
+---
+
+##### `regionalPropagationDisabled`<sup>Optional</sup> <a name="regionalPropagationDisabled" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockConfig.property.regionalPropagationDisabled"></a>
+
+```typescript
+public readonly regionalPropagationDisabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+For the 'global' location only.
+
+If true, the modifyLock operation will
+apply to the global region only. Otherwise, the operation will also
+propagate to all applicable regions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#regional_propagation_disabled GoogleFirebaseAiLogicPromptTemplateLock#regional_propagation_disabled}
 
 ---
 
@@ -1066,7 +1114,7 @@ public readonly timeouts: GoogleFirebaseAiLogicPromptTemplateLockTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#timeouts GoogleFirebaseAiLogicPromptTemplateLock#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#timeouts GoogleFirebaseAiLogicPromptTemplateLock#timeouts}
 
 ---
 
@@ -1084,8 +1132,8 @@ const googleFirebaseAiLogicPromptTemplateLockTimeouts: googleFirebaseAiLogicProm
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#create GoogleFirebaseAiLogicPromptTemplateLock#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#delete GoogleFirebaseAiLogicPromptTemplateLock#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#create GoogleFirebaseAiLogicPromptTemplateLock#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplateLock.GoogleFirebaseAiLogicPromptTemplateLockTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#delete GoogleFirebaseAiLogicPromptTemplateLock#delete}. |
 
 ---
 
@@ -1097,7 +1145,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#create GoogleFirebaseAiLogicPromptTemplateLock#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#create GoogleFirebaseAiLogicPromptTemplateLock#create}.
 
 ---
 
@@ -1109,7 +1157,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#delete GoogleFirebaseAiLogicPromptTemplateLock#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#delete GoogleFirebaseAiLogicPromptTemplateLock#delete}.
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,38 +13,38 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleFirebaseRemoteConfigRemoteConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#id GoogleFirebaseRemoteConfigRemoteConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#id GoogleFirebaseRemoteConfigRemoteConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#project GoogleFirebaseRemoteConfigRemoteConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#project GoogleFirebaseRemoteConfigRemoteConfig#project}
   */
   readonly project?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#conditions GoogleFirebaseRemoteConfigRemoteConfig#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#conditions GoogleFirebaseRemoteConfigRemoteConfig#conditions}
   */
   readonly conditions?: GoogleFirebaseRemoteConfigRemoteConfigConditions[] | cdktn.IResolvable;
   /**
   * parameter_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#parameter_groups GoogleFirebaseRemoteConfigRemoteConfig#parameter_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#parameter_groups GoogleFirebaseRemoteConfigRemoteConfig#parameter_groups}
   */
   readonly parameterGroups?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroups[] | cdktn.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#parameters GoogleFirebaseRemoteConfigRemoteConfig#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#parameters GoogleFirebaseRemoteConfigRemoteConfig#parameters}
   */
   readonly parameters?: GoogleFirebaseRemoteConfigRemoteConfigParameters[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#timeouts GoogleFirebaseRemoteConfigRemoteConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#timeouts GoogleFirebaseRemoteConfigRemoteConfig#timeouts}
   */
   readonly timeouts?: GoogleFirebaseRemoteConfigRemoteConfigTimeouts;
 }
@@ -54,7 +54,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigVersionUpdateUser {
 export function googleFirebaseRemoteConfigRemoteConfigVersionUpdateUserToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigVersionUpdateUser): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -64,7 +64,7 @@ export function googleFirebaseRemoteConfigRemoteConfigVersionUpdateUserToTerrafo
 export function googleFirebaseRemoteConfigRemoteConfigVersionUpdateUserToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigVersionUpdateUser): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -139,7 +139,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigVersion {
 export function googleFirebaseRemoteConfigRemoteConfigVersionToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigVersion): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -149,7 +149,7 @@ export function googleFirebaseRemoteConfigRemoteConfigVersionToTerraform(struct?
 export function googleFirebaseRemoteConfigRemoteConfigVersionToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigVersion): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -248,20 +248,20 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigConditions {
   * Expressions](https://firebase.google.com/docs/remote-config/condition-reference)
   * for the expected syntax of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#expression GoogleFirebaseRemoteConfigRemoteConfig#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#expression GoogleFirebaseRemoteConfigRemoteConfig#expression}
   */
   readonly expression: string;
   /**
   * A non-empty and unique name of this condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#name GoogleFirebaseRemoteConfigRemoteConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#name GoogleFirebaseRemoteConfigRemoteConfig#name}
   */
   readonly name: string;
   /**
   * The color associated with this condition for display purposes in the Firebase Console.
   * Not specifying this value results in the Console picking an arbitrary color to associate with the condition. Possible values: ["BLUE", "BROWN", "CYAN", "DEEP_ORANGE", "GREEN", "INDIGO", "LIME", "ORANGE", "PINK", "PURPLE", "TEAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#tag_color GoogleFirebaseRemoteConfigRemoteConfig#tag_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#tag_color GoogleFirebaseRemoteConfigRemoteConfig#tag_color}
   */
   readonly tagColor?: string;
 }
@@ -269,7 +269,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigConditions {
 export function googleFirebaseRemoteConfigRemoteConfigConditionsToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigConditions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     expression: cdktn.stringToTerraform(struct!.expression),
@@ -282,7 +282,7 @@ export function googleFirebaseRemoteConfigRemoteConfigConditionsToTerraform(stru
 export function googleFirebaseRemoteConfigRemoteConfigConditionsToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigConditions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     expression: {
@@ -429,20 +429,20 @@ export class GoogleFirebaseRemoteConfigRemoteConfigConditionsList extends cdktn.
 }
 export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersConditionalValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#condition_name GoogleFirebaseRemoteConfigRemoteConfig#condition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#condition_name GoogleFirebaseRemoteConfigRemoteConfig#condition_name}
   */
   readonly conditionName: string;
   /**
   * If true, the parameter is omitted from the parameter values returned
   * to a client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
   */
   readonly useInAppDefault?: boolean | cdktn.IResolvable;
   /**
   * The string value that the parameter is set to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
   */
   readonly value?: string;
 }
@@ -450,7 +450,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersConditionalValuesToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersConditionalValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     condition_name: cdktn.stringToTerraform(struct!.conditionName),
@@ -463,7 +463,7 @@ export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersC
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersConditionalValuesToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersConditionalValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     condition_name: {
@@ -616,13 +616,13 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters
   * If true, the parameter is omitted from the parameter values returned
   * to a client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
   */
   readonly useInAppDefault?: boolean | cdktn.IResolvable;
   /**
   * The string value that the parameter is set to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
   */
   readonly value?: string;
 }
@@ -630,7 +630,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersDefaultValueToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersDefaultValueOutputReference | GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersDefaultValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     use_in_app_default: cdktn.booleanToTerraform(struct!.useInAppDefault),
@@ -642,7 +642,7 @@ export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersD
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersDefaultValueToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersDefaultValueOutputReference | GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersDefaultValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     use_in_app_default: {
@@ -738,30 +738,30 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters
   * A description for this Parameter. Its length must be less than or equal to
   * 256 characters . A description may contain any Unicode characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#description GoogleFirebaseRemoteConfigRemoteConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#description GoogleFirebaseRemoteConfigRemoteConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#parameter_name GoogleFirebaseRemoteConfigRemoteConfig#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#parameter_name GoogleFirebaseRemoteConfigRemoteConfig#parameter_name}
   */
   readonly parameterName: string;
   /**
   * The data type for all values of this parameter in the current version of
   * the template. Default value: "STRING" Possible values: ["STRING", "BOOLEAN", "NUMBER", "JSON"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#value_type GoogleFirebaseRemoteConfigRemoteConfig#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#value_type GoogleFirebaseRemoteConfigRemoteConfig#value_type}
   */
   readonly valueType?: string;
   /**
   * conditional_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#conditional_values GoogleFirebaseRemoteConfigRemoteConfig#conditional_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#conditional_values GoogleFirebaseRemoteConfigRemoteConfig#conditional_values}
   */
   readonly conditionalValues?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersConditionalValues[] | cdktn.IResolvable;
   /**
   * default_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#default_value GoogleFirebaseRemoteConfigRemoteConfig#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#default_value GoogleFirebaseRemoteConfigRemoteConfig#default_value}
   */
   readonly defaultValue?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersDefaultValue;
 }
@@ -769,7 +769,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -784,7 +784,7 @@ export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersT
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsParametersToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -993,17 +993,17 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroups {
   * A description for the group. Its length must be less than or equal to 256
   * characters. A description may contain any Unicode characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#description GoogleFirebaseRemoteConfigRemoteConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#description GoogleFirebaseRemoteConfigRemoteConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#parameter_group_name GoogleFirebaseRemoteConfigRemoteConfig#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#parameter_group_name GoogleFirebaseRemoteConfigRemoteConfig#parameter_group_name}
   */
   readonly parameterGroupName: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#parameters GoogleFirebaseRemoteConfigRemoteConfig#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#parameters GoogleFirebaseRemoteConfigRemoteConfig#parameters}
   */
   readonly parameters?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsParameters[] | cdktn.IResolvable;
 }
@@ -1011,7 +1011,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameterGroups {
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroups | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -1024,7 +1024,7 @@ export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsToTerraform
 export function googleFirebaseRemoteConfigRemoteConfigParameterGroupsToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameterGroups | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1174,20 +1174,20 @@ export class GoogleFirebaseRemoteConfigRemoteConfigParameterGroupsList extends c
 }
 export interface GoogleFirebaseRemoteConfigRemoteConfigParametersConditionalValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#condition_name GoogleFirebaseRemoteConfigRemoteConfig#condition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#condition_name GoogleFirebaseRemoteConfigRemoteConfig#condition_name}
   */
   readonly conditionName: string;
   /**
   * If true, the parameter is omitted from the parameter values returned
   * to a client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
   */
   readonly useInAppDefault?: boolean | cdktn.IResolvable;
   /**
   * The string value that the parameter is set to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
   */
   readonly value?: string;
 }
@@ -1195,7 +1195,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParametersConditionalValu
 export function googleFirebaseRemoteConfigRemoteConfigParametersConditionalValuesToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParametersConditionalValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     condition_name: cdktn.stringToTerraform(struct!.conditionName),
@@ -1208,7 +1208,7 @@ export function googleFirebaseRemoteConfigRemoteConfigParametersConditionalValue
 export function googleFirebaseRemoteConfigRemoteConfigParametersConditionalValuesToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParametersConditionalValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     condition_name: {
@@ -1361,13 +1361,13 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParametersDefaultValue {
   * If true, the parameter is omitted from the parameter values returned
   * to a client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#use_in_app_default GoogleFirebaseRemoteConfigRemoteConfig#use_in_app_default}
   */
   readonly useInAppDefault?: boolean | cdktn.IResolvable;
   /**
   * The string value that the parameter is set to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#value GoogleFirebaseRemoteConfigRemoteConfig#value}
   */
   readonly value?: string;
 }
@@ -1375,7 +1375,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParametersDefaultValue {
 export function googleFirebaseRemoteConfigRemoteConfigParametersDefaultValueToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParametersDefaultValueOutputReference | GoogleFirebaseRemoteConfigRemoteConfigParametersDefaultValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     use_in_app_default: cdktn.booleanToTerraform(struct!.useInAppDefault),
@@ -1387,7 +1387,7 @@ export function googleFirebaseRemoteConfigRemoteConfigParametersDefaultValueToTe
 export function googleFirebaseRemoteConfigRemoteConfigParametersDefaultValueToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParametersDefaultValueOutputReference | GoogleFirebaseRemoteConfigRemoteConfigParametersDefaultValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     use_in_app_default: {
@@ -1483,30 +1483,30 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameters {
   * A description for this Parameter. Its length must be less than or equal to
   * 256 characters . A description may contain any Unicode characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#description GoogleFirebaseRemoteConfigRemoteConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#description GoogleFirebaseRemoteConfigRemoteConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#parameter_name GoogleFirebaseRemoteConfigRemoteConfig#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#parameter_name GoogleFirebaseRemoteConfigRemoteConfig#parameter_name}
   */
   readonly parameterName: string;
   /**
   * The data type for all values of this parameter in the current version of
   * the template. Default value: "STRING" Possible values: ["STRING", "BOOLEAN", "NUMBER", "JSON"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#value_type GoogleFirebaseRemoteConfigRemoteConfig#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#value_type GoogleFirebaseRemoteConfigRemoteConfig#value_type}
   */
   readonly valueType?: string;
   /**
   * conditional_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#conditional_values GoogleFirebaseRemoteConfigRemoteConfig#conditional_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#conditional_values GoogleFirebaseRemoteConfigRemoteConfig#conditional_values}
   */
   readonly conditionalValues?: GoogleFirebaseRemoteConfigRemoteConfigParametersConditionalValues[] | cdktn.IResolvable;
   /**
   * default_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#default_value GoogleFirebaseRemoteConfigRemoteConfig#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#default_value GoogleFirebaseRemoteConfigRemoteConfig#default_value}
   */
   readonly defaultValue?: GoogleFirebaseRemoteConfigRemoteConfigParametersDefaultValue;
 }
@@ -1514,7 +1514,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigParameters {
 export function googleFirebaseRemoteConfigRemoteConfigParametersToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -1529,7 +1529,7 @@ export function googleFirebaseRemoteConfigRemoteConfigParametersToTerraform(stru
 export function googleFirebaseRemoteConfigRemoteConfigParametersToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigParameters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1735,15 +1735,15 @@ export class GoogleFirebaseRemoteConfigRemoteConfigParametersList extends cdktn.
 }
 export interface GoogleFirebaseRemoteConfigRemoteConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#create GoogleFirebaseRemoteConfigRemoteConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#create GoogleFirebaseRemoteConfigRemoteConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#delete GoogleFirebaseRemoteConfigRemoteConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#delete GoogleFirebaseRemoteConfigRemoteConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#update GoogleFirebaseRemoteConfigRemoteConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#update GoogleFirebaseRemoteConfigRemoteConfig#update}
   */
   readonly update?: string;
 }
@@ -1751,7 +1751,7 @@ export interface GoogleFirebaseRemoteConfigRemoteConfigTimeouts {
 export function googleFirebaseRemoteConfigRemoteConfigTimeoutsToTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1764,7 +1764,7 @@ export function googleFirebaseRemoteConfigRemoteConfigTimeoutsToTerraform(struct
 export function googleFirebaseRemoteConfigRemoteConfigTimeoutsToHclTerraform(struct?: GoogleFirebaseRemoteConfigRemoteConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1895,7 +1895,7 @@ export class GoogleFirebaseRemoteConfigRemoteConfigTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config}
 */
 export class GoogleFirebaseRemoteConfigRemoteConfig extends cdktn.TerraformResource {
 
@@ -1911,7 +1911,7 @@ export class GoogleFirebaseRemoteConfigRemoteConfig extends cdktn.TerraformResou
   * Generates CDKTN code for importing a GoogleFirebaseRemoteConfigRemoteConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseRemoteConfigRemoteConfig to import
-  * @param importFromId The id of the existing GoogleFirebaseRemoteConfigRemoteConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFirebaseRemoteConfigRemoteConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseRemoteConfigRemoteConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1923,7 +1923,7 @@ export class GoogleFirebaseRemoteConfigRemoteConfig extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1934,7 +1934,7 @@ export class GoogleFirebaseRemoteConfigRemoteConfig extends cdktn.TerraformResou
       terraformResourceType: 'google_firebase_remote_config_remote_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

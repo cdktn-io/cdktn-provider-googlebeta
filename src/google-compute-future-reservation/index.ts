@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface GoogleComputeFutureReservationConfig extends cdktn.TerraformMet
   /**
   * Future timestamp when the FR auto-created reservations will be deleted by Compute Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#auto_created_reservations_delete_time GoogleComputeFutureReservation#auto_created_reservations_delete_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#auto_created_reservations_delete_time GoogleComputeFutureReservation#auto_created_reservations_delete_time}
   */
   readonly autoCreatedReservationsDeleteTime?: string;
   /**
   * Setting for enabling or disabling automatic deletion for auto-created reservation. If set to true, auto-created reservations will be deleted at Future Reservation's end time (default) or at user's defined timestamp if any of the [autoCreatedReservationsDeleteTime, autoCreatedReservationsDuration] values is specified. For keeping auto-created reservation indefinitely, this value should be set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#auto_delete_auto_created_reservations GoogleComputeFutureReservation#auto_delete_auto_created_reservations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#auto_delete_auto_created_reservations GoogleComputeFutureReservation#auto_delete_auto_created_reservations}
   */
   readonly autoDeleteAutoCreatedReservations?: boolean | cdktn.IResolvable;
   /**
@@ -33,23 +33,23 @@ export interface GoogleComputeFutureReservationConfig extends cdktn.TerraformMet
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#deletion_policy GoogleComputeFutureReservation#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#deletion_policy GoogleComputeFutureReservation#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Type of the deployment requested as part of future reservation. Possible values: ["DENSE", "FLEXIBLE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#deployment_type GoogleComputeFutureReservation#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#deployment_type GoogleComputeFutureReservation#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#description GoogleComputeFutureReservation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#description GoogleComputeFutureReservation#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#id GoogleComputeFutureReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#id GoogleComputeFutureReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,95 +64,95 @@ export interface GoogleComputeFutureReservationConfig extends cdktn.TerraformMet
   * characters must be a dash, lowercase letter, or digit, except the las
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#name GoogleComputeFutureReservation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#name GoogleComputeFutureReservation#name}
   */
   readonly name: string;
   /**
   * Name prefix for the reservations to be created at the time of delivery. The name prefix must comply with RFC1035. Maximum allowed length for name prefix is 20. Automatically created reservations name format will be -date-####.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#name_prefix GoogleComputeFutureReservation#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#name_prefix GoogleComputeFutureReservation#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Planning state before being submitted for evaluation Possible values: ["DRAFT", "SUBMITTED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#planning_status GoogleComputeFutureReservation#planning_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#planning_status GoogleComputeFutureReservation#planning_status}
   */
   readonly planningStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#project GoogleComputeFutureReservation#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#project GoogleComputeFutureReservation#project}
   */
   readonly project?: string;
   /**
   * The reservation mode which determines reservation-termination behavior and expected pricing. Possible values: ["CALENDAR", "DEFAULT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#reservation_mode GoogleComputeFutureReservation#reservation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#reservation_mode GoogleComputeFutureReservation#reservation_mode}
   */
   readonly reservationMode?: string;
   /**
   * Name of reservations where the capacity is provisioned at the time of delivery of future reservations. If the reservation with the given name does not exist already, it is created automatically at the time of Approval with INACTIVE state till specified start-time. Either provide the reservationName or a namePrefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#reservation_name GoogleComputeFutureReservation#reservation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#reservation_name GoogleComputeFutureReservation#reservation_name}
   */
   readonly reservationName?: string;
   /**
   * Maintenance information for this reservation Possible values: ["GROUPED", "INDEPENDENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#scheduling_type GoogleComputeFutureReservation#scheduling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#scheduling_type GoogleComputeFutureReservation#scheduling_type}
   */
   readonly schedulingType?: string;
   /**
   * Indicates whether the auto-created reservation can be consumed by VMs with affinity for "any" reservation. If the field is set, then only VMs that target the reservation by name can consume from the delivered reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#specific_reservation_required GoogleComputeFutureReservation#specific_reservation_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#specific_reservation_required GoogleComputeFutureReservation#specific_reservation_required}
   */
   readonly specificReservationRequired?: boolean | cdktn.IResolvable;
   /**
   * aggregate_reservation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#aggregate_reservation GoogleComputeFutureReservation#aggregate_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#aggregate_reservation GoogleComputeFutureReservation#aggregate_reservation}
   */
   readonly aggregateReservation?: GoogleComputeFutureReservationAggregateReservation;
   /**
   * auto_created_reservations_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#auto_created_reservations_duration GoogleComputeFutureReservation#auto_created_reservations_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#auto_created_reservations_duration GoogleComputeFutureReservation#auto_created_reservations_duration}
   */
   readonly autoCreatedReservationsDuration?: GoogleComputeFutureReservationAutoCreatedReservationsDuration;
   /**
   * commitment_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#commitment_info GoogleComputeFutureReservation#commitment_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#commitment_info GoogleComputeFutureReservation#commitment_info}
   */
   readonly commitmentInfo?: GoogleComputeFutureReservationCommitmentInfo;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#params GoogleComputeFutureReservation#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#params GoogleComputeFutureReservation#params}
   */
   readonly params?: GoogleComputeFutureReservationParams;
   /**
   * share_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#share_settings GoogleComputeFutureReservation#share_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#share_settings GoogleComputeFutureReservation#share_settings}
   */
   readonly shareSettings?: GoogleComputeFutureReservationShareSettings;
   /**
   * specific_sku_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#specific_sku_properties GoogleComputeFutureReservation#specific_sku_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#specific_sku_properties GoogleComputeFutureReservation#specific_sku_properties}
   */
   readonly specificSkuProperties?: GoogleComputeFutureReservationSpecificSkuProperties;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#time_window GoogleComputeFutureReservation#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#time_window GoogleComputeFutureReservation#time_window}
   */
   readonly timeWindow: GoogleComputeFutureReservationTimeWindow;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#timeouts GoogleComputeFutureReservation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#timeouts GoogleComputeFutureReservation#timeouts}
   */
   readonly timeouts?: GoogleComputeFutureReservationTimeouts;
 }
@@ -162,7 +162,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateExistingM
 export function googleComputeFutureReservationStatusLastKnownGoodStateExistingMatchingUsageInfoToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateExistingMatchingUsageInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -172,7 +172,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateExistingMa
 export function googleComputeFutureReservationStatusLastKnownGoodStateExistingMatchingUsageInfoToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateExistingMatchingUsageInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -242,7 +242,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettingsProjectMapToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettingsProjectMap): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -252,7 +252,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettingsProjectMapToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettingsProjectMap): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -322,7 +322,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettingsToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -332,7 +332,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettingsToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsShareSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -408,7 +408,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesGuestAcceleratorsToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesGuestAccelerators): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -418,7 +418,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesGuestAcceleratorsToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesGuestAccelerators): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -488,7 +488,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesLocalSsdsToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesLocalSsds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -498,7 +498,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesLocalSsdsToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesLocalSsds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -568,7 +568,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstanceProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -578,7 +578,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstancePropertiesToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesInstanceProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -675,7 +675,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -685,7 +685,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuPropertiesToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsSpecificSkuProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -761,7 +761,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindowDurationToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindowDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -771,7 +771,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindowDurationToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindowDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -841,7 +841,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindowToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -851,7 +851,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindowToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsTimeWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -927,7 +927,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodStateFutureRes
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -937,7 +937,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateFutureRese
 export function googleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecsToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodStateFutureReservationSpecs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1015,7 +1015,7 @@ export interface GoogleComputeFutureReservationStatusLastKnownGoodState {
 export function googleComputeFutureReservationStatusLastKnownGoodStateToTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1025,7 +1025,7 @@ export function googleComputeFutureReservationStatusLastKnownGoodStateToTerrafor
 export function googleComputeFutureReservationStatusLastKnownGoodStateToHclTerraform(struct?: GoogleComputeFutureReservationStatusLastKnownGoodState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1117,7 +1117,7 @@ export interface GoogleComputeFutureReservationStatusSpecificSkuProperties {
 export function googleComputeFutureReservationStatusSpecificSkuPropertiesToTerraform(struct?: GoogleComputeFutureReservationStatusSpecificSkuProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1127,7 +1127,7 @@ export function googleComputeFutureReservationStatusSpecificSkuPropertiesToTerra
 export function googleComputeFutureReservationStatusSpecificSkuPropertiesToHclTerraform(struct?: GoogleComputeFutureReservationStatusSpecificSkuProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1192,7 +1192,7 @@ export interface GoogleComputeFutureReservationStatus {
 export function googleComputeFutureReservationStatusToTerraform(struct?: GoogleComputeFutureReservationStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1202,7 +1202,7 @@ export function googleComputeFutureReservationStatusToTerraform(struct?: GoogleC
 export function googleComputeFutureReservationStatusToHclTerraform(struct?: GoogleComputeFutureReservationStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1297,13 +1297,13 @@ export interface GoogleComputeFutureReservationAggregateReservationReservedResou
   /**
   * Number of accelerators of specified type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#accelerator_count GoogleComputeFutureReservation#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#accelerator_count GoogleComputeFutureReservation#accelerator_count}
   */
   readonly acceleratorCount?: number;
   /**
   * Full or partial URL to accelerator type. e.g. "projects/{PROJECT}/zones/{ZONE}/acceleratorTypes/ct4l"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#accelerator_type GoogleComputeFutureReservation#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#accelerator_type GoogleComputeFutureReservation#accelerator_type}
   */
   readonly acceleratorType?: string;
 }
@@ -1311,7 +1311,7 @@ export interface GoogleComputeFutureReservationAggregateReservationReservedResou
 export function googleComputeFutureReservationAggregateReservationReservedResourcesAcceleratorToTerraform(struct?: GoogleComputeFutureReservationAggregateReservationReservedResourcesAcceleratorOutputReference | GoogleComputeFutureReservationAggregateReservationReservedResourcesAccelerator): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     accelerator_count: cdktn.numberToTerraform(struct!.acceleratorCount),
@@ -1323,7 +1323,7 @@ export function googleComputeFutureReservationAggregateReservationReservedResour
 export function googleComputeFutureReservationAggregateReservationReservedResourcesAcceleratorToHclTerraform(struct?: GoogleComputeFutureReservationAggregateReservationReservedResourcesAcceleratorOutputReference | GoogleComputeFutureReservationAggregateReservationReservedResourcesAccelerator): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     accelerator_count: {
@@ -1418,7 +1418,7 @@ export interface GoogleComputeFutureReservationAggregateReservationReservedResou
   /**
   * accelerator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#accelerator GoogleComputeFutureReservation#accelerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#accelerator GoogleComputeFutureReservation#accelerator}
   */
   readonly accelerator?: GoogleComputeFutureReservationAggregateReservationReservedResourcesAccelerator;
 }
@@ -1426,7 +1426,7 @@ export interface GoogleComputeFutureReservationAggregateReservationReservedResou
 export function googleComputeFutureReservationAggregateReservationReservedResourcesToTerraform(struct?: GoogleComputeFutureReservationAggregateReservationReservedResources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     accelerator: googleComputeFutureReservationAggregateReservationReservedResourcesAcceleratorToTerraform(struct!.accelerator),
@@ -1437,7 +1437,7 @@ export function googleComputeFutureReservationAggregateReservationReservedResour
 export function googleComputeFutureReservationAggregateReservationReservedResourcesToHclTerraform(struct?: GoogleComputeFutureReservationAggregateReservationReservedResources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     accelerator: {
@@ -1536,19 +1536,19 @@ export interface GoogleComputeFutureReservationAggregateReservation {
   /**
   * The VM family that all instances scheduled against this reservation must belong to. Possible values: ["VM_FAMILY_CLOUD_TPU_DEVICE_CT3", "VM_FAMILY_CLOUD_TPU_LITE_DEVICE_CT5L", "VM_FAMILY_CLOUD_TPU_LITE_POD_SLICE_CT5LP", "VM_FAMILY_CLOUD_TPU_LITE_POD_SLICE_CT6E", "VM_FAMILY_CLOUD_TPU_POD_SLICE_CT3P", "VM_FAMILY_CLOUD_TPU_POD_SLICE_CT4P", "VM_FAMILY_CLOUD_TPU_POD_SLICE_CT5P"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#vm_family GoogleComputeFutureReservation#vm_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#vm_family GoogleComputeFutureReservation#vm_family}
   */
   readonly vmFamily?: string;
   /**
   * The workload type of the instances that will target this reservation. Possible values: ["BATCH", "SERVING", "UNSPECIFIED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#workload_type GoogleComputeFutureReservation#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#workload_type GoogleComputeFutureReservation#workload_type}
   */
   readonly workloadType?: string;
   /**
   * reserved_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#reserved_resources GoogleComputeFutureReservation#reserved_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#reserved_resources GoogleComputeFutureReservation#reserved_resources}
   */
   readonly reservedResources: GoogleComputeFutureReservationAggregateReservationReservedResources[] | cdktn.IResolvable;
 }
@@ -1556,7 +1556,7 @@ export interface GoogleComputeFutureReservationAggregateReservation {
 export function googleComputeFutureReservationAggregateReservationToTerraform(struct?: GoogleComputeFutureReservationAggregateReservationOutputReference | GoogleComputeFutureReservationAggregateReservation): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     vm_family: cdktn.stringToTerraform(struct!.vmFamily),
@@ -1569,7 +1569,7 @@ export function googleComputeFutureReservationAggregateReservationToTerraform(st
 export function googleComputeFutureReservationAggregateReservationToHclTerraform(struct?: GoogleComputeFutureReservationAggregateReservationOutputReference | GoogleComputeFutureReservationAggregateReservation): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     vm_family: {
@@ -1689,13 +1689,13 @@ export interface GoogleComputeFutureReservationAutoCreatedReservationsDuration {
   /**
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#nanos GoogleComputeFutureReservation#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#nanos GoogleComputeFutureReservation#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#seconds GoogleComputeFutureReservation#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#seconds GoogleComputeFutureReservation#seconds}
   */
   readonly seconds?: string;
 }
@@ -1703,7 +1703,7 @@ export interface GoogleComputeFutureReservationAutoCreatedReservationsDuration {
 export function googleComputeFutureReservationAutoCreatedReservationsDurationToTerraform(struct?: GoogleComputeFutureReservationAutoCreatedReservationsDurationOutputReference | GoogleComputeFutureReservationAutoCreatedReservationsDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -1715,7 +1715,7 @@ export function googleComputeFutureReservationAutoCreatedReservationsDurationToT
 export function googleComputeFutureReservationAutoCreatedReservationsDurationToHclTerraform(struct?: GoogleComputeFutureReservationAutoCreatedReservationsDurationOutputReference | GoogleComputeFutureReservationAutoCreatedReservationsDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -1810,19 +1810,19 @@ export interface GoogleComputeFutureReservationCommitmentInfo {
   /**
   * name of the commitment where capacity is being delivered to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#commitment_name GoogleComputeFutureReservation#commitment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#commitment_name GoogleComputeFutureReservation#commitment_name}
   */
   readonly commitmentName?: string;
   /**
   * Indicates if a Commitment needs to be created as part of FR delivery. If this field is not present, then no commitment needs to be created. Possible values: ["INVALID", "THIRTY_SIX_MONTH", "TWELVE_MONTH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#commitment_plan GoogleComputeFutureReservation#commitment_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#commitment_plan GoogleComputeFutureReservation#commitment_plan}
   */
   readonly commitmentPlan?: string;
   /**
   * Only applicable if FR is delivering to the same reservation. If set, all parent commitments will be extended to match the end date of the plan for this commitment. Possible values: ["EXTEND"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#previous_commitment_terms GoogleComputeFutureReservation#previous_commitment_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#previous_commitment_terms GoogleComputeFutureReservation#previous_commitment_terms}
   */
   readonly previousCommitmentTerms?: string;
 }
@@ -1830,7 +1830,7 @@ export interface GoogleComputeFutureReservationCommitmentInfo {
 export function googleComputeFutureReservationCommitmentInfoToTerraform(struct?: GoogleComputeFutureReservationCommitmentInfoOutputReference | GoogleComputeFutureReservationCommitmentInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     commitment_name: cdktn.stringToTerraform(struct!.commitmentName),
@@ -1843,7 +1843,7 @@ export function googleComputeFutureReservationCommitmentInfoToTerraform(struct?:
 export function googleComputeFutureReservationCommitmentInfoToHclTerraform(struct?: GoogleComputeFutureReservationCommitmentInfoOutputReference | GoogleComputeFutureReservationCommitmentInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     commitment_name: {
@@ -1968,7 +1968,7 @@ export interface GoogleComputeFutureReservationParams {
   * same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
   * and values are in the format tagValues/456.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#resource_manager_tags GoogleComputeFutureReservation#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#resource_manager_tags GoogleComputeFutureReservation#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
 }
@@ -1976,7 +1976,7 @@ export interface GoogleComputeFutureReservationParams {
 export function googleComputeFutureReservationParamsToTerraform(struct?: GoogleComputeFutureReservationParamsOutputReference | GoogleComputeFutureReservationParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
@@ -1987,7 +1987,7 @@ export function googleComputeFutureReservationParamsToTerraform(struct?: GoogleC
 export function googleComputeFutureReservationParamsToHclTerraform(struct?: GoogleComputeFutureReservationParamsOutputReference | GoogleComputeFutureReservationParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resource_manager_tags: {
@@ -2052,7 +2052,7 @@ export class GoogleComputeFutureReservationParamsOutputReference extends cdktn.C
 }
 export interface GoogleComputeFutureReservationShareSettingsProjectMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#id GoogleComputeFutureReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#id GoogleComputeFutureReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2061,7 +2061,7 @@ export interface GoogleComputeFutureReservationShareSettingsProjectMap {
   /**
   * The project ID, should be same as the key of this project config in the parent map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#project_id GoogleComputeFutureReservation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#project_id GoogleComputeFutureReservation#project_id}
   */
   readonly projectId?: string;
 }
@@ -2069,7 +2069,7 @@ export interface GoogleComputeFutureReservationShareSettingsProjectMap {
 export function googleComputeFutureReservationShareSettingsProjectMapToTerraform(struct?: GoogleComputeFutureReservationShareSettingsProjectMap | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     id: cdktn.stringToTerraform(struct!.id),
@@ -2081,7 +2081,7 @@ export function googleComputeFutureReservationShareSettingsProjectMapToTerraform
 export function googleComputeFutureReservationShareSettingsProjectMapToHclTerraform(struct?: GoogleComputeFutureReservationShareSettingsProjectMap | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     id: {
@@ -2205,19 +2205,19 @@ export interface GoogleComputeFutureReservationShareSettings {
   /**
   * list of Project names to specify consumer projects for this shared-reservation. This is only valid when shareType's value is SPECIFIC_PROJECTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#projects GoogleComputeFutureReservation#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#projects GoogleComputeFutureReservation#projects}
   */
   readonly projects?: string[];
   /**
   * Type of sharing for this future reservation. Possible values: ["LOCAL", "SPECIFIC_PROJECTS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#share_type GoogleComputeFutureReservation#share_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#share_type GoogleComputeFutureReservation#share_type}
   */
   readonly shareType?: string;
   /**
   * project_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#project_map GoogleComputeFutureReservation#project_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#project_map GoogleComputeFutureReservation#project_map}
   */
   readonly projectMap?: GoogleComputeFutureReservationShareSettingsProjectMap[] | cdktn.IResolvable;
 }
@@ -2225,7 +2225,7 @@ export interface GoogleComputeFutureReservationShareSettings {
 export function googleComputeFutureReservationShareSettingsToTerraform(struct?: GoogleComputeFutureReservationShareSettingsOutputReference | GoogleComputeFutureReservationShareSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     projects: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.projects),
@@ -2238,7 +2238,7 @@ export function googleComputeFutureReservationShareSettingsToTerraform(struct?: 
 export function googleComputeFutureReservationShareSettingsToHclTerraform(struct?: GoogleComputeFutureReservationShareSettingsOutputReference | GoogleComputeFutureReservationShareSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     projects: {
@@ -2361,13 +2361,13 @@ export interface GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProp
   /**
   * The number of the guest accelerator cards exposed to this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#accelerator_count GoogleComputeFutureReservation#accelerator_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#accelerator_count GoogleComputeFutureReservation#accelerator_count}
   */
   readonly acceleratorCount?: number;
   /**
   * Full or partial URL of the accelerator type resource to attach to this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#accelerator_type GoogleComputeFutureReservation#accelerator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#accelerator_type GoogleComputeFutureReservation#accelerator_type}
   */
   readonly acceleratorType?: string;
 }
@@ -2375,7 +2375,7 @@ export interface GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProp
 export function googleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesGuestAcceleratorsToTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesGuestAccelerators | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     accelerator_count: cdktn.numberToTerraform(struct!.acceleratorCount),
@@ -2387,7 +2387,7 @@ export function googleComputeFutureReservationSpecificSkuPropertiesInstancePrope
 export function googleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesGuestAcceleratorsToHclTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesGuestAccelerators | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     accelerator_count: {
@@ -2514,13 +2514,13 @@ export interface GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProp
   /**
   * Specifies the size of the disk in base-2 GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#disk_size_gb GoogleComputeFutureReservation#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#disk_size_gb GoogleComputeFutureReservation#disk_size_gb}
   */
   readonly diskSizeGb?: string;
   /**
   * Specifies the disk interface to use for attaching this disk, which is either SCSI or NVME. The default is SCSI. Possible values: ["SCSI", "NVME"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#interface GoogleComputeFutureReservation#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#interface GoogleComputeFutureReservation#interface}
   */
   readonly interface?: string;
 }
@@ -2528,7 +2528,7 @@ export interface GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProp
 export function googleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesLocalSsdsToTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesLocalSsds | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disk_size_gb: cdktn.stringToTerraform(struct!.diskSizeGb),
@@ -2540,7 +2540,7 @@ export function googleComputeFutureReservationSpecificSkuPropertiesInstancePrope
 export function googleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesLocalSsdsToHclTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesLocalSsds | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disk_size_gb: {
@@ -2667,43 +2667,43 @@ export interface GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProp
   /**
   * An opaque location hint used to place the allocation close to other resources. This field is for use by internal tools that use the public API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#location_hint GoogleComputeFutureReservation#location_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#location_hint GoogleComputeFutureReservation#location_hint}
   */
   readonly locationHint?: string;
   /**
   * Specifies type of machine (name only) which has fixed number of vCPUs and fixed amount of memory. This also includes specifying custom machine type following custom-NUMBER_OF_CPUS-AMOUNT_OF_MEMORY pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#machine_type GoogleComputeFutureReservation#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#machine_type GoogleComputeFutureReservation#machine_type}
   */
   readonly machineType?: string;
   /**
   * Specifies the number of hours after reservation creation where instances using the reservation won't be scheduled for maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#maintenance_freeze_duration_hours GoogleComputeFutureReservation#maintenance_freeze_duration_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#maintenance_freeze_duration_hours GoogleComputeFutureReservation#maintenance_freeze_duration_hours}
   */
   readonly maintenanceFreezeDurationHours?: number;
   /**
   * Specifies the frequency of planned maintenance events. The accepted values are: PERIODIC Possible values: ["PERIODIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#maintenance_interval GoogleComputeFutureReservation#maintenance_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#maintenance_interval GoogleComputeFutureReservation#maintenance_interval}
   */
   readonly maintenanceInterval?: string;
   /**
   * Minimum cpu platform the reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#min_cpu_platform GoogleComputeFutureReservation#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#min_cpu_platform GoogleComputeFutureReservation#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * guest_accelerators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#guest_accelerators GoogleComputeFutureReservation#guest_accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#guest_accelerators GoogleComputeFutureReservation#guest_accelerators}
   */
   readonly guestAccelerators?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesGuestAccelerators[] | cdktn.IResolvable;
   /**
   * local_ssds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#local_ssds GoogleComputeFutureReservation#local_ssds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#local_ssds GoogleComputeFutureReservation#local_ssds}
   */
   readonly localSsds?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesLocalSsds[] | cdktn.IResolvable;
 }
@@ -2711,7 +2711,7 @@ export interface GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProp
 export function googleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesToTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesOutputReference | GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     location_hint: cdktn.stringToTerraform(struct!.locationHint),
@@ -2728,7 +2728,7 @@ export function googleComputeFutureReservationSpecificSkuPropertiesInstancePrope
 export function googleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesToHclTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesInstancePropertiesOutputReference | GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     location_hint: {
@@ -2963,19 +2963,19 @@ export interface GoogleComputeFutureReservationSpecificSkuProperties {
   /**
   * The instance template that will be used to populate the ReservedInstanceProperties of the future reservation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#source_instance_template GoogleComputeFutureReservation#source_instance_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#source_instance_template GoogleComputeFutureReservation#source_instance_template}
   */
   readonly sourceInstanceTemplate?: string;
   /**
   * Total number of instances for which capacity assurance is requested at a future time period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#total_count GoogleComputeFutureReservation#total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#total_count GoogleComputeFutureReservation#total_count}
   */
   readonly totalCount?: string;
   /**
   * instance_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#instance_properties GoogleComputeFutureReservation#instance_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#instance_properties GoogleComputeFutureReservation#instance_properties}
   */
   readonly instanceProperties?: GoogleComputeFutureReservationSpecificSkuPropertiesInstanceProperties;
 }
@@ -2983,7 +2983,7 @@ export interface GoogleComputeFutureReservationSpecificSkuProperties {
 export function googleComputeFutureReservationSpecificSkuPropertiesToTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesOutputReference | GoogleComputeFutureReservationSpecificSkuProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     source_instance_template: cdktn.stringToTerraform(struct!.sourceInstanceTemplate),
@@ -2996,7 +2996,7 @@ export function googleComputeFutureReservationSpecificSkuPropertiesToTerraform(s
 export function googleComputeFutureReservationSpecificSkuPropertiesToHclTerraform(struct?: GoogleComputeFutureReservationSpecificSkuPropertiesOutputReference | GoogleComputeFutureReservationSpecificSkuProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     source_instance_template: {
@@ -3119,13 +3119,13 @@ export interface GoogleComputeFutureReservationTimeWindowDuration {
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#nanos GoogleComputeFutureReservation#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#nanos GoogleComputeFutureReservation#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#seconds GoogleComputeFutureReservation#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#seconds GoogleComputeFutureReservation#seconds}
   */
   readonly seconds?: string;
 }
@@ -3133,7 +3133,7 @@ export interface GoogleComputeFutureReservationTimeWindowDuration {
 export function googleComputeFutureReservationTimeWindowDurationToTerraform(struct?: GoogleComputeFutureReservationTimeWindowDurationOutputReference | GoogleComputeFutureReservationTimeWindowDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -3145,7 +3145,7 @@ export function googleComputeFutureReservationTimeWindowDurationToTerraform(stru
 export function googleComputeFutureReservationTimeWindowDurationToHclTerraform(struct?: GoogleComputeFutureReservationTimeWindowDurationOutputReference | GoogleComputeFutureReservationTimeWindowDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -3240,19 +3240,19 @@ export interface GoogleComputeFutureReservationTimeWindow {
   /**
   * End time of the future reservation in RFC3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#end_time GoogleComputeFutureReservation#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#end_time GoogleComputeFutureReservation#end_time}
   */
   readonly endTime?: string;
   /**
   * Start time of the future reservation in RFC3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#start_time GoogleComputeFutureReservation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#start_time GoogleComputeFutureReservation#start_time}
   */
   readonly startTime: string;
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#duration GoogleComputeFutureReservation#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#duration GoogleComputeFutureReservation#duration}
   */
   readonly duration?: GoogleComputeFutureReservationTimeWindowDuration;
 }
@@ -3260,7 +3260,7 @@ export interface GoogleComputeFutureReservationTimeWindow {
 export function googleComputeFutureReservationTimeWindowToTerraform(struct?: GoogleComputeFutureReservationTimeWindowOutputReference | GoogleComputeFutureReservationTimeWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     end_time: cdktn.stringToTerraform(struct!.endTime),
@@ -3273,7 +3273,7 @@ export function googleComputeFutureReservationTimeWindowToTerraform(struct?: Goo
 export function googleComputeFutureReservationTimeWindowToHclTerraform(struct?: GoogleComputeFutureReservationTimeWindowOutputReference | GoogleComputeFutureReservationTimeWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     end_time: {
@@ -3391,15 +3391,15 @@ export class GoogleComputeFutureReservationTimeWindowOutputReference extends cdk
 }
 export interface GoogleComputeFutureReservationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#create GoogleComputeFutureReservation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#create GoogleComputeFutureReservation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#delete GoogleComputeFutureReservation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#delete GoogleComputeFutureReservation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#update GoogleComputeFutureReservation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#update GoogleComputeFutureReservation#update}
   */
   readonly update?: string;
 }
@@ -3407,7 +3407,7 @@ export interface GoogleComputeFutureReservationTimeouts {
 export function googleComputeFutureReservationTimeoutsToTerraform(struct?: GoogleComputeFutureReservationTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -3420,7 +3420,7 @@ export function googleComputeFutureReservationTimeoutsToTerraform(struct?: Googl
 export function googleComputeFutureReservationTimeoutsToHclTerraform(struct?: GoogleComputeFutureReservationTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -3551,7 +3551,7 @@ export class GoogleComputeFutureReservationTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}
 */
 export class GoogleComputeFutureReservation extends cdktn.TerraformResource {
 
@@ -3567,7 +3567,7 @@ export class GoogleComputeFutureReservation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeFutureReservation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeFutureReservation to import
-  * @param importFromId The id of the existing GoogleComputeFutureReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeFutureReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeFutureReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3579,7 +3579,7 @@ export class GoogleComputeFutureReservation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3590,7 +3590,7 @@ export class GoogleComputeFutureReservation extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_future_reservation',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

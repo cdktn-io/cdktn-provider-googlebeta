@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,50 +13,50 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleComputeDiskIamMemberConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#id GoogleComputeDiskIamMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#id GoogleComputeDiskIamMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#member GoogleComputeDiskIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#member GoogleComputeDiskIamMember#member}
   */
   readonly member: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#name GoogleComputeDiskIamMember#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#name GoogleComputeDiskIamMember#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#project GoogleComputeDiskIamMember#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#project GoogleComputeDiskIamMember#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#role GoogleComputeDiskIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#role GoogleComputeDiskIamMember#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#zone GoogleComputeDiskIamMember#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#zone GoogleComputeDiskIamMember#zone}
   */
   readonly zone?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#condition GoogleComputeDiskIamMember#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#condition GoogleComputeDiskIamMember#condition}
   */
   readonly condition?: GoogleComputeDiskIamMemberCondition;
 }
 export interface GoogleComputeDiskIamMemberCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#description GoogleComputeDiskIamMember#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#description GoogleComputeDiskIamMember#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#expression GoogleComputeDiskIamMember#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#expression GoogleComputeDiskIamMember#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#title GoogleComputeDiskIamMember#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#title GoogleComputeDiskIamMember#title}
   */
   readonly title: string;
 }
@@ -64,7 +64,7 @@ export interface GoogleComputeDiskIamMemberCondition {
 export function googleComputeDiskIamMemberConditionToTerraform(struct?: GoogleComputeDiskIamMemberConditionOutputReference | GoogleComputeDiskIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -77,7 +77,7 @@ export function googleComputeDiskIamMemberConditionToTerraform(struct?: GoogleCo
 export function googleComputeDiskIamMemberConditionToHclTerraform(struct?: GoogleComputeDiskIamMemberConditionOutputReference | GoogleComputeDiskIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -192,7 +192,7 @@ export class GoogleComputeDiskIamMemberConditionOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member}
 */
 export class GoogleComputeDiskIamMember extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class GoogleComputeDiskIamMember extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeDiskIamMember resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeDiskIamMember to import
-  * @param importFromId The id of the existing GoogleComputeDiskIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeDiskIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeDiskIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class GoogleComputeDiskIamMember extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class GoogleComputeDiskIamMember extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_disk_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

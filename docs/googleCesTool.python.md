@@ -4,7 +4,7 @@
 
 ### GoogleCesTool <a name="GoogleCesTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool google_ces_tool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool google_ces_tool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer"></a>
 
@@ -24,15 +24,18 @@ googleCesTool.GoogleCesTool(
   app: str,
   location: str,
   tool_id: str,
+  agent_tool: GoogleCesToolAgentTool = None,
   client_function: GoogleCesToolClientFunction = None,
   data_store_tool: GoogleCesToolDataStoreTool = None,
   deletion_policy: str = None,
   execution_type: str = None,
+  file_search_tool: GoogleCesToolFileSearchTool = None,
   google_search_tool: GoogleCesToolGoogleSearchTool = None,
   id: str = None,
   project: str = None,
   python_function: GoogleCesToolPythonFunction = None,
-  timeouts: GoogleCesToolTimeouts = None
+  timeouts: GoogleCesToolTimeouts = None,
+  widget_tool: GoogleCesToolWidgetTool = None
 )
 ```
 
@@ -50,15 +53,18 @@ googleCesTool.GoogleCesTool(
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.app">app</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.toolId">tool_id</a></code> | <code>str</code> | The ID to use for the tool, which will become the final component of the tool's resource name. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.agentTool">agent_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a></code> | agent_tool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.clientFunction">client_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunction">GoogleCesToolClientFunction</a></code> | client_function block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.dataStoreTool">data_store_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool">GoogleCesToolDataStoreTool</a></code> | data_store_tool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.executionType">execution_type</a></code> | <code>str</code> | Possible values: SYNCHRONOUS ASYNCHRONOUS. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.fileSearchTool">file_search_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a></code> | file_search_tool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.googleSearchTool">google_search_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool">GoogleCesToolGoogleSearchTool</a></code> | google_search_tool block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#id GoogleCesTool#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#project GoogleCesTool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#id GoogleCesTool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#project GoogleCesTool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.pythonFunction">python_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunction">GoogleCesToolPythonFunction</a></code> | python_function block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts">GoogleCesToolTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.widgetTool">widget_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a></code> | widget_tool block. |
 
 ---
 
@@ -128,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#app GoogleCesTool#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#app GoogleCesTool#app}
 
 ---
 
@@ -138,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#location GoogleCesTool#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#location GoogleCesTool#location}
 
 ---
 
@@ -151,7 +157,17 @@ The ID to use for the tool, which will become the final component of the tool's 
 If not provided, a unique ID will be
 automatically assigned for the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#tool_id GoogleCesTool#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#tool_id GoogleCesTool#tool_id}
+
+---
+
+##### `agent_tool`<sup>Optional</sup> <a name="agent_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.agentTool"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a>
+
+agent_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#agent_tool GoogleCesTool#agent_tool}
 
 ---
 
@@ -161,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 client_function block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#client_function GoogleCesTool#client_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#client_function GoogleCesTool#client_function}
 
 ---
 
@@ -171,7 +187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 data_store_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store_tool GoogleCesTool#data_store_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_tool GoogleCesTool#data_store_tool}
 
 ---
 
@@ -188,7 +204,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#deletion_policy GoogleCesTool#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#deletion_policy GoogleCesTool#deletion_policy}
 
 ---
 
@@ -198,7 +214,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Possible values: SYNCHRONOUS ASYNCHRONOUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#execution_type GoogleCesTool#execution_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#execution_type GoogleCesTool#execution_type}
+
+---
+
+##### `file_search_tool`<sup>Optional</sup> <a name="file_search_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.fileSearchTool"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a>
+
+file_search_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#file_search_tool GoogleCesTool#file_search_tool}
 
 ---
 
@@ -208,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 google_search_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#google_search_tool GoogleCesTool#google_search_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#google_search_tool GoogleCesTool#google_search_tool}
 
 ---
 
@@ -216,7 +242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#id GoogleCesTool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#id GoogleCesTool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -227,7 +253,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#project GoogleCesTool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#project GoogleCesTool#project}.
 
 ---
 
@@ -237,7 +263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 python_function block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
 
 ---
 
@@ -247,7 +273,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#timeouts GoogleCesTool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#timeouts GoogleCesTool#timeouts}
+
+---
+
+##### `widget_tool`<sup>Optional</sup> <a name="widget_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.Initializer.parameter.widgetTool"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a>
+
+widget_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#widget_tool GoogleCesTool#widget_tool}
 
 ---
 
@@ -279,20 +315,26 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putAgentTool">put_agent_tool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putClientFunction">put_client_function</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putDataStoreTool">put_data_store_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putFileSearchTool">put_file_search_tool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putGoogleSearchTool">put_google_search_tool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putPythonFunction">put_python_function</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool">put_widget_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetAgentTool">reset_agent_tool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetClientFunction">reset_client_function</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetDataStoreTool">reset_data_store_tool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetExecutionType">reset_execution_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetFileSearchTool">reset_file_search_tool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetGoogleSearchTool">reset_google_search_tool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetPythonFunction">reset_python_function</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetTimeouts">reset_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetWidgetTool">reset_widget_tool</a></code> | *No description.* |
 
 ---
 
@@ -644,6 +686,46 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_agent_tool` <a name="put_agent_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putAgentTool"></a>
+
+```python
+def put_agent_tool(
+  name: str,
+  agent: str = None,
+  description: str = None
+) -> None
+```
+
+###### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putAgentTool.parameter.name"></a>
+
+- *Type:* str
+
+Required. The name of the agent tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+###### `agent`<sup>Optional</sup> <a name="agent" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putAgentTool.parameter.agent"></a>
+
+- *Type:* str
+
+Optional. The resource name of the agent that is the entry point of the tool. Format: projects/{project}/locations/{location}/agents/{agent}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#agent GoogleCesTool#agent}
+
+---
+
+###### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putAgentTool.parameter.description"></a>
+
+- *Type:* str
+
+Optional. Description of the tool's purpose.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
 ##### `put_client_function` <a name="put_client_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putClientFunction"></a>
 
 ```python
@@ -661,7 +743,7 @@ def put_client_function(
 
 The function name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -671,7 +753,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The function description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -681,7 +763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
 
 ---
 
@@ -691,7 +773,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#response GoogleCesTool#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#response GoogleCesTool#response}
 
 ---
 
@@ -701,8 +783,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 def put_data_store_tool(
   name: str,
   boost_specs: IResolvable | typing.List[GoogleCesToolDataStoreToolBoostSpecs] = None,
+  data_store_source: GoogleCesToolDataStoreToolDataStoreSource = None,
   description: str = None,
   engine_source: GoogleCesToolDataStoreToolEngineSource = None,
+  filter_parameter_behavior: str = None,
   max_results: typing.Union[int, float] = None,
   modality_configs: IResolvable | typing.List[GoogleCesToolDataStoreToolModalityConfigs] = None
 ) -> None
@@ -714,7 +798,7 @@ def put_data_store_tool(
 
 The data store tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -724,7 +808,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 boost_specs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost_specs GoogleCesTool#boost_specs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost_specs GoogleCesTool#boost_specs}
+
+---
+
+###### `data_store_source`<sup>Optional</sup> <a name="data_store_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putDataStoreTool.parameter.dataStoreSource"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource">GoogleCesToolDataStoreToolDataStoreSource</a>
+
+data_store_source block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_source GoogleCesTool#data_store_source}
 
 ---
 
@@ -734,7 +828,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tool description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -744,7 +838,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 engine_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#engine_source GoogleCesTool#engine_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#engine_source GoogleCesTool#engine_source}
+
+---
+
+###### `filter_parameter_behavior`<sup>Optional</sup> <a name="filter_parameter_behavior" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putDataStoreTool.parameter.filterParameterBehavior"></a>
+
+- *Type:* str
+
+Optional. The filter parameter behavior. Possible values: FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED ALWAYS_INCLUDE NEVER_INCLUDE Possible values: ["FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED", "ALWAYS_INCLUDE", "NEVER_INCLUDE"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter_parameter_behavior GoogleCesTool#filter_parameter_behavior}
 
 ---
 
@@ -754,7 +858,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Number of search results to return per query. The default value is 10. The maximum allowed value is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_results GoogleCesTool#max_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_results GoogleCesTool#max_results}
 
 ---
 
@@ -764,7 +868,58 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 modality_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#modality_configs GoogleCesTool#modality_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#modality_configs GoogleCesTool#modality_configs}
+
+---
+
+##### `put_file_search_tool` <a name="put_file_search_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putFileSearchTool"></a>
+
+```python
+def put_file_search_tool(
+  name: str,
+  corpus_type: str = None,
+  description: str = None,
+  file_corpus: str = None
+) -> None
+```
+
+###### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putFileSearchTool.parameter.name"></a>
+
+- *Type:* str
+
+Required. The tool name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+###### `corpus_type`<sup>Optional</sup> <a name="corpus_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putFileSearchTool.parameter.corpusType"></a>
+
+- *Type:* str
+
+Optional. The type of the corpus. Default is FULLY_MANAGED. Possible values: CORPUS_TYPE_UNSPECIFIED USER_OWNED FULLY_MANAGED Possible values: ["CORPUS_TYPE_UNSPECIFIED", "USER_OWNED", "FULLY_MANAGED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#corpus_type GoogleCesTool#corpus_type}
+
+---
+
+###### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putFileSearchTool.parameter.description"></a>
+
+- *Type:* str
+
+Optional. The tool description.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
+###### `file_corpus`<sup>Optional</sup> <a name="file_corpus" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putFileSearchTool.parameter.fileCorpus"></a>
+
+- *Type:* str
+
+Optional. The corpus where files are stored. Format: projects/{project}/locations/{location}/ragCorpora/{rag_corpus}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#file_corpus GoogleCesTool#file_corpus}
 
 ---
 
@@ -776,7 +931,8 @@ def put_google_search_tool(
   context_urls: typing.List[str] = None,
   description: str = None,
   exclude_domains: typing.List[str] = None,
-  preferred_domains: typing.List[str] = None
+  preferred_domains: typing.List[str] = None,
+  prompt_config: GoogleCesToolGoogleSearchToolPromptConfig = None
 ) -> None
 ```
 
@@ -786,7 +942,7 @@ def put_google_search_tool(
 
 The name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -799,7 +955,7 @@ Content will be fetched directly from these URLs for context and grounding.
 More details: https://cloud.google.com/vertex-ai/generative-ai/docs/url-context.
 Example: "https://example.com/path.html". A maximum of 20 URLs are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#context_urls GoogleCesTool#context_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#context_urls GoogleCesTool#context_urls}
 
 ---
 
@@ -809,7 +965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the tool's purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -819,7 +975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of domains to be excluded from the search results. Example: "example.com". A maximum of 2000 domains can be excluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#exclude_domains GoogleCesTool#exclude_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#exclude_domains GoogleCesTool#exclude_domains}
 
 ---
 
@@ -836,7 +992,17 @@ not be exclusively reflected in the final search results.
 Example: "example.com", "another.site".
 A maximum of 20 domains can be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#preferred_domains GoogleCesTool#preferred_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#preferred_domains GoogleCesTool#preferred_domains}
+
+---
+
+###### `prompt_config`<sup>Optional</sup> <a name="prompt_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putGoogleSearchTool.parameter.promptConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig">GoogleCesToolGoogleSearchToolPromptConfig</a>
+
+prompt_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt_config GoogleCesTool#prompt_config}
 
 ---
 
@@ -859,7 +1025,7 @@ Must match a Python function
 name defined in the python code. Case sensitive. If the name is not
 provided, the first function defined in the python code will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -869,7 +1035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Python code to execute for the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
 
 ---
 
@@ -887,7 +1053,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#create GoogleCesTool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#create GoogleCesTool#create}.
 
 ---
 
@@ -895,7 +1061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}.
 
 ---
 
@@ -903,9 +1069,115 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#update GoogleCesTool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#update GoogleCesTool#update}.
 
 ---
+
+##### `put_widget_tool` <a name="put_widget_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool"></a>
+
+```python
+def put_widget_tool(
+  name: str,
+  data_mapping: GoogleCesToolWidgetToolDataMapping = None,
+  description: str = None,
+  parameters: GoogleCesToolWidgetToolParameters = None,
+  text_response_config: GoogleCesToolWidgetToolTextResponseConfig = None,
+  ui_config: str = None,
+  widget_type: str = None
+) -> None
+```
+
+###### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool.parameter.name"></a>
+
+- *Type:* str
+
+Required. The display name of the widget tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+###### `data_mapping`<sup>Optional</sup> <a name="data_mapping" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool.parameter.dataMapping"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping">GoogleCesToolWidgetToolDataMapping</a>
+
+data_mapping block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_mapping GoogleCesTool#data_mapping}
+
+---
+
+###### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool.parameter.description"></a>
+
+- *Type:* str
+
+Optional. The description of the widget tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
+###### `parameters`<sup>Optional</sup> <a name="parameters" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool.parameter.parameters"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters">GoogleCesToolWidgetToolParameters</a>
+
+parameters block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
+
+---
+
+###### `text_response_config`<sup>Optional</sup> <a name="text_response_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool.parameter.textResponseConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig">GoogleCesToolWidgetToolTextResponseConfig</a>
+
+text_response_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_response_config GoogleCesTool#text_response_config}
+
+---
+
+###### `ui_config`<sup>Optional</sup> <a name="ui_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool.parameter.uiConfig"></a>
+
+- *Type:* str
+
+Optional. Configuration for rendering the widget. Represents a JSON object.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ui_config GoogleCesTool#ui_config}
+
+---
+
+###### `widget_type`<sup>Optional</sup> <a name="widget_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.putWidgetTool.parameter.widgetType"></a>
+
+- *Type:* str
+
+Optional.
+
+The type of the widget tool. If not specified, the default type will be CUSTOMIZED.
+Possible values:
+WIDGET_TYPE_UNSPECIFIED
+CUSTOM
+PRODUCT_CAROUSEL
+PRODUCT_DETAILS
+QUICK_ACTIONS
+PRODUCT_COMPARISON
+ADVANCED_PRODUCT_DETAILS
+SHORT_FORM
+OVERALL_SATISFACTION
+ORDER_SUMMARY
+APPOINTMENT_DETAILS
+APPOINTMENT_SCHEDULER
+CONTACT_FORM Possible values: ["WIDGET_TYPE_UNSPECIFIED", "CUSTOM", "PRODUCT_CAROUSEL", "PRODUCT_DETAILS", "QUICK_ACTIONS", "PRODUCT_COMPARISON", "ADVANCED_PRODUCT_DETAILS", "SHORT_FORM", "OVERALL_SATISFACTION", "ORDER_SUMMARY", "APPOINTMENT_DETAILS", "APPOINTMENT_SCHEDULER", "CONTACT_FORM"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#widget_type GoogleCesTool#widget_type}
+
+---
+
+##### `reset_agent_tool` <a name="reset_agent_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetAgentTool"></a>
+
+```python
+def reset_agent_tool() -> None
+```
 
 ##### `reset_client_function` <a name="reset_client_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetClientFunction"></a>
 
@@ -929,6 +1201,12 @@ def reset_deletion_policy() -> None
 
 ```python
 def reset_execution_type() -> None
+```
+
+##### `reset_file_search_tool` <a name="reset_file_search_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetFileSearchTool"></a>
+
+```python
+def reset_file_search_tool() -> None
 ```
 
 ##### `reset_google_search_tool` <a name="reset_google_search_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetGoogleSearchTool"></a>
@@ -959,6 +1237,12 @@ def reset_python_function() -> None
 
 ```python
 def reset_timeouts() -> None
+```
+
+##### `reset_widget_tool` <a name="reset_widget_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.resetWidgetTool"></a>
+
+```python
+def reset_widget_tool() -> None
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -1075,7 +1359,7 @@ The construct id used in the generated config for the GoogleCesTool to import.
 
 The id of the existing GoogleCesTool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1105,24 +1389,32 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.agentTool">agent_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference">GoogleCesToolAgentToolOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.clientFunction">client_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionOutputReference">GoogleCesToolClientFunctionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.connectorTool">connector_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList">GoogleCesToolConnectorToolList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.dataStoreTool">data_store_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference">GoogleCesToolDataStoreToolOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.etag">etag</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.fileSearchTool">file_search_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference">GoogleCesToolFileSearchToolOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.generatedSummary">generated_summary</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.googleSearchTool">google_search_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference">GoogleCesToolGoogleSearchToolOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.mcpTool">mcp_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList">GoogleCesToolMcpToolList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.openApiTool">open_api_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiToolList">GoogleCesToolOpenApiToolList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.pythonFunction">python_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunctionOutputReference">GoogleCesToolPythonFunctionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.remoteAgentTool">remote_agent_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList">GoogleCesToolRemoteAgentToolList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.systemTool">system_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolSystemToolList">GoogleCesToolSystemToolList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeoutsOutputReference">GoogleCesToolTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.widgetTool">widget_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference">GoogleCesToolWidgetToolOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.agentToolInput">agent_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.appInput">app_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.clientFunctionInput">client_function_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunction">GoogleCesToolClientFunction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.dataStoreToolInput">data_store_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool">GoogleCesToolDataStoreTool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.executionTypeInput">execution_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.fileSearchToolInput">file_search_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.googleSearchToolInput">google_search_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool">GoogleCesToolGoogleSearchTool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
@@ -1130,6 +1422,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.pythonFunctionInput">python_function_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunction">GoogleCesToolPythonFunction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts">GoogleCesToolTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.toolIdInput">tool_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.widgetToolInput">widget_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.app">app</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.executionType">execution_type</a></code> | <code>str</code> | *No description.* |
@@ -1282,6 +1575,16 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
+##### `agent_tool`<sup>Required</sup> <a name="agent_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.agentTool"></a>
+
+```python
+agent_tool: GoogleCesToolAgentToolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference">GoogleCesToolAgentToolOutputReference</a>
+
+---
+
 ##### `client_function`<sup>Required</sup> <a name="client_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.clientFunction"></a>
 
 ```python
@@ -1289,6 +1592,16 @@ client_function: GoogleCesToolClientFunctionOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionOutputReference">GoogleCesToolClientFunctionOutputReference</a>
+
+---
+
+##### `connector_tool`<sup>Required</sup> <a name="connector_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.connectorTool"></a>
+
+```python
+connector_tool: GoogleCesToolConnectorToolList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList">GoogleCesToolConnectorToolList</a>
 
 ---
 
@@ -1332,6 +1645,16 @@ etag: str
 
 ---
 
+##### `file_search_tool`<sup>Required</sup> <a name="file_search_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.fileSearchTool"></a>
+
+```python
+file_search_tool: GoogleCesToolFileSearchToolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference">GoogleCesToolFileSearchToolOutputReference</a>
+
+---
+
 ##### `generated_summary`<sup>Required</sup> <a name="generated_summary" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.generatedSummary"></a>
 
 ```python
@@ -1349,6 +1672,16 @@ google_search_tool: GoogleCesToolGoogleSearchToolOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference">GoogleCesToolGoogleSearchToolOutputReference</a>
+
+---
+
+##### `mcp_tool`<sup>Required</sup> <a name="mcp_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.mcpTool"></a>
+
+```python
+mcp_tool: GoogleCesToolMcpToolList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList">GoogleCesToolMcpToolList</a>
 
 ---
 
@@ -1382,6 +1715,16 @@ python_function: GoogleCesToolPythonFunctionOutputReference
 
 ---
 
+##### `remote_agent_tool`<sup>Required</sup> <a name="remote_agent_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.remoteAgentTool"></a>
+
+```python
+remote_agent_tool: GoogleCesToolRemoteAgentToolList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList">GoogleCesToolRemoteAgentToolList</a>
+
+---
+
 ##### `system_tool`<sup>Required</sup> <a name="system_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.systemTool"></a>
 
 ```python
@@ -1409,6 +1752,26 @@ update_time: str
 ```
 
 - *Type:* str
+
+---
+
+##### `widget_tool`<sup>Required</sup> <a name="widget_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.widgetTool"></a>
+
+```python
+widget_tool: GoogleCesToolWidgetToolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference">GoogleCesToolWidgetToolOutputReference</a>
+
+---
+
+##### `agent_tool_input`<sup>Optional</sup> <a name="agent_tool_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.agentToolInput"></a>
+
+```python
+agent_tool_input: GoogleCesToolAgentTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a>
 
 ---
 
@@ -1459,6 +1822,16 @@ execution_type_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `file_search_tool_input`<sup>Optional</sup> <a name="file_search_tool_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.fileSearchToolInput"></a>
+
+```python
+file_search_tool_input: GoogleCesToolFileSearchTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a>
 
 ---
 
@@ -1529,6 +1902,16 @@ tool_id_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `widget_tool_input`<sup>Optional</sup> <a name="widget_tool_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesTool.property.widgetToolInput"></a>
+
+```python
+widget_tool_input: GoogleCesToolWidgetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a>
 
 ---
 
@@ -1622,6 +2005,72 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### GoogleCesToolAgentTool <a name="GoogleCesToolAgentTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolAgentTool(
+  name: str,
+  agent: str = None,
+  description: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.property.name">name</a></code> | <code>str</code> | Required. The name of the agent tool. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.property.agent">agent</a></code> | <code>str</code> | Optional. The resource name of the agent that is the entry point of the tool. Format: projects/{project}/locations/{location}/agents/{agent}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.property.description">description</a></code> | <code>str</code> | Optional. Description of the tool's purpose. |
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Required. The name of the agent tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+##### `agent`<sup>Optional</sup> <a name="agent" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.property.agent"></a>
+
+```python
+agent: str
+```
+
+- *Type:* str
+
+Optional. The resource name of the agent that is the entry point of the tool. Format: projects/{project}/locations/{location}/agents/{agent}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#agent GoogleCesTool#agent}
+
+---
+
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+Optional. Description of the tool's purpose.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
 ### GoogleCesToolClientFunction <a name="GoogleCesToolClientFunction" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunction"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunction.Initializer"></a>
@@ -1658,7 +2107,7 @@ name: str
 
 The function name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -1672,7 +2121,7 @@ description: str
 
 The function description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -1686,7 +2135,7 @@ parameters: GoogleCesToolClientFunctionParameters
 
 parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
 
 ---
 
@@ -1700,7 +2149,7 @@ response: GoogleCesToolClientFunctionResponse
 
 response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#response GoogleCesTool#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#response GoogleCesTool#response}
 
 ---
 
@@ -1770,7 +2219,7 @@ type: str
 
 The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
 
 ---
 
@@ -1787,7 +2236,7 @@ Defines the schema for additional properties allowed in an object.
 The value must be a valid JSON string representing the Schema object.
 (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
 
 ---
 
@@ -1801,7 +2250,7 @@ any_of: str
 
 The instance value should be valid against at least one of the schemas in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
 
 ---
 
@@ -1820,7 +2269,7 @@ which can be either null, a number, a string, a boolean, a struct,
 or a list of values. The provided default value must be compatible
 with the defined 'type' and other schema constraints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
 
 ---
 
@@ -1834,7 +2283,7 @@ defs: str
 
 A map of definitions for use by ref. Only allowed at the root of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
 
 ---
 
@@ -1848,7 +2297,7 @@ description: str
 
 The description of the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -1869,7 +2318,7 @@ Examples:
 2. We can define apartment number as :
    {type:INTEGER, format:enum, enum:["101", "201", "301"]}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
 
 ---
 
@@ -1883,7 +2332,7 @@ items: str
 
 Schema of the elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
 
 ---
 
@@ -1897,7 +2346,7 @@ maximum: typing.Union[int, float]
 
 Maximum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
 
 ---
 
@@ -1911,7 +2360,7 @@ max_items: typing.Union[int, float]
 
 Maximum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
 
 ---
 
@@ -1925,7 +2374,7 @@ minimum: typing.Union[int, float]
 
 Minimum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
 
 ---
 
@@ -1939,7 +2388,7 @@ min_items: typing.Union[int, float]
 
 Minimum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
 
 ---
 
@@ -1953,7 +2402,7 @@ nullable: bool | IResolvable
 
 Indicates if the value may be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
 
 ---
 
@@ -1967,7 +2416,7 @@ prefix_items: str
 
 Schemas of initial elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
 
 ---
 
@@ -1981,7 +2430,7 @@ properties: str
 
 Properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
 
 ---
 
@@ -2014,7 +2463,7 @@ named "Pet".
 See details in
 https://json-schema.org/understanding-json-schema/structuring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
 
 ---
 
@@ -2028,7 +2477,7 @@ required: typing.List[str]
 
 Required properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
 
 ---
 
@@ -2042,7 +2491,7 @@ title: str
 
 The title of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
 
 ---
 
@@ -2056,7 +2505,7 @@ unique_items: bool | IResolvable
 
 Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
 
 ---
 
@@ -2126,7 +2575,7 @@ type: str
 
 The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
 
 ---
 
@@ -2143,7 +2592,7 @@ Defines the schema for additional properties allowed in an object.
 The value must be a valid JSON string representing the Schema object.
 (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
 
 ---
 
@@ -2157,7 +2606,7 @@ any_of: str
 
 The instance value should be valid against at least one of the schemas in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
 
 ---
 
@@ -2176,7 +2625,7 @@ which can be either null, a number, a string, a boolean, a struct,
 or a list of values. The provided default value must be compatible
 with the defined 'type' and other schema constraints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
 
 ---
 
@@ -2190,7 +2639,7 @@ defs: str
 
 A map of definitions for use by ref. Only allowed at the root of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
 
 ---
 
@@ -2204,7 +2653,7 @@ description: str
 
 The description of the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -2225,7 +2674,7 @@ Examples:
 2. We can define apartment number as :
    {type:INTEGER, format:enum, enum:["101", "201", "301"]}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
 
 ---
 
@@ -2239,7 +2688,7 @@ items: str
 
 Schema of the elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
 
 ---
 
@@ -2253,7 +2702,7 @@ maximum: typing.Union[int, float]
 
 Maximum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
 
 ---
 
@@ -2267,7 +2716,7 @@ max_items: typing.Union[int, float]
 
 Maximum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
 
 ---
 
@@ -2281,7 +2730,7 @@ minimum: typing.Union[int, float]
 
 Minimum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
 
 ---
 
@@ -2295,7 +2744,7 @@ min_items: typing.Union[int, float]
 
 Minimum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
 
 ---
 
@@ -2309,7 +2758,7 @@ nullable: bool | IResolvable
 
 Indicates if the value may be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
 
 ---
 
@@ -2323,7 +2772,7 @@ prefix_items: str
 
 Schemas of initial elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
 
 ---
 
@@ -2337,7 +2786,7 @@ properties: str
 
 Properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
 
 ---
 
@@ -2370,7 +2819,7 @@ named "Pet".
 See details in
 https://json-schema.org/understanding-json-schema/structuring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
 
 ---
 
@@ -2384,7 +2833,7 @@ required: typing.List[str]
 
 Required properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
 
 ---
 
@@ -2398,7 +2847,7 @@ title: str
 
 The title of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
 
 ---
 
@@ -2412,7 +2861,7 @@ unique_items: bool | IResolvable
 
 Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
 
 ---
 
@@ -2434,15 +2883,18 @@ googleCesTool.GoogleCesToolConfig(
   app: str,
   location: str,
   tool_id: str,
+  agent_tool: GoogleCesToolAgentTool = None,
   client_function: GoogleCesToolClientFunction = None,
   data_store_tool: GoogleCesToolDataStoreTool = None,
   deletion_policy: str = None,
   execution_type: str = None,
+  file_search_tool: GoogleCesToolFileSearchTool = None,
   google_search_tool: GoogleCesToolGoogleSearchTool = None,
   id: str = None,
   project: str = None,
   python_function: GoogleCesToolPythonFunction = None,
-  timeouts: GoogleCesToolTimeouts = None
+  timeouts: GoogleCesToolTimeouts = None,
+  widget_tool: GoogleCesToolWidgetTool = None
 )
 ```
 
@@ -2460,15 +2912,18 @@ googleCesTool.GoogleCesToolConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.app">app</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.toolId">tool_id</a></code> | <code>str</code> | The ID to use for the tool, which will become the final component of the tool's resource name. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.agentTool">agent_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a></code> | agent_tool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.clientFunction">client_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunction">GoogleCesToolClientFunction</a></code> | client_function block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.dataStoreTool">data_store_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool">GoogleCesToolDataStoreTool</a></code> | data_store_tool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.executionType">execution_type</a></code> | <code>str</code> | Possible values: SYNCHRONOUS ASYNCHRONOUS. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.fileSearchTool">file_search_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a></code> | file_search_tool block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.googleSearchTool">google_search_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool">GoogleCesToolGoogleSearchTool</a></code> | google_search_tool block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#id GoogleCesTool#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#project GoogleCesTool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#id GoogleCesTool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#project GoogleCesTool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.pythonFunction">python_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunction">GoogleCesToolPythonFunction</a></code> | python_function block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts">GoogleCesToolTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.widgetTool">widget_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a></code> | widget_tool block. |
 
 ---
 
@@ -2552,7 +3007,7 @@ app: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#app GoogleCesTool#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#app GoogleCesTool#app}
 
 ---
 
@@ -2566,7 +3021,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#location GoogleCesTool#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#location GoogleCesTool#location}
 
 ---
 
@@ -2583,7 +3038,21 @@ The ID to use for the tool, which will become the final component of the tool's 
 If not provided, a unique ID will be
 automatically assigned for the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#tool_id GoogleCesTool#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#tool_id GoogleCesTool#tool_id}
+
+---
+
+##### `agent_tool`<sup>Optional</sup> <a name="agent_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.agentTool"></a>
+
+```python
+agent_tool: GoogleCesToolAgentTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a>
+
+agent_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#agent_tool GoogleCesTool#agent_tool}
 
 ---
 
@@ -2597,7 +3066,7 @@ client_function: GoogleCesToolClientFunction
 
 client_function block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#client_function GoogleCesTool#client_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#client_function GoogleCesTool#client_function}
 
 ---
 
@@ -2611,7 +3080,7 @@ data_store_tool: GoogleCesToolDataStoreTool
 
 data_store_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store_tool GoogleCesTool#data_store_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_tool GoogleCesTool#data_store_tool}
 
 ---
 
@@ -2632,7 +3101,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#deletion_policy GoogleCesTool#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#deletion_policy GoogleCesTool#deletion_policy}
 
 ---
 
@@ -2646,7 +3115,21 @@ execution_type: str
 
 Possible values: SYNCHRONOUS ASYNCHRONOUS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#execution_type GoogleCesTool#execution_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#execution_type GoogleCesTool#execution_type}
+
+---
+
+##### `file_search_tool`<sup>Optional</sup> <a name="file_search_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.fileSearchTool"></a>
+
+```python
+file_search_tool: GoogleCesToolFileSearchTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a>
+
+file_search_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#file_search_tool GoogleCesTool#file_search_tool}
 
 ---
 
@@ -2660,7 +3143,7 @@ google_search_tool: GoogleCesToolGoogleSearchTool
 
 google_search_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#google_search_tool GoogleCesTool#google_search_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#google_search_tool GoogleCesTool#google_search_tool}
 
 ---
 
@@ -2672,7 +3155,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#id GoogleCesTool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#id GoogleCesTool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2687,7 +3170,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#project GoogleCesTool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#project GoogleCesTool#project}.
 
 ---
 
@@ -2701,7 +3184,7 @@ python_function: GoogleCesToolPythonFunction
 
 python_function block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
 
 ---
 
@@ -2715,9 +3198,56 @@ timeouts: GoogleCesToolTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#timeouts GoogleCesTool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#timeouts GoogleCesTool#timeouts}
 
 ---
+
+##### `widget_tool`<sup>Optional</sup> <a name="widget_tool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConfig.property.widgetTool"></a>
+
+```python
+widget_tool: GoogleCesToolWidgetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a>
+
+widget_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#widget_tool GoogleCesTool#widget_tool}
+
+---
+
+### GoogleCesToolConnectorTool <a name="GoogleCesToolConnectorTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorTool()
+```
+
+
+### GoogleCesToolConnectorToolAction <a name="GoogleCesToolConnectorToolAction" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolAction"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolAction.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolAction()
+```
+
+
+### GoogleCesToolConnectorToolActionEntityOperation <a name="GoogleCesToolConnectorToolActionEntityOperation" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperation"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperation.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolActionEntityOperation()
+```
+
 
 ### GoogleCesToolDataStoreTool <a name="GoogleCesToolDataStoreTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool"></a>
 
@@ -2729,8 +3259,10 @@ from cdktn_provider_google_beta import google_ces_tool
 googleCesTool.GoogleCesToolDataStoreTool(
   name: str,
   boost_specs: IResolvable | typing.List[GoogleCesToolDataStoreToolBoostSpecs] = None,
+  data_store_source: GoogleCesToolDataStoreToolDataStoreSource = None,
   description: str = None,
   engine_source: GoogleCesToolDataStoreToolEngineSource = None,
+  filter_parameter_behavior: str = None,
   max_results: typing.Union[int, float] = None,
   modality_configs: IResolvable | typing.List[GoogleCesToolDataStoreToolModalityConfigs] = None
 )
@@ -2742,8 +3274,10 @@ googleCesTool.GoogleCesToolDataStoreTool(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.name">name</a></code> | <code>str</code> | The data store tool name. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.boostSpecs">boost_specs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecs">GoogleCesToolDataStoreToolBoostSpecs</a>]</code> | boost_specs block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.dataStoreSource">data_store_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource">GoogleCesToolDataStoreToolDataStoreSource</a></code> | data_store_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.description">description</a></code> | <code>str</code> | The tool description. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.engineSource">engine_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSource">GoogleCesToolDataStoreToolEngineSource</a></code> | engine_source block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.filterParameterBehavior">filter_parameter_behavior</a></code> | <code>str</code> | Optional. The filter parameter behavior. Possible values: FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED ALWAYS_INCLUDE NEVER_INCLUDE Possible values: ["FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED", "ALWAYS_INCLUDE", "NEVER_INCLUDE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.maxResults">max_results</a></code> | <code>typing.Union[int, float]</code> | Number of search results to return per query. The default value is 10. The maximum allowed value is 10. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.modalityConfigs">modality_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigs">GoogleCesToolDataStoreToolModalityConfigs</a>]</code> | modality_configs block. |
 
@@ -2759,7 +3293,7 @@ name: str
 
 The data store tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -2773,7 +3307,21 @@ boost_specs: IResolvable | typing.List[GoogleCesToolDataStoreToolBoostSpecs]
 
 boost_specs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost_specs GoogleCesTool#boost_specs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost_specs GoogleCesTool#boost_specs}
+
+---
+
+##### `data_store_source`<sup>Optional</sup> <a name="data_store_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.dataStoreSource"></a>
+
+```python
+data_store_source: GoogleCesToolDataStoreToolDataStoreSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource">GoogleCesToolDataStoreToolDataStoreSource</a>
+
+data_store_source block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_source GoogleCesTool#data_store_source}
 
 ---
 
@@ -2787,7 +3335,7 @@ description: str
 
 The tool description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -2801,7 +3349,21 @@ engine_source: GoogleCesToolDataStoreToolEngineSource
 
 engine_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#engine_source GoogleCesTool#engine_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#engine_source GoogleCesTool#engine_source}
+
+---
+
+##### `filter_parameter_behavior`<sup>Optional</sup> <a name="filter_parameter_behavior" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool.property.filterParameterBehavior"></a>
+
+```python
+filter_parameter_behavior: str
+```
+
+- *Type:* str
+
+Optional. The filter parameter behavior. Possible values: FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED ALWAYS_INCLUDE NEVER_INCLUDE Possible values: ["FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED", "ALWAYS_INCLUDE", "NEVER_INCLUDE"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter_parameter_behavior GoogleCesTool#filter_parameter_behavior}
 
 ---
 
@@ -2815,7 +3377,7 @@ max_results: typing.Union[int, float]
 
 Number of search results to return per query. The default value is 10. The maximum allowed value is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_results GoogleCesTool#max_results}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_results GoogleCesTool#max_results}
 
 ---
 
@@ -2829,7 +3391,7 @@ modality_configs: IResolvable | typing.List[GoogleCesToolDataStoreToolModalityCo
 
 modality_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#modality_configs GoogleCesTool#modality_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#modality_configs GoogleCesTool#modality_configs}
 
 ---
 
@@ -2865,7 +3427,7 @@ data_stores: typing.List[str]
 
 The Data Store where the boosting configuration is applied. Full resource name of DataStore, such as projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_stores GoogleCesTool#data_stores}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_stores GoogleCesTool#data_stores}
 
 ---
 
@@ -2879,7 +3441,7 @@ spec: IResolvable | typing.List[GoogleCesToolDataStoreToolBoostSpecsSpec]
 
 spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#spec GoogleCesTool#spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#spec GoogleCesTool#spec}
 
 ---
 
@@ -2913,7 +3475,7 @@ condition_boost_specs: IResolvable | typing.List[GoogleCesToolDataStoreToolBoost
 
 condition_boost_specs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#condition_boost_specs GoogleCesTool#condition_boost_specs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#condition_boost_specs GoogleCesTool#condition_boost_specs}
 
 ---
 
@@ -2957,7 +3519,7 @@ a list of BCP-47 lang codes.
 Example: To boost suggestions in languages en or fr:
 (lang_code: ANY("en", "fr"))
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#condition GoogleCesTool#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#condition GoogleCesTool#condition}
 
 ---
 
@@ -2980,7 +3542,7 @@ suggestions that are relevant might still be shown.
 Setting to 0.0 means no boost applied. The boosting condition is
 ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost GoogleCesTool#boost}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost GoogleCesTool#boost}
 
 ---
 
@@ -2994,7 +3556,7 @@ boost_control_spec: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsB
 
 boost_control_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost_control_spec GoogleCesTool#boost_control_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost_control_spec GoogleCesTool#boost_control_spec}
 
 ---
 
@@ -3043,7 +3605,7 @@ Possible values:
 NUMERICAL
 FRESHNESS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#attribute_type GoogleCesTool#attribute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#attribute_type GoogleCesTool#attribute_type}
 
 ---
 
@@ -3057,7 +3619,7 @@ control_points: IResolvable | typing.List[GoogleCesToolDataStoreToolBoostSpecsSp
 
 control_points block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#control_points GoogleCesTool#control_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#control_points GoogleCesTool#control_points}
 
 ---
 
@@ -3071,7 +3633,7 @@ field_name: str
 
 The name of the field whose value will be used to determine the boost amount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#field_name GoogleCesTool#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#field_name GoogleCesTool#field_name}
 
 ---
 
@@ -3085,7 +3647,7 @@ interpolation_type: str
 
 The interpolation type to be applied to connect the control points listed below. Possible values: LINEAR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#interpolation_type GoogleCesTool#interpolation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#interpolation_type GoogleCesTool#interpolation_type}
 
 ---
 
@@ -3127,7 +3689,7 @@ The value must be formatted as an XSD 'dayTimeDuration' value (a
 restricted subset of an ISO 8601 duration value). The pattern for
 this is: 'nDnM]'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#attribute_value GoogleCesTool#attribute_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#attribute_value GoogleCesTool#attribute_value}
 
 ---
 
@@ -3141,9 +3703,104 @@ boost_amount: typing.Union[int, float]
 
 The value between -1 to 1 by which to boost the score if the attribute_value evaluates to the value specified above.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost_amount GoogleCesTool#boost_amount}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost_amount GoogleCesTool#boost_amount}
 
 ---
+
+### GoogleCesToolDataStoreToolDataStoreSource <a name="GoogleCesToolDataStoreToolDataStoreSource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolDataStoreToolDataStoreSource(
+  data_store: GoogleCesToolDataStoreToolDataStoreSourceDataStore = None,
+  filter: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource.property.dataStore">data_store</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore">GoogleCesToolDataStoreToolDataStoreSourceDataStore</a></code> | data_store block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource.property.filter">filter</a></code> | <code>str</code> | Optional. Filter specification for the DataStore. See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata. |
+
+---
+
+##### `data_store`<sup>Optional</sup> <a name="data_store" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource.property.dataStore"></a>
+
+```python
+data_store: GoogleCesToolDataStoreToolDataStoreSourceDataStore
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore">GoogleCesToolDataStoreToolDataStoreSourceDataStore</a>
+
+data_store block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store GoogleCesTool#data_store}
+
+---
+
+##### `filter`<sup>Optional</sup> <a name="filter" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource.property.filter"></a>
+
+```python
+filter: str
+```
+
+- *Type:* str
+
+Optional. Filter specification for the DataStore. See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+
+---
+
+### GoogleCesToolDataStoreToolDataStoreSourceDataStore <a name="GoogleCesToolDataStoreToolDataStoreSourceDataStore" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore(
+  name: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore.property.name">name</a></code> | <code>str</code> | Full resource name of the DataStore. Format: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}. |
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Full resource name of the DataStore. Format: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+### GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig <a name="GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig()
+```
+
 
 ### GoogleCesToolDataStoreToolEngineSource <a name="GoogleCesToolDataStoreToolEngineSource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSource"></a>
 
@@ -3179,7 +3836,7 @@ engine: str
 
 Full resource name of the Engine. Format: 'projects/{project}/locations/{location}/collections/{collection}/engines/{engine}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#engine GoogleCesTool#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#engine GoogleCesTool#engine}
 
 ---
 
@@ -3193,7 +3850,7 @@ data_store_sources: IResolvable | typing.List[GoogleCesToolDataStoreToolEngineSo
 
 data_store_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store_sources GoogleCesTool#data_store_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_sources GoogleCesTool#data_store_sources}
 
 ---
 
@@ -3207,7 +3864,7 @@ filter: str
 
 A filter applied to the search across the Engine. Not relevant and not used if 'data_store_sources' is provided. See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
 
 ---
 
@@ -3243,7 +3900,7 @@ data_store: GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore
 
 data_store block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store GoogleCesTool#data_store}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store GoogleCesTool#data_store}
 
 ---
 
@@ -3257,7 +3914,7 @@ filter: str
 
 Filter specification for the DataStore. See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
 
 ---
 
@@ -3291,7 +3948,7 @@ name: str
 
 Full resource name of the DataStore. Format: 'projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -3342,7 +3999,7 @@ modality_type: str
 
 The modality type. Possible values: TEXT AUDIO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#modality_type GoogleCesTool#modality_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#modality_type GoogleCesTool#modality_type}
 
 ---
 
@@ -3356,7 +4013,7 @@ grounding_config: GoogleCesToolDataStoreToolModalityConfigsGroundingConfig
 
 grounding_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#grounding_config GoogleCesTool#grounding_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#grounding_config GoogleCesTool#grounding_config}
 
 ---
 
@@ -3370,7 +4027,7 @@ rewriter_config: GoogleCesToolDataStoreToolModalityConfigsRewriterConfig
 
 rewriter_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#rewriter_config GoogleCesTool#rewriter_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#rewriter_config GoogleCesTool#rewriter_config}
 
 ---
 
@@ -3384,7 +4041,7 @@ summarization_config: GoogleCesToolDataStoreToolModalityConfigsSummarizationConf
 
 summarization_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#summarization_config GoogleCesTool#summarization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#summarization_config GoogleCesTool#summarization_config}
 
 ---
 
@@ -3420,7 +4077,7 @@ disabled: bool | IResolvable
 
 Whether grounding is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
 
 ---
 
@@ -3441,7 +4098,7 @@ relevant snippets only.
 For example, a level of 3 means that the groundedness score must be
 3 or higher for the response to be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
 
 ---
 
@@ -3479,7 +4136,7 @@ model_settings: GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSett
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
 
 ---
 
@@ -3493,7 +4150,7 @@ disabled: bool | IResolvable
 
 Whether the rewriter is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
 
 ---
 
@@ -3507,7 +4164,7 @@ prompt: str
 
 The prompt definition. If not set, default prompt will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
 
 ---
 
@@ -3545,7 +4202,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
 
 ---
 
@@ -3564,7 +4221,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
 
 ---
 
@@ -3602,7 +4259,7 @@ disabled: bool | IResolvable
 
 Whether summarization is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
 
 ---
 
@@ -3616,7 +4273,7 @@ model_settings: GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigMode
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
 
 ---
 
@@ -3630,7 +4287,7 @@ prompt: str
 
 The prompt definition. If not set, default prompt will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
 
 ---
 
@@ -3668,7 +4325,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
 
 ---
 
@@ -3687,7 +4344,89 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
+
+---
+
+### GoogleCesToolFileSearchTool <a name="GoogleCesToolFileSearchTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolFileSearchTool(
+  name: str,
+  corpus_type: str = None,
+  description: str = None,
+  file_corpus: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.name">name</a></code> | <code>str</code> | Required. The tool name. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.corpusType">corpus_type</a></code> | <code>str</code> | Optional. The type of the corpus. Default is FULLY_MANAGED. Possible values: CORPUS_TYPE_UNSPECIFIED USER_OWNED FULLY_MANAGED Possible values: ["CORPUS_TYPE_UNSPECIFIED", "USER_OWNED", "FULLY_MANAGED"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.description">description</a></code> | <code>str</code> | Optional. The tool description. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.fileCorpus">file_corpus</a></code> | <code>str</code> | Optional. The corpus where files are stored. Format: projects/{project}/locations/{location}/ragCorpora/{rag_corpus}. |
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Required. The tool name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+##### `corpus_type`<sup>Optional</sup> <a name="corpus_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.corpusType"></a>
+
+```python
+corpus_type: str
+```
+
+- *Type:* str
+
+Optional. The type of the corpus. Default is FULLY_MANAGED. Possible values: CORPUS_TYPE_UNSPECIFIED USER_OWNED FULLY_MANAGED Possible values: ["CORPUS_TYPE_UNSPECIFIED", "USER_OWNED", "FULLY_MANAGED"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#corpus_type GoogleCesTool#corpus_type}
+
+---
+
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+Optional. The tool description.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
+##### `file_corpus`<sup>Optional</sup> <a name="file_corpus" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool.property.fileCorpus"></a>
+
+```python
+file_corpus: str
+```
+
+- *Type:* str
+
+Optional. The corpus where files are stored. Format: projects/{project}/locations/{location}/ragCorpora/{rag_corpus}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#file_corpus GoogleCesTool#file_corpus}
 
 ---
 
@@ -3703,7 +4442,8 @@ googleCesTool.GoogleCesToolGoogleSearchTool(
   context_urls: typing.List[str] = None,
   description: str = None,
   exclude_domains: typing.List[str] = None,
-  preferred_domains: typing.List[str] = None
+  preferred_domains: typing.List[str] = None,
+  prompt_config: GoogleCesToolGoogleSearchToolPromptConfig = None
 )
 ```
 
@@ -3716,6 +4456,7 @@ googleCesTool.GoogleCesToolGoogleSearchTool(
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool.property.description">description</a></code> | <code>str</code> | Description of the tool's purpose. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool.property.excludeDomains">exclude_domains</a></code> | <code>typing.List[str]</code> | List of domains to be excluded from the search results. Example: "example.com". A maximum of 2000 domains can be excluded. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool.property.preferredDomains">preferred_domains</a></code> | <code>typing.List[str]</code> | Specifies domain names to guide the search. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool.property.promptConfig">prompt_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig">GoogleCesToolGoogleSearchToolPromptConfig</a></code> | prompt_config block. |
 
 ---
 
@@ -3729,7 +4470,7 @@ name: str
 
 The name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -3746,7 +4487,7 @@ Content will be fetched directly from these URLs for context and grounding.
 More details: https://cloud.google.com/vertex-ai/generative-ai/docs/url-context.
 Example: "https://example.com/path.html". A maximum of 20 URLs are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#context_urls GoogleCesTool#context_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#context_urls GoogleCesTool#context_urls}
 
 ---
 
@@ -3760,7 +4501,7 @@ description: str
 
 Description of the tool's purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -3774,7 +4515,7 @@ exclude_domains: typing.List[str]
 
 List of domains to be excluded from the search results. Example: "example.com". A maximum of 2000 domains can be excluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#exclude_domains GoogleCesTool#exclude_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#exclude_domains GoogleCesTool#exclude_domains}
 
 ---
 
@@ -3795,9 +4536,189 @@ not be exclusively reflected in the final search results.
 Example: "example.com", "another.site".
 A maximum of 20 domains can be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#preferred_domains GoogleCesTool#preferred_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#preferred_domains GoogleCesTool#preferred_domains}
 
 ---
+
+##### `prompt_config`<sup>Optional</sup> <a name="prompt_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool.property.promptConfig"></a>
+
+```python
+prompt_config: GoogleCesToolGoogleSearchToolPromptConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig">GoogleCesToolGoogleSearchToolPromptConfig</a>
+
+prompt_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt_config GoogleCesTool#prompt_config}
+
+---
+
+### GoogleCesToolGoogleSearchToolPromptConfig <a name="GoogleCesToolGoogleSearchToolPromptConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig(
+  text_prompt: str = None,
+  voice_prompt: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig.property.textPrompt">text_prompt</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig.property.voicePrompt">voice_prompt</a></code> | <code>str</code> | Optional. |
+
+---
+
+##### `text_prompt`<sup>Optional</sup> <a name="text_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig.property.textPrompt"></a>
+
+```python
+text_prompt: str
+```
+
+- *Type:* str
+
+Optional.
+
+Defines the prompt used for the system instructions when interacting with the
+agent in chat conversations. If not set, default prompt will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_prompt GoogleCesTool#text_prompt}
+
+---
+
+##### `voice_prompt`<sup>Optional</sup> <a name="voice_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig.property.voicePrompt"></a>
+
+```python
+voice_prompt: str
+```
+
+- *Type:* str
+
+Optional.
+
+Defines the prompt used for the system instructions when interacting with the
+agent in voice conversations. If not set, default prompt will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#voice_prompt GoogleCesTool#voice_prompt}
+
+---
+
+### GoogleCesToolMcpTool <a name="GoogleCesToolMcpTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpTool()
+```
+
+
+### GoogleCesToolMcpToolApiAuthentication <a name="GoogleCesToolMcpToolApiAuthentication" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthentication"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthentication.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthentication()
+```
+
+
+### GoogleCesToolMcpToolApiAuthenticationApiKeyConfig <a name="GoogleCesToolMcpToolApiAuthenticationApiKeyConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfig()
+```
+
+
+### GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig <a name="GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig()
+```
+
+
+### GoogleCesToolMcpToolApiAuthenticationOauthConfig <a name="GoogleCesToolMcpToolApiAuthenticationOauthConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfig()
+```
+
+
+### GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig <a name="GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig()
+```
+
+
+### GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig <a name="GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig()
+```
+
+
+### GoogleCesToolMcpToolServiceDirectoryConfig <a name="GoogleCesToolMcpToolServiceDirectoryConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfig()
+```
+
+
+### GoogleCesToolMcpToolTlsConfig <a name="GoogleCesToolMcpToolTlsConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolTlsConfig()
+```
+
+
+### GoogleCesToolMcpToolTlsConfigCaCerts <a name="GoogleCesToolMcpToolTlsConfigCaCerts" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCerts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCerts.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolTlsConfigCaCerts()
+```
+
 
 ### GoogleCesToolOpenApiTool <a name="GoogleCesToolOpenApiTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolOpenApiTool"></a>
 
@@ -3945,7 +4866,7 @@ Must match a Python function
 name defined in the python code. Case sensitive. If the name is not
 provided, the first function defined in the python code will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -3959,9 +4880,53 @@ python_code: str
 
 The Python code to execute for the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
 
 ---
+
+### GoogleCesToolRemoteAgentTool <a name="GoogleCesToolRemoteAgentTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentTool()
+```
+
+
+### GoogleCesToolRemoteAgentToolAgentCard <a name="GoogleCesToolRemoteAgentToolAgentCard" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCard"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCard.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCard()
+```
+
+
+### GoogleCesToolRemoteAgentToolAgentCardSkills <a name="GoogleCesToolRemoteAgentToolAgentCardSkills" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkills"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkills.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkills()
+```
+
+
+### GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces <a name="GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces()
+```
+
 
 ### GoogleCesToolSystemTool <a name="GoogleCesToolSystemTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolSystemTool"></a>
 
@@ -3992,9 +4957,9 @@ googleCesTool.GoogleCesToolTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#create GoogleCesTool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#update GoogleCesTool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#create GoogleCesTool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#update GoogleCesTool#update}. |
 
 ---
 
@@ -4006,7 +4971,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#create GoogleCesTool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#create GoogleCesTool#create}.
 
 ---
 
@@ -4018,7 +4983,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}.
 
 ---
 
@@ -4030,11 +4995,1078 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#update GoogleCesTool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#update GoogleCesTool#update}.
+
+---
+
+### GoogleCesToolWidgetTool <a name="GoogleCesToolWidgetTool" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetTool(
+  name: str,
+  data_mapping: GoogleCesToolWidgetToolDataMapping = None,
+  description: str = None,
+  parameters: GoogleCesToolWidgetToolParameters = None,
+  text_response_config: GoogleCesToolWidgetToolTextResponseConfig = None,
+  ui_config: str = None,
+  widget_type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.name">name</a></code> | <code>str</code> | Required. The display name of the widget tool. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.dataMapping">data_mapping</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping">GoogleCesToolWidgetToolDataMapping</a></code> | data_mapping block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.description">description</a></code> | <code>str</code> | Optional. The description of the widget tool. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.parameters">parameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters">GoogleCesToolWidgetToolParameters</a></code> | parameters block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.textResponseConfig">text_response_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig">GoogleCesToolWidgetToolTextResponseConfig</a></code> | text_response_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.uiConfig">ui_config</a></code> | <code>str</code> | Optional. Configuration for rendering the widget. Represents a JSON object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.widgetType">widget_type</a></code> | <code>str</code> | Optional. |
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Required. The display name of the widget tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+##### `data_mapping`<sup>Optional</sup> <a name="data_mapping" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.dataMapping"></a>
+
+```python
+data_mapping: GoogleCesToolWidgetToolDataMapping
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping">GoogleCesToolWidgetToolDataMapping</a>
+
+data_mapping block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_mapping GoogleCesTool#data_mapping}
+
+---
+
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+Optional. The description of the widget tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
+##### `parameters`<sup>Optional</sup> <a name="parameters" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.parameters"></a>
+
+```python
+parameters: GoogleCesToolWidgetToolParameters
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters">GoogleCesToolWidgetToolParameters</a>
+
+parameters block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
+
+---
+
+##### `text_response_config`<sup>Optional</sup> <a name="text_response_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.textResponseConfig"></a>
+
+```python
+text_response_config: GoogleCesToolWidgetToolTextResponseConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig">GoogleCesToolWidgetToolTextResponseConfig</a>
+
+text_response_config block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_response_config GoogleCesTool#text_response_config}
+
+---
+
+##### `ui_config`<sup>Optional</sup> <a name="ui_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.uiConfig"></a>
+
+```python
+ui_config: str
+```
+
+- *Type:* str
+
+Optional. Configuration for rendering the widget. Represents a JSON object.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ui_config GoogleCesTool#ui_config}
+
+---
+
+##### `widget_type`<sup>Optional</sup> <a name="widget_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool.property.widgetType"></a>
+
+```python
+widget_type: str
+```
+
+- *Type:* str
+
+Optional.
+
+The type of the widget tool. If not specified, the default type will be CUSTOMIZED.
+Possible values:
+WIDGET_TYPE_UNSPECIFIED
+CUSTOM
+PRODUCT_CAROUSEL
+PRODUCT_DETAILS
+QUICK_ACTIONS
+PRODUCT_COMPARISON
+ADVANCED_PRODUCT_DETAILS
+SHORT_FORM
+OVERALL_SATISFACTION
+ORDER_SUMMARY
+APPOINTMENT_DETAILS
+APPOINTMENT_SCHEDULER
+CONTACT_FORM Possible values: ["WIDGET_TYPE_UNSPECIFIED", "CUSTOM", "PRODUCT_CAROUSEL", "PRODUCT_DETAILS", "QUICK_ACTIONS", "PRODUCT_COMPARISON", "ADVANCED_PRODUCT_DETAILS", "SHORT_FORM", "OVERALL_SATISFACTION", "ORDER_SUMMARY", "APPOINTMENT_DETAILS", "APPOINTMENT_SCHEDULER", "CONTACT_FORM"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#widget_type GoogleCesTool#widget_type}
+
+---
+
+### GoogleCesToolWidgetToolDataMapping <a name="GoogleCesToolWidgetToolDataMapping" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolDataMapping(
+  field_mappings: typing.Mapping[str] = None,
+  mode: str = None,
+  python_function: GoogleCesToolWidgetToolDataMappingPythonFunction = None,
+  source_tool_name: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.fieldMappings">field_mappings</a></code> | <code>typing.Mapping[str]</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.mode">mode</a></code> | <code>str</code> | Optional. The mode of the data mapping. Possible values: MODE_UNSPECIFIED FIELD_MAPPING PYTHON_SCRIPT Possible values: ["MODE_UNSPECIFIED", "FIELD_MAPPING", "PYTHON_SCRIPT"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.pythonFunction">python_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction">GoogleCesToolWidgetToolDataMappingPythonFunction</a></code> | python_function block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.sourceToolName">source_tool_name</a></code> | <code>str</code> | Optional. |
+
+---
+
+##### `field_mappings`<sup>Optional</sup> <a name="field_mappings" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.fieldMappings"></a>
+
+```python
+field_mappings: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Optional.
+
+A map of widget input parameter fields to the corresponding output fields of the source tool.
+An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#field_mappings GoogleCesTool#field_mappings}
+
+---
+
+##### `mode`<sup>Optional</sup> <a name="mode" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.mode"></a>
+
+```python
+mode: str
+```
+
+- *Type:* str
+
+Optional. The mode of the data mapping. Possible values: MODE_UNSPECIFIED FIELD_MAPPING PYTHON_SCRIPT Possible values: ["MODE_UNSPECIFIED", "FIELD_MAPPING", "PYTHON_SCRIPT"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#mode GoogleCesTool#mode}
+
+---
+
+##### `python_function`<sup>Optional</sup> <a name="python_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.pythonFunction"></a>
+
+```python
+python_function: GoogleCesToolWidgetToolDataMappingPythonFunction
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction">GoogleCesToolWidgetToolDataMappingPythonFunction</a>
+
+python_function block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
+
+---
+
+##### `source_tool_name`<sup>Optional</sup> <a name="source_tool_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping.property.sourceToolName"></a>
+
+```python
+source_tool_name: str
+```
+
+- *Type:* str
+
+Optional.
+
+The resource name of the tool that provides the data for the widget (e.g., a search tool or a custom function).
+Format: projects/{project}/locations/{location}/agents/{agent}/tools/{tool}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#source_tool_name GoogleCesTool#source_tool_name}
+
+---
+
+### GoogleCesToolWidgetToolDataMappingPythonFunction <a name="GoogleCesToolWidgetToolDataMappingPythonFunction" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction(
+  name: str = None,
+  python_code: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction.property.name">name</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction.property.pythonCode">python_code</a></code> | <code>str</code> | Optional. The Python code to execute for the tool. |
+
+---
+
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+Optional.
+
+The name of the Python function to execute. Must match a Python function
+name defined in the python code. Case sensitive. If the name is not
+provided, the first function defined in the python code will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+##### `python_code`<sup>Optional</sup> <a name="python_code" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction.property.pythonCode"></a>
+
+```python
+python_code: str
+```
+
+- *Type:* str
+
+Optional. The Python code to execute for the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
+
+---
+
+### GoogleCesToolWidgetToolParameters <a name="GoogleCesToolWidgetToolParameters" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolParameters(
+  type: str,
+  additional_properties: str = None,
+  any_of: str = None,
+  default: str = None,
+  defs: str = None,
+  description: str = None,
+  enum: typing.List[str] = None,
+  items: str = None,
+  maximum: typing.Union[int, float] = None,
+  max_items: typing.Union[int, float] = None,
+  minimum: typing.Union[int, float] = None,
+  min_items: typing.Union[int, float] = None,
+  nullable: bool | IResolvable = None,
+  prefix_items: str = None,
+  properties: str = None,
+  ref: str = None,
+  required: typing.List[str] = None,
+  title: str = None,
+  unique_items: bool | IResolvable = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.type">type</a></code> | <code>str</code> | The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.additionalProperties">additional_properties</a></code> | <code>str</code> | Defines the schema for additional properties allowed in an object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.anyOf">any_of</a></code> | <code>str</code> | The instance value should be valid against at least one of the schemas in this list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.default">default</a></code> | <code>str</code> | Default value of the data. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.defs">defs</a></code> | <code>str</code> | A map of definitions for use by ref. Only allowed at the root of the schema. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.description">description</a></code> | <code>str</code> | The description of the data. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.enum">enum</a></code> | <code>typing.List[str]</code> | Possible values of the element of primitive type with enum format. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.items">items</a></code> | <code>str</code> | Schema of the elements of Type.ARRAY. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.maximum">maximum</a></code> | <code>typing.Union[int, float]</code> | Maximum value for Type.INTEGER and Type.NUMBER. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.maxItems">max_items</a></code> | <code>typing.Union[int, float]</code> | Maximum number of the elements for Type.ARRAY. (int64 format). |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.minimum">minimum</a></code> | <code>typing.Union[int, float]</code> | Minimum value for Type.INTEGER and Type.NUMBER. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.minItems">min_items</a></code> | <code>typing.Union[int, float]</code> | Minimum number of the elements for Type.ARRAY. (int64 format). |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.nullable">nullable</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicates if the value may be null. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.prefixItems">prefix_items</a></code> | <code>str</code> | Schemas of initial elements of Type.ARRAY. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.properties">properties</a></code> | <code>str</code> | Properties of Type.OBJECT. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.ref">ref</a></code> | <code>str</code> | Allows indirect references between schema nodes. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.required">required</a></code> | <code>typing.List[str]</code> | Required properties of Type.OBJECT. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.title">title</a></code> | <code>str</code> | The title of the schema. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.uniqueItems">unique_items</a></code> | <code>bool \| cdktn.IResolvable</code> | Indicate the items in the array must be unique. Only applies to TYPE.ARRAY. |
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+
+---
+
+##### `additional_properties`<sup>Optional</sup> <a name="additional_properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.additionalProperties"></a>
+
+```python
+additional_properties: str
+```
+
+- *Type:* str
+
+Defines the schema for additional properties allowed in an object.
+
+The value must be a valid JSON string representing the Schema object.
+(Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+
+---
+
+##### `any_of`<sup>Optional</sup> <a name="any_of" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.anyOf"></a>
+
+```python
+any_of: str
+```
+
+- *Type:* str
+
+The instance value should be valid against at least one of the schemas in this list.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+
+---
+
+##### `default`<sup>Optional</sup> <a name="default" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.default"></a>
+
+```python
+default: str
+```
+
+- *Type:* str
+
+Default value of the data.
+
+Represents a dynamically typed value
+which can be either null, a number, a string, a boolean, a struct,
+or a list of values. The provided default value must be compatible
+with the defined 'type' and other schema constraints.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+
+---
+
+##### `defs`<sup>Optional</sup> <a name="defs" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.defs"></a>
+
+```python
+defs: str
+```
+
+- *Type:* str
+
+A map of definitions for use by ref. Only allowed at the root of the schema.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+
+---
+
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+The description of the data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
+##### `enum`<sup>Optional</sup> <a name="enum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.enum"></a>
+
+```python
+enum: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Possible values of the element of primitive type with enum format.
+
+Examples:
+
+1. We can define direction as :
+   {type:STRING, format:enum, enum:["EAST", NORTH", "SOUTH", "WEST"]}
+2. We can define apartment number as :
+   {type:INTEGER, format:enum, enum:["101", "201", "301"]}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+
+---
+
+##### `items`<sup>Optional</sup> <a name="items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.items"></a>
+
+```python
+items: str
+```
+
+- *Type:* str
+
+Schema of the elements of Type.ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+
+---
+
+##### `maximum`<sup>Optional</sup> <a name="maximum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.maximum"></a>
+
+```python
+maximum: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Maximum value for Type.INTEGER and Type.NUMBER.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+
+---
+
+##### `max_items`<sup>Optional</sup> <a name="max_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.maxItems"></a>
+
+```python
+max_items: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Maximum number of the elements for Type.ARRAY. (int64 format).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+
+---
+
+##### `minimum`<sup>Optional</sup> <a name="minimum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.minimum"></a>
+
+```python
+minimum: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Minimum value for Type.INTEGER and Type.NUMBER.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+
+---
+
+##### `min_items`<sup>Optional</sup> <a name="min_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.minItems"></a>
+
+```python
+min_items: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Minimum number of the elements for Type.ARRAY. (int64 format).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+
+---
+
+##### `nullable`<sup>Optional</sup> <a name="nullable" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.nullable"></a>
+
+```python
+nullable: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicates if the value may be null.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+
+---
+
+##### `prefix_items`<sup>Optional</sup> <a name="prefix_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.prefixItems"></a>
+
+```python
+prefix_items: str
+```
+
+- *Type:* str
+
+Schemas of initial elements of Type.ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+
+---
+
+##### `properties`<sup>Optional</sup> <a name="properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.properties"></a>
+
+```python
+properties: str
+```
+
+- *Type:* str
+
+Properties of Type.OBJECT.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+
+---
+
+##### `ref`<sup>Optional</sup> <a name="ref" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.ref"></a>
+
+```python
+ref: str
+```
+
+- *Type:* str
+
+Allows indirect references between schema nodes.
+
+The value should be a
+valid reference to a child of the root 'defs'.
+For example, the following schema defines a reference to a schema node
+named "Pet":
+type: object
+properties:
+pet:
+ref: #/defs/Pet
+defs:
+Pet:
+type: object
+properties:
+name:
+type: string
+The value of the "pet" property is a reference to the schema node
+named "Pet".
+See details in
+https://json-schema.org/understanding-json-schema/structuring.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+
+---
+
+##### `required`<sup>Optional</sup> <a name="required" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.required"></a>
+
+```python
+required: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Required properties of Type.OBJECT.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+
+---
+
+##### `title`<sup>Optional</sup> <a name="title" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.title"></a>
+
+```python
+title: str
+```
+
+- *Type:* str
+
+The title of the schema.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+
+---
+
+##### `unique_items`<sup>Optional</sup> <a name="unique_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters.property.uniqueItems"></a>
+
+```python
+unique_items: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+
+---
+
+### GoogleCesToolWidgetToolTextResponseConfig <a name="GoogleCesToolWidgetToolTextResponseConfig" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolTextResponseConfig(
+  static_text: str = None,
+  text_response_instruction: str = None,
+  type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.property.staticText">static_text</a></code> | <code>str</code> | Optional. The static text response to return when type is STATIC. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.property.textResponseInstruction">text_response_instruction</a></code> | <code>str</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.property.type">type</a></code> | <code>str</code> | Optional. The strategy for providing the text response. Possible values: TYPE_UNSPECIFIED NONE LLM_GENERATED STATIC Possible values: ["TYPE_UNSPECIFIED", "NONE", "LLM_GENERATED", "STATIC"]. |
+
+---
+
+##### `static_text`<sup>Optional</sup> <a name="static_text" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.property.staticText"></a>
+
+```python
+static_text: str
+```
+
+- *Type:* str
+
+Optional. The static text response to return when type is STATIC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#static_text GoogleCesTool#static_text}
+
+---
+
+##### `text_response_instruction`<sup>Optional</sup> <a name="text_response_instruction" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.property.textResponseInstruction"></a>
+
+```python
+text_response_instruction: str
+```
+
+- *Type:* str
+
+Optional.
+
+Instruction for the LLM on how to generate the text response. Used as
+the description for the text response parameter if type is LLM_GENERATED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_response_instruction GoogleCesTool#text_response_instruction}
+
+---
+
+##### `type`<sup>Optional</sup> <a name="type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+Optional. The strategy for providing the text response. Possible values: TYPE_UNSPECIFIED NONE LLM_GENERATED STATIC Possible values: ["TYPE_UNSPECIFIED", "NONE", "LLM_GENERATED", "STATIC"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleCesToolAgentToolOutputReference <a name="GoogleCesToolAgentToolOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolAgentToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.resetAgent">reset_agent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.resetDescription">reset_description</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_agent` <a name="reset_agent" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.resetAgent"></a>
+
+```python
+def reset_agent() -> None
+```
+
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.resetDescription"></a>
+
+```python
+def reset_description() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.agentInput">agent_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.agent">agent</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `agent_input`<sup>Optional</sup> <a name="agent_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.agentInput"></a>
+
+```python
+agent_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.descriptionInput"></a>
+
+```python
+description_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `agent`<sup>Required</sup> <a name="agent" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.agent"></a>
+
+```python
+agent: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolAgentTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolAgentTool">GoogleCesToolAgentTool</a>
+
+---
+
 
 ### GoogleCesToolClientFunctionOutputReference <a name="GoogleCesToolClientFunctionOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionOutputReference"></a>
 
@@ -4301,7 +6333,7 @@ def put_parameters(
 
 The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
 
 ---
 
@@ -4314,7 +6346,7 @@ Defines the schema for additional properties allowed in an object.
 The value must be a valid JSON string representing the Schema object.
 (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
 
 ---
 
@@ -4324,7 +6356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The instance value should be valid against at least one of the schemas in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
 
 ---
 
@@ -4339,7 +6371,7 @@ which can be either null, a number, a string, a boolean, a struct,
 or a list of values. The provided default value must be compatible
 with the defined 'type' and other schema constraints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
 
 ---
 
@@ -4349,7 +6381,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of definitions for use by ref. Only allowed at the root of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
 
 ---
 
@@ -4359,7 +6391,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -4376,7 +6408,7 @@ Examples:
 2. We can define apartment number as :
    {type:INTEGER, format:enum, enum:["101", "201", "301"]}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
 
 ---
 
@@ -4386,7 +6418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Schema of the elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
 
 ---
 
@@ -4396,7 +6428,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
 
 ---
 
@@ -4406,7 +6438,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
 
 ---
 
@@ -4416,7 +6448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
 
 ---
 
@@ -4426,7 +6458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
 
 ---
 
@@ -4436,7 +6468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates if the value may be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
 
 ---
 
@@ -4446,7 +6478,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Schemas of initial elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
 
 ---
 
@@ -4456,7 +6488,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
 
 ---
 
@@ -4485,7 +6517,7 @@ named "Pet".
 See details in
 https://json-schema.org/understanding-json-schema/structuring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
 
 ---
 
@@ -4495,7 +6527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
 
 ---
 
@@ -4505,7 +6537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The title of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
 
 ---
 
@@ -4515,7 +6547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
 
 ---
 
@@ -4551,7 +6583,7 @@ def put_response(
 
 The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
 
 ---
 
@@ -4564,7 +6596,7 @@ Defines the schema for additional properties allowed in an object.
 The value must be a valid JSON string representing the Schema object.
 (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
 
 ---
 
@@ -4574,7 +6606,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The instance value should be valid against at least one of the schemas in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
 
 ---
 
@@ -4589,7 +6621,7 @@ which can be either null, a number, a string, a boolean, a struct,
 or a list of values. The provided default value must be compatible
 with the defined 'type' and other schema constraints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
 
 ---
 
@@ -4599,7 +6631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of definitions for use by ref. Only allowed at the root of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
 
 ---
 
@@ -4609,7 +6641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
 
 ---
 
@@ -4626,7 +6658,7 @@ Examples:
 2. We can define apartment number as :
    {type:INTEGER, format:enum, enum:["101", "201", "301"]}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
 
 ---
 
@@ -4636,7 +6668,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Schema of the elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
 
 ---
 
@@ -4646,7 +6678,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
 
 ---
 
@@ -4656,7 +6688,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
 
 ---
 
@@ -4666,7 +6698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum value for Type.INTEGER and Type.NUMBER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
 
 ---
 
@@ -4676,7 +6708,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of the elements for Type.ARRAY. (int64 format).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
 
 ---
 
@@ -4686,7 +6718,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates if the value may be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
 
 ---
 
@@ -4696,7 +6728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Schemas of initial elements of Type.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
 
 ---
 
@@ -4706,7 +6738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
 
 ---
 
@@ -4735,7 +6767,7 @@ named "Pet".
 See details in
 https://json-schema.org/understanding-json-schema/structuring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
 
 ---
 
@@ -4745,7 +6777,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required properties of Type.OBJECT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
 
 ---
 
@@ -4755,7 +6787,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The title of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
 
 ---
 
@@ -4765,7 +6797,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
 
 ---
 
@@ -6553,6 +8585,1486 @@ internal_value: GoogleCesToolClientFunctionResponse
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolClientFunctionResponse">GoogleCesToolClientFunctionResponse</a>
+
+---
+
+
+### GoogleCesToolConnectorToolActionEntityOperationList <a name="GoogleCesToolConnectorToolActionEntityOperationList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolConnectorToolActionEntityOperationOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolConnectorToolActionEntityOperationOutputReference <a name="GoogleCesToolConnectorToolActionEntityOperationOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.entityId">entity_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.operation">operation</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperation">GoogleCesToolConnectorToolActionEntityOperation</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `entity_id`<sup>Required</sup> <a name="entity_id" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.entityId"></a>
+
+```python
+entity_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `operation`<sup>Required</sup> <a name="operation" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.operation"></a>
+
+```python
+operation: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolConnectorToolActionEntityOperation
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperation">GoogleCesToolConnectorToolActionEntityOperation</a>
+
+---
+
+
+### GoogleCesToolConnectorToolActionList <a name="GoogleCesToolConnectorToolActionList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolActionList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolConnectorToolActionOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolConnectorToolActionOutputReference <a name="GoogleCesToolConnectorToolActionOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolActionOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.connectionActionId">connection_action_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.entityOperation">entity_operation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList">GoogleCesToolConnectorToolActionEntityOperationList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.inputFields">input_fields</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.outputFields">output_fields</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolAction">GoogleCesToolConnectorToolAction</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `connection_action_id`<sup>Required</sup> <a name="connection_action_id" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.connectionActionId"></a>
+
+```python
+connection_action_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `entity_operation`<sup>Required</sup> <a name="entity_operation" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.entityOperation"></a>
+
+```python
+entity_operation: GoogleCesToolConnectorToolActionEntityOperationList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionEntityOperationList">GoogleCesToolConnectorToolActionEntityOperationList</a>
+
+---
+
+##### `input_fields`<sup>Required</sup> <a name="input_fields" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.inputFields"></a>
+
+```python
+input_fields: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `output_fields`<sup>Required</sup> <a name="output_fields" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.outputFields"></a>
+
+```python
+output_fields: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolConnectorToolAction
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolAction">GoogleCesToolConnectorToolAction</a>
+
+---
+
+
+### GoogleCesToolConnectorToolList <a name="GoogleCesToolConnectorToolList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolConnectorToolOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolConnectorToolOutputReference <a name="GoogleCesToolConnectorToolOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolConnectorToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.action">action</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList">GoogleCesToolConnectorToolActionList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.authConfig">auth_config</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.connection">connection</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorTool">GoogleCesToolConnectorTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `action`<sup>Required</sup> <a name="action" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.action"></a>
+
+```python
+action: GoogleCesToolConnectorToolActionList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolActionList">GoogleCesToolConnectorToolActionList</a>
+
+---
+
+##### `auth_config`<sup>Required</sup> <a name="auth_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.authConfig"></a>
+
+```python
+auth_config: str
+```
+
+- *Type:* str
+
+---
+
+##### `connection`<sup>Required</sup> <a name="connection" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.connection"></a>
+
+```python
+connection: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolConnectorTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolConnectorTool">GoogleCesToolConnectorTool</a>
 
 ---
 
@@ -8454,7 +11966,7 @@ Possible values:
 NUMERICAL
 FRESHNESS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#attribute_type GoogleCesTool#attribute_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#attribute_type GoogleCesTool#attribute_type}
 
 ---
 
@@ -8464,7 +11976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 control_points block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#control_points GoogleCesTool#control_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#control_points GoogleCesTool#control_points}
 
 ---
 
@@ -8474,7 +11986,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the field whose value will be used to determine the boost amount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#field_name GoogleCesTool#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#field_name GoogleCesTool#field_name}
 
 ---
 
@@ -8484,7 +11996,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The interpolation type to be applied to connect the control points listed below. Possible values: LINEAR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#interpolation_type GoogleCesTool#interpolation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#interpolation_type GoogleCesTool#interpolation_type}
 
 ---
 
@@ -9109,6 +12621,1194 @@ internal_value: IResolvable | GoogleCesToolDataStoreToolBoostSpecsSpec
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsSpec">GoogleCesToolDataStoreToolBoostSpecsSpec</a>
+
+---
+
+
+### GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList <a name="GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference <a name="GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.collection">collection</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.collectionDisplayName">collection_display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.dataSource">data_source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig">GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `collection`<sup>Required</sup> <a name="collection" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.collection"></a>
+
+```python
+collection: str
+```
+
+- *Type:* str
+
+---
+
+##### `collection_display_name`<sup>Required</sup> <a name="collection_display_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.collectionDisplayName"></a>
+
+```python
+collection_display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_source`<sup>Required</sup> <a name="data_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.dataSource"></a>
+
+```python
+data_source: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig">GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig</a>
+
+---
+
+
+### GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference <a name="GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.connectorConfig">connector_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList">GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.documentProcessingMode">document_processing_mode</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore">GoogleCesToolDataStoreToolDataStoreSourceDataStore</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `connector_config`<sup>Required</sup> <a name="connector_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.connectorConfig"></a>
+
+```python
+connector_config: GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList">GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList</a>
+
+---
+
+##### `create_time`<sup>Required</sup> <a name="create_time" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.createTime"></a>
+
+```python
+create_time: str
+```
+
+- *Type:* str
+
+---
+
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.displayName"></a>
+
+```python
+display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `document_processing_mode`<sup>Required</sup> <a name="document_processing_mode" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.documentProcessingMode"></a>
+
+```python
+document_processing_mode: str
+```
+
+- *Type:* str
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolDataStoreToolDataStoreSourceDataStore
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore">GoogleCesToolDataStoreToolDataStoreSourceDataStore</a>
+
+---
+
+
+### GoogleCesToolDataStoreToolDataStoreSourceOutputReference <a name="GoogleCesToolDataStoreToolDataStoreSourceOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.putDataStore">put_data_store</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.resetDataStore">reset_data_store</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.resetFilter">reset_filter</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_data_store` <a name="put_data_store" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.putDataStore"></a>
+
+```python
+def put_data_store(
+  name: str
+) -> None
+```
+
+###### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.putDataStore.parameter.name"></a>
+
+- *Type:* str
+
+Full resource name of the DataStore. Format: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+##### `reset_data_store` <a name="reset_data_store" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.resetDataStore"></a>
+
+```python
+def reset_data_store() -> None
+```
+
+##### `reset_filter` <a name="reset_filter" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.resetFilter"></a>
+
+```python
+def reset_filter() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.dataStore">data_store</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference">GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.dataStoreInput">data_store_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore">GoogleCesToolDataStoreToolDataStoreSourceDataStore</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.filterInput">filter_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.filter">filter</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource">GoogleCesToolDataStoreToolDataStoreSource</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_store`<sup>Required</sup> <a name="data_store" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.dataStore"></a>
+
+```python
+data_store: GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference">GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference</a>
+
+---
+
+##### `data_store_input`<sup>Optional</sup> <a name="data_store_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.dataStoreInput"></a>
+
+```python
+data_store_input: GoogleCesToolDataStoreToolDataStoreSourceDataStore
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore">GoogleCesToolDataStoreToolDataStoreSourceDataStore</a>
+
+---
+
+##### `filter_input`<sup>Optional</sup> <a name="filter_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.filterInput"></a>
+
+```python
+filter_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `filter`<sup>Required</sup> <a name="filter" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.filter"></a>
+
+```python
+filter: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolDataStoreToolDataStoreSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource">GoogleCesToolDataStoreToolDataStoreSource</a>
 
 ---
 
@@ -10385,7 +15085,7 @@ def put_data_store(
 
 Full resource name of the DataStore. Format: 'projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
 
 ---
 
@@ -11631,7 +16331,7 @@ def put_grounding_config(
 
 Whether grounding is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
 
 ---
 
@@ -11648,7 +16348,7 @@ relevant snippets only.
 For example, a level of 3 means that the groundedness score must be
 3 or higher for the response to be returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
 
 ---
 
@@ -11668,7 +16368,7 @@ def put_rewriter_config(
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
 
 ---
 
@@ -11678,7 +16378,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the rewriter is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
 
 ---
 
@@ -11688,7 +16388,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The prompt definition. If not set, default prompt will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
 
 ---
 
@@ -11708,7 +16408,7 @@ def put_summarization_config(
 
 Whether summarization is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
 
 ---
 
@@ -11718,7 +16418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
 
 ---
 
@@ -11728,7 +16428,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The prompt definition. If not set, default prompt will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
 
 ---
 
@@ -12464,7 +17164,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
 
 ---
 
@@ -12479,7 +17179,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
 
 ---
 
@@ -13188,7 +17888,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
 
 ---
 
@@ -13203,7 +17903,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
 
 ---
 
@@ -13391,11 +18091,14 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putBoostSpecs">put_boost_specs</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putDataStoreSource">put_data_store_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putEngineSource">put_engine_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putModalityConfigs">put_modality_configs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetBoostSpecs">reset_boost_specs</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetDataStoreSource">reset_data_store_source</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetEngineSource">reset_engine_source</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetFilterParameterBehavior">reset_filter_parameter_behavior</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetMaxResults">reset_max_results</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetModalityConfigs">reset_modality_configs</a></code> | *No description.* |
 
@@ -13587,6 +18290,35 @@ def put_boost_specs(
 
 ---
 
+##### `put_data_store_source` <a name="put_data_store_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putDataStoreSource"></a>
+
+```python
+def put_data_store_source(
+  data_store: GoogleCesToolDataStoreToolDataStoreSourceDataStore = None,
+  filter: str = None
+) -> None
+```
+
+###### `data_store`<sup>Optional</sup> <a name="data_store" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putDataStoreSource.parameter.dataStore"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceDataStore">GoogleCesToolDataStoreToolDataStoreSourceDataStore</a>
+
+data_store block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store GoogleCesTool#data_store}
+
+---
+
+###### `filter`<sup>Optional</sup> <a name="filter" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putDataStoreSource.parameter.filter"></a>
+
+- *Type:* str
+
+Optional. Filter specification for the DataStore. See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+
+---
+
 ##### `put_engine_source` <a name="put_engine_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.putEngineSource"></a>
 
 ```python
@@ -13603,7 +18335,7 @@ def put_engine_source(
 
 Full resource name of the Engine. Format: 'projects/{project}/locations/{location}/collections/{collection}/engines/{engine}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#engine GoogleCesTool#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#engine GoogleCesTool#engine}
 
 ---
 
@@ -13613,7 +18345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 data_store_sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store_sources GoogleCesTool#data_store_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_sources GoogleCesTool#data_store_sources}
 
 ---
 
@@ -13623,7 +18355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A filter applied to the search across the Engine. Not relevant and not used if 'data_store_sources' is provided. See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
 
 ---
 
@@ -13647,6 +18379,12 @@ def put_modality_configs(
 def reset_boost_specs() -> None
 ```
 
+##### `reset_data_store_source` <a name="reset_data_store_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetDataStoreSource"></a>
+
+```python
+def reset_data_store_source() -> None
+```
+
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetDescription"></a>
 
 ```python
@@ -13657,6 +18395,12 @@ def reset_description() -> None
 
 ```python
 def reset_engine_source() -> None
+```
+
+##### `reset_filter_parameter_behavior` <a name="reset_filter_parameter_behavior" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetFilterParameterBehavior"></a>
+
+```python
+def reset_filter_parameter_behavior() -> None
 ```
 
 ##### `reset_max_results` <a name="reset_max_results" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.resetMaxResults"></a>
@@ -13679,15 +18423,19 @@ def reset_modality_configs() -> None
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.boostSpecs">boost_specs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecsList">GoogleCesToolDataStoreToolBoostSpecsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.dataStoreSource">data_store_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference">GoogleCesToolDataStoreToolDataStoreSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.engineSource">engine_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSourceOutputReference">GoogleCesToolDataStoreToolEngineSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.modalityConfigs">modality_configs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsList">GoogleCesToolDataStoreToolModalityConfigsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.boostSpecsInput">boost_specs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolBoostSpecs">GoogleCesToolDataStoreToolBoostSpecs</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.dataStoreSourceInput">data_store_source_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource">GoogleCesToolDataStoreToolDataStoreSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.engineSourceInput">engine_source_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSource">GoogleCesToolDataStoreToolEngineSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.filterParameterBehaviorInput">filter_parameter_behavior_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.maxResultsInput">max_results_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.modalityConfigsInput">modality_configs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigs">GoogleCesToolDataStoreToolModalityConfigs</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.filterParameterBehavior">filter_parameter_behavior</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.maxResults">max_results</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool">GoogleCesToolDataStoreTool</a></code> | *No description.* |
@@ -13728,6 +18476,16 @@ boost_specs: GoogleCesToolDataStoreToolBoostSpecsList
 
 ---
 
+##### `data_store_source`<sup>Required</sup> <a name="data_store_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.dataStoreSource"></a>
+
+```python
+data_store_source: GoogleCesToolDataStoreToolDataStoreSourceOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSourceOutputReference">GoogleCesToolDataStoreToolDataStoreSourceOutputReference</a>
+
+---
+
 ##### `engine_source`<sup>Required</sup> <a name="engine_source" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.engineSource"></a>
 
 ```python
@@ -13758,6 +18516,16 @@ boost_specs_input: IResolvable | typing.List[GoogleCesToolDataStoreToolBoostSpec
 
 ---
 
+##### `data_store_source_input`<sup>Optional</sup> <a name="data_store_source_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.dataStoreSourceInput"></a>
+
+```python
+data_store_source_input: GoogleCesToolDataStoreToolDataStoreSource
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolDataStoreSource">GoogleCesToolDataStoreToolDataStoreSource</a>
+
+---
+
 ##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.descriptionInput"></a>
 
 ```python
@@ -13775,6 +18543,16 @@ engine_source_input: GoogleCesToolDataStoreToolEngineSource
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolEngineSource">GoogleCesToolDataStoreToolEngineSource</a>
+
+---
+
+##### `filter_parameter_behavior_input`<sup>Optional</sup> <a name="filter_parameter_behavior_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.filterParameterBehaviorInput"></a>
+
+```python
+filter_parameter_behavior_input: str
+```
+
+- *Type:* str
 
 ---
 
@@ -13818,6 +18596,16 @@ description: str
 
 ---
 
+##### `filter_parameter_behavior`<sup>Required</sup> <a name="filter_parameter_behavior" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.filterParameterBehavior"></a>
+
+```python
+filter_parameter_behavior: str
+```
+
+- *Type:* str
+
+---
+
 ##### `max_results`<sup>Required</sup> <a name="max_results" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolOutputReference.property.maxResults"></a>
 
 ```python
@@ -13845,6 +18633,389 @@ internal_value: GoogleCesToolDataStoreTool
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreTool">GoogleCesToolDataStoreTool</a>
+
+---
+
+
+### GoogleCesToolFileSearchToolOutputReference <a name="GoogleCesToolFileSearchToolOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolFileSearchToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resetCorpusType">reset_corpus_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resetFileCorpus">reset_file_corpus</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_corpus_type` <a name="reset_corpus_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resetCorpusType"></a>
+
+```python
+def reset_corpus_type() -> None
+```
+
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resetDescription"></a>
+
+```python
+def reset_description() -> None
+```
+
+##### `reset_file_corpus` <a name="reset_file_corpus" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.resetFileCorpus"></a>
+
+```python
+def reset_file_corpus() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.corpusTypeInput">corpus_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.fileCorpusInput">file_corpus_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.corpusType">corpus_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.fileCorpus">file_corpus</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `corpus_type_input`<sup>Optional</sup> <a name="corpus_type_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.corpusTypeInput"></a>
+
+```python
+corpus_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.descriptionInput"></a>
+
+```python
+description_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `file_corpus_input`<sup>Optional</sup> <a name="file_corpus_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.fileCorpusInput"></a>
+
+```python
+file_corpus_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `corpus_type`<sup>Required</sup> <a name="corpus_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.corpusType"></a>
+
+```python
+corpus_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `file_corpus`<sup>Required</sup> <a name="file_corpus" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.fileCorpus"></a>
+
+```python
+file_corpus: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolFileSearchTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolFileSearchTool">GoogleCesToolFileSearchTool</a>
 
 ---
 
@@ -13902,10 +19073,12 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.putPromptConfig">put_prompt_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resetContextUrls">reset_context_urls</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resetExcludeDomains">reset_exclude_domains</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resetPreferredDomains">reset_preferred_domains</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resetPromptConfig">reset_prompt_config</a></code> | *No description.* |
 
 ---
 
@@ -14081,6 +19254,41 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_prompt_config` <a name="put_prompt_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.putPromptConfig"></a>
+
+```python
+def put_prompt_config(
+  text_prompt: str = None,
+  voice_prompt: str = None
+) -> None
+```
+
+###### `text_prompt`<sup>Optional</sup> <a name="text_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.putPromptConfig.parameter.textPrompt"></a>
+
+- *Type:* str
+
+Optional.
+
+Defines the prompt used for the system instructions when interacting with the
+agent in chat conversations. If not set, default prompt will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_prompt GoogleCesTool#text_prompt}
+
+---
+
+###### `voice_prompt`<sup>Optional</sup> <a name="voice_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.putPromptConfig.parameter.voicePrompt"></a>
+
+- *Type:* str
+
+Optional.
+
+Defines the prompt used for the system instructions when interacting with the
+agent in voice conversations. If not set, default prompt will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#voice_prompt GoogleCesTool#voice_prompt}
+
+---
+
 ##### `reset_context_urls` <a name="reset_context_urls" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resetContextUrls"></a>
 
 ```python
@@ -14105,6 +19313,12 @@ def reset_exclude_domains() -> None
 def reset_preferred_domains() -> None
 ```
 
+##### `reset_prompt_config` <a name="reset_prompt_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.resetPromptConfig"></a>
+
+```python
+def reset_prompt_config() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -14112,11 +19326,13 @@ def reset_preferred_domains() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.promptConfig">prompt_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference">GoogleCesToolGoogleSearchToolPromptConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.contextUrlsInput">context_urls_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.excludeDomainsInput">exclude_domains_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.preferredDomainsInput">preferred_domains_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.promptConfigInput">prompt_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig">GoogleCesToolGoogleSearchToolPromptConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.contextUrls">context_urls</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.excludeDomains">exclude_domains</a></code> | <code>typing.List[str]</code> | *No description.* |
@@ -14147,6 +19363,16 @@ fqn: str
 ```
 
 - *Type:* str
+
+---
+
+##### `prompt_config`<sup>Required</sup> <a name="prompt_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.promptConfig"></a>
+
+```python
+prompt_config: GoogleCesToolGoogleSearchToolPromptConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference">GoogleCesToolGoogleSearchToolPromptConfigOutputReference</a>
 
 ---
 
@@ -14197,6 +19423,16 @@ preferred_domains_input: typing.List[str]
 ```
 
 - *Type:* typing.List[str]
+
+---
+
+##### `prompt_config_input`<sup>Optional</sup> <a name="prompt_config_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolOutputReference.property.promptConfigInput"></a>
+
+```python
+prompt_config_input: GoogleCesToolGoogleSearchToolPromptConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig">GoogleCesToolGoogleSearchToolPromptConfig</a>
 
 ---
 
@@ -14257,6 +19493,5198 @@ internal_value: GoogleCesToolGoogleSearchTool
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchTool">GoogleCesToolGoogleSearchTool</a>
+
+---
+
+
+### GoogleCesToolGoogleSearchToolPromptConfigOutputReference <a name="GoogleCesToolGoogleSearchToolPromptConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.resetTextPrompt">reset_text_prompt</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.resetVoicePrompt">reset_voice_prompt</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_text_prompt` <a name="reset_text_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.resetTextPrompt"></a>
+
+```python
+def reset_text_prompt() -> None
+```
+
+##### `reset_voice_prompt` <a name="reset_voice_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.resetVoicePrompt"></a>
+
+```python
+def reset_voice_prompt() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.textPromptInput">text_prompt_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.voicePromptInput">voice_prompt_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.textPrompt">text_prompt</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.voicePrompt">voice_prompt</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig">GoogleCesToolGoogleSearchToolPromptConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `text_prompt_input`<sup>Optional</sup> <a name="text_prompt_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.textPromptInput"></a>
+
+```python
+text_prompt_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `voice_prompt_input`<sup>Optional</sup> <a name="voice_prompt_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.voicePromptInput"></a>
+
+```python
+voice_prompt_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `text_prompt`<sup>Required</sup> <a name="text_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.textPrompt"></a>
+
+```python
+text_prompt: str
+```
+
+- *Type:* str
+
+---
+
+##### `voice_prompt`<sup>Required</sup> <a name="voice_prompt" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.voicePrompt"></a>
+
+```python
+voice_prompt: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolGoogleSearchToolPromptConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolGoogleSearchToolPromptConfig">GoogleCesToolGoogleSearchToolPromptConfig</a>
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList <a name="GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference <a name="GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.apiKeySecretVersion">api_key_secret_version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.keyName">key_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.requestLocation">request_location</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfig">GoogleCesToolMcpToolApiAuthenticationApiKeyConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `api_key_secret_version`<sup>Required</sup> <a name="api_key_secret_version" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.apiKeySecretVersion"></a>
+
+```python
+api_key_secret_version: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_name`<sup>Required</sup> <a name="key_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.keyName"></a>
+
+```python
+key_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `request_location`<sup>Required</sup> <a name="request_location" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.requestLocation"></a>
+
+```python
+request_location: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolApiAuthenticationApiKeyConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfig">GoogleCesToolMcpToolApiAuthenticationApiKeyConfig</a>
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList <a name="GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference <a name="GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.token">token</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig">GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `token`<sup>Required</sup> <a name="token" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.token"></a>
+
+```python
+token: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig">GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig</a>
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationList <a name="GoogleCesToolMcpToolApiAuthenticationList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolApiAuthenticationOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationOauthConfigList <a name="GoogleCesToolMcpToolApiAuthenticationOauthConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference <a name="GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.clientId">client_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.clientSecretVersion">client_secret_version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.oauthGrantType">oauth_grant_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.scopes">scopes</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.tokenEndpoint">token_endpoint</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfig">GoogleCesToolMcpToolApiAuthenticationOauthConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `client_id`<sup>Required</sup> <a name="client_id" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.clientId"></a>
+
+```python
+client_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `client_secret_version`<sup>Required</sup> <a name="client_secret_version" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.clientSecretVersion"></a>
+
+```python
+client_secret_version: str
+```
+
+- *Type:* str
+
+---
+
+##### `oauth_grant_type`<sup>Required</sup> <a name="oauth_grant_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.oauthGrantType"></a>
+
+```python
+oauth_grant_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `scopes`<sup>Required</sup> <a name="scopes" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.scopes"></a>
+
+```python
+scopes: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `token_endpoint`<sup>Required</sup> <a name="token_endpoint" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.tokenEndpoint"></a>
+
+```python
+token_endpoint: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolApiAuthenticationOauthConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfig">GoogleCesToolMcpToolApiAuthenticationOauthConfig</a>
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationOutputReference <a name="GoogleCesToolMcpToolApiAuthenticationOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.apiKeyConfig">api_key_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList">GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.bearerTokenConfig">bearer_token_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList">GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.oauthConfig">oauth_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList">GoogleCesToolMcpToolApiAuthenticationOauthConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.serviceAccountAuthConfig">service_account_auth_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList">GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.serviceAgentIdTokenAuthConfig">service_agent_id_token_auth_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList">GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthentication">GoogleCesToolMcpToolApiAuthentication</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `api_key_config`<sup>Required</sup> <a name="api_key_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.apiKeyConfig"></a>
+
+```python
+api_key_config: GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList">GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList</a>
+
+---
+
+##### `bearer_token_config`<sup>Required</sup> <a name="bearer_token_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.bearerTokenConfig"></a>
+
+```python
+bearer_token_config: GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList">GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList</a>
+
+---
+
+##### `oauth_config`<sup>Required</sup> <a name="oauth_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.oauthConfig"></a>
+
+```python
+oauth_config: GoogleCesToolMcpToolApiAuthenticationOauthConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOauthConfigList">GoogleCesToolMcpToolApiAuthenticationOauthConfigList</a>
+
+---
+
+##### `service_account_auth_config`<sup>Required</sup> <a name="service_account_auth_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.serviceAccountAuthConfig"></a>
+
+```python
+service_account_auth_config: GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList">GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList</a>
+
+---
+
+##### `service_agent_id_token_auth_config`<sup>Required</sup> <a name="service_agent_id_token_auth_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.serviceAgentIdTokenAuthConfig"></a>
+
+```python
+service_agent_id_token_auth_config: GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList">GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolApiAuthentication
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthentication">GoogleCesToolMcpToolApiAuthentication</a>
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList <a name="GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference <a name="GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.serviceAccount">service_account</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig">GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_account`<sup>Required</sup> <a name="service_account" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.serviceAccount"></a>
+
+```python
+service_account: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig">GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig</a>
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList <a name="GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference <a name="GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig">GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig">GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig</a>
+
+---
+
+
+### GoogleCesToolMcpToolList <a name="GoogleCesToolMcpToolList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolOutputReference <a name="GoogleCesToolMcpToolOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.apiAuthentication">api_authentication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList">GoogleCesToolMcpToolApiAuthenticationList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.customHeaders">custom_headers</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.inputSchema">input_schema</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.nameOverride">name_override</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.outputSchema">output_schema</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.serverAddress">server_address</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.serviceDirectoryConfig">service_directory_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList">GoogleCesToolMcpToolServiceDirectoryConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.state">state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.tlsConfig">tls_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList">GoogleCesToolMcpToolTlsConfigList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpTool">GoogleCesToolMcpTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `api_authentication`<sup>Required</sup> <a name="api_authentication" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.apiAuthentication"></a>
+
+```python
+api_authentication: GoogleCesToolMcpToolApiAuthenticationList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolApiAuthenticationList">GoogleCesToolMcpToolApiAuthenticationList</a>
+
+---
+
+##### `custom_headers`<sup>Required</sup> <a name="custom_headers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.customHeaders"></a>
+
+```python
+custom_headers: StringMap
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `input_schema`<sup>Required</sup> <a name="input_schema" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.inputSchema"></a>
+
+```python
+input_schema: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_override`<sup>Required</sup> <a name="name_override" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.nameOverride"></a>
+
+```python
+name_override: str
+```
+
+- *Type:* str
+
+---
+
+##### `output_schema`<sup>Required</sup> <a name="output_schema" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.outputSchema"></a>
+
+```python
+output_schema: str
+```
+
+- *Type:* str
+
+---
+
+##### `server_address`<sup>Required</sup> <a name="server_address" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.serverAddress"></a>
+
+```python
+server_address: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_directory_config`<sup>Required</sup> <a name="service_directory_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.serviceDirectoryConfig"></a>
+
+```python
+service_directory_config: GoogleCesToolMcpToolServiceDirectoryConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList">GoogleCesToolMcpToolServiceDirectoryConfigList</a>
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.state"></a>
+
+```python
+state: str
+```
+
+- *Type:* str
+
+---
+
+##### `tls_config`<sup>Required</sup> <a name="tls_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.tlsConfig"></a>
+
+```python
+tls_config: GoogleCesToolMcpToolTlsConfigList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList">GoogleCesToolMcpToolTlsConfigList</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpTool">GoogleCesToolMcpTool</a>
+
+---
+
+
+### GoogleCesToolMcpToolServiceDirectoryConfigList <a name="GoogleCesToolMcpToolServiceDirectoryConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolServiceDirectoryConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolServiceDirectoryConfigOutputReference <a name="GoogleCesToolMcpToolServiceDirectoryConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.service">service</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfig">GoogleCesToolMcpToolServiceDirectoryConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `service`<sup>Required</sup> <a name="service" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.service"></a>
+
+```python
+service: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolServiceDirectoryConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolServiceDirectoryConfig">GoogleCesToolMcpToolServiceDirectoryConfig</a>
+
+---
+
+
+### GoogleCesToolMcpToolTlsConfigCaCertsList <a name="GoogleCesToolMcpToolTlsConfigCaCertsList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolTlsConfigCaCertsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolTlsConfigCaCertsOutputReference <a name="GoogleCesToolMcpToolTlsConfigCaCertsOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.cert">cert</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCerts">GoogleCesToolMcpToolTlsConfigCaCerts</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `cert`<sup>Required</sup> <a name="cert" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.cert"></a>
+
+```python
+cert: str
+```
+
+- *Type:* str
+
+---
+
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.displayName"></a>
+
+```python
+display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolTlsConfigCaCerts
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCerts">GoogleCesToolMcpToolTlsConfigCaCerts</a>
+
+---
+
+
+### GoogleCesToolMcpToolTlsConfigList <a name="GoogleCesToolMcpToolTlsConfigList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolTlsConfigList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolMcpToolTlsConfigOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolMcpToolTlsConfigOutputReference <a name="GoogleCesToolMcpToolTlsConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.caCerts">ca_certs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList">GoogleCesToolMcpToolTlsConfigCaCertsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfig">GoogleCesToolMcpToolTlsConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `ca_certs`<sup>Required</sup> <a name="ca_certs" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.caCerts"></a>
+
+```python
+ca_certs: GoogleCesToolMcpToolTlsConfigCaCertsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigCaCertsList">GoogleCesToolMcpToolTlsConfigCaCertsList</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolMcpToolTlsConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolMcpToolTlsConfig">GoogleCesToolMcpToolTlsConfig</a>
 
 ---
 
@@ -19431,6 +29859,2027 @@ internal_value: GoogleCesToolPythonFunction
 ---
 
 
+### GoogleCesToolRemoteAgentToolAgentCardList <a name="GoogleCesToolRemoteAgentToolAgentCardList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolRemoteAgentToolAgentCardOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolRemoteAgentToolAgentCardOutputReference <a name="GoogleCesToolRemoteAgentToolAgentCardOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.skills">skills</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList">GoogleCesToolRemoteAgentToolAgentCardSkillsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.supportedInterfaces">supported_interfaces</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList">GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.version">version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCard">GoogleCesToolRemoteAgentToolAgentCard</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `skills`<sup>Required</sup> <a name="skills" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.skills"></a>
+
+```python
+skills: GoogleCesToolRemoteAgentToolAgentCardSkillsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList">GoogleCesToolRemoteAgentToolAgentCardSkillsList</a>
+
+---
+
+##### `supported_interfaces`<sup>Required</sup> <a name="supported_interfaces" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.supportedInterfaces"></a>
+
+```python
+supported_interfaces: GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList">GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList</a>
+
+---
+
+##### `version`<sup>Required</sup> <a name="version" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.version"></a>
+
+```python
+version: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolRemoteAgentToolAgentCard
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCard">GoogleCesToolRemoteAgentToolAgentCard</a>
+
+---
+
+
+### GoogleCesToolRemoteAgentToolAgentCardSkillsList <a name="GoogleCesToolRemoteAgentToolAgentCardSkillsList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference <a name="GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.examples">examples</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.inputModes">input_modes</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.outputModes">output_modes</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.tags">tags</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkills">GoogleCesToolRemoteAgentToolAgentCardSkills</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `examples`<sup>Required</sup> <a name="examples" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.examples"></a>
+
+```python
+examples: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `input_modes`<sup>Required</sup> <a name="input_modes" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.inputModes"></a>
+
+```python
+input_modes: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `output_modes`<sup>Required</sup> <a name="output_modes" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.outputModes"></a>
+
+```python
+output_modes: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.tags"></a>
+
+```python
+tags: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolRemoteAgentToolAgentCardSkills
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSkills">GoogleCesToolRemoteAgentToolAgentCardSkills</a>
+
+---
+
+
+### GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList <a name="GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference <a name="GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.protocolBinding">protocol_binding</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.protocolVersion">protocol_version</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.tenant">tenant</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.url">url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces">GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `protocol_binding`<sup>Required</sup> <a name="protocol_binding" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.protocolBinding"></a>
+
+```python
+protocol_binding: str
+```
+
+- *Type:* str
+
+---
+
+##### `protocol_version`<sup>Required</sup> <a name="protocol_version" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.protocolVersion"></a>
+
+```python
+protocol_version: str
+```
+
+- *Type:* str
+
+---
+
+##### `tenant`<sup>Required</sup> <a name="tenant" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.tenant"></a>
+
+```python
+tenant: str
+```
+
+- *Type:* str
+
+---
+
+##### `url`<sup>Required</sup> <a name="url" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.url"></a>
+
+```python
+url: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces">GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces</a>
+
+---
+
+
+### GoogleCesToolRemoteAgentToolList <a name="GoogleCesToolRemoteAgentToolList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesToolRemoteAgentToolOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### GoogleCesToolRemoteAgentToolOutputReference <a name="GoogleCesToolRemoteAgentToolOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolRemoteAgentToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.agentCard">agent_card</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList">GoogleCesToolRemoteAgentToolAgentCardList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentTool">GoogleCesToolRemoteAgentTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `agent_card`<sup>Required</sup> <a name="agent_card" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.agentCard"></a>
+
+```python
+agent_card: GoogleCesToolRemoteAgentToolAgentCardList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolAgentCardList">GoogleCesToolRemoteAgentToolAgentCardList</a>
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolRemoteAgentTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolRemoteAgentTool">GoogleCesToolRemoteAgentTool</a>
+
+---
+
+
 ### GoogleCesToolSystemToolList <a name="GoogleCesToolSystemToolList" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolSystemToolList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolSystemToolList.Initializer"></a>
@@ -20263,6 +32712,2775 @@ internal_value: IResolvable | GoogleCesToolTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolTimeouts">GoogleCesToolTimeouts</a>
+
+---
+
+
+### GoogleCesToolWidgetToolDataMappingOutputReference <a name="GoogleCesToolWidgetToolDataMappingOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.putPythonFunction">put_python_function</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetFieldMappings">reset_field_mappings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetMode">reset_mode</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetPythonFunction">reset_python_function</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetSourceToolName">reset_source_tool_name</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_python_function` <a name="put_python_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.putPythonFunction"></a>
+
+```python
+def put_python_function(
+  name: str = None,
+  python_code: str = None
+) -> None
+```
+
+###### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.putPythonFunction.parameter.name"></a>
+
+- *Type:* str
+
+Optional.
+
+The name of the Python function to execute. Must match a Python function
+name defined in the python code. Case sensitive. If the name is not
+provided, the first function defined in the python code will be used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+
+---
+
+###### `python_code`<sup>Optional</sup> <a name="python_code" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.putPythonFunction.parameter.pythonCode"></a>
+
+- *Type:* str
+
+Optional. The Python code to execute for the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
+
+---
+
+##### `reset_field_mappings` <a name="reset_field_mappings" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetFieldMappings"></a>
+
+```python
+def reset_field_mappings() -> None
+```
+
+##### `reset_mode` <a name="reset_mode" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetMode"></a>
+
+```python
+def reset_mode() -> None
+```
+
+##### `reset_python_function` <a name="reset_python_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetPythonFunction"></a>
+
+```python
+def reset_python_function() -> None
+```
+
+##### `reset_source_tool_name` <a name="reset_source_tool_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.resetSourceToolName"></a>
+
+```python
+def reset_source_tool_name() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.pythonFunction">python_function</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference">GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.fieldMappingsInput">field_mappings_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.modeInput">mode_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.pythonFunctionInput">python_function_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction">GoogleCesToolWidgetToolDataMappingPythonFunction</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.sourceToolNameInput">source_tool_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.fieldMappings">field_mappings</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.mode">mode</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.sourceToolName">source_tool_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping">GoogleCesToolWidgetToolDataMapping</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `python_function`<sup>Required</sup> <a name="python_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.pythonFunction"></a>
+
+```python
+python_function: GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference">GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference</a>
+
+---
+
+##### `field_mappings_input`<sup>Optional</sup> <a name="field_mappings_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.fieldMappingsInput"></a>
+
+```python
+field_mappings_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `mode_input`<sup>Optional</sup> <a name="mode_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.modeInput"></a>
+
+```python
+mode_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `python_function_input`<sup>Optional</sup> <a name="python_function_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.pythonFunctionInput"></a>
+
+```python
+python_function_input: GoogleCesToolWidgetToolDataMappingPythonFunction
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction">GoogleCesToolWidgetToolDataMappingPythonFunction</a>
+
+---
+
+##### `source_tool_name_input`<sup>Optional</sup> <a name="source_tool_name_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.sourceToolNameInput"></a>
+
+```python
+source_tool_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `field_mappings`<sup>Required</sup> <a name="field_mappings" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.fieldMappings"></a>
+
+```python
+field_mappings: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `mode`<sup>Required</sup> <a name="mode" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.mode"></a>
+
+```python
+mode: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_tool_name`<sup>Required</sup> <a name="source_tool_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.sourceToolName"></a>
+
+```python
+source_tool_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolWidgetToolDataMapping
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping">GoogleCesToolWidgetToolDataMapping</a>
+
+---
+
+
+### GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference <a name="GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.resetName">reset_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.resetPythonCode">reset_python_code</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_name` <a name="reset_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.resetName"></a>
+
+```python
+def reset_name() -> None
+```
+
+##### `reset_python_code` <a name="reset_python_code" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.resetPythonCode"></a>
+
+```python
+def reset_python_code() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.pythonCodeInput">python_code_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.pythonCode">python_code</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction">GoogleCesToolWidgetToolDataMappingPythonFunction</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `python_code_input`<sup>Optional</sup> <a name="python_code_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.pythonCodeInput"></a>
+
+```python
+python_code_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `python_code`<sup>Required</sup> <a name="python_code" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.pythonCode"></a>
+
+```python
+python_code: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolWidgetToolDataMappingPythonFunction
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction">GoogleCesToolWidgetToolDataMappingPythonFunction</a>
+
+---
+
+
+### GoogleCesToolWidgetToolOutputReference <a name="GoogleCesToolWidgetToolOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putDataMapping">put_data_mapping</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters">put_parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putTextResponseConfig">put_text_response_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetDataMapping">reset_data_mapping</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetParameters">reset_parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetTextResponseConfig">reset_text_response_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetUiConfig">reset_ui_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetWidgetType">reset_widget_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_data_mapping` <a name="put_data_mapping" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putDataMapping"></a>
+
+```python
+def put_data_mapping(
+  field_mappings: typing.Mapping[str] = None,
+  mode: str = None,
+  python_function: GoogleCesToolWidgetToolDataMappingPythonFunction = None,
+  source_tool_name: str = None
+) -> None
+```
+
+###### `field_mappings`<sup>Optional</sup> <a name="field_mappings" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putDataMapping.parameter.fieldMappings"></a>
+
+- *Type:* typing.Mapping[str]
+
+Optional.
+
+A map of widget input parameter fields to the corresponding output fields of the source tool.
+An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#field_mappings GoogleCesTool#field_mappings}
+
+---
+
+###### `mode`<sup>Optional</sup> <a name="mode" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putDataMapping.parameter.mode"></a>
+
+- *Type:* str
+
+Optional. The mode of the data mapping. Possible values: MODE_UNSPECIFIED FIELD_MAPPING PYTHON_SCRIPT Possible values: ["MODE_UNSPECIFIED", "FIELD_MAPPING", "PYTHON_SCRIPT"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#mode GoogleCesTool#mode}
+
+---
+
+###### `python_function`<sup>Optional</sup> <a name="python_function" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putDataMapping.parameter.pythonFunction"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingPythonFunction">GoogleCesToolWidgetToolDataMappingPythonFunction</a>
+
+python_function block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
+
+---
+
+###### `source_tool_name`<sup>Optional</sup> <a name="source_tool_name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putDataMapping.parameter.sourceToolName"></a>
+
+- *Type:* str
+
+Optional.
+
+The resource name of the tool that provides the data for the widget (e.g., a search tool or a custom function).
+Format: projects/{project}/locations/{location}/agents/{agent}/tools/{tool}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#source_tool_name GoogleCesTool#source_tool_name}
+
+---
+
+##### `put_parameters` <a name="put_parameters" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters"></a>
+
+```python
+def put_parameters(
+  type: str,
+  additional_properties: str = None,
+  any_of: str = None,
+  default: str = None,
+  defs: str = None,
+  description: str = None,
+  enum: typing.List[str] = None,
+  items: str = None,
+  maximum: typing.Union[int, float] = None,
+  max_items: typing.Union[int, float] = None,
+  minimum: typing.Union[int, float] = None,
+  min_items: typing.Union[int, float] = None,
+  nullable: bool | IResolvable = None,
+  prefix_items: str = None,
+  properties: str = None,
+  ref: str = None,
+  required: typing.List[str] = None,
+  title: str = None,
+  unique_items: bool | IResolvable = None
+) -> None
+```
+
+###### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.type"></a>
+
+- *Type:* str
+
+The type of the data. Possible values: STRING INTEGER NUMBER BOOLEAN OBJECT ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+
+---
+
+###### `additional_properties`<sup>Optional</sup> <a name="additional_properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.additionalProperties"></a>
+
+- *Type:* str
+
+Defines the schema for additional properties allowed in an object.
+
+The value must be a valid JSON string representing the Schema object.
+(Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+
+---
+
+###### `any_of`<sup>Optional</sup> <a name="any_of" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.anyOf"></a>
+
+- *Type:* str
+
+The instance value should be valid against at least one of the schemas in this list.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+
+---
+
+###### `default`<sup>Optional</sup> <a name="default" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.default"></a>
+
+- *Type:* str
+
+Default value of the data.
+
+Represents a dynamically typed value
+which can be either null, a number, a string, a boolean, a struct,
+or a list of values. The provided default value must be compatible
+with the defined 'type' and other schema constraints.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+
+---
+
+###### `defs`<sup>Optional</sup> <a name="defs" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.defs"></a>
+
+- *Type:* str
+
+A map of definitions for use by ref. Only allowed at the root of the schema.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+
+---
+
+###### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.description"></a>
+
+- *Type:* str
+
+The description of the data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+
+---
+
+###### `enum`<sup>Optional</sup> <a name="enum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.enum"></a>
+
+- *Type:* typing.List[str]
+
+Possible values of the element of primitive type with enum format.
+
+Examples:
+
+1. We can define direction as :
+   {type:STRING, format:enum, enum:["EAST", NORTH", "SOUTH", "WEST"]}
+2. We can define apartment number as :
+   {type:INTEGER, format:enum, enum:["101", "201", "301"]}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+
+---
+
+###### `items`<sup>Optional</sup> <a name="items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.items"></a>
+
+- *Type:* str
+
+Schema of the elements of Type.ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+
+---
+
+###### `maximum`<sup>Optional</sup> <a name="maximum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.maximum"></a>
+
+- *Type:* typing.Union[int, float]
+
+Maximum value for Type.INTEGER and Type.NUMBER.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+
+---
+
+###### `max_items`<sup>Optional</sup> <a name="max_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.maxItems"></a>
+
+- *Type:* typing.Union[int, float]
+
+Maximum number of the elements for Type.ARRAY. (int64 format).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+
+---
+
+###### `minimum`<sup>Optional</sup> <a name="minimum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.minimum"></a>
+
+- *Type:* typing.Union[int, float]
+
+Minimum value for Type.INTEGER and Type.NUMBER.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+
+---
+
+###### `min_items`<sup>Optional</sup> <a name="min_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.minItems"></a>
+
+- *Type:* typing.Union[int, float]
+
+Minimum number of the elements for Type.ARRAY. (int64 format).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+
+---
+
+###### `nullable`<sup>Optional</sup> <a name="nullable" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.nullable"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicates if the value may be null.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+
+---
+
+###### `prefix_items`<sup>Optional</sup> <a name="prefix_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.prefixItems"></a>
+
+- *Type:* str
+
+Schemas of initial elements of Type.ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+
+---
+
+###### `properties`<sup>Optional</sup> <a name="properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.properties"></a>
+
+- *Type:* str
+
+Properties of Type.OBJECT.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+
+---
+
+###### `ref`<sup>Optional</sup> <a name="ref" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.ref"></a>
+
+- *Type:* str
+
+Allows indirect references between schema nodes.
+
+The value should be a
+valid reference to a child of the root 'defs'.
+For example, the following schema defines a reference to a schema node
+named "Pet":
+type: object
+properties:
+pet:
+ref: #/defs/Pet
+defs:
+Pet:
+type: object
+properties:
+name:
+type: string
+The value of the "pet" property is a reference to the schema node
+named "Pet".
+See details in
+https://json-schema.org/understanding-json-schema/structuring.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+
+---
+
+###### `required`<sup>Optional</sup> <a name="required" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.required"></a>
+
+- *Type:* typing.List[str]
+
+Required properties of Type.OBJECT.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+
+---
+
+###### `title`<sup>Optional</sup> <a name="title" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.title"></a>
+
+- *Type:* str
+
+The title of the schema.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+
+---
+
+###### `unique_items`<sup>Optional</sup> <a name="unique_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putParameters.parameter.uniqueItems"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+
+---
+
+##### `put_text_response_config` <a name="put_text_response_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putTextResponseConfig"></a>
+
+```python
+def put_text_response_config(
+  static_text: str = None,
+  text_response_instruction: str = None,
+  type: str = None
+) -> None
+```
+
+###### `static_text`<sup>Optional</sup> <a name="static_text" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putTextResponseConfig.parameter.staticText"></a>
+
+- *Type:* str
+
+Optional. The static text response to return when type is STATIC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#static_text GoogleCesTool#static_text}
+
+---
+
+###### `text_response_instruction`<sup>Optional</sup> <a name="text_response_instruction" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putTextResponseConfig.parameter.textResponseInstruction"></a>
+
+- *Type:* str
+
+Optional.
+
+Instruction for the LLM on how to generate the text response. Used as
+the description for the text response parameter if type is LLM_GENERATED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_response_instruction GoogleCesTool#text_response_instruction}
+
+---
+
+###### `type`<sup>Optional</sup> <a name="type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.putTextResponseConfig.parameter.type"></a>
+
+- *Type:* str
+
+Optional. The strategy for providing the text response. Possible values: TYPE_UNSPECIFIED NONE LLM_GENERATED STATIC Possible values: ["TYPE_UNSPECIFIED", "NONE", "LLM_GENERATED", "STATIC"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+
+---
+
+##### `reset_data_mapping` <a name="reset_data_mapping" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetDataMapping"></a>
+
+```python
+def reset_data_mapping() -> None
+```
+
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetDescription"></a>
+
+```python
+def reset_description() -> None
+```
+
+##### `reset_parameters` <a name="reset_parameters" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetParameters"></a>
+
+```python
+def reset_parameters() -> None
+```
+
+##### `reset_text_response_config` <a name="reset_text_response_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetTextResponseConfig"></a>
+
+```python
+def reset_text_response_config() -> None
+```
+
+##### `reset_ui_config` <a name="reset_ui_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetUiConfig"></a>
+
+```python
+def reset_ui_config() -> None
+```
+
+##### `reset_widget_type` <a name="reset_widget_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.resetWidgetType"></a>
+
+```python
+def reset_widget_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.dataMapping">data_mapping</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference">GoogleCesToolWidgetToolDataMappingOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.parameters">parameters</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference">GoogleCesToolWidgetToolParametersOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.textResponseConfig">text_response_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference">GoogleCesToolWidgetToolTextResponseConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.dataMappingInput">data_mapping_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping">GoogleCesToolWidgetToolDataMapping</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.parametersInput">parameters_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters">GoogleCesToolWidgetToolParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.textResponseConfigInput">text_response_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig">GoogleCesToolWidgetToolTextResponseConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.uiConfigInput">ui_config_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.widgetTypeInput">widget_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.uiConfig">ui_config</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.widgetType">widget_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_mapping`<sup>Required</sup> <a name="data_mapping" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.dataMapping"></a>
+
+```python
+data_mapping: GoogleCesToolWidgetToolDataMappingOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMappingOutputReference">GoogleCesToolWidgetToolDataMappingOutputReference</a>
+
+---
+
+##### `parameters`<sup>Required</sup> <a name="parameters" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.parameters"></a>
+
+```python
+parameters: GoogleCesToolWidgetToolParametersOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference">GoogleCesToolWidgetToolParametersOutputReference</a>
+
+---
+
+##### `text_response_config`<sup>Required</sup> <a name="text_response_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.textResponseConfig"></a>
+
+```python
+text_response_config: GoogleCesToolWidgetToolTextResponseConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference">GoogleCesToolWidgetToolTextResponseConfigOutputReference</a>
+
+---
+
+##### `data_mapping_input`<sup>Optional</sup> <a name="data_mapping_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.dataMappingInput"></a>
+
+```python
+data_mapping_input: GoogleCesToolWidgetToolDataMapping
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolDataMapping">GoogleCesToolWidgetToolDataMapping</a>
+
+---
+
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.descriptionInput"></a>
+
+```python
+description_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `parameters_input`<sup>Optional</sup> <a name="parameters_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.parametersInput"></a>
+
+```python
+parameters_input: GoogleCesToolWidgetToolParameters
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters">GoogleCesToolWidgetToolParameters</a>
+
+---
+
+##### `text_response_config_input`<sup>Optional</sup> <a name="text_response_config_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.textResponseConfigInput"></a>
+
+```python
+text_response_config_input: GoogleCesToolWidgetToolTextResponseConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig">GoogleCesToolWidgetToolTextResponseConfig</a>
+
+---
+
+##### `ui_config_input`<sup>Optional</sup> <a name="ui_config_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.uiConfigInput"></a>
+
+```python
+ui_config_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `widget_type_input`<sup>Optional</sup> <a name="widget_type_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.widgetTypeInput"></a>
+
+```python
+widget_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `ui_config`<sup>Required</sup> <a name="ui_config" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.uiConfig"></a>
+
+```python
+ui_config: str
+```
+
+- *Type:* str
+
+---
+
+##### `widget_type`<sup>Required</sup> <a name="widget_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.widgetType"></a>
+
+```python
+widget_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolWidgetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetTool">GoogleCesToolWidgetTool</a>
+
+---
+
+
+### GoogleCesToolWidgetToolParametersOutputReference <a name="GoogleCesToolWidgetToolParametersOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolParametersOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetAdditionalProperties">reset_additional_properties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetAnyOf">reset_any_of</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetDefault">reset_default</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetDefs">reset_defs</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetEnum">reset_enum</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetItems">reset_items</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMaximum">reset_maximum</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMaxItems">reset_max_items</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMinimum">reset_minimum</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMinItems">reset_min_items</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetNullable">reset_nullable</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetPrefixItems">reset_prefix_items</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetProperties">reset_properties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetRef">reset_ref</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetRequired">reset_required</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetTitle">reset_title</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetUniqueItems">reset_unique_items</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_additional_properties` <a name="reset_additional_properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetAdditionalProperties"></a>
+
+```python
+def reset_additional_properties() -> None
+```
+
+##### `reset_any_of` <a name="reset_any_of" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetAnyOf"></a>
+
+```python
+def reset_any_of() -> None
+```
+
+##### `reset_default` <a name="reset_default" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetDefault"></a>
+
+```python
+def reset_default() -> None
+```
+
+##### `reset_defs` <a name="reset_defs" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetDefs"></a>
+
+```python
+def reset_defs() -> None
+```
+
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetDescription"></a>
+
+```python
+def reset_description() -> None
+```
+
+##### `reset_enum` <a name="reset_enum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetEnum"></a>
+
+```python
+def reset_enum() -> None
+```
+
+##### `reset_items` <a name="reset_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetItems"></a>
+
+```python
+def reset_items() -> None
+```
+
+##### `reset_maximum` <a name="reset_maximum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMaximum"></a>
+
+```python
+def reset_maximum() -> None
+```
+
+##### `reset_max_items` <a name="reset_max_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMaxItems"></a>
+
+```python
+def reset_max_items() -> None
+```
+
+##### `reset_minimum` <a name="reset_minimum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMinimum"></a>
+
+```python
+def reset_minimum() -> None
+```
+
+##### `reset_min_items` <a name="reset_min_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetMinItems"></a>
+
+```python
+def reset_min_items() -> None
+```
+
+##### `reset_nullable` <a name="reset_nullable" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetNullable"></a>
+
+```python
+def reset_nullable() -> None
+```
+
+##### `reset_prefix_items` <a name="reset_prefix_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetPrefixItems"></a>
+
+```python
+def reset_prefix_items() -> None
+```
+
+##### `reset_properties` <a name="reset_properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetProperties"></a>
+
+```python
+def reset_properties() -> None
+```
+
+##### `reset_ref` <a name="reset_ref" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetRef"></a>
+
+```python
+def reset_ref() -> None
+```
+
+##### `reset_required` <a name="reset_required" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetRequired"></a>
+
+```python
+def reset_required() -> None
+```
+
+##### `reset_title` <a name="reset_title" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetTitle"></a>
+
+```python
+def reset_title() -> None
+```
+
+##### `reset_unique_items` <a name="reset_unique_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.resetUniqueItems"></a>
+
+```python
+def reset_unique_items() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.additionalPropertiesInput">additional_properties_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.anyOfInput">any_of_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.defaultInput">default_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.defsInput">defs_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.enumInput">enum_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.itemsInput">items_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maximumInput">maximum_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maxItemsInput">max_items_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minimumInput">minimum_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minItemsInput">min_items_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.nullableInput">nullable_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.prefixItemsInput">prefix_items_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.propertiesInput">properties_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.refInput">ref_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.requiredInput">required_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.uniqueItemsInput">unique_items_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.additionalProperties">additional_properties</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.anyOf">any_of</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.default">default</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.defs">defs</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.enum">enum</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.items">items</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maximum">maximum</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maxItems">max_items</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minimum">minimum</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minItems">min_items</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.nullable">nullable</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.prefixItems">prefix_items</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.properties">properties</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.ref">ref</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.required">required</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.title">title</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.uniqueItems">unique_items</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters">GoogleCesToolWidgetToolParameters</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `additional_properties_input`<sup>Optional</sup> <a name="additional_properties_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.additionalPropertiesInput"></a>
+
+```python
+additional_properties_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `any_of_input`<sup>Optional</sup> <a name="any_of_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.anyOfInput"></a>
+
+```python
+any_of_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `default_input`<sup>Optional</sup> <a name="default_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.defaultInput"></a>
+
+```python
+default_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `defs_input`<sup>Optional</sup> <a name="defs_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.defsInput"></a>
+
+```python
+defs_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.descriptionInput"></a>
+
+```python
+description_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `enum_input`<sup>Optional</sup> <a name="enum_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.enumInput"></a>
+
+```python
+enum_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `items_input`<sup>Optional</sup> <a name="items_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.itemsInput"></a>
+
+```python
+items_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `maximum_input`<sup>Optional</sup> <a name="maximum_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maximumInput"></a>
+
+```python
+maximum_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `max_items_input`<sup>Optional</sup> <a name="max_items_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maxItemsInput"></a>
+
+```python
+max_items_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `minimum_input`<sup>Optional</sup> <a name="minimum_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minimumInput"></a>
+
+```python
+minimum_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `min_items_input`<sup>Optional</sup> <a name="min_items_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minItemsInput"></a>
+
+```python
+min_items_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `nullable_input`<sup>Optional</sup> <a name="nullable_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.nullableInput"></a>
+
+```python
+nullable_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `prefix_items_input`<sup>Optional</sup> <a name="prefix_items_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.prefixItemsInput"></a>
+
+```python
+prefix_items_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `properties_input`<sup>Optional</sup> <a name="properties_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.propertiesInput"></a>
+
+```python
+properties_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `ref_input`<sup>Optional</sup> <a name="ref_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.refInput"></a>
+
+```python
+ref_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `required_input`<sup>Optional</sup> <a name="required_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.requiredInput"></a>
+
+```python
+required_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `title_input`<sup>Optional</sup> <a name="title_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.titleInput"></a>
+
+```python
+title_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `type_input`<sup>Optional</sup> <a name="type_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.typeInput"></a>
+
+```python
+type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `unique_items_input`<sup>Optional</sup> <a name="unique_items_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.uniqueItemsInput"></a>
+
+```python
+unique_items_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `additional_properties`<sup>Required</sup> <a name="additional_properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.additionalProperties"></a>
+
+```python
+additional_properties: str
+```
+
+- *Type:* str
+
+---
+
+##### `any_of`<sup>Required</sup> <a name="any_of" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.anyOf"></a>
+
+```python
+any_of: str
+```
+
+- *Type:* str
+
+---
+
+##### `default`<sup>Required</sup> <a name="default" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.default"></a>
+
+```python
+default: str
+```
+
+- *Type:* str
+
+---
+
+##### `defs`<sup>Required</sup> <a name="defs" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.defs"></a>
+
+```python
+defs: str
+```
+
+- *Type:* str
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.description"></a>
+
+```python
+description: str
+```
+
+- *Type:* str
+
+---
+
+##### `enum`<sup>Required</sup> <a name="enum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.enum"></a>
+
+```python
+enum: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `items`<sup>Required</sup> <a name="items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.items"></a>
+
+```python
+items: str
+```
+
+- *Type:* str
+
+---
+
+##### `maximum`<sup>Required</sup> <a name="maximum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maximum"></a>
+
+```python
+maximum: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `max_items`<sup>Required</sup> <a name="max_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.maxItems"></a>
+
+```python
+max_items: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `minimum`<sup>Required</sup> <a name="minimum" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minimum"></a>
+
+```python
+minimum: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `min_items`<sup>Required</sup> <a name="min_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.minItems"></a>
+
+```python
+min_items: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `nullable`<sup>Required</sup> <a name="nullable" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.nullable"></a>
+
+```python
+nullable: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `prefix_items`<sup>Required</sup> <a name="prefix_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.prefixItems"></a>
+
+```python
+prefix_items: str
+```
+
+- *Type:* str
+
+---
+
+##### `properties`<sup>Required</sup> <a name="properties" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.properties"></a>
+
+```python
+properties: str
+```
+
+- *Type:* str
+
+---
+
+##### `ref`<sup>Required</sup> <a name="ref" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.ref"></a>
+
+```python
+ref: str
+```
+
+- *Type:* str
+
+---
+
+##### `required`<sup>Required</sup> <a name="required" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.required"></a>
+
+```python
+required: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.title"></a>
+
+```python
+title: str
+```
+
+- *Type:* str
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+---
+
+##### `unique_items`<sup>Required</sup> <a name="unique_items" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.uniqueItems"></a>
+
+```python
+unique_items: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParametersOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolWidgetToolParameters
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolParameters">GoogleCesToolWidgetToolParameters</a>
+
+---
+
+
+### GoogleCesToolWidgetToolTextResponseConfigOutputReference <a name="GoogleCesToolWidgetToolTextResponseConfigOutputReference" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_tool
+
+googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resetStaticText">reset_static_text</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resetTextResponseInstruction">reset_text_response_instruction</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resetType">reset_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_static_text` <a name="reset_static_text" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resetStaticText"></a>
+
+```python
+def reset_static_text() -> None
+```
+
+##### `reset_text_response_instruction` <a name="reset_text_response_instruction" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resetTextResponseInstruction"></a>
+
+```python
+def reset_text_response_instruction() -> None
+```
+
+##### `reset_type` <a name="reset_type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.resetType"></a>
+
+```python
+def reset_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.staticTextInput">static_text_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.textResponseInstructionInput">text_response_instruction_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.staticText">static_text</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.textResponseInstruction">text_response_instruction</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig">GoogleCesToolWidgetToolTextResponseConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `static_text_input`<sup>Optional</sup> <a name="static_text_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.staticTextInput"></a>
+
+```python
+static_text_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `text_response_instruction_input`<sup>Optional</sup> <a name="text_response_instruction_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.textResponseInstructionInput"></a>
+
+```python
+text_response_instruction_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `type_input`<sup>Optional</sup> <a name="type_input" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.typeInput"></a>
+
+```python
+type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `static_text`<sup>Required</sup> <a name="static_text" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.staticText"></a>
+
+```python
+static_text: str
+```
+
+- *Type:* str
+
+---
+
+##### `text_response_instruction`<sup>Required</sup> <a name="text_response_instruction" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.textResponseInstruction"></a>
+
+```python
+text_response_instruction: str
+```
+
+- *Type:* str
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesToolWidgetToolTextResponseConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesTool.GoogleCesToolWidgetToolTextResponseConfig">GoogleCesToolWidgetToolTextResponseConfig</a>
 
 ---
 

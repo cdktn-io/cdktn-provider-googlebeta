@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,78 +15,78 @@ export interface GoogleIdentityPlatformConfigConfig extends cdktn.TerraformMetaA
   /**
   * List of domains authorized for OAuth redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#authorized_domains GoogleIdentityPlatformConfig#authorized_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#authorized_domains GoogleIdentityPlatformConfig#authorized_domains}
   */
   readonly authorizedDomains?: string[];
   /**
   * Whether anonymous users will be auto-deleted after a period of 30 days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#autodelete_anonymous_users GoogleIdentityPlatformConfig#autodelete_anonymous_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#autodelete_anonymous_users GoogleIdentityPlatformConfig#autodelete_anonymous_users}
   */
   readonly autodeleteAnonymousUsers?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#id GoogleIdentityPlatformConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#id GoogleIdentityPlatformConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#project GoogleIdentityPlatformConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#project GoogleIdentityPlatformConfig#project}
   */
   readonly project?: string;
   /**
   * blocking_functions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#blocking_functions GoogleIdentityPlatformConfig#blocking_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#blocking_functions GoogleIdentityPlatformConfig#blocking_functions}
   */
   readonly blockingFunctions?: GoogleIdentityPlatformConfigBlockingFunctions;
   /**
   * client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#client GoogleIdentityPlatformConfig#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#client GoogleIdentityPlatformConfig#client}
   */
   readonly client?: GoogleIdentityPlatformConfigClient;
   /**
   * mfa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#mfa GoogleIdentityPlatformConfig#mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#mfa GoogleIdentityPlatformConfig#mfa}
   */
   readonly mfa?: GoogleIdentityPlatformConfigMfa;
   /**
   * monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#monitoring GoogleIdentityPlatformConfig#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#monitoring GoogleIdentityPlatformConfig#monitoring}
   */
   readonly monitoring?: GoogleIdentityPlatformConfigMonitoring;
   /**
   * multi_tenant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#multi_tenant GoogleIdentityPlatformConfig#multi_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#multi_tenant GoogleIdentityPlatformConfig#multi_tenant}
   */
   readonly multiTenant?: GoogleIdentityPlatformConfigMultiTenant;
   /**
   * quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#quota GoogleIdentityPlatformConfig#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#quota GoogleIdentityPlatformConfig#quota}
   */
   readonly quota?: GoogleIdentityPlatformConfigQuota;
   /**
   * sign_in block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#sign_in GoogleIdentityPlatformConfig#sign_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#sign_in GoogleIdentityPlatformConfig#sign_in}
   */
   readonly signIn?: GoogleIdentityPlatformConfigSignIn;
   /**
   * sms_region_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#sms_region_config GoogleIdentityPlatformConfig#sms_region_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#sms_region_config GoogleIdentityPlatformConfig#sms_region_config}
   */
   readonly smsRegionConfig?: GoogleIdentityPlatformConfigSmsRegionConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#timeouts GoogleIdentityPlatformConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#timeouts GoogleIdentityPlatformConfig#timeouts}
   */
   readonly timeouts?: GoogleIdentityPlatformConfigTimeouts;
 }
@@ -94,19 +94,19 @@ export interface GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCred
   /**
   * Whether to pass the user's OAuth identity provider's access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#access_token GoogleIdentityPlatformConfig#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#access_token GoogleIdentityPlatformConfig#access_token}
   */
   readonly accessToken?: boolean | cdktn.IResolvable;
   /**
   * Whether to pass the user's OIDC identity provider's ID token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#id_token GoogleIdentityPlatformConfig#id_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#id_token GoogleIdentityPlatformConfig#id_token}
   */
   readonly idToken?: boolean | cdktn.IResolvable;
   /**
   * Whether to pass the user's OAuth identity provider's refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#refresh_token GoogleIdentityPlatformConfig#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#refresh_token GoogleIdentityPlatformConfig#refresh_token}
   */
   readonly refreshToken?: boolean | cdktn.IResolvable;
 }
@@ -114,7 +114,7 @@ export interface GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCred
 export function googleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsToTerraform(struct?: GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference | GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_token: cdktn.booleanToTerraform(struct!.accessToken),
@@ -127,7 +127,7 @@ export function googleIdentityPlatformConfigBlockingFunctionsForwardInboundCrede
 export function googleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsToHclTerraform(struct?: GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsOutputReference | GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_token: {
@@ -248,13 +248,13 @@ export class GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCredenti
 }
 export interface GoogleIdentityPlatformConfigBlockingFunctionsTriggers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#event_type GoogleIdentityPlatformConfig#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#event_type GoogleIdentityPlatformConfig#event_type}
   */
   readonly eventType: string;
   /**
   * HTTP URI trigger for the Cloud Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#function_uri GoogleIdentityPlatformConfig#function_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#function_uri GoogleIdentityPlatformConfig#function_uri}
   */
   readonly functionUri: string;
 }
@@ -262,7 +262,7 @@ export interface GoogleIdentityPlatformConfigBlockingFunctionsTriggers {
 export function googleIdentityPlatformConfigBlockingFunctionsTriggersToTerraform(struct?: GoogleIdentityPlatformConfigBlockingFunctionsTriggers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     event_type: cdktn.stringToTerraform(struct!.eventType),
@@ -274,7 +274,7 @@ export function googleIdentityPlatformConfigBlockingFunctionsTriggersToTerraform
 export function googleIdentityPlatformConfigBlockingFunctionsTriggersToHclTerraform(struct?: GoogleIdentityPlatformConfigBlockingFunctionsTriggers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     event_type: {
@@ -400,13 +400,13 @@ export interface GoogleIdentityPlatformConfigBlockingFunctions {
   /**
   * forward_inbound_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#forward_inbound_credentials GoogleIdentityPlatformConfig#forward_inbound_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#forward_inbound_credentials GoogleIdentityPlatformConfig#forward_inbound_credentials}
   */
   readonly forwardInboundCredentials?: GoogleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentials;
   /**
   * triggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#triggers GoogleIdentityPlatformConfig#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#triggers GoogleIdentityPlatformConfig#triggers}
   */
   readonly triggers: GoogleIdentityPlatformConfigBlockingFunctionsTriggers[] | cdktn.IResolvable;
 }
@@ -414,7 +414,7 @@ export interface GoogleIdentityPlatformConfigBlockingFunctions {
 export function googleIdentityPlatformConfigBlockingFunctionsToTerraform(struct?: GoogleIdentityPlatformConfigBlockingFunctionsOutputReference | GoogleIdentityPlatformConfigBlockingFunctions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     forward_inbound_credentials: googleIdentityPlatformConfigBlockingFunctionsForwardInboundCredentialsToTerraform(struct!.forwardInboundCredentials),
@@ -426,7 +426,7 @@ export function googleIdentityPlatformConfigBlockingFunctionsToTerraform(struct?
 export function googleIdentityPlatformConfigBlockingFunctionsToHclTerraform(struct?: GoogleIdentityPlatformConfigBlockingFunctionsOutputReference | GoogleIdentityPlatformConfigBlockingFunctions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     forward_inbound_credentials: {
@@ -518,13 +518,13 @@ export interface GoogleIdentityPlatformConfigClientPermissions {
   /**
   * When true, end users cannot delete their account on the associated project through any of our API methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#disabled_user_deletion GoogleIdentityPlatformConfig#disabled_user_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#disabled_user_deletion GoogleIdentityPlatformConfig#disabled_user_deletion}
   */
   readonly disabledUserDeletion?: boolean | cdktn.IResolvable;
   /**
   * When true, end users cannot sign up for a new account on the associated project through any of our API methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#disabled_user_signup GoogleIdentityPlatformConfig#disabled_user_signup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#disabled_user_signup GoogleIdentityPlatformConfig#disabled_user_signup}
   */
   readonly disabledUserSignup?: boolean | cdktn.IResolvable;
 }
@@ -532,7 +532,7 @@ export interface GoogleIdentityPlatformConfigClientPermissions {
 export function googleIdentityPlatformConfigClientPermissionsToTerraform(struct?: GoogleIdentityPlatformConfigClientPermissionsOutputReference | GoogleIdentityPlatformConfigClientPermissions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disabled_user_deletion: cdktn.booleanToTerraform(struct!.disabledUserDeletion),
@@ -544,7 +544,7 @@ export function googleIdentityPlatformConfigClientPermissionsToTerraform(struct?
 export function googleIdentityPlatformConfigClientPermissionsToHclTerraform(struct?: GoogleIdentityPlatformConfigClientPermissionsOutputReference | GoogleIdentityPlatformConfigClientPermissions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disabled_user_deletion: {
@@ -639,7 +639,7 @@ export interface GoogleIdentityPlatformConfigClient {
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#permissions GoogleIdentityPlatformConfig#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#permissions GoogleIdentityPlatformConfig#permissions}
   */
   readonly permissions?: GoogleIdentityPlatformConfigClientPermissions;
 }
@@ -647,7 +647,7 @@ export interface GoogleIdentityPlatformConfigClient {
 export function googleIdentityPlatformConfigClientToTerraform(struct?: GoogleIdentityPlatformConfigClientOutputReference | GoogleIdentityPlatformConfigClient): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     permissions: googleIdentityPlatformConfigClientPermissionsToTerraform(struct!.permissions),
@@ -658,7 +658,7 @@ export function googleIdentityPlatformConfigClientToTerraform(struct?: GoogleIde
 export function googleIdentityPlatformConfigClientToHclTerraform(struct?: GoogleIdentityPlatformConfigClientOutputReference | GoogleIdentityPlatformConfigClient): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     permissions: {
@@ -735,7 +735,7 @@ export interface GoogleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfi
   /**
   * The allowed number of adjacent intervals that will be used for verification to avoid clock skew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#adjacent_intervals GoogleIdentityPlatformConfig#adjacent_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#adjacent_intervals GoogleIdentityPlatformConfig#adjacent_intervals}
   */
   readonly adjacentIntervals?: number;
 }
@@ -743,7 +743,7 @@ export interface GoogleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfi
 export function googleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfigToTerraform(struct?: GoogleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfigOutputReference | GoogleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     adjacent_intervals: cdktn.numberToTerraform(struct!.adjacentIntervals),
@@ -754,7 +754,7 @@ export function googleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfig
 export function googleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfigToHclTerraform(struct?: GoogleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfigOutputReference | GoogleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     adjacent_intervals: {
@@ -821,13 +821,13 @@ export interface GoogleIdentityPlatformConfigMfaProviderConfigs {
   /**
   * Whether MultiFactor Authentication has been enabled for this project. Possible values: ["DISABLED", "ENABLED", "MANDATORY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#state GoogleIdentityPlatformConfig#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#state GoogleIdentityPlatformConfig#state}
   */
   readonly state?: string;
   /**
   * totp_provider_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#totp_provider_config GoogleIdentityPlatformConfig#totp_provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#totp_provider_config GoogleIdentityPlatformConfig#totp_provider_config}
   */
   readonly totpProviderConfig?: GoogleIdentityPlatformConfigMfaProviderConfigsTotpProviderConfig;
 }
@@ -835,7 +835,7 @@ export interface GoogleIdentityPlatformConfigMfaProviderConfigs {
 export function googleIdentityPlatformConfigMfaProviderConfigsToTerraform(struct?: GoogleIdentityPlatformConfigMfaProviderConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     state: cdktn.stringToTerraform(struct!.state),
@@ -847,7 +847,7 @@ export function googleIdentityPlatformConfigMfaProviderConfigsToTerraform(struct
 export function googleIdentityPlatformConfigMfaProviderConfigsToHclTerraform(struct?: GoogleIdentityPlatformConfigMfaProviderConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     state: {
@@ -974,19 +974,19 @@ export interface GoogleIdentityPlatformConfigMfa {
   /**
   * A list of usable second factors for this project. Possible values: ["PHONE_SMS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#enabled_providers GoogleIdentityPlatformConfig#enabled_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#enabled_providers GoogleIdentityPlatformConfig#enabled_providers}
   */
   readonly enabledProviders?: string[];
   /**
   * Whether MultiFactor Authentication has been enabled for this project. Possible values: ["DISABLED", "ENABLED", "MANDATORY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#state GoogleIdentityPlatformConfig#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#state GoogleIdentityPlatformConfig#state}
   */
   readonly state?: string;
   /**
   * provider_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#provider_configs GoogleIdentityPlatformConfig#provider_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#provider_configs GoogleIdentityPlatformConfig#provider_configs}
   */
   readonly providerConfigs?: GoogleIdentityPlatformConfigMfaProviderConfigs[] | cdktn.IResolvable;
 }
@@ -994,7 +994,7 @@ export interface GoogleIdentityPlatformConfigMfa {
 export function googleIdentityPlatformConfigMfaToTerraform(struct?: GoogleIdentityPlatformConfigMfaOutputReference | GoogleIdentityPlatformConfigMfa): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled_providers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.enabledProviders),
@@ -1007,7 +1007,7 @@ export function googleIdentityPlatformConfigMfaToTerraform(struct?: GoogleIdenti
 export function googleIdentityPlatformConfigMfaToHclTerraform(struct?: GoogleIdentityPlatformConfigMfaOutputReference | GoogleIdentityPlatformConfigMfa): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled_providers: {
@@ -1130,7 +1130,7 @@ export interface GoogleIdentityPlatformConfigMonitoringRequestLogging {
   /**
   * Whether logging is enabled for this project or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1138,7 +1138,7 @@ export interface GoogleIdentityPlatformConfigMonitoringRequestLogging {
 export function googleIdentityPlatformConfigMonitoringRequestLoggingToTerraform(struct?: GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReference | GoogleIdentityPlatformConfigMonitoringRequestLogging): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1149,7 +1149,7 @@ export function googleIdentityPlatformConfigMonitoringRequestLoggingToTerraform(
 export function googleIdentityPlatformConfigMonitoringRequestLoggingToHclTerraform(struct?: GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReference | GoogleIdentityPlatformConfigMonitoringRequestLogging): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1216,7 +1216,7 @@ export interface GoogleIdentityPlatformConfigMonitoring {
   /**
   * request_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#request_logging GoogleIdentityPlatformConfig#request_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#request_logging GoogleIdentityPlatformConfig#request_logging}
   */
   readonly requestLogging?: GoogleIdentityPlatformConfigMonitoringRequestLogging;
 }
@@ -1224,7 +1224,7 @@ export interface GoogleIdentityPlatformConfigMonitoring {
 export function googleIdentityPlatformConfigMonitoringToTerraform(struct?: GoogleIdentityPlatformConfigMonitoringOutputReference | GoogleIdentityPlatformConfigMonitoring): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     request_logging: googleIdentityPlatformConfigMonitoringRequestLoggingToTerraform(struct!.requestLogging),
@@ -1235,7 +1235,7 @@ export function googleIdentityPlatformConfigMonitoringToTerraform(struct?: Googl
 export function googleIdentityPlatformConfigMonitoringToHclTerraform(struct?: GoogleIdentityPlatformConfigMonitoringOutputReference | GoogleIdentityPlatformConfigMonitoring): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     request_logging: {
@@ -1302,7 +1302,7 @@ export interface GoogleIdentityPlatformConfigMultiTenant {
   /**
   * Whether this project can have tenants or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#allow_tenants GoogleIdentityPlatformConfig#allow_tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#allow_tenants GoogleIdentityPlatformConfig#allow_tenants}
   */
   readonly allowTenants?: boolean | cdktn.IResolvable;
   /**
@@ -1310,7 +1310,7 @@ export interface GoogleIdentityPlatformConfigMultiTenant {
   * The parent resource name should be in the format of "/", such as "folders/123" or "organizations/456".
   * If the value is not set, the tenant will be created under the same organization or folder as the agent project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#default_tenant_location GoogleIdentityPlatformConfig#default_tenant_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#default_tenant_location GoogleIdentityPlatformConfig#default_tenant_location}
   */
   readonly defaultTenantLocation?: string;
 }
@@ -1318,7 +1318,7 @@ export interface GoogleIdentityPlatformConfigMultiTenant {
 export function googleIdentityPlatformConfigMultiTenantToTerraform(struct?: GoogleIdentityPlatformConfigMultiTenantOutputReference | GoogleIdentityPlatformConfigMultiTenant): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_tenants: cdktn.booleanToTerraform(struct!.allowTenants),
@@ -1330,7 +1330,7 @@ export function googleIdentityPlatformConfigMultiTenantToTerraform(struct?: Goog
 export function googleIdentityPlatformConfigMultiTenantToHclTerraform(struct?: GoogleIdentityPlatformConfigMultiTenantOutputReference | GoogleIdentityPlatformConfigMultiTenant): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_tenants: {
@@ -1425,19 +1425,19 @@ export interface GoogleIdentityPlatformConfigQuotaSignUpQuotaConfig {
   /**
   * A sign up APIs quota that customers can override temporarily. Value can be in between 1 and 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#quota GoogleIdentityPlatformConfig#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#quota GoogleIdentityPlatformConfig#quota}
   */
   readonly quota?: number;
   /**
   * How long this quota will be active for. It is measurred in seconds, e.g., Example: "9.615s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#quota_duration GoogleIdentityPlatformConfig#quota_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#quota_duration GoogleIdentityPlatformConfig#quota_duration}
   */
   readonly quotaDuration?: string;
   /**
   * When this quota will take affect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#start_time GoogleIdentityPlatformConfig#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#start_time GoogleIdentityPlatformConfig#start_time}
   */
   readonly startTime?: string;
 }
@@ -1445,7 +1445,7 @@ export interface GoogleIdentityPlatformConfigQuotaSignUpQuotaConfig {
 export function googleIdentityPlatformConfigQuotaSignUpQuotaConfigToTerraform(struct?: GoogleIdentityPlatformConfigQuotaSignUpQuotaConfigOutputReference | GoogleIdentityPlatformConfigQuotaSignUpQuotaConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     quota: cdktn.numberToTerraform(struct!.quota),
@@ -1458,7 +1458,7 @@ export function googleIdentityPlatformConfigQuotaSignUpQuotaConfigToTerraform(st
 export function googleIdentityPlatformConfigQuotaSignUpQuotaConfigToHclTerraform(struct?: GoogleIdentityPlatformConfigQuotaSignUpQuotaConfigOutputReference | GoogleIdentityPlatformConfigQuotaSignUpQuotaConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     quota: {
@@ -1581,7 +1581,7 @@ export interface GoogleIdentityPlatformConfigQuota {
   /**
   * sign_up_quota_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#sign_up_quota_config GoogleIdentityPlatformConfig#sign_up_quota_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#sign_up_quota_config GoogleIdentityPlatformConfig#sign_up_quota_config}
   */
   readonly signUpQuotaConfig?: GoogleIdentityPlatformConfigQuotaSignUpQuotaConfig;
 }
@@ -1589,7 +1589,7 @@ export interface GoogleIdentityPlatformConfigQuota {
 export function googleIdentityPlatformConfigQuotaToTerraform(struct?: GoogleIdentityPlatformConfigQuotaOutputReference | GoogleIdentityPlatformConfigQuota): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sign_up_quota_config: googleIdentityPlatformConfigQuotaSignUpQuotaConfigToTerraform(struct!.signUpQuotaConfig),
@@ -1600,7 +1600,7 @@ export function googleIdentityPlatformConfigQuotaToTerraform(struct?: GoogleIden
 export function googleIdentityPlatformConfigQuotaToHclTerraform(struct?: GoogleIdentityPlatformConfigQuotaOutputReference | GoogleIdentityPlatformConfigQuota): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sign_up_quota_config: {
@@ -1669,7 +1669,7 @@ export interface GoogleIdentityPlatformConfigSignInHashConfig {
 export function googleIdentityPlatformConfigSignInHashConfigToTerraform(struct?: GoogleIdentityPlatformConfigSignInHashConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1679,7 +1679,7 @@ export function googleIdentityPlatformConfigSignInHashConfigToTerraform(struct?:
 export function googleIdentityPlatformConfigSignInHashConfigToHclTerraform(struct?: GoogleIdentityPlatformConfigSignInHashConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1762,7 +1762,7 @@ export interface GoogleIdentityPlatformConfigSignInAnonymous {
   /**
   * Whether anonymous user auth is enabled for the project or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1770,7 +1770,7 @@ export interface GoogleIdentityPlatformConfigSignInAnonymous {
 export function googleIdentityPlatformConfigSignInAnonymousToTerraform(struct?: GoogleIdentityPlatformConfigSignInAnonymousOutputReference | GoogleIdentityPlatformConfigSignInAnonymous): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1781,7 +1781,7 @@ export function googleIdentityPlatformConfigSignInAnonymousToTerraform(struct?: 
 export function googleIdentityPlatformConfigSignInAnonymousToHclTerraform(struct?: GoogleIdentityPlatformConfigSignInAnonymousOutputReference | GoogleIdentityPlatformConfigSignInAnonymous): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1845,7 +1845,7 @@ export interface GoogleIdentityPlatformConfigSignInEmail {
   /**
   * Whether email auth is enabled for the project or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
@@ -1853,7 +1853,7 @@ export interface GoogleIdentityPlatformConfigSignInEmail {
   * password must be provided to sign in. If false, a user may sign in via either
   * email/password or email link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#password_required GoogleIdentityPlatformConfig#password_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#password_required GoogleIdentityPlatformConfig#password_required}
   */
   readonly passwordRequired?: boolean | cdktn.IResolvable;
 }
@@ -1861,7 +1861,7 @@ export interface GoogleIdentityPlatformConfigSignInEmail {
 export function googleIdentityPlatformConfigSignInEmailToTerraform(struct?: GoogleIdentityPlatformConfigSignInEmailOutputReference | GoogleIdentityPlatformConfigSignInEmail): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1873,7 +1873,7 @@ export function googleIdentityPlatformConfigSignInEmailToTerraform(struct?: Goog
 export function googleIdentityPlatformConfigSignInEmailToHclTerraform(struct?: GoogleIdentityPlatformConfigSignInEmailOutputReference | GoogleIdentityPlatformConfigSignInEmail): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1965,13 +1965,13 @@ export interface GoogleIdentityPlatformConfigSignInPhoneNumber {
   /**
   * Whether phone number auth is enabled for the project or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#enabled GoogleIdentityPlatformConfig#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * A map of <test phone number, fake code> that can be used for phone auth testing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#test_phone_numbers GoogleIdentityPlatformConfig#test_phone_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#test_phone_numbers GoogleIdentityPlatformConfig#test_phone_numbers}
   */
   readonly testPhoneNumbers?: { [key: string]: string };
 }
@@ -1979,7 +1979,7 @@ export interface GoogleIdentityPlatformConfigSignInPhoneNumber {
 export function googleIdentityPlatformConfigSignInPhoneNumberToTerraform(struct?: GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference | GoogleIdentityPlatformConfigSignInPhoneNumber): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1991,7 +1991,7 @@ export function googleIdentityPlatformConfigSignInPhoneNumberToTerraform(struct?
 export function googleIdentityPlatformConfigSignInPhoneNumberToHclTerraform(struct?: GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference | GoogleIdentityPlatformConfigSignInPhoneNumber): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -2083,25 +2083,25 @@ export interface GoogleIdentityPlatformConfigSignIn {
   /**
   * Whether to allow more than one account to have the same email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#allow_duplicate_emails GoogleIdentityPlatformConfig#allow_duplicate_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#allow_duplicate_emails GoogleIdentityPlatformConfig#allow_duplicate_emails}
   */
   readonly allowDuplicateEmails?: boolean | cdktn.IResolvable;
   /**
   * anonymous block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#anonymous GoogleIdentityPlatformConfig#anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#anonymous GoogleIdentityPlatformConfig#anonymous}
   */
   readonly anonymous?: GoogleIdentityPlatformConfigSignInAnonymous;
   /**
   * email block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#email GoogleIdentityPlatformConfig#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#email GoogleIdentityPlatformConfig#email}
   */
   readonly email?: GoogleIdentityPlatformConfigSignInEmail;
   /**
   * phone_number block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#phone_number GoogleIdentityPlatformConfig#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#phone_number GoogleIdentityPlatformConfig#phone_number}
   */
   readonly phoneNumber?: GoogleIdentityPlatformConfigSignInPhoneNumber;
 }
@@ -2109,7 +2109,7 @@ export interface GoogleIdentityPlatformConfigSignIn {
 export function googleIdentityPlatformConfigSignInToTerraform(struct?: GoogleIdentityPlatformConfigSignInOutputReference | GoogleIdentityPlatformConfigSignIn): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_duplicate_emails: cdktn.booleanToTerraform(struct!.allowDuplicateEmails),
@@ -2123,7 +2123,7 @@ export function googleIdentityPlatformConfigSignInToTerraform(struct?: GoogleIde
 export function googleIdentityPlatformConfigSignInToHclTerraform(struct?: GoogleIdentityPlatformConfigSignInOutputReference | GoogleIdentityPlatformConfigSignIn): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_duplicate_emails: {
@@ -2280,7 +2280,7 @@ export interface GoogleIdentityPlatformConfigSmsRegionConfigAllowByDefault {
   /**
   * Two letter unicode region codes to disallow as defined by https://cldr.unicode.org/ The full list of these region codes is here: https://github.com/unicode-cldr/cldr-localenames-full/blob/master/main/en/territories.json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#disallowed_regions GoogleIdentityPlatformConfig#disallowed_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#disallowed_regions GoogleIdentityPlatformConfig#disallowed_regions}
   */
   readonly disallowedRegions?: string[];
 }
@@ -2288,7 +2288,7 @@ export interface GoogleIdentityPlatformConfigSmsRegionConfigAllowByDefault {
 export function googleIdentityPlatformConfigSmsRegionConfigAllowByDefaultToTerraform(struct?: GoogleIdentityPlatformConfigSmsRegionConfigAllowByDefaultOutputReference | GoogleIdentityPlatformConfigSmsRegionConfigAllowByDefault): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disallowed_regions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.disallowedRegions),
@@ -2299,7 +2299,7 @@ export function googleIdentityPlatformConfigSmsRegionConfigAllowByDefaultToTerra
 export function googleIdentityPlatformConfigSmsRegionConfigAllowByDefaultToHclTerraform(struct?: GoogleIdentityPlatformConfigSmsRegionConfigAllowByDefaultOutputReference | GoogleIdentityPlatformConfigSmsRegionConfigAllowByDefault): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disallowed_regions: {
@@ -2366,7 +2366,7 @@ export interface GoogleIdentityPlatformConfigSmsRegionConfigAllowlistOnly {
   /**
   * Two letter unicode region codes to allow as defined by https://cldr.unicode.org/ The full list of these region codes is here: https://github.com/unicode-cldr/cldr-localenames-full/blob/master/main/en/territories.json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#allowed_regions GoogleIdentityPlatformConfig#allowed_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#allowed_regions GoogleIdentityPlatformConfig#allowed_regions}
   */
   readonly allowedRegions?: string[];
 }
@@ -2374,7 +2374,7 @@ export interface GoogleIdentityPlatformConfigSmsRegionConfigAllowlistOnly {
 export function googleIdentityPlatformConfigSmsRegionConfigAllowlistOnlyToTerraform(struct?: GoogleIdentityPlatformConfigSmsRegionConfigAllowlistOnlyOutputReference | GoogleIdentityPlatformConfigSmsRegionConfigAllowlistOnly): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_regions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedRegions),
@@ -2385,7 +2385,7 @@ export function googleIdentityPlatformConfigSmsRegionConfigAllowlistOnlyToTerraf
 export function googleIdentityPlatformConfigSmsRegionConfigAllowlistOnlyToHclTerraform(struct?: GoogleIdentityPlatformConfigSmsRegionConfigAllowlistOnlyOutputReference | GoogleIdentityPlatformConfigSmsRegionConfigAllowlistOnly): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_regions: {
@@ -2452,13 +2452,13 @@ export interface GoogleIdentityPlatformConfigSmsRegionConfig {
   /**
   * allow_by_default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#allow_by_default GoogleIdentityPlatformConfig#allow_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#allow_by_default GoogleIdentityPlatformConfig#allow_by_default}
   */
   readonly allowByDefault?: GoogleIdentityPlatformConfigSmsRegionConfigAllowByDefault;
   /**
   * allowlist_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#allowlist_only GoogleIdentityPlatformConfig#allowlist_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#allowlist_only GoogleIdentityPlatformConfig#allowlist_only}
   */
   readonly allowlistOnly?: GoogleIdentityPlatformConfigSmsRegionConfigAllowlistOnly;
 }
@@ -2466,7 +2466,7 @@ export interface GoogleIdentityPlatformConfigSmsRegionConfig {
 export function googleIdentityPlatformConfigSmsRegionConfigToTerraform(struct?: GoogleIdentityPlatformConfigSmsRegionConfigOutputReference | GoogleIdentityPlatformConfigSmsRegionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_by_default: googleIdentityPlatformConfigSmsRegionConfigAllowByDefaultToTerraform(struct!.allowByDefault),
@@ -2478,7 +2478,7 @@ export function googleIdentityPlatformConfigSmsRegionConfigToTerraform(struct?: 
 export function googleIdentityPlatformConfigSmsRegionConfigToHclTerraform(struct?: GoogleIdentityPlatformConfigSmsRegionConfigOutputReference | GoogleIdentityPlatformConfigSmsRegionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_by_default: {
@@ -2571,15 +2571,15 @@ export class GoogleIdentityPlatformConfigSmsRegionConfigOutputReference extends 
 }
 export interface GoogleIdentityPlatformConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#create GoogleIdentityPlatformConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#create GoogleIdentityPlatformConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#delete GoogleIdentityPlatformConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#delete GoogleIdentityPlatformConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#update GoogleIdentityPlatformConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#update GoogleIdentityPlatformConfig#update}
   */
   readonly update?: string;
 }
@@ -2587,7 +2587,7 @@ export interface GoogleIdentityPlatformConfigTimeouts {
 export function googleIdentityPlatformConfigTimeoutsToTerraform(struct?: GoogleIdentityPlatformConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -2600,7 +2600,7 @@ export function googleIdentityPlatformConfigTimeoutsToTerraform(struct?: GoogleI
 export function googleIdentityPlatformConfigTimeoutsToHclTerraform(struct?: GoogleIdentityPlatformConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -2731,7 +2731,7 @@ export class GoogleIdentityPlatformConfigTimeoutsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config google_identity_platform_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config google_identity_platform_config}
 */
 export class GoogleIdentityPlatformConfig extends cdktn.TerraformResource {
 
@@ -2747,7 +2747,7 @@ export class GoogleIdentityPlatformConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleIdentityPlatformConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIdentityPlatformConfig to import
-  * @param importFromId The id of the existing GoogleIdentityPlatformConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIdentityPlatformConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIdentityPlatformConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2759,7 +2759,7 @@ export class GoogleIdentityPlatformConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_identity_platform_config google_identity_platform_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_identity_platform_config google_identity_platform_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2770,7 +2770,7 @@ export class GoogleIdentityPlatformConfig extends cdktn.TerraformResource {
       terraformResourceType: 'google_identity_platform_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

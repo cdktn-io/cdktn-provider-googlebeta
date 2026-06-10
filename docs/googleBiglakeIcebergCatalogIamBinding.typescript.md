@@ -4,7 +4,7 @@
 
 ### GoogleBiglakeIcebergCatalogIamBinding <a name="GoogleBiglakeIcebergCatalogIamBinding" id="@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBinding.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleBiglakeIcebergCatalo
 
 The id of the existing GoogleBiglakeIcebergCatalogIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,9 +875,9 @@ const googleBiglakeIcebergCatalogIamBindingCondition: googleBiglakeIcebergCatalo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#expression GoogleBiglakeIcebergCatalogIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#title GoogleBiglakeIcebergCatalogIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#description GoogleBiglakeIcebergCatalogIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#expression GoogleBiglakeIcebergCatalogIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#title GoogleBiglakeIcebergCatalogIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#description GoogleBiglakeIcebergCatalogIamBinding#description}. |
 
 ---
 
@@ -889,7 +889,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#expression GoogleBiglakeIcebergCatalogIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#expression GoogleBiglakeIcebergCatalogIamBinding#expression}.
 
 ---
 
@@ -901,7 +901,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#title GoogleBiglakeIcebergCatalogIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#title GoogleBiglakeIcebergCatalogIamBinding#title}.
 
 ---
 
@@ -913,7 +913,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#description GoogleBiglakeIcebergCatalogIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#description GoogleBiglakeIcebergCatalogIamBinding#description}.
 
 ---
 
@@ -938,12 +938,12 @@ const googleBiglakeIcebergCatalogIamBindingConfig: googleBiglakeIcebergCatalogIa
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#members GoogleBiglakeIcebergCatalogIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#name GoogleBiglakeIcebergCatalogIamBinding#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#role GoogleBiglakeIcebergCatalogIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#members GoogleBiglakeIcebergCatalogIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#name GoogleBiglakeIcebergCatalogIamBinding#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#role GoogleBiglakeIcebergCatalogIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingCondition">GoogleBiglakeIcebergCatalogIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#id GoogleBiglakeIcebergCatalogIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#project GoogleBiglakeIcebergCatalogIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#id GoogleBiglakeIcebergCatalogIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamBinding.GoogleBiglakeIcebergCatalogIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#project GoogleBiglakeIcebergCatalogIamBinding#project}. |
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly members: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#members GoogleBiglakeIcebergCatalogIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#members GoogleBiglakeIcebergCatalogIamBinding#members}.
 
 ---
 
@@ -1037,7 +1037,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#name GoogleBiglakeIcebergCatalogIamBinding#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#name GoogleBiglakeIcebergCatalogIamBinding#name}.
 
 ---
 
@@ -1049,7 +1049,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#role GoogleBiglakeIcebergCatalogIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#role GoogleBiglakeIcebergCatalogIamBinding#role}.
 
 ---
 
@@ -1063,7 +1063,7 @@ public readonly condition: GoogleBiglakeIcebergCatalogIamBindingCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#condition GoogleBiglakeIcebergCatalogIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#condition GoogleBiglakeIcebergCatalogIamBinding#condition}
 
 ---
 
@@ -1075,7 +1075,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#id GoogleBiglakeIcebergCatalogIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#id GoogleBiglakeIcebergCatalogIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#project GoogleBiglakeIcebergCatalogIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_catalog_iam_binding#project GoogleBiglakeIcebergCatalogIamBinding#project}.
 
 ---
 

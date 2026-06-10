@@ -4,7 +4,7 @@
 
 ### GoogleApigeeControlPlaneAccess <a name="GoogleApigeeControlPlaneAccess" id="@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccess"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access google_apigee_control_plane_access}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access google_apigee_control_plane_access}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccess.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleApigeeControlPlaneAc
 
 The id of the existing GoogleApigeeControlPlaneAccess that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -858,7 +858,7 @@ const googleApigeeControlPlaneAccessConfig: googleApigeeControlPlaneAccess.Googl
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessConfig.property.name">name</a></code> | <code>string</code> | Name of the Apigee organization. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessConfig.property.analyticsPublisherIdentities">analyticsPublisherIdentities</a></code> | <code>string[]</code> | Array of service accounts authorized to publish analytics data to the control plane, each specified using the following format: 'serviceAccount:service-account-name'. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#id GoogleApigeeControlPlaneAccess#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#id GoogleApigeeControlPlaneAccess#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessConfig.property.synchronizerIdentities">synchronizerIdentities</a></code> | <code>string[]</code> | Array of service accounts to grant access to control plane resources (for the Synchronizer component), each specified using the following format: 'serviceAccount:service-account-name'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessTimeouts">GoogleApigeeControlPlaneAccessTimeouts</a></code> | timeouts block. |
 
@@ -944,7 +944,7 @@ public readonly name: string;
 
 Name of the Apigee organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#name GoogleApigeeControlPlaneAccess#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#name GoogleApigeeControlPlaneAccess#name}
 
 ---
 
@@ -962,7 +962,7 @@ The 'service-account-name' is formatted like an email address. For example: serv
 
 You might specify multiple service accounts, for example, if you have multiple environments and wish to assign a unique service account to each one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#analytics_publisher_identities GoogleApigeeControlPlaneAccess#analytics_publisher_identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#analytics_publisher_identities GoogleApigeeControlPlaneAccess#analytics_publisher_identities}
 
 ---
 
@@ -974,7 +974,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#id GoogleApigeeControlPlaneAccess#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#id GoogleApigeeControlPlaneAccess#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -997,7 +997,7 @@ You might specify multiple service accounts, for example, if you have multiple e
 
 The service accounts must have **Apigee Synchronizer Manager** role. See also [Create service accounts](https://cloud.google.com/apigee/docs/hybrid/v1.8/sa-about#create-the-service-accounts).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#synchronizer_identities GoogleApigeeControlPlaneAccess#synchronizer_identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#synchronizer_identities GoogleApigeeControlPlaneAccess#synchronizer_identities}
 
 ---
 
@@ -1011,7 +1011,7 @@ public readonly timeouts: GoogleApigeeControlPlaneAccessTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#timeouts GoogleApigeeControlPlaneAccess#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#timeouts GoogleApigeeControlPlaneAccess#timeouts}
 
 ---
 
@@ -1029,9 +1029,9 @@ const googleApigeeControlPlaneAccessTimeouts: googleApigeeControlPlaneAccess.Goo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#create GoogleApigeeControlPlaneAccess#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#delete GoogleApigeeControlPlaneAccess#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#update GoogleApigeeControlPlaneAccess#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#create GoogleApigeeControlPlaneAccess#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#delete GoogleApigeeControlPlaneAccess#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeControlPlaneAccess.GoogleApigeeControlPlaneAccessTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#update GoogleApigeeControlPlaneAccess#update}. |
 
 ---
 
@@ -1043,7 +1043,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#create GoogleApigeeControlPlaneAccess#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#create GoogleApigeeControlPlaneAccess#create}.
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#delete GoogleApigeeControlPlaneAccess#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#delete GoogleApigeeControlPlaneAccess#delete}.
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_control_plane_access#update GoogleApigeeControlPlaneAccess#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_control_plane_access#update GoogleApigeeControlPlaneAccess#update}.
 
 ---
 

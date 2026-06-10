@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,20 +15,20 @@ export interface GoogleAppEngineFlexibleAppVersionConfig extends cdktn.Terraform
   /**
   * Metadata settings that are supplied to this version to enable beta runtime features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#beta_settings GoogleAppEngineFlexibleAppVersion#beta_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#beta_settings GoogleAppEngineFlexibleAppVersion#beta_settings}
   */
   readonly betaSettings?: { [key: string]: string };
   /**
   * Duration that static files should be cached by web proxies and browsers.
   * Only applicable if the corresponding StaticFilesHandler does not specify its own expiration time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#default_expiration GoogleAppEngineFlexibleAppVersion#default_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#default_expiration GoogleAppEngineFlexibleAppVersion#default_expiration}
   */
   readonly defaultExpiration?: string;
   /**
   * If set to 'true', the service will be deleted if it is the last version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#delete_service_on_destroy GoogleAppEngineFlexibleAppVersion#delete_service_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#delete_service_on_destroy GoogleAppEngineFlexibleAppVersion#delete_service_on_destroy}
   */
   readonly deleteServiceOnDestroy?: boolean | cdktn.IResolvable;
   /**
@@ -40,17 +40,17 @@ export interface GoogleAppEngineFlexibleAppVersionConfig extends cdktn.Terraform
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#deletion_policy GoogleAppEngineFlexibleAppVersion#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#deletion_policy GoogleAppEngineFlexibleAppVersion#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Environment variables available to the application.  As these are not returned in the API request, Terraform will not detect any changes made outside of the Terraform config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#env_variables GoogleAppEngineFlexibleAppVersion#env_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#env_variables GoogleAppEngineFlexibleAppVersion#env_variables}
   */
   readonly envVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#id GoogleAppEngineFlexibleAppVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#id GoogleAppEngineFlexibleAppVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ export interface GoogleAppEngineFlexibleAppVersionConfig extends cdktn.Terraform
   /**
   * A list of the types of messages that this application is able to receive. Possible values: ["INBOUND_SERVICE_MAIL", "INBOUND_SERVICE_MAIL_BOUNCE", "INBOUND_SERVICE_XMPP_ERROR", "INBOUND_SERVICE_XMPP_MESSAGE", "INBOUND_SERVICE_XMPP_SUBSCRIBE", "INBOUND_SERVICE_XMPP_PRESENCE", "INBOUND_SERVICE_CHANNEL_PRESENCE", "INBOUND_SERVICE_WARMUP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#inbound_services GoogleAppEngineFlexibleAppVersion#inbound_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#inbound_services GoogleAppEngineFlexibleAppVersion#inbound_services}
   */
   readonly inboundServices?: string[];
   /**
@@ -68,29 +68,29 @@ export interface GoogleAppEngineFlexibleAppVersionConfig extends cdktn.Terraform
   * ManualScaling: B1, B2, B4, B8, B4_1G
   * Defaults to F1 for AutomaticScaling and B1 for ManualScaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#instance_class GoogleAppEngineFlexibleAppVersion#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#instance_class GoogleAppEngineFlexibleAppVersion#instance_class}
   */
   readonly instanceClass?: string;
   /**
   * Files that match this pattern will not be built into this version. Only applicable for Go runtimes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#nobuild_files_regex GoogleAppEngineFlexibleAppVersion#nobuild_files_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#nobuild_files_regex GoogleAppEngineFlexibleAppVersion#nobuild_files_regex}
   */
   readonly nobuildFilesRegex?: string;
   /**
   * If set to 'true', the application version will not be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#noop_on_destroy GoogleAppEngineFlexibleAppVersion#noop_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#noop_on_destroy GoogleAppEngineFlexibleAppVersion#noop_on_destroy}
   */
   readonly noopOnDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#project GoogleAppEngineFlexibleAppVersion#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#project GoogleAppEngineFlexibleAppVersion#project}
   */
   readonly project?: string;
   /**
   * Desired runtime. Example python27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#runtime GoogleAppEngineFlexibleAppVersion#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#runtime GoogleAppEngineFlexibleAppVersion#runtime}
   */
   readonly runtime: string;
   /**
@@ -98,129 +98,129 @@ export interface GoogleAppEngineFlexibleAppVersionConfig extends cdktn.Terraform
   * Please see the app.yaml reference for valid values at 'https://cloud.google.com/appengine/docs/standard/<language>/config/appref'\
   * Substitute '<language>' with 'python', 'java', 'php', 'ruby', 'go' or 'nodejs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#runtime_api_version GoogleAppEngineFlexibleAppVersion#runtime_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#runtime_api_version GoogleAppEngineFlexibleAppVersion#runtime_api_version}
   */
   readonly runtimeApiVersion?: string;
   /**
   * The channel of the runtime to use. Only available for some runtimes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#runtime_channel GoogleAppEngineFlexibleAppVersion#runtime_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#runtime_channel GoogleAppEngineFlexibleAppVersion#runtime_channel}
   */
   readonly runtimeChannel?: string;
   /**
   * The path or name of the app's main executable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#runtime_main_executable_path GoogleAppEngineFlexibleAppVersion#runtime_main_executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#runtime_main_executable_path GoogleAppEngineFlexibleAppVersion#runtime_main_executable_path}
   */
   readonly runtimeMainExecutablePath?: string;
   /**
   * AppEngine service resource. Can contain numbers, letters, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#service GoogleAppEngineFlexibleAppVersion#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#service GoogleAppEngineFlexibleAppVersion#service}
   */
   readonly service: string;
   /**
   * The identity that the deployed version will run as. Admin API will use the App Engine Appspot service account as
   * default if this field is neither provided in app.yaml file nor through CLI flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#service_account GoogleAppEngineFlexibleAppVersion#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#service_account GoogleAppEngineFlexibleAppVersion#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Current serving status of this version. Only the versions with a SERVING status create instances and can be billed. Default value: "SERVING" Possible values: ["SERVING", "STOPPED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#serving_status GoogleAppEngineFlexibleAppVersion#serving_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#serving_status GoogleAppEngineFlexibleAppVersion#serving_status}
   */
   readonly servingStatus?: string;
   /**
   * Relative name of the version within the service. For example, 'v1'. Version names can contain only lowercase letters, numbers, or hyphens.
   * Reserved names,"default", "latest", and any name with the prefix "ah-".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#version_id GoogleAppEngineFlexibleAppVersion#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#version_id GoogleAppEngineFlexibleAppVersion#version_id}
   */
   readonly versionId?: string;
   /**
   * api_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#api_config GoogleAppEngineFlexibleAppVersion#api_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#api_config GoogleAppEngineFlexibleAppVersion#api_config}
   */
   readonly apiConfig?: GoogleAppEngineFlexibleAppVersionApiConfig;
   /**
   * automatic_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#automatic_scaling GoogleAppEngineFlexibleAppVersion#automatic_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#automatic_scaling GoogleAppEngineFlexibleAppVersion#automatic_scaling}
   */
   readonly automaticScaling?: GoogleAppEngineFlexibleAppVersionAutomaticScaling;
   /**
   * deployment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#deployment GoogleAppEngineFlexibleAppVersion#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#deployment GoogleAppEngineFlexibleAppVersion#deployment}
   */
   readonly deployment?: GoogleAppEngineFlexibleAppVersionDeployment;
   /**
   * endpoints_api_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#endpoints_api_service GoogleAppEngineFlexibleAppVersion#endpoints_api_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#endpoints_api_service GoogleAppEngineFlexibleAppVersion#endpoints_api_service}
   */
   readonly endpointsApiService?: GoogleAppEngineFlexibleAppVersionEndpointsApiService;
   /**
   * entrypoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#entrypoint GoogleAppEngineFlexibleAppVersion#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#entrypoint GoogleAppEngineFlexibleAppVersion#entrypoint}
   */
   readonly entrypoint?: GoogleAppEngineFlexibleAppVersionEntrypoint;
   /**
   * flexible_runtime_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#flexible_runtime_settings GoogleAppEngineFlexibleAppVersion#flexible_runtime_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#flexible_runtime_settings GoogleAppEngineFlexibleAppVersion#flexible_runtime_settings}
   */
   readonly flexibleRuntimeSettings?: GoogleAppEngineFlexibleAppVersionFlexibleRuntimeSettings;
   /**
   * handlers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#handlers GoogleAppEngineFlexibleAppVersion#handlers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#handlers GoogleAppEngineFlexibleAppVersion#handlers}
   */
   readonly handlers?: GoogleAppEngineFlexibleAppVersionHandlers[] | cdktn.IResolvable;
   /**
   * liveness_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#liveness_check GoogleAppEngineFlexibleAppVersion#liveness_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#liveness_check GoogleAppEngineFlexibleAppVersion#liveness_check}
   */
   readonly livenessCheck: GoogleAppEngineFlexibleAppVersionLivenessCheck;
   /**
   * manual_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#manual_scaling GoogleAppEngineFlexibleAppVersion#manual_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#manual_scaling GoogleAppEngineFlexibleAppVersion#manual_scaling}
   */
   readonly manualScaling?: GoogleAppEngineFlexibleAppVersionManualScaling;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#network GoogleAppEngineFlexibleAppVersion#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#network GoogleAppEngineFlexibleAppVersion#network}
   */
   readonly network?: GoogleAppEngineFlexibleAppVersionNetwork;
   /**
   * readiness_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#readiness_check GoogleAppEngineFlexibleAppVersion#readiness_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#readiness_check GoogleAppEngineFlexibleAppVersion#readiness_check}
   */
   readonly readinessCheck: GoogleAppEngineFlexibleAppVersionReadinessCheck;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#resources GoogleAppEngineFlexibleAppVersion#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#resources GoogleAppEngineFlexibleAppVersion#resources}
   */
   readonly resources?: GoogleAppEngineFlexibleAppVersionResources;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#timeouts GoogleAppEngineFlexibleAppVersion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#timeouts GoogleAppEngineFlexibleAppVersion#timeouts}
   */
   readonly timeouts?: GoogleAppEngineFlexibleAppVersionTimeouts;
   /**
   * vpc_access_connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#vpc_access_connector GoogleAppEngineFlexibleAppVersion#vpc_access_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#vpc_access_connector GoogleAppEngineFlexibleAppVersion#vpc_access_connector}
   */
   readonly vpcAccessConnector?: GoogleAppEngineFlexibleAppVersionVpcAccessConnector;
 }
@@ -228,31 +228,31 @@ export interface GoogleAppEngineFlexibleAppVersionApiConfig {
   /**
   * Action to take when users access resources that require authentication. Default value: "AUTH_FAIL_ACTION_REDIRECT" Possible values: ["AUTH_FAIL_ACTION_REDIRECT", "AUTH_FAIL_ACTION_UNAUTHORIZED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#auth_fail_action GoogleAppEngineFlexibleAppVersion#auth_fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#auth_fail_action GoogleAppEngineFlexibleAppVersion#auth_fail_action}
   */
   readonly authFailAction?: string;
   /**
   * Level of login required to access this resource. Default value: "LOGIN_OPTIONAL" Possible values: ["LOGIN_OPTIONAL", "LOGIN_ADMIN", "LOGIN_REQUIRED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#login GoogleAppEngineFlexibleAppVersion#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#login GoogleAppEngineFlexibleAppVersion#login}
   */
   readonly login?: string;
   /**
   * Path to the script from the application root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#script GoogleAppEngineFlexibleAppVersion#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#script GoogleAppEngineFlexibleAppVersion#script}
   */
   readonly script: string;
   /**
   * Security (HTTPS) enforcement for this URL. Possible values: ["SECURE_DEFAULT", "SECURE_NEVER", "SECURE_OPTIONAL", "SECURE_ALWAYS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#security_level GoogleAppEngineFlexibleAppVersion#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#security_level GoogleAppEngineFlexibleAppVersion#security_level}
   */
   readonly securityLevel?: string;
   /**
   * URL to serve the endpoint at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#url GoogleAppEngineFlexibleAppVersion#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#url GoogleAppEngineFlexibleAppVersion#url}
   */
   readonly url?: string;
 }
@@ -260,7 +260,7 @@ export interface GoogleAppEngineFlexibleAppVersionApiConfig {
 export function googleAppEngineFlexibleAppVersionApiConfigToTerraform(struct?: GoogleAppEngineFlexibleAppVersionApiConfigOutputReference | GoogleAppEngineFlexibleAppVersionApiConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     auth_fail_action: cdktn.stringToTerraform(struct!.authFailAction),
@@ -275,7 +275,7 @@ export function googleAppEngineFlexibleAppVersionApiConfigToTerraform(struct?: G
 export function googleAppEngineFlexibleAppVersionApiConfigToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionApiConfigOutputReference | GoogleAppEngineFlexibleAppVersionApiConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     auth_fail_action: {
@@ -451,13 +451,13 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilization
   /**
   * Period of time over which CPU utilization is calculated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#aggregation_window_length GoogleAppEngineFlexibleAppVersion#aggregation_window_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#aggregation_window_length GoogleAppEngineFlexibleAppVersion#aggregation_window_length}
   */
   readonly aggregationWindowLength?: string;
   /**
   * Target CPU utilization ratio to maintain when scaling. Must be between 0 and 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_utilization GoogleAppEngineFlexibleAppVersion#target_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_utilization GoogleAppEngineFlexibleAppVersion#target_utilization}
   */
   readonly targetUtilization: number;
 }
@@ -465,7 +465,7 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilization
 export function googleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilizationToTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     aggregation_window_length: cdktn.stringToTerraform(struct!.aggregationWindowLength),
@@ -477,7 +477,7 @@ export function googleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilizationT
 export function googleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilizationToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     aggregation_window_length: {
@@ -569,25 +569,25 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilizatio
   /**
   * Target bytes read per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_read_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_read_bytes_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_read_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_read_bytes_per_second}
   */
   readonly targetReadBytesPerSecond?: number;
   /**
   * Target ops read per seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_read_ops_per_second GoogleAppEngineFlexibleAppVersion#target_read_ops_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_read_ops_per_second GoogleAppEngineFlexibleAppVersion#target_read_ops_per_second}
   */
   readonly targetReadOpsPerSecond?: number;
   /**
   * Target bytes written per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_write_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_write_bytes_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_write_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_write_bytes_per_second}
   */
   readonly targetWriteBytesPerSecond?: number;
   /**
   * Target ops written per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_write_ops_per_second GoogleAppEngineFlexibleAppVersion#target_write_ops_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_write_ops_per_second GoogleAppEngineFlexibleAppVersion#target_write_ops_per_second}
   */
   readonly targetWriteOpsPerSecond?: number;
 }
@@ -595,7 +595,7 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilizatio
 export function googleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilizationToTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target_read_bytes_per_second: cdktn.numberToTerraform(struct!.targetReadBytesPerSecond),
@@ -609,7 +609,7 @@ export function googleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilization
 export function googleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilizationToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target_read_bytes_per_second: {
@@ -760,25 +760,25 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtiliza
   /**
   * Target bytes received per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_received_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_received_bytes_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_received_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_received_bytes_per_second}
   */
   readonly targetReceivedBytesPerSecond?: number;
   /**
   * Target packets received per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_received_packets_per_second GoogleAppEngineFlexibleAppVersion#target_received_packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_received_packets_per_second GoogleAppEngineFlexibleAppVersion#target_received_packets_per_second}
   */
   readonly targetReceivedPacketsPerSecond?: number;
   /**
   * Target bytes sent per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_sent_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_sent_bytes_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_sent_bytes_per_second GoogleAppEngineFlexibleAppVersion#target_sent_bytes_per_second}
   */
   readonly targetSentBytesPerSecond?: number;
   /**
   * Target packets sent per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_sent_packets_per_second GoogleAppEngineFlexibleAppVersion#target_sent_packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_sent_packets_per_second GoogleAppEngineFlexibleAppVersion#target_sent_packets_per_second}
   */
   readonly targetSentPacketsPerSecond?: number;
 }
@@ -786,7 +786,7 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtiliza
 export function googleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilizationToTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target_received_bytes_per_second: cdktn.numberToTerraform(struct!.targetReceivedBytesPerSecond),
@@ -800,7 +800,7 @@ export function googleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilizat
 export function googleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilizationToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target_received_bytes_per_second: {
@@ -951,13 +951,13 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingRequestUtiliza
   /**
   * Target number of concurrent requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_concurrent_requests GoogleAppEngineFlexibleAppVersion#target_concurrent_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_concurrent_requests GoogleAppEngineFlexibleAppVersion#target_concurrent_requests}
   */
   readonly targetConcurrentRequests?: number;
   /**
   * Target requests per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#target_request_count_per_second GoogleAppEngineFlexibleAppVersion#target_request_count_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#target_request_count_per_second GoogleAppEngineFlexibleAppVersion#target_request_count_per_second}
   */
   readonly targetRequestCountPerSecond?: string;
 }
@@ -965,7 +965,7 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScalingRequestUtiliza
 export function googleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationToTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target_concurrent_requests: cdktn.numberToTerraform(struct!.targetConcurrentRequests),
@@ -977,7 +977,7 @@ export function googleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilizat
 export function googleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilizationOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target_concurrent_requests: {
@@ -1074,7 +1074,7 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScaling {
   * This prevents the autoscaler from collecting information when the instance is initializing,
   * during which the collected usage would not be reliable. Default: 120s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#cool_down_period GoogleAppEngineFlexibleAppVersion#cool_down_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#cool_down_period GoogleAppEngineFlexibleAppVersion#cool_down_period}
   */
   readonly coolDownPeriod?: string;
   /**
@@ -1082,67 +1082,67 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScaling {
   * 
   * Defaults to a runtime-specific value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#max_concurrent_requests GoogleAppEngineFlexibleAppVersion#max_concurrent_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#max_concurrent_requests GoogleAppEngineFlexibleAppVersion#max_concurrent_requests}
   */
   readonly maxConcurrentRequests?: number;
   /**
   * Maximum number of idle instances that should be maintained for this version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#max_idle_instances GoogleAppEngineFlexibleAppVersion#max_idle_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#max_idle_instances GoogleAppEngineFlexibleAppVersion#max_idle_instances}
   */
   readonly maxIdleInstances?: number;
   /**
   * Maximum amount of time that a request should wait in the pending queue before starting a new instance to handle it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#max_pending_latency GoogleAppEngineFlexibleAppVersion#max_pending_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#max_pending_latency GoogleAppEngineFlexibleAppVersion#max_pending_latency}
   */
   readonly maxPendingLatency?: string;
   /**
   * Maximum number of instances that should be started to handle requests for this version. Default: 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#max_total_instances GoogleAppEngineFlexibleAppVersion#max_total_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#max_total_instances GoogleAppEngineFlexibleAppVersion#max_total_instances}
   */
   readonly maxTotalInstances?: number;
   /**
   * Minimum number of idle instances that should be maintained for this version. Only applicable for the default version of a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#min_idle_instances GoogleAppEngineFlexibleAppVersion#min_idle_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#min_idle_instances GoogleAppEngineFlexibleAppVersion#min_idle_instances}
   */
   readonly minIdleInstances?: number;
   /**
   * Minimum amount of time a request should wait in the pending queue before starting a new instance to handle it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#min_pending_latency GoogleAppEngineFlexibleAppVersion#min_pending_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#min_pending_latency GoogleAppEngineFlexibleAppVersion#min_pending_latency}
   */
   readonly minPendingLatency?: string;
   /**
   * Minimum number of running instances that should be maintained for this version. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#min_total_instances GoogleAppEngineFlexibleAppVersion#min_total_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#min_total_instances GoogleAppEngineFlexibleAppVersion#min_total_instances}
   */
   readonly minTotalInstances?: number;
   /**
   * cpu_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#cpu_utilization GoogleAppEngineFlexibleAppVersion#cpu_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#cpu_utilization GoogleAppEngineFlexibleAppVersion#cpu_utilization}
   */
   readonly cpuUtilization: GoogleAppEngineFlexibleAppVersionAutomaticScalingCpuUtilization;
   /**
   * disk_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#disk_utilization GoogleAppEngineFlexibleAppVersion#disk_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#disk_utilization GoogleAppEngineFlexibleAppVersion#disk_utilization}
   */
   readonly diskUtilization?: GoogleAppEngineFlexibleAppVersionAutomaticScalingDiskUtilization;
   /**
   * network_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#network_utilization GoogleAppEngineFlexibleAppVersion#network_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#network_utilization GoogleAppEngineFlexibleAppVersion#network_utilization}
   */
   readonly networkUtilization?: GoogleAppEngineFlexibleAppVersionAutomaticScalingNetworkUtilization;
   /**
   * request_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#request_utilization GoogleAppEngineFlexibleAppVersion#request_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#request_utilization GoogleAppEngineFlexibleAppVersion#request_utilization}
   */
   readonly requestUtilization?: GoogleAppEngineFlexibleAppVersionAutomaticScalingRequestUtilization;
 }
@@ -1150,7 +1150,7 @@ export interface GoogleAppEngineFlexibleAppVersionAutomaticScaling {
 export function googleAppEngineFlexibleAppVersionAutomaticScalingToTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cool_down_period: cdktn.stringToTerraform(struct!.coolDownPeriod),
@@ -1172,7 +1172,7 @@ export function googleAppEngineFlexibleAppVersionAutomaticScalingToTerraform(str
 export function googleAppEngineFlexibleAppVersionAutomaticScalingToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionAutomaticScalingOutputReference | GoogleAppEngineFlexibleAppVersionAutomaticScaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cool_down_period: {
@@ -1544,7 +1544,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptions {
   /**
   * Path to the yaml file used in deployment, used to determine runtime configuration details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#app_yaml_path GoogleAppEngineFlexibleAppVersion#app_yaml_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#app_yaml_path GoogleAppEngineFlexibleAppVersion#app_yaml_path}
   */
   readonly appYamlPath: string;
   /**
@@ -1552,7 +1552,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptions {
   * 
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#cloud_build_timeout GoogleAppEngineFlexibleAppVersion#cloud_build_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#cloud_build_timeout GoogleAppEngineFlexibleAppVersion#cloud_build_timeout}
   */
   readonly cloudBuildTimeout?: string;
 }
@@ -1560,7 +1560,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptions {
 export function googleAppEngineFlexibleAppVersionDeploymentCloudBuildOptionsToTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptionsOutputReference | GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     app_yaml_path: cdktn.stringToTerraform(struct!.appYamlPath),
@@ -1572,7 +1572,7 @@ export function googleAppEngineFlexibleAppVersionDeploymentCloudBuildOptionsToTe
 export function googleAppEngineFlexibleAppVersionDeploymentCloudBuildOptionsToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptionsOutputReference | GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     app_yaml_path: {
@@ -1665,7 +1665,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentContainer {
   * URI to the hosted container image in Google Container Registry. The URI must be fully qualified and include a tag or digest.
   * Examples: "gcr.io/my-project/image:tag" or "gcr.io/my-project/image@digest"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#image GoogleAppEngineFlexibleAppVersion#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#image GoogleAppEngineFlexibleAppVersion#image}
   */
   readonly image: string;
 }
@@ -1673,7 +1673,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentContainer {
 export function googleAppEngineFlexibleAppVersionDeploymentContainerToTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentContainerOutputReference | GoogleAppEngineFlexibleAppVersionDeploymentContainer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     image: cdktn.stringToTerraform(struct!.image),
@@ -1684,7 +1684,7 @@ export function googleAppEngineFlexibleAppVersionDeploymentContainerToTerraform(
 export function googleAppEngineFlexibleAppVersionDeploymentContainerToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentContainerOutputReference | GoogleAppEngineFlexibleAppVersionDeploymentContainer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     image: {
@@ -1746,19 +1746,19 @@ export class GoogleAppEngineFlexibleAppVersionDeploymentContainerOutputReference
 }
 export interface GoogleAppEngineFlexibleAppVersionDeploymentFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
   */
   readonly name: string;
   /**
   * SHA1 checksum of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#sha1_sum GoogleAppEngineFlexibleAppVersion#sha1_sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#sha1_sum GoogleAppEngineFlexibleAppVersion#sha1_sum}
   */
   readonly sha1Sum?: string;
   /**
   * Source URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#source_url GoogleAppEngineFlexibleAppVersion#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#source_url GoogleAppEngineFlexibleAppVersion#source_url}
   */
   readonly sourceUrl: string;
 }
@@ -1766,7 +1766,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentFiles {
 export function googleAppEngineFlexibleAppVersionDeploymentFilesToTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentFiles | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1779,7 +1779,7 @@ export function googleAppEngineFlexibleAppVersionDeploymentFilesToTerraform(stru
 export function googleAppEngineFlexibleAppVersionDeploymentFilesToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentFiles | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1928,13 +1928,13 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentZip {
   /**
   * files count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#files_count GoogleAppEngineFlexibleAppVersion#files_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#files_count GoogleAppEngineFlexibleAppVersion#files_count}
   */
   readonly filesCount?: number;
   /**
   * Source URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#source_url GoogleAppEngineFlexibleAppVersion#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#source_url GoogleAppEngineFlexibleAppVersion#source_url}
   */
   readonly sourceUrl: string;
 }
@@ -1942,7 +1942,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeploymentZip {
 export function googleAppEngineFlexibleAppVersionDeploymentZipToTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentZipOutputReference | GoogleAppEngineFlexibleAppVersionDeploymentZip): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     files_count: cdktn.numberToTerraform(struct!.filesCount),
@@ -1954,7 +1954,7 @@ export function googleAppEngineFlexibleAppVersionDeploymentZipToTerraform(struct
 export function googleAppEngineFlexibleAppVersionDeploymentZipToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentZipOutputReference | GoogleAppEngineFlexibleAppVersionDeploymentZip): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     files_count: {
@@ -2046,25 +2046,25 @@ export interface GoogleAppEngineFlexibleAppVersionDeployment {
   /**
   * cloud_build_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#cloud_build_options GoogleAppEngineFlexibleAppVersion#cloud_build_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#cloud_build_options GoogleAppEngineFlexibleAppVersion#cloud_build_options}
   */
   readonly cloudBuildOptions?: GoogleAppEngineFlexibleAppVersionDeploymentCloudBuildOptions;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#container GoogleAppEngineFlexibleAppVersion#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#container GoogleAppEngineFlexibleAppVersion#container}
   */
   readonly container?: GoogleAppEngineFlexibleAppVersionDeploymentContainer;
   /**
   * files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#files GoogleAppEngineFlexibleAppVersion#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#files GoogleAppEngineFlexibleAppVersion#files}
   */
   readonly files?: GoogleAppEngineFlexibleAppVersionDeploymentFiles[] | cdktn.IResolvable;
   /**
   * zip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#zip GoogleAppEngineFlexibleAppVersion#zip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#zip GoogleAppEngineFlexibleAppVersion#zip}
   */
   readonly zip?: GoogleAppEngineFlexibleAppVersionDeploymentZip;
 }
@@ -2072,7 +2072,7 @@ export interface GoogleAppEngineFlexibleAppVersionDeployment {
 export function googleAppEngineFlexibleAppVersionDeploymentToTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentOutputReference | GoogleAppEngineFlexibleAppVersionDeployment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cloud_build_options: googleAppEngineFlexibleAppVersionDeploymentCloudBuildOptionsToTerraform(struct!.cloudBuildOptions),
@@ -2086,7 +2086,7 @@ export function googleAppEngineFlexibleAppVersionDeploymentToTerraform(struct?: 
 export function googleAppEngineFlexibleAppVersionDeploymentToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionDeploymentOutputReference | GoogleAppEngineFlexibleAppVersionDeployment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cloud_build_options: {
@@ -2244,26 +2244,26 @@ export interface GoogleAppEngineFlexibleAppVersionEndpointsApiService {
   * Endpoints also has a rollout strategy called "MANAGED". When using this, Endpoints fetches the latest configuration and does not need
   * the configuration ID. In this case, configId must be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#config_id GoogleAppEngineFlexibleAppVersion#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#config_id GoogleAppEngineFlexibleAppVersion#config_id}
   */
   readonly configId?: string;
   /**
   * Enable or disable trace sampling. By default, this is set to false for enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#disable_trace_sampling GoogleAppEngineFlexibleAppVersion#disable_trace_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#disable_trace_sampling GoogleAppEngineFlexibleAppVersion#disable_trace_sampling}
   */
   readonly disableTraceSampling?: boolean | cdktn.IResolvable;
   /**
   * Endpoints service name which is the name of the "service" resource in the Service Management API.
   * For example "myapi.endpoints.myproject.cloud.goog"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
   */
   readonly name: string;
   /**
   * Endpoints rollout strategy. If FIXED, configId must be specified. If MANAGED, configId must be omitted. Default value: "FIXED" Possible values: ["FIXED", "MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#rollout_strategy GoogleAppEngineFlexibleAppVersion#rollout_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#rollout_strategy GoogleAppEngineFlexibleAppVersion#rollout_strategy}
   */
   readonly rolloutStrategy?: string;
 }
@@ -2271,7 +2271,7 @@ export interface GoogleAppEngineFlexibleAppVersionEndpointsApiService {
 export function googleAppEngineFlexibleAppVersionEndpointsApiServiceToTerraform(struct?: GoogleAppEngineFlexibleAppVersionEndpointsApiServiceOutputReference | GoogleAppEngineFlexibleAppVersionEndpointsApiService): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     config_id: cdktn.stringToTerraform(struct!.configId),
@@ -2285,7 +2285,7 @@ export function googleAppEngineFlexibleAppVersionEndpointsApiServiceToTerraform(
 export function googleAppEngineFlexibleAppVersionEndpointsApiServiceToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionEndpointsApiServiceOutputReference | GoogleAppEngineFlexibleAppVersionEndpointsApiService): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     config_id: {
@@ -2433,7 +2433,7 @@ export interface GoogleAppEngineFlexibleAppVersionEntrypoint {
   /**
   * The format should be a shell command that can be fed to bash -c.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#shell GoogleAppEngineFlexibleAppVersion#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#shell GoogleAppEngineFlexibleAppVersion#shell}
   */
   readonly shell: string;
 }
@@ -2441,7 +2441,7 @@ export interface GoogleAppEngineFlexibleAppVersionEntrypoint {
 export function googleAppEngineFlexibleAppVersionEntrypointToTerraform(struct?: GoogleAppEngineFlexibleAppVersionEntrypointOutputReference | GoogleAppEngineFlexibleAppVersionEntrypoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     shell: cdktn.stringToTerraform(struct!.shell),
@@ -2452,7 +2452,7 @@ export function googleAppEngineFlexibleAppVersionEntrypointToTerraform(struct?: 
 export function googleAppEngineFlexibleAppVersionEntrypointToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionEntrypointOutputReference | GoogleAppEngineFlexibleAppVersionEntrypoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     shell: {
@@ -2516,13 +2516,13 @@ export interface GoogleAppEngineFlexibleAppVersionFlexibleRuntimeSettings {
   /**
   * Operating System of the application runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#operating_system GoogleAppEngineFlexibleAppVersion#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#operating_system GoogleAppEngineFlexibleAppVersion#operating_system}
   */
   readonly operatingSystem?: string;
   /**
   * The runtime version of an App Engine flexible application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#runtime_version GoogleAppEngineFlexibleAppVersion#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#runtime_version GoogleAppEngineFlexibleAppVersion#runtime_version}
   */
   readonly runtimeVersion?: string;
 }
@@ -2530,7 +2530,7 @@ export interface GoogleAppEngineFlexibleAppVersionFlexibleRuntimeSettings {
 export function googleAppEngineFlexibleAppVersionFlexibleRuntimeSettingsToTerraform(struct?: GoogleAppEngineFlexibleAppVersionFlexibleRuntimeSettingsOutputReference | GoogleAppEngineFlexibleAppVersionFlexibleRuntimeSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     operating_system: cdktn.stringToTerraform(struct!.operatingSystem),
@@ -2542,7 +2542,7 @@ export function googleAppEngineFlexibleAppVersionFlexibleRuntimeSettingsToTerraf
 export function googleAppEngineFlexibleAppVersionFlexibleRuntimeSettingsToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionFlexibleRuntimeSettingsOutputReference | GoogleAppEngineFlexibleAppVersionFlexibleRuntimeSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     operating_system: {
@@ -2637,7 +2637,7 @@ export interface GoogleAppEngineFlexibleAppVersionHandlersScript {
   /**
   * Path to the script from the application root directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#script_path GoogleAppEngineFlexibleAppVersion#script_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#script_path GoogleAppEngineFlexibleAppVersion#script_path}
   */
   readonly scriptPath: string;
 }
@@ -2645,7 +2645,7 @@ export interface GoogleAppEngineFlexibleAppVersionHandlersScript {
 export function googleAppEngineFlexibleAppVersionHandlersScriptToTerraform(struct?: GoogleAppEngineFlexibleAppVersionHandlersScriptOutputReference | GoogleAppEngineFlexibleAppVersionHandlersScript): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     script_path: cdktn.stringToTerraform(struct!.scriptPath),
@@ -2656,7 +2656,7 @@ export function googleAppEngineFlexibleAppVersionHandlersScriptToTerraform(struc
 export function googleAppEngineFlexibleAppVersionHandlersScriptToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionHandlersScriptOutputReference | GoogleAppEngineFlexibleAppVersionHandlersScript): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     script_path: {
@@ -2722,7 +2722,7 @@ export interface GoogleAppEngineFlexibleAppVersionHandlersStaticFiles {
   * uploaded as static data and are only served to end users; they cannot be read by the application. If enabled,
   * uploads are charged against both your code and static data storage resource quotas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#application_readable GoogleAppEngineFlexibleAppVersion#application_readable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#application_readable GoogleAppEngineFlexibleAppVersion#application_readable}
   */
   readonly applicationReadable?: boolean | cdktn.IResolvable;
   /**
@@ -2730,40 +2730,40 @@ export interface GoogleAppEngineFlexibleAppVersionHandlersStaticFiles {
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example "3.5s".
   * Default is '0s'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#expiration GoogleAppEngineFlexibleAppVersion#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#expiration GoogleAppEngineFlexibleAppVersion#expiration}
   */
   readonly expiration?: string;
   /**
   * HTTP headers to use for all responses from these URLs.
   * An object containing a list of "key:value" value pairs.".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#http_headers GoogleAppEngineFlexibleAppVersion#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#http_headers GoogleAppEngineFlexibleAppVersion#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
   * MIME type used to serve all files served by this handler.
   * Defaults to file-specific MIME types, which are derived from each file's filename extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#mime_type GoogleAppEngineFlexibleAppVersion#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#mime_type GoogleAppEngineFlexibleAppVersion#mime_type}
   */
   readonly mimeType?: string;
   /**
   * Path to the static files matched by the URL pattern, from the application root directory.
   * The path can refer to text matched in groupings in the URL pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#path GoogleAppEngineFlexibleAppVersion#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#path GoogleAppEngineFlexibleAppVersion#path}
   */
   readonly path?: string;
   /**
   * Whether this handler should match the request if the file referenced by the handler does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#require_matching_file GoogleAppEngineFlexibleAppVersion#require_matching_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#require_matching_file GoogleAppEngineFlexibleAppVersion#require_matching_file}
   */
   readonly requireMatchingFile?: boolean | cdktn.IResolvable;
   /**
   * Regular expression that matches the file paths for all files that should be referenced by this handler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#upload_path_regex GoogleAppEngineFlexibleAppVersion#upload_path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#upload_path_regex GoogleAppEngineFlexibleAppVersion#upload_path_regex}
   */
   readonly uploadPathRegex?: string;
 }
@@ -2771,7 +2771,7 @@ export interface GoogleAppEngineFlexibleAppVersionHandlersStaticFiles {
 export function googleAppEngineFlexibleAppVersionHandlersStaticFilesToTerraform(struct?: GoogleAppEngineFlexibleAppVersionHandlersStaticFilesOutputReference | GoogleAppEngineFlexibleAppVersionHandlersStaticFiles): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     application_readable: cdktn.booleanToTerraform(struct!.applicationReadable),
@@ -2788,7 +2788,7 @@ export function googleAppEngineFlexibleAppVersionHandlersStaticFilesToTerraform(
 export function googleAppEngineFlexibleAppVersionHandlersStaticFilesToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionHandlersStaticFilesOutputReference | GoogleAppEngineFlexibleAppVersionHandlersStaticFiles): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     application_readable: {
@@ -3023,44 +3023,44 @@ export interface GoogleAppEngineFlexibleAppVersionHandlers {
   /**
   * Actions to take when the user is not logged in. Possible values: ["AUTH_FAIL_ACTION_REDIRECT", "AUTH_FAIL_ACTION_UNAUTHORIZED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#auth_fail_action GoogleAppEngineFlexibleAppVersion#auth_fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#auth_fail_action GoogleAppEngineFlexibleAppVersion#auth_fail_action}
   */
   readonly authFailAction?: string;
   /**
   * Methods to restrict access to a URL based on login status. Possible values: ["LOGIN_OPTIONAL", "LOGIN_ADMIN", "LOGIN_REQUIRED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#login GoogleAppEngineFlexibleAppVersion#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#login GoogleAppEngineFlexibleAppVersion#login}
   */
   readonly login?: string;
   /**
   * 30x code to use when performing redirects for the secure field. Possible values: ["REDIRECT_HTTP_RESPONSE_CODE_301", "REDIRECT_HTTP_RESPONSE_CODE_302", "REDIRECT_HTTP_RESPONSE_CODE_303", "REDIRECT_HTTP_RESPONSE_CODE_307"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#redirect_http_response_code GoogleAppEngineFlexibleAppVersion#redirect_http_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#redirect_http_response_code GoogleAppEngineFlexibleAppVersion#redirect_http_response_code}
   */
   readonly redirectHttpResponseCode?: string;
   /**
   * Security (HTTPS) enforcement for this URL. Possible values: ["SECURE_DEFAULT", "SECURE_NEVER", "SECURE_OPTIONAL", "SECURE_ALWAYS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#security_level GoogleAppEngineFlexibleAppVersion#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#security_level GoogleAppEngineFlexibleAppVersion#security_level}
   */
   readonly securityLevel?: string;
   /**
   * URL prefix. Uses regular expression syntax, which means regexp special characters must be escaped, but should not contain groupings.
   * All URLs that begin with this prefix are handled by this handler, using the portion of the URL after the prefix as part of the file path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#url_regex GoogleAppEngineFlexibleAppVersion#url_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#url_regex GoogleAppEngineFlexibleAppVersion#url_regex}
   */
   readonly urlRegex?: string;
   /**
   * script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#script GoogleAppEngineFlexibleAppVersion#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#script GoogleAppEngineFlexibleAppVersion#script}
   */
   readonly script?: GoogleAppEngineFlexibleAppVersionHandlersScript;
   /**
   * static_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#static_files GoogleAppEngineFlexibleAppVersion#static_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#static_files GoogleAppEngineFlexibleAppVersion#static_files}
   */
   readonly staticFiles?: GoogleAppEngineFlexibleAppVersionHandlersStaticFiles;
 }
@@ -3068,7 +3068,7 @@ export interface GoogleAppEngineFlexibleAppVersionHandlers {
 export function googleAppEngineFlexibleAppVersionHandlersToTerraform(struct?: GoogleAppEngineFlexibleAppVersionHandlers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     auth_fail_action: cdktn.stringToTerraform(struct!.authFailAction),
@@ -3085,7 +3085,7 @@ export function googleAppEngineFlexibleAppVersionHandlersToTerraform(struct?: Go
 export function googleAppEngineFlexibleAppVersionHandlersToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionHandlers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     auth_fail_action: {
@@ -3352,43 +3352,43 @@ export interface GoogleAppEngineFlexibleAppVersionLivenessCheck {
   /**
   * Interval between health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#check_interval GoogleAppEngineFlexibleAppVersion#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#check_interval GoogleAppEngineFlexibleAppVersion#check_interval}
   */
   readonly checkInterval?: string;
   /**
   * Number of consecutive failed checks required before considering the VM unhealthy. Default: 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#failure_threshold GoogleAppEngineFlexibleAppVersion#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#failure_threshold GoogleAppEngineFlexibleAppVersion#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Host header to send when performing a HTTP Readiness check. Example: "myapp.appspot.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#host GoogleAppEngineFlexibleAppVersion#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#host GoogleAppEngineFlexibleAppVersion#host}
   */
   readonly host?: string;
   /**
   * The initial delay before starting to execute the checks. Default: "300s"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#initial_delay GoogleAppEngineFlexibleAppVersion#initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#initial_delay GoogleAppEngineFlexibleAppVersion#initial_delay}
   */
   readonly initialDelay?: string;
   /**
   * The request path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#path GoogleAppEngineFlexibleAppVersion#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#path GoogleAppEngineFlexibleAppVersion#path}
   */
   readonly path: string;
   /**
   * Number of consecutive successful checks required before considering the VM healthy. Default: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#success_threshold GoogleAppEngineFlexibleAppVersion#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#success_threshold GoogleAppEngineFlexibleAppVersion#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Time before the check is considered failed. Default: "4s"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#timeout GoogleAppEngineFlexibleAppVersion#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#timeout GoogleAppEngineFlexibleAppVersion#timeout}
   */
   readonly timeout?: string;
 }
@@ -3396,7 +3396,7 @@ export interface GoogleAppEngineFlexibleAppVersionLivenessCheck {
 export function googleAppEngineFlexibleAppVersionLivenessCheckToTerraform(struct?: GoogleAppEngineFlexibleAppVersionLivenessCheckOutputReference | GoogleAppEngineFlexibleAppVersionLivenessCheck): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     check_interval: cdktn.stringToTerraform(struct!.checkInterval),
@@ -3413,7 +3413,7 @@ export function googleAppEngineFlexibleAppVersionLivenessCheckToTerraform(struct
 export function googleAppEngineFlexibleAppVersionLivenessCheckToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionLivenessCheckOutputReference | GoogleAppEngineFlexibleAppVersionLivenessCheck): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     check_interval: {
@@ -3648,7 +3648,7 @@ export interface GoogleAppEngineFlexibleAppVersionManualScaling {
   * **Note:** When managing the number of instances at runtime through the App Engine Admin API or the (now deprecated) Python 2
   * Modules API set_num_instances() you must use 'lifecycle.ignore_changes = ["manual_scaling"[0].instances]' to prevent drift detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#instances GoogleAppEngineFlexibleAppVersion#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#instances GoogleAppEngineFlexibleAppVersion#instances}
   */
   readonly instances: number;
 }
@@ -3656,7 +3656,7 @@ export interface GoogleAppEngineFlexibleAppVersionManualScaling {
 export function googleAppEngineFlexibleAppVersionManualScalingToTerraform(struct?: GoogleAppEngineFlexibleAppVersionManualScalingOutputReference | GoogleAppEngineFlexibleAppVersionManualScaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     instances: cdktn.numberToTerraform(struct!.instances),
@@ -3667,7 +3667,7 @@ export function googleAppEngineFlexibleAppVersionManualScalingToTerraform(struct
 export function googleAppEngineFlexibleAppVersionManualScalingToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionManualScalingOutputReference | GoogleAppEngineFlexibleAppVersionManualScaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     instances: {
@@ -3731,31 +3731,31 @@ export interface GoogleAppEngineFlexibleAppVersionNetwork {
   /**
   * List of ports, or port pairs, to forward from the virtual machine to the application container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#forwarded_ports GoogleAppEngineFlexibleAppVersion#forwarded_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#forwarded_ports GoogleAppEngineFlexibleAppVersion#forwarded_ports}
   */
   readonly forwardedPorts?: string[];
   /**
   * Prevent instances from receiving an ephemeral external IP address. Possible values: ["EXTERNAL", "INTERNAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#instance_ip_mode GoogleAppEngineFlexibleAppVersion#instance_ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#instance_ip_mode GoogleAppEngineFlexibleAppVersion#instance_ip_mode}
   */
   readonly instanceIpMode?: string;
   /**
   * Tag to apply to the instance during creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#instance_tag GoogleAppEngineFlexibleAppVersion#instance_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#instance_tag GoogleAppEngineFlexibleAppVersion#instance_tag}
   */
   readonly instanceTag?: string;
   /**
   * Google Compute Engine network where the virtual machines are created. Specify the short name, not the resource path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
   */
   readonly name: string;
   /**
   * Enable session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#session_affinity GoogleAppEngineFlexibleAppVersion#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#session_affinity GoogleAppEngineFlexibleAppVersion#session_affinity}
   */
   readonly sessionAffinity?: boolean | cdktn.IResolvable;
   /**
@@ -3766,7 +3766,7 @@ export interface GoogleAppEngineFlexibleAppVersionNetwork {
   * If the network that the instance is being created in is a custom Subnet Mode Network, then the subnetworkName must be specified and the IP address is created from the IPCidrRange of the subnetwork.
   * If specified, the subnetwork must exist in the same region as the App Engine flexible environment application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#subnetwork GoogleAppEngineFlexibleAppVersion#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#subnetwork GoogleAppEngineFlexibleAppVersion#subnetwork}
   */
   readonly subnetwork?: string;
 }
@@ -3774,7 +3774,7 @@ export interface GoogleAppEngineFlexibleAppVersionNetwork {
 export function googleAppEngineFlexibleAppVersionNetworkToTerraform(struct?: GoogleAppEngineFlexibleAppVersionNetworkOutputReference | GoogleAppEngineFlexibleAppVersionNetwork): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     forwarded_ports: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.forwardedPorts),
@@ -3790,7 +3790,7 @@ export function googleAppEngineFlexibleAppVersionNetworkToTerraform(struct?: Goo
 export function googleAppEngineFlexibleAppVersionNetworkToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionNetworkOutputReference | GoogleAppEngineFlexibleAppVersionNetwork): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     forwarded_ports: {
@@ -3995,43 +3995,43 @@ export interface GoogleAppEngineFlexibleAppVersionReadinessCheck {
   * A maximum time limit on application initialization, measured from moment the application successfully
   * replies to a healthcheck until it is ready to serve traffic. Default: "300s"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#app_start_timeout GoogleAppEngineFlexibleAppVersion#app_start_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#app_start_timeout GoogleAppEngineFlexibleAppVersion#app_start_timeout}
   */
   readonly appStartTimeout?: string;
   /**
   * Interval between health checks.  Default: "5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#check_interval GoogleAppEngineFlexibleAppVersion#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#check_interval GoogleAppEngineFlexibleAppVersion#check_interval}
   */
   readonly checkInterval?: string;
   /**
   * Number of consecutive failed checks required before removing traffic. Default: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#failure_threshold GoogleAppEngineFlexibleAppVersion#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#failure_threshold GoogleAppEngineFlexibleAppVersion#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Host header to send when performing a HTTP Readiness check. Example: "myapp.appspot.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#host GoogleAppEngineFlexibleAppVersion#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#host GoogleAppEngineFlexibleAppVersion#host}
   */
   readonly host?: string;
   /**
   * The request path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#path GoogleAppEngineFlexibleAppVersion#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#path GoogleAppEngineFlexibleAppVersion#path}
   */
   readonly path: string;
   /**
   * Number of consecutive successful checks required before receiving traffic. Default: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#success_threshold GoogleAppEngineFlexibleAppVersion#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#success_threshold GoogleAppEngineFlexibleAppVersion#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Time before the check is considered failed. Default: "4s"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#timeout GoogleAppEngineFlexibleAppVersion#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#timeout GoogleAppEngineFlexibleAppVersion#timeout}
   */
   readonly timeout?: string;
 }
@@ -4039,7 +4039,7 @@ export interface GoogleAppEngineFlexibleAppVersionReadinessCheck {
 export function googleAppEngineFlexibleAppVersionReadinessCheckToTerraform(struct?: GoogleAppEngineFlexibleAppVersionReadinessCheckOutputReference | GoogleAppEngineFlexibleAppVersionReadinessCheck): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     app_start_timeout: cdktn.stringToTerraform(struct!.appStartTimeout),
@@ -4056,7 +4056,7 @@ export function googleAppEngineFlexibleAppVersionReadinessCheckToTerraform(struc
 export function googleAppEngineFlexibleAppVersionReadinessCheckToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionReadinessCheckOutputReference | GoogleAppEngineFlexibleAppVersionReadinessCheck): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     app_start_timeout: {
@@ -4288,19 +4288,19 @@ export interface GoogleAppEngineFlexibleAppVersionResourcesVolumes {
   /**
   * Unique name for the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
   */
   readonly name: string;
   /**
   * Volume size in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#size_gb GoogleAppEngineFlexibleAppVersion#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#size_gb GoogleAppEngineFlexibleAppVersion#size_gb}
   */
   readonly sizeGb: number;
   /**
   * Underlying volume type, e.g. 'tmpfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#volume_type GoogleAppEngineFlexibleAppVersion#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#volume_type GoogleAppEngineFlexibleAppVersion#volume_type}
   */
   readonly volumeType: string;
 }
@@ -4308,7 +4308,7 @@ export interface GoogleAppEngineFlexibleAppVersionResourcesVolumes {
 export function googleAppEngineFlexibleAppVersionResourcesVolumesToTerraform(struct?: GoogleAppEngineFlexibleAppVersionResourcesVolumes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -4321,7 +4321,7 @@ export function googleAppEngineFlexibleAppVersionResourcesVolumesToTerraform(str
 export function googleAppEngineFlexibleAppVersionResourcesVolumesToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionResourcesVolumes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -4467,25 +4467,25 @@ export interface GoogleAppEngineFlexibleAppVersionResources {
   /**
   * Number of CPU cores needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#cpu GoogleAppEngineFlexibleAppVersion#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#cpu GoogleAppEngineFlexibleAppVersion#cpu}
   */
   readonly cpu?: number;
   /**
   * Disk size (GB) needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#disk_gb GoogleAppEngineFlexibleAppVersion#disk_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#disk_gb GoogleAppEngineFlexibleAppVersion#disk_gb}
   */
   readonly diskGb?: number;
   /**
   * Memory (GB) needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#memory_gb GoogleAppEngineFlexibleAppVersion#memory_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#memory_gb GoogleAppEngineFlexibleAppVersion#memory_gb}
   */
   readonly memoryGb?: number;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#volumes GoogleAppEngineFlexibleAppVersion#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#volumes GoogleAppEngineFlexibleAppVersion#volumes}
   */
   readonly volumes?: GoogleAppEngineFlexibleAppVersionResourcesVolumes[] | cdktn.IResolvable;
 }
@@ -4493,7 +4493,7 @@ export interface GoogleAppEngineFlexibleAppVersionResources {
 export function googleAppEngineFlexibleAppVersionResourcesToTerraform(struct?: GoogleAppEngineFlexibleAppVersionResourcesOutputReference | GoogleAppEngineFlexibleAppVersionResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cpu: cdktn.numberToTerraform(struct!.cpu),
@@ -4507,7 +4507,7 @@ export function googleAppEngineFlexibleAppVersionResourcesToTerraform(struct?: G
 export function googleAppEngineFlexibleAppVersionResourcesToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionResourcesOutputReference | GoogleAppEngineFlexibleAppVersionResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cpu: {
@@ -4656,15 +4656,15 @@ export class GoogleAppEngineFlexibleAppVersionResourcesOutputReference extends c
 }
 export interface GoogleAppEngineFlexibleAppVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#create GoogleAppEngineFlexibleAppVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#create GoogleAppEngineFlexibleAppVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#delete GoogleAppEngineFlexibleAppVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#delete GoogleAppEngineFlexibleAppVersion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#update GoogleAppEngineFlexibleAppVersion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#update GoogleAppEngineFlexibleAppVersion#update}
   */
   readonly update?: string;
 }
@@ -4672,7 +4672,7 @@ export interface GoogleAppEngineFlexibleAppVersionTimeouts {
 export function googleAppEngineFlexibleAppVersionTimeoutsToTerraform(struct?: GoogleAppEngineFlexibleAppVersionTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -4685,7 +4685,7 @@ export function googleAppEngineFlexibleAppVersionTimeoutsToTerraform(struct?: Go
 export function googleAppEngineFlexibleAppVersionTimeoutsToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -4818,7 +4818,7 @@ export interface GoogleAppEngineFlexibleAppVersionVpcAccessConnector {
   /**
   * Full Serverless VPC Access Connector name e.g. /projects/my-project/locations/us-central1/connectors/c1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#name GoogleAppEngineFlexibleAppVersion#name}
   */
   readonly name: string;
 }
@@ -4826,7 +4826,7 @@ export interface GoogleAppEngineFlexibleAppVersionVpcAccessConnector {
 export function googleAppEngineFlexibleAppVersionVpcAccessConnectorToTerraform(struct?: GoogleAppEngineFlexibleAppVersionVpcAccessConnectorOutputReference | GoogleAppEngineFlexibleAppVersionVpcAccessConnector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -4837,7 +4837,7 @@ export function googleAppEngineFlexibleAppVersionVpcAccessConnectorToTerraform(s
 export function googleAppEngineFlexibleAppVersionVpcAccessConnectorToHclTerraform(struct?: GoogleAppEngineFlexibleAppVersionVpcAccessConnectorOutputReference | GoogleAppEngineFlexibleAppVersionVpcAccessConnector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -4899,7 +4899,7 @@ export class GoogleAppEngineFlexibleAppVersionVpcAccessConnectorOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version google_app_engine_flexible_app_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version google_app_engine_flexible_app_version}
 */
 export class GoogleAppEngineFlexibleAppVersion extends cdktn.TerraformResource {
 
@@ -4915,7 +4915,7 @@ export class GoogleAppEngineFlexibleAppVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleAppEngineFlexibleAppVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAppEngineFlexibleAppVersion to import
-  * @param importFromId The id of the existing GoogleAppEngineFlexibleAppVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleAppEngineFlexibleAppVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAppEngineFlexibleAppVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4927,7 +4927,7 @@ export class GoogleAppEngineFlexibleAppVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4938,7 +4938,7 @@ export class GoogleAppEngineFlexibleAppVersion extends cdktn.TerraformResource {
       terraformResourceType: 'google_app_engine_flexible_app_version',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

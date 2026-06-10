@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleFolderOrganizationPolicyConfig extends cdktn.TerraformMet
   /**
   * The name of the Constraint the Policy is configuring, for example, serviceuser.services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#constraint GoogleFolderOrganizationPolicy#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#constraint GoogleFolderOrganizationPolicy#constraint}
   */
   readonly constraint: string;
   /**
@@ -27,17 +27,17 @@ export interface GoogleFolderOrganizationPolicyConfig extends cdktn.TerraformMet
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#deletion_policy GoogleFolderOrganizationPolicy#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#deletion_policy GoogleFolderOrganizationPolicy#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The resource name of the folder to set the policy for. Its format is folders/{folder_id}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#folder GoogleFolderOrganizationPolicy#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#folder GoogleFolderOrganizationPolicy#folder}
   */
   readonly folder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#id GoogleFolderOrganizationPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#id GoogleFolderOrganizationPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,31 +46,31 @@ export interface GoogleFolderOrganizationPolicyConfig extends cdktn.TerraformMet
   /**
   * Version of the Policy. Default version is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#version GoogleFolderOrganizationPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#version GoogleFolderOrganizationPolicy#version}
   */
   readonly version?: number;
   /**
   * boolean_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#boolean_policy GoogleFolderOrganizationPolicy#boolean_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#boolean_policy GoogleFolderOrganizationPolicy#boolean_policy}
   */
   readonly booleanPolicy?: GoogleFolderOrganizationPolicyBooleanPolicy;
   /**
   * list_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#list_policy GoogleFolderOrganizationPolicy#list_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#list_policy GoogleFolderOrganizationPolicy#list_policy}
   */
   readonly listPolicy?: GoogleFolderOrganizationPolicyListPolicy;
   /**
   * restore_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#restore_policy GoogleFolderOrganizationPolicy#restore_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#restore_policy GoogleFolderOrganizationPolicy#restore_policy}
   */
   readonly restorePolicy?: GoogleFolderOrganizationPolicyRestorePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#timeouts GoogleFolderOrganizationPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#timeouts GoogleFolderOrganizationPolicy#timeouts}
   */
   readonly timeouts?: GoogleFolderOrganizationPolicyTimeouts;
 }
@@ -78,7 +78,7 @@ export interface GoogleFolderOrganizationPolicyBooleanPolicy {
   /**
   * If true, then the Policy is enforced. If false, then any configuration is acceptable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#enforced GoogleFolderOrganizationPolicy#enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#enforced GoogleFolderOrganizationPolicy#enforced}
   */
   readonly enforced: boolean | cdktn.IResolvable;
 }
@@ -86,7 +86,7 @@ export interface GoogleFolderOrganizationPolicyBooleanPolicy {
 export function googleFolderOrganizationPolicyBooleanPolicyToTerraform(struct?: GoogleFolderOrganizationPolicyBooleanPolicyOutputReference | GoogleFolderOrganizationPolicyBooleanPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enforced: cdktn.booleanToTerraform(struct!.enforced),
@@ -97,7 +97,7 @@ export function googleFolderOrganizationPolicyBooleanPolicyToTerraform(struct?: 
 export function googleFolderOrganizationPolicyBooleanPolicyToHclTerraform(struct?: GoogleFolderOrganizationPolicyBooleanPolicyOutputReference | GoogleFolderOrganizationPolicyBooleanPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enforced: {
@@ -161,13 +161,13 @@ export interface GoogleFolderOrganizationPolicyListPolicyAllow {
   /**
   * The policy allows or denies all values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#all GoogleFolderOrganizationPolicy#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#all GoogleFolderOrganizationPolicy#all}
   */
   readonly all?: boolean | cdktn.IResolvable;
   /**
   * The policy can define specific values that are allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#values GoogleFolderOrganizationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#values GoogleFolderOrganizationPolicy#values}
   */
   readonly values?: string[];
 }
@@ -175,7 +175,7 @@ export interface GoogleFolderOrganizationPolicyListPolicyAllow {
 export function googleFolderOrganizationPolicyListPolicyAllowToTerraform(struct?: GoogleFolderOrganizationPolicyListPolicyAllowOutputReference | GoogleFolderOrganizationPolicyListPolicyAllow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     all: cdktn.booleanToTerraform(struct!.all),
@@ -187,7 +187,7 @@ export function googleFolderOrganizationPolicyListPolicyAllowToTerraform(struct?
 export function googleFolderOrganizationPolicyListPolicyAllowToHclTerraform(struct?: GoogleFolderOrganizationPolicyListPolicyAllowOutputReference | GoogleFolderOrganizationPolicyListPolicyAllow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     all: {
@@ -282,13 +282,13 @@ export interface GoogleFolderOrganizationPolicyListPolicyDeny {
   /**
   * The policy allows or denies all values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#all GoogleFolderOrganizationPolicy#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#all GoogleFolderOrganizationPolicy#all}
   */
   readonly all?: boolean | cdktn.IResolvable;
   /**
   * The policy can define specific values that are allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#values GoogleFolderOrganizationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#values GoogleFolderOrganizationPolicy#values}
   */
   readonly values?: string[];
 }
@@ -296,7 +296,7 @@ export interface GoogleFolderOrganizationPolicyListPolicyDeny {
 export function googleFolderOrganizationPolicyListPolicyDenyToTerraform(struct?: GoogleFolderOrganizationPolicyListPolicyDenyOutputReference | GoogleFolderOrganizationPolicyListPolicyDeny): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     all: cdktn.booleanToTerraform(struct!.all),
@@ -308,7 +308,7 @@ export function googleFolderOrganizationPolicyListPolicyDenyToTerraform(struct?:
 export function googleFolderOrganizationPolicyListPolicyDenyToHclTerraform(struct?: GoogleFolderOrganizationPolicyListPolicyDenyOutputReference | GoogleFolderOrganizationPolicyListPolicyDeny): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     all: {
@@ -403,25 +403,25 @@ export interface GoogleFolderOrganizationPolicyListPolicy {
   /**
   * If set to true, the values from the effective Policy of the parent resource are inherited, meaning the values set in this Policy are added to the values inherited up the hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#inherit_from_parent GoogleFolderOrganizationPolicy#inherit_from_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#inherit_from_parent GoogleFolderOrganizationPolicy#inherit_from_parent}
   */
   readonly inheritFromParent?: boolean | cdktn.IResolvable;
   /**
   * The Google Cloud Console will try to default to a configuration that matches the value specified in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#suggested_value GoogleFolderOrganizationPolicy#suggested_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#suggested_value GoogleFolderOrganizationPolicy#suggested_value}
   */
   readonly suggestedValue?: string;
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#allow GoogleFolderOrganizationPolicy#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#allow GoogleFolderOrganizationPolicy#allow}
   */
   readonly allow?: GoogleFolderOrganizationPolicyListPolicyAllow;
   /**
   * deny block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#deny GoogleFolderOrganizationPolicy#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#deny GoogleFolderOrganizationPolicy#deny}
   */
   readonly deny?: GoogleFolderOrganizationPolicyListPolicyDeny;
 }
@@ -429,7 +429,7 @@ export interface GoogleFolderOrganizationPolicyListPolicy {
 export function googleFolderOrganizationPolicyListPolicyToTerraform(struct?: GoogleFolderOrganizationPolicyListPolicyOutputReference | GoogleFolderOrganizationPolicyListPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     inherit_from_parent: cdktn.booleanToTerraform(struct!.inheritFromParent),
@@ -443,7 +443,7 @@ export function googleFolderOrganizationPolicyListPolicyToTerraform(struct?: Goo
 export function googleFolderOrganizationPolicyListPolicyToHclTerraform(struct?: GoogleFolderOrganizationPolicyListPolicyOutputReference | GoogleFolderOrganizationPolicyListPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     inherit_from_parent: {
@@ -594,7 +594,7 @@ export interface GoogleFolderOrganizationPolicyRestorePolicy {
   /**
   * May only be set to true. If set, then the default Policy is restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#default GoogleFolderOrganizationPolicy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#default GoogleFolderOrganizationPolicy#default}
   */
   readonly default: boolean | cdktn.IResolvable;
 }
@@ -602,7 +602,7 @@ export interface GoogleFolderOrganizationPolicyRestorePolicy {
 export function googleFolderOrganizationPolicyRestorePolicyToTerraform(struct?: GoogleFolderOrganizationPolicyRestorePolicyOutputReference | GoogleFolderOrganizationPolicyRestorePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     default: cdktn.booleanToTerraform(struct!.default),
@@ -613,7 +613,7 @@ export function googleFolderOrganizationPolicyRestorePolicyToTerraform(struct?: 
 export function googleFolderOrganizationPolicyRestorePolicyToHclTerraform(struct?: GoogleFolderOrganizationPolicyRestorePolicyOutputReference | GoogleFolderOrganizationPolicyRestorePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     default: {
@@ -675,19 +675,19 @@ export class GoogleFolderOrganizationPolicyRestorePolicyOutputReference extends 
 }
 export interface GoogleFolderOrganizationPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#create GoogleFolderOrganizationPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#create GoogleFolderOrganizationPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#delete GoogleFolderOrganizationPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#delete GoogleFolderOrganizationPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#read GoogleFolderOrganizationPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#read GoogleFolderOrganizationPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#update GoogleFolderOrganizationPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#update GoogleFolderOrganizationPolicy#update}
   */
   readonly update?: string;
 }
@@ -695,7 +695,7 @@ export interface GoogleFolderOrganizationPolicyTimeouts {
 export function googleFolderOrganizationPolicyTimeoutsToTerraform(struct?: GoogleFolderOrganizationPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -709,7 +709,7 @@ export function googleFolderOrganizationPolicyTimeoutsToTerraform(struct?: Googl
 export function googleFolderOrganizationPolicyTimeoutsToHclTerraform(struct?: GoogleFolderOrganizationPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -868,7 +868,7 @@ export class GoogleFolderOrganizationPolicyTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy google_folder_organization_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy google_folder_organization_policy}
 */
 export class GoogleFolderOrganizationPolicy extends cdktn.TerraformResource {
 
@@ -884,7 +884,7 @@ export class GoogleFolderOrganizationPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleFolderOrganizationPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFolderOrganizationPolicy to import
-  * @param importFromId The id of the existing GoogleFolderOrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFolderOrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFolderOrganizationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -896,7 +896,7 @@ export class GoogleFolderOrganizationPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_organization_policy google_folder_organization_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_folder_organization_policy google_folder_organization_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -907,7 +907,7 @@ export class GoogleFolderOrganizationPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'google_folder_organization_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### GoogleActiveDirectoryPeering <a name="GoogleActiveDirectoryPeering" id="@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering google_active_directory_peering}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering google_active_directory_peering}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer"></a>
 
@@ -45,11 +45,11 @@ GoogleActiveDirectoryPeering.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.authorizedNetwork">authorizedNetwork</a></code> | <code>java.lang.String</code> | The full names of the Google Compute Engine networks to which the instance is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.domainResource">domainResource</a></code> | <code>java.lang.String</code> | Full domain resource path for the Managed AD Domain involved in peering. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.peeringId">peeringId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.peeringId">peeringId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels that can contain user-provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.status">status</a></code> | <code>java.lang.String</code> | The current state of this Peering. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.statusMessage">statusMessage</a></code> | <code>java.lang.String</code> | Additional information about the current status of this peering, if available. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeering.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts">GoogleActiveDirectoryPeeringTimeouts</a></code> | timeouts block. |
@@ -124,7 +124,7 @@ The full names of the Google Compute Engine networks to which the instance is co
 
 Caller needs to make sure that CIDR subnets do not overlap between networks, else peering creation will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#authorized_network GoogleActiveDirectoryPeering#authorized_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#authorized_network GoogleActiveDirectoryPeering#authorized_network}
 
 ---
 
@@ -136,7 +136,7 @@ Full domain resource path for the Managed AD Domain involved in peering.
 
 The resource path should be in the form projects/{projectId}/locations/global/domains/{domainName}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#domain_resource GoogleActiveDirectoryPeering#domain_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#domain_resource GoogleActiveDirectoryPeering#domain_resource}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}.
 
 ---
 
@@ -161,7 +161,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#deletion_policy GoogleActiveDirectoryPeering#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#deletion_policy GoogleActiveDirectoryPeering#deletion_policy}
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,7 +185,7 @@ Resource labels that can contain user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#labels GoogleActiveDirectoryPeering#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#labels GoogleActiveDirectoryPeering#labels}
 
 ---
 
@@ -193,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}.
 
 ---
 
@@ -203,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The current state of this Peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#status GoogleActiveDirectoryPeering#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#status GoogleActiveDirectoryPeering#status}
 
 ---
 
@@ -213,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Additional information about the current status of this peering, if available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#status_message GoogleActiveDirectoryPeering#status_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#status_message GoogleActiveDirectoryPeering#status_message}
 
 ---
 
@@ -223,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#timeouts GoogleActiveDirectoryPeering#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#timeouts GoogleActiveDirectoryPeering#timeouts}
 
 ---
 
@@ -734,7 +734,7 @@ The construct id used in the generated config for the GoogleActiveDirectoryPeeri
 
 The id of the existing GoogleActiveDirectoryPeering that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1223,11 +1223,11 @@ GoogleActiveDirectoryPeeringConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.authorizedNetwork">authorizedNetwork</a></code> | <code>java.lang.String</code> | The full names of the Google Compute Engine networks to which the instance is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.domainResource">domainResource</a></code> | <code>java.lang.String</code> | Full domain resource path for the Managed AD Domain involved in peering. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.peeringId">peeringId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.peeringId">peeringId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels that can contain user-provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.status">status</a></code> | <code>java.lang.String</code> | The current state of this Peering. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.statusMessage">statusMessage</a></code> | <code>java.lang.String</code> | Additional information about the current status of this peering, if available. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts">GoogleActiveDirectoryPeeringTimeouts</a></code> | timeouts block. |
@@ -1316,7 +1316,7 @@ The full names of the Google Compute Engine networks to which the instance is co
 
 Caller needs to make sure that CIDR subnets do not overlap between networks, else peering creation will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#authorized_network GoogleActiveDirectoryPeering#authorized_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#authorized_network GoogleActiveDirectoryPeering#authorized_network}
 
 ---
 
@@ -1332,7 +1332,7 @@ Full domain resource path for the Managed AD Domain involved in peering.
 
 The resource path should be in the form projects/{projectId}/locations/global/domains/{domainName}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#domain_resource GoogleActiveDirectoryPeering#domain_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#domain_resource GoogleActiveDirectoryPeering#domain_resource}
 
 ---
 
@@ -1344,7 +1344,7 @@ public java.lang.String getPeeringId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#peering_id GoogleActiveDirectoryPeering#peering_id}.
 
 ---
 
@@ -1365,7 +1365,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#deletion_policy GoogleActiveDirectoryPeering#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#deletion_policy GoogleActiveDirectoryPeering#deletion_policy}
 
 ---
 
@@ -1377,7 +1377,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#id GoogleActiveDirectoryPeering#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1397,7 +1397,7 @@ Resource labels that can contain user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#labels GoogleActiveDirectoryPeering#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#labels GoogleActiveDirectoryPeering#labels}
 
 ---
 
@@ -1409,7 +1409,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#project GoogleActiveDirectoryPeering#project}.
 
 ---
 
@@ -1423,7 +1423,7 @@ public java.lang.String getStatus();
 
 The current state of this Peering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#status GoogleActiveDirectoryPeering#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#status GoogleActiveDirectoryPeering#status}
 
 ---
 
@@ -1437,7 +1437,7 @@ public java.lang.String getStatusMessage();
 
 Additional information about the current status of this peering, if available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#status_message GoogleActiveDirectoryPeering#status_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#status_message GoogleActiveDirectoryPeering#status_message}
 
 ---
 
@@ -1451,7 +1451,7 @@ public GoogleActiveDirectoryPeeringTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#timeouts GoogleActiveDirectoryPeering#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#timeouts GoogleActiveDirectoryPeering#timeouts}
 
 ---
 
@@ -1473,9 +1473,9 @@ GoogleActiveDirectoryPeeringTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#create GoogleActiveDirectoryPeering#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#delete GoogleActiveDirectoryPeering#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#update GoogleActiveDirectoryPeering#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#create GoogleActiveDirectoryPeering#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#delete GoogleActiveDirectoryPeering#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryPeering.GoogleActiveDirectoryPeeringTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#update GoogleActiveDirectoryPeering#update}. |
 
 ---
 
@@ -1487,7 +1487,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#create GoogleActiveDirectoryPeering#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#create GoogleActiveDirectoryPeering#create}.
 
 ---
 
@@ -1499,7 +1499,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#delete GoogleActiveDirectoryPeering#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#delete GoogleActiveDirectoryPeering#delete}.
 
 ---
 
@@ -1511,7 +1511,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_active_directory_peering#update GoogleActiveDirectoryPeering#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_active_directory_peering#update GoogleActiveDirectoryPeering#update}.
 
 ---
 

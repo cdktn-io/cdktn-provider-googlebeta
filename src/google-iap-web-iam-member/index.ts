@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,42 +13,42 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleIapWebIamMemberConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#id GoogleIapWebIamMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#id GoogleIapWebIamMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#member GoogleIapWebIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#member GoogleIapWebIamMember#member}
   */
   readonly member: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#project GoogleIapWebIamMember#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#project GoogleIapWebIamMember#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#role GoogleIapWebIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#role GoogleIapWebIamMember#role}
   */
   readonly role: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#condition GoogleIapWebIamMember#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#condition GoogleIapWebIamMember#condition}
   */
   readonly condition?: GoogleIapWebIamMemberCondition;
 }
 export interface GoogleIapWebIamMemberCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#description GoogleIapWebIamMember#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#description GoogleIapWebIamMember#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#expression GoogleIapWebIamMember#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#expression GoogleIapWebIamMember#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#title GoogleIapWebIamMember#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#title GoogleIapWebIamMember#title}
   */
   readonly title: string;
 }
@@ -56,7 +56,7 @@ export interface GoogleIapWebIamMemberCondition {
 export function googleIapWebIamMemberConditionToTerraform(struct?: GoogleIapWebIamMemberConditionOutputReference | GoogleIapWebIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -69,7 +69,7 @@ export function googleIapWebIamMemberConditionToTerraform(struct?: GoogleIapWebI
 export function googleIapWebIamMemberConditionToHclTerraform(struct?: GoogleIapWebIamMemberConditionOutputReference | GoogleIapWebIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -184,7 +184,7 @@ export class GoogleIapWebIamMemberConditionOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member google_iap_web_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member google_iap_web_iam_member}
 */
 export class GoogleIapWebIamMember extends cdktn.TerraformResource {
 
@@ -200,7 +200,7 @@ export class GoogleIapWebIamMember extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleIapWebIamMember resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIapWebIamMember to import
-  * @param importFromId The id of the existing GoogleIapWebIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIapWebIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIapWebIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -212,7 +212,7 @@ export class GoogleIapWebIamMember extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iap_web_iam_member google_iap_web_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_web_iam_member google_iap_web_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,7 +223,7 @@ export class GoogleIapWebIamMember extends cdktn.TerraformResource {
       terraformResourceType: 'google_iap_web_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

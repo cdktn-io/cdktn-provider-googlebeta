@@ -12,14 +12,14 @@ export interface GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorRespons
   * - 4xx: Load Balancer will apply the policy if the backend service responds with any response code in the range of 400 to 499.
   * Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
   */
   readonly matchResponseCodes?: string[];
   /**
   * The HTTP status code returned with the response containing the custom error content.
   * If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
   */
   readonly overrideResponseCode?: number;
   /**
@@ -28,7 +28,7 @@ export interface GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorRespons
   * If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
   * The value must be from 1 to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
   */
   readonly path?: string;
 }
@@ -36,7 +36,7 @@ export interface GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorRespons
 export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
@@ -49,7 +49,7 @@ export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponse
 export function googleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     match_response_codes: {
@@ -211,13 +211,13 @@ export interface GoogleComputeUrlMapDefaultCustomErrorResponsePolicy {
   * If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
   * If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
   */
   readonly errorService?: string;
   /**
   * error_response_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
   readonly errorResponseRule?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
@@ -225,7 +225,7 @@ export interface GoogleComputeUrlMapDefaultCustomErrorResponsePolicy {
 export function googleComputeUrlMapDefaultCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapDefaultCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     error_service: cdktn.stringToTerraform(struct!.errorService),
@@ -237,7 +237,7 @@ export function googleComputeUrlMapDefaultCustomErrorResponsePolicyToTerraform(s
 export function googleComputeUrlMapDefaultCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapDefaultCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     error_service: {
@@ -340,7 +340,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy 
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
   */
   readonly excludedQueryParameters?: string[];
   /**
@@ -351,7 +351,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy 
   * a route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
   */
   readonly includeHost?: boolean | cdktn.IResolvable;
   /**
@@ -362,7 +362,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy 
   * route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
   */
   readonly includeProtocol?: boolean | cdktn.IResolvable;
   /**
@@ -376,7 +376,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy 
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
   */
   readonly includeQueryString?: boolean | cdktn.IResolvable;
   /**
@@ -388,13 +388,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy 
   * Buckets will result in a configuration error. Up to 5 cookie names can
   * be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
   */
   readonly includedCookieNames?: string[];
   /**
   * Allows HTTP request headers (by name) to be used in the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
   */
   readonly includedHeaderNames?: string[];
   /**
@@ -403,7 +403,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy 
   * or excludedQueryParameters, not both. '&' and '=' will be percent
   * encoded and not treated as delimiters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
   */
   readonly includedQueryParameters?: string[];
 }
@@ -411,7 +411,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy 
 export function googleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     excluded_query_parameters: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedQueryParameters),
@@ -428,7 +428,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyTo
 export function googleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     excluded_query_parameters: {
@@ -663,13 +663,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl {
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -677,7 +677,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl {
 export function googleComputeUrlMapDefaultRouteActionCachePolicyClientTtlToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -689,7 +689,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyClientTtlToTerra
 export function googleComputeUrlMapDefaultRouteActionCachePolicyClientTtlToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -781,13 +781,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl {
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -795,7 +795,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl {
 export function googleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -807,7 +807,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlToTerr
 export function googleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -899,13 +899,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl {
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -913,7 +913,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl {
 export function googleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -925,7 +925,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlToTerrafor
 export function googleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -1017,13 +1017,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCaching
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -1031,7 +1031,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCaching
 export function googleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtlToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -1043,7 +1043,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingP
 export function googleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtlToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -1138,13 +1138,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCaching
   * specified as values, and you cannot specify a status code more than
   * once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
   */
   readonly code?: number;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
   */
   readonly ttl?: GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyTtl;
 }
@@ -1152,7 +1152,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCaching
 export function googleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     code: cdktn.numberToTerraform(struct!.code),
@@ -1164,7 +1164,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingP
 export function googleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     code: {
@@ -1291,13 +1291,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -1305,7 +1305,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale
 export function googleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -1317,7 +1317,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleT
 export function googleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -1412,14 +1412,14 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicy {
   * header names can be specified. The cache is bypassed for all cacheMode
   * values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
   */
   readonly cacheBypassRequestHeaderNames?: string[];
   /**
   * Specifies the cache setting for all responses from this route. If not
   * specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
   */
   readonly cacheMode?: string;
   /**
@@ -1439,7 +1439,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicy {
   * These defaults can be overridden in negativeCachingPolicy. If not
   * specified, Cloud CDN applies negative caching by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
   */
   readonly negativeCaching?: boolean | cdktn.IResolvable;
   /**
@@ -1447,43 +1447,43 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicy {
   * requests into a small number of requests to the origin. If not specified,
   * Cloud CDN applies request coalescing by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
   */
   readonly requestCoalescing?: boolean | cdktn.IResolvable;
   /**
   * cache_key_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
   */
   readonly cacheKeyPolicy?: GoogleComputeUrlMapDefaultRouteActionCachePolicyCacheKeyPolicy;
   /**
   * client_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
   */
   readonly clientTtl?: GoogleComputeUrlMapDefaultRouteActionCachePolicyClientTtl;
   /**
   * default_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
   */
   readonly defaultTtl?: GoogleComputeUrlMapDefaultRouteActionCachePolicyDefaultTtl;
   /**
   * max_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
   */
   readonly maxTtl?: GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl;
   /**
   * negative_caching_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
   */
   readonly negativeCachingPolicy?: GoogleComputeUrlMapDefaultRouteActionCachePolicyNegativeCachingPolicy[] | cdktn.IResolvable;
   /**
   * serve_while_stale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
   */
   readonly serveWhileStale?: GoogleComputeUrlMapDefaultRouteActionCachePolicyServeWhileStale;
 }
@@ -1491,7 +1491,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCachePolicy {
 export function googleComputeUrlMapDefaultRouteActionCachePolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_bypass_request_header_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.cacheBypassRequestHeaderNames),
@@ -1511,7 +1511,7 @@ export function googleComputeUrlMapDefaultRouteActionCachePolicyToTerraform(stru
 export function googleComputeUrlMapDefaultRouteActionCachePolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCachePolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_bypass_request_header_names: {
@@ -1831,19 +1831,19 @@ export interface GoogleComputeUrlMapDefaultRouteActionCorsPolicy {
   * In response to a preflight request, setting this to true indicates that the actual request can include user credentials.
   * This translates to the Access-Control-Allow-Credentials header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * Specifies the content for the Access-Control-Allow-Methods header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
@@ -1851,33 +1851,33 @@ export interface GoogleComputeUrlMapDefaultRouteActionCorsPolicy {
   * please see en.cppreference.com/w/cpp/regex/ecmascript
   * An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
   */
   readonly allowOriginRegexes?: string[];
   /**
   * Specifies the list of origins that will be allowed to do CORS requests.
   * An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
   */
   readonly allowOrigins?: string[];
   /**
   * If true, specifies the CORS policy is disabled. The default value is false, which indicates that the CORS policy is in effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies how long results of a preflight request can be cached in seconds.
   * This translates to the Access-Control-Max-Age header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
   */
   readonly maxAge?: number;
 }
@@ -1885,7 +1885,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionCorsPolicy {
 export function googleComputeUrlMapDefaultRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
@@ -1903,7 +1903,7 @@ export function googleComputeUrlMapDefaultRouteActionCorsPolicyToTerraform(struc
 export function googleComputeUrlMapDefaultRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_credentials: {
@@ -2167,14 +2167,14 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort 
   * The HTTP status code used to abort the request.
   * The value must be between 200 and 599 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
   */
   readonly httpStatus?: number;
   /**
   * The percentage of traffic (connections/operations/requests) which will be aborted as part of fault injection.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage?: number;
 }
@@ -2182,7 +2182,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     http_status: cdktn.numberToTerraform(struct!.httpStatus),
@@ -2194,7 +2194,7 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortTo
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     http_status: {
@@ -2290,14 +2290,14 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayF
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are
   * represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds?: string;
 }
@@ -2305,7 +2305,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayF
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -2317,7 +2317,7 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFi
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -2413,13 +2413,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay 
   * The percentage of traffic (connections/operations/requests) on which delay will be introduced as part of fault injection.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage?: number;
   /**
   * fixed_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
   */
   readonly fixedDelay?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixedDelay;
 }
@@ -2427,7 +2427,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay 
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     percentage: cdktn.numberToTerraform(struct!.percentage),
@@ -2439,7 +2439,7 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayTo
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     percentage: {
@@ -2534,13 +2534,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy {
   /**
   * abort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
   */
   readonly abort?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbort;
   /**
   * delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
   */
   readonly delay?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyDelay;
 }
@@ -2548,7 +2548,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy {
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     abort: googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyAbortToTerraform(struct!.abort),
@@ -2560,7 +2560,7 @@ export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyToTerra
 export function googleComputeUrlMapDefaultRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     abort: {
@@ -2656,14 +2656,14 @@ export interface GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration {
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are represented
   * with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -2671,7 +2671,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration {
 export function googleComputeUrlMapDefaultRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -2683,7 +2683,7 @@ export function googleComputeUrlMapDefaultRouteActionMaxStreamDurationToTerrafor
 export function googleComputeUrlMapDefaultRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -2775,14 +2775,14 @@ export interface GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy {
   /**
   * The full or partial URL to the BackendService resource being mirrored to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
   */
   readonly backendService: string;
   /**
   * The percentage of requests to be mirrored to backendService.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
   */
   readonly mirrorPercent?: number;
 }
@@ -2790,7 +2790,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy {
 export function googleComputeUrlMapDefaultRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_service: cdktn.stringToTerraform(struct!.backendService),
@@ -2802,7 +2802,7 @@ export function googleComputeUrlMapDefaultRouteActionRequestMirrorPolicyToTerraf
 export function googleComputeUrlMapDefaultRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_service: {
@@ -2895,14 +2895,14 @@ export interface GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout {
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are
   * represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds?: string;
 }
@@ -2910,7 +2910,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout {
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -2922,7 +2922,7 @@ export function googleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutToT
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -3017,7 +3017,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionRetryPolicy {
   /**
   * Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
   */
   readonly numRetries?: number;
   /**
@@ -3038,13 +3038,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionRetryPolicy {
   * * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
   * * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
   */
   readonly retryConditions?: string[];
   /**
   * per_try_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
   */
   readonly perTryTimeout?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyPerTryTimeout;
 }
@@ -3052,7 +3052,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionRetryPolicy {
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     num_retries: cdktn.numberToTerraform(struct!.numRetries),
@@ -3065,7 +3065,7 @@ export function googleComputeUrlMapDefaultRouteActionRetryPolicyToTerraform(stru
 export function googleComputeUrlMapDefaultRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapDefaultRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     num_retries: {
@@ -3189,14 +3189,14 @@ export interface GoogleComputeUrlMapDefaultRouteActionTimeout {
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are represented
   * with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds?: string;
 }
@@ -3204,7 +3204,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionTimeout {
 export function googleComputeUrlMapDefaultRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -3216,7 +3216,7 @@ export function googleComputeUrlMapDefaultRouteActionTimeoutToTerraform(struct?:
 export function googleComputeUrlMapDefaultRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapDefaultRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -3314,7 +3314,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionUrlRewrite {
   * 
   * The value must be between 1 and 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
@@ -3323,7 +3323,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionUrlRewrite {
   * 
   * The value must be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
   */
   readonly pathPrefixRewrite?: string;
 }
@@ -3331,7 +3331,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionUrlRewrite {
 export function googleComputeUrlMapDefaultRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapDefaultRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
@@ -3343,7 +3343,7 @@ export function googleComputeUrlMapDefaultRouteActionUrlRewriteToTerraform(struc
 export function googleComputeUrlMapDefaultRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapDefaultRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_rewrite: {
@@ -3438,20 +3438,20 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
   /**
   * The name of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName?: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue?: string;
   /**
   * If false, headerValue is appended to any values that already exist for the header.
   * If true, headerValue is set for the header, discarding any values that were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace?: boolean | cdktn.IResolvable;
 }
@@ -3459,7 +3459,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -3472,7 +3472,7 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHead
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -3627,20 +3627,20 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
   /**
   * The name of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName?: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue?: string;
   /**
   * If false, headerValue is appended to any values that already exist for the header.
   * If true, headerValue is set for the header, discarding any values that were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace?: boolean | cdktn.IResolvable;
 }
@@ -3648,7 +3648,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -3661,7 +3661,7 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHead
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -3817,26 +3817,26 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
   * A list of header names for headers that need to be removed from the request prior to
   * forwarding the request to the backendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
   * A list of header names for headers that need to be removed from the response prior to sending the
   * response back to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
@@ -3844,7 +3844,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHea
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
@@ -3858,7 +3858,7 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHead
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     request_headers_to_remove: {
@@ -4011,7 +4011,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices {
   * request to backendService, the loadbalancer applies any relevant headerActions
   * specified as part of this backendServiceWeight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
   */
   readonly backendService?: string;
   /**
@@ -4024,13 +4024,13 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices {
   * 
   * The value must be between 0 and 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
   */
   readonly weight?: number;
   /**
   * header_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
   */
   readonly headerAction?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServicesHeaderAction;
 }
@@ -4038,7 +4038,7 @@ export interface GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices {
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_service: cdktn.stringToTerraform(struct!.backendService),
@@ -4051,7 +4051,7 @@ export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToTe
 export function googleComputeUrlMapDefaultRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_service: {
@@ -4206,55 +4206,55 @@ export interface GoogleComputeUrlMapDefaultRouteAction {
   /**
   * cache_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
   */
   readonly cachePolicy?: GoogleComputeUrlMapDefaultRouteActionCachePolicy;
   /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
   */
   readonly corsPolicy?: GoogleComputeUrlMapDefaultRouteActionCorsPolicy;
   /**
   * fault_injection_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
   */
   readonly faultInjectionPolicy?: GoogleComputeUrlMapDefaultRouteActionFaultInjectionPolicy;
   /**
   * max_stream_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
   */
   readonly maxStreamDuration?: GoogleComputeUrlMapDefaultRouteActionMaxStreamDuration;
   /**
   * request_mirror_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
   */
   readonly requestMirrorPolicy?: GoogleComputeUrlMapDefaultRouteActionRequestMirrorPolicy;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
   */
   readonly retryPolicy?: GoogleComputeUrlMapDefaultRouteActionRetryPolicy;
   /**
   * timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
   */
   readonly timeout?: GoogleComputeUrlMapDefaultRouteActionTimeout;
   /**
   * url_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
   */
   readonly urlRewrite?: GoogleComputeUrlMapDefaultRouteActionUrlRewrite;
   /**
   * weighted_backend_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
   */
   readonly weightedBackendServices?: GoogleComputeUrlMapDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable;
 }
@@ -4262,7 +4262,7 @@ export interface GoogleComputeUrlMapDefaultRouteAction {
 export function googleComputeUrlMapDefaultRouteActionToTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionOutputReference | GoogleComputeUrlMapDefaultRouteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_policy: googleComputeUrlMapDefaultRouteActionCachePolicyToTerraform(struct!.cachePolicy),
@@ -4281,7 +4281,7 @@ export function googleComputeUrlMapDefaultRouteActionToTerraform(struct?: Google
 export function googleComputeUrlMapDefaultRouteActionToHclTerraform(struct?: GoogleComputeUrlMapDefaultRouteActionOutputReference | GoogleComputeUrlMapDefaultRouteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_policy: {
@@ -4573,7 +4573,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   * The host that will be used in the redirect response instead of the one that was
   * supplied in the request. The value must be between 1 and 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
   */
   readonly hostRedirect?: string;
   /**
@@ -4582,7 +4582,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   * request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
   * true for TargetHttpsProxy is not permitted. The default is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
@@ -4592,7 +4592,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   * original request will be used for the redirect. The value must be between 1 and 1024
   * characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
   */
   readonly pathRedirect?: string;
   /**
@@ -4602,7 +4602,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   * neither. If neither is supplied, the path of the original request will be used for
   * the redirect. The value must be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
   */
   readonly prefixRedirect?: string;
   /**
@@ -4620,7 +4620,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   * * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   * the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
   */
   readonly redirectResponseCode?: string;
   /**
@@ -4629,7 +4629,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
   * retained. The default is set to false.
   *  This field is required to ensure an empty block is not set. The normal default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
   */
   readonly stripQuery: boolean | cdktn.IResolvable;
 }
@@ -4637,7 +4637,7 @@ export interface GoogleComputeUrlMapDefaultUrlRedirect {
 export function googleComputeUrlMapDefaultUrlRedirectToTerraform(struct?: GoogleComputeUrlMapDefaultUrlRedirectOutputReference | GoogleComputeUrlMapDefaultUrlRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
@@ -4653,7 +4653,7 @@ export function googleComputeUrlMapDefaultUrlRedirectToTerraform(struct?: Google
 export function googleComputeUrlMapDefaultUrlRedirectToHclTerraform(struct?: GoogleComputeUrlMapDefaultUrlRedirectOutputReference | GoogleComputeUrlMapDefaultUrlRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_redirect: {
@@ -4857,13 +4857,13 @@ export interface GoogleComputeUrlMapHeaderActionRequestHeadersToAdd {
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -4871,7 +4871,7 @@ export interface GoogleComputeUrlMapHeaderActionRequestHeadersToAdd {
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -4879,7 +4879,7 @@ export interface GoogleComputeUrlMapHeaderActionRequestHeadersToAdd {
 export function googleComputeUrlMapHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -4892,7 +4892,7 @@ export function googleComputeUrlMapHeaderActionRequestHeadersToAddToTerraform(st
 export function googleComputeUrlMapHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -5038,13 +5038,13 @@ export interface GoogleComputeUrlMapHeaderActionResponseHeadersToAdd {
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -5052,7 +5052,7 @@ export interface GoogleComputeUrlMapHeaderActionResponseHeadersToAdd {
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -5060,7 +5060,7 @@ export interface GoogleComputeUrlMapHeaderActionResponseHeadersToAdd {
 export function googleComputeUrlMapHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -5073,7 +5073,7 @@ export function googleComputeUrlMapHeaderActionResponseHeadersToAddToTerraform(s
 export function googleComputeUrlMapHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -5220,26 +5220,26 @@ export interface GoogleComputeUrlMapHeaderAction {
   * A list of header names for headers that need to be removed from the request
   * prior to forwarding the request to the backendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
   * A list of header names for headers that need to be removed from the response
   * prior to sending the response back to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: GoogleComputeUrlMapHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: GoogleComputeUrlMapHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
@@ -5247,7 +5247,7 @@ export interface GoogleComputeUrlMapHeaderAction {
 export function googleComputeUrlMapHeaderActionToTerraform(struct?: GoogleComputeUrlMapHeaderActionOutputReference | GoogleComputeUrlMapHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
@@ -5261,7 +5261,7 @@ export function googleComputeUrlMapHeaderActionToTerraform(struct?: GoogleComput
 export function googleComputeUrlMapHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapHeaderActionOutputReference | GoogleComputeUrlMapHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     request_headers_to_remove: {
@@ -5413,7 +5413,7 @@ export interface GoogleComputeUrlMapHostRule {
   * An optional description of this resource. Provide this property when you create
   * the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#description GoogleComputeUrlMap#description}
   */
   readonly description?: string;
   /**
@@ -5421,14 +5421,14 @@ export interface GoogleComputeUrlMapHostRule {
   * match any string of ([a-z0-9-.]*). In that case, * must be the first character
   * and must be followed in the pattern by either - or ..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#hosts GoogleComputeUrlMap#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#hosts GoogleComputeUrlMap#hosts}
   */
   readonly hosts: string[];
   /**
   * The name of the PathMatcher to use to match the path portion of the URL if the
   * hostRule matches the URL's host portion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_matcher GoogleComputeUrlMap#path_matcher}
   */
   readonly pathMatcher: string;
 }
@@ -5436,7 +5436,7 @@ export interface GoogleComputeUrlMapHostRule {
 export function googleComputeUrlMapHostRuleToTerraform(struct?: GoogleComputeUrlMapHostRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -5449,7 +5449,7 @@ export function googleComputeUrlMapHostRuleToTerraform(struct?: GoogleComputeUrl
 export function googleComputeUrlMapHostRuleToHclTerraform(struct?: GoogleComputeUrlMapHostRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -5602,14 +5602,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyE
   * - 4xx: Load Balancer will apply the policy if the backend service responds with any response code in the range of 400 to 499.
   * Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
   */
   readonly matchResponseCodes?: string[];
   /**
   * The HTTP status code returned with the response containing the custom error content.
   * If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
   */
   readonly overrideResponseCode?: number;
   /**
@@ -5618,7 +5618,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyE
   * If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
   * The value must be from 1 to 1024 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
   */
   readonly path?: string;
 }
@@ -5626,7 +5626,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyE
 export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
@@ -5639,7 +5639,7 @@ export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyEr
 export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     match_response_codes: {
@@ -5799,13 +5799,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy 
   * If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
   * If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
   */
   readonly errorService?: string;
   /**
   * error_response_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
   readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
@@ -5813,7 +5813,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy 
 export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     error_service: cdktn.stringToTerraform(struct!.errorService),
@@ -5825,7 +5825,7 @@ export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyTo
 export function googleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     error_service: {
@@ -5928,7 +5928,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCach
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
   */
   readonly excludedQueryParameters?: string[];
   /**
@@ -5939,7 +5939,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCach
   * a route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
   */
   readonly includeHost?: boolean | cdktn.IResolvable;
   /**
@@ -5950,7 +5950,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCach
   * route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
   */
   readonly includeProtocol?: boolean | cdktn.IResolvable;
   /**
@@ -5964,7 +5964,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCach
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
   */
   readonly includeQueryString?: boolean | cdktn.IResolvable;
   /**
@@ -5976,13 +5976,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCach
   * Buckets will result in a configuration error. Up to 5 cookie names can
   * be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
   */
   readonly includedCookieNames?: string[];
   /**
   * Allows HTTP request headers (by name) to be used in the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
   */
   readonly includedHeaderNames?: string[];
   /**
@@ -5991,7 +5991,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCach
   * or excludedQueryParameters, not both. '&' and '=' will be percent
   * encoded and not treated as delimiters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
   */
   readonly includedQueryParameters?: string[];
 }
@@ -5999,7 +5999,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCach
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     excluded_query_parameters: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedQueryParameters),
@@ -6016,7 +6016,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCache
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     excluded_query_parameters: {
@@ -6251,13 +6251,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClie
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -6265,7 +6265,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClie
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -6277,7 +6277,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClien
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -6369,13 +6369,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefa
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -6383,7 +6383,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefa
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -6395,7 +6395,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefau
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -6487,13 +6487,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxT
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -6501,7 +6501,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxT
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -6513,7 +6513,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTt
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -6605,13 +6605,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNega
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -6619,7 +6619,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNega
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -6631,7 +6631,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegat
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -6726,13 +6726,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNega
   * specified as values, and you cannot specify a status code more than
   * once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
   */
   readonly code?: number;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
   */
   readonly ttl?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyTtl;
 }
@@ -6740,7 +6740,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNega
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     code: cdktn.numberToTerraform(struct!.code),
@@ -6752,7 +6752,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegat
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     code: {
@@ -6879,13 +6879,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServ
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -6893,7 +6893,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServ
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStaleToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -6905,7 +6905,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServe
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStaleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -7000,14 +7000,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy {
   * header names can be specified. The cache is bypassed for all cacheMode
   * values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
   */
   readonly cacheBypassRequestHeaderNames?: string[];
   /**
   * Specifies the cache setting for all responses from this route. If not
   * specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
   */
   readonly cacheMode?: string;
   /**
@@ -7027,7 +7027,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy {
   * These defaults can be overridden in negativeCachingPolicy. If not
   * specified, Cloud CDN applies negative caching by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
   */
   readonly negativeCaching?: boolean | cdktn.IResolvable;
   /**
@@ -7035,43 +7035,43 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy {
   * requests into a small number of requests to the origin. If not specified,
   * Cloud CDN applies request coalescing by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
   */
   readonly requestCoalescing?: boolean | cdktn.IResolvable;
   /**
   * cache_key_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
   */
   readonly cacheKeyPolicy?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyCacheKeyPolicy;
   /**
   * client_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
   */
   readonly clientTtl?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyClientTtl;
   /**
   * default_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
   */
   readonly defaultTtl?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyDefaultTtl;
   /**
   * max_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
   */
   readonly maxTtl?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyMaxTtl;
   /**
   * negative_caching_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
   */
   readonly negativeCachingPolicy?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyNegativeCachingPolicy[] | cdktn.IResolvable;
   /**
   * serve_while_stale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
   */
   readonly serveWhileStale?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyServeWhileStale;
 }
@@ -7079,7 +7079,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy {
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_bypass_request_header_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.cacheBypassRequestHeaderNames),
@@ -7099,7 +7099,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyToTer
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_bypass_request_header_names: {
@@ -7419,19 +7419,19 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy {
   * In response to a preflight request, setting this to true indicates that the actual request can include user credentials.
   * This translates to the Access-Control-Allow-Credentials header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * Specifies the content for the Access-Control-Allow-Methods header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
@@ -7439,33 +7439,33 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy {
   * please see en.cppreference.com/w/cpp/regex/ecmascript
   * An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
   */
   readonly allowOriginRegexes?: string[];
   /**
   * Specifies the list of origins that will be allowed to do CORS requests.
   * An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
   */
   readonly allowOrigins?: string[];
   /**
   * If true, specifies the CORS policy is disabled. The default value is false, which indicates that the CORS policy is in effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies how long results of a preflight request can be cached in seconds.
   * This translates to the Access-Control-Max-Age header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
   */
   readonly maxAge?: number;
 }
@@ -7473,7 +7473,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy {
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
@@ -7491,7 +7491,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyToTerr
 export function googleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_credentials: {
@@ -7755,14 +7755,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
   * The HTTP status code used to abort the request.
   * The value must be between 200 and 599 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
   */
   readonly httpStatus?: number;
   /**
   * The percentage of traffic (connections/operations/requests) which will be aborted as part of fault injection.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage?: number;
 }
@@ -7770,7 +7770,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     http_status: cdktn.numberToTerraform(struct!.httpStatus),
@@ -7782,7 +7782,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     http_status: {
@@ -7878,14 +7878,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are
   * represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds?: string;
 }
@@ -7893,7 +7893,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -7905,7 +7905,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -8001,13 +8001,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
   * The percentage of traffic (connections/operations/requests) on which delay will be introduced as part of fault injection.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage?: number;
   /**
   * fixed_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
   */
   readonly fixedDelay?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayFixedDelay;
 }
@@ -8015,7 +8015,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     percentage: cdktn.numberToTerraform(struct!.percentage),
@@ -8027,7 +8027,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     percentage: {
@@ -8122,13 +8122,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
   /**
   * abort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
   */
   readonly abort?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbort;
   /**
   * delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
   */
   readonly delay?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyDelay;
 }
@@ -8136,7 +8136,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     abort: googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyAbortToTerraform(struct!.abort),
@@ -8148,7 +8148,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPo
 export function googleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     abort: {
@@ -8244,14 +8244,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurati
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are represented
   * with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -8259,7 +8259,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurati
 export function googleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -8271,7 +8271,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuratio
 export function googleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -8363,14 +8363,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPo
   /**
   * The full or partial URL to the BackendService resource being mirrored to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
   */
   readonly backendService: string;
   /**
   * The percentage of requests to be mirrored to backendService.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
   */
   readonly mirrorPercent?: number;
 }
@@ -8378,7 +8378,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPo
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_service: cdktn.stringToTerraform(struct!.backendService),
@@ -8390,7 +8390,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPol
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_service: {
@@ -8483,14 +8483,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerT
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are
   * represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds?: string;
 }
@@ -8498,7 +8498,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerT
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -8510,7 +8510,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTr
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -8605,7 +8605,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy {
   /**
   * Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
   */
   readonly numRetries?: number;
   /**
@@ -8626,13 +8626,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy {
   * * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
   * * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
   */
   readonly retryConditions?: string[];
   /**
   * per_try_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
   */
   readonly perTryTimeout?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTimeout;
 }
@@ -8640,7 +8640,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy {
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     num_retries: cdktn.numberToTerraform(struct!.numRetries),
@@ -8653,7 +8653,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyToTer
 export function googleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     num_retries: {
@@ -8777,14 +8777,14 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout {
   * Span of time that's a fraction of a second at nanosecond resolution. Durations less than one second are represented
   * with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   * Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds?: string;
 }
@@ -8792,7 +8792,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout {
 export function googleComputeUrlMapPathMatcherDefaultRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -8804,7 +8804,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionTimeoutToTerrafo
 export function googleComputeUrlMapPathMatcherDefaultRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -8902,7 +8902,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite {
   * 
   * The value must be between 1 and 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
@@ -8911,7 +8911,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite {
   * 
   * The value must be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
   */
   readonly pathPrefixRewrite?: string;
 }
@@ -8919,7 +8919,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite {
 export function googleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
@@ -8931,7 +8931,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteToTerr
 export function googleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_rewrite: {
@@ -9026,20 +9026,20 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   /**
   * The name of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName?: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue?: string;
   /**
   * If false, headerValue is appended to any values that already exist for the header.
   * If true, headerValue is set for the header, discarding any values that were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace?: boolean | cdktn.IResolvable;
 }
@@ -9047,7 +9047,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -9060,7 +9060,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -9215,20 +9215,20 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   /**
   * The name of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName?: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue?: string;
   /**
   * If false, headerValue is appended to any values that already exist for the header.
   * If true, headerValue is set for the header, discarding any values that were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace?: boolean | cdktn.IResolvable;
 }
@@ -9236,7 +9236,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -9249,7 +9249,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -9405,26 +9405,26 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   * A list of header names for headers that need to be removed from the request prior to
   * forwarding the request to the backendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
   * A list of header names for headers that need to be removed from the response prior to sending the
   * response back to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
@@ -9432,7 +9432,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
@@ -9446,7 +9446,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     request_headers_to_remove: {
@@ -9599,7 +9599,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   * request to backendService, the loadbalancer applies any relevant headerActions
   * specified as part of this backendServiceWeight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
   */
   readonly backendService?: string;
   /**
@@ -9612,13 +9612,13 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
   * 
   * The value must be between 0 and 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
   */
   readonly weight?: number;
   /**
   * header_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
   */
   readonly headerAction?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesHeaderAction;
 }
@@ -9626,7 +9626,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_service: cdktn.stringToTerraform(struct!.backendService),
@@ -9639,7 +9639,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendS
 export function googleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_service: {
@@ -9794,55 +9794,55 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteAction {
   /**
   * cache_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
   */
   readonly cachePolicy?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy;
   /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
   */
   readonly corsPolicy?: GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy;
   /**
   * fault_injection_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
   */
   readonly faultInjectionPolicy?: GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy;
   /**
   * max_stream_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
   */
   readonly maxStreamDuration?: GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration;
   /**
   * request_mirror_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
   */
   readonly requestMirrorPolicy?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
   */
   readonly retryPolicy?: GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy;
   /**
   * timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
   */
   readonly timeout?: GoogleComputeUrlMapPathMatcherDefaultRouteActionTimeout;
   /**
   * url_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
   */
   readonly urlRewrite?: GoogleComputeUrlMapPathMatcherDefaultRouteActionUrlRewrite;
   /**
   * weighted_backend_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
   */
   readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherDefaultRouteActionWeightedBackendServices[] | cdktn.IResolvable;
 }
@@ -9850,7 +9850,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultRouteAction {
 export function googleComputeUrlMapPathMatcherDefaultRouteActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_policy: googleComputeUrlMapPathMatcherDefaultRouteActionCachePolicyToTerraform(struct!.cachePolicy),
@@ -9869,7 +9869,7 @@ export function googleComputeUrlMapPathMatcherDefaultRouteActionToTerraform(stru
 export function googleComputeUrlMapPathMatcherDefaultRouteActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference | GoogleComputeUrlMapPathMatcherDefaultRouteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_policy: {
@@ -10161,7 +10161,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   * The host that will be used in the redirect response instead of the one that was
   * supplied in the request. The value must be between 1 and 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
   */
   readonly hostRedirect?: string;
   /**
@@ -10170,7 +10170,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   * request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
   * true for TargetHttpsProxy is not permitted. The default is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
@@ -10180,7 +10180,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   * original request will be used for the redirect. The value must be between 1 and 1024
   * characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
   */
   readonly pathRedirect?: string;
   /**
@@ -10190,7 +10190,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   * neither. If neither is supplied, the path of the original request will be used for
   * the redirect. The value must be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
   */
   readonly prefixRedirect?: string;
   /**
@@ -10208,7 +10208,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   * * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   * the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
   */
   readonly redirectResponseCode?: string;
   /**
@@ -10217,7 +10217,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
   * retained.
   *  This field is required to ensure an empty block is not set. The normal default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
   */
   readonly stripQuery: boolean | cdktn.IResolvable;
 }
@@ -10225,7 +10225,7 @@ export interface GoogleComputeUrlMapPathMatcherDefaultUrlRedirect {
 export function googleComputeUrlMapPathMatcherDefaultUrlRedirectToTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherDefaultUrlRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
@@ -10241,7 +10241,7 @@ export function googleComputeUrlMapPathMatcherDefaultUrlRedirectToTerraform(stru
 export function googleComputeUrlMapPathMatcherDefaultUrlRedirectToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherDefaultUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherDefaultUrlRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_redirect: {
@@ -10445,13 +10445,13 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd {
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -10459,7 +10459,7 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd {
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -10467,7 +10467,7 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd {
 export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -10480,7 +10480,7 @@ export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToT
 export function googleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -10626,13 +10626,13 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd 
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -10640,7 +10640,7 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd 
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -10648,7 +10648,7 @@ export interface GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd 
 export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -10661,7 +10661,7 @@ export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddTo
 export function googleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -10808,26 +10808,26 @@ export interface GoogleComputeUrlMapPathMatcherHeaderAction {
   * A list of header names for headers that need to be removed from the request
   * prior to forwarding the request to the backendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
   * A list of header names for headers that need to be removed from the response
   * prior to sending the response back to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
@@ -10835,7 +10835,7 @@ export interface GoogleComputeUrlMapPathMatcherHeaderAction {
 export function googleComputeUrlMapPathMatcherHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
@@ -10849,7 +10849,7 @@ export function googleComputeUrlMapPathMatcherHeaderActionToTerraform(struct?: G
 export function googleComputeUrlMapPathMatcherHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     request_headers_to_remove: {
@@ -11006,14 +11006,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy
   * 
   * Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
   */
   readonly matchResponseCodes?: string[];
   /**
   * The HTTP status code returned with the response containing the custom error content.
   * If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
   */
   readonly overrideResponseCode?: number;
   /**
@@ -11022,7 +11022,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy
   * If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
   * The value must be from 1 to 1024 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
   */
   readonly path?: string;
 }
@@ -11030,7 +11030,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy
 export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
@@ -11043,7 +11043,7 @@ export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyE
 export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     match_response_codes: {
@@ -11205,13 +11205,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy
   * If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
   * If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
   */
   readonly errorService?: string;
   /**
   * error_response_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
   readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
@@ -11219,7 +11219,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy
 export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     error_service: cdktn.stringToTerraform(struct!.errorService),
@@ -11231,7 +11231,7 @@ export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyT
 export function googleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     error_service: {
@@ -11334,7 +11334,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCac
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
   */
   readonly excludedQueryParameters?: string[];
   /**
@@ -11345,7 +11345,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCac
   * a route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
   */
   readonly includeHost?: boolean | cdktn.IResolvable;
   /**
@@ -11356,7 +11356,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCac
   * route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
   */
   readonly includeProtocol?: boolean | cdktn.IResolvable;
   /**
@@ -11370,7 +11370,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCac
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
   */
   readonly includeQueryString?: boolean | cdktn.IResolvable;
   /**
@@ -11382,13 +11382,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCac
   * Buckets will result in a configuration error. Up to 5 cookie names can
   * be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
   */
   readonly includedCookieNames?: string[];
   /**
   * Allows HTTP request headers (by name) to be used in the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
   */
   readonly includedHeaderNames?: string[];
   /**
@@ -11397,7 +11397,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCac
   * or excludedQueryParameters, not both. '&' and '=' will be percent
   * encoded and not treated as delimiters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
   */
   readonly includedQueryParameters?: string[];
 }
@@ -11405,7 +11405,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCac
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     excluded_query_parameters: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedQueryParameters),
@@ -11422,7 +11422,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCach
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     excluded_query_parameters: {
@@ -11657,13 +11657,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCli
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -11671,7 +11671,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCli
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -11683,7 +11683,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClie
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -11775,13 +11775,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDef
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -11789,7 +11789,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDef
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -11801,7 +11801,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefa
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -11893,13 +11893,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMax
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -11907,7 +11907,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMax
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -11919,7 +11919,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxT
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -12011,13 +12011,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNeg
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -12025,7 +12025,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNeg
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -12037,7 +12037,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNega
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -12132,13 +12132,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNeg
   * specified as values, and you cannot specify a status code more than
   * once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
   */
   readonly code?: number;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
   */
   readonly ttl?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl;
 }
@@ -12146,7 +12146,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNeg
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     code: cdktn.numberToTerraform(struct!.code),
@@ -12158,7 +12158,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNega
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     code: {
@@ -12285,13 +12285,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicySer
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -12299,7 +12299,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicySer
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStaleToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -12311,7 +12311,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServ
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStaleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -12406,14 +12406,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy {
   * header names can be specified. The cache is bypassed for all cacheMode
   * values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
   */
   readonly cacheBypassRequestHeaderNames?: string[];
   /**
   * Specifies the cache setting for all responses from this route. If not
   * specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
   */
   readonly cacheMode?: string;
   /**
@@ -12433,7 +12433,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy {
   * These defaults can be overridden in negativeCachingPolicy. If not
   * specified, Cloud CDN applies negative caching by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
   */
   readonly negativeCaching?: boolean | cdktn.IResolvable;
   /**
@@ -12441,43 +12441,43 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy {
   * requests into a small number of requests to the origin. If not specified,
   * Cloud CDN applies request coalescing by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
   */
   readonly requestCoalescing?: boolean | cdktn.IResolvable;
   /**
   * cache_key_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
   */
   readonly cacheKeyPolicy?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy;
   /**
   * client_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
   */
   readonly clientTtl?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyClientTtl;
   /**
   * default_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
   */
   readonly defaultTtl?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyDefaultTtl;
   /**
   * max_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
   */
   readonly maxTtl?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyMaxTtl;
   /**
   * negative_caching_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
   */
   readonly negativeCachingPolicy?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicy[] | cdktn.IResolvable;
   /**
   * serve_while_stale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
   */
   readonly serveWhileStale?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyServeWhileStale;
 }
@@ -12485,7 +12485,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy {
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_bypass_request_header_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.cacheBypassRequestHeaderNames),
@@ -12505,7 +12505,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyToTe
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_bypass_request_header_names: {
@@ -12826,19 +12826,19 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy {
   * actual request can include user credentials. This translates to the Access-
   * Control-Allow-Credentials header. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * Specifies the content for the Access-Control-Allow-Methods header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
@@ -12846,33 +12846,33 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy {
   * regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
   * An origin is allowed if it matches either allow_origins or allow_origin_regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
   */
   readonly allowOriginRegexes?: string[];
   /**
   * Specifies the list of origins that will be allowed to do CORS requests. An
   * origin is allowed if it matches either allow_origins or allow_origin_regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
   */
   readonly allowOrigins?: string[];
   /**
   * If true, specifies the CORS policy is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies how long the results of a preflight request can be cached. This
   * translates to the content for the Access-Control-Max-Age header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
   */
   readonly maxAge?: number;
 }
@@ -12880,7 +12880,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy {
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
@@ -12898,7 +12898,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyToTer
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_credentials: {
@@ -13159,7 +13159,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
   * The HTTP status code used to abort the request. The value must be between 200
   * and 599 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
   */
   readonly httpStatus: number;
   /**
@@ -13167,7 +13167,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
   * aborted as part of fault injection. The value must be between 0.0 and 100.0
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage: number;
 }
@@ -13175,7 +13175,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     http_status: cdktn.numberToTerraform(struct!.httpStatus),
@@ -13187,7 +13187,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     http_status: {
@@ -13278,14 +13278,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -13293,7 +13293,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -13305,7 +13305,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -13399,13 +13399,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
   * be introduced as part of fault injection. The value must be between 0.0 and
   * 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage: number;
   /**
   * fixed_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
   */
   readonly fixedDelay: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayFixedDelay;
 }
@@ -13413,7 +13413,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     percentage: cdktn.numberToTerraform(struct!.percentage),
@@ -13425,7 +13425,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     percentage: {
@@ -13514,13 +13514,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
   /**
   * abort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
   */
   readonly abort?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbort;
   /**
   * delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
   */
   readonly delay?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyDelay;
 }
@@ -13528,7 +13528,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjection
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     abort: googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyAbortToTerraform(struct!.abort),
@@ -13540,7 +13540,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionP
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     abort: {
@@ -13637,14 +13637,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurat
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -13652,7 +13652,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurat
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -13664,7 +13664,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurati
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -13756,14 +13756,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorP
   /**
   * The BackendService resource being mirrored to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
   */
   readonly backendService: string;
   /**
   * The percentage of requests to be mirrored to backendService.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
   */
   readonly mirrorPercent?: number;
 }
@@ -13771,7 +13771,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorP
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_service: cdktn.stringToTerraform(struct!.backendService),
@@ -13783,7 +13783,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPo
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_service: {
@@ -13877,14 +13877,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPer
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -13892,7 +13892,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPer
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -13904,7 +13904,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerT
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -13996,7 +13996,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy {
   /**
   * Specifies the allowed number retries. This number must be > 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
   */
   readonly numRetries?: number;
   /**
@@ -14023,13 +14023,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy {
   * * unavailable: Loadbalancer will retry if
   * the gRPC status code in the response header is set to unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
   */
   readonly retryConditions?: string[];
   /**
   * per_try_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
   */
   readonly perTryTimeout?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryTimeout;
 }
@@ -14037,7 +14037,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy {
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     num_retries: cdktn.numberToTerraform(struct!.numRetries),
@@ -14050,7 +14050,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyToTe
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     num_retries: {
@@ -14175,14 +14175,14 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout {
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -14190,7 +14190,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout {
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -14202,7 +14202,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutToTerraf
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -14296,7 +14296,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite {
   * header is replaced with contents of hostRewrite. The value must be between 1 and
   * 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
@@ -14304,7 +14304,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite {
   * portion of the request's path is replaced by pathPrefixRewrite. The value must
   * be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
   */
   readonly pathPrefixRewrite?: string;
 }
@@ -14312,7 +14312,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite {
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
@@ -14324,7 +14324,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteToTer
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_rewrite: {
@@ -14419,13 +14419,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -14433,7 +14433,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -14441,7 +14441,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -14454,7 +14454,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -14600,13 +14600,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -14614,7 +14614,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -14622,7 +14622,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -14635,7 +14635,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -14782,26 +14782,26 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   * A list of header names for headers that need to be removed from the request
   * prior to forwarding the request to the backendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
   * A list of header names for headers that need to be removed from the response
   * prior to sending the response back to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
@@ -14809,7 +14809,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
@@ -14823,7 +14823,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     request_headers_to_remove: {
@@ -14976,7 +14976,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   * forwarding the request to backendService, the loadbalancer applies any relevant
   * headerActions specified as part of this backendServiceWeight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
   */
   readonly backendService: string;
   /**
@@ -14987,13 +14987,13 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
   * backendService as determined by the BackendService's session affinity policy.
   * The value must be between 0 and 1000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#weight GoogleComputeUrlMap#weight}
   */
   readonly weight: number;
   /**
   * header_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_action GoogleComputeUrlMap#header_action}
   */
   readonly headerAction?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesHeaderAction;
 }
@@ -15001,7 +15001,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBacken
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_service: cdktn.stringToTerraform(struct!.backendService),
@@ -15014,7 +15014,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackend
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServicesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_service: {
@@ -15163,55 +15163,55 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteAction {
   /**
   * cache_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_policy GoogleComputeUrlMap#cache_policy}
   */
   readonly cachePolicy?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicy;
   /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cors_policy GoogleComputeUrlMap#cors_policy}
   */
   readonly corsPolicy?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionCorsPolicy;
   /**
   * fault_injection_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#fault_injection_policy GoogleComputeUrlMap#fault_injection_policy}
   */
   readonly faultInjectionPolicy?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionFaultInjectionPolicy;
   /**
   * max_stream_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_stream_duration GoogleComputeUrlMap#max_stream_duration}
   */
   readonly maxStreamDuration?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionMaxStreamDuration;
   /**
   * request_mirror_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_mirror_policy GoogleComputeUrlMap#request_mirror_policy}
   */
   readonly requestMirrorPolicy?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#retry_policy GoogleComputeUrlMap#retry_policy}
   */
   readonly retryPolicy?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionRetryPolicy;
   /**
   * timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#timeout GoogleComputeUrlMap#timeout}
   */
   readonly timeout?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionTimeout;
   /**
   * url_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#url_rewrite GoogleComputeUrlMap#url_rewrite}
   */
   readonly urlRewrite?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionUrlRewrite;
   /**
   * weighted_backend_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#weighted_backend_services GoogleComputeUrlMap#weighted_backend_services}
   */
   readonly weightedBackendServices?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionWeightedBackendServices[] | cdktn.IResolvable;
 }
@@ -15219,7 +15219,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleRouteAction {
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_policy: googleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyToTerraform(struct!.cachePolicy),
@@ -15238,7 +15238,7 @@ export function googleComputeUrlMapPathMatcherPathRuleRouteActionToTerraform(str
 export function googleComputeUrlMapPathMatcherPathRuleRouteActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleRouteActionOutputReference | GoogleComputeUrlMapPathMatcherPathRuleRouteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_policy: {
@@ -15531,7 +15531,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   * that was supplied in the request. The value must be between 1 and 255
   * characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#host_redirect GoogleComputeUrlMap#host_redirect}
   */
   readonly hostRedirect?: string;
   /**
@@ -15541,7 +15541,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   * TargetHttpProxys. Setting this true for TargetHttpsProxy is not
   * permitted. The default is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#https_redirect GoogleComputeUrlMap#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
@@ -15551,7 +15551,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   * supplied, the path of the original request will be used for the redirect.
   * The value must be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_redirect GoogleComputeUrlMap#path_redirect}
   */
   readonly pathRedirect?: string;
   /**
@@ -15562,7 +15562,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   * path of the original request will be used for the redirect. The value
   * must be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#prefix_redirect GoogleComputeUrlMap#prefix_redirect}
   */
   readonly prefixRedirect?: string;
   /**
@@ -15580,7 +15580,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   * * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   * the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#redirect_response_code GoogleComputeUrlMap#redirect_response_code}
   */
   readonly redirectResponseCode?: string;
   /**
@@ -15589,7 +15589,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
   * portion of the original URL is retained.
   *  This field is required to ensure an empty block is not set. The normal default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#strip_query GoogleComputeUrlMap#strip_query}
   */
   readonly stripQuery: boolean | cdktn.IResolvable;
 }
@@ -15597,7 +15597,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect {
 export function googleComputeUrlMapPathMatcherPathRuleUrlRedirectToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
@@ -15613,7 +15613,7 @@ export function googleComputeUrlMapPathMatcherPathRuleUrlRedirectToTerraform(str
 export function googleComputeUrlMapPathMatcherPathRuleUrlRedirectToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRuleUrlRedirectOutputReference | GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_redirect: {
@@ -15820,31 +15820,31 @@ export interface GoogleComputeUrlMapPathMatcherPathRule {
   * does not include any text after the first ? or #, and those chars are not
   * allowed here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#paths GoogleComputeUrlMap#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#paths GoogleComputeUrlMap#paths}
   */
   readonly paths: string[];
   /**
   * The backend service or backend bucket to use if any of the given paths match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#service GoogleComputeUrlMap#service}
   */
   readonly service?: string;
   /**
   * custom_error_response_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#custom_error_response_policy GoogleComputeUrlMap#custom_error_response_policy}
   */
   readonly customErrorResponsePolicy?: GoogleComputeUrlMapPathMatcherPathRuleCustomErrorResponsePolicy;
   /**
   * route_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#route_action GoogleComputeUrlMap#route_action}
   */
   readonly routeAction?: GoogleComputeUrlMapPathMatcherPathRuleRouteAction;
   /**
   * url_redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#url_redirect GoogleComputeUrlMap#url_redirect}
   */
   readonly urlRedirect?: GoogleComputeUrlMapPathMatcherPathRuleUrlRedirect;
 }
@@ -15852,7 +15852,7 @@ export interface GoogleComputeUrlMapPathMatcherPathRule {
 export function googleComputeUrlMapPathMatcherPathRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     paths: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.paths),
@@ -15867,7 +15867,7 @@ export function googleComputeUrlMapPathMatcherPathRuleToTerraform(struct?: Googl
 export function googleComputeUrlMapPathMatcherPathRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherPathRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     paths: {
@@ -16081,14 +16081,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePoli
   * 
   * Values must be unique within matchResponseCodes and across all errorResponseRules of CustomErrorResponsePolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#match_response_codes GoogleComputeUrlMap#match_response_codes}
   */
   readonly matchResponseCodes?: string[];
   /**
   * The HTTP status code returned with the response containing the custom error content.
   * If overrideResponseCode is not supplied, the same response code returned by the original backend bucket or backend service is returned to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#override_response_code GoogleComputeUrlMap#override_response_code}
   */
   readonly overrideResponseCode?: number;
   /**
@@ -16097,7 +16097,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePoli
   * If the file is not available in backendBucket or the load balancer cannot reach the BackendBucket, a simple Not Found Error is returned to the client.
   * The value must be from 1 to 1024 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path GoogleComputeUrlMap#path}
   */
   readonly path?: string;
 }
@@ -16105,7 +16105,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePoli
 export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     match_response_codes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.matchResponseCodes),
@@ -16118,7 +16118,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolic
 export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRuleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     match_response_codes: {
@@ -16280,13 +16280,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePoli
   * If errorService is not specified at lower levels like pathMatcher, pathRule and routeRule, an errorService specified at a higher level in the UrlMap will be used. If UrlMap.defaultCustomErrorResponsePolicy contains one or more errorResponseRules[], it must specify errorService.
   * If load balancer cannot reach the backendBucket, a simple Not Found Error will be returned, with the original response code (or overrideResponseCode if configured).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_service GoogleComputeUrlMap#error_service}
   */
   readonly errorService?: string;
   /**
   * error_response_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#error_response_rule GoogleComputeUrlMap#error_response_rule}
   */
   readonly errorResponseRule?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyErrorResponseRule[] | cdktn.IResolvable;
 }
@@ -16294,7 +16294,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePoli
 export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     error_service: cdktn.stringToTerraform(struct!.errorService),
@@ -16306,7 +16306,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolic
 export function googleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesCustomErrorResponsePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     error_service: {
@@ -16401,13 +16401,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHead
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -16415,7 +16415,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHead
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -16423,7 +16423,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHead
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -16436,7 +16436,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeade
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -16582,13 +16582,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHea
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -16596,7 +16596,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHea
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -16604,7 +16604,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHea
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -16617,7 +16617,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHead
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {
@@ -16764,26 +16764,26 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction {
   * A list of header names for headers that need to be removed from the request
   * prior to forwarding the request to the backendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_remove GoogleComputeUrlMap#request_headers_to_remove}
   */
   readonly requestHeadersToRemove?: string[];
   /**
   * A list of header names for headers that need to be removed from the response
   * prior to sending the response back to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_remove GoogleComputeUrlMap#response_headers_to_remove}
   */
   readonly responseHeadersToRemove?: string[];
   /**
   * request_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_headers_to_add GoogleComputeUrlMap#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionRequestHeadersToAdd[] | cdktn.IResolvable;
   /**
   * response_headers_to_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#response_headers_to_add GoogleComputeUrlMap#response_headers_to_add}
   */
   readonly responseHeadersToAdd?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionResponseHeadersToAdd[] | cdktn.IResolvable;
 }
@@ -16791,7 +16791,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction {
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     request_headers_to_remove: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.requestHeadersToRemove),
@@ -16805,7 +16805,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionToTerraform(
 export function googleComputeUrlMapPathMatcherRouteRulesHeaderActionToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHeaderActionOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesHeaderAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     request_headers_to_remove: {
@@ -16957,21 +16957,21 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs {
   * The configuration needed to enable the networkservices.HttpFilter resource.
   * The configuration must be YAML formatted and only contain fields defined in the protobuf identified in configTypeUrl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
   */
   readonly config?: string;
   /**
   * The fully qualified versioned proto3 type url of the protobuf that the filter expects for its contextual settings,
   * for example: type.googleapis.com/google.protobuf.Struct
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
   */
   readonly configTypeUrl?: string;
   /**
   * Name of the networkservices.HttpFilter resource this configuration belongs to.
   * This name must be known to the xDS client. Example: envoy.wasm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
   */
   readonly filterName?: string;
 }
@@ -16979,7 +16979,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs {
 export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     config: cdktn.stringToTerraform(struct!.config),
@@ -16992,7 +16992,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToTerra
 export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigsToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     config: {
@@ -17148,21 +17148,21 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata {
   * The configuration needed to enable the networkservices.HttpFilter resource.
   * The configuration must be YAML formatted and only contain fields defined in the protobuf identified in configTypeUrl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#config GoogleComputeUrlMap#config}
   */
   readonly config?: string;
   /**
   * The fully qualified versioned proto3 type url of the protobuf that the filter expects for its contextual settings,
   * for example: type.googleapis.com/google.protobuf.Struct
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#config_type_url GoogleComputeUrlMap#config_type_url}
   */
   readonly configTypeUrl?: string;
   /**
   * Name of the networkservices.HttpFilter resource this configuration belongs to.
   * This name must be known to the xDS client. Example: envoy.wasm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#filter_name GoogleComputeUrlMap#filter_name}
   */
   readonly filterName?: string;
 }
@@ -17170,7 +17170,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata {
 export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     config: cdktn.stringToTerraform(struct!.config),
@@ -17183,7 +17183,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToTerr
 export function googleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadataToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesHttpFilterMetadata | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     config: {
@@ -17338,13 +17338,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   /**
   * The end of the range (exclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#range_end GoogleComputeUrlMap#range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#range_end GoogleComputeUrlMap#range_end}
   */
   readonly rangeEnd: number;
   /**
   * The start of the range (inclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#range_start GoogleComputeUrlMap#range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#range_start GoogleComputeUrlMap#range_start}
   */
   readonly rangeStart: number;
 }
@@ -17352,7 +17352,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     range_end: cdktn.numberToTerraform(struct!.rangeEnd),
@@ -17364,7 +17364,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesR
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatchOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     range_end: {
@@ -17454,7 +17454,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   * The value should exactly match contents of exactMatch. Only one of exactMatch,
   * prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
   */
   readonly exactMatch?: string;
   /**
@@ -17462,7 +17462,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   * authority, use a headerMatch with the header name ":authority". For matching a
   * request's method, use the headerName ":method".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
@@ -17470,7 +17470,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   * above are met. If set to true, the headerMatch is considered a match if the
   * match criteria above are NOT met. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#invert_match GoogleComputeUrlMap#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#invert_match GoogleComputeUrlMap#invert_match}
   */
   readonly invertMatch?: boolean | cdktn.IResolvable;
   /**
@@ -17478,7 +17478,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   * exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
   * must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
@@ -17486,7 +17486,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   * whether or not the request's header has a value or not. Only one of exactMatch,
   * prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
   */
   readonly presentMatch?: boolean | cdktn.IResolvable;
   /**
@@ -17498,7 +17498,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   * Only one of exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or
   * rangeMatch must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
   */
   readonly regexMatch?: string;
   /**
@@ -17506,13 +17506,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
   * exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
   * must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#suffix_match GoogleComputeUrlMap#suffix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#suffix_match GoogleComputeUrlMap#suffix_match}
   */
   readonly suffixMatch?: string;
   /**
   * range_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#range_match GoogleComputeUrlMap#range_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#range_match GoogleComputeUrlMap#range_match}
   */
   readonly rangeMatch?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRangeMatch;
 }
@@ -17520,7 +17520,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     exact_match: cdktn.stringToTerraform(struct!.exactMatch),
@@ -17538,7 +17538,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesT
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     exact_match: {
@@ -17831,14 +17831,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilte
   * Name of metadata label. The name can have a maximum length of 1024 characters
   * and must be at least 1 character long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
   */
   readonly name: string;
   /**
   * The value of the label must match the specified value. value can have a maximum
   * length of 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#value GoogleComputeUrlMap#value}
   */
   readonly value: string;
 }
@@ -17846,7 +17846,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilte
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -17858,7 +17858,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilter
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabelsToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -17984,13 +17984,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilte
   *   - MATCH_ALL: All filterLabels must have matching labels in
   * the provided metadata. Possible values: ["MATCH_ALL", "MATCH_ANY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#filter_match_criteria GoogleComputeUrlMap#filter_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#filter_match_criteria GoogleComputeUrlMap#filter_match_criteria}
   */
   readonly filterMatchCriteria: string;
   /**
   * filter_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#filter_labels GoogleComputeUrlMap#filter_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#filter_labels GoogleComputeUrlMap#filter_labels}
   */
   readonly filterLabels: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersFilterLabels[] | cdktn.IResolvable;
 }
@@ -17998,7 +17998,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilte
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     filter_match_criteria: cdktn.stringToTerraform(struct!.filterMatchCriteria),
@@ -18010,7 +18010,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilter
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFiltersToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     filter_match_criteria: {
@@ -18133,14 +18133,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParamete
   * the contents of exactMatch. Only one of presentMatch, exactMatch and regexMatch
   * must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#exact_match GoogleComputeUrlMap#exact_match}
   */
   readonly exactMatch?: string;
   /**
   * The name of the query parameter to match. The query parameter must exist in the
   * request, in the absence of which the request match fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#name GoogleComputeUrlMap#name}
   */
   readonly name: string;
   /**
@@ -18148,7 +18148,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParamete
   * parameter, irrespective of whether the parameter has a value or not. Only one of
   * presentMatch, exactMatch and regexMatch must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#present_match GoogleComputeUrlMap#present_match}
   */
   readonly presentMatch?: boolean | cdktn.IResolvable;
   /**
@@ -18157,7 +18157,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParamete
   * please see en.cppreference.com/w/cpp/regex/ecmascript  Only one of presentMatch,
   * exactMatch and regexMatch must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
   */
   readonly regexMatch?: string;
 }
@@ -18165,7 +18165,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParamete
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     exact_match: cdktn.stringToTerraform(struct!.exactMatch),
@@ -18179,7 +18179,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameter
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatchesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     exact_match: {
@@ -18363,14 +18363,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
   * and 1024 characters. Only one of prefixMatch, fullPathMatch or regexMatch must
   * be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#full_path_match GoogleComputeUrlMap#full_path_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#full_path_match GoogleComputeUrlMap#full_path_match}
   */
   readonly fullPathMatch?: string;
   /**
   * Specifies that prefixMatch and fullPathMatch matches are case sensitive.
   * Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#ignore_case GoogleComputeUrlMap#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#ignore_case GoogleComputeUrlMap#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktn.IResolvable;
   /**
@@ -18384,7 +18384,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
   * have at most 5 wildcard operators and at most 5 variable
   * captures in total.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_template_match GoogleComputeUrlMap#path_template_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_template_match GoogleComputeUrlMap#path_template_match}
   */
   readonly pathTemplateMatch?: string;
   /**
@@ -18393,7 +18393,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
   * between 1 and 1024 characters. Only one of prefixMatch, fullPathMatch or
   * regexMatch must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#prefix_match GoogleComputeUrlMap#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
@@ -18403,25 +18403,25 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
   * see en.cppreference.com/w/cpp/regex/ecmascript  Only one of prefixMatch,
   * fullPathMatch or regexMatch must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#regex_match GoogleComputeUrlMap#regex_match}
   */
   readonly regexMatch?: string;
   /**
   * header_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_matches GoogleComputeUrlMap#header_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_matches GoogleComputeUrlMap#header_matches}
   */
   readonly headerMatches?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesHeaderMatches[] | cdktn.IResolvable;
   /**
   * metadata_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#metadata_filters GoogleComputeUrlMap#metadata_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#metadata_filters GoogleComputeUrlMap#metadata_filters}
   */
   readonly metadataFilters?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesMetadataFilters[] | cdktn.IResolvable;
   /**
   * query_parameter_matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#query_parameter_matches GoogleComputeUrlMap#query_parameter_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#query_parameter_matches GoogleComputeUrlMap#query_parameter_matches}
   */
   readonly queryParameterMatches?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRulesQueryParameterMatches[] | cdktn.IResolvable;
 }
@@ -18429,7 +18429,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesMatchRules {
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     full_path_match: cdktn.stringToTerraform(struct!.fullPathMatch),
@@ -18447,7 +18447,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToTerraform(st
 export function googleComputeUrlMapPathMatcherRouteRulesMatchRulesToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesMatchRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     full_path_match: {
@@ -18750,7 +18750,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
   */
   readonly excludedQueryParameters?: string[];
   /**
@@ -18761,7 +18761,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
   * a route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
   */
   readonly includeHost?: boolean | cdktn.IResolvable;
   /**
@@ -18772,7 +18772,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
   * route that points exclusively to Backend Buckets will result in a
   * configuration error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
   */
   readonly includeProtocol?: boolean | cdktn.IResolvable;
   /**
@@ -18786,7 +18786,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
   * includedQueryParameters to define which parameters should be part of
   * the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
   */
   readonly includeQueryString?: boolean | cdktn.IResolvable;
   /**
@@ -18798,13 +18798,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
   * Buckets will result in a configuration error. Up to 5 cookie names can
   * be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
   */
   readonly includedCookieNames?: string[];
   /**
   * Allows HTTP request headers (by name) to be used in the cache key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
   */
   readonly includedHeaderNames?: string[];
   /**
@@ -18813,7 +18813,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
   * or excludedQueryParameters, not both. '&' and '=' will be percent
   * encoded and not treated as delimiters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
   */
   readonly includedQueryParameters?: string[];
 }
@@ -18821,7 +18821,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     excluded_query_parameters: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedQueryParameters),
@@ -18838,7 +18838,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCa
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     excluded_query_parameters: {
@@ -19073,13 +19073,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -19087,7 +19087,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyC
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -19099,7 +19099,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCl
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -19191,13 +19191,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyD
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -19205,7 +19205,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyD
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -19217,7 +19217,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDe
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -19309,13 +19309,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyM
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -19323,7 +19323,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyM
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -19335,7 +19335,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMa
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -19427,13 +19427,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyN
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -19441,7 +19441,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyN
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtlToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -19453,7 +19453,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNe
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtlToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtlOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -19548,13 +19548,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyN
   * specified as values, and you cannot specify a status code more than
   * once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
   */
   readonly code?: number;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
   */
   readonly ttl?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyTtl;
 }
@@ -19562,7 +19562,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyN
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     code: cdktn.numberToTerraform(struct!.code),
@@ -19574,7 +19574,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNe
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     code: {
@@ -19701,13 +19701,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyS
   /**
   * Span of time that's a fraction of a second at nanosecond resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -19715,7 +19715,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyS
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStaleToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -19727,7 +19727,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicySe
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStaleToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStaleOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStale): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -19822,14 +19822,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy 
   * header names can be specified. The cache is bypassed for all cacheMode
   * values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_bypass_request_header_names GoogleComputeUrlMap#cache_bypass_request_header_names}
   */
   readonly cacheBypassRequestHeaderNames?: string[];
   /**
   * Specifies the cache setting for all responses from this route. If not
   * specified, Cloud CDN uses CACHE_ALL_STATIC mode. Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_mode GoogleComputeUrlMap#cache_mode}
   */
   readonly cacheMode?: string;
   /**
@@ -19849,7 +19849,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy 
   * These defaults can be overridden in negativeCachingPolicy. If not
   * specified, Cloud CDN applies negative caching by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching GoogleComputeUrlMap#negative_caching}
   */
   readonly negativeCaching?: boolean | cdktn.IResolvable;
   /**
@@ -19857,43 +19857,43 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy 
   * requests into a small number of requests to the origin. If not specified,
   * Cloud CDN applies request coalescing by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#request_coalescing GoogleComputeUrlMap#request_coalescing}
   */
   readonly requestCoalescing?: boolean | cdktn.IResolvable;
   /**
   * cache_key_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#cache_key_policy GoogleComputeUrlMap#cache_key_policy}
   */
   readonly cacheKeyPolicy?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyCacheKeyPolicy;
   /**
   * client_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#client_ttl GoogleComputeUrlMap#client_ttl}
   */
   readonly clientTtl?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyClientTtl;
   /**
   * default_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#default_ttl GoogleComputeUrlMap#default_ttl}
   */
   readonly defaultTtl?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyDefaultTtl;
   /**
   * max_ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_ttl GoogleComputeUrlMap#max_ttl}
   */
   readonly maxTtl?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyMaxTtl;
   /**
   * negative_caching_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#negative_caching_policy GoogleComputeUrlMap#negative_caching_policy}
   */
   readonly negativeCachingPolicy?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyNegativeCachingPolicy[] | cdktn.IResolvable;
   /**
   * serve_while_stale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#serve_while_stale GoogleComputeUrlMap#serve_while_stale}
   */
   readonly serveWhileStale?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyServeWhileStale;
 }
@@ -19901,7 +19901,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_bypass_request_header_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.cacheBypassRequestHeaderNames),
@@ -19921,7 +19921,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyTo
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_bypass_request_header_names: {
@@ -20242,19 +20242,19 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy {
   * actual request can include user credentials. This translates to the Access-
   * Control-Allow-Credentials header. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_credentials GoogleComputeUrlMap#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Allow-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_headers GoogleComputeUrlMap#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * Specifies the content for the Access-Control-Allow-Methods header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_methods GoogleComputeUrlMap#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
@@ -20262,34 +20262,34 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy {
   * regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
   * An origin is allowed if it matches either allow_origins or allow_origin_regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origin_regexes GoogleComputeUrlMap#allow_origin_regexes}
   */
   readonly allowOriginRegexes?: string[];
   /**
   * Specifies the list of origins that will be allowed to do CORS requests. An
   * origin is allowed if it matches either allow_origins or allow_origin_regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#allow_origins GoogleComputeUrlMap#allow_origins}
   */
   readonly allowOrigins?: string[];
   /**
   * If true, specifies the CORS policy is disabled.
   * which indicates that the CORS policy is in effect. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#disabled GoogleComputeUrlMap#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for the Access-Control-Expose-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#expose_headers GoogleComputeUrlMap#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies how long the results of a preflight request can be cached. This
   * translates to the content for the Access-Control-Max-Age header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#max_age GoogleComputeUrlMap#max_age}
   */
   readonly maxAge?: number;
 }
@@ -20297,7 +20297,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy {
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
@@ -20315,7 +20315,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyToT
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_credentials: {
@@ -20579,7 +20579,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
   * The HTTP status code used to abort the request. The value must be between 200
   * and 599 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#http_status GoogleComputeUrlMap#http_status}
   */
   readonly httpStatus?: number;
   /**
@@ -20587,7 +20587,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
   * aborted as part of fault injection. The value must be between 0.0 and 100.0
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage?: number;
 }
@@ -20595,7 +20595,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     http_status: cdktn.numberToTerraform(struct!.httpStatus),
@@ -20607,7 +20607,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     http_status: {
@@ -20704,14 +20704,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -20719,7 +20719,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -20731,7 +20731,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -20825,13 +20825,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
   * be introduced as part of fault injection. The value must be between 0.0 and
   * 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#percentage GoogleComputeUrlMap#percentage}
   */
   readonly percentage?: number;
   /**
   * fixed_delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#fixed_delay GoogleComputeUrlMap#fixed_delay}
   */
   readonly fixedDelay?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayFixedDelay;
 }
@@ -20839,7 +20839,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     percentage: cdktn.numberToTerraform(struct!.percentage),
@@ -20851,7 +20851,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelayOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     percentage: {
@@ -20946,13 +20946,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
   /**
   * abort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#abort GoogleComputeUrlMap#abort}
   */
   readonly abort?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbort;
   /**
   * delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#delay GoogleComputeUrlMap#delay}
   */
   readonly delay?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyDelay;
 }
@@ -20960,7 +20960,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjecti
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     abort: googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyAbortToTerraform(struct!.abort),
@@ -20972,7 +20972,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectio
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     abort: {
@@ -21069,14 +21069,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDur
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -21084,7 +21084,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDur
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -21096,7 +21096,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDura
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -21188,14 +21188,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirro
   /**
   * The BackendService resource being mirrored to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#backend_service GoogleComputeUrlMap#backend_service}
   */
   readonly backendService: string;
   /**
   * The percentage of requests to be mirrored to backendService.
   * The value must be between 0.0 and 100.0 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#mirror_percent GoogleComputeUrlMap#mirror_percent}
   */
   readonly mirrorPercent?: number;
 }
@@ -21203,7 +21203,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirro
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_service: cdktn.stringToTerraform(struct!.backendService),
@@ -21215,7 +21215,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirror
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_service: {
@@ -21309,14 +21309,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyP
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -21324,7 +21324,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyP
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -21336,7 +21336,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPe
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -21428,7 +21428,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy 
   /**
   * Specifies the allowed number retries. This number must be > 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#num_retries GoogleComputeUrlMap#num_retries}
   */
   readonly numRetries: number;
   /**
@@ -21455,13 +21455,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy 
   * * unavailable: Loadbalancer will retry if the gRPC status code in
   *   the response header is set to unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#retry_conditions GoogleComputeUrlMap#retry_conditions}
   */
   readonly retryConditions?: string[];
   /**
   * per_try_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#per_try_timeout GoogleComputeUrlMap#per_try_timeout}
   */
   readonly perTryTimeout?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTryTimeout;
 }
@@ -21469,7 +21469,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy 
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     num_retries: cdktn.numberToTerraform(struct!.numRetries),
@@ -21482,7 +21482,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyTo
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicyOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     num_retries: {
@@ -21604,14 +21604,14 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout {
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#nanos GoogleComputeUrlMap#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#seconds GoogleComputeUrlMap#seconds}
   */
   readonly seconds: string;
 }
@@ -21619,7 +21619,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout {
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -21631,7 +21631,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutToTerr
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeoutOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -21725,7 +21725,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite {
   * header is replaced with contents of hostRewrite. The value must be between 1 and
   * 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
@@ -21733,7 +21733,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite {
   * portion of the request's path is replaced by pathPrefixRewrite. The value must
   * be between 1 and 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
   */
   readonly pathPrefixRewrite?: string;
   /**
@@ -21752,7 +21752,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite {
   * Only one of pathPrefixRewrite and pathTemplateRewrite may be
   * specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
   */
   readonly pathTemplateRewrite?: string;
 }
@@ -21760,7 +21760,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite {
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
@@ -21773,7 +21773,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteToT
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference | GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_rewrite: {
@@ -21896,13 +21896,13 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBack
   /**
   * The name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_name GoogleComputeUrlMap#header_name}
   */
   readonly headerName: string;
   /**
   * The value of the header to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#header_value GoogleComputeUrlMap#header_value}
   */
   readonly headerValue: string;
   /**
@@ -21910,7 +21910,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBack
   * header. If true, headerValue is set for the header, discarding any values that
   * were set for that header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_url_map#replace GoogleComputeUrlMap#replace}
   */
   readonly replace: boolean | cdktn.IResolvable;
 }
@@ -21918,7 +21918,7 @@ export interface GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBack
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_name: cdktn.stringToTerraform(struct!.headerName),
@@ -21931,7 +21931,7 @@ export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBacke
 export function googleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAddToHclTerraform(struct?: GoogleComputeUrlMapPathMatcherRouteRulesRouteActionWeightedBackendServicesHeaderActionRequestHeadersToAdd | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_name: {

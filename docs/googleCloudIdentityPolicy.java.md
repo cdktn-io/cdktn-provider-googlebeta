@@ -4,7 +4,7 @@
 
 ### GoogleCloudIdentityPolicy <a name="GoogleCloudIdentityPolicy" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy google_cloud_identity_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy google_cloud_identity_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer"></a>
 
@@ -43,7 +43,7 @@ GoogleCloudIdentityPolicy.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer.parameter.policyQuery">policyQuery</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyPolicyQuery">GoogleCloudIdentityPolicyPolicyQuery</a></code> | policy_query block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer.parameter.setting">setting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicySetting">GoogleCloudIdentityPolicySetting</a></code> | setting block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts">GoogleCloudIdentityPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The customer that the Policy belongs to. Format: 'customers/{customer_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#customer GoogleCloudIdentityPolicy#customer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#customer GoogleCloudIdentityPolicy#customer}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 policy_query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#policy_query GoogleCloudIdentityPolicy#policy_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#policy_query GoogleCloudIdentityPolicy#policy_query}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 setting block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#setting GoogleCloudIdentityPolicy#setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#setting GoogleCloudIdentityPolicy#setting}
 
 ---
 
@@ -151,7 +151,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#deletion_policy GoogleCloudIdentityPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#deletion_policy GoogleCloudIdentityPolicy#deletion_policy}
 
 ---
 
@@ -159,7 +159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,7 +172,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#timeouts GoogleCloudIdentityPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#timeouts GoogleCloudIdentityPolicy#timeouts}
 
 ---
 
@@ -681,7 +681,7 @@ The construct id used in the generated config for the GoogleCloudIdentityPolicy 
 
 The id of the existing GoogleCloudIdentityPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1058,7 +1058,7 @@ GoogleCloudIdentityPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyConfig.property.policyQuery">policyQuery</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyPolicyQuery">GoogleCloudIdentityPolicyPolicyQuery</a></code> | policy_query block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyConfig.property.setting">setting</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicySetting">GoogleCloudIdentityPolicySetting</a></code> | setting block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts">GoogleCloudIdentityPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1143,7 +1143,7 @@ public java.lang.String getCustomer();
 
 The customer that the Policy belongs to. Format: 'customers/{customer_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#customer GoogleCloudIdentityPolicy#customer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#customer GoogleCloudIdentityPolicy#customer}
 
 ---
 
@@ -1157,7 +1157,7 @@ public GoogleCloudIdentityPolicyPolicyQuery getPolicyQuery();
 
 policy_query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#policy_query GoogleCloudIdentityPolicy#policy_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#policy_query GoogleCloudIdentityPolicy#policy_query}
 
 ---
 
@@ -1171,7 +1171,7 @@ public GoogleCloudIdentityPolicySetting getSetting();
 
 setting block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#setting GoogleCloudIdentityPolicy#setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#setting GoogleCloudIdentityPolicy#setting}
 
 ---
 
@@ -1192,7 +1192,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#deletion_policy GoogleCloudIdentityPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#deletion_policy GoogleCloudIdentityPolicy#deletion_policy}
 
 ---
 
@@ -1204,7 +1204,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#id GoogleCloudIdentityPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1221,7 +1221,7 @@ public GoogleCloudIdentityPolicyTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#timeouts GoogleCloudIdentityPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#timeouts GoogleCloudIdentityPolicy#timeouts}
 
 ---
 
@@ -1259,7 +1259,7 @@ public java.lang.String getOrgUnit();
 
 The OrgUnit the query applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#org_unit GoogleCloudIdentityPolicy#org_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#org_unit GoogleCloudIdentityPolicy#org_unit}
 
 ---
 
@@ -1273,7 +1273,7 @@ public java.lang.String getGroup();
 
 The group that the query applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#group GoogleCloudIdentityPolicy#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#group GoogleCloudIdentityPolicy#group}
 
 ---
 
@@ -1287,7 +1287,7 @@ public java.lang.String getQuery();
 
 The CEL query that defines which entities the Policy applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#query GoogleCloudIdentityPolicy#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#query GoogleCloudIdentityPolicy#query}
 
 ---
 
@@ -1323,7 +1323,7 @@ public java.lang.String getType();
 
 The type of the Setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#type GoogleCloudIdentityPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#type GoogleCloudIdentityPolicy#type}
 
 ---
 
@@ -1337,7 +1337,7 @@ public java.lang.String getValueJson();
 
 The value of the Setting as JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#value_json GoogleCloudIdentityPolicy#value_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#value_json GoogleCloudIdentityPolicy#value_json}
 
 ---
 
@@ -1359,9 +1359,9 @@ GoogleCloudIdentityPolicyTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#create GoogleCloudIdentityPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#delete GoogleCloudIdentityPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#update GoogleCloudIdentityPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#create GoogleCloudIdentityPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#delete GoogleCloudIdentityPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#update GoogleCloudIdentityPolicy#update}. |
 
 ---
 
@@ -1373,7 +1373,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#create GoogleCloudIdentityPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#create GoogleCloudIdentityPolicy#create}.
 
 ---
 
@@ -1385,7 +1385,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#delete GoogleCloudIdentityPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#delete GoogleCloudIdentityPolicy#delete}.
 
 ---
 
@@ -1397,7 +1397,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_identity_policy#update GoogleCloudIdentityPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_identity_policy#update GoogleCloudIdentityPolicy#update}.
 
 ---
 

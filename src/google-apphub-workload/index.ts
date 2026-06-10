@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleApphubWorkloadConfig extends cdktn.TerraformMetaArguments
   /**
   * Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
   */
   readonly applicationId: string;
   /**
@@ -27,29 +27,29 @@ export interface GoogleApphubWorkloadConfig extends cdktn.TerraformMetaArguments
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#deletion_policy GoogleApphubWorkload#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#deletion_policy GoogleApphubWorkload#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * User-defined description of a Workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
   */
   readonly description?: string;
   /**
   * Immutable. The resource name of the original discovered workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
   */
   readonly discoveredWorkload: string;
   /**
   * User-defined name for the Workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,29 +58,29 @@ export interface GoogleApphubWorkloadConfig extends cdktn.TerraformMetaArguments
   /**
   * Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}
   */
   readonly project?: string;
   /**
   * The Workload identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
   */
   readonly workloadId: string;
   /**
   * attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
   */
   readonly attributes?: GoogleApphubWorkloadAttributes;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
   */
   readonly timeouts?: GoogleApphubWorkloadTimeouts;
 }
@@ -90,7 +90,7 @@ export interface GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue {
 export function googleApphubWorkloadWorkloadPropertiesExtendedMetadataValueToTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -100,7 +100,7 @@ export function googleApphubWorkloadWorkloadPropertiesExtendedMetadataValueToTer
 export function googleApphubWorkloadWorkloadPropertiesExtendedMetadataValueToHclTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesExtendedMetadataValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -170,7 +170,7 @@ export interface GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata {
 export function googleApphubWorkloadWorkloadPropertiesExtendedMetadataToTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -180,7 +180,7 @@ export function googleApphubWorkloadWorkloadPropertiesExtendedMetadataToTerrafor
 export function googleApphubWorkloadWorkloadPropertiesExtendedMetadataToHclTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesExtendedMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -251,7 +251,7 @@ export interface GoogleApphubWorkloadWorkloadPropertiesFunctionalType {
 export function googleApphubWorkloadWorkloadPropertiesFunctionalTypeToTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesFunctionalType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -261,7 +261,7 @@ export function googleApphubWorkloadWorkloadPropertiesFunctionalTypeToTerraform(
 export function googleApphubWorkloadWorkloadPropertiesFunctionalTypeToHclTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesFunctionalType): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -326,7 +326,7 @@ export interface GoogleApphubWorkloadWorkloadPropertiesIdentity {
 export function googleApphubWorkloadWorkloadPropertiesIdentityToTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesIdentity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -336,7 +336,7 @@ export function googleApphubWorkloadWorkloadPropertiesIdentityToTerraform(struct
 export function googleApphubWorkloadWorkloadPropertiesIdentityToHclTerraform(struct?: GoogleApphubWorkloadWorkloadPropertiesIdentity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -401,7 +401,7 @@ export interface GoogleApphubWorkloadWorkloadProperties {
 export function googleApphubWorkloadWorkloadPropertiesToTerraform(struct?: GoogleApphubWorkloadWorkloadProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -411,7 +411,7 @@ export function googleApphubWorkloadWorkloadPropertiesToTerraform(struct?: Googl
 export function googleApphubWorkloadWorkloadPropertiesToHclTerraform(struct?: GoogleApphubWorkloadWorkloadProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -504,7 +504,7 @@ export interface GoogleApphubWorkloadWorkloadReference {
 export function googleApphubWorkloadWorkloadReferenceToTerraform(struct?: GoogleApphubWorkloadWorkloadReference): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -514,7 +514,7 @@ export function googleApphubWorkloadWorkloadReferenceToTerraform(struct?: Google
 export function googleApphubWorkloadWorkloadReferenceToHclTerraform(struct?: GoogleApphubWorkloadWorkloadReference): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -577,13 +577,13 @@ export interface GoogleApphubWorkloadAttributesBusinessOwners {
   /**
   * Contact's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
   */
   readonly displayName?: string;
   /**
   * Email address of the contacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
   */
   readonly email: string;
 }
@@ -591,7 +591,7 @@ export interface GoogleApphubWorkloadAttributesBusinessOwners {
 export function googleApphubWorkloadAttributesBusinessOwnersToTerraform(struct?: GoogleApphubWorkloadAttributesBusinessOwners | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     display_name: cdktn.stringToTerraform(struct!.displayName),
@@ -603,7 +603,7 @@ export function googleApphubWorkloadAttributesBusinessOwnersToTerraform(struct?:
 export function googleApphubWorkloadAttributesBusinessOwnersToHclTerraform(struct?: GoogleApphubWorkloadAttributesBusinessOwners | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     display_name: {
@@ -727,7 +727,7 @@ export interface GoogleApphubWorkloadAttributesCriticality {
   /**
   * Criticality type. Possible values: ["MISSION_CRITICAL", "HIGH", "MEDIUM", "LOW"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
   */
   readonly type: string;
 }
@@ -735,7 +735,7 @@ export interface GoogleApphubWorkloadAttributesCriticality {
 export function googleApphubWorkloadAttributesCriticalityToTerraform(struct?: GoogleApphubWorkloadAttributesCriticalityOutputReference | GoogleApphubWorkloadAttributesCriticality): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     type: cdktn.stringToTerraform(struct!.type),
@@ -746,7 +746,7 @@ export function googleApphubWorkloadAttributesCriticalityToTerraform(struct?: Go
 export function googleApphubWorkloadAttributesCriticalityToHclTerraform(struct?: GoogleApphubWorkloadAttributesCriticalityOutputReference | GoogleApphubWorkloadAttributesCriticality): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     type: {
@@ -810,13 +810,13 @@ export interface GoogleApphubWorkloadAttributesDeveloperOwners {
   /**
   * Contact's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
   */
   readonly displayName?: string;
   /**
   * Email address of the contacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
   */
   readonly email: string;
 }
@@ -824,7 +824,7 @@ export interface GoogleApphubWorkloadAttributesDeveloperOwners {
 export function googleApphubWorkloadAttributesDeveloperOwnersToTerraform(struct?: GoogleApphubWorkloadAttributesDeveloperOwners | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     display_name: cdktn.stringToTerraform(struct!.displayName),
@@ -836,7 +836,7 @@ export function googleApphubWorkloadAttributesDeveloperOwnersToTerraform(struct?
 export function googleApphubWorkloadAttributesDeveloperOwnersToHclTerraform(struct?: GoogleApphubWorkloadAttributesDeveloperOwners | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     display_name: {
@@ -960,7 +960,7 @@ export interface GoogleApphubWorkloadAttributesEnvironment {
   /**
   * Environment type. Possible values: ["PRODUCTION", "STAGING", "TEST", "DEVELOPMENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
   */
   readonly type: string;
 }
@@ -968,7 +968,7 @@ export interface GoogleApphubWorkloadAttributesEnvironment {
 export function googleApphubWorkloadAttributesEnvironmentToTerraform(struct?: GoogleApphubWorkloadAttributesEnvironmentOutputReference | GoogleApphubWorkloadAttributesEnvironment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     type: cdktn.stringToTerraform(struct!.type),
@@ -979,7 +979,7 @@ export function googleApphubWorkloadAttributesEnvironmentToTerraform(struct?: Go
 export function googleApphubWorkloadAttributesEnvironmentToHclTerraform(struct?: GoogleApphubWorkloadAttributesEnvironmentOutputReference | GoogleApphubWorkloadAttributesEnvironment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     type: {
@@ -1043,13 +1043,13 @@ export interface GoogleApphubWorkloadAttributesOperatorOwners {
   /**
   * Contact's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
   */
   readonly displayName?: string;
   /**
   * Email address of the contacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
   */
   readonly email: string;
 }
@@ -1057,7 +1057,7 @@ export interface GoogleApphubWorkloadAttributesOperatorOwners {
 export function googleApphubWorkloadAttributesOperatorOwnersToTerraform(struct?: GoogleApphubWorkloadAttributesOperatorOwners | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     display_name: cdktn.stringToTerraform(struct!.displayName),
@@ -1069,7 +1069,7 @@ export function googleApphubWorkloadAttributesOperatorOwnersToTerraform(struct?:
 export function googleApphubWorkloadAttributesOperatorOwnersToHclTerraform(struct?: GoogleApphubWorkloadAttributesOperatorOwners | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     display_name: {
@@ -1193,31 +1193,31 @@ export interface GoogleApphubWorkloadAttributes {
   /**
   * business_owners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#business_owners GoogleApphubWorkload#business_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#business_owners GoogleApphubWorkload#business_owners}
   */
   readonly businessOwners?: GoogleApphubWorkloadAttributesBusinessOwners[] | cdktn.IResolvable;
   /**
   * criticality block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#criticality GoogleApphubWorkload#criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#criticality GoogleApphubWorkload#criticality}
   */
   readonly criticality?: GoogleApphubWorkloadAttributesCriticality;
   /**
   * developer_owners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#developer_owners GoogleApphubWorkload#developer_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#developer_owners GoogleApphubWorkload#developer_owners}
   */
   readonly developerOwners?: GoogleApphubWorkloadAttributesDeveloperOwners[] | cdktn.IResolvable;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#environment GoogleApphubWorkload#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#environment GoogleApphubWorkload#environment}
   */
   readonly environment?: GoogleApphubWorkloadAttributesEnvironment;
   /**
   * operator_owners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#operator_owners GoogleApphubWorkload#operator_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#operator_owners GoogleApphubWorkload#operator_owners}
   */
   readonly operatorOwners?: GoogleApphubWorkloadAttributesOperatorOwners[] | cdktn.IResolvable;
 }
@@ -1225,7 +1225,7 @@ export interface GoogleApphubWorkloadAttributes {
 export function googleApphubWorkloadAttributesToTerraform(struct?: GoogleApphubWorkloadAttributesOutputReference | GoogleApphubWorkloadAttributes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     business_owners: cdktn.listMapper(googleApphubWorkloadAttributesBusinessOwnersToTerraform, true)(struct!.businessOwners),
@@ -1240,7 +1240,7 @@ export function googleApphubWorkloadAttributesToTerraform(struct?: GoogleApphubW
 export function googleApphubWorkloadAttributesToHclTerraform(struct?: GoogleApphubWorkloadAttributesOutputReference | GoogleApphubWorkloadAttributes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     business_owners: {
@@ -1417,15 +1417,15 @@ export class GoogleApphubWorkloadAttributesOutputReference extends cdktn.Complex
 }
 export interface GoogleApphubWorkloadTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}
   */
   readonly update?: string;
 }
@@ -1433,7 +1433,7 @@ export interface GoogleApphubWorkloadTimeouts {
 export function googleApphubWorkloadTimeoutsToTerraform(struct?: GoogleApphubWorkloadTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1446,7 +1446,7 @@ export function googleApphubWorkloadTimeoutsToTerraform(struct?: GoogleApphubWor
 export function googleApphubWorkloadTimeoutsToHclTerraform(struct?: GoogleApphubWorkloadTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1577,7 +1577,7 @@ export class GoogleApphubWorkloadTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload google_apphub_workload}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload google_apphub_workload}
 */
 export class GoogleApphubWorkload extends cdktn.TerraformResource {
 
@@ -1593,7 +1593,7 @@ export class GoogleApphubWorkload extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleApphubWorkload resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleApphubWorkload to import
-  * @param importFromId The id of the existing GoogleApphubWorkload that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleApphubWorkload that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleApphubWorkload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1605,7 +1605,7 @@ export class GoogleApphubWorkload extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apphub_workload google_apphub_workload} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apphub_workload google_apphub_workload} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1616,7 +1616,7 @@ export class GoogleApphubWorkload extends cdktn.TerraformResource {
       terraformResourceType: 'google_apphub_workload',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

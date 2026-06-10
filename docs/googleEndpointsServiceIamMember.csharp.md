@@ -4,7 +4,7 @@
 
 ### GoogleEndpointsServiceIamMember <a name="GoogleEndpointsServiceIamMember" id="@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member google_endpoints_service_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member google_endpoints_service_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMember.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleEndpointsServiceIamM
 
 The id of the existing GoogleEndpointsServiceIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -850,9 +850,9 @@ new GoogleEndpointsServiceIamMemberCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#expression GoogleEndpointsServiceIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#title GoogleEndpointsServiceIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#description GoogleEndpointsServiceIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#expression GoogleEndpointsServiceIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#title GoogleEndpointsServiceIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#description GoogleEndpointsServiceIamMember#description}. |
 
 ---
 
@@ -864,7 +864,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#expression GoogleEndpointsServiceIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#expression GoogleEndpointsServiceIamMember#expression}.
 
 ---
 
@@ -876,7 +876,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#title GoogleEndpointsServiceIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#title GoogleEndpointsServiceIamMember#title}.
 
 ---
 
@@ -888,7 +888,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#description GoogleEndpointsServiceIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#description GoogleEndpointsServiceIamMember#description}.
 
 ---
 
@@ -926,11 +926,11 @@ new GoogleEndpointsServiceIamMemberConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#member GoogleEndpointsServiceIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#role GoogleEndpointsServiceIamMember#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.serviceName">ServiceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#service_name GoogleEndpointsServiceIamMember#service_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#member GoogleEndpointsServiceIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#role GoogleEndpointsServiceIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.serviceName">ServiceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#service_name GoogleEndpointsServiceIamMember#service_name}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberCondition">GoogleEndpointsServiceIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#id GoogleEndpointsServiceIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamMember.GoogleEndpointsServiceIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#id GoogleEndpointsServiceIamMember#id}. |
 
 ---
 
@@ -1012,7 +1012,7 @@ public string Member { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#member GoogleEndpointsServiceIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#member GoogleEndpointsServiceIamMember#member}.
 
 ---
 
@@ -1024,7 +1024,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#role GoogleEndpointsServiceIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#role GoogleEndpointsServiceIamMember#role}.
 
 ---
 
@@ -1036,7 +1036,7 @@ public string ServiceName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#service_name GoogleEndpointsServiceIamMember#service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#service_name GoogleEndpointsServiceIamMember#service_name}.
 
 ---
 
@@ -1050,7 +1050,7 @@ public GoogleEndpointsServiceIamMemberCondition Condition { get; set; }
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#condition GoogleEndpointsServiceIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#condition GoogleEndpointsServiceIamMember#condition}
 
 ---
 
@@ -1062,7 +1062,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_endpoints_service_iam_member#id GoogleEndpointsServiceIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_endpoints_service_iam_member#id GoogleEndpointsServiceIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

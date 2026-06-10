@@ -236,19 +236,19 @@ export interface GoogleChronicleFeedDetailsSalesforceSettings {
   /**
   * API hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
   */
   readonly hostname?: string;
   /**
   * oauth_jwt_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#oauth_jwt_credentials GoogleChronicleFeed#oauth_jwt_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#oauth_jwt_credentials GoogleChronicleFeed#oauth_jwt_credentials}
   */
   readonly oauthJwtCredentials?: GoogleChronicleFeedDetailsSalesforceSettingsOauthJwtCredentials;
   /**
   * oauth_password_grant_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#oauth_password_grant_auth GoogleChronicleFeed#oauth_password_grant_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#oauth_password_grant_auth GoogleChronicleFeed#oauth_password_grant_auth}
   */
   readonly oauthPasswordGrantAuth?: GoogleChronicleFeedDetailsSalesforceSettingsOauthPasswordGrantAuth;
 }
@@ -256,7 +256,7 @@ export interface GoogleChronicleFeedDetailsSalesforceSettings {
 export function googleChronicleFeedDetailsSalesforceSettingsToTerraform(struct?: GoogleChronicleFeedDetailsSalesforceSettingsOutputReference | GoogleChronicleFeedDetailsSalesforceSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -269,7 +269,7 @@ export function googleChronicleFeedDetailsSalesforceSettingsToTerraform(struct?:
 export function googleChronicleFeedDetailsSalesforceSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsSalesforceSettingsOutputReference | GoogleChronicleFeedDetailsSalesforceSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -392,13 +392,13 @@ export interface GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticatio
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
   */
   readonly key?: string;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
   */
   readonly value?: string;
 }
@@ -406,7 +406,7 @@ export interface GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticatio
 export function googleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationHeaderKeyValuesToTerraform(struct?: GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationHeaderKeyValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -418,7 +418,7 @@ export function googleChronicleFeedDetailsSentineloneAlertSettingsAuthentication
 export function googleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationHeaderKeyValuesToHclTerraform(struct?: GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationHeaderKeyValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -545,7 +545,7 @@ export interface GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticatio
   /**
   * header_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
   */
   readonly headerKeyValues?: GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationHeaderKeyValues[] | cdktn.IResolvable;
 }
@@ -553,7 +553,7 @@ export interface GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticatio
 export function googleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_key_values: cdktn.listMapper(googleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationHeaderKeyValuesToTerraform, true)(struct!.headerKeyValues),
@@ -564,7 +564,7 @@ export function googleChronicleFeedDetailsSentineloneAlertSettingsAuthentication
 export function googleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_key_values: {
@@ -631,25 +631,25 @@ export interface GoogleChronicleFeedDetailsSentineloneAlertSettings {
   /**
   * Hostname of SentinelOne alert settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
   */
   readonly hostname?: string;
   /**
   * initialStartTime from when to fetch the alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#initial_start_time GoogleChronicleFeed#initial_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#initial_start_time GoogleChronicleFeed#initial_start_time}
   */
   readonly initialStartTime?: string;
   /**
   * Is the customer subscribed to Alerts Api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#is_alert_api_subscribed GoogleChronicleFeed#is_alert_api_subscribed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#is_alert_api_subscribed GoogleChronicleFeed#is_alert_api_subscribed}
   */
   readonly isAlertApiSubscribed?: boolean | cdktn.IResolvable;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsSentineloneAlertSettingsAuthentication;
 }
@@ -657,7 +657,7 @@ export interface GoogleChronicleFeedDetailsSentineloneAlertSettings {
 export function googleChronicleFeedDetailsSentineloneAlertSettingsToTerraform(struct?: GoogleChronicleFeedDetailsSentineloneAlertSettingsOutputReference | GoogleChronicleFeedDetailsSentineloneAlertSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -671,7 +671,7 @@ export function googleChronicleFeedDetailsSentineloneAlertSettingsToTerraform(st
 export function googleChronicleFeedDetailsSentineloneAlertSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsSentineloneAlertSettingsOutputReference | GoogleChronicleFeedDetailsSentineloneAlertSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -822,13 +822,13 @@ export interface GoogleChronicleFeedDetailsServiceNowCmdbSettingsAuthentication 
   /**
   * Secret of the account identified by user_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
   */
   readonly secret?: string;
   /**
   * Username of an identity used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
   */
   readonly user?: string;
 }
@@ -836,7 +836,7 @@ export interface GoogleChronicleFeedDetailsServiceNowCmdbSettingsAuthentication 
 export function googleChronicleFeedDetailsServiceNowCmdbSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsServiceNowCmdbSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsServiceNowCmdbSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret: cdktn.stringToTerraform(struct!.secret),
@@ -848,7 +848,7 @@ export function googleChronicleFeedDetailsServiceNowCmdbSettingsAuthenticationTo
 export function googleChronicleFeedDetailsServiceNowCmdbSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsServiceNowCmdbSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsServiceNowCmdbSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret: {
@@ -943,19 +943,19 @@ export interface GoogleChronicleFeedDetailsServiceNowCmdbSettings {
   /**
   * Feedname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#feedname GoogleChronicleFeed#feedname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#feedname GoogleChronicleFeed#feedname}
   */
   readonly feedname?: string;
   /**
   * API Hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
   */
   readonly hostname?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsServiceNowCmdbSettingsAuthentication;
 }
@@ -963,7 +963,7 @@ export interface GoogleChronicleFeedDetailsServiceNowCmdbSettings {
 export function googleChronicleFeedDetailsServiceNowCmdbSettingsToTerraform(struct?: GoogleChronicleFeedDetailsServiceNowCmdbSettingsOutputReference | GoogleChronicleFeedDetailsServiceNowCmdbSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     feedname: cdktn.stringToTerraform(struct!.feedname),
@@ -976,7 +976,7 @@ export function googleChronicleFeedDetailsServiceNowCmdbSettingsToTerraform(stru
 export function googleChronicleFeedDetailsServiceNowCmdbSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsServiceNowCmdbSettingsOutputReference | GoogleChronicleFeedDetailsServiceNowCmdbSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     feedname: {
@@ -1099,25 +1099,25 @@ export interface GoogleChronicleFeedDetailsSftpSettingsAuthentication {
   /**
   * Password. Used for username and password authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
   */
   readonly password?: string;
   /**
   * Private key. Used for private key authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
   /**
   * Private key passphrase. Used for private key authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key_passphrase GoogleChronicleFeed#private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key_passphrase GoogleChronicleFeed#private_key_passphrase}
   */
   readonly privateKeyPassphrase?: string;
   /**
   * Username. Used for username and password authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
   */
   readonly username?: string;
 }
@@ -1125,7 +1125,7 @@ export interface GoogleChronicleFeedDetailsSftpSettingsAuthentication {
 export function googleChronicleFeedDetailsSftpSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsSftpSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsSftpSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     password: cdktn.stringToTerraform(struct!.password),
@@ -1139,7 +1139,7 @@ export function googleChronicleFeedDetailsSftpSettingsAuthenticationToTerraform(
 export function googleChronicleFeedDetailsSftpSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsSftpSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsSftpSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     password: {
@@ -1293,7 +1293,7 @@ export interface GoogleChronicleFeedDetailsSftpSettings {
   * SOURCE_DELETION_ON_SUCCESS
   * SOURCE_DELETION_ON_SUCCESS_FILES_ONLY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
   */
   readonly sourceDeletionOption?: string;
   /**
@@ -1302,19 +1302,19 @@ export interface GoogleChronicleFeedDetailsSftpSettings {
   * FOLDERS
   * FOLDERS_RECURSIVE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
   */
   readonly sourceType?: string;
   /**
   * SFTP URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#uri GoogleChronicleFeed#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#uri GoogleChronicleFeed#uri}
   */
   readonly uri?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsSftpSettingsAuthentication;
 }
@@ -1322,7 +1322,7 @@ export interface GoogleChronicleFeedDetailsSftpSettings {
 export function googleChronicleFeedDetailsSftpSettingsToTerraform(struct?: GoogleChronicleFeedDetailsSftpSettingsOutputReference | GoogleChronicleFeedDetailsSftpSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     source_deletion_option: cdktn.stringToTerraform(struct!.sourceDeletionOption),
@@ -1336,7 +1336,7 @@ export function googleChronicleFeedDetailsSftpSettingsToTerraform(struct?: Googl
 export function googleChronicleFeedDetailsSftpSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsSftpSettingsOutputReference | GoogleChronicleFeedDetailsSftpSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     source_deletion_option: {
@@ -1487,25 +1487,25 @@ export interface GoogleChronicleFeedDetailsSymantecEventExportSettingsAuthentica
   /**
   * Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
 }
@@ -1513,7 +1513,7 @@ export interface GoogleChronicleFeedDetailsSymantecEventExportSettingsAuthentica
 export function googleChronicleFeedDetailsSymantecEventExportSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsSymantecEventExportSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsSymantecEventExportSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -1527,7 +1527,7 @@ export function googleChronicleFeedDetailsSymantecEventExportSettingsAuthenticat
 export function googleChronicleFeedDetailsSymantecEventExportSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsSymantecEventExportSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsSymantecEventExportSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -1678,7 +1678,7 @@ export interface GoogleChronicleFeedDetailsSymantecEventExportSettings {
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsSymantecEventExportSettingsAuthentication;
 }
@@ -1686,7 +1686,7 @@ export interface GoogleChronicleFeedDetailsSymantecEventExportSettings {
 export function googleChronicleFeedDetailsSymantecEventExportSettingsToTerraform(struct?: GoogleChronicleFeedDetailsSymantecEventExportSettingsOutputReference | GoogleChronicleFeedDetailsSymantecEventExportSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     authentication: googleChronicleFeedDetailsSymantecEventExportSettingsAuthenticationToTerraform(struct!.authentication),
@@ -1697,7 +1697,7 @@ export function googleChronicleFeedDetailsSymantecEventExportSettingsToTerraform
 export function googleChronicleFeedDetailsSymantecEventExportSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsSymantecEventExportSettingsOutputReference | GoogleChronicleFeedDetailsSymantecEventExportSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     authentication: {
@@ -1764,13 +1764,13 @@ export interface GoogleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHe
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
   */
   readonly key?: string;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
   */
   readonly value?: string;
 }
@@ -1778,7 +1778,7 @@ export interface GoogleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHe
 export function googleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHeaderKeyValuesToTerraform(struct?: GoogleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHeaderKeyValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -1790,7 +1790,7 @@ export function googleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHea
 export function googleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHeaderKeyValuesToHclTerraform(struct?: GoogleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHeaderKeyValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -1917,7 +1917,7 @@ export interface GoogleChronicleFeedDetailsThinkstCanarySettingsAuthentication {
   /**
   * header_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
   */
   readonly headerKeyValues?: GoogleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHeaderKeyValues[] | cdktn.IResolvable;
 }
@@ -1925,7 +1925,7 @@ export interface GoogleChronicleFeedDetailsThinkstCanarySettingsAuthentication {
 export function googleChronicleFeedDetailsThinkstCanarySettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsThinkstCanarySettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsThinkstCanarySettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     header_key_values: cdktn.listMapper(googleChronicleFeedDetailsThinkstCanarySettingsAuthenticationHeaderKeyValuesToTerraform, true)(struct!.headerKeyValues),
@@ -1936,7 +1936,7 @@ export function googleChronicleFeedDetailsThinkstCanarySettingsAuthenticationToT
 export function googleChronicleFeedDetailsThinkstCanarySettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsThinkstCanarySettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsThinkstCanarySettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     header_key_values: {
@@ -2003,13 +2003,13 @@ export interface GoogleChronicleFeedDetailsThinkstCanarySettings {
   /**
   * API Hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
   */
   readonly hostname?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsThinkstCanarySettingsAuthentication;
 }
@@ -2017,7 +2017,7 @@ export interface GoogleChronicleFeedDetailsThinkstCanarySettings {
 export function googleChronicleFeedDetailsThinkstCanarySettingsToTerraform(struct?: GoogleChronicleFeedDetailsThinkstCanarySettingsOutputReference | GoogleChronicleFeedDetailsThinkstCanarySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -2029,7 +2029,7 @@ export function googleChronicleFeedDetailsThinkstCanarySettingsToTerraform(struc
 export function googleChronicleFeedDetailsThinkstCanarySettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsThinkstCanarySettingsOutputReference | GoogleChronicleFeedDetailsThinkstCanarySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -2124,13 +2124,13 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocSettingsAuthenticatio
   /**
   * Secret of the account identified by user_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
   */
   readonly secret?: string;
   /**
   * Username of an identity used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
   */
   readonly user?: string;
 }
@@ -2138,7 +2138,7 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocSettingsAuthenticatio
 export function googleChronicleFeedDetailsThreatConnectIocSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsThreatConnectIocSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret: cdktn.stringToTerraform(struct!.secret),
@@ -2150,7 +2150,7 @@ export function googleChronicleFeedDetailsThreatConnectIocSettingsAuthentication
 export function googleChronicleFeedDetailsThreatConnectIocSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsThreatConnectIocSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret: {
@@ -2245,19 +2245,19 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocSettings {
   /**
   * API Hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
   */
   readonly hostname?: string;
   /**
   * Owners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
   */
   readonly owners?: string[];
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsThreatConnectIocSettingsAuthentication;
 }
@@ -2265,7 +2265,7 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocSettings {
 export function googleChronicleFeedDetailsThreatConnectIocSettingsToTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocSettingsOutputReference | GoogleChronicleFeedDetailsThreatConnectIocSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -2278,7 +2278,7 @@ export function googleChronicleFeedDetailsThreatConnectIocSettingsToTerraform(st
 export function googleChronicleFeedDetailsThreatConnectIocSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocSettingsOutputReference | GoogleChronicleFeedDetailsThreatConnectIocSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -2401,13 +2401,13 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocV3SettingsAuthenticat
   /**
   * Secret of the account identified by user_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
   */
   readonly secret?: string;
   /**
   * Username of an identity used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
   */
   readonly user?: string;
 }
@@ -2415,7 +2415,7 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocV3SettingsAuthenticat
 export function googleChronicleFeedDetailsThreatConnectIocV3SettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocV3SettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsThreatConnectIocV3SettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret: cdktn.stringToTerraform(struct!.secret),
@@ -2427,7 +2427,7 @@ export function googleChronicleFeedDetailsThreatConnectIocV3SettingsAuthenticati
 export function googleChronicleFeedDetailsThreatConnectIocV3SettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocV3SettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsThreatConnectIocV3SettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret: {
@@ -2522,37 +2522,37 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocV3Settings {
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#fields GoogleChronicleFeed#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#fields GoogleChronicleFeed#fields}
   */
   readonly fields?: string[];
   /**
   * hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
   */
   readonly hostname?: string;
   /**
   * Owners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
   */
   readonly owners?: string[];
   /**
   * Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#schedule GoogleChronicleFeed#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#schedule GoogleChronicleFeed#schedule}
   */
   readonly schedule?: number;
   /**
   * ThreatConnect Query Language filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#tql_query GoogleChronicleFeed#tql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#tql_query GoogleChronicleFeed#tql_query}
   */
   readonly tqlQuery?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsThreatConnectIocV3SettingsAuthentication;
 }
@@ -2560,7 +2560,7 @@ export interface GoogleChronicleFeedDetailsThreatConnectIocV3Settings {
 export function googleChronicleFeedDetailsThreatConnectIocV3SettingsToTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocV3SettingsOutputReference | GoogleChronicleFeedDetailsThreatConnectIocV3Settings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fields),
@@ -2576,7 +2576,7 @@ export function googleChronicleFeedDetailsThreatConnectIocV3SettingsToTerraform(
 export function googleChronicleFeedDetailsThreatConnectIocV3SettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsThreatConnectIocV3SettingsOutputReference | GoogleChronicleFeedDetailsThreatConnectIocV3Settings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fields: {
@@ -2784,7 +2784,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
   * The login api endpoint url.
   * This must be a valid URL with an http or https scheme. It has no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
@@ -2795,7 +2795,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
   * they have provided a password that is internally consistent with MSSO
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
   */
   readonly password?: string;
   /**
@@ -2806,7 +2806,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
   * they have provided a username that is internally consistent with MSSO
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
   */
   readonly username?: string;
 }
@@ -2814,7 +2814,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMssoToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMssoOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMsso): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     api_endpoint: cdktn.stringToTerraform(struct!.apiEndpoint),
@@ -2827,7 +2827,7 @@ export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationM
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMssoToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMssoOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMsso): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     api_endpoint: {
@@ -2954,7 +2954,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
   * It is assumed that the Client ID generated in Trellix IAM is internally
   * consistent with Trellix IAM authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
   */
   readonly clientId?: string;
   /**
@@ -2964,7 +2964,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
   * assumed that the secret generated in Trellix IAM is internally
   * consistent with Trellix IAM authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
   */
   readonly clientSecret?: string;
   /**
@@ -2974,7 +2974,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
   * assumed that the scope provided is internally consistent with Trellix IAM
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
   */
   readonly scope?: string;
 }
@@ -2982,7 +2982,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationTrellixIamToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationTrellixIamOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationTrellixIam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -2995,7 +2995,7 @@ export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationT
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationTrellixIamToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationTrellixIamOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationTrellixIam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -3118,13 +3118,13 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
   /**
   * msso block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
   */
   readonly msso?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMsso;
   /**
   * trellix_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
   */
   readonly trellixIam?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationTrellixIam;
 }
@@ -3132,7 +3132,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     msso: googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationMssoToTerraform(struct!.msso),
@@ -3144,7 +3144,7 @@ export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationT
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     msso: {
@@ -3244,13 +3244,13 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettings {
   * - or -
   * https://htapdeviceproxy.md.mandiant.net/dphb/hx//
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
   */
   readonly endpoint?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentication;
 }
@@ -3258,7 +3258,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxAlertsSettings {
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     endpoint: cdktn.stringToTerraform(struct!.endpoint),
@@ -3270,7 +3270,7 @@ export function googleChronicleFeedDetailsTrellixHxAlertsSettingsToTerraform(str
 export function googleChronicleFeedDetailsTrellixHxAlertsSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsOutputReference | GoogleChronicleFeedDetailsTrellixHxAlertsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     endpoint: {
@@ -3366,7 +3366,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
   * The login api endpoint url.
   * This must be a valid URL with an http or https scheme. It has no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
   */
   readonly apiEndpoint: string;
   /**
@@ -3377,7 +3377,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
   * they have provided a password that is internally consistent with MSSO
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
   */
   readonly password: string;
   /**
@@ -3388,7 +3388,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
   * they have provided a username that is internally consistent with MSSO
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
   */
   readonly username: string;
 }
@@ -3396,7 +3396,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMssoToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMssoOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMsso): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     api_endpoint: cdktn.stringToTerraform(struct!.apiEndpoint),
@@ -3409,7 +3409,7 @@ export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticatio
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMssoToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMssoOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMsso): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     api_endpoint: {
@@ -3527,7 +3527,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
   * It is assumed that the Client ID generated in Trellix IAM is internally
   * consistent with Trellix IAM authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
   */
   readonly clientId: string;
   /**
@@ -3537,7 +3537,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
   * assumed that the secret generated in Trellix IAM is internally
   * consistent with Trellix IAM authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
   */
   readonly clientSecret: string;
   /**
@@ -3547,7 +3547,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
   * assumed that the scope provided is internally consistent with Trellix IAM
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
   */
   readonly scope: string;
 }
@@ -3555,7 +3555,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIamToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIamOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -3568,7 +3568,7 @@ export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticatio
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIamToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIamOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -3682,13 +3682,13 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
   /**
   * msso block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
   */
   readonly msso?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMsso;
   /**
   * trellix_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
   */
   readonly trellixIam?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIam;
 }
@@ -3696,7 +3696,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticati
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     msso: googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationMssoToTerraform(struct!.msso),
@@ -3708,7 +3708,7 @@ export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticatio
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     msso: {
@@ -3808,13 +3808,13 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettings {
   * - or -
   * https://htapdeviceproxy.md.mandiant.net/dphb/hx//
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
   */
   readonly endpoint: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthentication;
 }
@@ -3822,7 +3822,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettings {
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     endpoint: cdktn.stringToTerraform(struct!.endpoint),
@@ -3834,7 +3834,7 @@ export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsToTerraform(s
 export function googleChronicleFeedDetailsTrellixHxBulkAcqsSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsOutputReference | GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     endpoint: {
@@ -3927,7 +3927,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationM
   * The login api endpoint url.
   * This must be a valid URL with an http or https scheme. It has no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
   */
   readonly apiEndpoint: string;
   /**
@@ -3938,7 +3938,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationM
   * they have provided a password that is internally consistent with MSSO
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
   */
   readonly password: string;
   /**
@@ -3949,7 +3949,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationM
   * they have provided a username that is internally consistent with MSSO
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
   */
   readonly username: string;
 }
@@ -3957,7 +3957,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationM
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMssoToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMssoOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMsso): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     api_endpoint: cdktn.stringToTerraform(struct!.apiEndpoint),
@@ -3970,7 +3970,7 @@ export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMs
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMssoToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMssoOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMsso): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     api_endpoint: {
@@ -4088,7 +4088,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationT
   * It is assumed that the Client ID generated in Trellix IAM is internally
   * consistent with Trellix IAM authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
   */
   readonly clientId: string;
   /**
@@ -4098,7 +4098,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationT
   * assumed that the secret generated in Trellix IAM is internally
   * consistent with Trellix IAM authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
   */
   readonly clientSecret: string;
   /**
@@ -4108,7 +4108,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationT
   * assumed that the scope provided is internally consistent with Trellix IAM
   * authentication requirements / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
   */
   readonly scope: string;
 }
@@ -4116,7 +4116,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationT
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIamToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIamOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -4129,7 +4129,7 @@ export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTr
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIamToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIamOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -4243,13 +4243,13 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthentication 
   /**
   * msso block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
   */
   readonly msso?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMsso;
   /**
   * trellix_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
   */
   readonly trellixIam?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTrellixIam;
 }
@@ -4257,7 +4257,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthentication 
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     msso: googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationMssoToTerraform(struct!.msso),
@@ -4269,7 +4269,7 @@ export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationTo
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     msso: {
@@ -4369,13 +4369,13 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettings {
   * - or -
   * https://htapdeviceproxy.md.mandiant.net/dphb/hx//
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
   */
   readonly endpoint: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthentication;
 }
@@ -4383,7 +4383,7 @@ export interface GoogleChronicleFeedDetailsTrellixHxHostsSettings {
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsToTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     endpoint: cdktn.stringToTerraform(struct!.endpoint),
@@ -4395,7 +4395,7 @@ export function googleChronicleFeedDetailsTrellixHxHostsSettingsToTerraform(stru
 export function googleChronicleFeedDetailsTrellixHxHostsSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsTrellixHxHostsSettingsOutputReference | GoogleChronicleFeedDetailsTrellixHxHostsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     endpoint: {
@@ -4489,7 +4489,7 @@ export interface GoogleChronicleFeedDetailsWebhookSettings {
 export function googleChronicleFeedDetailsWebhookSettingsToTerraform(struct?: GoogleChronicleFeedDetailsWebhookSettingsOutputReference | GoogleChronicleFeedDetailsWebhookSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -4499,7 +4499,7 @@ export function googleChronicleFeedDetailsWebhookSettingsToTerraform(struct?: Go
 export function googleChronicleFeedDetailsWebhookSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWebhookSettingsOutputReference | GoogleChronicleFeedDetailsWebhookSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -4536,19 +4536,19 @@ export interface GoogleChronicleFeedDetailsWorkdaySettingsAuthentication {
   /**
   * Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
   */
   readonly clientId?: string;
   /**
   * Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Refresh Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
   */
   readonly refreshToken?: string;
   /**
@@ -4558,13 +4558,13 @@ export interface GoogleChronicleFeedDetailsWorkdaySettingsAuthentication {
   * token). Either this field or all of the other OAuth fields below must be
   * specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
   */
   readonly secret?: string;
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
@@ -4572,7 +4572,7 @@ export interface GoogleChronicleFeedDetailsWorkdaySettingsAuthentication {
   * username and secret authentication method, but only the secret field was
   * used, and it was used to supply the OAuth access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
   */
   readonly user?: string;
 }
@@ -4580,7 +4580,7 @@ export interface GoogleChronicleFeedDetailsWorkdaySettingsAuthentication {
 export function googleChronicleFeedDetailsWorkdaySettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkdaySettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkdaySettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -4596,7 +4596,7 @@ export function googleChronicleFeedDetailsWorkdaySettingsAuthenticationToTerrafo
 export function googleChronicleFeedDetailsWorkdaySettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkdaySettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkdaySettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -4803,19 +4803,19 @@ export interface GoogleChronicleFeedDetailsWorkdaySettings {
   /**
   * API Hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
   */
   readonly hostname?: string;
   /**
   * Tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkdaySettingsAuthentication;
 }
@@ -4823,7 +4823,7 @@ export interface GoogleChronicleFeedDetailsWorkdaySettings {
 export function googleChronicleFeedDetailsWorkdaySettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkdaySettingsOutputReference | GoogleChronicleFeedDetailsWorkdaySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -4836,7 +4836,7 @@ export function googleChronicleFeedDetailsWorkdaySettingsToTerraform(struct?: Go
 export function googleChronicleFeedDetailsWorkdaySettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkdaySettingsOutputReference | GoogleChronicleFeedDetailsWorkdaySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -4959,19 +4959,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticati
   /**
   * Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
   */
   readonly audience?: string;
   /**
   * Issuer. Usually the client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
   */
   readonly issuer?: string;
   /**
   * Subject. Usually the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
   */
   readonly subject?: string;
 }
@@ -4979,7 +4979,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticati
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationClaimsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -4992,7 +4992,7 @@ export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticatio
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationClaimsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -5115,7 +5115,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticati
   /**
   * Private key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
 }
@@ -5123,7 +5123,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticati
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationRsCredentialsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_key: cdktn.stringToTerraform(struct!.privateKey),
@@ -5134,7 +5134,7 @@ export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticatio
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationRsCredentialsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_key: {
@@ -5201,19 +5201,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticati
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
   */
   readonly claims?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationClaims;
   /**
   * rs_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
   */
   readonly rsCredentials?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationRsCredentials;
 }
@@ -5221,7 +5221,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticati
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
@@ -5234,7 +5234,7 @@ export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticatio
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     token_endpoint: {
@@ -5357,19 +5357,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettings {
   /**
   * Applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#applications GoogleChronicleFeed#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#applications GoogleChronicleFeed#applications}
   */
   readonly applications?: string[];
   /**
   * Customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
   */
   readonly workspaceCustomerId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthentication;
 }
@@ -5377,7 +5377,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceActivitySettings {
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     applications: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.applications),
@@ -5390,7 +5390,7 @@ export function googleChronicleFeedDetailsWorkspaceActivitySettingsToTerraform(s
 export function googleChronicleFeedDetailsWorkspaceActivitySettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceActivitySettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceActivitySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     applications: {
@@ -5513,19 +5513,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication
   /**
   * Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
   */
   readonly audience?: string;
   /**
   * Issuer. Usually the client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
   */
   readonly issuer?: string;
   /**
   * Subject. Usually the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
   */
   readonly subject?: string;
 }
@@ -5533,7 +5533,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationClaimsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -5546,7 +5546,7 @@ export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationC
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationClaimsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -5669,7 +5669,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication
   /**
   * Private key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
 }
@@ -5677,7 +5677,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationRsCredentialsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_key: cdktn.stringToTerraform(struct!.privateKey),
@@ -5688,7 +5688,7 @@ export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationR
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationRsCredentialsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_key: {
@@ -5755,19 +5755,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
   */
   readonly claims?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationClaims;
   /**
   * rs_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
   */
   readonly rsCredentials?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationRsCredentials;
 }
@@ -5775,7 +5775,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
@@ -5788,7 +5788,7 @@ export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationT
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     token_endpoint: {
@@ -5911,13 +5911,13 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettings {
   /**
   * Customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
   */
   readonly workspaceCustomerId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthentication;
 }
@@ -5925,7 +5925,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceAlertsSettings {
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     workspace_customer_id: cdktn.stringToTerraform(struct!.workspaceCustomerId),
@@ -5937,7 +5937,7 @@ export function googleChronicleFeedDetailsWorkspaceAlertsSettingsToTerraform(str
 export function googleChronicleFeedDetailsWorkspaceAlertsSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceAlertsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     workspace_customer_id: {
@@ -6032,19 +6032,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticati
   /**
   * Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
   */
   readonly audience?: string;
   /**
   * Issuer. Usually the client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
   */
   readonly issuer?: string;
   /**
   * Subject. Usually the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
   */
   readonly subject?: string;
 }
@@ -6052,7 +6052,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticati
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationClaimsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -6065,7 +6065,7 @@ export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticatio
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationClaimsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -6188,7 +6188,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticati
   /**
   * Private key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
 }
@@ -6196,7 +6196,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticati
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentialsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_key: cdktn.stringToTerraform(struct!.privateKey),
@@ -6207,7 +6207,7 @@ export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticatio
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentialsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_key: {
@@ -6274,19 +6274,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticati
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
   */
   readonly claims?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationClaims;
   /**
   * rs_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
   */
   readonly rsCredentials?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationRsCredentials;
 }
@@ -6294,7 +6294,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticati
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
@@ -6307,7 +6307,7 @@ export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticatio
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     token_endpoint: {
@@ -6430,13 +6430,13 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettings {
   /**
   * Customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
   */
   readonly workspaceCustomerId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthentication;
 }
@@ -6444,7 +6444,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceChromeOsSettings {
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     workspace_customer_id: cdktn.stringToTerraform(struct!.workspaceCustomerId),
@@ -6456,7 +6456,7 @@ export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsToTerraform(s
 export function googleChronicleFeedDetailsWorkspaceChromeOsSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceChromeOsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     workspace_customer_id: {
@@ -6551,19 +6551,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication
   /**
   * Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
   */
   readonly audience?: string;
   /**
   * Issuer. Usually the client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
   */
   readonly issuer?: string;
   /**
   * Subject. Usually the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
   */
   readonly subject?: string;
 }
@@ -6571,7 +6571,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationClaimsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -6584,7 +6584,7 @@ export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationC
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationClaimsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -6707,7 +6707,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication
   /**
   * Private key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
 }
@@ -6715,7 +6715,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationRsCredentialsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_key: cdktn.stringToTerraform(struct!.privateKey),
@@ -6726,7 +6726,7 @@ export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationR
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationRsCredentialsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_key: {
@@ -6793,19 +6793,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
   */
   readonly claims?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationClaims;
   /**
   * rs_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
   */
   readonly rsCredentials?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationRsCredentials;
 }
@@ -6813,7 +6813,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
@@ -6826,7 +6826,7 @@ export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationT
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     token_endpoint: {
@@ -6949,13 +6949,13 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettings {
   /**
   * Customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
   */
   readonly workspaceCustomerId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthentication;
 }
@@ -6963,7 +6963,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceGroupsSettings {
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     workspace_customer_id: cdktn.stringToTerraform(struct!.workspaceCustomerId),
@@ -6975,7 +6975,7 @@ export function googleChronicleFeedDetailsWorkspaceGroupsSettingsToTerraform(str
 export function googleChronicleFeedDetailsWorkspaceGroupsSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceGroupsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     workspace_customer_id: {
@@ -7070,19 +7070,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication
   /**
   * Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
   */
   readonly audience?: string;
   /**
   * Issuer. Usually the client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
   */
   readonly issuer?: string;
   /**
   * Subject. Usually the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
   */
   readonly subject?: string;
 }
@@ -7090,7 +7090,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationClaimsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -7103,7 +7103,7 @@ export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationC
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationClaimsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -7226,7 +7226,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication
   /**
   * Private key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
 }
@@ -7234,7 +7234,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_key: cdktn.stringToTerraform(struct!.privateKey),
@@ -7245,7 +7245,7 @@ export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationR
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_key: {
@@ -7312,19 +7312,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
   */
   readonly claims?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationClaims;
   /**
   * rs_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
   */
   readonly rsCredentials?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentials;
 }
@@ -7332,7 +7332,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
@@ -7345,7 +7345,7 @@ export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationT
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     token_endpoint: {
@@ -7468,13 +7468,13 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettings {
   /**
   * Customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
   */
   readonly workspaceCustomerId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthentication;
 }
@@ -7482,7 +7482,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceMobileSettings {
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     workspace_customer_id: cdktn.stringToTerraform(struct!.workspaceCustomerId),
@@ -7494,7 +7494,7 @@ export function googleChronicleFeedDetailsWorkspaceMobileSettingsToTerraform(str
 export function googleChronicleFeedDetailsWorkspaceMobileSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceMobileSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceMobileSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     workspace_customer_id: {
@@ -7589,19 +7589,19 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentica
   /**
   * Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
   */
   readonly audience?: string;
   /**
   * Issuer. Usually the client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
   */
   readonly issuer?: string;
   /**
   * Subject. Usually the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
   */
   readonly subject?: string;
 }
@@ -7609,7 +7609,7 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentica
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationClaimsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -7622,7 +7622,7 @@ export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticat
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationClaimsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -7745,7 +7745,7 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentica
   /**
   * Private key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
 }
@@ -7753,7 +7753,7 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentica
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationRsCredentialsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_key: cdktn.stringToTerraform(struct!.privateKey),
@@ -7764,7 +7764,7 @@ export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticat
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationRsCredentialsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_key: {
@@ -7831,19 +7831,19 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentica
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
   */
   readonly claims?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationClaims;
   /**
   * rs_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
   */
   readonly rsCredentials?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationRsCredentials;
 }
@@ -7851,7 +7851,7 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentica
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
@@ -7864,7 +7864,7 @@ export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticat
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     token_endpoint: {
@@ -7987,13 +7987,13 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettings {
   /**
   * Customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
   */
   readonly workspaceCustomerId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAuthentication;
 }
@@ -8001,7 +8001,7 @@ export interface GoogleChronicleFeedDetailsWorkspacePrivilegesSettings {
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     workspace_customer_id: cdktn.stringToTerraform(struct!.workspaceCustomerId),
@@ -8013,7 +8013,7 @@ export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsToTerraform
 export function googleChronicleFeedDetailsWorkspacePrivilegesSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsOutputReference | GoogleChronicleFeedDetailsWorkspacePrivilegesSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     workspace_customer_id: {
@@ -8108,19 +8108,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationC
   /**
   * Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
   */
   readonly audience?: string;
   /**
   * Issuer. Usually the client_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
   */
   readonly issuer?: string;
   /**
   * Subject. Usually the email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
   */
   readonly subject?: string;
 }
@@ -8128,7 +8128,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationC
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaimsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -8141,7 +8141,7 @@ export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationCl
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaimsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaimsOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -8264,7 +8264,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationR
   /**
   * Private key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
   */
   readonly privateKey?: string;
 }
@@ -8272,7 +8272,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationR
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRsCredentialsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_key: cdktn.stringToTerraform(struct!.privateKey),
@@ -8283,7 +8283,7 @@ export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRs
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRsCredentialsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRsCredentialsOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRsCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_key: {
@@ -8350,19 +8350,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthentication 
   /**
   * Token endpoint to get the OAuth token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
   */
   readonly claims?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationClaims;
   /**
   * rs_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
   */
   readonly rsCredentials?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationRsCredentials;
 }
@@ -8370,7 +8370,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthentication 
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     token_endpoint: cdktn.stringToTerraform(struct!.tokenEndpoint),
@@ -8383,7 +8383,7 @@ export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationTo
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenticationOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     token_endpoint: {
@@ -8509,19 +8509,19 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettings {
   * BASIC_PROJECTION
   * FULL_PROJECTION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#projection_type GoogleChronicleFeed#projection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#projection_type GoogleChronicleFeed#projection_type}
   */
   readonly projectionType?: string;
   /**
   * Customer ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
   */
   readonly workspaceCustomerId?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
   */
   readonly authentication?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthentication;
 }
@@ -8529,7 +8529,7 @@ export interface GoogleChronicleFeedDetailsWorkspaceUsersSettings {
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsToTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     projection_type: cdktn.stringToTerraform(struct!.projectionType),
@@ -8542,7 +8542,7 @@ export function googleChronicleFeedDetailsWorkspaceUsersSettingsToTerraform(stru
 export function googleChronicleFeedDetailsWorkspaceUsersSettingsToHclTerraform(struct?: GoogleChronicleFeedDetailsWorkspaceUsersSettingsOutputReference | GoogleChronicleFeedDetailsWorkspaceUsersSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     projection_type: {
@@ -8665,7 +8665,7 @@ export interface GoogleChronicleFeedDetails {
   /**
   * The asset namespace to apply to all logs ingested through this feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#asset_namespace GoogleChronicleFeed#asset_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#asset_namespace GoogleChronicleFeed#asset_namespace}
   */
   readonly assetNamespace?: string;
   /**
@@ -8691,14 +8691,14 @@ export interface GoogleChronicleFeedDetails {
   * AZURE_BLOBSTORE_V2
   * GOOGLE_CLOUD_STORAGE_EVENT_DRIVEN Possible values: ["GOOGLE_CLOUD_STORAGE", "HTTP", "SFTP", "AMAZON_S3", "AZURE_BLOBSTORE", "API", "AMAZON_SQS", "PUBSUB", "AMAZON_KINESIS_FIREHOSE", "WEBHOOK", "HTTPS_PUSH_GOOGLE_CLOUD_PUBSUB", "HTTPS_PUSH_AMAZON_KINESIS_FIREHOSE", "HTTPS_PUSH_WEBHOOK", "AZURE_EVENT_HUB", "GOOGLE_CLOUD_STORAGE_V2", "AMAZON_S3_V2", "AMAZON_SQS_V2", "AZURE_BLOBSTORE_V2", "GOOGLE_CLOUD_STORAGE_EVENT_DRIVEN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#feed_source_type GoogleChronicleFeed#feed_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#feed_source_type GoogleChronicleFeed#feed_source_type}
   */
   readonly feedSourceType?: string;
   /**
   * The ingestion metadata labels to apply to all logs ingested through this
   * feed, and the resulting normalized data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#labels GoogleChronicleFeed#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#labels GoogleChronicleFeed#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -8706,457 +8706,457 @@ export interface GoogleChronicleFeedDetails {
   * Format:
   * projects/{project}/locations/{location}/instances/{instance}/logTypes/{log_type}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#log_type GoogleChronicleFeed#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#log_type GoogleChronicleFeed#log_type}
   */
   readonly logType: string;
   /**
   * amazon_kinesis_firehose_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#amazon_kinesis_firehose_settings GoogleChronicleFeed#amazon_kinesis_firehose_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#amazon_kinesis_firehose_settings GoogleChronicleFeed#amazon_kinesis_firehose_settings}
   */
   readonly amazonKinesisFirehoseSettings?: GoogleChronicleFeedDetailsAmazonKinesisFirehoseSettings;
   /**
   * amazon_s3_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#amazon_s3_settings GoogleChronicleFeed#amazon_s3_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#amazon_s3_settings GoogleChronicleFeed#amazon_s3_settings}
   */
   readonly amazonS3Settings?: GoogleChronicleFeedDetailsAmazonS3Settings;
   /**
   * amazon_s3_v2_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#amazon_s3_v2_settings GoogleChronicleFeed#amazon_s3_v2_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#amazon_s3_v2_settings GoogleChronicleFeed#amazon_s3_v2_settings}
   */
   readonly amazonS3V2Settings?: GoogleChronicleFeedDetailsAmazonS3V2Settings;
   /**
   * amazon_sqs_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#amazon_sqs_settings GoogleChronicleFeed#amazon_sqs_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#amazon_sqs_settings GoogleChronicleFeed#amazon_sqs_settings}
   */
   readonly amazonSqsSettings?: GoogleChronicleFeedDetailsAmazonSqsSettings;
   /**
   * amazon_sqs_v2_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#amazon_sqs_v2_settings GoogleChronicleFeed#amazon_sqs_v2_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#amazon_sqs_v2_settings GoogleChronicleFeed#amazon_sqs_v2_settings}
   */
   readonly amazonSqsV2Settings?: GoogleChronicleFeedDetailsAmazonSqsV2Settings;
   /**
   * anomali_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#anomali_settings GoogleChronicleFeed#anomali_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#anomali_settings GoogleChronicleFeed#anomali_settings}
   */
   readonly anomaliSettings?: GoogleChronicleFeedDetailsAnomaliSettings;
   /**
   * aws_ec2_hosts_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#aws_ec2_hosts_settings GoogleChronicleFeed#aws_ec2_hosts_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#aws_ec2_hosts_settings GoogleChronicleFeed#aws_ec2_hosts_settings}
   */
   readonly awsEc2HostsSettings?: GoogleChronicleFeedDetailsAwsEc2HostsSettings;
   /**
   * aws_ec2_instances_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#aws_ec2_instances_settings GoogleChronicleFeed#aws_ec2_instances_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#aws_ec2_instances_settings GoogleChronicleFeed#aws_ec2_instances_settings}
   */
   readonly awsEc2InstancesSettings?: GoogleChronicleFeedDetailsAwsEc2InstancesSettings;
   /**
   * aws_ec2_vpcs_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#aws_ec2_vpcs_settings GoogleChronicleFeed#aws_ec2_vpcs_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#aws_ec2_vpcs_settings GoogleChronicleFeed#aws_ec2_vpcs_settings}
   */
   readonly awsEc2VpcsSettings?: GoogleChronicleFeedDetailsAwsEc2VpcsSettings;
   /**
   * aws_iam_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#aws_iam_settings GoogleChronicleFeed#aws_iam_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#aws_iam_settings GoogleChronicleFeed#aws_iam_settings}
   */
   readonly awsIamSettings?: GoogleChronicleFeedDetailsAwsIamSettings;
   /**
   * azure_ad_audit_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#azure_ad_audit_settings GoogleChronicleFeed#azure_ad_audit_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#azure_ad_audit_settings GoogleChronicleFeed#azure_ad_audit_settings}
   */
   readonly azureAdAuditSettings?: GoogleChronicleFeedDetailsAzureAdAuditSettings;
   /**
   * azure_ad_context_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#azure_ad_context_settings GoogleChronicleFeed#azure_ad_context_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#azure_ad_context_settings GoogleChronicleFeed#azure_ad_context_settings}
   */
   readonly azureAdContextSettings?: GoogleChronicleFeedDetailsAzureAdContextSettings;
   /**
   * azure_ad_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#azure_ad_settings GoogleChronicleFeed#azure_ad_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#azure_ad_settings GoogleChronicleFeed#azure_ad_settings}
   */
   readonly azureAdSettings?: GoogleChronicleFeedDetailsAzureAdSettings;
   /**
   * azure_blob_store_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#azure_blob_store_settings GoogleChronicleFeed#azure_blob_store_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#azure_blob_store_settings GoogleChronicleFeed#azure_blob_store_settings}
   */
   readonly azureBlobStoreSettings?: GoogleChronicleFeedDetailsAzureBlobStoreSettings;
   /**
   * azure_blob_store_v2_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#azure_blob_store_v2_settings GoogleChronicleFeed#azure_blob_store_v2_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#azure_blob_store_v2_settings GoogleChronicleFeed#azure_blob_store_v2_settings}
   */
   readonly azureBlobStoreV2Settings?: GoogleChronicleFeedDetailsAzureBlobStoreV2Settings;
   /**
   * azure_event_hub_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#azure_event_hub_settings GoogleChronicleFeed#azure_event_hub_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#azure_event_hub_settings GoogleChronicleFeed#azure_event_hub_settings}
   */
   readonly azureEventHubSettings?: GoogleChronicleFeedDetailsAzureEventHubSettings;
   /**
   * azure_mdm_intune_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#azure_mdm_intune_settings GoogleChronicleFeed#azure_mdm_intune_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#azure_mdm_intune_settings GoogleChronicleFeed#azure_mdm_intune_settings}
   */
   readonly azureMdmIntuneSettings?: GoogleChronicleFeedDetailsAzureMdmIntuneSettings;
   /**
   * cloud_passage_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#cloud_passage_settings GoogleChronicleFeed#cloud_passage_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#cloud_passage_settings GoogleChronicleFeed#cloud_passage_settings}
   */
   readonly cloudPassageSettings?: GoogleChronicleFeedDetailsCloudPassageSettings;
   /**
   * cortex_xdr_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#cortex_xdr_settings GoogleChronicleFeed#cortex_xdr_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#cortex_xdr_settings GoogleChronicleFeed#cortex_xdr_settings}
   */
   readonly cortexXdrSettings?: GoogleChronicleFeedDetailsCortexXdrSettings;
   /**
   * crowdstrike_alerts_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#crowdstrike_alerts_settings GoogleChronicleFeed#crowdstrike_alerts_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#crowdstrike_alerts_settings GoogleChronicleFeed#crowdstrike_alerts_settings}
   */
   readonly crowdstrikeAlertsSettings?: GoogleChronicleFeedDetailsCrowdstrikeAlertsSettings;
   /**
   * crowdstrike_detects_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#crowdstrike_detects_settings GoogleChronicleFeed#crowdstrike_detects_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#crowdstrike_detects_settings GoogleChronicleFeed#crowdstrike_detects_settings}
   */
   readonly crowdstrikeDetectsSettings?: GoogleChronicleFeedDetailsCrowdstrikeDetectsSettings;
   /**
   * dummy_log_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#dummy_log_type_settings GoogleChronicleFeed#dummy_log_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#dummy_log_type_settings GoogleChronicleFeed#dummy_log_type_settings}
   */
   readonly dummyLogTypeSettings?: GoogleChronicleFeedDetailsDummyLogTypeSettings;
   /**
   * duo_auth_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#duo_auth_settings GoogleChronicleFeed#duo_auth_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#duo_auth_settings GoogleChronicleFeed#duo_auth_settings}
   */
   readonly duoAuthSettings?: GoogleChronicleFeedDetailsDuoAuthSettings;
   /**
   * duo_user_context_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#duo_user_context_settings GoogleChronicleFeed#duo_user_context_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#duo_user_context_settings GoogleChronicleFeed#duo_user_context_settings}
   */
   readonly duoUserContextSettings?: GoogleChronicleFeedDetailsDuoUserContextSettings;
   /**
   * fox_it_stix_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#fox_it_stix_settings GoogleChronicleFeed#fox_it_stix_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#fox_it_stix_settings GoogleChronicleFeed#fox_it_stix_settings}
   */
   readonly foxItStixSettings?: GoogleChronicleFeedDetailsFoxItStixSettings;
   /**
   * gcs_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#gcs_settings GoogleChronicleFeed#gcs_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#gcs_settings GoogleChronicleFeed#gcs_settings}
   */
   readonly gcsSettings?: GoogleChronicleFeedDetailsGcsSettings;
   /**
   * gcs_v2_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#gcs_v2_settings GoogleChronicleFeed#gcs_v2_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#gcs_v2_settings GoogleChronicleFeed#gcs_v2_settings}
   */
   readonly gcsV2Settings?: GoogleChronicleFeedDetailsGcsV2Settings;
   /**
   * google_cloud_identity_device_users_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#google_cloud_identity_device_users_settings GoogleChronicleFeed#google_cloud_identity_device_users_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#google_cloud_identity_device_users_settings GoogleChronicleFeed#google_cloud_identity_device_users_settings}
   */
   readonly googleCloudIdentityDeviceUsersSettings?: GoogleChronicleFeedDetailsGoogleCloudIdentityDeviceUsersSettings;
   /**
   * google_cloud_identity_devices_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#google_cloud_identity_devices_settings GoogleChronicleFeed#google_cloud_identity_devices_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#google_cloud_identity_devices_settings GoogleChronicleFeed#google_cloud_identity_devices_settings}
   */
   readonly googleCloudIdentityDevicesSettings?: GoogleChronicleFeedDetailsGoogleCloudIdentityDevicesSettings;
   /**
   * google_cloud_storage_event_driven_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#google_cloud_storage_event_driven_settings GoogleChronicleFeed#google_cloud_storage_event_driven_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#google_cloud_storage_event_driven_settings GoogleChronicleFeed#google_cloud_storage_event_driven_settings}
   */
   readonly googleCloudStorageEventDrivenSettings?: GoogleChronicleFeedDetailsGoogleCloudStorageEventDrivenSettings;
   /**
   * http_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#http_settings GoogleChronicleFeed#http_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#http_settings GoogleChronicleFeed#http_settings}
   */
   readonly httpSettings?: GoogleChronicleFeedDetailsHttpSettings;
   /**
   * https_push_amazon_kinesis_firehose_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#https_push_amazon_kinesis_firehose_settings GoogleChronicleFeed#https_push_amazon_kinesis_firehose_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#https_push_amazon_kinesis_firehose_settings GoogleChronicleFeed#https_push_amazon_kinesis_firehose_settings}
   */
   readonly httpsPushAmazonKinesisFirehoseSettings?: GoogleChronicleFeedDetailsHttpsPushAmazonKinesisFirehoseSettings;
   /**
   * https_push_google_cloud_pubsub_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#https_push_google_cloud_pubsub_settings GoogleChronicleFeed#https_push_google_cloud_pubsub_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#https_push_google_cloud_pubsub_settings GoogleChronicleFeed#https_push_google_cloud_pubsub_settings}
   */
   readonly httpsPushGoogleCloudPubsubSettings?: GoogleChronicleFeedDetailsHttpsPushGoogleCloudPubsubSettings;
   /**
   * https_push_webhook_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#https_push_webhook_settings GoogleChronicleFeed#https_push_webhook_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#https_push_webhook_settings GoogleChronicleFeed#https_push_webhook_settings}
   */
   readonly httpsPushWebhookSettings?: GoogleChronicleFeedDetailsHttpsPushWebhookSettings;
   /**
   * imperva_waf_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#imperva_waf_settings GoogleChronicleFeed#imperva_waf_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#imperva_waf_settings GoogleChronicleFeed#imperva_waf_settings}
   */
   readonly impervaWafSettings?: GoogleChronicleFeedDetailsImpervaWafSettings;
   /**
   * mandiant_ioc_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#mandiant_ioc_settings GoogleChronicleFeed#mandiant_ioc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#mandiant_ioc_settings GoogleChronicleFeed#mandiant_ioc_settings}
   */
   readonly mandiantIocSettings?: GoogleChronicleFeedDetailsMandiantIocSettings;
   /**
   * microsoft_graph_alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#microsoft_graph_alert_settings GoogleChronicleFeed#microsoft_graph_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#microsoft_graph_alert_settings GoogleChronicleFeed#microsoft_graph_alert_settings}
   */
   readonly microsoftGraphAlertSettings?: GoogleChronicleFeedDetailsMicrosoftGraphAlertSettings;
   /**
   * microsoft_security_center_alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#microsoft_security_center_alert_settings GoogleChronicleFeed#microsoft_security_center_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#microsoft_security_center_alert_settings GoogleChronicleFeed#microsoft_security_center_alert_settings}
   */
   readonly microsoftSecurityCenterAlertSettings?: GoogleChronicleFeedDetailsMicrosoftSecurityCenterAlertSettings;
   /**
   * mimecast_mail_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#mimecast_mail_settings GoogleChronicleFeed#mimecast_mail_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#mimecast_mail_settings GoogleChronicleFeed#mimecast_mail_settings}
   */
   readonly mimecastMailSettings?: GoogleChronicleFeedDetailsMimecastMailSettings;
   /**
   * mimecast_mail_v2_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#mimecast_mail_v2_settings GoogleChronicleFeed#mimecast_mail_v2_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#mimecast_mail_v2_settings GoogleChronicleFeed#mimecast_mail_v2_settings}
   */
   readonly mimecastMailV2Settings?: GoogleChronicleFeedDetailsMimecastMailV2Settings;
   /**
   * netskope_alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#netskope_alert_settings GoogleChronicleFeed#netskope_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#netskope_alert_settings GoogleChronicleFeed#netskope_alert_settings}
   */
   readonly netskopeAlertSettings?: GoogleChronicleFeedDetailsNetskopeAlertSettings;
   /**
   * netskope_alert_v2_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#netskope_alert_v2_settings GoogleChronicleFeed#netskope_alert_v2_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#netskope_alert_v2_settings GoogleChronicleFeed#netskope_alert_v2_settings}
   */
   readonly netskopeAlertV2Settings?: GoogleChronicleFeedDetailsNetskopeAlertV2Settings;
   /**
   * office365_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#office365_settings GoogleChronicleFeed#office365_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#office365_settings GoogleChronicleFeed#office365_settings}
   */
   readonly office365Settings?: GoogleChronicleFeedDetailsOffice365Settings;
   /**
   * okta_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#okta_settings GoogleChronicleFeed#okta_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#okta_settings GoogleChronicleFeed#okta_settings}
   */
   readonly oktaSettings?: GoogleChronicleFeedDetailsOktaSettings;
   /**
   * okta_user_context_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#okta_user_context_settings GoogleChronicleFeed#okta_user_context_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#okta_user_context_settings GoogleChronicleFeed#okta_user_context_settings}
   */
   readonly oktaUserContextSettings?: GoogleChronicleFeedDetailsOktaUserContextSettings;
   /**
   * pan_ioc_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#pan_ioc_settings GoogleChronicleFeed#pan_ioc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#pan_ioc_settings GoogleChronicleFeed#pan_ioc_settings}
   */
   readonly panIocSettings?: GoogleChronicleFeedDetailsPanIocSettings;
   /**
   * pan_prisma_cloud_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#pan_prisma_cloud_settings GoogleChronicleFeed#pan_prisma_cloud_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#pan_prisma_cloud_settings GoogleChronicleFeed#pan_prisma_cloud_settings}
   */
   readonly panPrismaCloudSettings?: GoogleChronicleFeedDetailsPanPrismaCloudSettings;
   /**
   * proofpoint_mail_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#proofpoint_mail_settings GoogleChronicleFeed#proofpoint_mail_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#proofpoint_mail_settings GoogleChronicleFeed#proofpoint_mail_settings}
   */
   readonly proofpointMailSettings?: GoogleChronicleFeedDetailsProofpointMailSettings;
   /**
   * proofpoint_on_demand_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#proofpoint_on_demand_settings GoogleChronicleFeed#proofpoint_on_demand_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#proofpoint_on_demand_settings GoogleChronicleFeed#proofpoint_on_demand_settings}
   */
   readonly proofpointOnDemandSettings?: GoogleChronicleFeedDetailsProofpointOnDemandSettings;
   /**
   * pubsub_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#pubsub_settings GoogleChronicleFeed#pubsub_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#pubsub_settings GoogleChronicleFeed#pubsub_settings}
   */
   readonly pubsubSettings?: GoogleChronicleFeedDetailsPubsubSettings;
   /**
   * qualys_scan_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#qualys_scan_settings GoogleChronicleFeed#qualys_scan_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#qualys_scan_settings GoogleChronicleFeed#qualys_scan_settings}
   */
   readonly qualysScanSettings?: GoogleChronicleFeedDetailsQualysScanSettings;
   /**
   * qualys_vm_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#qualys_vm_settings GoogleChronicleFeed#qualys_vm_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#qualys_vm_settings GoogleChronicleFeed#qualys_vm_settings}
   */
   readonly qualysVmSettings?: GoogleChronicleFeedDetailsQualysVmSettings;
   /**
   * rapid7_insight_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rapid7_insight_settings GoogleChronicleFeed#rapid7_insight_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rapid7_insight_settings GoogleChronicleFeed#rapid7_insight_settings}
   */
   readonly rapid7InsightSettings?: GoogleChronicleFeedDetailsRapid7InsightSettings;
   /**
   * recorded_future_ioc_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#recorded_future_ioc_settings GoogleChronicleFeed#recorded_future_ioc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#recorded_future_ioc_settings GoogleChronicleFeed#recorded_future_ioc_settings}
   */
   readonly recordedFutureIocSettings?: GoogleChronicleFeedDetailsRecordedFutureIocSettings;
   /**
   * rh_isac_ioc_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#rh_isac_ioc_settings GoogleChronicleFeed#rh_isac_ioc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#rh_isac_ioc_settings GoogleChronicleFeed#rh_isac_ioc_settings}
   */
   readonly rhIsacIocSettings?: GoogleChronicleFeedDetailsRhIsacIocSettings;
   /**
   * salesforce_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#salesforce_settings GoogleChronicleFeed#salesforce_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#salesforce_settings GoogleChronicleFeed#salesforce_settings}
   */
   readonly salesforceSettings?: GoogleChronicleFeedDetailsSalesforceSettings;
   /**
   * sentinelone_alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#sentinelone_alert_settings GoogleChronicleFeed#sentinelone_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#sentinelone_alert_settings GoogleChronicleFeed#sentinelone_alert_settings}
   */
   readonly sentineloneAlertSettings?: GoogleChronicleFeedDetailsSentineloneAlertSettings;
   /**
   * service_now_cmdb_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#service_now_cmdb_settings GoogleChronicleFeed#service_now_cmdb_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#service_now_cmdb_settings GoogleChronicleFeed#service_now_cmdb_settings}
   */
   readonly serviceNowCmdbSettings?: GoogleChronicleFeedDetailsServiceNowCmdbSettings;
   /**
   * sftp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#sftp_settings GoogleChronicleFeed#sftp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#sftp_settings GoogleChronicleFeed#sftp_settings}
   */
   readonly sftpSettings?: GoogleChronicleFeedDetailsSftpSettings;
   /**
   * symantec_event_export_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#symantec_event_export_settings GoogleChronicleFeed#symantec_event_export_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#symantec_event_export_settings GoogleChronicleFeed#symantec_event_export_settings}
   */
   readonly symantecEventExportSettings?: GoogleChronicleFeedDetailsSymantecEventExportSettings;
   /**
   * thinkst_canary_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#thinkst_canary_settings GoogleChronicleFeed#thinkst_canary_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#thinkst_canary_settings GoogleChronicleFeed#thinkst_canary_settings}
   */
   readonly thinkstCanarySettings?: GoogleChronicleFeedDetailsThinkstCanarySettings;
   /**
   * threat_connect_ioc_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#threat_connect_ioc_settings GoogleChronicleFeed#threat_connect_ioc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#threat_connect_ioc_settings GoogleChronicleFeed#threat_connect_ioc_settings}
   */
   readonly threatConnectIocSettings?: GoogleChronicleFeedDetailsThreatConnectIocSettings;
   /**
   * threat_connect_ioc_v3_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#threat_connect_ioc_v3_settings GoogleChronicleFeed#threat_connect_ioc_v3_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#threat_connect_ioc_v3_settings GoogleChronicleFeed#threat_connect_ioc_v3_settings}
   */
   readonly threatConnectIocV3Settings?: GoogleChronicleFeedDetailsThreatConnectIocV3Settings;
   /**
   * trellix_hx_alerts_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#trellix_hx_alerts_settings GoogleChronicleFeed#trellix_hx_alerts_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#trellix_hx_alerts_settings GoogleChronicleFeed#trellix_hx_alerts_settings}
   */
   readonly trellixHxAlertsSettings?: GoogleChronicleFeedDetailsTrellixHxAlertsSettings;
   /**
   * trellix_hx_bulk_acqs_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#trellix_hx_bulk_acqs_settings GoogleChronicleFeed#trellix_hx_bulk_acqs_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#trellix_hx_bulk_acqs_settings GoogleChronicleFeed#trellix_hx_bulk_acqs_settings}
   */
   readonly trellixHxBulkAcqsSettings?: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettings;
   /**
   * trellix_hx_hosts_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#trellix_hx_hosts_settings GoogleChronicleFeed#trellix_hx_hosts_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#trellix_hx_hosts_settings GoogleChronicleFeed#trellix_hx_hosts_settings}
   */
   readonly trellixHxHostsSettings?: GoogleChronicleFeedDetailsTrellixHxHostsSettings;
   /**
   * webhook_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#webhook_settings GoogleChronicleFeed#webhook_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#webhook_settings GoogleChronicleFeed#webhook_settings}
   */
   readonly webhookSettings?: GoogleChronicleFeedDetailsWebhookSettings;
   /**
   * workday_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workday_settings GoogleChronicleFeed#workday_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workday_settings GoogleChronicleFeed#workday_settings}
   */
   readonly workdaySettings?: GoogleChronicleFeedDetailsWorkdaySettings;
   /**
   * workspace_activity_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_activity_settings GoogleChronicleFeed#workspace_activity_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_activity_settings GoogleChronicleFeed#workspace_activity_settings}
   */
   readonly workspaceActivitySettings?: GoogleChronicleFeedDetailsWorkspaceActivitySettings;
   /**
   * workspace_alerts_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_alerts_settings GoogleChronicleFeed#workspace_alerts_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_alerts_settings GoogleChronicleFeed#workspace_alerts_settings}
   */
   readonly workspaceAlertsSettings?: GoogleChronicleFeedDetailsWorkspaceAlertsSettings;
   /**
   * workspace_chrome_os_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_chrome_os_settings GoogleChronicleFeed#workspace_chrome_os_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_chrome_os_settings GoogleChronicleFeed#workspace_chrome_os_settings}
   */
   readonly workspaceChromeOsSettings?: GoogleChronicleFeedDetailsWorkspaceChromeOsSettings;
   /**
   * workspace_groups_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_groups_settings GoogleChronicleFeed#workspace_groups_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_groups_settings GoogleChronicleFeed#workspace_groups_settings}
   */
   readonly workspaceGroupsSettings?: GoogleChronicleFeedDetailsWorkspaceGroupsSettings;
   /**
   * workspace_mobile_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_mobile_settings GoogleChronicleFeed#workspace_mobile_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_mobile_settings GoogleChronicleFeed#workspace_mobile_settings}
   */
   readonly workspaceMobileSettings?: GoogleChronicleFeedDetailsWorkspaceMobileSettings;
   /**
   * workspace_privileges_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_privileges_settings GoogleChronicleFeed#workspace_privileges_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_privileges_settings GoogleChronicleFeed#workspace_privileges_settings}
   */
   readonly workspacePrivilegesSettings?: GoogleChronicleFeedDetailsWorkspacePrivilegesSettings;
   /**
   * workspace_users_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#workspace_users_settings GoogleChronicleFeed#workspace_users_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#workspace_users_settings GoogleChronicleFeed#workspace_users_settings}
   */
   readonly workspaceUsersSettings?: GoogleChronicleFeedDetailsWorkspaceUsersSettings;
 }
@@ -9164,7 +9164,7 @@ export interface GoogleChronicleFeedDetails {
 export function googleChronicleFeedDetailsToTerraform(struct?: GoogleChronicleFeedDetailsOutputReference | GoogleChronicleFeedDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     asset_namespace: cdktn.stringToTerraform(struct!.assetNamespace),
@@ -9253,7 +9253,7 @@ export function googleChronicleFeedDetailsToTerraform(struct?: GoogleChronicleFe
 export function googleChronicleFeedDetailsToHclTerraform(struct?: GoogleChronicleFeedDetailsOutputReference | GoogleChronicleFeedDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     asset_namespace: {
@@ -11508,7 +11508,7 @@ export interface GoogleChronicleFeedFailureDetails {
 export function googleChronicleFeedFailureDetailsToTerraform(struct?: GoogleChronicleFeedFailureDetailsOutputReference | GoogleChronicleFeedFailureDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -11518,7 +11518,7 @@ export function googleChronicleFeedFailureDetailsToTerraform(struct?: GoogleChro
 export function googleChronicleFeedFailureDetailsToHclTerraform(struct?: GoogleChronicleFeedFailureDetailsOutputReference | GoogleChronicleFeedFailureDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -11573,15 +11573,15 @@ export class GoogleChronicleFeedFailureDetailsOutputReference extends cdktn.Comp
 }
 export interface GoogleChronicleFeedTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#create GoogleChronicleFeed#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#create GoogleChronicleFeed#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#delete GoogleChronicleFeed#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#delete GoogleChronicleFeed#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_feed#update GoogleChronicleFeed#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_feed#update GoogleChronicleFeed#update}
   */
   readonly update?: string;
 }
@@ -11589,7 +11589,7 @@ export interface GoogleChronicleFeedTimeouts {
 export function googleChronicleFeedTimeoutsToTerraform(struct?: GoogleChronicleFeedTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -11602,7 +11602,7 @@ export function googleChronicleFeedTimeoutsToTerraform(struct?: GoogleChronicleF
 export function googleChronicleFeedTimeoutsToHclTerraform(struct?: GoogleChronicleFeedTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {

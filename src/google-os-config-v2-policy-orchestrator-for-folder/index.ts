@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderConfig extends cdktn
   * - 'UPSERT' - Orchestrator will create or update target resources.
   * - 'DELETE' - Orchestrator will delete target resources, if they exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#action GoogleOsConfigV2PolicyOrchestratorForFolder#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#action GoogleOsConfigV2PolicyOrchestratorForFolder#action}
   */
   readonly action: string;
   /**
@@ -31,23 +31,23 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderConfig extends cdktn
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deletion_policy GoogleOsConfigV2PolicyOrchestratorForFolder#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deletion_policy GoogleOsConfigV2PolicyOrchestratorForFolder#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Freeform text describing the purpose of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
   */
   readonly description?: string;
   /**
   * The parent resource name in the form of 'folders/{folder_id}/locations/global'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#folder_id GoogleOsConfigV2PolicyOrchestratorForFolder#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#folder_id GoogleOsConfigV2PolicyOrchestratorForFolder#folder_id}
   */
   readonly folderId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderConfig extends cdktn
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -72,7 +72,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderConfig extends cdktn
   * * Must end with a number or a letter.
   * * Must be unique within the parent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestratorForFolder#policy_orchestrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestratorForFolder#policy_orchestrator_id}
   */
   readonly policyOrchestratorId: string;
   /**
@@ -85,25 +85,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderConfig extends cdktn
   * instead of an enum, to avoid the need of propagating new states to all the
   * client code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
   */
   readonly state?: string;
   /**
   * orchestrated_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestrated_resource GoogleOsConfigV2PolicyOrchestratorForFolder#orchestrated_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestrated_resource GoogleOsConfigV2PolicyOrchestratorForFolder#orchestrated_resource}
   */
   readonly orchestratedResource: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource;
   /**
   * orchestration_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestration_scope GoogleOsConfigV2PolicyOrchestratorForFolder#orchestration_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#orchestration_scope GoogleOsConfigV2PolicyOrchestratorForFolder#orchestration_scope}
   */
   readonly orchestrationScope?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#timeouts GoogleOsConfigV2PolicyOrchestratorForFolder#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#timeouts GoogleOsConfigV2PolicyOrchestratorForFolder#timeouts}
   */
   readonly timeouts?: GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts;
 }
@@ -113,7 +113,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCu
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -123,7 +123,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCur
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetailsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -193,7 +193,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCu
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -203,7 +203,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCur
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateErrorToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -279,7 +279,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCu
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -289,7 +289,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCur
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationStateToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateCurrentIterationState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -390,7 +390,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePr
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -400,7 +400,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePre
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetailsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -470,7 +470,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePr
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -480,7 +480,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePre
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateErrorToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -556,7 +556,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePr
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -566,7 +566,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePre
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationStateToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationStatePreviousIterationState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -667,7 +667,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationState {
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -677,7 +677,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateToT
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationStateToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationState): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -749,7 +749,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * A VM should contain all the key/value pairs specified in this
   * map to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -757,7 +757,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
@@ -768,7 +768,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabelsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     labels: {
@@ -869,7 +869,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * A VM should contain all the key/value pairs specified in this
   * map to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#labels GoogleOsConfigV2PolicyOrchestratorForFolder#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -877,7 +877,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
@@ -888,7 +888,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabelsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     labels: {
@@ -987,7 +987,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * The OS short name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
   */
   readonly osShortName: string;
   /**
@@ -999,7 +999,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * 
   * An empty string matches all OS versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
   */
   readonly osVersion?: string;
 }
@@ -1007,7 +1007,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventories | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     os_short_name: cdktn.stringToTerraform(struct!.osShortName),
@@ -1019,7 +1019,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventoriesToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventories | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     os_short_name: {
@@ -1144,25 +1144,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Target all VMs in the project. If true, no other criteria is
   * permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#all GoogleOsConfigV2PolicyOrchestratorForFolder#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#all GoogleOsConfigV2PolicyOrchestratorForFolder#all}
   */
   readonly all?: boolean | cdktn.IResolvable;
   /**
   * exclusion_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#exclusion_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#exclusion_labels}
   */
   readonly exclusionLabels?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterExclusionLabels[] | cdktn.IResolvable;
   /**
   * inclusion_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#inclusion_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inclusion_labels GoogleOsConfigV2PolicyOrchestratorForFolder#inclusion_labels}
   */
   readonly inclusionLabels?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInclusionLabels[] | cdktn.IResolvable;
   /**
   * inventories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventories GoogleOsConfigV2PolicyOrchestratorForFolder#inventories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventories GoogleOsConfigV2PolicyOrchestratorForFolder#inventories}
   */
   readonly inventories?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterInventories[] | cdktn.IResolvable;
 }
@@ -1170,7 +1170,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     all: cdktn.booleanToTerraform(struct!.all),
@@ -1184,7 +1184,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilterOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     all: {
@@ -1335,7 +1335,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * The OS short name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_short_name GoogleOsConfigV2PolicyOrchestratorForFolder#os_short_name}
   */
   readonly osShortName: string;
   /**
@@ -1347,7 +1347,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * 
   * An empty string matches all OS versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_version GoogleOsConfigV2PolicyOrchestratorForFolder#os_version}
   */
   readonly osVersion?: string;
 }
@@ -1355,7 +1355,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     os_short_name: cdktn.stringToTerraform(struct!.osShortName),
@@ -1367,7 +1367,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     os_short_name: {
@@ -1491,19 +1491,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
   */
   readonly generation?: string;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
   */
   readonly object: string;
 }
@@ -1511,7 +1511,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -1524,7 +1524,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -1641,14 +1641,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the
   * protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
   */
   readonly uri: string;
 }
@@ -1656,7 +1656,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -1668,7 +1668,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -1764,25 +1764,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Remote: A checksum must be specified.
   * Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
   */
   readonly gcs?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
   */
   readonly remote?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileRemote;
 }
@@ -1790,7 +1790,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -1804,7 +1804,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -1955,13 +1955,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Optional arguments to pass to the source during execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
   */
   readonly args?: string[];
   /**
   * The script interpreter to use. Possible values: ["NONE", "SHELL", "POWERSHELL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
   */
   readonly interpreter: string;
   /**
@@ -1972,20 +1972,20 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * this ExecResource being non-compliant. Output file size is limited to
   * 500K bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
   */
   readonly outputFilePath?: string;
   /**
   * An inline script.
   * The size of the script is limited to 32KiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
   */
   readonly script?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
   */
   readonly file?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceFile;
 }
@@ -1993,7 +1993,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
@@ -2008,7 +2008,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     args: {
@@ -2184,19 +2184,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
   */
   readonly generation?: string;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
   */
   readonly object: string;
 }
@@ -2204,7 +2204,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -2217,7 +2217,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -2334,14 +2334,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the
   * protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
   */
   readonly uri: string;
 }
@@ -2349,7 +2349,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -2361,7 +2361,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -2457,25 +2457,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Remote: A checksum must be specified.
   * Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
   */
   readonly gcs?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
   */
   readonly remote?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileRemote;
 }
@@ -2483,7 +2483,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -2497,7 +2497,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -2648,13 +2648,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Optional arguments to pass to the source during execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#args GoogleOsConfigV2PolicyOrchestratorForFolder#args}
   */
   readonly args?: string[];
   /**
   * The script interpreter to use. Possible values: ["NONE", "SHELL", "POWERSHELL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#interpreter GoogleOsConfigV2PolicyOrchestratorForFolder#interpreter}
   */
   readonly interpreter: string;
   /**
@@ -2665,20 +2665,20 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * this ExecResource being non-compliant. Output file size is limited to
   * 500K bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#output_file_path GoogleOsConfigV2PolicyOrchestratorForFolder#output_file_path}
   */
   readonly outputFilePath?: string;
   /**
   * An inline script.
   * The size of the script is limited to 32KiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#script GoogleOsConfigV2PolicyOrchestratorForFolder#script}
   */
   readonly script?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
   */
   readonly file?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateFile;
 }
@@ -2686,7 +2686,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
@@ -2701,7 +2701,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidateOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     args: {
@@ -2877,13 +2877,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * enforce block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#enforce GoogleOsConfigV2PolicyOrchestratorForFolder#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#enforce GoogleOsConfigV2PolicyOrchestratorForFolder#enforce}
   */
   readonly enforce?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforce;
   /**
   * validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#validate GoogleOsConfigV2PolicyOrchestratorForFolder#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#validate GoogleOsConfigV2PolicyOrchestratorForFolder#validate}
   */
   readonly validate: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecValidate;
 }
@@ -2891,7 +2891,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enforce: googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecEnforceToTerraform(struct!.enforce),
@@ -2903,7 +2903,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExecOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enforce: {
@@ -2995,19 +2995,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
   */
   readonly generation?: string;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
   */
   readonly object: string;
 }
@@ -3015,7 +3015,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -3028,7 +3028,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -3145,14 +3145,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the
   * protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
   */
   readonly uri: string;
 }
@@ -3160,7 +3160,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -3172,7 +3172,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -3268,25 +3268,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Remote: A checksum must be specified.
   * Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
   */
   readonly gcs?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
   */
   readonly remote?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileRemote;
 }
@@ -3294,7 +3294,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -3308,7 +3308,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -3460,13 +3460,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * A a file with this content.
   * The size of the content is limited to 32KiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#content GoogleOsConfigV2PolicyOrchestratorForFolder#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#content GoogleOsConfigV2PolicyOrchestratorForFolder#content}
   */
   readonly content?: string;
   /**
   * The absolute path of the file within the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#path GoogleOsConfigV2PolicyOrchestratorForFolder#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#path GoogleOsConfigV2PolicyOrchestratorForFolder#path}
   */
   readonly path: string;
   /**
@@ -3484,19 +3484,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * read and write: 6
   * read only: 4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#permissions GoogleOsConfigV2PolicyOrchestratorForFolder#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#permissions GoogleOsConfigV2PolicyOrchestratorForFolder#permissions}
   */
   readonly permissions?: string;
   /**
   * Desired state of the file. Possible values: ["PRESENT", "ABSENT", "CONTENTS_MATCH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#state GoogleOsConfigV2PolicyOrchestratorForFolder#state}
   */
   readonly state: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
   */
   readonly file?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileFile;
 }
@@ -3504,7 +3504,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     content: cdktn.stringToTerraform(struct!.content),
@@ -3519,7 +3519,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFileOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     content: {
@@ -3692,7 +3692,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
   */
   readonly name: string;
 }
@@ -3700,7 +3700,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -3711,7 +3711,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgAptOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -3775,19 +3775,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
   */
   readonly generation?: string;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
   */
   readonly object: string;
 }
@@ -3795,7 +3795,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -3808,7 +3808,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -3925,14 +3925,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the
   * protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
   */
   readonly uri: string;
 }
@@ -3940,7 +3940,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -3952,7 +3952,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -4048,25 +4048,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Remote: A checksum must be specified.
   * Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
   */
   readonly gcs?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
   */
   readonly remote?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceRemote;
 }
@@ -4074,7 +4074,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -4088,7 +4088,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -4242,13 +4242,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * - install when true: 'apt-get update && apt-get -y install
   * package.deb'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
   */
   readonly pullDeps?: boolean | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
   */
   readonly source: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebSource;
 }
@@ -4256,7 +4256,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     pull_deps: cdktn.booleanToTerraform(struct!.pullDeps),
@@ -4268,7 +4268,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDebOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     pull_deps: {
@@ -4360,7 +4360,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
   */
   readonly name: string;
 }
@@ -4368,7 +4368,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -4379,7 +4379,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -4443,19 +4443,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
   */
   readonly generation?: string;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
   */
   readonly object: string;
 }
@@ -4463,7 +4463,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -4476,7 +4476,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -4593,14 +4593,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the
   * protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
   */
   readonly uri: string;
 }
@@ -4608,7 +4608,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -4620,7 +4620,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -4716,25 +4716,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Remote: A checksum must be specified.
   * Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
   */
   readonly gcs?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
   */
   readonly remote?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote;
 }
@@ -4742,7 +4742,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -4756,7 +4756,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -4910,13 +4910,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Appended to the defaults of 'ACTION=INSTALL
   * REBOOT=ReallySuppress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#properties GoogleOsConfigV2PolicyOrchestratorForFolder#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#properties GoogleOsConfigV2PolicyOrchestratorForFolder#properties}
   */
   readonly properties?: string[];
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
   */
   readonly source: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiSource;
 }
@@ -4924,7 +4924,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     properties: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.properties),
@@ -4936,7 +4936,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsiOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     properties: {
@@ -5028,19 +5028,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#bucket GoogleOsConfigV2PolicyOrchestratorForFolder#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#generation GoogleOsConfigV2PolicyOrchestratorForFolder#generation}
   */
   readonly generation?: string;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#object GoogleOsConfigV2PolicyOrchestratorForFolder#object}
   */
   readonly object: string;
 }
@@ -5048,7 +5048,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -5061,7 +5061,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -5178,14 +5178,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#sha256_checksum GoogleOsConfigV2PolicyOrchestratorForFolder#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the
   * protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
   */
   readonly uri: string;
 }
@@ -5193,7 +5193,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -5205,7 +5205,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -5301,25 +5301,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * Remote: A checksum must be specified.
   * Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_insecure GoogleOsConfigV2PolicyOrchestratorForFolder#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#local_path GoogleOsConfigV2PolicyOrchestratorForFolder#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gcs GoogleOsConfigV2PolicyOrchestratorForFolder#gcs}
   */
   readonly gcs?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#remote GoogleOsConfigV2PolicyOrchestratorForFolder#remote}
   */
   readonly remote?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote;
 }
@@ -5327,7 +5327,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -5341,7 +5341,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -5495,13 +5495,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * - install when true: 'yum -y install package.rpm' or
   * 'zypper -y install package.rpm'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pull_deps GoogleOsConfigV2PolicyOrchestratorForFolder#pull_deps}
   */
   readonly pullDeps?: boolean | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#source GoogleOsConfigV2PolicyOrchestratorForFolder#source}
   */
   readonly source: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmSource;
 }
@@ -5509,7 +5509,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     pull_deps: cdktn.booleanToTerraform(struct!.pullDeps),
@@ -5521,7 +5521,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpmOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     pull_deps: {
@@ -5613,7 +5613,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
   */
   readonly name: string;
 }
@@ -5621,7 +5621,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -5632,7 +5632,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYumOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -5696,7 +5696,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
   */
   readonly name: string;
 }
@@ -5704,7 +5704,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -5715,7 +5715,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypperOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -5779,49 +5779,49 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * The desired state the agent should maintain for this package. Possible values: ["INSTALLED", "REMOVED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#desired_state GoogleOsConfigV2PolicyOrchestratorForFolder#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#desired_state GoogleOsConfigV2PolicyOrchestratorForFolder#desired_state}
   */
   readonly desiredState: string;
   /**
   * apt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
   */
   readonly apt?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgApt;
   /**
   * deb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deb GoogleOsConfigV2PolicyOrchestratorForFolder#deb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#deb GoogleOsConfigV2PolicyOrchestratorForFolder#deb}
   */
   readonly deb?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgDeb;
   /**
   * googet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#googet GoogleOsConfigV2PolicyOrchestratorForFolder#googet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#googet GoogleOsConfigV2PolicyOrchestratorForFolder#googet}
   */
   readonly googet?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgGooget;
   /**
   * msi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#msi GoogleOsConfigV2PolicyOrchestratorForFolder#msi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#msi GoogleOsConfigV2PolicyOrchestratorForFolder#msi}
   */
   readonly msi?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgMsi;
   /**
   * rpm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rpm GoogleOsConfigV2PolicyOrchestratorForFolder#rpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rpm GoogleOsConfigV2PolicyOrchestratorForFolder#rpm}
   */
   readonly rpm?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgRpm;
   /**
   * yum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
   */
   readonly yum?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgYum;
   /**
   * zypper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
   */
   readonly zypper?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgZypper;
 }
@@ -5829,7 +5829,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     desired_state: cdktn.stringToTerraform(struct!.desiredState),
@@ -5847,7 +5847,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkgOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     desired_state: {
@@ -6107,33 +6107,33 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Type of archive files in this repository. Possible values: ["DEB", "DEB_SRC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#archive_type GoogleOsConfigV2PolicyOrchestratorForFolder#archive_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#archive_type GoogleOsConfigV2PolicyOrchestratorForFolder#archive_type}
   */
   readonly archiveType: string;
   /**
   * List of components for this repository. Must contain at least one
   * item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#components GoogleOsConfigV2PolicyOrchestratorForFolder#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#components GoogleOsConfigV2PolicyOrchestratorForFolder#components}
   */
   readonly components: string[];
   /**
   * Distribution of this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#distribution GoogleOsConfigV2PolicyOrchestratorForFolder#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#distribution GoogleOsConfigV2PolicyOrchestratorForFolder#distribution}
   */
   readonly distribution: string;
   /**
   * URI of the key file for this repository. The agent maintains a
   * keyring at '/etc/apt/trusted.gpg.d/osconfig_agent_managed.gpg'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_key GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_key GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_key}
   */
   readonly gpgKey?: string;
   /**
   * URI for this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#uri GoogleOsConfigV2PolicyOrchestratorForFolder#uri}
   */
   readonly uri: string;
 }
@@ -6141,7 +6141,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     archive_type: cdktn.stringToTerraform(struct!.archiveType),
@@ -6156,7 +6156,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     archive_type: {
@@ -6323,13 +6323,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * The name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
   */
   readonly name: string;
   /**
   * The url of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#url GoogleOsConfigV2PolicyOrchestratorForFolder#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#url GoogleOsConfigV2PolicyOrchestratorForFolder#url}
   */
   readonly url: string;
 }
@@ -6337,7 +6337,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -6349,7 +6349,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -6438,19 +6438,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * The location of the repository directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
   */
   readonly baseUrl: string;
   /**
   * The display name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
   */
   readonly displayName?: string;
   /**
   * URIs of GPG keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
   */
   readonly gpgKeys?: string[];
   /**
@@ -6459,7 +6459,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * 'display_name' is omitted. This id is also used as the unique
   * identifier when checking for resource conflicts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6470,7 +6470,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     base_url: cdktn.stringToTerraform(struct!.baseUrl),
@@ -6484,7 +6484,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     base_url: {
@@ -6629,19 +6629,19 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * The location of the repository directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#base_url GoogleOsConfigV2PolicyOrchestratorForFolder#base_url}
   */
   readonly baseUrl: string;
   /**
   * The display name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#display_name GoogleOsConfigV2PolicyOrchestratorForFolder#display_name}
   */
   readonly displayName?: string;
   /**
   * URIs of GPG keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#gpg_keys GoogleOsConfigV2PolicyOrchestratorForFolder#gpg_keys}
   */
   readonly gpgKeys?: string[];
   /**
@@ -6650,7 +6650,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * 'display_name' is omitted. This id is also used as the unique
   * identifier when checking for GuestPolicy conflicts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6661,7 +6661,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     base_url: cdktn.stringToTerraform(struct!.baseUrl),
@@ -6675,7 +6675,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     base_url: {
@@ -6820,25 +6820,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * apt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#apt GoogleOsConfigV2PolicyOrchestratorForFolder#apt}
   */
   readonly apt?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryApt;
   /**
   * goo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#goo GoogleOsConfigV2PolicyOrchestratorForFolder#goo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#goo GoogleOsConfigV2PolicyOrchestratorForFolder#goo}
   */
   readonly goo?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryGoo;
   /**
   * yum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#yum GoogleOsConfigV2PolicyOrchestratorForFolder#yum}
   */
   readonly yum?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryYum;
   /**
   * zypper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#zypper GoogleOsConfigV2PolicyOrchestratorForFolder#zypper}
   */
   readonly zypper?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryZypper;
 }
@@ -6846,7 +6846,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     apt: googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryAptToTerraform(struct!.apt),
@@ -6860,7 +6860,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepositoryOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     apt: {
@@ -7017,7 +7017,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * * Must end with a number or a letter.
   * * Must be unique within the OS policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7026,25 +7026,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exec GoogleOsConfigV2PolicyOrchestratorForFolder#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#exec GoogleOsConfigV2PolicyOrchestratorForFolder#exec}
   */
   readonly exec?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesExec;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#file GoogleOsConfigV2PolicyOrchestratorForFolder#file}
   */
   readonly file?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesFile;
   /**
   * pkg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pkg GoogleOsConfigV2PolicyOrchestratorForFolder#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#pkg GoogleOsConfigV2PolicyOrchestratorForFolder#pkg}
   */
   readonly pkg?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesPkg;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#repository GoogleOsConfigV2PolicyOrchestratorForFolder#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#repository GoogleOsConfigV2PolicyOrchestratorForFolder#repository}
   */
   readonly repository?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesRepository;
 }
@@ -7052,7 +7052,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     id: cdktn.stringToTerraform(struct!.id),
@@ -7067,7 +7067,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResourcesToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     id: {
@@ -7275,13 +7275,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * inventory_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventory_filters GoogleOsConfigV2PolicyOrchestratorForFolder#inventory_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#inventory_filters GoogleOsConfigV2PolicyOrchestratorForFolder#inventory_filters}
   */
   readonly inventoryFilters?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFilters[] | cdktn.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resources GoogleOsConfigV2PolicyOrchestratorForFolder#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resources GoogleOsConfigV2PolicyOrchestratorForFolder#resources}
   */
   readonly resources: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsResources[] | cdktn.IResolvable;
 }
@@ -7289,7 +7289,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroups | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     inventory_filters: cdktn.listMapper(googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsInventoryFiltersToTerraform, true)(struct!.inventoryFilters),
@@ -7301,7 +7301,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroupsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroups | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     inventory_filters: {
@@ -7428,14 +7428,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * to 'true' if the policy needs to be reported as compliant even if the
   * policy has nothing to validate or enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestratorForFolder#allow_no_resource_group_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestratorForFolder#allow_no_resource_group_match}
   */
   readonly allowNoResourceGroupMatch?: boolean | cdktn.IResolvable;
   /**
   * Policy description.
   * Length of the description is limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
   */
   readonly description?: string;
   /**
@@ -7447,7 +7447,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * * Must end with a number or a letter.
   * * Must be unique within the assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7456,13 +7456,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Policy mode Possible values: ["VALIDATION", "ENFORCEMENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#mode GoogleOsConfigV2PolicyOrchestratorForFolder#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#mode GoogleOsConfigV2PolicyOrchestratorForFolder#mode}
   */
   readonly mode: string;
   /**
   * resource_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_groups GoogleOsConfigV2PolicyOrchestratorForFolder#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_groups GoogleOsConfigV2PolicyOrchestratorForFolder#resource_groups}
   */
   readonly resourceGroups: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesResourceGroups[] | cdktn.IResolvable;
 }
@@ -7470,7 +7470,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_no_resource_group_match: cdktn.booleanToTerraform(struct!.allowNoResourceGroupMatch),
@@ -7485,7 +7485,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPoliciesToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_no_resource_group_match: {
@@ -7687,14 +7687,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * Specifies a fixed value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#fixed GoogleOsConfigV2PolicyOrchestratorForFolder#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#fixed GoogleOsConfigV2PolicyOrchestratorForFolder#fixed}
   */
   readonly fixed?: number;
   /**
   * Specifies the relative value defined as a percentage, which will be
   * multiplied by a reference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#percent GoogleOsConfigV2PolicyOrchestratorForFolder#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#percent GoogleOsConfigV2PolicyOrchestratorForFolder#percent}
   */
   readonly percent?: number;
 }
@@ -7702,7 +7702,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fixed: cdktn.numberToTerraform(struct!.fixed),
@@ -7714,7 +7714,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudgetOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fixed: {
@@ -7813,13 +7813,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * until this duration of time has passed after configuration changes are
   * applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#min_wait_duration GoogleOsConfigV2PolicyOrchestratorForFolder#min_wait_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#min_wait_duration GoogleOsConfigV2PolicyOrchestratorForFolder#min_wait_duration}
   */
   readonly minWaitDuration: string;
   /**
   * disruption_budget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#disruption_budget GoogleOsConfigV2PolicyOrchestratorForFolder#disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#disruption_budget GoogleOsConfigV2PolicyOrchestratorForFolder#disruption_budget}
   */
   readonly disruptionBudget: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutDisruptionBudget;
 }
@@ -7827,7 +7827,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRollout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     min_wait_duration: cdktn.stringToTerraform(struct!.minWaitDuration),
@@ -7839,7 +7839,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRolloutOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRollout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     min_wait_duration: {
@@ -7929,7 +7929,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * OS policy assignment description.
   * Length of the description is limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#description GoogleOsConfigV2PolicyOrchestratorForFolder#description}
   */
   readonly description?: string;
   /**
@@ -7940,25 +7940,25 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * 
   * This field is ignored when you create an OS policy assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#name GoogleOsConfigV2PolicyOrchestratorForFolder#name}
   */
   readonly name?: string;
   /**
   * instance_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#instance_filter GoogleOsConfigV2PolicyOrchestratorForFolder#instance_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#instance_filter GoogleOsConfigV2PolicyOrchestratorForFolder#instance_filter}
   */
   readonly instanceFilter: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadInstanceFilter;
   /**
   * os_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policies GoogleOsConfigV2PolicyOrchestratorForFolder#os_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policies GoogleOsConfigV2PolicyOrchestratorForFolder#os_policies}
   */
   readonly osPolicies: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOsPolicies[] | cdktn.IResolvable;
   /**
   * rollout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rollout GoogleOsConfigV2PolicyOrchestratorForFolder#rollout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#rollout GoogleOsConfigV2PolicyOrchestratorForFolder#rollout}
   */
   readonly rollout: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadRollout;
 }
@@ -7966,7 +7966,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1Payload): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -7981,7 +7981,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceO
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1PayloadOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1Payload): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -8204,7 +8204,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   * For DELETE action, ID must be specified explicitly during
   * PolicyOrchestrator creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#id GoogleOsConfigV2PolicyOrchestratorForFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8213,7 +8213,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
   /**
   * os_policy_assignment_v1_payload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestratorForFolder#os_policy_assignment_v1_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestratorForFolder#os_policy_assignment_v1_payload}
   */
   readonly osPolicyAssignmentV1Payload?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOsPolicyAssignmentV1Payload;
 }
@@ -8221,7 +8221,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     id: cdktn.stringToTerraform(struct!.id),
@@ -8233,7 +8233,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceT
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResourceOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestratedResource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     id: {
@@ -8329,7 +8329,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSe
   * Names of the locations in scope.
   * Format: 'us-central1-a'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_locations GoogleOsConfigV2PolicyOrchestratorForFolder#included_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_locations GoogleOsConfigV2PolicyOrchestratorForFolder#included_locations}
   */
   readonly includedLocations?: string[];
 }
@@ -8337,7 +8337,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSe
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     included_locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.includedLocations),
@@ -8348,7 +8348,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSel
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     included_locations: {
@@ -8416,14 +8416,14 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSe
   * Names of the folders in scope.
   * Format: 'folders/{folder_id}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_folders GoogleOsConfigV2PolicyOrchestratorForFolder#included_folders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_folders GoogleOsConfigV2PolicyOrchestratorForFolder#included_folders}
   */
   readonly includedFolders?: string[];
   /**
   * Names of the projects in scope.
   * Format: 'projects/{project_number}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_projects GoogleOsConfigV2PolicyOrchestratorForFolder#included_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#included_projects GoogleOsConfigV2PolicyOrchestratorForFolder#included_projects}
   */
   readonly includedProjects?: string[];
 }
@@ -8431,7 +8431,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSe
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelectorToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     included_folders: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.includedFolders),
@@ -8443,7 +8443,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSel
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelectorToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelectorOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     included_folders: {
@@ -8538,13 +8538,13 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSe
   /**
   * location_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#location_selector GoogleOsConfigV2PolicyOrchestratorForFolder#location_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#location_selector GoogleOsConfigV2PolicyOrchestratorForFolder#location_selector}
   */
   readonly locationSelector?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelector;
   /**
   * resource_hierarchy_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestratorForFolder#resource_hierarchy_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestratorForFolder#resource_hierarchy_selector}
   */
   readonly resourceHierarchySelector?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsResourceHierarchySelector;
 }
@@ -8552,7 +8552,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSe
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     location_selector: googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsLocationSelectorToTerraform(struct!.locationSelector),
@@ -8564,7 +8564,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSel
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     location_selector: {
@@ -8691,7 +8691,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope {
   /**
   * selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#selectors GoogleOsConfigV2PolicyOrchestratorForFolder#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#selectors GoogleOsConfigV2PolicyOrchestratorForFolder#selectors}
   */
   readonly selectors?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectors[] | cdktn.IResolvable;
 }
@@ -8699,7 +8699,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope {
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     selectors: cdktn.listMapper(googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeSelectorsToTerraform, true)(struct!.selectors),
@@ -8710,7 +8710,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeToT
 export function googleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeOutputReference | GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScope): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     selectors: {
@@ -8775,15 +8775,15 @@ export class GoogleOsConfigV2PolicyOrchestratorForFolderOrchestrationScopeOutput
 }
 export interface GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#create GoogleOsConfigV2PolicyOrchestratorForFolder#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#create GoogleOsConfigV2PolicyOrchestratorForFolder#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#delete GoogleOsConfigV2PolicyOrchestratorForFolder#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#delete GoogleOsConfigV2PolicyOrchestratorForFolder#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#update GoogleOsConfigV2PolicyOrchestratorForFolder#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#update GoogleOsConfigV2PolicyOrchestratorForFolder#update}
   */
   readonly update?: string;
 }
@@ -8791,7 +8791,7 @@ export interface GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts {
 export function googleOsConfigV2PolicyOrchestratorForFolderTimeoutsToTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -8804,7 +8804,7 @@ export function googleOsConfigV2PolicyOrchestratorForFolderTimeoutsToTerraform(s
 export function googleOsConfigV2PolicyOrchestratorForFolderTimeoutsToHclTerraform(struct?: GoogleOsConfigV2PolicyOrchestratorForFolderTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -8935,7 +8935,7 @@ export class GoogleOsConfigV2PolicyOrchestratorForFolderTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}
 */
 export class GoogleOsConfigV2PolicyOrchestratorForFolder extends cdktn.TerraformResource {
 
@@ -8951,7 +8951,7 @@ export class GoogleOsConfigV2PolicyOrchestratorForFolder extends cdktn.Terraform
   * Generates CDKTN code for importing a GoogleOsConfigV2PolicyOrchestratorForFolder resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleOsConfigV2PolicyOrchestratorForFolder to import
-  * @param importFromId The id of the existing GoogleOsConfigV2PolicyOrchestratorForFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleOsConfigV2PolicyOrchestratorForFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleOsConfigV2PolicyOrchestratorForFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -8963,7 +8963,7 @@ export class GoogleOsConfigV2PolicyOrchestratorForFolder extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8974,7 +8974,7 @@ export class GoogleOsConfigV2PolicyOrchestratorForFolder extends cdktn.Terraform
       terraformResourceType: 'google_os_config_v2_policy_orchestrator_for_folder',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

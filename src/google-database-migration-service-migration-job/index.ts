@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,19 +21,19 @@ export interface GoogleDatabaseMigrationServiceMigrationJobConfig extends cdktn.
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#deletion_policy GoogleDatabaseMigrationServiceMigrationJob#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#deletion_policy GoogleDatabaseMigrationServiceMigrationJob#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The name of the destination connection profile resource in the form of projects/{project}/locations/{location}/connectionProfiles/{destinationConnectionProfile}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#destination GoogleDatabaseMigrationServiceMigrationJob#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#destination GoogleDatabaseMigrationServiceMigrationJob#destination}
   */
   readonly destination: string;
   /**
   * The migration job display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#display_name GoogleDatabaseMigrationServiceMigrationJob#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#display_name GoogleDatabaseMigrationServiceMigrationJob#display_name}
   */
   readonly displayName?: string;
   /**
@@ -41,18 +41,18 @@ export interface GoogleDatabaseMigrationServiceMigrationJobConfig extends cdktn.
   * in the format: (gs://[BUCKET_NAME]/[OBJECT_NAME]).
   * This field and the "dump_flags" field are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#dump_path GoogleDatabaseMigrationServiceMigrationJob#dump_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#dump_path GoogleDatabaseMigrationServiceMigrationJob#dump_path}
   */
   readonly dumpPath?: string;
   /**
   * The type of the data dump. Supported for MySQL to CloudSQL for MySQL
   * migrations only. Possible values: ["LOGICAL", "PHYSICAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#dump_type GoogleDatabaseMigrationServiceMigrationJob#dump_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#dump_type GoogleDatabaseMigrationServiceMigrationJob#dump_type}
   */
   readonly dumpType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#id GoogleDatabaseMigrationServiceMigrationJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#id GoogleDatabaseMigrationServiceMigrationJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,83 +65,83 @@ export interface GoogleDatabaseMigrationServiceMigrationJobConfig extends cdktn.
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#labels GoogleDatabaseMigrationServiceMigrationJob#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#labels GoogleDatabaseMigrationServiceMigrationJob#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location where the migration job should reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#location GoogleDatabaseMigrationServiceMigrationJob#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#location GoogleDatabaseMigrationServiceMigrationJob#location}
   */
   readonly location?: string;
   /**
   * The ID of the migration job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#migration_job_id GoogleDatabaseMigrationServiceMigrationJob#migration_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#migration_job_id GoogleDatabaseMigrationServiceMigrationJob#migration_job_id}
   */
   readonly migrationJobId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#project GoogleDatabaseMigrationServiceMigrationJob#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#project GoogleDatabaseMigrationServiceMigrationJob#project}
   */
   readonly project?: string;
   /**
   * The name of the source connection profile resource in the form of projects/{project}/locations/{location}/connectionProfiles/{sourceConnectionProfile}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#source GoogleDatabaseMigrationServiceMigrationJob#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#source GoogleDatabaseMigrationServiceMigrationJob#source}
   */
   readonly source: string;
   /**
   * The type of the migration job. Possible values: ["ONE_TIME", "CONTINUOUS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
   */
   readonly type: string;
   /**
   * dump_flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
   */
   readonly dumpFlags?: GoogleDatabaseMigrationServiceMigrationJobDumpFlags;
   /**
   * objects_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#objects_config GoogleDatabaseMigrationServiceMigrationJob#objects_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#objects_config GoogleDatabaseMigrationServiceMigrationJob#objects_config}
   */
   readonly objectsConfig?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfig;
   /**
   * performance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#performance_config GoogleDatabaseMigrationServiceMigrationJob#performance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#performance_config GoogleDatabaseMigrationServiceMigrationJob#performance_config}
   */
   readonly performanceConfig?: GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig;
   /**
   * postgres_homogeneous_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#postgres_homogeneous_config GoogleDatabaseMigrationServiceMigrationJob#postgres_homogeneous_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#postgres_homogeneous_config GoogleDatabaseMigrationServiceMigrationJob#postgres_homogeneous_config}
   */
   readonly postgresHomogeneousConfig?: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig;
   /**
   * reverse_ssh_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#reverse_ssh_connectivity GoogleDatabaseMigrationServiceMigrationJob#reverse_ssh_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#reverse_ssh_connectivity GoogleDatabaseMigrationServiceMigrationJob#reverse_ssh_connectivity}
   */
   readonly reverseSshConnectivity?: GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity;
   /**
   * static_ip_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#static_ip_connectivity GoogleDatabaseMigrationServiceMigrationJob#static_ip_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#static_ip_connectivity GoogleDatabaseMigrationServiceMigrationJob#static_ip_connectivity}
   */
   readonly staticIpConnectivity?: GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivity;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#timeouts GoogleDatabaseMigrationServiceMigrationJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#timeouts GoogleDatabaseMigrationServiceMigrationJob#timeouts}
   */
   readonly timeouts?: GoogleDatabaseMigrationServiceMigrationJobTimeouts;
   /**
   * vpc_peering_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#vpc_peering_connectivity GoogleDatabaseMigrationServiceMigrationJob#vpc_peering_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#vpc_peering_connectivity GoogleDatabaseMigrationServiceMigrationJob#vpc_peering_connectivity}
   */
   readonly vpcPeeringConnectivity?: GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity;
 }
@@ -151,7 +151,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobError {
 export function googleDatabaseMigrationServiceMigrationJobErrorToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -161,7 +161,7 @@ export function googleDatabaseMigrationServiceMigrationJobErrorToTerraform(struc
 export function googleDatabaseMigrationServiceMigrationJobErrorToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -235,13 +235,13 @@ export interface GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlags {
   /**
   * The name of the flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#name GoogleDatabaseMigrationServiceMigrationJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#name GoogleDatabaseMigrationServiceMigrationJob#name}
   */
   readonly name?: string;
   /**
   * The vale of the flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#value GoogleDatabaseMigrationServiceMigrationJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#value GoogleDatabaseMigrationServiceMigrationJob#value}
   */
   readonly value?: string;
 }
@@ -249,7 +249,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlags {
 export function googleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlagsToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlags | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -261,7 +261,7 @@ export function googleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlagsToTe
 export function googleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlagsToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlags | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -388,7 +388,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobDumpFlags {
   /**
   * dump_flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
   */
   readonly dumpFlags?: GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlags[] | cdktn.IResolvable;
 }
@@ -396,7 +396,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobDumpFlags {
 export function googleDatabaseMigrationServiceMigrationJobDumpFlagsToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobDumpFlagsOutputReference | GoogleDatabaseMigrationServiceMigrationJobDumpFlags): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dump_flags: cdktn.listMapper(googleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlagsToTerraform, true)(struct!.dumpFlags),
@@ -407,7 +407,7 @@ export function googleDatabaseMigrationServiceMigrationJobDumpFlagsToTerraform(s
 export function googleDatabaseMigrationServiceMigrationJobDumpFlagsToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobDumpFlagsOutputReference | GoogleDatabaseMigrationServiceMigrationJobDumpFlags): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dump_flags: {
@@ -475,28 +475,28 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
   * The database name. Required only if the object uses
   * a database name as part of its unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#database GoogleDatabaseMigrationServiceMigrationJob#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#database GoogleDatabaseMigrationServiceMigrationJob#database}
   */
   readonly database?: string;
   /**
   * The schema name. Required only if the object uses
   * a schema name as part of its unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#schema GoogleDatabaseMigrationServiceMigrationJob#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#schema GoogleDatabaseMigrationServiceMigrationJob#schema}
   */
   readonly schema?: string;
   /**
   * The table name. Required only if the object is a level
   * below database or schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#table GoogleDatabaseMigrationServiceMigrationJob#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#table GoogleDatabaseMigrationServiceMigrationJob#table}
   */
   readonly table?: string;
   /**
   * The category of the migration job object: 'DATABASE',
   * 'SCHEMA', or 'TABLE'. Possible values: ["DATABASE", "SCHEMA", "TABLE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
   */
   readonly type: string;
 }
@@ -504,7 +504,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifierToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifierOutputReference | GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -518,7 +518,7 @@ export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObj
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifierToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifierOutputReference | GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -666,7 +666,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
   /**
   * object_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#object_identifier GoogleDatabaseMigrationServiceMigrationJob#object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#object_identifier GoogleDatabaseMigrationServiceMigrationJob#object_identifier}
   */
   readonly objectIdentifier?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifier;
 }
@@ -674,7 +674,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     object_identifier: googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifierToTerraform(struct!.objectIdentifier),
@@ -685,7 +685,7 @@ export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObj
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     object_identifier: {
@@ -787,13 +787,13 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
   * migrated. When set to 'ALL_OBJECTS', all objects available on the
   * source are migrated. Possible values: ["ALL_OBJECTS", "SPECIFIED_OBJECTS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#objects_selection_type GoogleDatabaseMigrationServiceMigrationJob#objects_selection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#objects_selection_type GoogleDatabaseMigrationServiceMigrationJob#objects_selection_type}
   */
   readonly objectsSelectionType?: string;
   /**
   * object_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#object_configs GoogleDatabaseMigrationServiceMigrationJob#object_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#object_configs GoogleDatabaseMigrationServiceMigrationJob#object_configs}
   */
   readonly objectConfigs?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigs[] | cdktn.IResolvable;
 }
@@ -801,7 +801,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     objects_selection_type: cdktn.stringToTerraform(struct!.objectsSelectionType),
@@ -813,7 +813,7 @@ export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObj
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     objects_selection_type: {
@@ -908,7 +908,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfig {
   /**
   * source_objects_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#source_objects_config GoogleDatabaseMigrationServiceMigrationJob#source_objects_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#source_objects_config GoogleDatabaseMigrationServiceMigrationJob#source_objects_config}
   */
   readonly sourceObjectsConfig?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfig;
 }
@@ -916,7 +916,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfig {
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobObjectsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     source_objects_config: googleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigToTerraform(struct!.sourceObjectsConfig),
@@ -927,7 +927,7 @@ export function googleDatabaseMigrationServiceMigrationJobObjectsConfigToTerrafo
 export function googleDatabaseMigrationServiceMigrationJobObjectsConfigToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobObjectsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     source_objects_config: {
@@ -994,7 +994,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig {
   /**
   * Initial dump parallelism level. Possible values: ["MIN", "OPTIMAL", "MAX"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#dump_parallel_level GoogleDatabaseMigrationServiceMigrationJob#dump_parallel_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#dump_parallel_level GoogleDatabaseMigrationServiceMigrationJob#dump_parallel_level}
   */
   readonly dumpParallelLevel?: string;
 }
@@ -1002,7 +1002,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig {
 export function googleDatabaseMigrationServiceMigrationJobPerformanceConfigToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dump_parallel_level: cdktn.stringToTerraform(struct!.dumpParallelLevel),
@@ -1013,7 +1013,7 @@ export function googleDatabaseMigrationServiceMigrationJobPerformanceConfigToTer
 export function googleDatabaseMigrationServiceMigrationJobPerformanceConfigToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dump_parallel_level: {
@@ -1080,13 +1080,13 @@ export interface GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousCo
   /**
   * Whether the migration uses native logical replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#is_native_logical GoogleDatabaseMigrationServiceMigrationJob#is_native_logical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#is_native_logical GoogleDatabaseMigrationServiceMigrationJob#is_native_logical}
   */
   readonly isNativeLogical: boolean | cdktn.IResolvable;
   /**
   * Maximum number of additional subscriptions to use for the migration job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#max_additional_subscriptions GoogleDatabaseMigrationServiceMigrationJob#max_additional_subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#max_additional_subscriptions GoogleDatabaseMigrationServiceMigrationJob#max_additional_subscriptions}
   */
   readonly maxAdditionalSubscriptions?: number;
 }
@@ -1094,7 +1094,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousCo
 export function googleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     is_native_logical: cdktn.booleanToTerraform(struct!.isNativeLogical),
@@ -1106,7 +1106,7 @@ export function googleDatabaseMigrationServiceMigrationJobPostgresHomogeneousCon
 export function googleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     is_native_logical: {
@@ -1199,27 +1199,27 @@ export interface GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivit
   * The name of the virtual machine (Compute Engine) used as the bastion server
   * for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#vm GoogleDatabaseMigrationServiceMigrationJob#vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#vm GoogleDatabaseMigrationServiceMigrationJob#vm}
   */
   readonly vm?: string;
   /**
   * The IP of the virtual machine (Compute Engine) used as the bastion server
   * for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#vm_ip GoogleDatabaseMigrationServiceMigrationJob#vm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#vm_ip GoogleDatabaseMigrationServiceMigrationJob#vm_ip}
   */
   readonly vmIp?: string;
   /**
   * The forwarding port of the virtual machine (Compute Engine) used as the
   * bastion server for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#vm_port GoogleDatabaseMigrationServiceMigrationJob#vm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#vm_port GoogleDatabaseMigrationServiceMigrationJob#vm_port}
   */
   readonly vmPort?: number;
   /**
   * The name of the VPC to peer with the Cloud SQL private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
   */
   readonly vpc?: string;
 }
@@ -1227,7 +1227,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivit
 export function googleDatabaseMigrationServiceMigrationJobReverseSshConnectivityToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivityOutputReference | GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     vm: cdktn.stringToTerraform(struct!.vm),
@@ -1241,7 +1241,7 @@ export function googleDatabaseMigrationServiceMigrationJobReverseSshConnectivity
 export function googleDatabaseMigrationServiceMigrationJobReverseSshConnectivityToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivityOutputReference | GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     vm: {
@@ -1394,7 +1394,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivity 
 export function googleDatabaseMigrationServiceMigrationJobStaticIpConnectivityToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivityOutputReference | GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1404,7 +1404,7 @@ export function googleDatabaseMigrationServiceMigrationJobStaticIpConnectivityTo
 export function googleDatabaseMigrationServiceMigrationJobStaticIpConnectivityToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivityOutputReference | GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1439,15 +1439,15 @@ export class GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivityOutpu
 }
 export interface GoogleDatabaseMigrationServiceMigrationJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#create GoogleDatabaseMigrationServiceMigrationJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#create GoogleDatabaseMigrationServiceMigrationJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#delete GoogleDatabaseMigrationServiceMigrationJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#delete GoogleDatabaseMigrationServiceMigrationJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#update GoogleDatabaseMigrationServiceMigrationJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#update GoogleDatabaseMigrationServiceMigrationJob#update}
   */
   readonly update?: string;
 }
@@ -1455,7 +1455,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobTimeouts {
 export function googleDatabaseMigrationServiceMigrationJobTimeoutsToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1468,7 +1468,7 @@ export function googleDatabaseMigrationServiceMigrationJobTimeoutsToTerraform(st
 export function googleDatabaseMigrationServiceMigrationJobTimeoutsToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1601,7 +1601,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivit
   /**
   * The name of the VPC network to peer with the Cloud SQL private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
   */
   readonly vpc?: string;
 }
@@ -1609,7 +1609,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivit
 export function googleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReference | GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     vpc: cdktn.stringToTerraform(struct!.vpc),
@@ -1620,7 +1620,7 @@ export function googleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity
 export function googleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOutputReference | GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     vpc: {
@@ -1685,7 +1685,7 @@ export class GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}
 */
 export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformResource {
 
@@ -1701,7 +1701,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
   * Generates CDKTN code for importing a GoogleDatabaseMigrationServiceMigrationJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDatabaseMigrationServiceMigrationJob to import
-  * @param importFromId The id of the existing GoogleDatabaseMigrationServiceMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDatabaseMigrationServiceMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDatabaseMigrationServiceMigrationJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1713,7 +1713,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1724,7 +1724,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
       terraformResourceType: 'google_database_migration_service_migration_job',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

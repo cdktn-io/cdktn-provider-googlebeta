@@ -8,7 +8,7 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabase
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
   */
   readonly field?: string;
 }
@@ -16,7 +16,7 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabase
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field: cdktn.stringToTerraform(struct!.field),
@@ -27,7 +27,7 @@ export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFieldsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field: {
@@ -126,13 +126,13 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabase
   /**
   * Collection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
   */
   readonly collection: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
   readonly fields?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsFields[] | cdktn.IResolvable;
 }
@@ -140,7 +140,7 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabase
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollections | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     collection: cdktn.stringToTerraform(struct!.collection),
@@ -152,7 +152,7 @@ export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollectionsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollections | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     collection: {
@@ -276,13 +276,13 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabase
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database: string;
   /**
   * collections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
   */
   readonly collections?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesCollections[] | cdktn.IResolvable;
 }
@@ -290,7 +290,7 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabase
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesToTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -302,7 +302,7 @@ export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -426,7 +426,7 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjects {
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
   */
   readonly databases: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabases[] | cdktn.IResolvable;
 }
@@ -434,7 +434,7 @@ export interface GoogleDatastreamStreamBackfillAllMongodbExcludedObjects {
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllMongodbExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     databases: cdktn.listMapper(googleDatastreamStreamBackfillAllMongodbExcludedObjectsDatabasesToTerraform, true)(struct!.databases),
@@ -445,7 +445,7 @@ export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsToTerrafo
 export function googleDatastreamStreamBackfillAllMongodbExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllMongodbExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     databases: {
@@ -509,38 +509,38 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
   /**
   * Column collation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
   */
   readonly collation?: string;
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The MySQL data type. Full data types list can be found here:
   * https://dev.mysql.com/doc/refman/8.0/en/data-types.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
   /**
   * Whether or not the column can accept a null value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
   */
   readonly ordinalPosition?: number;
   /**
   * Whether or not the column represents a primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
   readonly primaryKey?: boolean | cdktn.IResolvable;
 }
@@ -548,7 +548,7 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     collation: cdktn.stringToTerraform(struct!.collation),
@@ -564,7 +564,7 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDataba
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     collation: {
@@ -808,13 +808,13 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * mysql_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
   */
   readonly mysqlColumns?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable;
 }
@@ -822,7 +822,7 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -834,7 +834,7 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDataba
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -958,13 +958,13 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database: string;
   /**
   * mysql_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
   */
   readonly mysqlTables?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable;
 }
@@ -972,7 +972,7 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatab
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -984,7 +984,7 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDataba
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -1108,7 +1108,7 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjects {
   /**
   * mysql_databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
   */
   readonly mysqlDatabases: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabases[] | cdktn.IResolvable;
 }
@@ -1116,7 +1116,7 @@ export interface GoogleDatastreamStreamBackfillAllMysqlExcludedObjects {
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllMysqlExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mysql_databases: cdktn.listMapper(googleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
@@ -1127,7 +1127,7 @@ export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsToTerraform
 export function googleDatastreamStreamBackfillAllMysqlExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllMysqlExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mysql_databases: {
@@ -1191,14 +1191,14 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The Oracle data type. Full data types list can be found here:
   * https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
 }
@@ -1206,7 +1206,7 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -1218,7 +1218,7 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSche
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -1380,13 +1380,13 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * oracle_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
   */
   readonly oracleColumns?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable;
 }
@@ -1394,7 +1394,7 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -1406,7 +1406,7 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSche
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -1530,13 +1530,13 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * oracle_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
   */
   readonly oracleTables?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasOracleTables[] | cdktn.IResolvable;
 }
@@ -1544,7 +1544,7 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSch
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -1556,7 +1556,7 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSche
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -1680,7 +1680,7 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjects {
   /**
   * oracle_schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
   */
   readonly oracleSchemas: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemas[] | cdktn.IResolvable;
 }
@@ -1688,7 +1688,7 @@ export interface GoogleDatastreamStreamBackfillAllOracleExcludedObjects {
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllOracleExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     oracle_schemas: cdktn.listMapper(googleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
@@ -1699,7 +1699,7 @@ export function googleDatastreamStreamBackfillAllOracleExcludedObjectsToTerrafor
 export function googleDatastreamStreamBackfillAllOracleExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllOracleExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     oracle_schemas: {
@@ -1763,32 +1763,32 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The PostgreSQL data type. Full data types list can be found here:
   * https://www.postgresql.org/docs/current/datatype.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
   /**
   * Whether or not the column can accept a null value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
   */
   readonly ordinalPosition?: number;
   /**
   * Whether or not the column represents a primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
   readonly primaryKey?: boolean | cdktn.IResolvable;
 }
@@ -1796,7 +1796,7 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -1811,7 +1811,7 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgr
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -2037,13 +2037,13 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * postgresql_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
   */
   readonly postgresqlColumns?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable;
 }
@@ -2051,7 +2051,7 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -2063,7 +2063,7 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgr
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -2187,13 +2187,13 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * postgresql_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
   */
   readonly postgresqlTables?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable;
 }
@@ -2201,7 +2201,7 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostg
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -2213,7 +2213,7 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgr
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -2337,7 +2337,7 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects {
   /**
   * postgresql_schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
   */
   readonly postgresqlSchemas: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemas[] | cdktn.IResolvable;
 }
@@ -2345,7 +2345,7 @@ export interface GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects {
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     postgresql_schemas: cdktn.listMapper(googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
@@ -2356,7 +2356,7 @@ export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsToTerr
 export function googleDatastreamStreamBackfillAllPostgresqlExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     postgresql_schemas: {
@@ -2420,7 +2420,7 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjec
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
   */
   readonly name?: string;
 }
@@ -2428,7 +2428,7 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjec
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -2439,7 +2439,7 @@ export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObject
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -2538,13 +2538,13 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjec
   /**
   * Name of object in Salesforce Org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
   */
   readonly objectName?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
   readonly fields?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsFields[] | cdktn.IResolvable;
 }
@@ -2552,7 +2552,7 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjec
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     object_name: cdktn.stringToTerraform(struct!.objectName),
@@ -2564,7 +2564,7 @@ export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObject
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     object_name: {
@@ -2691,7 +2691,7 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects {
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
   */
   readonly objects: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjects[] | cdktn.IResolvable;
 }
@@ -2699,7 +2699,7 @@ export interface GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects {
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     objects: cdktn.listMapper(googleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsToTerraform, true)(struct!.objects),
@@ -2710,7 +2710,7 @@ export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsToTerr
 export function googleDatastreamStreamBackfillAllSalesforceExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     objects: {
@@ -2774,7 +2774,7 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasT
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column: string;
 }
@@ -2782,7 +2782,7 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasT
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -2793,7 +2793,7 @@ export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTa
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -2904,13 +2904,13 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasT
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
   readonly columns?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesColumns[] | cdktn.IResolvable;
 }
@@ -2918,7 +2918,7 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasT
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -2930,7 +2930,7 @@ export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTa
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -3054,13 +3054,13 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemas 
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
   */
   readonly tables?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTables[] | cdktn.IResolvable;
 }
@@ -3068,7 +3068,7 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemas 
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -3080,7 +3080,7 @@ export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasTo
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -3204,7 +3204,7 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjects {
   /**
   * schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
   */
   readonly schemas: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemas[] | cdktn.IResolvable;
 }
@@ -3212,7 +3212,7 @@ export interface GoogleDatastreamStreamBackfillAllSpannerExcludedObjects {
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSpannerExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schemas: cdktn.listMapper(googleDatastreamStreamBackfillAllSpannerExcludedObjectsSchemasToTerraform, true)(struct!.schemas),
@@ -3223,7 +3223,7 @@ export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsToTerrafo
 export function googleDatastreamStreamBackfillAllSpannerExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSpannerExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schemas: {
@@ -3287,14 +3287,14 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The SQL Server data type. Full data types list can be found here:
   * https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
 }
@@ -3302,7 +3302,7 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -3314,7 +3314,7 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -3471,13 +3471,13 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
   readonly columns?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesColumns[] | cdktn.IResolvable;
 }
@@ -3485,7 +3485,7 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -3497,7 +3497,7 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -3621,13 +3621,13 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
   */
   readonly tables?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasTables[] | cdktn.IResolvable;
 }
@@ -3635,7 +3635,7 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchema
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -3647,7 +3647,7 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -3771,7 +3771,7 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects {
   /**
   * schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
   */
   readonly schemas: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemas[] | cdktn.IResolvable;
 }
@@ -3779,7 +3779,7 @@ export interface GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects {
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsToTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schemas: cdktn.listMapper(googleDatastreamStreamBackfillAllSqlServerExcludedObjectsSchemasToTerraform, true)(struct!.schemas),
@@ -3790,7 +3790,7 @@ export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsToTerra
 export function googleDatastreamStreamBackfillAllSqlServerExcludedObjectsToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsOutputReference | GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schemas: {
@@ -3854,43 +3854,43 @@ export interface GoogleDatastreamStreamBackfillAll {
   /**
   * mongodb_excluded_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mongodb_excluded_objects GoogleDatastreamStream#mongodb_excluded_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mongodb_excluded_objects GoogleDatastreamStream#mongodb_excluded_objects}
   */
   readonly mongodbExcludedObjects?: GoogleDatastreamStreamBackfillAllMongodbExcludedObjects;
   /**
   * mysql_excluded_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_excluded_objects GoogleDatastreamStream#mysql_excluded_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_excluded_objects GoogleDatastreamStream#mysql_excluded_objects}
   */
   readonly mysqlExcludedObjects?: GoogleDatastreamStreamBackfillAllMysqlExcludedObjects;
   /**
   * oracle_excluded_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_excluded_objects GoogleDatastreamStream#oracle_excluded_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_excluded_objects GoogleDatastreamStream#oracle_excluded_objects}
   */
   readonly oracleExcludedObjects?: GoogleDatastreamStreamBackfillAllOracleExcludedObjects;
   /**
   * postgresql_excluded_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_excluded_objects GoogleDatastreamStream#postgresql_excluded_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_excluded_objects GoogleDatastreamStream#postgresql_excluded_objects}
   */
   readonly postgresqlExcludedObjects?: GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects;
   /**
   * salesforce_excluded_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#salesforce_excluded_objects GoogleDatastreamStream#salesforce_excluded_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#salesforce_excluded_objects GoogleDatastreamStream#salesforce_excluded_objects}
   */
   readonly salesforceExcludedObjects?: GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects;
   /**
   * spanner_excluded_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#spanner_excluded_objects GoogleDatastreamStream#spanner_excluded_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#spanner_excluded_objects GoogleDatastreamStream#spanner_excluded_objects}
   */
   readonly spannerExcludedObjects?: GoogleDatastreamStreamBackfillAllSpannerExcludedObjects;
   /**
   * sql_server_excluded_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#sql_server_excluded_objects GoogleDatastreamStream#sql_server_excluded_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#sql_server_excluded_objects GoogleDatastreamStream#sql_server_excluded_objects}
   */
   readonly sqlServerExcludedObjects?: GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects;
 }
@@ -3898,7 +3898,7 @@ export interface GoogleDatastreamStreamBackfillAll {
 export function googleDatastreamStreamBackfillAllToTerraform(struct?: GoogleDatastreamStreamBackfillAllOutputReference | GoogleDatastreamStreamBackfillAll): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mongodb_excluded_objects: googleDatastreamStreamBackfillAllMongodbExcludedObjectsToTerraform(struct!.mongodbExcludedObjects),
@@ -3915,7 +3915,7 @@ export function googleDatastreamStreamBackfillAllToTerraform(struct?: GoogleData
 export function googleDatastreamStreamBackfillAllToHclTerraform(struct?: GoogleDatastreamStreamBackfillAllOutputReference | GoogleDatastreamStreamBackfillAll): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mongodb_excluded_objects: {
@@ -4152,7 +4152,7 @@ export interface GoogleDatastreamStreamBackfillNone {
 export function googleDatastreamStreamBackfillNoneToTerraform(struct?: GoogleDatastreamStreamBackfillNoneOutputReference | GoogleDatastreamStreamBackfillNone): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -4162,7 +4162,7 @@ export function googleDatastreamStreamBackfillNoneToTerraform(struct?: GoogleDat
 export function googleDatastreamStreamBackfillNoneToHclTerraform(struct?: GoogleDatastreamStreamBackfillNoneOutputReference | GoogleDatastreamStreamBackfillNone): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -4201,7 +4201,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -4211,7 +4211,7 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnlyOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -4248,31 +4248,31 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
   /**
   * The Cloud Storage bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#bucket GoogleDatastreamStream#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#bucket GoogleDatastreamStream#bucket}
   */
   readonly bucket: string;
   /**
   * The bigquery connection. Format: '{project}.{location}.{name}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#connection_name GoogleDatastreamStream#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#connection_name GoogleDatastreamStream#connection_name}
   */
   readonly connectionName: string;
   /**
   * The file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#file_format GoogleDatastreamStream#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#file_format GoogleDatastreamStream#file_format}
   */
   readonly fileFormat: string;
   /**
   * The root path inside the Cloud Storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#root_path GoogleDatastreamStream#root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#root_path GoogleDatastreamStream#root_path}
   */
   readonly rootPath?: string;
   /**
   * The table format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table_format GoogleDatastreamStream#table_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table_format GoogleDatastreamStream#table_format}
   */
   readonly tableFormat: string;
 }
@@ -4280,7 +4280,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -4295,7 +4295,7 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -4464,7 +4464,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -4474,7 +4474,7 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMergeOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -4512,7 +4512,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
   * Dataset ID in the format projects/{project}/datasets/{dataset_id} or
   * {project}:{dataset_id}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#dataset_id GoogleDatastreamStream#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#dataset_id GoogleDatastreamStream#dataset_id}
   */
   readonly datasetId: string;
 }
@@ -4520,7 +4520,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dataset_id: cdktn.stringToTerraform(struct!.datasetId),
@@ -4531,7 +4531,7 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDatasetOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dataset_id: {
@@ -4596,7 +4596,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
   * If supplied, every created dataset will have its name prefixed by the provided value.
   * The prefix and name will be separated by an underscore. i.e. _.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#dataset_id_prefix GoogleDatastreamStream#dataset_id_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#dataset_id_prefix GoogleDatastreamStream#dataset_id_prefix}
   */
   readonly datasetIdPrefix?: string;
   /**
@@ -4605,14 +4605,14 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
   * encryption key. i.e. projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{cryptoKey}.
   * See https://cloud.google.com/bigquery/docs/customer-managed-encryption for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#kms_key_name GoogleDatastreamStream#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#kms_key_name GoogleDatastreamStream#kms_key_name}
   */
   readonly kmsKeyName?: string;
   /**
   * The geographic location where the dataset should reside.
   * See https://cloud.google.com/bigquery/docs/locations for supported locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
   */
   readonly location: string;
 }
@@ -4620,7 +4620,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dataset_id_prefix: cdktn.stringToTerraform(struct!.datasetIdPrefix),
@@ -4633,7 +4633,7 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplateOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dataset_id_prefix: {
@@ -4753,13 +4753,13 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
   /**
   * Optional. The project id of the BigQuery dataset. If not specified, the project will be inferred from the stream resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#project_id GoogleDatastreamStream#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#project_id GoogleDatastreamStream#project_id}
   */
   readonly projectId?: string;
   /**
   * dataset_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#dataset_template GoogleDatastreamStream#dataset_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#dataset_template GoogleDatastreamStream#dataset_template}
   */
   readonly datasetTemplate: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate;
 }
@@ -4767,7 +4767,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     project_id: cdktn.stringToTerraform(struct!.projectId),
@@ -4779,7 +4779,7 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     project_id: {
@@ -4874,37 +4874,37 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
   * will not be impacted. Lower values mean that queries will return fresher data, but may result in higher cost.
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s". Defaults to 900s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_freshness GoogleDatastreamStream#data_freshness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_freshness GoogleDatastreamStream#data_freshness}
   */
   readonly dataFreshness?: string;
   /**
   * append_only block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#append_only GoogleDatastreamStream#append_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#append_only GoogleDatastreamStream#append_only}
   */
   readonly appendOnly?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnly;
   /**
   * blmt_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#blmt_config GoogleDatastreamStream#blmt_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#blmt_config GoogleDatastreamStream#blmt_config}
   */
   readonly blmtConfig?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfig;
   /**
   * merge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#merge GoogleDatastreamStream#merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#merge GoogleDatastreamStream#merge}
   */
   readonly merge?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge;
   /**
   * single_target_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#single_target_dataset GoogleDatastreamStream#single_target_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#single_target_dataset GoogleDatastreamStream#single_target_dataset}
   */
   readonly singleTargetDataset?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTargetDataset;
   /**
   * source_hierarchy_datasets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#source_hierarchy_datasets GoogleDatastreamStream#source_hierarchy_datasets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#source_hierarchy_datasets GoogleDatastreamStream#source_hierarchy_datasets}
   */
   readonly sourceHierarchyDatasets?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets;
 }
@@ -4912,7 +4912,7 @@ export interface GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfi
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_freshness: cdktn.stringToTerraform(struct!.dataFreshness),
@@ -4928,7 +4928,7 @@ export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfig
 export function googleDatastreamStreamDestinationConfigBigqueryDestinationConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_freshness: {
@@ -5137,7 +5137,7 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvro
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatToTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -5147,7 +5147,7 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroF
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -5184,13 +5184,13 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJson
   /**
   * Compression of the loaded JSON file. Possible values: ["NO_COMPRESSION", "GZIP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#compression GoogleDatastreamStream#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#compression GoogleDatastreamStream#compression}
   */
   readonly compression?: string;
   /**
   * The schema file format along JSON data files. Possible values: ["NO_SCHEMA_FILE", "AVRO_SCHEMA_FILE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema_file_format GoogleDatastreamStream#schema_file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema_file_format GoogleDatastreamStream#schema_file_format}
   */
   readonly schemaFileFormat?: string;
 }
@@ -5198,7 +5198,7 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJson
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatToTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     compression: cdktn.stringToTerraform(struct!.compression),
@@ -5210,7 +5210,7 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigJsonF
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormatOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     compression: {
@@ -5307,31 +5307,31 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfig {
   * Values within the range of 15-60 seconds are allowed.
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#file_rotation_interval GoogleDatastreamStream#file_rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#file_rotation_interval GoogleDatastreamStream#file_rotation_interval}
   */
   readonly fileRotationInterval?: string;
   /**
   * The maximum file size to be saved in the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#file_rotation_mb GoogleDatastreamStream#file_rotation_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#file_rotation_mb GoogleDatastreamStream#file_rotation_mb}
   */
   readonly fileRotationMb?: number;
   /**
   * Path inside the Cloud Storage bucket to write data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#path GoogleDatastreamStream#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#path GoogleDatastreamStream#path}
   */
   readonly path?: string;
   /**
   * avro_file_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#avro_file_format GoogleDatastreamStream#avro_file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#avro_file_format GoogleDatastreamStream#avro_file_format}
   */
   readonly avroFileFormat?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat;
   /**
   * json_file_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#json_file_format GoogleDatastreamStream#json_file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#json_file_format GoogleDatastreamStream#json_file_format}
   */
   readonly jsonFileFormat?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat;
 }
@@ -5339,7 +5339,7 @@ export interface GoogleDatastreamStreamDestinationConfigGcsDestinationConfig {
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     file_rotation_interval: cdktn.stringToTerraform(struct!.fileRotationInterval),
@@ -5354,7 +5354,7 @@ export function googleDatastreamStreamDestinationConfigGcsDestinationConfigToTer
 export function googleDatastreamStreamDestinationConfigGcsDestinationConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfigGcsDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     file_rotation_interval: {
@@ -5533,19 +5533,19 @@ export interface GoogleDatastreamStreamDestinationConfig {
   /**
   * Destination connection profile resource. Format: projects/{project}/locations/{location}/connectionProfiles/{name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#destination_connection_profile GoogleDatastreamStream#destination_connection_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#destination_connection_profile GoogleDatastreamStream#destination_connection_profile}
   */
   readonly destinationConnectionProfile: string;
   /**
   * bigquery_destination_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#bigquery_destination_config GoogleDatastreamStream#bigquery_destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#bigquery_destination_config GoogleDatastreamStream#bigquery_destination_config}
   */
   readonly bigqueryDestinationConfig?: GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig;
   /**
   * gcs_destination_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#gcs_destination_config GoogleDatastreamStream#gcs_destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#gcs_destination_config GoogleDatastreamStream#gcs_destination_config}
   */
   readonly gcsDestinationConfig?: GoogleDatastreamStreamDestinationConfigGcsDestinationConfig;
 }
@@ -5553,7 +5553,7 @@ export interface GoogleDatastreamStreamDestinationConfig {
 export function googleDatastreamStreamDestinationConfigToTerraform(struct?: GoogleDatastreamStreamDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     destination_connection_profile: cdktn.stringToTerraform(struct!.destinationConnectionProfile),
@@ -5566,7 +5566,7 @@ export function googleDatastreamStreamDestinationConfigToTerraform(struct?: Goog
 export function googleDatastreamStreamDestinationConfigToHclTerraform(struct?: GoogleDatastreamStreamDestinationConfigOutputReference | GoogleDatastreamStreamDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     destination_connection_profile: {
@@ -5686,7 +5686,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryCluster
   /**
   * Column names to set as clustering columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
   readonly columns: string[];
 }
@@ -5694,7 +5694,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryCluster
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringToTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     columns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.columns),
@@ -5705,7 +5705,7 @@ export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteri
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     columns: {
@@ -5769,7 +5769,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
   /**
   * Partition granularity. Possible values: ["PARTITIONING_TIME_GRANULARITY_UNSPECIFIED", "PARTITIONING_TIME_GRANULARITY_HOUR", "PARTITIONING_TIME_GRANULARITY_DAY", "PARTITIONING_TIME_GRANULARITY_MONTH", "PARTITIONING_TIME_GRANULARITY_YEAR"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
   */
   readonly partitioningTimeGranularity?: string;
 }
@@ -5777,7 +5777,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartitionToTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartitionOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     partitioning_time_granularity: cdktn.stringToTerraform(struct!.partitioningTimeGranularity),
@@ -5788,7 +5788,7 @@ export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitio
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartitionToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartitionOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     partitioning_time_granularity: {
@@ -5855,25 +5855,25 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
   /**
   * The partitioning column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column: string;
   /**
   * The ending value for range partitioning (exclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#end GoogleDatastreamStream#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#end GoogleDatastreamStream#end}
   */
   readonly end: number;
   /**
   * The interval of each range within the partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#interval GoogleDatastreamStream#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#interval GoogleDatastreamStream#interval}
   */
   readonly interval: number;
   /**
   * The starting value for range partitioning (inclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#start GoogleDatastreamStream#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#start GoogleDatastreamStream#start}
   */
   readonly start: number;
 }
@@ -5881,7 +5881,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartitionToTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartitionOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -5895,7 +5895,7 @@ export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitio
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartitionToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartitionOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -6034,13 +6034,13 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
   /**
   * The partitioning column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column: string;
   /**
   * Partition granularity. Possible values: ["PARTITIONING_TIME_GRANULARITY_UNSPECIFIED", "PARTITIONING_TIME_GRANULARITY_HOUR", "PARTITIONING_TIME_GRANULARITY_DAY", "PARTITIONING_TIME_GRANULARITY_MONTH", "PARTITIONING_TIME_GRANULARITY_YEAR"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
   */
   readonly partitioningTimeGranularity?: string;
 }
@@ -6048,7 +6048,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartitionToTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartitionOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -6060,7 +6060,7 @@ export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitio
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartitionToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartitionOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -6152,25 +6152,25 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
   /**
   * If true, queries over the table require a partition filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#require_partition_filter GoogleDatastreamStream#require_partition_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#require_partition_filter GoogleDatastreamStream#require_partition_filter}
   */
   readonly requirePartitionFilter?: boolean | cdktn.IResolvable;
   /**
   * ingestion_time_partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#ingestion_time_partition GoogleDatastreamStream#ingestion_time_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#ingestion_time_partition GoogleDatastreamStream#ingestion_time_partition}
   */
   readonly ingestionTimePartition?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIngestionTimePartition;
   /**
   * integer_range_partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#integer_range_partition GoogleDatastreamStream#integer_range_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#integer_range_partition GoogleDatastreamStream#integer_range_partition}
   */
   readonly integerRangePartition?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningIntegerRangePartition;
   /**
   * time_unit_partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#time_unit_partition GoogleDatastreamStream#time_unit_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#time_unit_partition GoogleDatastreamStream#time_unit_partition}
   */
   readonly timeUnitPartition?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeUnitPartition;
 }
@@ -6178,7 +6178,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartiti
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningToTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     require_partition_filter: cdktn.booleanToTerraform(struct!.requirePartitionFilter),
@@ -6192,7 +6192,7 @@ export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitio
 export function googleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningOutputReference | GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     require_partition_filter: {
@@ -6343,13 +6343,13 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRules {
   /**
   * bigquery_clustering block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#bigquery_clustering GoogleDatastreamStream#bigquery_clustering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#bigquery_clustering GoogleDatastreamStream#bigquery_clustering}
   */
   readonly bigqueryClustering?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering;
   /**
   * bigquery_partitioning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#bigquery_partitioning GoogleDatastreamStream#bigquery_partitioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#bigquery_partitioning GoogleDatastreamStream#bigquery_partitioning}
   */
   readonly bigqueryPartitioning?: GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning;
 }
@@ -6357,7 +6357,7 @@ export interface GoogleDatastreamStreamRuleSetsCustomizationRules {
 export function googleDatastreamStreamRuleSetsCustomizationRulesToTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bigquery_clustering: googleDatastreamStreamRuleSetsCustomizationRulesBigqueryClusteringToTerraform(struct!.bigqueryClustering),
@@ -6369,7 +6369,7 @@ export function googleDatastreamStreamRuleSetsCustomizationRulesToTerraform(stru
 export function googleDatastreamStreamRuleSetsCustomizationRulesToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsCustomizationRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bigquery_clustering: {
@@ -6496,13 +6496,13 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * The MongoDB collection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
   */
   readonly collection: string;
   /**
   * The MongoDB database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database: string;
 }
@@ -6510,7 +6510,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     collection: cdktn.stringToTerraform(struct!.collection),
@@ -6522,7 +6522,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     collection: {
@@ -6611,13 +6611,13 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * The database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database: string;
   /**
   * The table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
 }
@@ -6625,7 +6625,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -6637,7 +6637,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -6726,13 +6726,13 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * The schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * The table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
 }
@@ -6740,7 +6740,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -6752,7 +6752,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -6841,13 +6841,13 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * The schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * The table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
 }
@@ -6855,7 +6855,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -6867,7 +6867,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -6956,7 +6956,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * The Salesforce object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
   */
   readonly objectName: string;
 }
@@ -6964,7 +6964,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     object_name: cdktn.stringToTerraform(struct!.objectName),
@@ -6975,7 +6975,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     object_name: {
@@ -7039,13 +7039,13 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * The schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema?: string;
   /**
   * The table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
 }
@@ -7053,7 +7053,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -7065,7 +7065,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -7157,13 +7157,13 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * The schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * The table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
 }
@@ -7171,7 +7171,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -7183,7 +7183,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -7272,43 +7272,43 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
   /**
   * mongodb_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mongodb_identifier GoogleDatastreamStream#mongodb_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mongodb_identifier GoogleDatastreamStream#mongodb_identifier}
   */
   readonly mongodbIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifier;
   /**
   * mysql_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_identifier GoogleDatastreamStream#mysql_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_identifier GoogleDatastreamStream#mysql_identifier}
   */
   readonly mysqlIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIdentifier;
   /**
   * oracle_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_identifier GoogleDatastreamStream#oracle_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_identifier GoogleDatastreamStream#oracle_identifier}
   */
   readonly oracleIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIdentifier;
   /**
   * postgresql_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_identifier GoogleDatastreamStream#postgresql_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_identifier GoogleDatastreamStream#postgresql_identifier}
   */
   readonly postgresqlIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresqlIdentifier;
   /**
   * salesforce_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#salesforce_identifier GoogleDatastreamStream#salesforce_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#salesforce_identifier GoogleDatastreamStream#salesforce_identifier}
   */
   readonly salesforceIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforceIdentifier;
   /**
   * spanner_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#spanner_identifier GoogleDatastreamStream#spanner_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#spanner_identifier GoogleDatastreamStream#spanner_identifier}
   */
   readonly spannerIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerIdentifier;
   /**
   * sql_server_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#sql_server_identifier GoogleDatastreamStream#sql_server_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#sql_server_identifier GoogleDatastreamStream#sql_server_identifier}
   */
   readonly sqlServerIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServerIdentifier;
 }
@@ -7316,7 +7316,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifie
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mongodb_identifier: googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbIdentifierToTerraform(struct!.mongodbIdentifier),
@@ -7333,7 +7333,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier
 export function googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOutputReference | GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mongodb_identifier: {
@@ -7568,7 +7568,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilter {
   /**
   * source_object_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#source_object_identifier GoogleDatastreamStream#source_object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#source_object_identifier GoogleDatastreamStream#source_object_identifier}
   */
   readonly sourceObjectIdentifier?: GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier;
 }
@@ -7576,7 +7576,7 @@ export interface GoogleDatastreamStreamRuleSetsObjectFilter {
 export function googleDatastreamStreamRuleSetsObjectFilterToTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterOutputReference | GoogleDatastreamStreamRuleSetsObjectFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     source_object_identifier: googleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierToTerraform(struct!.sourceObjectIdentifier),
@@ -7587,7 +7587,7 @@ export function googleDatastreamStreamRuleSetsObjectFilterToTerraform(struct?: G
 export function googleDatastreamStreamRuleSetsObjectFilterToHclTerraform(struct?: GoogleDatastreamStreamRuleSetsObjectFilterOutputReference | GoogleDatastreamStreamRuleSetsObjectFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     source_object_identifier: {
@@ -7654,13 +7654,13 @@ export interface GoogleDatastreamStreamRuleSets {
   /**
   * customization_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#customization_rules GoogleDatastreamStream#customization_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#customization_rules GoogleDatastreamStream#customization_rules}
   */
   readonly customizationRules: GoogleDatastreamStreamRuleSetsCustomizationRules[] | cdktn.IResolvable;
   /**
   * object_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#object_filter GoogleDatastreamStream#object_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#object_filter GoogleDatastreamStream#object_filter}
   */
   readonly objectFilter: GoogleDatastreamStreamRuleSetsObjectFilter;
 }
@@ -7668,7 +7668,7 @@ export interface GoogleDatastreamStreamRuleSets {
 export function googleDatastreamStreamRuleSetsToTerraform(struct?: GoogleDatastreamStreamRuleSets | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     customization_rules: cdktn.listMapper(googleDatastreamStreamRuleSetsCustomizationRulesToTerraform, true)(struct!.customizationRules),
@@ -7680,7 +7680,7 @@ export function googleDatastreamStreamRuleSetsToTerraform(struct?: GoogleDatastr
 export function googleDatastreamStreamRuleSetsToHclTerraform(struct?: GoogleDatastreamStreamRuleSets | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     customization_rules: {
@@ -7801,7 +7801,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
   */
   readonly field?: string;
 }
@@ -7809,7 +7809,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field: cdktn.stringToTerraform(struct!.field),
@@ -7820,7 +7820,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field: {
@@ -7919,13 +7919,13 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
   /**
   * Collection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
   */
   readonly collection?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
   readonly fields?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsFields[] | cdktn.IResolvable;
 }
@@ -7933,7 +7933,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollections | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     collection: cdktn.stringToTerraform(struct!.collection),
@@ -7945,7 +7945,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollectionsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollections | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     collection: {
@@ -8072,13 +8072,13 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database?: string;
   /**
   * collections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
   */
   readonly collections?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesCollections[] | cdktn.IResolvable;
 }
@@ -8086,7 +8086,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -8098,7 +8098,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -8225,7 +8225,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
   */
   readonly databases?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabases[] | cdktn.IResolvable;
 }
@@ -8233,7 +8233,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     databases: cdktn.listMapper(googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsDatabasesToTerraform, true)(struct!.databases),
@@ -8244,7 +8244,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     databases: {
@@ -8311,7 +8311,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
   */
   readonly field?: string;
 }
@@ -8319,7 +8319,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field: cdktn.stringToTerraform(struct!.field),
@@ -8330,7 +8330,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field: {
@@ -8429,13 +8429,13 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
   /**
   * Collection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
   */
   readonly collection?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
   readonly fields?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsFields[] | cdktn.IResolvable;
 }
@@ -8443,7 +8443,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollections | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     collection: cdktn.stringToTerraform(struct!.collection),
@@ -8455,7 +8455,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollectionsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollections | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     collection: {
@@ -8582,13 +8582,13 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database?: string;
   /**
   * collections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
   */
   readonly collections?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesCollections[] | cdktn.IResolvable;
 }
@@ -8596,7 +8596,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -8608,7 +8608,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -8735,7 +8735,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
   */
   readonly databases?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabases[] | cdktn.IResolvable;
 }
@@ -8743,7 +8743,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     databases: cdktn.listMapper(googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsDatabasesToTerraform, true)(struct!.databases),
@@ -8754,7 +8754,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     databases: {
@@ -8823,19 +8823,19 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfig {
   * should be non-negative and less than or equal to 50. If not set
   * (or set to 0), the system''s default value is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
   */
   readonly maxConcurrentBackfillTasks?: number;
   /**
   * exclude_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
   */
   readonly excludeObjects?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects;
   /**
   * include_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
   */
   readonly includeObjects?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects;
 }
@@ -8843,7 +8843,7 @@ export interface GoogleDatastreamStreamSourceConfigMongodbSourceConfig {
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigMongodbSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
@@ -8856,7 +8856,7 @@ export function googleDatastreamStreamSourceConfigMongodbSourceConfigToTerraform
 export function googleDatastreamStreamSourceConfigMongodbSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMongodbSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigMongodbSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
@@ -8981,7 +8981,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPos
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -8991,7 +8991,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosi
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPositionOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -9028,38 +9028,38 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   /**
   * Column collation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
   */
   readonly collation?: string;
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The MySQL data type. Full data types list can be found here:
   * https://dev.mysql.com/doc/refman/8.0/en/data-types.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
   /**
   * Whether or not the column can accept a null value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
   */
   readonly ordinalPosition?: number;
   /**
   * Whether or not the column represents a primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
   readonly primaryKey?: boolean | cdktn.IResolvable;
 }
@@ -9067,7 +9067,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     collation: cdktn.stringToTerraform(struct!.collation),
@@ -9083,7 +9083,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     collation: {
@@ -9327,13 +9327,13 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * mysql_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
   */
   readonly mysqlColumns?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable;
 }
@@ -9341,7 +9341,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -9353,7 +9353,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -9477,13 +9477,13 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database: string;
   /**
   * mysql_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
   */
   readonly mysqlTables?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable;
 }
@@ -9491,7 +9491,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -9503,7 +9503,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -9627,7 +9627,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
   /**
   * mysql_databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
   */
   readonly mysqlDatabases: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabases[] | cdktn.IResolvable;
 }
@@ -9635,7 +9635,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mysql_databases: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
@@ -9646,7 +9646,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mysql_databases: {
@@ -9712,7 +9712,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid {
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -9722,7 +9722,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToTerrafo
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigGtidToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtidOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -9759,38 +9759,38 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   /**
   * Column collation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
   */
   readonly collation?: string;
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The MySQL data type. Full data types list can be found here:
   * https://dev.mysql.com/doc/refman/8.0/en/data-types.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
   /**
   * Whether or not the column can accept a null value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
   */
   readonly ordinalPosition?: number;
   /**
   * Whether or not the column represents a primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
   readonly primaryKey?: boolean | cdktn.IResolvable;
 }
@@ -9798,7 +9798,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     collation: cdktn.stringToTerraform(struct!.collation),
@@ -9814,7 +9814,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     collation: {
@@ -10058,13 +10058,13 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * mysql_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
   */
   readonly mysqlColumns?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesMysqlColumns[] | cdktn.IResolvable;
 }
@@ -10072,7 +10072,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -10084,7 +10084,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -10208,13 +10208,13 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
   */
   readonly database: string;
   /**
   * mysql_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
   */
   readonly mysqlTables?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesMysqlTables[] | cdktn.IResolvable;
 }
@@ -10222,7 +10222,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database: cdktn.stringToTerraform(struct!.database),
@@ -10234,7 +10234,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database: {
@@ -10358,7 +10358,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
   /**
   * mysql_databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
   */
   readonly mysqlDatabases: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabases[] | cdktn.IResolvable;
 }
@@ -10366,7 +10366,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mysql_databases: cdktn.listMapper(googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsMysqlDatabasesToTerraform, true)(struct!.mysqlDatabases),
@@ -10377,7 +10377,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObject
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mysql_databases: {
@@ -10442,38 +10442,38 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfig {
   * Maximum number of concurrent backfill tasks. The number should be non negative.
   * If not set (or set to 0), the system's default value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
   */
   readonly maxConcurrentBackfillTasks?: number;
   /**
   * Maximum number of concurrent CDC tasks. The number should be non negative.
   * If not set (or set to 0), the system's default value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
   */
   readonly maxConcurrentCdcTasks?: number;
   /**
   * binary_log_position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#binary_log_position GoogleDatastreamStream#binary_log_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#binary_log_position GoogleDatastreamStream#binary_log_position}
   */
   readonly binaryLogPosition?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition;
   /**
   * exclude_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
   */
   readonly excludeObjects?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects;
   /**
   * gtid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#gtid GoogleDatastreamStream#gtid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#gtid GoogleDatastreamStream#gtid}
   */
   readonly gtid?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid;
   /**
   * include_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
   */
   readonly includeObjects?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects;
 }
@@ -10481,7 +10481,7 @@ export interface GoogleDatastreamStreamSourceConfigMysqlSourceConfig {
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
@@ -10497,7 +10497,7 @@ export function googleDatastreamStreamSourceConfigMysqlSourceConfigToTerraform(s
 export function googleDatastreamStreamSourceConfigMysqlSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigMysqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigMysqlSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
@@ -10706,7 +10706,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeOb
 export function googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -10716,7 +10716,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObj
 export function googleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -10753,14 +10753,14 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The Oracle data type. Full data types list can be found here:
   * https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
 }
@@ -10768,7 +10768,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -10780,7 +10780,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -10942,13 +10942,13 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * oracle_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
   */
   readonly oracleColumns?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable;
 }
@@ -10956,7 +10956,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -10968,7 +10968,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -11092,13 +11092,13 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * oracle_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
   */
   readonly oracleTables?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable;
 }
@@ -11106,7 +11106,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -11118,7 +11118,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -11242,7 +11242,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
   /**
   * oracle_schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
   */
   readonly oracleSchemas: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemas[] | cdktn.IResolvable;
 }
@@ -11250,7 +11250,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     oracle_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
@@ -11261,7 +11261,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     oracle_schemas: {
@@ -11325,14 +11325,14 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The Oracle data type. Full data types list can be found here:
   * https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
 }
@@ -11340,7 +11340,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -11352,7 +11352,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -11514,13 +11514,13 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * oracle_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
   */
   readonly oracleColumns?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesOracleColumns[] | cdktn.IResolvable;
 }
@@ -11528,7 +11528,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -11540,7 +11540,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -11664,13 +11664,13 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * oracle_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
   */
   readonly oracleTables?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasOracleTables[] | cdktn.IResolvable;
 }
@@ -11678,7 +11678,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -11690,7 +11690,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -11814,7 +11814,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
   /**
   * oracle_schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
   */
   readonly oracleSchemas: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemas[] | cdktn.IResolvable;
 }
@@ -11822,7 +11822,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     oracle_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOracleSchemasToTerraform, true)(struct!.oracleSchemas),
@@ -11833,7 +11833,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjec
 export function googleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     oracle_schemas: {
@@ -11899,7 +11899,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLarge
 export function googleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -11909,7 +11909,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeO
 export function googleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjectsOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -11947,38 +11947,38 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfig {
   * Maximum number of concurrent backfill tasks. The number should be non negative.
   * If not set (or set to 0), the system's default value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
   */
   readonly maxConcurrentBackfillTasks?: number;
   /**
   * Maximum number of concurrent CDC tasks. The number should be non negative.
   * If not set (or set to 0), the system's default value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
   */
   readonly maxConcurrentCdcTasks?: number;
   /**
   * drop_large_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#drop_large_objects GoogleDatastreamStream#drop_large_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#drop_large_objects GoogleDatastreamStream#drop_large_objects}
   */
   readonly dropLargeObjects?: GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects;
   /**
   * exclude_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
   */
   readonly excludeObjects?: GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects;
   /**
   * include_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
   */
   readonly includeObjects?: GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects;
   /**
   * stream_large_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#stream_large_objects GoogleDatastreamStream#stream_large_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#stream_large_objects GoogleDatastreamStream#stream_large_objects}
   */
   readonly streamLargeObjects?: GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects;
 }
@@ -11986,7 +11986,7 @@ export interface GoogleDatastreamStreamSourceConfigOracleSourceConfig {
 export function googleDatastreamStreamSourceConfigOracleSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
@@ -12002,7 +12002,7 @@ export function googleDatastreamStreamSourceConfigOracleSourceConfigToTerraform(
 export function googleDatastreamStreamSourceConfigOracleSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigOracleSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigOracleSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
@@ -12209,32 +12209,32 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The PostgreSQL data type. Full data types list can be found here:
   * https://www.postgresql.org/docs/current/datatype.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
   /**
   * Whether or not the column can accept a null value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
   */
   readonly ordinalPosition?: number;
   /**
   * Whether or not the column represents a primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
   readonly primaryKey?: boolean | cdktn.IResolvable;
 }
@@ -12242,7 +12242,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -12257,7 +12257,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -12483,13 +12483,13 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * postgresql_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
   */
   readonly postgresqlColumns?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable;
 }
@@ -12497,7 +12497,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -12509,7 +12509,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -12633,13 +12633,13 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * postgresql_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
   */
   readonly postgresqlTables?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable;
 }
@@ -12647,7 +12647,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -12659,7 +12659,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -12783,7 +12783,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
   /**
   * postgresql_schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
   */
   readonly postgresqlSchemas: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemas[] | cdktn.IResolvable;
 }
@@ -12791,7 +12791,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     postgresql_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
@@ -12802,7 +12802,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     postgresql_schemas: {
@@ -12866,32 +12866,32 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The PostgreSQL data type. Full data types list can be found here:
   * https://www.postgresql.org/docs/current/datatype.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
   /**
   * Whether or not the column can accept a null value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * The ordinal position of the column in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
   */
   readonly ordinalPosition?: number;
   /**
   * Whether or not the column represents a primary key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
   */
   readonly primaryKey?: boolean | cdktn.IResolvable;
 }
@@ -12899,7 +12899,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -12914,7 +12914,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -13140,13 +13140,13 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * postgresql_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
   */
   readonly postgresqlColumns?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesPostgresqlColumns[] | cdktn.IResolvable;
 }
@@ -13154,7 +13154,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -13166,7 +13166,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -13290,13 +13290,13 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * postgresql_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
   */
   readonly postgresqlTables?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasPostgresqlTables[] | cdktn.IResolvable;
 }
@@ -13304,7 +13304,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -13316,7 +13316,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -13440,7 +13440,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
   /**
   * postgresql_schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
   */
   readonly postgresqlSchemas: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemas[] | cdktn.IResolvable;
 }
@@ -13448,7 +13448,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclude
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     postgresql_schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsPostgresqlSchemasToTerraform, true)(struct!.postgresqlSchemas),
@@ -13459,7 +13459,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeO
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     postgresql_schemas: {
@@ -13524,33 +13524,33 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig {
   * Maximum number of concurrent backfill tasks. The number should be non
   * negative. If not set (or set to 0), the system's default value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
   */
   readonly maxConcurrentBackfillTasks?: number;
   /**
   * The name of the publication that includes the set of all tables
   * that are defined in the stream's include_objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#publication GoogleDatastreamStream#publication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#publication GoogleDatastreamStream#publication}
   */
   readonly publication: string;
   /**
   * The name of the logical replication slot that's configured with
   * the pgoutput plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#replication_slot GoogleDatastreamStream#replication_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#replication_slot GoogleDatastreamStream#replication_slot}
   */
   readonly replicationSlot: string;
   /**
   * exclude_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
   */
   readonly excludeObjects?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects;
   /**
   * include_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
   */
   readonly includeObjects?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects;
 }
@@ -13558,7 +13558,7 @@ export interface GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig {
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_concurrent_backfill_tasks: cdktn.numberToTerraform(struct!.maxConcurrentBackfillTasks),
@@ -13573,7 +13573,7 @@ export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigToTerraf
 export function googleDatastreamStreamSourceConfigPostgresqlSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_concurrent_backfill_tasks: {
@@ -13746,7 +13746,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
   */
   readonly name?: string;
 }
@@ -13754,7 +13754,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -13765,7 +13765,7 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -13864,13 +13864,13 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
   /**
   * Name of object in Salesforce Org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
   */
   readonly objectName?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
   readonly fields?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsFields[] | cdktn.IResolvable;
 }
@@ -13878,7 +13878,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     object_name: cdktn.stringToTerraform(struct!.objectName),
@@ -13890,7 +13890,7 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     object_name: {
@@ -14017,7 +14017,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
   */
   readonly objects: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjects[] | cdktn.IResolvable;
 }
@@ -14025,7 +14025,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclude
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     objects: cdktn.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsObjectsToTerraform, true)(struct!.objects),
@@ -14036,7 +14036,7 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     objects: {
@@ -14100,7 +14100,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
   */
   readonly name?: string;
 }
@@ -14108,7 +14108,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -14119,7 +14119,7 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeO
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFieldsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -14218,13 +14218,13 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
   /**
   * Name of object in Salesforce Org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
   */
   readonly objectName?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
   */
   readonly fields?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsFields[] | cdktn.IResolvable;
 }
@@ -14232,7 +14232,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     object_name: cdktn.stringToTerraform(struct!.objectName),
@@ -14244,7 +14244,7 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeO
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     object_name: {
@@ -14371,7 +14371,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
   */
   readonly objects: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjects[] | cdktn.IResolvable;
 }
@@ -14379,7 +14379,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclude
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     objects: cdktn.listMapper(googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsObjectsToTerraform, true)(struct!.objects),
@@ -14390,7 +14390,7 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeO
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     objects: {
@@ -14454,19 +14454,19 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfig {
   /**
   * Salesforce objects polling interval. The interval at which new changes will be polled for each object. The duration must be between 5 minutes and 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#polling_interval GoogleDatastreamStream#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#polling_interval GoogleDatastreamStream#polling_interval}
   */
   readonly pollingInterval: string;
   /**
   * exclude_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
   */
   readonly excludeObjects?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects;
   /**
   * include_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
   */
   readonly includeObjects?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects;
 }
@@ -14474,7 +14474,7 @@ export interface GoogleDatastreamStreamSourceConfigSalesforceSourceConfig {
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     polling_interval: cdktn.stringToTerraform(struct!.pollingInterval),
@@ -14487,7 +14487,7 @@ export function googleDatastreamStreamSourceConfigSalesforceSourceConfigToTerraf
 export function googleDatastreamStreamSourceConfigSalesforceSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSalesforceSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSalesforceSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     polling_interval: {
@@ -14607,7 +14607,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
 }
@@ -14615,7 +14615,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -14626,7 +14626,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -14740,13 +14740,13 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
   readonly columns?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesColumns[] | cdktn.IResolvable;
 }
@@ -14754,7 +14754,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -14766,7 +14766,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -14890,13 +14890,13 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
   */
   readonly tables?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasTables[] | cdktn.IResolvable;
 }
@@ -14904,7 +14904,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -14916,7 +14916,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -15040,7 +15040,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
   /**
   * schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
   */
   readonly schemas: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemas[] | cdktn.IResolvable;
 }
@@ -15048,7 +15048,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsSchemasToTerraform, true)(struct!.schemas),
@@ -15059,7 +15059,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schemas: {
@@ -15123,7 +15123,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
 }
@@ -15131,7 +15131,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -15142,7 +15142,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {
@@ -15256,13 +15256,13 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
   /**
   * Table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
   */
   readonly table: string;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
   */
   readonly columns?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesColumns[] | cdktn.IResolvable;
 }
@@ -15270,7 +15270,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     table: cdktn.stringToTerraform(struct!.table),
@@ -15282,7 +15282,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTables | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     table: {
@@ -15406,13 +15406,13 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
   /**
   * Schema name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
   */
   readonly schema: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
   */
   readonly tables?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasTables[] | cdktn.IResolvable;
 }
@@ -15420,7 +15420,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schema: cdktn.stringToTerraform(struct!.schema),
@@ -15432,7 +15432,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemas | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schema: {
@@ -15556,7 +15556,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
   /**
   * schemas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
   */
   readonly schemas: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemas[] | cdktn.IResolvable;
 }
@@ -15564,7 +15564,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObj
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     schemas: cdktn.listMapper(googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsSchemasToTerraform, true)(struct!.schemas),
@@ -15575,7 +15575,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObje
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjectsOutputReference | GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     schemas: {
@@ -15639,49 +15639,49 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfig {
   /**
   * Whether to use DataBoost for backfill queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#backfill_data_boost_enabled GoogleDatastreamStream#backfill_data_boost_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#backfill_data_boost_enabled GoogleDatastreamStream#backfill_data_boost_enabled}
   */
   readonly backfillDataBoostEnabled?: boolean | cdktn.IResolvable;
   /**
   * The Spanner change stream name to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#change_stream_name GoogleDatastreamStream#change_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#change_stream_name GoogleDatastreamStream#change_stream_name}
   */
   readonly changeStreamName?: string;
   /**
   * The FGAC role to use for Spanner queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#fgac_role GoogleDatastreamStream#fgac_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#fgac_role GoogleDatastreamStream#fgac_role}
   */
   readonly fgacRole?: string;
   /**
   * Max concurrent backfill tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
   */
   readonly maxConcurrentBackfillTasks?: number;
   /**
   * Max concurrent CDC tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
   */
   readonly maxConcurrentCdcTasks?: number;
   /**
   * The RPC priority to use for Spanner queries. Possible values: ["LOW", "MEDIUM", "HIGH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#spanner_rpc_priority GoogleDatastreamStream#spanner_rpc_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#spanner_rpc_priority GoogleDatastreamStream#spanner_rpc_priority}
   */
   readonly spannerRpcPriority?: string;
   /**
   * exclude_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
   */
   readonly excludeObjects?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects;
   /**
   * include_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
   */
   readonly includeObjects?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects;
 }
@@ -15689,7 +15689,7 @@ export interface GoogleDatastreamStreamSourceConfigSpannerSourceConfig {
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigToTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSpannerSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backfill_data_boost_enabled: cdktn.booleanToTerraform(struct!.backfillDataBoostEnabled),
@@ -15707,7 +15707,7 @@ export function googleDatastreamStreamSourceConfigSpannerSourceConfigToTerraform
 export function googleDatastreamStreamSourceConfigSpannerSourceConfigToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSpannerSourceConfigOutputReference | GoogleDatastreamStreamSourceConfigSpannerSourceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backfill_data_boost_enabled: {
@@ -15972,7 +15972,7 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTa
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -15982,7 +15982,7 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTab
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTablesOutputReference | GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -16019,14 +16019,14 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeO
   /**
   * Column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
   */
   readonly column?: string;
   /**
   * The SQL Server data type. Full data types list can be found here:
   * https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
   */
   readonly dataType?: string;
 }
@@ -16034,7 +16034,7 @@ export interface GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeO
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column: cdktn.stringToTerraform(struct!.column),
@@ -16046,7 +16046,7 @@ export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeOb
 export function googleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumnsToHclTerraform(struct?: GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjectsSchemasTablesColumns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column: {

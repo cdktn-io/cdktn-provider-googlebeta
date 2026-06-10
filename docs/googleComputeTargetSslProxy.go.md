@@ -4,7 +4,7 @@
 
 ### GoogleComputeTargetSslProxy <a name="GoogleComputeTargetSslProxy" id="@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy google_compute_target_ssl_proxy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy google_compute_target_ssl_proxy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy.Initializer"></a>
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the GoogleComputeTargetSslProx
 
 The id of the existing GoogleComputeTargetSslProxy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1080,8 +1080,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.certificateMap">CertificateMap</a></code> | <code>*string</code> | A reference to the CertificateMap resource uri that identifies a certificate map associated with the given target proxy. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#id GoogleComputeTargetSslProxy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#project GoogleComputeTargetSslProxy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#id GoogleComputeTargetSslProxy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#project GoogleComputeTargetSslProxy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.proxyHeader">ProxyHeader</a></code> | <code>*string</code> | Specifies the type of proxy header to append before sending data to the backend. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.sslCertificates">SslCertificates</a></code> | <code>*[]*string</code> | A list of SslCertificate resources that are used to authenticate connections between users and the load balancer. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyConfig.property.sslPolicy">SslPolicy</a></code> | <code>*string</code> | A reference to the SslPolicy resource that will be associated with the TargetSslProxy resource. |
@@ -1169,7 +1169,7 @@ BackendService *string
 
 A reference to the BackendService resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#backend_service GoogleComputeTargetSslProxy#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#backend_service GoogleComputeTargetSslProxy#backend_service}
 
 ---
 
@@ -1191,7 +1191,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#name GoogleComputeTargetSslProxy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#name GoogleComputeTargetSslProxy#name}
 
 ---
 
@@ -1208,7 +1208,7 @@ A reference to the CertificateMap resource uri that identifies a certificate map
 This field can only be set for global target proxies.
 Accepted format is '//certificatemanager.googleapis.com/projects/{project}/locations/{location}/certificateMaps/{resourceName}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#certificate_map GoogleComputeTargetSslProxy#certificate_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#certificate_map GoogleComputeTargetSslProxy#certificate_map}
 
 ---
 
@@ -1229,7 +1229,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#deletion_policy GoogleComputeTargetSslProxy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#deletion_policy GoogleComputeTargetSslProxy#deletion_policy}
 
 ---
 
@@ -1243,7 +1243,7 @@ Description *string
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#description GoogleComputeTargetSslProxy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#description GoogleComputeTargetSslProxy#description}
 
 ---
 
@@ -1255,7 +1255,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#id GoogleComputeTargetSslProxy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#id GoogleComputeTargetSslProxy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1270,7 +1270,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#project GoogleComputeTargetSslProxy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#project GoogleComputeTargetSslProxy#project}.
 
 ---
 
@@ -1286,7 +1286,7 @@ Specifies the type of proxy header to append before sending data to the backend.
 
 Default value: "NONE" Possible values: ["NONE", "PROXY_V1"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#proxy_header GoogleComputeTargetSslProxy#proxy_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#proxy_header GoogleComputeTargetSslProxy#proxy_header}
 
 ---
 
@@ -1303,7 +1303,7 @@ A list of SslCertificate resources that are used to authenticate connections bet
 At least one
 SSL certificate must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#ssl_certificates GoogleComputeTargetSslProxy#ssl_certificates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#ssl_certificates GoogleComputeTargetSslProxy#ssl_certificates}
 
 ---
 
@@ -1320,7 +1320,7 @@ A reference to the SslPolicy resource that will be associated with the TargetSsl
 If not set, the TargetSslProxy
 resource will not have any SSL policy configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#ssl_policy GoogleComputeTargetSslProxy#ssl_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#ssl_policy GoogleComputeTargetSslProxy#ssl_policy}
 
 ---
 
@@ -1334,7 +1334,7 @@ Timeouts GoogleComputeTargetSslProxyTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#timeouts GoogleComputeTargetSslProxy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#timeouts GoogleComputeTargetSslProxy#timeouts}
 
 ---
 
@@ -1356,9 +1356,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#create GoogleComputeTargetSslProxy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#delete GoogleComputeTargetSslProxy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#update GoogleComputeTargetSslProxy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#create GoogleComputeTargetSslProxy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#delete GoogleComputeTargetSslProxy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxyTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#update GoogleComputeTargetSslProxy#update}. |
 
 ---
 
@@ -1370,7 +1370,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#create GoogleComputeTargetSslProxy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#create GoogleComputeTargetSslProxy#create}.
 
 ---
 
@@ -1382,7 +1382,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#delete GoogleComputeTargetSslProxy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#delete GoogleComputeTargetSslProxy#delete}.
 
 ---
 
@@ -1394,7 +1394,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_target_ssl_proxy#update GoogleComputeTargetSslProxy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_target_ssl_proxy#update GoogleComputeTargetSslProxy#update}.
 
 ---
 

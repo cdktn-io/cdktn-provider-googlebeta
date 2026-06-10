@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,23 +21,23 @@ export interface GoogleDataLossPreventionStoredInfoTypeConfig extends cdktn.Terr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#deletion_policy GoogleDataLossPreventionStoredInfoType#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#deletion_policy GoogleDataLossPreventionStoredInfoType#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A description of the info type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#description GoogleDataLossPreventionStoredInfoType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#description GoogleDataLossPreventionStoredInfoType#description}
   */
   readonly description?: string;
   /**
   * User set display name of the info type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#display_name GoogleDataLossPreventionStoredInfoType#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#display_name GoogleDataLossPreventionStoredInfoType#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#id GoogleDataLossPreventionStoredInfoType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#id GoogleDataLossPreventionStoredInfoType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeConfig extends cdktn.Terr
   * * 'organizations/{{organization_id}}'
   * * 'organizations/{{organization_id}}/locations/{{location}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#parent GoogleDataLossPreventionStoredInfoType#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#parent GoogleDataLossPreventionStoredInfoType#parent}
   */
   readonly parent: string;
   /**
@@ -59,31 +59,31 @@ export interface GoogleDataLossPreventionStoredInfoTypeConfig extends cdktn.Terr
   * that is, it must match the regular expression: [a-zA-Z\d-_]+. The maximum length is 100
   * characters. Can be empty to allow the system to generate one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#stored_info_type_id GoogleDataLossPreventionStoredInfoType#stored_info_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#stored_info_type_id GoogleDataLossPreventionStoredInfoType#stored_info_type_id}
   */
   readonly storedInfoTypeId?: string;
   /**
   * dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#dictionary GoogleDataLossPreventionStoredInfoType#dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#dictionary GoogleDataLossPreventionStoredInfoType#dictionary}
   */
   readonly dictionary?: GoogleDataLossPreventionStoredInfoTypeDictionary;
   /**
   * large_custom_dictionary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#large_custom_dictionary GoogleDataLossPreventionStoredInfoType#large_custom_dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#large_custom_dictionary GoogleDataLossPreventionStoredInfoType#large_custom_dictionary}
   */
   readonly largeCustomDictionary?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionary;
   /**
   * regex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#regex GoogleDataLossPreventionStoredInfoType#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#regex GoogleDataLossPreventionStoredInfoType#regex}
   */
   readonly regex?: GoogleDataLossPreventionStoredInfoTypeRegex;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#timeouts GoogleDataLossPreventionStoredInfoType#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#timeouts GoogleDataLossPreventionStoredInfoType#timeouts}
   */
   readonly timeouts?: GoogleDataLossPreventionStoredInfoTypeTimeouts;
 }
@@ -91,7 +91,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePat
   /**
   * A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#path GoogleDataLossPreventionStoredInfoType#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#path GoogleDataLossPreventionStoredInfoType#path}
   */
   readonly path: string;
 }
@@ -99,7 +99,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePat
 export function googleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePathToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReference | GoogleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -110,7 +110,7 @@ export function googleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePath
 export function googleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePathToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePathOutputReference | GoogleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -175,7 +175,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeDictionaryWordListStruct 
   * Words or phrases defining the dictionary. The dictionary must contain at least one
   * phrase and every phrase must contain at least 2 characters that are letters or digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#words GoogleDataLossPreventionStoredInfoType#words}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#words GoogleDataLossPreventionStoredInfoType#words}
   */
   readonly words: string[];
 }
@@ -183,7 +183,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeDictionaryWordListStruct 
 export function googleDataLossPreventionStoredInfoTypeDictionaryWordListStructToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReference | GoogleDataLossPreventionStoredInfoTypeDictionaryWordListStruct): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     words: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.words),
@@ -194,7 +194,7 @@ export function googleDataLossPreventionStoredInfoTypeDictionaryWordListStructTo
 export function googleDataLossPreventionStoredInfoTypeDictionaryWordListStructToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeDictionaryWordListStructOutputReference | GoogleDataLossPreventionStoredInfoTypeDictionaryWordListStruct): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     words: {
@@ -258,13 +258,13 @@ export interface GoogleDataLossPreventionStoredInfoTypeDictionary {
   /**
   * cloud_storage_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#cloud_storage_path GoogleDataLossPreventionStoredInfoType#cloud_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#cloud_storage_path GoogleDataLossPreventionStoredInfoType#cloud_storage_path}
   */
   readonly cloudStoragePath?: GoogleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePath;
   /**
   * word_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#word_list GoogleDataLossPreventionStoredInfoType#word_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#word_list GoogleDataLossPreventionStoredInfoType#word_list}
   */
   readonly wordList?: GoogleDataLossPreventionStoredInfoTypeDictionaryWordListStruct;
 }
@@ -272,7 +272,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeDictionary {
 export function googleDataLossPreventionStoredInfoTypeDictionaryToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeDictionaryOutputReference | GoogleDataLossPreventionStoredInfoTypeDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cloud_storage_path: googleDataLossPreventionStoredInfoTypeDictionaryCloudStoragePathToTerraform(struct!.cloudStoragePath),
@@ -284,7 +284,7 @@ export function googleDataLossPreventionStoredInfoTypeDictionaryToTerraform(stru
 export function googleDataLossPreventionStoredInfoTypeDictionaryToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeDictionaryOutputReference | GoogleDataLossPreventionStoredInfoTypeDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cloud_storage_path: {
@@ -379,7 +379,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQ
   /**
   * Name describing the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#name GoogleDataLossPreventionStoredInfoType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#name GoogleDataLossPreventionStoredInfoType#name}
   */
   readonly name: string;
 }
@@ -387,7 +387,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQ
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldFieldToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldFieldOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldField): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -398,7 +398,7 @@ export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQu
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldFieldToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldFieldOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldField): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -462,19 +462,19 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQ
   /**
   * The dataset ID of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#dataset_id GoogleDataLossPreventionStoredInfoType#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#dataset_id GoogleDataLossPreventionStoredInfoType#dataset_id}
   */
   readonly datasetId: string;
   /**
   * The Google Cloud Platform project ID of the project containing the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#project_id GoogleDataLossPreventionStoredInfoType#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#project_id GoogleDataLossPreventionStoredInfoType#project_id}
   */
   readonly projectId: string;
   /**
   * The name of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#table_id GoogleDataLossPreventionStoredInfoType#table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#table_id GoogleDataLossPreventionStoredInfoType#table_id}
   */
   readonly tableId: string;
 }
@@ -482,7 +482,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQ
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTableToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTableOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dataset_id: cdktn.stringToTerraform(struct!.datasetId),
@@ -495,7 +495,7 @@ export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQu
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTableToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTableOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dataset_id: {
@@ -609,13 +609,13 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQ
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#field GoogleDataLossPreventionStoredInfoType#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#field GoogleDataLossPreventionStoredInfoType#field}
   */
   readonly field: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldField;
   /**
   * table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#table GoogleDataLossPreventionStoredInfoType#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#table GoogleDataLossPreventionStoredInfoType#table}
   */
   readonly table: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldTable;
 }
@@ -623,7 +623,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQ
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryField): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field: googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldFieldToTerraform(struct!.field),
@@ -635,7 +635,7 @@ export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQu
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryField): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field: {
@@ -724,7 +724,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryClou
   /**
   * The url, in the format 'gs://<bucket>/<path>'. Trailing wildcard in the path is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#url GoogleDataLossPreventionStoredInfoType#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#url GoogleDataLossPreventionStoredInfoType#url}
   */
   readonly url: string;
 }
@@ -732,7 +732,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryClou
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     url: cdktn.stringToTerraform(struct!.url),
@@ -743,7 +743,7 @@ export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloud
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSetOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     url: {
@@ -807,7 +807,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutp
   /**
   * A url representing a file or path (no wildcards) in Cloud Storage. Example: 'gs://[BUCKET_NAME]/dictionary.txt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#path GoogleDataLossPreventionStoredInfoType#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#path GoogleDataLossPreventionStoredInfoType#path}
   */
   readonly path: string;
 }
@@ -815,7 +815,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutp
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -826,7 +826,7 @@ export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutpu
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPathOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPath): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -890,19 +890,19 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionary {
   /**
   * big_query_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#big_query_field GoogleDataLossPreventionStoredInfoType#big_query_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#big_query_field GoogleDataLossPreventionStoredInfoType#big_query_field}
   */
   readonly bigQueryField?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryField;
   /**
   * cloud_storage_file_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#cloud_storage_file_set GoogleDataLossPreventionStoredInfoType#cloud_storage_file_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#cloud_storage_file_set GoogleDataLossPreventionStoredInfoType#cloud_storage_file_set}
   */
   readonly cloudStorageFileSet?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryCloudStorageFileSet;
   /**
   * output_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#output_path GoogleDataLossPreventionStoredInfoType#output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#output_path GoogleDataLossPreventionStoredInfoType#output_path}
   */
   readonly outputPath: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputPath;
 }
@@ -910,7 +910,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionary {
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     big_query_field: googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryBigQueryFieldToTerraform(struct!.bigQueryField),
@@ -923,7 +923,7 @@ export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryToTer
 export function googleDataLossPreventionStoredInfoTypeLargeCustomDictionaryToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionaryOutputReference | GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionary): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     big_query_field: {
@@ -1043,14 +1043,14 @@ export interface GoogleDataLossPreventionStoredInfoTypeRegex {
   /**
   * The index of the submatch to extract as findings. When not specified, the entire match is returned. No more than 3 may be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#group_indexes GoogleDataLossPreventionStoredInfoType#group_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#group_indexes GoogleDataLossPreventionStoredInfoType#group_indexes}
   */
   readonly groupIndexes?: number[];
   /**
   * Pattern defining the regular expression.
   * Its syntax (https://github.com/google/re2/wiki/Syntax) can be found under the google/re2 repository on GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#pattern GoogleDataLossPreventionStoredInfoType#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#pattern GoogleDataLossPreventionStoredInfoType#pattern}
   */
   readonly pattern: string;
 }
@@ -1058,7 +1058,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeRegex {
 export function googleDataLossPreventionStoredInfoTypeRegexToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeRegexOutputReference | GoogleDataLossPreventionStoredInfoTypeRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     group_indexes: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.groupIndexes),
@@ -1070,7 +1070,7 @@ export function googleDataLossPreventionStoredInfoTypeRegexToTerraform(struct?: 
 export function googleDataLossPreventionStoredInfoTypeRegexToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeRegexOutputReference | GoogleDataLossPreventionStoredInfoTypeRegex): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     group_indexes: {
@@ -1160,15 +1160,15 @@ export class GoogleDataLossPreventionStoredInfoTypeRegexOutputReference extends 
 }
 export interface GoogleDataLossPreventionStoredInfoTypeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#create GoogleDataLossPreventionStoredInfoType#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#create GoogleDataLossPreventionStoredInfoType#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#delete GoogleDataLossPreventionStoredInfoType#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#delete GoogleDataLossPreventionStoredInfoType#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#update GoogleDataLossPreventionStoredInfoType#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#update GoogleDataLossPreventionStoredInfoType#update}
   */
   readonly update?: string;
 }
@@ -1176,7 +1176,7 @@ export interface GoogleDataLossPreventionStoredInfoTypeTimeouts {
 export function googleDataLossPreventionStoredInfoTypeTimeoutsToTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1189,7 +1189,7 @@ export function googleDataLossPreventionStoredInfoTypeTimeoutsToTerraform(struct
 export function googleDataLossPreventionStoredInfoTypeTimeoutsToHclTerraform(struct?: GoogleDataLossPreventionStoredInfoTypeTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1320,7 +1320,7 @@ export class GoogleDataLossPreventionStoredInfoTypeTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}
 */
 export class GoogleDataLossPreventionStoredInfoType extends cdktn.TerraformResource {
 
@@ -1336,7 +1336,7 @@ export class GoogleDataLossPreventionStoredInfoType extends cdktn.TerraformResou
   * Generates CDKTN code for importing a GoogleDataLossPreventionStoredInfoType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataLossPreventionStoredInfoType to import
-  * @param importFromId The id of the existing GoogleDataLossPreventionStoredInfoType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataLossPreventionStoredInfoType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataLossPreventionStoredInfoType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1348,7 +1348,7 @@ export class GoogleDataLossPreventionStoredInfoType extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1359,7 +1359,7 @@ export class GoogleDataLossPreventionStoredInfoType extends cdktn.TerraformResou
       terraformResourceType: 'google_data_loss_prevention_stored_info_type',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### GoogleSecureSourceManagerInstance <a name="GoogleSecureSourceManagerInstance" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstance.Initializer"></a>
 
@@ -584,7 +584,7 @@ The construct id used in the generated config for the GoogleSecureSourceManagerI
 
 The id of the existing GoogleSecureSourceManagerInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1111,11 +1111,11 @@ const googleSecureSourceManagerInstanceConfig: googleSecureSourceManagerInstance
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.instanceId">instanceId</a></code> | <code>string</code> | The name for the Instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.location">location</a></code> | <code>string</code> | The location for the Instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#id GoogleSecureSourceManagerInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#id GoogleSecureSourceManagerInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.kmsKey">kmsKey</a></code> | <code>string</code> | Customer-managed encryption key name, in the format projects/* /locations/* /keyRings/* /cryptoKeys/*. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.privateConfig">privateConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfig">GoogleSecureSourceManagerInstancePrivateConfig</a></code> | private_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#project GoogleSecureSourceManagerInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#project GoogleSecureSourceManagerInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceTimeouts">GoogleSecureSourceManagerInstanceTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceConfig.property.workforceIdentityFederationConfig">workforceIdentityFederationConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceWorkforceIdentityFederationConfig">GoogleSecureSourceManagerInstanceWorkforceIdentityFederationConfig</a></code> | workforce_identity_federation_config block. |
 
@@ -1201,7 +1201,7 @@ public readonly instanceId: string;
 
 The name for the Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#instance_id GoogleSecureSourceManagerInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#instance_id GoogleSecureSourceManagerInstance#instance_id}
 
 ---
 
@@ -1215,7 +1215,7 @@ public readonly location: string;
 
 The location for the Instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#location GoogleSecureSourceManagerInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#location GoogleSecureSourceManagerInstance#location}
 
 ---
 
@@ -1237,7 +1237,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#deletion_policy GoogleSecureSourceManagerInstance#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#deletion_policy GoogleSecureSourceManagerInstance#deletion_policy}
 
 ---
 
@@ -1249,7 +1249,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#id GoogleSecureSourceManagerInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#id GoogleSecureSourceManagerInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1266,7 +1266,7 @@ public readonly kmsKey: string;
 
 Customer-managed encryption key name, in the format projects/* /locations/* /keyRings/* /cryptoKeys/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#kms_key GoogleSecureSourceManagerInstance#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#kms_key GoogleSecureSourceManagerInstance#kms_key}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1285,7 +1285,7 @@ Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#labels GoogleSecureSourceManagerInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#labels GoogleSecureSourceManagerInstance#labels}
 
 ---
 
@@ -1299,7 +1299,7 @@ public readonly privateConfig: GoogleSecureSourceManagerInstancePrivateConfig;
 
 private_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#private_config GoogleSecureSourceManagerInstance#private_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#private_config GoogleSecureSourceManagerInstance#private_config}
 
 ---
 
@@ -1311,7 +1311,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#project GoogleSecureSourceManagerInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#project GoogleSecureSourceManagerInstance#project}.
 
 ---
 
@@ -1325,7 +1325,7 @@ public readonly timeouts: GoogleSecureSourceManagerInstanceTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#timeouts GoogleSecureSourceManagerInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#timeouts GoogleSecureSourceManagerInstance#timeouts}
 
 ---
 
@@ -1339,7 +1339,7 @@ public readonly workforceIdentityFederationConfig: GoogleSecureSourceManagerInst
 
 workforce_identity_federation_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#workforce_identity_federation_config GoogleSecureSourceManagerInstance#workforce_identity_federation_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#workforce_identity_federation_config GoogleSecureSourceManagerInstance#workforce_identity_federation_config}
 
 ---
 
@@ -1371,6 +1371,7 @@ const googleSecureSourceManagerInstancePrivateConfig: googleSecureSourceManagerI
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfig.property.isPrivate">isPrivate</a></code> | <code>boolean \| cdktn.IResolvable</code> | 'Indicate if it's private instance.'. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfig.property.caPool">caPool</a></code> | <code>string</code> | CA pool resource, resource must in the format of 'projects/{project}/locations/{location}/caPools/{ca_pool}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfig.property.customHostConfig">customHostConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig">GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig</a></code> | custom_host_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfig.property.pscAllowedProjects">pscAllowedProjects</a></code> | <code>string[]</code> | Optional. |
 
 ---
 
@@ -1384,7 +1385,7 @@ public readonly isPrivate: boolean | IResolvable;
 
 'Indicate if it's private instance.'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#is_private GoogleSecureSourceManagerInstance#is_private}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#is_private GoogleSecureSourceManagerInstance#is_private}
 
 ---
 
@@ -1398,7 +1399,7 @@ public readonly caPool: string;
 
 CA pool resource, resource must in the format of 'projects/{project}/locations/{location}/caPools/{ca_pool}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#ca_pool GoogleSecureSourceManagerInstance#ca_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#ca_pool GoogleSecureSourceManagerInstance#ca_pool}
 
 ---
 
@@ -1412,7 +1413,24 @@ public readonly customHostConfig: GoogleSecureSourceManagerInstancePrivateConfig
 
 custom_host_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#custom_host_config GoogleSecureSourceManagerInstance#custom_host_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#custom_host_config GoogleSecureSourceManagerInstance#custom_host_config}
+
+---
+
+##### `pscAllowedProjects`<sup>Optional</sup> <a name="pscAllowedProjects" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfig.property.pscAllowedProjects"></a>
+
+```typescript
+public readonly pscAllowedProjects: string[];
+```
+
+- *Type:* string[]
+
+Optional.
+
+Additional allowed projects for setting up PSC connections.
+Instance host project is automatically allowed and does not need to be included in this list.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#psc_allowed_projects GoogleSecureSourceManagerInstance#psc_allowed_projects}
 
 ---
 
@@ -1447,7 +1465,7 @@ public readonly api: string;
 
 API hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#api GoogleSecureSourceManagerInstance#api}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#api GoogleSecureSourceManagerInstance#api}
 
 ---
 
@@ -1461,7 +1479,7 @@ public readonly gitHttp: string;
 
 Git HTTP hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#git_http GoogleSecureSourceManagerInstance#git_http}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#git_http GoogleSecureSourceManagerInstance#git_http}
 
 ---
 
@@ -1475,7 +1493,7 @@ public readonly gitSsh: string;
 
 Git SSH hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#git_ssh GoogleSecureSourceManagerInstance#git_ssh}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#git_ssh GoogleSecureSourceManagerInstance#git_ssh}
 
 ---
 
@@ -1489,7 +1507,7 @@ public readonly html: string;
 
 HTML hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#html GoogleSecureSourceManagerInstance#html}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#html GoogleSecureSourceManagerInstance#html}
 
 ---
 
@@ -1507,9 +1525,9 @@ const googleSecureSourceManagerInstanceTimeouts: googleSecureSourceManagerInstan
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#create GoogleSecureSourceManagerInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#delete GoogleSecureSourceManagerInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#update GoogleSecureSourceManagerInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#create GoogleSecureSourceManagerInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#delete GoogleSecureSourceManagerInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstanceTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#update GoogleSecureSourceManagerInstance#update}. |
 
 ---
 
@@ -1521,7 +1539,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#create GoogleSecureSourceManagerInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#create GoogleSecureSourceManagerInstance#create}.
 
 ---
 
@@ -1533,7 +1551,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#delete GoogleSecureSourceManagerInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#delete GoogleSecureSourceManagerInstance#delete}.
 
 ---
 
@@ -1545,7 +1563,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#update GoogleSecureSourceManagerInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#update GoogleSecureSourceManagerInstance#update}.
 
 ---
 
@@ -1577,7 +1595,7 @@ public readonly enabled: boolean | IResolvable;
 
 'Whether Workforce Identity Federation is enabled.'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_instance#enabled GoogleSecureSourceManagerInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance#enabled GoogleSecureSourceManagerInstance#enabled}
 
 ---
 
@@ -2433,6 +2451,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.putCustomHostConfig">putCustomHostConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.resetCaPool">resetCaPool</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.resetCustomHostConfig">resetCustomHostConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.resetPscAllowedProjects">resetPscAllowedProjects</a></code> | *No description.* |
 
 ---
 
@@ -2610,6 +2629,12 @@ public resetCaPool(): void
 public resetCustomHostConfig(): void
 ```
 
+##### `resetPscAllowedProjects` <a name="resetPscAllowedProjects" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.resetPscAllowedProjects"></a>
+
+```typescript
+public resetPscAllowedProjects(): void
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2623,8 +2648,10 @@ public resetCustomHostConfig(): void
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.caPoolInput">caPoolInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.customHostConfigInput">customHostConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig">GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.isPrivateInput">isPrivateInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.pscAllowedProjectsInput">pscAllowedProjectsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.caPool">caPool</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.isPrivate">isPrivate</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.pscAllowedProjects">pscAllowedProjects</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfig">GoogleSecureSourceManagerInstancePrivateConfig</a></code> | *No description.* |
 
 ---
@@ -2713,6 +2740,16 @@ public readonly isPrivateInput: boolean | IResolvable;
 
 ---
 
+##### `pscAllowedProjectsInput`<sup>Optional</sup> <a name="pscAllowedProjectsInput" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.pscAllowedProjectsInput"></a>
+
+```typescript
+public readonly pscAllowedProjectsInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
 ##### `caPool`<sup>Required</sup> <a name="caPool" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.caPool"></a>
 
 ```typescript
@@ -2730,6 +2767,16 @@ public readonly isPrivate: boolean | IResolvable;
 ```
 
 - *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `pscAllowedProjects`<sup>Required</sup> <a name="pscAllowedProjects" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstance.GoogleSecureSourceManagerInstancePrivateConfigOutputReference.property.pscAllowedProjects"></a>
+
+```typescript
+public readonly pscAllowedProjects: string[];
+```
+
+- *Type:* string[]
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleWorkstationsWorkstationConfigIamMember <a name="GoogleWorkstationsWorkstationConfigIamMember" id="@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleWorkstationsWorkstat
 
 The id of the existing GoogleWorkstationsWorkstationConfigIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,9 +926,9 @@ const googleWorkstationsWorkstationConfigIamMemberCondition: googleWorkstationsW
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#expression GoogleWorkstationsWorkstationConfigIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#title GoogleWorkstationsWorkstationConfigIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#description GoogleWorkstationsWorkstationConfigIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#expression GoogleWorkstationsWorkstationConfigIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#title GoogleWorkstationsWorkstationConfigIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#description GoogleWorkstationsWorkstationConfigIamMember#description}. |
 
 ---
 
@@ -940,7 +940,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#expression GoogleWorkstationsWorkstationConfigIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#expression GoogleWorkstationsWorkstationConfigIamMember#expression}.
 
 ---
 
@@ -952,7 +952,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#title GoogleWorkstationsWorkstationConfigIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#title GoogleWorkstationsWorkstationConfigIamMember#title}.
 
 ---
 
@@ -964,7 +964,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#description GoogleWorkstationsWorkstationConfigIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#description GoogleWorkstationsWorkstationConfigIamMember#description}.
 
 ---
 
@@ -989,14 +989,14 @@ const googleWorkstationsWorkstationConfigIamMemberConfig: googleWorkstationsWork
 | <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#member GoogleWorkstationsWorkstationConfigIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#role GoogleWorkstationsWorkstationConfigIamMember#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.workstationClusterId">workstationClusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_cluster_id GoogleWorkstationsWorkstationConfigIamMember#workstation_cluster_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.workstationConfigId">workstationConfigId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_config_id GoogleWorkstationsWorkstationConfigIamMember#workstation_config_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#member GoogleWorkstationsWorkstationConfigIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#role GoogleWorkstationsWorkstationConfigIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.workstationClusterId">workstationClusterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_cluster_id GoogleWorkstationsWorkstationConfigIamMember#workstation_cluster_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.workstationConfigId">workstationConfigId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_config_id GoogleWorkstationsWorkstationConfigIamMember#workstation_config_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberCondition">GoogleWorkstationsWorkstationConfigIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#id GoogleWorkstationsWorkstationConfigIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#location GoogleWorkstationsWorkstationConfigIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#project GoogleWorkstationsWorkstationConfigIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#id GoogleWorkstationsWorkstationConfigIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#location GoogleWorkstationsWorkstationConfigIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleWorkstationsWorkstationConfigIamMember.GoogleWorkstationsWorkstationConfigIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#project GoogleWorkstationsWorkstationConfigIamMember#project}. |
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly member: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#member GoogleWorkstationsWorkstationConfigIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#member GoogleWorkstationsWorkstationConfigIamMember#member}.
 
 ---
 
@@ -1090,7 +1090,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#role GoogleWorkstationsWorkstationConfigIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#role GoogleWorkstationsWorkstationConfigIamMember#role}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public readonly workstationClusterId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_cluster_id GoogleWorkstationsWorkstationConfigIamMember#workstation_cluster_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_cluster_id GoogleWorkstationsWorkstationConfigIamMember#workstation_cluster_id}.
 
 ---
 
@@ -1114,7 +1114,7 @@ public readonly workstationConfigId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_config_id GoogleWorkstationsWorkstationConfigIamMember#workstation_config_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#workstation_config_id GoogleWorkstationsWorkstationConfigIamMember#workstation_config_id}.
 
 ---
 
@@ -1128,7 +1128,7 @@ public readonly condition: GoogleWorkstationsWorkstationConfigIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#condition GoogleWorkstationsWorkstationConfigIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#condition GoogleWorkstationsWorkstationConfigIamMember#condition}
 
 ---
 
@@ -1140,7 +1140,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#id GoogleWorkstationsWorkstationConfigIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#id GoogleWorkstationsWorkstationConfigIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1155,7 +1155,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#location GoogleWorkstationsWorkstationConfigIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#location GoogleWorkstationsWorkstationConfigIamMember#location}.
 
 ---
 
@@ -1167,7 +1167,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_config_iam_member#project GoogleWorkstationsWorkstationConfigIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_config_iam_member#project GoogleWorkstationsWorkstationConfigIamMember#project}.
 
 ---
 

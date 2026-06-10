@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,7 +21,7 @@ export interface GoogleSccFolderCustomModuleConfig extends cdktn.TerraformMetaAr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#deletion_policy GoogleSccFolderCustomModule#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#deletion_policy GoogleSccFolderCustomModule#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -31,23 +31,23 @@ export interface GoogleSccFolderCustomModuleConfig extends cdktn.TerraformMetaAr
   * 128 characters, start with a lowercase letter, and contain alphanumeric
   * characters or underscores only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#display_name GoogleSccFolderCustomModule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#display_name GoogleSccFolderCustomModule#display_name}
   */
   readonly displayName: string;
   /**
   * The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#enablement_state GoogleSccFolderCustomModule#enablement_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#enablement_state GoogleSccFolderCustomModule#enablement_state}
   */
   readonly enablementState: string;
   /**
   * Numerical ID of the parent folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#folder GoogleSccFolderCustomModule#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#folder GoogleSccFolderCustomModule#folder}
   */
   readonly folder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#id GoogleSccFolderCustomModule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#id GoogleSccFolderCustomModule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,13 +56,13 @@ export interface GoogleSccFolderCustomModuleConfig extends cdktn.TerraformMetaAr
   /**
   * custom_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#custom_config GoogleSccFolderCustomModule#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#custom_config GoogleSccFolderCustomModule#custom_config}
   */
   readonly customConfig: GoogleSccFolderCustomModuleCustomConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#timeouts GoogleSccFolderCustomModule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#timeouts GoogleSccFolderCustomModule#timeouts}
   */
   readonly timeouts?: GoogleSccFolderCustomModuleTimeouts;
 }
@@ -71,27 +71,27 @@ export interface GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesVa
   * Description of the expression. This is a longer text which describes the
   * expression, e.g. when hovered over it in a UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#description GoogleSccFolderCustomModule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#description GoogleSccFolderCustomModule#description}
   */
   readonly description?: string;
   /**
   * Textual representation of an expression in Common Expression Language syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#expression GoogleSccFolderCustomModule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#expression GoogleSccFolderCustomModule#expression}
   */
   readonly expression: string;
   /**
   * String indicating the location of the expression for error reporting, e.g. a
   * file name and a position in the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#location GoogleSccFolderCustomModule#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#location GoogleSccFolderCustomModule#location}
   */
   readonly location?: string;
   /**
   * Title for the expression, i.e. a short string describing its purpose. This can
   * be used e.g. in UIs which allow to enter the expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#title GoogleSccFolderCustomModule#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#title GoogleSccFolderCustomModule#title}
   */
   readonly title?: string;
 }
@@ -99,7 +99,7 @@ export interface GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesVa
 export function googleSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionToTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference | GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpression): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -113,7 +113,7 @@ export function googleSccFolderCustomModuleCustomConfigCustomOutputPropertiesVal
 export function googleSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionToHclTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference | GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpression): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -261,13 +261,13 @@ export interface GoogleSccFolderCustomModuleCustomConfigCustomOutputProperties {
   /**
   * Name of the property for the custom output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#name GoogleSccFolderCustomModule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#name GoogleSccFolderCustomModule#name}
   */
   readonly name?: string;
   /**
   * value_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#value_expression GoogleSccFolderCustomModule#value_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#value_expression GoogleSccFolderCustomModule#value_expression}
   */
   readonly valueExpression?: GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesValueExpression;
 }
@@ -275,7 +275,7 @@ export interface GoogleSccFolderCustomModuleCustomConfigCustomOutputProperties {
 export function googleSccFolderCustomModuleCustomConfigCustomOutputPropertiesToTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigCustomOutputProperties | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -287,7 +287,7 @@ export function googleSccFolderCustomModuleCustomConfigCustomOutputPropertiesToT
 export function googleSccFolderCustomModuleCustomConfigCustomOutputPropertiesToHclTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigCustomOutputProperties | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -414,7 +414,7 @@ export interface GoogleSccFolderCustomModuleCustomConfigCustomOutput {
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#properties GoogleSccFolderCustomModule#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#properties GoogleSccFolderCustomModule#properties}
   */
   readonly properties?: GoogleSccFolderCustomModuleCustomConfigCustomOutputProperties[] | cdktn.IResolvable;
 }
@@ -422,7 +422,7 @@ export interface GoogleSccFolderCustomModuleCustomConfigCustomOutput {
 export function googleSccFolderCustomModuleCustomConfigCustomOutputToTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigCustomOutputOutputReference | GoogleSccFolderCustomModuleCustomConfigCustomOutput): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     properties: cdktn.listMapper(googleSccFolderCustomModuleCustomConfigCustomOutputPropertiesToTerraform, true)(struct!.properties),
@@ -433,7 +433,7 @@ export function googleSccFolderCustomModuleCustomConfigCustomOutputToTerraform(s
 export function googleSccFolderCustomModuleCustomConfigCustomOutputToHclTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigCustomOutputOutputReference | GoogleSccFolderCustomModuleCustomConfigCustomOutput): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     properties: {
@@ -501,27 +501,27 @@ export interface GoogleSccFolderCustomModuleCustomConfigPredicate {
   * Description of the expression. This is a longer text which describes the
   * expression, e.g. when hovered over it in a UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#description GoogleSccFolderCustomModule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#description GoogleSccFolderCustomModule#description}
   */
   readonly description?: string;
   /**
   * Textual representation of an expression in Common Expression Language syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#expression GoogleSccFolderCustomModule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#expression GoogleSccFolderCustomModule#expression}
   */
   readonly expression: string;
   /**
   * String indicating the location of the expression for error reporting, e.g. a
   * file name and a position in the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#location GoogleSccFolderCustomModule#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#location GoogleSccFolderCustomModule#location}
   */
   readonly location?: string;
   /**
   * Title for the expression, i.e. a short string describing its purpose. This can
   * be used e.g. in UIs which allow to enter the expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#title GoogleSccFolderCustomModule#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#title GoogleSccFolderCustomModule#title}
   */
   readonly title?: string;
 }
@@ -529,7 +529,7 @@ export interface GoogleSccFolderCustomModuleCustomConfigPredicate {
 export function googleSccFolderCustomModuleCustomConfigPredicateToTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigPredicateOutputReference | GoogleSccFolderCustomModuleCustomConfigPredicate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -543,7 +543,7 @@ export function googleSccFolderCustomModuleCustomConfigPredicateToTerraform(stru
 export function googleSccFolderCustomModuleCustomConfigPredicateToHclTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigPredicateOutputReference | GoogleSccFolderCustomModuleCustomConfigPredicate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -691,7 +691,7 @@ export interface GoogleSccFolderCustomModuleCustomConfigResourceSelector {
   /**
   * The resource types to run the detector on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#resource_types GoogleSccFolderCustomModule#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#resource_types GoogleSccFolderCustomModule#resource_types}
   */
   readonly resourceTypes: string[];
 }
@@ -699,7 +699,7 @@ export interface GoogleSccFolderCustomModuleCustomConfigResourceSelector {
 export function googleSccFolderCustomModuleCustomConfigResourceSelectorToTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigResourceSelectorOutputReference | GoogleSccFolderCustomModuleCustomConfigResourceSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resource_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.resourceTypes),
@@ -710,7 +710,7 @@ export function googleSccFolderCustomModuleCustomConfigResourceSelectorToTerrafo
 export function googleSccFolderCustomModuleCustomConfigResourceSelectorToHclTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigResourceSelectorOutputReference | GoogleSccFolderCustomModuleCustomConfigResourceSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resource_types: {
@@ -776,7 +776,7 @@ export interface GoogleSccFolderCustomModuleCustomConfig {
   * module detects. This explanation is returned with each finding instance to
   * help investigators understand the detected issue. The text must be enclosed in quotation marks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#description GoogleSccFolderCustomModule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#description GoogleSccFolderCustomModule#description}
   */
   readonly description?: string;
   /**
@@ -784,31 +784,31 @@ export interface GoogleSccFolderCustomModuleCustomConfig {
   * the detected issue. This explanation is returned with each finding generated by
   * this module in the nextSteps property of the finding JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#recommendation GoogleSccFolderCustomModule#recommendation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#recommendation GoogleSccFolderCustomModule#recommendation}
   */
   readonly recommendation: string;
   /**
   * The severity to assign to findings generated by the module. Possible values: ["CRITICAL", "HIGH", "MEDIUM", "LOW"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#severity GoogleSccFolderCustomModule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#severity GoogleSccFolderCustomModule#severity}
   */
   readonly severity: string;
   /**
   * custom_output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#custom_output GoogleSccFolderCustomModule#custom_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#custom_output GoogleSccFolderCustomModule#custom_output}
   */
   readonly customOutput?: GoogleSccFolderCustomModuleCustomConfigCustomOutput;
   /**
   * predicate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#predicate GoogleSccFolderCustomModule#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#predicate GoogleSccFolderCustomModule#predicate}
   */
   readonly predicate: GoogleSccFolderCustomModuleCustomConfigPredicate;
   /**
   * resource_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#resource_selector GoogleSccFolderCustomModule#resource_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#resource_selector GoogleSccFolderCustomModule#resource_selector}
   */
   readonly resourceSelector: GoogleSccFolderCustomModuleCustomConfigResourceSelector;
 }
@@ -816,7 +816,7 @@ export interface GoogleSccFolderCustomModuleCustomConfig {
 export function googleSccFolderCustomModuleCustomConfigToTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigOutputReference | GoogleSccFolderCustomModuleCustomConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -832,7 +832,7 @@ export function googleSccFolderCustomModuleCustomConfigToTerraform(struct?: Goog
 export function googleSccFolderCustomModuleCustomConfigToHclTerraform(struct?: GoogleSccFolderCustomModuleCustomConfigOutputReference | GoogleSccFolderCustomModuleCustomConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1025,15 +1025,15 @@ export class GoogleSccFolderCustomModuleCustomConfigOutputReference extends cdkt
 }
 export interface GoogleSccFolderCustomModuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#create GoogleSccFolderCustomModule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#create GoogleSccFolderCustomModule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#delete GoogleSccFolderCustomModule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#delete GoogleSccFolderCustomModule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#update GoogleSccFolderCustomModule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#update GoogleSccFolderCustomModule#update}
   */
   readonly update?: string;
 }
@@ -1041,7 +1041,7 @@ export interface GoogleSccFolderCustomModuleTimeouts {
 export function googleSccFolderCustomModuleTimeoutsToTerraform(struct?: GoogleSccFolderCustomModuleTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1054,7 +1054,7 @@ export function googleSccFolderCustomModuleTimeoutsToTerraform(struct?: GoogleSc
 export function googleSccFolderCustomModuleTimeoutsToHclTerraform(struct?: GoogleSccFolderCustomModuleTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1185,7 +1185,7 @@ export class GoogleSccFolderCustomModuleTimeoutsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module google_scc_folder_custom_module}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module google_scc_folder_custom_module}
 */
 export class GoogleSccFolderCustomModule extends cdktn.TerraformResource {
 
@@ -1201,7 +1201,7 @@ export class GoogleSccFolderCustomModule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSccFolderCustomModule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSccFolderCustomModule to import
-  * @param importFromId The id of the existing GoogleSccFolderCustomModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSccFolderCustomModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSccFolderCustomModule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1213,7 +1213,7 @@ export class GoogleSccFolderCustomModule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_scc_folder_custom_module google_scc_folder_custom_module} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_scc_folder_custom_module google_scc_folder_custom_module} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1224,7 +1224,7 @@ export class GoogleSccFolderCustomModule extends cdktn.TerraformResource {
       terraformResourceType: 'google_scc_folder_custom_module',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

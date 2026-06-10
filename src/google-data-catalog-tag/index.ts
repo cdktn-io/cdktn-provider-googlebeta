@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface GoogleDataCatalogTagConfig extends cdktn.TerraformMetaArguments
   * For attaching a tag to a nested column, use '.' to separate the column names. Example:
   * 'outer_column.inner_column'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#column GoogleDataCatalogTag#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#column GoogleDataCatalogTag#column}
   */
   readonly column?: string;
   /**
@@ -31,11 +31,11 @@ export interface GoogleDataCatalogTagConfig extends cdktn.TerraformMetaArguments
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#deletion_policy GoogleDataCatalogTag#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#deletion_policy GoogleDataCatalogTag#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ export interface GoogleDataCatalogTagConfig extends cdktn.TerraformMetaArguments
   * The name of the parent this tag is attached to. This can be the name of an entry or an entry group. If an entry group, the tag will be attached to
   * all entries in that group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#parent GoogleDataCatalogTag#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#parent GoogleDataCatalogTag#parent}
   */
   readonly parent?: string;
   /**
@@ -53,19 +53,19 @@ export interface GoogleDataCatalogTagConfig extends cdktn.TerraformMetaArguments
   * projects/{project_id}/locations/{location}/tagTemplates/{tagTemplateId}
   * This field cannot be modified after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#template GoogleDataCatalogTag#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#template GoogleDataCatalogTag#template}
   */
   readonly template: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#fields GoogleDataCatalogTag#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#fields GoogleDataCatalogTag#fields}
   */
   readonly fields: GoogleDataCatalogTagFields[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#timeouts GoogleDataCatalogTag#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#timeouts GoogleDataCatalogTag#timeouts}
   */
   readonly timeouts?: GoogleDataCatalogTagTimeouts;
 }
@@ -73,35 +73,35 @@ export interface GoogleDataCatalogTagFields {
   /**
   * Holds the value for a tag field with boolean type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#bool_value GoogleDataCatalogTag#bool_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#bool_value GoogleDataCatalogTag#bool_value}
   */
   readonly boolValue?: boolean | cdktn.IResolvable;
   /**
   * Holds the value for a tag field with double type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#double_value GoogleDataCatalogTag#double_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#double_value GoogleDataCatalogTag#double_value}
   */
   readonly doubleValue?: number;
   /**
   * The display name of the enum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#enum_value GoogleDataCatalogTag#enum_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#enum_value GoogleDataCatalogTag#enum_value}
   */
   readonly enumValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#field_name GoogleDataCatalogTag#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#field_name GoogleDataCatalogTag#field_name}
   */
   readonly fieldName: string;
   /**
   * Holds the value for a tag field with string type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#string_value GoogleDataCatalogTag#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#string_value GoogleDataCatalogTag#string_value}
   */
   readonly stringValue?: string;
   /**
   * Holds the value for a tag field with timestamp type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#timestamp_value GoogleDataCatalogTag#timestamp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#timestamp_value GoogleDataCatalogTag#timestamp_value}
   */
   readonly timestampValue?: string;
 }
@@ -109,7 +109,7 @@ export interface GoogleDataCatalogTagFields {
 export function googleDataCatalogTagFieldsToTerraform(struct?: GoogleDataCatalogTagFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bool_value: cdktn.booleanToTerraform(struct!.boolValue),
@@ -125,7 +125,7 @@ export function googleDataCatalogTagFieldsToTerraform(struct?: GoogleDataCatalog
 export function googleDataCatalogTagFieldsToHclTerraform(struct?: GoogleDataCatalogTagFields | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bool_value: {
@@ -369,15 +369,15 @@ export class GoogleDataCatalogTagFieldsList extends cdktn.ComplexList {
 }
 export interface GoogleDataCatalogTagTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}
   */
   readonly update?: string;
 }
@@ -385,7 +385,7 @@ export interface GoogleDataCatalogTagTimeouts {
 export function googleDataCatalogTagTimeoutsToTerraform(struct?: GoogleDataCatalogTagTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -398,7 +398,7 @@ export function googleDataCatalogTagTimeoutsToTerraform(struct?: GoogleDataCatal
 export function googleDataCatalogTagTimeoutsToHclTerraform(struct?: GoogleDataCatalogTagTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -529,7 +529,7 @@ export class GoogleDataCatalogTagTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag google_data_catalog_tag}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag google_data_catalog_tag}
 */
 export class GoogleDataCatalogTag extends cdktn.TerraformResource {
 
@@ -545,7 +545,7 @@ export class GoogleDataCatalogTag extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDataCatalogTag resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataCatalogTag to import
-  * @param importFromId The id of the existing GoogleDataCatalogTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataCatalogTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataCatalogTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -557,7 +557,7 @@ export class GoogleDataCatalogTag extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_data_catalog_tag google_data_catalog_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag google_data_catalog_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,7 +568,7 @@ export class GoogleDataCatalogTag extends cdktn.TerraformResource {
       terraformResourceType: 'google_data_catalog_tag',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

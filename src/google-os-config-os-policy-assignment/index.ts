@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleOsConfigOsPolicyAssignmentConfig extends cdktn.TerraformM
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#deletion_policy GoogleOsConfigOsPolicyAssignment#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#deletion_policy GoogleOsConfigOsPolicyAssignment#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * OS policy assignment description. Length of the description is limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#description GoogleOsConfigOsPolicyAssignment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#description GoogleOsConfigOsPolicyAssignment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,49 +40,49 @@ export interface GoogleOsConfigOsPolicyAssignmentConfig extends cdktn.TerraformM
   /**
   * The location for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#location GoogleOsConfigOsPolicyAssignment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#location GoogleOsConfigOsPolicyAssignment#location}
   */
   readonly location: string;
   /**
   * Resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
   */
   readonly name: string;
   /**
   * The project for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#project GoogleOsConfigOsPolicyAssignment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#project GoogleOsConfigOsPolicyAssignment#project}
   */
   readonly project?: string;
   /**
   * Set to true to skip awaiting rollout during resource creation and update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#skip_await_rollout GoogleOsConfigOsPolicyAssignment#skip_await_rollout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#skip_await_rollout GoogleOsConfigOsPolicyAssignment#skip_await_rollout}
   */
   readonly skipAwaitRollout?: boolean | cdktn.IResolvable;
   /**
   * instance_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#instance_filter GoogleOsConfigOsPolicyAssignment#instance_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#instance_filter GoogleOsConfigOsPolicyAssignment#instance_filter}
   */
   readonly instanceFilter: GoogleOsConfigOsPolicyAssignmentInstanceFilter;
   /**
   * os_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#os_policies GoogleOsConfigOsPolicyAssignment#os_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#os_policies GoogleOsConfigOsPolicyAssignment#os_policies}
   */
   readonly osPolicies: GoogleOsConfigOsPolicyAssignmentOsPolicies[] | cdktn.IResolvable;
   /**
   * rollout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#rollout GoogleOsConfigOsPolicyAssignment#rollout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#rollout GoogleOsConfigOsPolicyAssignment#rollout}
   */
   readonly rollout: GoogleOsConfigOsPolicyAssignmentRollout;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#timeouts GoogleOsConfigOsPolicyAssignment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#timeouts GoogleOsConfigOsPolicyAssignment#timeouts}
   */
   readonly timeouts?: GoogleOsConfigOsPolicyAssignmentTimeouts;
 }
@@ -90,7 +90,7 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabels {
   /**
   * Labels are identified by key/value pairs in this map. A VM should contain all the key/value pairs specified in this map to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#labels GoogleOsConfigOsPolicyAssignment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#labels GoogleOsConfigOsPolicyAssignment#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -98,7 +98,7 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabels {
 export function googleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
@@ -109,7 +109,7 @@ export function googleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsToT
 export function googleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabelsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     labels: {
@@ -208,7 +208,7 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabels {
   /**
   * Labels are identified by key/value pairs in this map. A VM should contain all the key/value pairs specified in this map to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#labels GoogleOsConfigOsPolicyAssignment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#labels GoogleOsConfigOsPolicyAssignment#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -216,7 +216,7 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabels {
 export function googleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
@@ -227,7 +227,7 @@ export function googleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsToT
 export function googleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabelsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     labels: {
@@ -326,13 +326,13 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilterInventories {
   /**
   * The OS short name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#os_short_name GoogleOsConfigOsPolicyAssignment#os_short_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#os_short_name GoogleOsConfigOsPolicyAssignment#os_short_name}
   */
   readonly osShortName: string;
   /**
   * The OS version Prefix matches are supported if asterisk(*) is provided as the last character. For example, to match all versions with a major version of '7', specify the following value for this field '7.*' An empty string matches all OS versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#os_version GoogleOsConfigOsPolicyAssignment#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#os_version GoogleOsConfigOsPolicyAssignment#os_version}
   */
   readonly osVersion?: string;
 }
@@ -340,7 +340,7 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilterInventories {
 export function googleOsConfigOsPolicyAssignmentInstanceFilterInventoriesToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterInventories | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     os_short_name: cdktn.stringToTerraform(struct!.osShortName),
@@ -352,7 +352,7 @@ export function googleOsConfigOsPolicyAssignmentInstanceFilterInventoriesToTerra
 export function googleOsConfigOsPolicyAssignmentInstanceFilterInventoriesToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterInventories | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     os_short_name: {
@@ -476,25 +476,25 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilter {
   /**
   * Target all VMs in the project. If true, no other criteria is permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#all GoogleOsConfigOsPolicyAssignment#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#all GoogleOsConfigOsPolicyAssignment#all}
   */
   readonly all?: boolean | cdktn.IResolvable;
   /**
   * exclusion_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#exclusion_labels GoogleOsConfigOsPolicyAssignment#exclusion_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#exclusion_labels GoogleOsConfigOsPolicyAssignment#exclusion_labels}
   */
   readonly exclusionLabels?: GoogleOsConfigOsPolicyAssignmentInstanceFilterExclusionLabels[] | cdktn.IResolvable;
   /**
   * inclusion_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#inclusion_labels GoogleOsConfigOsPolicyAssignment#inclusion_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#inclusion_labels GoogleOsConfigOsPolicyAssignment#inclusion_labels}
   */
   readonly inclusionLabels?: GoogleOsConfigOsPolicyAssignmentInstanceFilterInclusionLabels[] | cdktn.IResolvable;
   /**
   * inventories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#inventories GoogleOsConfigOsPolicyAssignment#inventories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#inventories GoogleOsConfigOsPolicyAssignment#inventories}
   */
   readonly inventories?: GoogleOsConfigOsPolicyAssignmentInstanceFilterInventories[] | cdktn.IResolvable;
 }
@@ -502,7 +502,7 @@ export interface GoogleOsConfigOsPolicyAssignmentInstanceFilter {
 export function googleOsConfigOsPolicyAssignmentInstanceFilterToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterOutputReference | GoogleOsConfigOsPolicyAssignmentInstanceFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     all: cdktn.booleanToTerraform(struct!.all),
@@ -516,7 +516,7 @@ export function googleOsConfigOsPolicyAssignmentInstanceFilterToTerraform(struct
 export function googleOsConfigOsPolicyAssignmentInstanceFilterToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentInstanceFilterOutputReference | GoogleOsConfigOsPolicyAssignmentInstanceFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     all: {
@@ -667,7 +667,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInvento
   /**
   * The OS short name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#os_short_name GoogleOsConfigOsPolicyAssignment#os_short_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#os_short_name GoogleOsConfigOsPolicyAssignment#os_short_name}
   */
   readonly osShortName: string;
   /**
@@ -675,7 +675,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInvento
   * Prefix matches are supported if asterisk(*) is provided as the last character. For example, to match all versions with a major version of '7', specify the following value for this field '7.*'
   * An empty string matches all OS versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#os_version GoogleOsConfigOsPolicyAssignment#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#os_version GoogleOsConfigOsPolicyAssignment#os_version}
   */
   readonly osVersion?: string;
 }
@@ -683,7 +683,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInvento
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     os_short_name: cdktn.stringToTerraform(struct!.osShortName),
@@ -695,7 +695,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventor
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     os_short_name: {
@@ -819,19 +819,19 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
   */
   readonly generation?: number;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
   */
   readonly object: string;
 }
@@ -839,7 +839,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -852,7 +852,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -969,13 +969,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
   */
   readonly uri: string;
 }
@@ -983,7 +983,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -995,7 +995,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -1087,25 +1087,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Defaults to false. When false, files are subject to validations based on the file type: Remote: A checksum must be specified. Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
   */
   readonly gcs?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
   */
   readonly remote?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileRemote;
 }
@@ -1113,7 +1113,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -1127,7 +1127,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -1278,31 +1278,31 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Optional arguments to pass to the source during execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#args GoogleOsConfigOsPolicyAssignment#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#args GoogleOsConfigOsPolicyAssignment#args}
   */
   readonly args?: string[];
   /**
   * The script interpreter to use. Possible values: ["INTERPRETER_UNSPECIFIED", "NONE", "SHELL", "POWERSHELL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#interpreter GoogleOsConfigOsPolicyAssignment#interpreter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#interpreter GoogleOsConfigOsPolicyAssignment#interpreter}
   */
   readonly interpreter: string;
   /**
   * Only recorded for enforce Exec. Path to an output file (that is created by this Exec) whose content will be recorded in OSPolicyResourceCompliance after a successful run. Absence or failure to read this file will result in this ExecResource being non-compliant. Output file size is limited to 100K bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#output_file_path GoogleOsConfigOsPolicyAssignment#output_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#output_file_path GoogleOsConfigOsPolicyAssignment#output_file_path}
   */
   readonly outputFilePath?: string;
   /**
   * An inline script. The size of the script is limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#script GoogleOsConfigOsPolicyAssignment#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#script GoogleOsConfigOsPolicyAssignment#script}
   */
   readonly script?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
   */
   readonly file?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceFile;
 }
@@ -1310,7 +1310,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforce): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
@@ -1325,7 +1325,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforce): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     args: {
@@ -1501,19 +1501,19 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
   */
   readonly generation?: number;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
   */
   readonly object: string;
 }
@@ -1521,7 +1521,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -1534,7 +1534,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -1651,13 +1651,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
   */
   readonly uri: string;
 }
@@ -1665,7 +1665,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemoteToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -1677,7 +1677,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemoteToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -1770,25 +1770,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   * Defaults to false. When false, files are subject to validations based on the file type:
   * Remote: A checksum must be specified. Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
   */
   readonly gcs?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
   */
   readonly remote?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileRemote;
 }
@@ -1796,7 +1796,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -1810,7 +1810,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -1961,31 +1961,31 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Optional arguments to pass to the source during execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#args GoogleOsConfigOsPolicyAssignment#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#args GoogleOsConfigOsPolicyAssignment#args}
   */
   readonly args?: string[];
   /**
   * The script interpreter to use. Possible values: ["INTERPRETER_UNSPECIFIED", "NONE", "SHELL", "POWERSHELL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#interpreter GoogleOsConfigOsPolicyAssignment#interpreter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#interpreter GoogleOsConfigOsPolicyAssignment#interpreter}
   */
   readonly interpreter: string;
   /**
   * Only recorded for enforce Exec. Path to an output file (that is created by this Exec) whose content will be recorded in OSPolicyResourceCompliance after a successful run. Absence or failure to read this file will result in this ExecResource being non-compliant. Output file size is limited to 100K bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#output_file_path GoogleOsConfigOsPolicyAssignment#output_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#output_file_path GoogleOsConfigOsPolicyAssignment#output_file_path}
   */
   readonly outputFilePath?: string;
   /**
   * An inline script. The size of the script is limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#script GoogleOsConfigOsPolicyAssignment#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#script GoogleOsConfigOsPolicyAssignment#script}
   */
   readonly script?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
   */
   readonly file?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateFile;
 }
@@ -1993,7 +1993,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
@@ -2008,7 +2008,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidateOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     args: {
@@ -2184,13 +2184,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * enforce block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#enforce GoogleOsConfigOsPolicyAssignment#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#enforce GoogleOsConfigOsPolicyAssignment#enforce}
   */
   readonly enforce?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforce;
   /**
   * validate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#validate GoogleOsConfigOsPolicyAssignment#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#validate GoogleOsConfigOsPolicyAssignment#validate}
   */
   readonly validate: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecValidate;
 }
@@ -2198,7 +2198,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enforce: googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecEnforceToTerraform(struct!.enforce),
@@ -2210,7 +2210,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExecOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enforce: {
@@ -2302,19 +2302,19 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
   */
   readonly generation?: number;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
   */
   readonly object: string;
 }
@@ -2322,7 +2322,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -2335,7 +2335,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -2452,13 +2452,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
   */
   readonly uri: string;
 }
@@ -2466,7 +2466,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemoteToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -2478,7 +2478,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemoteToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -2570,25 +2570,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Defaults to false. When false, files are subject to validations based on the file type: Remote: A checksum must be specified. Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
   */
   readonly gcs?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
   */
   readonly remote?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileRemote;
 }
@@ -2596,7 +2596,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -2610,7 +2610,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -2761,25 +2761,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * A a file with this content. The size of the content is limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#content GoogleOsConfigOsPolicyAssignment#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#content GoogleOsConfigOsPolicyAssignment#content}
   */
   readonly content?: string;
   /**
   * The absolute path of the file within the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#path GoogleOsConfigOsPolicyAssignment#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#path GoogleOsConfigOsPolicyAssignment#path}
   */
   readonly path: string;
   /**
   * Desired state of the file. Possible values: ["DESIRED_STATE_UNSPECIFIED", "PRESENT", "ABSENT", "CONTENTS_MATCH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#state GoogleOsConfigOsPolicyAssignment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#state GoogleOsConfigOsPolicyAssignment#state}
   */
   readonly state: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
   */
   readonly file?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileFile;
 }
@@ -2787,7 +2787,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     content: cdktn.stringToTerraform(struct!.content),
@@ -2801,7 +2801,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFileOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     content: {
@@ -2951,7 +2951,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
   */
   readonly name: string;
 }
@@ -2959,7 +2959,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgAptToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgAptOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -2970,7 +2970,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgAptToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgAptOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -3034,19 +3034,19 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
   */
   readonly generation?: number;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
   */
   readonly object: string;
 }
@@ -3054,7 +3054,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -3067,7 +3067,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -3184,13 +3184,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
   */
   readonly uri: string;
 }
@@ -3198,7 +3198,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -3210,7 +3210,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -3303,25 +3303,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   * Defaults to false. When false, files are subject to validations based on the file type:
   * Remote: A checksum must be specified. Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
   */
   readonly gcs?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
   */
   readonly remote?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceRemote;
 }
@@ -3329,7 +3329,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -3343,7 +3343,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSourceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -3494,13 +3494,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Whether dependencies should also be installed. - install when false: 'dpkg -i package' - install when true: 'apt-get update && apt-get -y install package.deb'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#pull_deps GoogleOsConfigOsPolicyAssignment#pull_deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#pull_deps GoogleOsConfigOsPolicyAssignment#pull_deps}
   */
   readonly pullDeps?: boolean | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#source GoogleOsConfigOsPolicyAssignment#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#source GoogleOsConfigOsPolicyAssignment#source}
   */
   readonly source: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebSource;
 }
@@ -3508,7 +3508,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDeb): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     pull_deps: cdktn.booleanToTerraform(struct!.pullDeps),
@@ -3520,7 +3520,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDebOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDeb): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     pull_deps: {
@@ -3612,7 +3612,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
   */
   readonly name: string;
 }
@@ -3620,7 +3620,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGoogetToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGooget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -3631,7 +3631,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGoogetToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGoogetOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGooget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -3695,19 +3695,19 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
   */
   readonly generation?: number;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
   */
   readonly object: string;
 }
@@ -3715,7 +3715,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -3728,7 +3728,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -3845,13 +3845,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
   */
   readonly uri: string;
 }
@@ -3859,7 +3859,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -3871,7 +3871,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -3964,25 +3964,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   * Defaults to false. When false, files are subject to validations based on the file type:
   * Remote: A checksum must be specified. Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
   */
   readonly gcs?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
   */
   readonly remote?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceRemote;
 }
@@ -3990,7 +3990,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -4004,7 +4004,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSourceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -4155,13 +4155,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Additional properties to use during installation. This should be in the format of Property=Setting. Appended to the defaults of 'ACTION=INSTALL REBOOT=ReallySuppress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#properties GoogleOsConfigOsPolicyAssignment#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#properties GoogleOsConfigOsPolicyAssignment#properties}
   */
   readonly properties?: string[];
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#source GoogleOsConfigOsPolicyAssignment#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#source GoogleOsConfigOsPolicyAssignment#source}
   */
   readonly source: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiSource;
 }
@@ -4169,7 +4169,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsi): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     properties: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.properties),
@@ -4181,7 +4181,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsiOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsi): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     properties: {
@@ -4273,19 +4273,19 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Bucket of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#bucket GoogleOsConfigOsPolicyAssignment#bucket}
   */
   readonly bucket: string;
   /**
   * Generation number of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#generation GoogleOsConfigOsPolicyAssignment#generation}
   */
   readonly generation?: number;
   /**
   * Name of the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#object GoogleOsConfigOsPolicyAssignment#object}
   */
   readonly object: string;
 }
@@ -4293,7 +4293,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bucket: cdktn.stringToTerraform(struct!.bucket),
@@ -4306,7 +4306,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcsOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bucket: {
@@ -4423,13 +4423,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * SHA256 checksum of the remote file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#sha256_checksum GoogleOsConfigOsPolicyAssignment#sha256_checksum}
   */
   readonly sha256Checksum?: string;
   /**
   * URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
   */
   readonly uri: string;
 }
@@ -4437,7 +4437,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sha256_checksum: cdktn.stringToTerraform(struct!.sha256Checksum),
@@ -4449,7 +4449,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemoteOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sha256_checksum: {
@@ -4542,25 +4542,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   * Defaults to false. When false, files are subject to validations based on the file type:
   * Remote: A checksum must be specified. Cloud Storage: An object generation number must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#allow_insecure GoogleOsConfigOsPolicyAssignment#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktn.IResolvable;
   /**
   * A local path within the VM to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#local_path GoogleOsConfigOsPolicyAssignment#local_path}
   */
   readonly localPath?: string;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gcs GoogleOsConfigOsPolicyAssignment#gcs}
   */
   readonly gcs?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceGcs;
   /**
   * remote block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#remote GoogleOsConfigOsPolicyAssignment#remote}
   */
   readonly remote?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceRemote;
 }
@@ -4568,7 +4568,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_insecure: cdktn.booleanToTerraform(struct!.allowInsecure),
@@ -4582,7 +4582,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSourceOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_insecure: {
@@ -4733,13 +4733,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Whether dependencies should also be installed. - install when false: 'rpm --upgrade --replacepkgs package.rpm' - install when true: 'yum -y install package.rpm' or 'zypper -y install package.rpm'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#pull_deps GoogleOsConfigOsPolicyAssignment#pull_deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#pull_deps GoogleOsConfigOsPolicyAssignment#pull_deps}
   */
   readonly pullDeps?: boolean | cdktn.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#source GoogleOsConfigOsPolicyAssignment#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#source GoogleOsConfigOsPolicyAssignment#source}
   */
   readonly source: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmSource;
 }
@@ -4747,7 +4747,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpm): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     pull_deps: cdktn.booleanToTerraform(struct!.pullDeps),
@@ -4759,7 +4759,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpmOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpm): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     pull_deps: {
@@ -4851,7 +4851,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
   */
   readonly name: string;
 }
@@ -4859,7 +4859,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYumToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYumOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -4870,7 +4870,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYumToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYumOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -4934,7 +4934,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Package name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
   */
   readonly name: string;
 }
@@ -4942,7 +4942,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypperToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypperOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -4953,7 +4953,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypperToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypperOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -5017,49 +5017,49 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * The desired state the agent should maintain for this package. Possible values: ["DESIRED_STATE_UNSPECIFIED", "INSTALLED", "REMOVED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#desired_state GoogleOsConfigOsPolicyAssignment#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#desired_state GoogleOsConfigOsPolicyAssignment#desired_state}
   */
   readonly desiredState: string;
   /**
   * apt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#apt GoogleOsConfigOsPolicyAssignment#apt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#apt GoogleOsConfigOsPolicyAssignment#apt}
   */
   readonly apt?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgApt;
   /**
   * deb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#deb GoogleOsConfigOsPolicyAssignment#deb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#deb GoogleOsConfigOsPolicyAssignment#deb}
   */
   readonly deb?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgDeb;
   /**
   * googet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#googet GoogleOsConfigOsPolicyAssignment#googet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#googet GoogleOsConfigOsPolicyAssignment#googet}
   */
   readonly googet?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgGooget;
   /**
   * msi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#msi GoogleOsConfigOsPolicyAssignment#msi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#msi GoogleOsConfigOsPolicyAssignment#msi}
   */
   readonly msi?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgMsi;
   /**
   * rpm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#rpm GoogleOsConfigOsPolicyAssignment#rpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#rpm GoogleOsConfigOsPolicyAssignment#rpm}
   */
   readonly rpm?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgRpm;
   /**
   * yum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#yum GoogleOsConfigOsPolicyAssignment#yum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#yum GoogleOsConfigOsPolicyAssignment#yum}
   */
   readonly yum?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgYum;
   /**
   * zypper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#zypper GoogleOsConfigOsPolicyAssignment#zypper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#zypper GoogleOsConfigOsPolicyAssignment#zypper}
   */
   readonly zypper?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgZypper;
 }
@@ -5067,7 +5067,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkg): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     desired_state: cdktn.stringToTerraform(struct!.desiredState),
@@ -5085,7 +5085,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkgOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkg): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     desired_state: {
@@ -5345,31 +5345,31 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * Type of archive files in this repository. Possible values: ["ARCHIVE_TYPE_UNSPECIFIED", "DEB", "DEB_SRC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#archive_type GoogleOsConfigOsPolicyAssignment#archive_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#archive_type GoogleOsConfigOsPolicyAssignment#archive_type}
   */
   readonly archiveType: string;
   /**
   * List of components for this repository. Must contain at least one item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#components GoogleOsConfigOsPolicyAssignment#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#components GoogleOsConfigOsPolicyAssignment#components}
   */
   readonly components: string[];
   /**
   * Distribution of this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#distribution GoogleOsConfigOsPolicyAssignment#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#distribution GoogleOsConfigOsPolicyAssignment#distribution}
   */
   readonly distribution: string;
   /**
   * URI of the key file for this repository. The agent maintains a keyring at '/etc/apt/trusted.gpg.d/osconfig_agent_managed.gpg'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gpg_key GoogleOsConfigOsPolicyAssignment#gpg_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gpg_key GoogleOsConfigOsPolicyAssignment#gpg_key}
   */
   readonly gpgKey?: string;
   /**
   * URI for this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#uri GoogleOsConfigOsPolicyAssignment#uri}
   */
   readonly uri: string;
 }
@@ -5377,7 +5377,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     archive_type: cdktn.stringToTerraform(struct!.archiveType),
@@ -5392,7 +5392,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryApt): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     archive_type: {
@@ -5559,13 +5559,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * The name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#name GoogleOsConfigOsPolicyAssignment#name}
   */
   readonly name: string;
   /**
   * The url of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#url GoogleOsConfigOsPolicyAssignment#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#url GoogleOsConfigOsPolicyAssignment#url}
   */
   readonly url: string;
 }
@@ -5573,7 +5573,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGooToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGoo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -5585,7 +5585,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGooToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGooOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGoo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -5674,25 +5674,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * The location of the repository directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#base_url GoogleOsConfigOsPolicyAssignment#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#base_url GoogleOsConfigOsPolicyAssignment#base_url}
   */
   readonly baseUrl: string;
   /**
   * The display name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#display_name GoogleOsConfigOsPolicyAssignment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#display_name GoogleOsConfigOsPolicyAssignment#display_name}
   */
   readonly displayName?: string;
   /**
   * URIs of GPG keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gpg_keys GoogleOsConfigOsPolicyAssignment#gpg_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gpg_keys GoogleOsConfigOsPolicyAssignment#gpg_keys}
   */
   readonly gpgKeys?: string[];
   /**
   * A one word, unique name for this repository. This is the 'repo id' in the yum config file and also the 'display_name' if 'display_name' is omitted. This id is also used as the unique identifier when checking for resource conflicts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5703,7 +5703,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYumToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     base_url: cdktn.stringToTerraform(struct!.baseUrl),
@@ -5717,7 +5717,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYumToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYumOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYum): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     base_url: {
@@ -5862,25 +5862,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * The location of the repository directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#base_url GoogleOsConfigOsPolicyAssignment#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#base_url GoogleOsConfigOsPolicyAssignment#base_url}
   */
   readonly baseUrl: string;
   /**
   * The display name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#display_name GoogleOsConfigOsPolicyAssignment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#display_name GoogleOsConfigOsPolicyAssignment#display_name}
   */
   readonly displayName?: string;
   /**
   * URIs of GPG keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#gpg_keys GoogleOsConfigOsPolicyAssignment#gpg_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#gpg_keys GoogleOsConfigOsPolicyAssignment#gpg_keys}
   */
   readonly gpgKeys?: string[];
   /**
   * A one word, unique name for this repository. This is the 'repo id' in the zypper config file and also the 'display_name' if 'display_name' is omitted. This id is also used as the unique identifier when checking for GuestPolicy conflicts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5891,7 +5891,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypperToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     base_url: cdktn.stringToTerraform(struct!.baseUrl),
@@ -5905,7 +5905,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypperToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypperOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypper): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     base_url: {
@@ -6050,25 +6050,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * apt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#apt GoogleOsConfigOsPolicyAssignment#apt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#apt GoogleOsConfigOsPolicyAssignment#apt}
   */
   readonly apt?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryApt;
   /**
   * goo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#goo GoogleOsConfigOsPolicyAssignment#goo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#goo GoogleOsConfigOsPolicyAssignment#goo}
   */
   readonly goo?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryGoo;
   /**
   * yum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#yum GoogleOsConfigOsPolicyAssignment#yum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#yum GoogleOsConfigOsPolicyAssignment#yum}
   */
   readonly yum?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryYum;
   /**
   * zypper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#zypper GoogleOsConfigOsPolicyAssignment#zypper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#zypper GoogleOsConfigOsPolicyAssignment#zypper}
   */
   readonly zypper?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryZypper;
 }
@@ -6076,7 +6076,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepository): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     apt: googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryAptToTerraform(struct!.apt),
@@ -6090,7 +6090,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepositoryOutputReference | GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepository): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     apt: {
@@ -6246,7 +6246,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   * * Must end with a number or a letter.
   * * Must be unique within the OS policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6255,25 +6255,25 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#exec GoogleOsConfigOsPolicyAssignment#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#exec GoogleOsConfigOsPolicyAssignment#exec}
   */
   readonly exec?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesExec;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#file GoogleOsConfigOsPolicyAssignment#file}
   */
   readonly file?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesFile;
   /**
   * pkg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#pkg GoogleOsConfigOsPolicyAssignment#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#pkg GoogleOsConfigOsPolicyAssignment#pkg}
   */
   readonly pkg?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesPkg;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#repository GoogleOsConfigOsPolicyAssignment#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#repository GoogleOsConfigOsPolicyAssignment#repository}
   */
   readonly repository?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesRepository;
 }
@@ -6281,7 +6281,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourc
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     id: cdktn.stringToTerraform(struct!.id),
@@ -6296,7 +6296,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResource
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResourcesToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     id: {
@@ -6504,13 +6504,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroups {
   /**
   * inventory_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#inventory_filters GoogleOsConfigOsPolicyAssignment#inventory_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#inventory_filters GoogleOsConfigOsPolicyAssignment#inventory_filters}
   */
   readonly inventoryFilters?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFilters[] | cdktn.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#resources GoogleOsConfigOsPolicyAssignment#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#resources GoogleOsConfigOsPolicyAssignment#resources}
   */
   readonly resources: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsResources[] | cdktn.IResolvable;
 }
@@ -6518,7 +6518,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroups {
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroups | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     inventory_filters: cdktn.listMapper(googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsInventoryFiltersToTerraform, true)(struct!.inventoryFilters),
@@ -6530,7 +6530,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsToTerraf
 export function googleOsConfigOsPolicyAssignmentOsPoliciesResourceGroupsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroups | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     inventory_filters: {
@@ -6654,13 +6654,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPolicies {
   /**
   * This flag determines the OS policy compliance status when none of the resource groups within the policy are applicable for a VM. Set this value to 'true' if the policy needs to be reported as compliant even if the policy has nothing to validate or enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#allow_no_resource_group_match GoogleOsConfigOsPolicyAssignment#allow_no_resource_group_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#allow_no_resource_group_match GoogleOsConfigOsPolicyAssignment#allow_no_resource_group_match}
   */
   readonly allowNoResourceGroupMatch?: boolean | cdktn.IResolvable;
   /**
   * Policy description. Length of the description is limited to 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#description GoogleOsConfigOsPolicyAssignment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#description GoogleOsConfigOsPolicyAssignment#description}
   */
   readonly description?: string;
   /**
@@ -6671,7 +6671,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPolicies {
   * * Must end with a number or a letter.
   * * Must be unique within the assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#id GoogleOsConfigOsPolicyAssignment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6680,13 +6680,13 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPolicies {
   /**
   * Policy mode Possible values: ["MODE_UNSPECIFIED", "VALIDATION", "ENFORCEMENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#mode GoogleOsConfigOsPolicyAssignment#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#mode GoogleOsConfigOsPolicyAssignment#mode}
   */
   readonly mode: string;
   /**
   * resource_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#resource_groups GoogleOsConfigOsPolicyAssignment#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#resource_groups GoogleOsConfigOsPolicyAssignment#resource_groups}
   */
   readonly resourceGroups: GoogleOsConfigOsPolicyAssignmentOsPoliciesResourceGroups[] | cdktn.IResolvable;
 }
@@ -6694,7 +6694,7 @@ export interface GoogleOsConfigOsPolicyAssignmentOsPolicies {
 export function googleOsConfigOsPolicyAssignmentOsPoliciesToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_no_resource_group_match: cdktn.booleanToTerraform(struct!.allowNoResourceGroupMatch),
@@ -6709,7 +6709,7 @@ export function googleOsConfigOsPolicyAssignmentOsPoliciesToTerraform(struct?: G
 export function googleOsConfigOsPolicyAssignmentOsPoliciesToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentOsPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_no_resource_group_match: {
@@ -6911,13 +6911,13 @@ export interface GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget {
   /**
   * Specifies a fixed value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#fixed GoogleOsConfigOsPolicyAssignment#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#fixed GoogleOsConfigOsPolicyAssignment#fixed}
   */
   readonly fixed?: number;
   /**
   * Specifies the relative value defined as a percentage, which will be multiplied by a reference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#percent GoogleOsConfigOsPolicyAssignment#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#percent GoogleOsConfigOsPolicyAssignment#percent}
   */
   readonly percent?: number;
 }
@@ -6925,7 +6925,7 @@ export interface GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget {
 export function googleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference | GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fixed: cdktn.numberToTerraform(struct!.fixed),
@@ -6937,7 +6937,7 @@ export function googleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetToTerrafo
 export function googleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudgetOutputReference | GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fixed: {
@@ -7032,13 +7032,13 @@ export interface GoogleOsConfigOsPolicyAssignmentRollout {
   /**
   * This determines the minimum duration of time to wait after the configuration changes are applied through the current rollout. A VM continues to count towards the 'disruption_budget' at least until this duration of time has passed after configuration changes are applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#min_wait_duration GoogleOsConfigOsPolicyAssignment#min_wait_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#min_wait_duration GoogleOsConfigOsPolicyAssignment#min_wait_duration}
   */
   readonly minWaitDuration: string;
   /**
   * disruption_budget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#disruption_budget GoogleOsConfigOsPolicyAssignment#disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#disruption_budget GoogleOsConfigOsPolicyAssignment#disruption_budget}
   */
   readonly disruptionBudget: GoogleOsConfigOsPolicyAssignmentRolloutDisruptionBudget;
 }
@@ -7046,7 +7046,7 @@ export interface GoogleOsConfigOsPolicyAssignmentRollout {
 export function googleOsConfigOsPolicyAssignmentRolloutToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentRolloutOutputReference | GoogleOsConfigOsPolicyAssignmentRollout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     min_wait_duration: cdktn.stringToTerraform(struct!.minWaitDuration),
@@ -7058,7 +7058,7 @@ export function googleOsConfigOsPolicyAssignmentRolloutToTerraform(struct?: Goog
 export function googleOsConfigOsPolicyAssignmentRolloutToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentRolloutOutputReference | GoogleOsConfigOsPolicyAssignmentRollout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     min_wait_duration: {
@@ -7145,15 +7145,15 @@ export class GoogleOsConfigOsPolicyAssignmentRolloutOutputReference extends cdkt
 }
 export interface GoogleOsConfigOsPolicyAssignmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#create GoogleOsConfigOsPolicyAssignment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#create GoogleOsConfigOsPolicyAssignment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#delete GoogleOsConfigOsPolicyAssignment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#delete GoogleOsConfigOsPolicyAssignment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#update GoogleOsConfigOsPolicyAssignment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#update GoogleOsConfigOsPolicyAssignment#update}
   */
   readonly update?: string;
 }
@@ -7161,7 +7161,7 @@ export interface GoogleOsConfigOsPolicyAssignmentTimeouts {
 export function googleOsConfigOsPolicyAssignmentTimeoutsToTerraform(struct?: GoogleOsConfigOsPolicyAssignmentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -7174,7 +7174,7 @@ export function googleOsConfigOsPolicyAssignmentTimeoutsToTerraform(struct?: Goo
 export function googleOsConfigOsPolicyAssignmentTimeoutsToHclTerraform(struct?: GoogleOsConfigOsPolicyAssignmentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -7305,7 +7305,7 @@ export class GoogleOsConfigOsPolicyAssignmentTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment}
 */
 export class GoogleOsConfigOsPolicyAssignment extends cdktn.TerraformResource {
 
@@ -7321,7 +7321,7 @@ export class GoogleOsConfigOsPolicyAssignment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleOsConfigOsPolicyAssignment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleOsConfigOsPolicyAssignment to import
-  * @param importFromId The id of the existing GoogleOsConfigOsPolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleOsConfigOsPolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleOsConfigOsPolicyAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -7333,7 +7333,7 @@ export class GoogleOsConfigOsPolicyAssignment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7344,7 +7344,7 @@ export class GoogleOsConfigOsPolicyAssignment extends cdktn.TerraformResource {
       terraformResourceType: 'google_os_config_os_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

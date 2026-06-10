@@ -4,7 +4,7 @@
 
 ### GoogleContactCenterInsightsEncryptionSpec <a name="GoogleContactCenterInsightsEncryptionSpec" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpec"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpec.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleContactCenterInsight
 
 The id of the existing GoogleContactCenterInsightsEncryptionSpec that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -864,8 +864,8 @@ new GoogleContactCenterInsightsEncryptionSpecConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.kmsKey">KmsKey</a></code> | <code>string</code> | The name of customer-managed encryption key that is used to secure a resource and its sub-resources. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.location">Location</a></code> | <code>string</code> | The location in which the encryptionSpec is to be initialized. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#id GoogleContactCenterInsightsEncryptionSpec#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#project GoogleContactCenterInsightsEncryptionSpec#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#id GoogleContactCenterInsightsEncryptionSpec#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#project GoogleContactCenterInsightsEncryptionSpec#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts">GoogleContactCenterInsightsEncryptionSpecTimeouts</a></code> | timeouts block. |
 
 ---
@@ -954,7 +954,7 @@ If empty, the resource is secured by the default Google encryption key.
 Only the key in the same location as this resource is allowed to be used for encryption.
 Format: projects/{project}/locations/{location}/keyRings/{keyRing}/cryptoKeys/{key}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#kms_key GoogleContactCenterInsightsEncryptionSpec#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#kms_key GoogleContactCenterInsightsEncryptionSpec#kms_key}
 
 ---
 
@@ -968,7 +968,7 @@ public string Location { get; set; }
 
 The location in which the encryptionSpec is to be initialized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#location GoogleContactCenterInsightsEncryptionSpec#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#location GoogleContactCenterInsightsEncryptionSpec#location}
 
 ---
 
@@ -980,7 +980,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#id GoogleContactCenterInsightsEncryptionSpec#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#id GoogleContactCenterInsightsEncryptionSpec#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -995,7 +995,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#project GoogleContactCenterInsightsEncryptionSpec#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#project GoogleContactCenterInsightsEncryptionSpec#project}.
 
 ---
 
@@ -1009,7 +1009,7 @@ public GoogleContactCenterInsightsEncryptionSpecTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#timeouts GoogleContactCenterInsightsEncryptionSpec#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#timeouts GoogleContactCenterInsightsEncryptionSpec#timeouts}
 
 ---
 
@@ -1030,8 +1030,8 @@ new GoogleContactCenterInsightsEncryptionSpecTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#create GoogleContactCenterInsightsEncryptionSpec#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#delete GoogleContactCenterInsightsEncryptionSpec#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#create GoogleContactCenterInsightsEncryptionSpec#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#delete GoogleContactCenterInsightsEncryptionSpec#delete}. |
 
 ---
 
@@ -1043,7 +1043,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#create GoogleContactCenterInsightsEncryptionSpec#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#create GoogleContactCenterInsightsEncryptionSpec#create}.
 
 ---
 
@@ -1055,7 +1055,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_contact_center_insights_encryption_spec#delete GoogleContactCenterInsightsEncryptionSpec#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec#delete GoogleContactCenterInsightsEncryptionSpec#delete}.
 
 ---
 

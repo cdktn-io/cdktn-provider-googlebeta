@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface GoogleCloudRunServiceConfig extends cdktn.TerraformMetaArgument
   * (For legacy support, if 'template.metadata.name' is unset in state while
   * this field is set to false, the revision name will still autogenerate.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#autogenerate_revision_name GoogleCloudRunService#autogenerate_revision_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#autogenerate_revision_name GoogleCloudRunService#autogenerate_revision_name}
   */
   readonly autogenerateRevisionName?: boolean | cdktn.IResolvable;
   /**
@@ -31,11 +31,11 @@ export interface GoogleCloudRunServiceConfig extends cdktn.TerraformMetaArgument
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#deletion_policy GoogleCloudRunService#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#deletion_policy GoogleCloudRunService#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#id GoogleCloudRunService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ export interface GoogleCloudRunServiceConfig extends cdktn.TerraformMetaArgument
   /**
   * The location of the cloud run instance. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#location GoogleCloudRunService#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#location GoogleCloudRunService#location}
   */
   readonly location: string;
   /**
@@ -53,35 +53,35 @@ export interface GoogleCloudRunServiceConfig extends cdktn.TerraformMetaArgument
   * for creation idempotence and configuration definition. Cannot be updated.
   * More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#project GoogleCloudRunService#project}
   */
   readonly project?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
   */
   readonly metadata?: GoogleCloudRunServiceMetadata;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#template GoogleCloudRunService#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#template GoogleCloudRunService#template}
   */
   readonly template?: GoogleCloudRunServiceTemplate;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#timeouts GoogleCloudRunService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#timeouts GoogleCloudRunService#timeouts}
   */
   readonly timeouts?: GoogleCloudRunServiceTimeouts;
   /**
   * traffic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#traffic GoogleCloudRunService#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#traffic GoogleCloudRunService#traffic}
   */
   readonly traffic?: GoogleCloudRunServiceTraffic[] | cdktn.IResolvable;
 }
@@ -91,7 +91,7 @@ export interface GoogleCloudRunServiceStatusConditions {
 export function googleCloudRunServiceStatusConditionsToTerraform(struct?: GoogleCloudRunServiceStatusConditions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -101,7 +101,7 @@ export function googleCloudRunServiceStatusConditionsToTerraform(struct?: Google
 export function googleCloudRunServiceStatusConditionsToHclTerraform(struct?: GoogleCloudRunServiceStatusConditions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -181,7 +181,7 @@ export interface GoogleCloudRunServiceStatusTraffic {
 export function googleCloudRunServiceStatusTrafficToTerraform(struct?: GoogleCloudRunServiceStatusTraffic): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -191,7 +191,7 @@ export function googleCloudRunServiceStatusTrafficToTerraform(struct?: GoogleClo
 export function googleCloudRunServiceStatusTrafficToHclTerraform(struct?: GoogleCloudRunServiceStatusTraffic): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -276,7 +276,7 @@ export interface GoogleCloudRunServiceStatus {
 export function googleCloudRunServiceStatusToTerraform(struct?: GoogleCloudRunServiceStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -286,7 +286,7 @@ export function googleCloudRunServiceStatusToTerraform(struct?: GoogleCloudRunSe
 export function googleCloudRunServiceStatusToHclTerraform(struct?: GoogleCloudRunServiceStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -402,7 +402,7 @@ export interface GoogleCloudRunServiceMetadata {
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -413,14 +413,14 @@ export interface GoogleCloudRunServiceMetadata {
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * In Cloud Run the namespace must be equal to either the
   * project ID or project number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
   */
   readonly namespace?: string;
 }
@@ -428,7 +428,7 @@ export interface GoogleCloudRunServiceMetadata {
 export function googleCloudRunServiceMetadataToTerraform(struct?: GoogleCloudRunServiceMetadataOutputReference | GoogleCloudRunServiceMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     annotations: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.annotations),
@@ -441,7 +441,7 @@ export function googleCloudRunServiceMetadataToTerraform(struct?: GoogleCloudRun
 export function googleCloudRunServiceMetadataToHclTerraform(struct?: GoogleCloudRunServiceMetadataOutputReference | GoogleCloudRunServiceMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     annotations: {
@@ -647,14 +647,14 @@ export interface GoogleCloudRunServiceTemplateMetadata {
   *   [GPU zonal redundancy](https://cloud.google.com/run/docs/configuring/services/gpu-zonal-redundancy) for the Revision.
   * - 'run.googleapis.com/health-check-disabled' disabled health checking containers during deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#annotations GoogleCloudRunService#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize
   * (scope and select) objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#labels GoogleCloudRunService#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -662,14 +662,14 @@ export interface GoogleCloudRunServiceTemplateMetadata {
   * Is required when creating resources. Name is primarily intended
   * for creation idempotence and configuration definition. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
   * In Cloud Run the namespace must be equal to either the
   * project ID or project number. It will default to the resource's project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#namespace GoogleCloudRunService#namespace}
   */
   readonly namespace?: string;
 }
@@ -677,7 +677,7 @@ export interface GoogleCloudRunServiceTemplateMetadata {
 export function googleCloudRunServiceTemplateMetadataToTerraform(struct?: GoogleCloudRunServiceTemplateMetadataOutputReference | GoogleCloudRunServiceTemplateMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     annotations: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.annotations),
@@ -691,7 +691,7 @@ export function googleCloudRunServiceTemplateMetadataToTerraform(struct?: Google
 export function googleCloudRunServiceTemplateMetadataToHclTerraform(struct?: GoogleCloudRunServiceTemplateMetadataOutputReference | GoogleCloudRunServiceTemplateMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     annotations: {
@@ -863,7 +863,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKe
   * A Cloud Secret Manager secret version. Must be 'latest' for the latest
   * version or an integer for a specific version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
   */
   readonly key: string;
   /**
@@ -874,7 +874,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKe
   * If multiple alias definitions are needed, they must be separated by commas.
   * The alias definitions must be set on the run.googleapis.com/secrets annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
 }
@@ -882,7 +882,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKe
 export function googleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -894,7 +894,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKey
 export function googleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -983,7 +983,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom {
   /**
   * secret_key_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#secret_key_ref GoogleCloudRunService#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#secret_key_ref GoogleCloudRunService#secret_key_ref}
   */
   readonly secretKeyRef: GoogleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -991,7 +991,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom {
 export function googleCloudRunServiceTemplateSpecContainersEnvValueFromToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvValueFromOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_key_ref: googleCloudRunServiceTemplateSpecContainersEnvValueFromSecretKeyRefToTerraform(struct!.secretKeyRef),
@@ -1002,7 +1002,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvValueFromToTerrafo
 export function googleCloudRunServiceTemplateSpecContainersEnvValueFromToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvValueFromOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_key_ref: {
@@ -1066,19 +1066,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnv {
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
   * Defaults to "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
   */
   readonly value?: string;
   /**
   * value_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#value_from GoogleCloudRunService#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#value_from GoogleCloudRunService#value_from}
   */
   readonly valueFrom?: GoogleCloudRunServiceTemplateSpecContainersEnvValueFrom;
 }
@@ -1086,7 +1086,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnv {
 export function googleCloudRunServiceTemplateSpecContainersEnvToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnv | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1099,7 +1099,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvToTerraform(struct
 export function googleCloudRunServiceTemplateSpecContainersEnvToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnv | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1254,7 +1254,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefL
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
 }
@@ -1262,7 +1262,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefL
 export function googleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReferenceToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReferenceOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1273,7 +1273,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLo
 export function googleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReferenceToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReferenceOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1337,13 +1337,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef 
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
   /**
   * local_object_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
   */
   readonly localObjectReference?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefLocalObjectReference;
 }
@@ -1351,7 +1351,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef 
 export function googleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     optional: cdktn.booleanToTerraform(struct!.optional),
@@ -1363,7 +1363,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefTo
 export function googleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRefOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     optional: {
@@ -1458,7 +1458,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLoca
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
 }
@@ -1466,7 +1466,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLoca
 export function googleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReferenceToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReferenceOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1477,7 +1477,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocal
 export function googleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReferenceToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReferenceOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1541,13 +1541,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef {
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#optional GoogleCloudRunService#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
   /**
   * local_object_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#local_object_reference GoogleCloudRunService#local_object_reference}
   */
   readonly localObjectReference?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefLocalObjectReference;
 }
@@ -1555,7 +1555,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef {
 export function googleCloudRunServiceTemplateSpecContainersEnvFromSecretRefToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     optional: cdktn.booleanToTerraform(struct!.optional),
@@ -1567,7 +1567,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvFromSecretRefToTer
 export function googleCloudRunServiceTemplateSpecContainersEnvFromSecretRefToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRefOutputReference | GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     optional: {
@@ -1662,19 +1662,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFrom {
   /**
   * An optional identifier to prepend to each key in the ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#prefix GoogleCloudRunService#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#prefix GoogleCloudRunService#prefix}
   */
   readonly prefix?: string;
   /**
   * config_map_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#config_map_ref GoogleCloudRunService#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#config_map_ref GoogleCloudRunService#config_map_ref}
   */
   readonly configMapRef?: GoogleCloudRunServiceTemplateSpecContainersEnvFromConfigMapRef;
   /**
   * secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#secret_ref GoogleCloudRunService#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#secret_ref GoogleCloudRunService#secret_ref}
   */
   readonly secretRef?: GoogleCloudRunServiceTemplateSpecContainersEnvFromSecretRef;
 }
@@ -1682,7 +1682,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersEnvFrom {
 export function googleCloudRunServiceTemplateSpecContainersEnvFromToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFrom | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     prefix: cdktn.stringToTerraform(struct!.prefix),
@@ -1695,7 +1695,7 @@ export function googleCloudRunServiceTemplateSpecContainersEnvFromToTerraform(st
 export function googleCloudRunServiceTemplateSpecContainersEnvFromToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersEnvFrom | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     prefix: {
@@ -1851,7 +1851,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc {
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
@@ -1859,7 +1859,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc {
   * (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md).
   * If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
   */
   readonly service?: string;
 }
@@ -1867,7 +1867,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc {
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     port: cdktn.numberToTerraform(struct!.port),
@@ -1879,7 +1879,7 @@ export function googleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcToTe
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     port: {
@@ -1974,13 +1974,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet
   /**
   * The header field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
   * The header field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
   */
   readonly value?: string;
 }
@@ -1988,7 +1988,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -2000,7 +2000,7 @@ export function googleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetH
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -2124,20 +2124,20 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet
   /**
   * Path to access on the HTTP server. If set, it should not be empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path?: string;
   /**
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
   */
   readonly httpHeaders?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktn.IResolvable;
 }
@@ -2145,7 +2145,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -2158,7 +2158,7 @@ export function googleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetT
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -2282,7 +2282,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
   * Minimum consecutive failures for the probe to be considered failed after
   * having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
@@ -2290,14 +2290,14 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
   * initiated.
   * Defaults to 0 seconds. Minimum value is 0. Maximum value is 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe.
   * Default to 10 seconds. Minimum value is 1. Maximum value is 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
@@ -2305,19 +2305,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
   * Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
   * Must be smaller than period_seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
   */
   readonly grpc?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeGrpc;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
   */
   readonly httpGet?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeHttpGet;
 }
@@ -2325,7 +2325,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersLivenessProbe {
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersLivenessProbe): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     failure_threshold: cdktn.numberToTerraform(struct!.failureThreshold),
@@ -2341,7 +2341,7 @@ export function googleCloudRunServiceTemplateSpecContainersLivenessProbeToTerraf
 export function googleCloudRunServiceTemplateSpecContainersLivenessProbeToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersLivenessProbe): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     failure_threshold: {
@@ -2548,19 +2548,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersPorts {
   /**
   * Port number the container listens on. This must be a valid port number (between 1 and 65535). Defaults to "8080".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#container_port GoogleCloudRunService#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#container_port GoogleCloudRunService#container_port}
   */
   readonly containerPort?: number;
   /**
   * If specified, used to specify which protocol to use. Allowed values are "http1" (HTTP/1) and "h2c" (HTTP/2 end-to-end). Defaults to "http1".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be "TCP". Defaults to "TCP".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#protocol GoogleCloudRunService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#protocol GoogleCloudRunService#protocol}
   */
   readonly protocol?: string;
 }
@@ -2568,7 +2568,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersPorts {
 export function googleCloudRunServiceTemplateSpecContainersPortsToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersPorts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     container_port: cdktn.numberToTerraform(struct!.containerPort),
@@ -2581,7 +2581,7 @@ export function googleCloudRunServiceTemplateSpecContainersPortsToTerraform(stru
 export function googleCloudRunServiceTemplateSpecContainersPortsToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersPorts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     container_port: {
@@ -2737,7 +2737,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc {
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
@@ -2745,7 +2745,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc {
   * (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md).
   * If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
   */
   readonly service?: string;
 }
@@ -2753,7 +2753,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc {
 export function googleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     port: cdktn.numberToTerraform(struct!.port),
@@ -2765,7 +2765,7 @@ export function googleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcToT
 export function googleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     port: {
@@ -2860,14 +2860,14 @@ export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGe
   /**
   * Path to access on the HTTP server. If set, it should not be empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path?: string;
   /**
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
 }
@@ -2875,7 +2875,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGe
 export function googleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -2887,7 +2887,7 @@ export function googleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet
 export function googleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -2983,40 +2983,40 @@ export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbe {
   * Minimum consecutive failures for the probe to be considered failed after
   * having succeeded. Defaults to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * How often (in seconds) to perform the probe.
   * Default to 10 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed.
   * Defaults to 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#success_threshold GoogleCloudRunService#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#success_threshold GoogleCloudRunService#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Number of seconds after which the probe times out.
   * Defaults to 1 second. Must be smaller than period_seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
   */
   readonly grpc?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
   */
   readonly httpGet?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeHttpGet;
 }
@@ -3024,7 +3024,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersReadinessProbe {
 export function googleCloudRunServiceTemplateSpecContainersReadinessProbeToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbe): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     failure_threshold: cdktn.numberToTerraform(struct!.failureThreshold),
@@ -3040,7 +3040,7 @@ export function googleCloudRunServiceTemplateSpecContainersReadinessProbeToTerra
 export function googleCloudRunServiceTemplateSpecContainersReadinessProbeToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersReadinessProbe): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     failure_threshold: {
@@ -3253,7 +3253,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersResources {
   * The values of the map is string form of the 'quantity' k8s type:
   * https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#limits GoogleCloudRunService#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#limits GoogleCloudRunService#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
@@ -3263,7 +3263,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersResources {
   * The values of the map is string form of the 'quantity' k8s type:
   * https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#requests GoogleCloudRunService#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#requests GoogleCloudRunService#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3271,7 +3271,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersResources {
 export function googleCloudRunServiceTemplateSpecContainersResourcesToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference | GoogleCloudRunServiceTemplateSpecContainersResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     limits: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.limits),
@@ -3283,7 +3283,7 @@ export function googleCloudRunServiceTemplateSpecContainersResourcesToTerraform(
 export function googleCloudRunServiceTemplateSpecContainersResourcesToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference | GoogleCloudRunServiceTemplateSpecContainersResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     limits: {
@@ -3379,7 +3379,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc {
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
@@ -3387,7 +3387,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc {
   * (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md).
   * If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#service GoogleCloudRunService#service}
   */
   readonly service?: string;
 }
@@ -3395,7 +3395,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc {
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeGrpcToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     port: cdktn.numberToTerraform(struct!.port),
@@ -3407,7 +3407,7 @@ export function googleCloudRunServiceTemplateSpecContainersStartupProbeGrpcToTer
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeGrpcToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpcOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     port: {
@@ -3502,13 +3502,13 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetH
   /**
   * The header field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
   * The header field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#value GoogleCloudRunService#value}
   */
   readonly value?: string;
 }
@@ -3516,7 +3516,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetH
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -3528,7 +3528,7 @@ export function googleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHt
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -3652,20 +3652,20 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet 
   /**
   * Path to access on the HTTP server. If set, it should not be empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path?: string;
   /**
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#http_headers GoogleCloudRunService#http_headers}
   */
   readonly httpHeaders?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable;
 }
@@ -3673,7 +3673,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet 
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -3686,7 +3686,7 @@ export function googleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetTo
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -3810,7 +3810,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocke
   * Port number to access on the container. Number must be in the range 1 to 65535.
   * If not specified, defaults to the same value as container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#port GoogleCloudRunService#port}
   */
   readonly port?: number;
 }
@@ -3818,7 +3818,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocke
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocketToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocketOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     port: cdktn.numberToTerraform(struct!.port),
@@ -3829,7 +3829,7 @@ export function googleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocketToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocketOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     port: {
@@ -3897,7 +3897,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
   * Minimum consecutive failures for the probe to be considered failed after
   * having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#failure_threshold GoogleCloudRunService#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
@@ -3905,14 +3905,14 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
   * initiated.
   * Defaults to 0 seconds. Minimum value is 0. Maximum value is 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#initial_delay_seconds GoogleCloudRunService#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe.
   * Default to 10 seconds. Minimum value is 1. Maximum value is 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#period_seconds GoogleCloudRunService#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
@@ -3920,25 +3920,25 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
   * Defaults to 1 second. Minimum value is 1. Maximum value is 3600.
   * Must be smaller than periodSeconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#grpc GoogleCloudRunService#grpc}
   */
   readonly grpc?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeGrpc;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#http_get GoogleCloudRunService#http_get}
   */
   readonly httpGet?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGet;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#tcp_socket GoogleCloudRunService#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#tcp_socket GoogleCloudRunService#tcp_socket}
   */
   readonly tcpSocket?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeTcpSocket;
 }
@@ -3946,7 +3946,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersStartupProbe {
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbe): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     failure_threshold: cdktn.numberToTerraform(struct!.failureThreshold),
@@ -3963,7 +3963,7 @@ export function googleCloudRunServiceTemplateSpecContainersStartupProbeToTerrafo
 export function googleCloudRunServiceTemplateSpecContainersStartupProbeToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference | GoogleCloudRunServiceTemplateSpecContainersStartupProbe): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     failure_threshold: {
@@ -4199,19 +4199,19 @@ export interface GoogleCloudRunServiceTemplateSpecContainersVolumeMounts {
   * Path within the container at which the volume should be mounted.  Must
   * not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#mount_path GoogleCloudRunService#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#mount_path GoogleCloudRunService#mount_path}
   */
   readonly mountPath: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
   * Path within the volume from which the container's volume should be mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#sub_path GoogleCloudRunService#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#sub_path GoogleCloudRunService#sub_path}
   */
   readonly subPath?: string;
 }
@@ -4219,7 +4219,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainersVolumeMounts {
 export function googleCloudRunServiceTemplateSpecContainersVolumeMountsToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersVolumeMounts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mount_path: cdktn.stringToTerraform(struct!.mountPath),
@@ -4232,7 +4232,7 @@ export function googleCloudRunServiceTemplateSpecContainersVolumeMountsToTerrafo
 export function googleCloudRunServiceTemplateSpecContainersVolumeMountsToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainersVolumeMounts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mount_path: {
@@ -4382,27 +4382,27 @@ export interface GoogleCloudRunServiceTemplateSpecContainers {
   * Arguments to the entrypoint.
   * The docker image's CMD is used if this is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#args GoogleCloudRunService#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#args GoogleCloudRunService#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell.
   * The docker image's ENTRYPOINT is used if this is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#command GoogleCloudRunService#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#command GoogleCloudRunService#command}
   */
   readonly command?: string[];
   /**
   * Docker image name. This is most often a reference to a container located
   * in the container registry, such as gcr.io/cloudrun/hello
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#image GoogleCloudRunService#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#image GoogleCloudRunService#image}
   */
   readonly image: string;
   /**
   * Name of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name?: string;
   /**
@@ -4410,55 +4410,55 @@ export interface GoogleCloudRunServiceTemplateSpecContainers {
   * If not specified, the container runtime's default will be used, which
   * might be configured in the container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#working_dir GoogleCloudRunService#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#working_dir GoogleCloudRunService#working_dir}
   */
   readonly workingDir?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#env GoogleCloudRunService#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#env GoogleCloudRunService#env}
   */
   readonly env?: GoogleCloudRunServiceTemplateSpecContainersEnv[] | cdktn.IResolvable;
   /**
   * env_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#env_from GoogleCloudRunService#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#env_from GoogleCloudRunService#env_from}
   */
   readonly envFrom?: GoogleCloudRunServiceTemplateSpecContainersEnvFrom[] | cdktn.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#liveness_probe GoogleCloudRunService#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#liveness_probe GoogleCloudRunService#liveness_probe}
   */
   readonly livenessProbe?: GoogleCloudRunServiceTemplateSpecContainersLivenessProbe;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#ports GoogleCloudRunService#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#ports GoogleCloudRunService#ports}
   */
   readonly ports?: GoogleCloudRunServiceTemplateSpecContainersPorts[] | cdktn.IResolvable;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#readiness_probe GoogleCloudRunService#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#readiness_probe GoogleCloudRunService#readiness_probe}
   */
   readonly readinessProbe?: GoogleCloudRunServiceTemplateSpecContainersReadinessProbe;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#resources GoogleCloudRunService#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#resources GoogleCloudRunService#resources}
   */
   readonly resources?: GoogleCloudRunServiceTemplateSpecContainersResources;
   /**
   * startup_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#startup_probe GoogleCloudRunService#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#startup_probe GoogleCloudRunService#startup_probe}
   */
   readonly startupProbe?: GoogleCloudRunServiceTemplateSpecContainersStartupProbe;
   /**
   * volume_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#volume_mounts GoogleCloudRunService#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#volume_mounts GoogleCloudRunService#volume_mounts}
   */
   readonly volumeMounts?: GoogleCloudRunServiceTemplateSpecContainersVolumeMounts[] | cdktn.IResolvable;
 }
@@ -4466,7 +4466,7 @@ export interface GoogleCloudRunServiceTemplateSpecContainers {
 export function googleCloudRunServiceTemplateSpecContainersToTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
@@ -4489,7 +4489,7 @@ export function googleCloudRunServiceTemplateSpecContainersToTerraform(struct?: 
 export function googleCloudRunServiceTemplateSpecContainersToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecContainers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     args: {
@@ -4923,13 +4923,13 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesCsi {
   *   * gcsfuse.run.googleapis.com: Mount a Google Cloud Storage bucket using GCSFuse. This driver requires the
   *     run.googleapis.com/execution-environment annotation to be unset or set to "gen2"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#driver GoogleCloudRunService#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#driver GoogleCloudRunService#driver}
   */
   readonly driver: string;
   /**
   * If true, all mounts created from this volume will be read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
@@ -4937,7 +4937,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesCsi {
   *   * gcsfuse.run.googleapis.com
   *     * bucketName: The name of the Cloud Storage Bucket that backs this volume. The Cloud Run Service identity must have access to this bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#volume_attributes GoogleCloudRunService#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#volume_attributes GoogleCloudRunService#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -4945,7 +4945,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesCsi {
 export function googleCloudRunServiceTemplateSpecVolumesCsiToTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesCsiOutputReference | GoogleCloudRunServiceTemplateSpecVolumesCsi): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     driver: cdktn.stringToTerraform(struct!.driver),
@@ -4958,7 +4958,7 @@ export function googleCloudRunServiceTemplateSpecVolumesCsiToTerraform(struct?: 
 export function googleCloudRunServiceTemplateSpecVolumesCsiToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesCsiOutputReference | GoogleCloudRunServiceTemplateSpecVolumesCsi): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     driver: {
@@ -5078,13 +5078,13 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesEmptyDir {
   /**
   * The medium on which the data is stored. The default is "" which means to use the node's default medium. Must be an empty string (default) or Memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#medium GoogleCloudRunService#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#medium GoogleCloudRunService#medium}
   */
   readonly medium?: string;
   /**
   * Limit on the storage usable by this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. This field's values are of the 'Quantity' k8s type: https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#size_limit GoogleCloudRunService#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#size_limit GoogleCloudRunService#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -5092,7 +5092,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesEmptyDir {
 export function googleCloudRunServiceTemplateSpecVolumesEmptyDirToTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesEmptyDirOutputReference | GoogleCloudRunServiceTemplateSpecVolumesEmptyDir): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     medium: cdktn.stringToTerraform(struct!.medium),
@@ -5104,7 +5104,7 @@ export function googleCloudRunServiceTemplateSpecVolumesEmptyDirToTerraform(stru
 export function googleCloudRunServiceTemplateSpecVolumesEmptyDirToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesEmptyDirOutputReference | GoogleCloudRunServiceTemplateSpecVolumesEmptyDir): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     medium: {
@@ -5199,19 +5199,19 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesNfs {
   /**
   * Path exported by the NFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path: string;
   /**
   * If true, mount the NFS volume as read only in all mounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#read_only GoogleCloudRunService#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
   * IP address or hostname of the NFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#server GoogleCloudRunService#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#server GoogleCloudRunService#server}
   */
   readonly server: string;
 }
@@ -5219,7 +5219,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesNfs {
 export function googleCloudRunServiceTemplateSpecVolumesNfsToTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesNfsOutputReference | GoogleCloudRunServiceTemplateSpecVolumesNfs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -5232,7 +5232,7 @@ export function googleCloudRunServiceTemplateSpecVolumesNfsToTerraform(struct?: 
 export function googleCloudRunServiceTemplateSpecVolumesNfsToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesNfsOutputReference | GoogleCloudRunServiceTemplateSpecVolumesNfs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -5350,7 +5350,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
   * The Cloud Secret Manager secret version.
   * Can be 'latest' for the latest value or an integer for a specific version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#key GoogleCloudRunService#key}
   */
   readonly key: string;
   /**
@@ -5359,7 +5359,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
   * conflict with other options that affect the file mode, like fsGroup, and
   * the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#mode GoogleCloudRunService#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#mode GoogleCloudRunService#mode}
   */
   readonly mode?: number;
   /**
@@ -5368,7 +5368,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
   * May not contain the path element '..'.
   * May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#path GoogleCloudRunService#path}
   */
   readonly path: string;
 }
@@ -5376,7 +5376,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecretItems {
 export function googleCloudRunServiceTemplateSpecVolumesSecretItemsToTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesSecretItems | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -5389,7 +5389,7 @@ export function googleCloudRunServiceTemplateSpecVolumesSecretItemsToTerraform(s
 export function googleCloudRunServiceTemplateSpecVolumesSecretItemsToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesSecretItems | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -5541,7 +5541,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecret {
   * this setting. This might be in conflict with other options that affect the
   * file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#default_mode GoogleCloudRunService#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#default_mode GoogleCloudRunService#default_mode}
   */
   readonly defaultMode?: number;
   /**
@@ -5555,13 +5555,13 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecret {
   * The alias definitions must be set on the run.googleapis.com/secrets
   * annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#secret_name GoogleCloudRunService#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#secret_name GoogleCloudRunService#secret_name}
   */
   readonly secretName: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#items GoogleCloudRunService#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#items GoogleCloudRunService#items}
   */
   readonly items?: GoogleCloudRunServiceTemplateSpecVolumesSecretItems[] | cdktn.IResolvable;
 }
@@ -5569,7 +5569,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumesSecret {
 export function googleCloudRunServiceTemplateSpecVolumesSecretToTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference | GoogleCloudRunServiceTemplateSpecVolumesSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     default_mode: cdktn.numberToTerraform(struct!.defaultMode),
@@ -5582,7 +5582,7 @@ export function googleCloudRunServiceTemplateSpecVolumesSecretToTerraform(struct
 export function googleCloudRunServiceTemplateSpecVolumesSecretToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference | GoogleCloudRunServiceTemplateSpecVolumesSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     default_mode: {
@@ -5702,31 +5702,31 @@ export interface GoogleCloudRunServiceTemplateSpecVolumes {
   /**
   * Volume's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#name GoogleCloudRunService#name}
   */
   readonly name: string;
   /**
   * csi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#csi GoogleCloudRunService#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#csi GoogleCloudRunService#csi}
   */
   readonly csi?: GoogleCloudRunServiceTemplateSpecVolumesCsi;
   /**
   * empty_dir block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#empty_dir GoogleCloudRunService#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#empty_dir GoogleCloudRunService#empty_dir}
   */
   readonly emptyDir?: GoogleCloudRunServiceTemplateSpecVolumesEmptyDir;
   /**
   * nfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#nfs GoogleCloudRunService#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#nfs GoogleCloudRunService#nfs}
   */
   readonly nfs?: GoogleCloudRunServiceTemplateSpecVolumesNfs;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#secret GoogleCloudRunService#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#secret GoogleCloudRunService#secret}
   */
   readonly secret?: GoogleCloudRunServiceTemplateSpecVolumesSecret;
 }
@@ -5734,7 +5734,7 @@ export interface GoogleCloudRunServiceTemplateSpecVolumes {
 export function googleCloudRunServiceTemplateSpecVolumesToTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -5749,7 +5749,7 @@ export function googleCloudRunServiceTemplateSpecVolumesToTerraform(struct?: Goo
 export function googleCloudRunServiceTemplateSpecVolumesToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecVolumes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -5959,7 +5959,7 @@ export interface GoogleCloudRunServiceTemplateSpec {
   * requests per container of the Revision. If not specified or 0, defaults to 80 when
   * requested CPU >= 1 and defaults to 1 when requested CPU < 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#container_concurrency GoogleCloudRunService#container_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#container_concurrency GoogleCloudRunService#container_concurrency}
   */
   readonly containerConcurrency?: number;
   /**
@@ -5967,7 +5967,7 @@ export interface GoogleCloudRunServiceTemplateSpec {
   * Use the following node selector keys to configure features on a Revision:
   *   - 'run.googleapis.com/accelerator' sets the [type of GPU](https://cloud.google.com/run/docs/configuring/services/gpu) required by the Revision to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#node_selector GoogleCloudRunService#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#node_selector GoogleCloudRunService#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
@@ -5976,25 +5976,25 @@ export interface GoogleCloudRunServiceTemplateSpec {
   * and determines what permissions the revision has. If not provided, the revision
   * will use the project's default service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#service_account_name GoogleCloudRunService#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#service_account_name GoogleCloudRunService#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * TimeoutSeconds holds the max duration the instance is allowed for responding to a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#timeout_seconds GoogleCloudRunService#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#containers GoogleCloudRunService#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#containers GoogleCloudRunService#containers}
   */
   readonly containers?: GoogleCloudRunServiceTemplateSpecContainers[] | cdktn.IResolvable;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#volumes GoogleCloudRunService#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#volumes GoogleCloudRunService#volumes}
   */
   readonly volumes?: GoogleCloudRunServiceTemplateSpecVolumes[] | cdktn.IResolvable;
 }
@@ -6002,7 +6002,7 @@ export interface GoogleCloudRunServiceTemplateSpec {
 export function googleCloudRunServiceTemplateSpecToTerraform(struct?: GoogleCloudRunServiceTemplateSpecOutputReference | GoogleCloudRunServiceTemplateSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     container_concurrency: cdktn.numberToTerraform(struct!.containerConcurrency),
@@ -6018,7 +6018,7 @@ export function googleCloudRunServiceTemplateSpecToTerraform(struct?: GoogleClou
 export function googleCloudRunServiceTemplateSpecToHclTerraform(struct?: GoogleCloudRunServiceTemplateSpecOutputReference | GoogleCloudRunServiceTemplateSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     container_concurrency: {
@@ -6230,13 +6230,13 @@ export interface GoogleCloudRunServiceTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#metadata GoogleCloudRunService#metadata}
   */
   readonly metadata?: GoogleCloudRunServiceTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#spec GoogleCloudRunService#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#spec GoogleCloudRunService#spec}
   */
   readonly spec?: GoogleCloudRunServiceTemplateSpec;
 }
@@ -6244,7 +6244,7 @@ export interface GoogleCloudRunServiceTemplate {
 export function googleCloudRunServiceTemplateToTerraform(struct?: GoogleCloudRunServiceTemplateOutputReference | GoogleCloudRunServiceTemplate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     metadata: googleCloudRunServiceTemplateMetadataToTerraform(struct!.metadata),
@@ -6256,7 +6256,7 @@ export function googleCloudRunServiceTemplateToTerraform(struct?: GoogleCloudRun
 export function googleCloudRunServiceTemplateToHclTerraform(struct?: GoogleCloudRunServiceTemplateOutputReference | GoogleCloudRunServiceTemplate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     metadata: {
@@ -6349,15 +6349,15 @@ export class GoogleCloudRunServiceTemplateOutputReference extends cdktn.ComplexO
 }
 export interface GoogleCloudRunServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#create GoogleCloudRunService#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#delete GoogleCloudRunService#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#update GoogleCloudRunService#update}
   */
   readonly update?: string;
 }
@@ -6365,7 +6365,7 @@ export interface GoogleCloudRunServiceTimeouts {
 export function googleCloudRunServiceTimeoutsToTerraform(struct?: GoogleCloudRunServiceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -6378,7 +6378,7 @@ export function googleCloudRunServiceTimeoutsToTerraform(struct?: GoogleCloudRun
 export function googleCloudRunServiceTimeoutsToHclTerraform(struct?: GoogleCloudRunServiceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -6514,25 +6514,25 @@ export interface GoogleCloudRunServiceTraffic {
   * provided LatestRevision must be true if RevisionName is empty; it must be
   * false when RevisionName is non-empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#latest_revision GoogleCloudRunService#latest_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#latest_revision GoogleCloudRunService#latest_revision}
   */
   readonly latestRevision?: boolean | cdktn.IResolvable;
   /**
   * Percent specifies percent of the traffic to this Revision or Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#percent GoogleCloudRunService#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#percent GoogleCloudRunService#percent}
   */
   readonly percent: number;
   /**
   * RevisionName of a specific revision to which to send this portion of traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#revision_name GoogleCloudRunService#revision_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#revision_name GoogleCloudRunService#revision_name}
   */
   readonly revisionName?: string;
   /**
   * Tag is optionally used to expose a dedicated url for referencing this target exclusively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#tag GoogleCloudRunService#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#tag GoogleCloudRunService#tag}
   */
   readonly tag?: string;
 }
@@ -6540,7 +6540,7 @@ export interface GoogleCloudRunServiceTraffic {
 export function googleCloudRunServiceTrafficToTerraform(struct?: GoogleCloudRunServiceTraffic | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     latest_revision: cdktn.booleanToTerraform(struct!.latestRevision),
@@ -6554,7 +6554,7 @@ export function googleCloudRunServiceTrafficToTerraform(struct?: GoogleCloudRunS
 export function googleCloudRunServiceTrafficToHclTerraform(struct?: GoogleCloudRunServiceTraffic | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     latest_revision: {
@@ -6737,7 +6737,7 @@ export class GoogleCloudRunServiceTrafficList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service google_cloud_run_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service google_cloud_run_service}
 */
 export class GoogleCloudRunService extends cdktn.TerraformResource {
 
@@ -6753,7 +6753,7 @@ export class GoogleCloudRunService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCloudRunService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCloudRunService to import
-  * @param importFromId The id of the existing GoogleCloudRunService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCloudRunService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCloudRunService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6765,7 +6765,7 @@ export class GoogleCloudRunService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_cloud_run_service google_cloud_run_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_service google_cloud_run_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6776,7 +6776,7 @@ export class GoogleCloudRunService extends cdktn.TerraformResource {
       terraformResourceType: 'google_cloud_run_service',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

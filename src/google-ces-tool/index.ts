@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleCesToolConfig extends cdktn.TerraformMetaArguments {
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#app GoogleCesTool#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#app GoogleCesTool#app}
   */
   readonly app: string;
   /**
@@ -27,7 +27,7 @@ export interface GoogleCesToolConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#deletion_policy GoogleCesTool#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#deletion_policy GoogleCesTool#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -35,11 +35,11 @@ export interface GoogleCesToolConfig extends cdktn.TerraformMetaArguments {
   * SYNCHRONOUS
   * ASYNCHRONOUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#execution_type GoogleCesTool#execution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#execution_type GoogleCesTool#execution_type}
   */
   readonly executionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#id GoogleCesTool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#id GoogleCesTool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,11 +48,11 @@ export interface GoogleCesToolConfig extends cdktn.TerraformMetaArguments {
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#location GoogleCesTool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#location GoogleCesTool#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#project GoogleCesTool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#project GoogleCesTool#project}
   */
   readonly project?: string;
   /**
@@ -60,39 +60,1184 @@ export interface GoogleCesToolConfig extends cdktn.TerraformMetaArguments {
   * the tool's resource name. If not provided, a unique ID will be
   * automatically assigned for the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#tool_id GoogleCesTool#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#tool_id GoogleCesTool#tool_id}
   */
   readonly toolId: string;
   /**
+  * agent_tool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#agent_tool GoogleCesTool#agent_tool}
+  */
+  readonly agentTool?: GoogleCesToolAgentTool;
+  /**
   * client_function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#client_function GoogleCesTool#client_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#client_function GoogleCesTool#client_function}
   */
   readonly clientFunction?: GoogleCesToolClientFunction;
   /**
   * data_store_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store_tool GoogleCesTool#data_store_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_tool GoogleCesTool#data_store_tool}
   */
   readonly dataStoreTool?: GoogleCesToolDataStoreTool;
   /**
+  * file_search_tool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#file_search_tool GoogleCesTool#file_search_tool}
+  */
+  readonly fileSearchTool?: GoogleCesToolFileSearchTool;
+  /**
   * google_search_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#google_search_tool GoogleCesTool#google_search_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#google_search_tool GoogleCesTool#google_search_tool}
   */
   readonly googleSearchTool?: GoogleCesToolGoogleSearchTool;
   /**
   * python_function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
   */
   readonly pythonFunction?: GoogleCesToolPythonFunction;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#timeouts GoogleCesTool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#timeouts GoogleCesTool#timeouts}
   */
   readonly timeouts?: GoogleCesToolTimeouts;
+  /**
+  * widget_tool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#widget_tool GoogleCesTool#widget_tool}
+  */
+  readonly widgetTool?: GoogleCesToolWidgetTool;
+}
+export interface GoogleCesToolConnectorToolActionEntityOperation {
+}
+
+export function googleCesToolConnectorToolActionEntityOperationToTerraform(struct?: GoogleCesToolConnectorToolActionEntityOperation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolConnectorToolActionEntityOperationToHclTerraform(struct?: GoogleCesToolConnectorToolActionEntityOperation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolConnectorToolActionEntityOperationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolConnectorToolActionEntityOperation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolConnectorToolActionEntityOperation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // entity_id - computed: true, optional: false, required: false
+  public get entityId() {
+    return this.getStringAttribute('entity_id');
+  }
+
+  // operation - computed: true, optional: false, required: false
+  public get operation() {
+    return this.getStringAttribute('operation');
+  }
+}
+
+export class GoogleCesToolConnectorToolActionEntityOperationList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolConnectorToolActionEntityOperationOutputReference {
+    return new GoogleCesToolConnectorToolActionEntityOperationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolConnectorToolAction {
+}
+
+export function googleCesToolConnectorToolActionToTerraform(struct?: GoogleCesToolConnectorToolAction): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolConnectorToolActionToHclTerraform(struct?: GoogleCesToolConnectorToolAction): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolConnectorToolActionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolConnectorToolAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolConnectorToolAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // connection_action_id - computed: true, optional: false, required: false
+  public get connectionActionId() {
+    return this.getStringAttribute('connection_action_id');
+  }
+
+  // entity_operation - computed: true, optional: false, required: false
+  private _entityOperation = new GoogleCesToolConnectorToolActionEntityOperationList(this, "entity_operation", false);
+  public get entityOperation() {
+    return this._entityOperation;
+  }
+
+  // input_fields - computed: true, optional: false, required: false
+  public get inputFields() {
+    return this.getListAttribute('input_fields');
+  }
+
+  // output_fields - computed: true, optional: false, required: false
+  public get outputFields() {
+    return this.getListAttribute('output_fields');
+  }
+}
+
+export class GoogleCesToolConnectorToolActionList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolConnectorToolActionOutputReference {
+    return new GoogleCesToolConnectorToolActionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolConnectorTool {
+}
+
+export function googleCesToolConnectorToolToTerraform(struct?: GoogleCesToolConnectorTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolConnectorToolToHclTerraform(struct?: GoogleCesToolConnectorTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolConnectorToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolConnectorTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolConnectorTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // action - computed: true, optional: false, required: false
+  private _action = new GoogleCesToolConnectorToolActionList(this, "action", false);
+  public get action() {
+    return this._action;
+  }
+
+  // auth_config - computed: true, optional: false, required: false
+  public get authConfig() {
+    return this.getStringAttribute('auth_config');
+  }
+
+  // connection - computed: true, optional: false, required: false
+  public get connection() {
+    return this.getStringAttribute('connection');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+
+export class GoogleCesToolConnectorToolList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolConnectorToolOutputReference {
+    return new GoogleCesToolConnectorToolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolApiAuthenticationApiKeyConfig {
+}
+
+export function googleCesToolMcpToolApiAuthenticationApiKeyConfigToTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationApiKeyConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolApiAuthenticationApiKeyConfigToHclTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationApiKeyConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolApiAuthenticationApiKeyConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolApiAuthenticationApiKeyConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // api_key_secret_version - computed: true, optional: false, required: false
+  public get apiKeySecretVersion() {
+    return this.getStringAttribute('api_key_secret_version');
+  }
+
+  // key_name - computed: true, optional: false, required: false
+  public get keyName() {
+    return this.getStringAttribute('key_name');
+  }
+
+  // request_location - computed: true, optional: false, required: false
+  public get requestLocation() {
+    return this.getStringAttribute('request_location');
+  }
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference {
+    return new GoogleCesToolMcpToolApiAuthenticationApiKeyConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig {
+}
+
+export function googleCesToolMcpToolApiAuthenticationBearerTokenConfigToTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolApiAuthenticationBearerTokenConfigToHclTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolApiAuthenticationBearerTokenConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // token - computed: true, optional: false, required: false
+  public get token() {
+    return this.getStringAttribute('token');
+  }
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference {
+    return new GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolApiAuthenticationOauthConfig {
+}
+
+export function googleCesToolMcpToolApiAuthenticationOauthConfigToTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationOauthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolApiAuthenticationOauthConfigToHclTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationOauthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolApiAuthenticationOauthConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolApiAuthenticationOauthConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+
+  // client_secret_version - computed: true, optional: false, required: false
+  public get clientSecretVersion() {
+    return this.getStringAttribute('client_secret_version');
+  }
+
+  // oauth_grant_type - computed: true, optional: false, required: false
+  public get oauthGrantType() {
+    return this.getStringAttribute('oauth_grant_type');
+  }
+
+  // scopes - computed: true, optional: false, required: false
+  public get scopes() {
+    return this.getListAttribute('scopes');
+  }
+
+  // token_endpoint - computed: true, optional: false, required: false
+  public get tokenEndpoint() {
+    return this.getStringAttribute('token_endpoint');
+  }
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationOauthConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference {
+    return new GoogleCesToolMcpToolApiAuthenticationOauthConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig {
+}
+
+export function googleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigToTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigToHclTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // service_account - computed: true, optional: false, required: false
+  public get serviceAccount() {
+    return this.getStringAttribute('service_account');
+  }
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference {
+    return new GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig {
+}
+
+export function googleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigToTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigToHclTerraform(struct?: GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference {
+    return new GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolApiAuthentication {
+}
+
+export function googleCesToolMcpToolApiAuthenticationToTerraform(struct?: GoogleCesToolMcpToolApiAuthentication): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolApiAuthenticationToHclTerraform(struct?: GoogleCesToolMcpToolApiAuthentication): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolApiAuthentication | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolApiAuthentication | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // api_key_config - computed: true, optional: false, required: false
+  private _apiKeyConfig = new GoogleCesToolMcpToolApiAuthenticationApiKeyConfigList(this, "api_key_config", false);
+  public get apiKeyConfig() {
+    return this._apiKeyConfig;
+  }
+
+  // bearer_token_config - computed: true, optional: false, required: false
+  private _bearerTokenConfig = new GoogleCesToolMcpToolApiAuthenticationBearerTokenConfigList(this, "bearer_token_config", false);
+  public get bearerTokenConfig() {
+    return this._bearerTokenConfig;
+  }
+
+  // oauth_config - computed: true, optional: false, required: false
+  private _oauthConfig = new GoogleCesToolMcpToolApiAuthenticationOauthConfigList(this, "oauth_config", false);
+  public get oauthConfig() {
+    return this._oauthConfig;
+  }
+
+  // service_account_auth_config - computed: true, optional: false, required: false
+  private _serviceAccountAuthConfig = new GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigList(this, "service_account_auth_config", false);
+  public get serviceAccountAuthConfig() {
+    return this._serviceAccountAuthConfig;
+  }
+
+  // service_agent_id_token_auth_config - computed: true, optional: false, required: false
+  private _serviceAgentIdTokenAuthConfig = new GoogleCesToolMcpToolApiAuthenticationServiceAgentIdTokenAuthConfigList(this, "service_agent_id_token_auth_config", false);
+  public get serviceAgentIdTokenAuthConfig() {
+    return this._serviceAgentIdTokenAuthConfig;
+  }
+}
+
+export class GoogleCesToolMcpToolApiAuthenticationList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolApiAuthenticationOutputReference {
+    return new GoogleCesToolMcpToolApiAuthenticationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolServiceDirectoryConfig {
+}
+
+export function googleCesToolMcpToolServiceDirectoryConfigToTerraform(struct?: GoogleCesToolMcpToolServiceDirectoryConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolServiceDirectoryConfigToHclTerraform(struct?: GoogleCesToolMcpToolServiceDirectoryConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolServiceDirectoryConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolServiceDirectoryConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolServiceDirectoryConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // service - computed: true, optional: false, required: false
+  public get service() {
+    return this.getStringAttribute('service');
+  }
+}
+
+export class GoogleCesToolMcpToolServiceDirectoryConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolServiceDirectoryConfigOutputReference {
+    return new GoogleCesToolMcpToolServiceDirectoryConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolTlsConfigCaCerts {
+}
+
+export function googleCesToolMcpToolTlsConfigCaCertsToTerraform(struct?: GoogleCesToolMcpToolTlsConfigCaCerts): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolTlsConfigCaCertsToHclTerraform(struct?: GoogleCesToolMcpToolTlsConfigCaCerts): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolTlsConfigCaCertsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolTlsConfigCaCerts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolTlsConfigCaCerts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cert - computed: true, optional: false, required: false
+  public get cert() {
+    return this.getStringAttribute('cert');
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+}
+
+export class GoogleCesToolMcpToolTlsConfigCaCertsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolTlsConfigCaCertsOutputReference {
+    return new GoogleCesToolMcpToolTlsConfigCaCertsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpToolTlsConfig {
+}
+
+export function googleCesToolMcpToolTlsConfigToTerraform(struct?: GoogleCesToolMcpToolTlsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolTlsConfigToHclTerraform(struct?: GoogleCesToolMcpToolTlsConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolTlsConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpToolTlsConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpToolTlsConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ca_certs - computed: true, optional: false, required: false
+  private _caCerts = new GoogleCesToolMcpToolTlsConfigCaCertsList(this, "ca_certs", false);
+  public get caCerts() {
+    return this._caCerts;
+  }
+}
+
+export class GoogleCesToolMcpToolTlsConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolTlsConfigOutputReference {
+    return new GoogleCesToolMcpToolTlsConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolMcpTool {
+}
+
+export function googleCesToolMcpToolToTerraform(struct?: GoogleCesToolMcpTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolMcpToolToHclTerraform(struct?: GoogleCesToolMcpTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolMcpToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolMcpTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolMcpTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // api_authentication - computed: true, optional: false, required: false
+  private _apiAuthentication = new GoogleCesToolMcpToolApiAuthenticationList(this, "api_authentication", false);
+  public get apiAuthentication() {
+    return this._apiAuthentication;
+  }
+
+  // custom_headers - computed: true, optional: false, required: false
+  private _customHeaders = new cdktn.StringMap(this, "custom_headers");
+  public get customHeaders() {
+    return this._customHeaders;
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // input_schema - computed: true, optional: false, required: false
+  public get inputSchema() {
+    return this.getStringAttribute('input_schema');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // name_override - computed: true, optional: false, required: false
+  public get nameOverride() {
+    return this.getStringAttribute('name_override');
+  }
+
+  // output_schema - computed: true, optional: false, required: false
+  public get outputSchema() {
+    return this.getStringAttribute('output_schema');
+  }
+
+  // server_address - computed: true, optional: false, required: false
+  public get serverAddress() {
+    return this.getStringAttribute('server_address');
+  }
+
+  // service_directory_config - computed: true, optional: false, required: false
+  private _serviceDirectoryConfig = new GoogleCesToolMcpToolServiceDirectoryConfigList(this, "service_directory_config", false);
+  public get serviceDirectoryConfig() {
+    return this._serviceDirectoryConfig;
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // tls_config - computed: true, optional: false, required: false
+  private _tlsConfig = new GoogleCesToolMcpToolTlsConfigList(this, "tls_config", false);
+  public get tlsConfig() {
+    return this._tlsConfig;
+  }
+}
+
+export class GoogleCesToolMcpToolList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolMcpToolOutputReference {
+    return new GoogleCesToolMcpToolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfig {
 }
@@ -100,7 +1245,7 @@ export interface GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfig {
 export function googleCesToolOpenApiToolApiAuthenticationApiKeyConfigToTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -110,7 +1255,7 @@ export function googleCesToolOpenApiToolApiAuthenticationApiKeyConfigToTerraform
 export function googleCesToolOpenApiToolApiAuthenticationApiKeyConfigToHclTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationApiKeyConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -185,7 +1330,7 @@ export interface GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfig {
 export function googleCesToolOpenApiToolApiAuthenticationBearerTokenConfigToTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -195,7 +1340,7 @@ export function googleCesToolOpenApiToolApiAuthenticationBearerTokenConfigToTerr
 export function googleCesToolOpenApiToolApiAuthenticationBearerTokenConfigToHclTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationBearerTokenConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -260,7 +1405,7 @@ export interface GoogleCesToolOpenApiToolApiAuthenticationOauthConfig {
 export function googleCesToolOpenApiToolApiAuthenticationOauthConfigToTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationOauthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -270,7 +1415,7 @@ export function googleCesToolOpenApiToolApiAuthenticationOauthConfigToTerraform(
 export function googleCesToolOpenApiToolApiAuthenticationOauthConfigToHclTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationOauthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -355,7 +1500,7 @@ export interface GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConf
 export function googleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigToTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -365,7 +1510,7 @@ export function googleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfi
 export function googleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfigToHclTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationServiceAccountAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -430,7 +1575,7 @@ export interface GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAut
 export function googleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigToTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -440,7 +1585,7 @@ export function googleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuth
 export function googleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfigToHclTerraform(struct?: GoogleCesToolOpenApiToolApiAuthenticationServiceAgentIdTokenAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -500,7 +1645,7 @@ export interface GoogleCesToolOpenApiToolApiAuthentication {
 export function googleCesToolOpenApiToolApiAuthenticationToTerraform(struct?: GoogleCesToolOpenApiToolApiAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -510,7 +1655,7 @@ export function googleCesToolOpenApiToolApiAuthenticationToTerraform(struct?: Go
 export function googleCesToolOpenApiToolApiAuthenticationToHclTerraform(struct?: GoogleCesToolOpenApiToolApiAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -600,7 +1745,7 @@ export interface GoogleCesToolOpenApiToolServiceDirectoryConfig {
 export function googleCesToolOpenApiToolServiceDirectoryConfigToTerraform(struct?: GoogleCesToolOpenApiToolServiceDirectoryConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -610,7 +1755,7 @@ export function googleCesToolOpenApiToolServiceDirectoryConfigToTerraform(struct
 export function googleCesToolOpenApiToolServiceDirectoryConfigToHclTerraform(struct?: GoogleCesToolOpenApiToolServiceDirectoryConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -675,7 +1820,7 @@ export interface GoogleCesToolOpenApiToolTlsConfigCaCerts {
 export function googleCesToolOpenApiToolTlsConfigCaCertsToTerraform(struct?: GoogleCesToolOpenApiToolTlsConfigCaCerts): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -685,7 +1830,7 @@ export function googleCesToolOpenApiToolTlsConfigCaCertsToTerraform(struct?: Goo
 export function googleCesToolOpenApiToolTlsConfigCaCertsToHclTerraform(struct?: GoogleCesToolOpenApiToolTlsConfigCaCerts): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -755,7 +1900,7 @@ export interface GoogleCesToolOpenApiToolTlsConfig {
 export function googleCesToolOpenApiToolTlsConfigToTerraform(struct?: GoogleCesToolOpenApiToolTlsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -765,7 +1910,7 @@ export function googleCesToolOpenApiToolTlsConfigToTerraform(struct?: GoogleCesT
 export function googleCesToolOpenApiToolTlsConfigToHclTerraform(struct?: GoogleCesToolOpenApiToolTlsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -831,7 +1976,7 @@ export interface GoogleCesToolOpenApiTool {
 export function googleCesToolOpenApiToolToTerraform(struct?: GoogleCesToolOpenApiTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -841,7 +1986,7 @@ export function googleCesToolOpenApiToolToTerraform(struct?: GoogleCesToolOpenAp
 export function googleCesToolOpenApiToolToHclTerraform(struct?: GoogleCesToolOpenApiTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -938,13 +2083,391 @@ export class GoogleCesToolOpenApiToolList extends cdktn.ComplexList {
     return new GoogleCesToolOpenApiToolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleCesToolRemoteAgentToolAgentCardSkills {
+}
+
+export function googleCesToolRemoteAgentToolAgentCardSkillsToTerraform(struct?: GoogleCesToolRemoteAgentToolAgentCardSkills): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolRemoteAgentToolAgentCardSkillsToHclTerraform(struct?: GoogleCesToolRemoteAgentToolAgentCardSkills): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolRemoteAgentToolAgentCardSkills | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolRemoteAgentToolAgentCardSkills | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // examples - computed: true, optional: false, required: false
+  public get examples() {
+    return this.getListAttribute('examples');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // input_modes - computed: true, optional: false, required: false
+  public get inputModes() {
+    return this.getListAttribute('input_modes');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // output_modes - computed: true, optional: false, required: false
+  public get outputModes() {
+    return this.getListAttribute('output_modes');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  public get tags() {
+    return this.getListAttribute('tags');
+  }
+}
+
+export class GoogleCesToolRemoteAgentToolAgentCardSkillsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference {
+    return new GoogleCesToolRemoteAgentToolAgentCardSkillsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces {
+}
+
+export function googleCesToolRemoteAgentToolAgentCardSupportedInterfacesToTerraform(struct?: GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolRemoteAgentToolAgentCardSupportedInterfacesToHclTerraform(struct?: GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolRemoteAgentToolAgentCardSupportedInterfaces | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // protocol_binding - computed: true, optional: false, required: false
+  public get protocolBinding() {
+    return this.getStringAttribute('protocol_binding');
+  }
+
+  // protocol_version - computed: true, optional: false, required: false
+  public get protocolVersion() {
+    return this.getStringAttribute('protocol_version');
+  }
+
+  // tenant - computed: true, optional: false, required: false
+  public get tenant() {
+    return this.getStringAttribute('tenant');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+}
+
+export class GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference {
+    return new GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolRemoteAgentToolAgentCard {
+}
+
+export function googleCesToolRemoteAgentToolAgentCardToTerraform(struct?: GoogleCesToolRemoteAgentToolAgentCard): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolRemoteAgentToolAgentCardToHclTerraform(struct?: GoogleCesToolRemoteAgentToolAgentCard): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolRemoteAgentToolAgentCardOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolRemoteAgentToolAgentCard | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolRemoteAgentToolAgentCard | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // skills - computed: true, optional: false, required: false
+  private _skills = new GoogleCesToolRemoteAgentToolAgentCardSkillsList(this, "skills", false);
+  public get skills() {
+    return this._skills;
+  }
+
+  // supported_interfaces - computed: true, optional: false, required: false
+  private _supportedInterfaces = new GoogleCesToolRemoteAgentToolAgentCardSupportedInterfacesList(this, "supported_interfaces", false);
+  public get supportedInterfaces() {
+    return this._supportedInterfaces;
+  }
+
+  // version - computed: true, optional: false, required: false
+  public get version() {
+    return this.getStringAttribute('version');
+  }
+}
+
+export class GoogleCesToolRemoteAgentToolAgentCardList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolRemoteAgentToolAgentCardOutputReference {
+    return new GoogleCesToolRemoteAgentToolAgentCardOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolRemoteAgentTool {
+}
+
+export function googleCesToolRemoteAgentToolToTerraform(struct?: GoogleCesToolRemoteAgentTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolRemoteAgentToolToHclTerraform(struct?: GoogleCesToolRemoteAgentTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolRemoteAgentToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolRemoteAgentTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolRemoteAgentTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // agent_card - computed: true, optional: false, required: false
+  private _agentCard = new GoogleCesToolRemoteAgentToolAgentCardList(this, "agent_card", false);
+  public get agentCard() {
+    return this._agentCard;
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+
+export class GoogleCesToolRemoteAgentToolList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolRemoteAgentToolOutputReference {
+    return new GoogleCesToolRemoteAgentToolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleCesToolSystemTool {
 }
 
 export function googleCesToolSystemToolToTerraform(struct?: GoogleCesToolSystemTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -954,7 +2477,7 @@ export function googleCesToolSystemToolToTerraform(struct?: GoogleCesToolSystemT
 export function googleCesToolSystemToolToHclTerraform(struct?: GoogleCesToolSystemTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1018,19 +2541,173 @@ export class GoogleCesToolSystemToolList extends cdktn.ComplexList {
     return new GoogleCesToolSystemToolOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleCesToolAgentTool {
+  /**
+  * Optional. The resource name of the agent that is the entry point of the tool.
+  * Format: projects/{project}/locations/{location}/agents/{agent}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#agent GoogleCesTool#agent}
+  */
+  readonly agent?: string;
+  /**
+  * Optional. Description of the tool's purpose.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  */
+  readonly description?: string;
+  /**
+  * Required. The name of the agent tool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  */
+  readonly name: string;
+}
+
+export function googleCesToolAgentToolToTerraform(struct?: GoogleCesToolAgentToolOutputReference | GoogleCesToolAgentTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    agent: cdktn.stringToTerraform(struct!.agent),
+    description: cdktn.stringToTerraform(struct!.description),
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function googleCesToolAgentToolToHclTerraform(struct?: GoogleCesToolAgentToolOutputReference | GoogleCesToolAgentTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    agent: {
+      value: cdktn.stringToHclTerraform(struct!.agent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktn.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolAgentToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolAgentTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agent = this._agent;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolAgentTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._agent = undefined;
+      this._description = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._agent = value.agent;
+      this._description = value.description;
+      this._name = value.name;
+    }
+  }
+
+  // agent - computed: false, optional: true, required: false
+  private _agent?: string; 
+  public get agent() {
+    return this.getStringAttribute('agent');
+  }
+  public set agent(value: string) {
+    this._agent = value;
+  }
+  public resetAgent() {
+    this._agent = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentInput() {
+    return this._agent;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
 export interface GoogleCesToolClientFunctionParameters {
   /**
   * Defines the schema for additional properties allowed in an object.
   * The value must be a valid JSON string representing the Schema object.
   * (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The instance value should be valid against at least one of the schemas in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
   */
   readonly anyOf?: string;
   /**
@@ -1039,19 +2716,19 @@ export interface GoogleCesToolClientFunctionParameters {
   * or a list of values. The provided default value must be compatible
   * with the defined 'type' and other schema constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
   */
   readonly default?: string;
   /**
   * A map of definitions for use by ref. Only allowed at the root of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
   */
   readonly defs?: string;
   /**
   * The description of the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
   */
   readonly description?: string;
   /**
@@ -1062,55 +2739,55 @@ export interface GoogleCesToolClientFunctionParameters {
   * 2. We can define apartment number as :
   * {type:INTEGER, format:enum, enum:["101", "201", "301"]}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
   */
   readonly enum?: string[];
   /**
   * Schema of the elements of Type.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
   */
   readonly items?: string;
   /**
   * Maximum number of the elements for Type.ARRAY. (int64 format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
   */
   readonly maxItems?: number;
   /**
   * Maximum value for Type.INTEGER and Type.NUMBER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
   */
   readonly maximum?: number;
   /**
   * Minimum number of the elements for Type.ARRAY. (int64 format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
   */
   readonly minItems?: number;
   /**
   * Minimum value for Type.INTEGER and Type.NUMBER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
   */
   readonly minimum?: number;
   /**
   * Indicates if the value may be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * Schemas of initial elements of Type.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
   */
   readonly prefixItems?: string;
   /**
   * Properties of Type.OBJECT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
   */
   readonly properties?: string;
   /**
@@ -1133,19 +2810,19 @@ export interface GoogleCesToolClientFunctionParameters {
   * See details in
   * https://json-schema.org/understanding-json-schema/structuring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
   */
   readonly ref?: string;
   /**
   * Required properties of Type.OBJECT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
   */
   readonly required?: string[];
   /**
   * The title of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
   */
   readonly title?: string;
   /**
@@ -1158,13 +2835,13 @@ export interface GoogleCesToolClientFunctionParameters {
   * OBJECT
   * ARRAY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
   */
   readonly type: string;
   /**
   * Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
   */
   readonly uniqueItems?: boolean | cdktn.IResolvable;
 }
@@ -1172,7 +2849,7 @@ export interface GoogleCesToolClientFunctionParameters {
 export function googleCesToolClientFunctionParametersToTerraform(struct?: GoogleCesToolClientFunctionParametersOutputReference | GoogleCesToolClientFunctionParameters): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     additional_properties: cdktn.stringToTerraform(struct!.additionalProperties),
@@ -1201,7 +2878,7 @@ export function googleCesToolClientFunctionParametersToTerraform(struct?: Google
 export function googleCesToolClientFunctionParametersToHclTerraform(struct?: GoogleCesToolClientFunctionParametersOutputReference | GoogleCesToolClientFunctionParameters): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     additional_properties: {
@@ -1771,13 +3448,13 @@ export interface GoogleCesToolClientFunctionResponse {
   * The value must be a valid JSON string representing the Schema object.
   * (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The instance value should be valid against at least one of the schemas in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
   */
   readonly anyOf?: string;
   /**
@@ -1786,19 +3463,19 @@ export interface GoogleCesToolClientFunctionResponse {
   * or a list of values. The provided default value must be compatible
   * with the defined 'type' and other schema constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
   */
   readonly default?: string;
   /**
   * A map of definitions for use by ref. Only allowed at the root of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
   */
   readonly defs?: string;
   /**
   * The description of the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
   */
   readonly description?: string;
   /**
@@ -1809,55 +3486,55 @@ export interface GoogleCesToolClientFunctionResponse {
   * 2. We can define apartment number as :
   * {type:INTEGER, format:enum, enum:["101", "201", "301"]}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
   */
   readonly enum?: string[];
   /**
   * Schema of the elements of Type.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
   */
   readonly items?: string;
   /**
   * Maximum number of the elements for Type.ARRAY. (int64 format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
   */
   readonly maxItems?: number;
   /**
   * Maximum value for Type.INTEGER and Type.NUMBER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
   */
   readonly maximum?: number;
   /**
   * Minimum number of the elements for Type.ARRAY. (int64 format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
   */
   readonly minItems?: number;
   /**
   * Minimum value for Type.INTEGER and Type.NUMBER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
   */
   readonly minimum?: number;
   /**
   * Indicates if the value may be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * Schemas of initial elements of Type.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
   */
   readonly prefixItems?: string;
   /**
   * Properties of Type.OBJECT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
   */
   readonly properties?: string;
   /**
@@ -1880,19 +3557,19 @@ export interface GoogleCesToolClientFunctionResponse {
   * See details in
   * https://json-schema.org/understanding-json-schema/structuring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
   */
   readonly ref?: string;
   /**
   * Required properties of Type.OBJECT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
   */
   readonly required?: string[];
   /**
   * The title of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
   */
   readonly title?: string;
   /**
@@ -1905,13 +3582,13 @@ export interface GoogleCesToolClientFunctionResponse {
   * OBJECT
   * ARRAY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
   */
   readonly type: string;
   /**
   * Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
   */
   readonly uniqueItems?: boolean | cdktn.IResolvable;
 }
@@ -1919,7 +3596,7 @@ export interface GoogleCesToolClientFunctionResponse {
 export function googleCesToolClientFunctionResponseToTerraform(struct?: GoogleCesToolClientFunctionResponseOutputReference | GoogleCesToolClientFunctionResponse): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     additional_properties: cdktn.stringToTerraform(struct!.additionalProperties),
@@ -1948,7 +3625,7 @@ export function googleCesToolClientFunctionResponseToTerraform(struct?: GoogleCe
 export function googleCesToolClientFunctionResponseToHclTerraform(struct?: GoogleCesToolClientFunctionResponseOutputReference | GoogleCesToolClientFunctionResponse): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     additional_properties: {
@@ -2516,25 +4193,25 @@ export interface GoogleCesToolClientFunction {
   /**
   * The function description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
   */
   readonly description?: string;
   /**
   * The function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
   */
   readonly name: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
   */
   readonly parameters?: GoogleCesToolClientFunctionParameters;
   /**
   * response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#response GoogleCesTool#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#response GoogleCesTool#response}
   */
   readonly response?: GoogleCesToolClientFunctionResponse;
 }
@@ -2542,7 +4219,7 @@ export interface GoogleCesToolClientFunction {
 export function googleCesToolClientFunctionToTerraform(struct?: GoogleCesToolClientFunctionOutputReference | GoogleCesToolClientFunction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -2556,7 +4233,7 @@ export function googleCesToolClientFunctionToTerraform(struct?: GoogleCesToolCli
 export function googleCesToolClientFunctionToHclTerraform(struct?: GoogleCesToolClientFunctionOutputReference | GoogleCesToolClientFunction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -2709,14 +4386,14 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoos
   * restricted subset of an ISO 8601 duration value). The pattern for
   * this is: 'nDnM]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#attribute_value GoogleCesTool#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#attribute_value GoogleCesTool#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * The value between -1 to 1 by which to boost the score if the
   * attribute_value evaluates to the value specified above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost_amount GoogleCesTool#boost_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost_amount GoogleCesTool#boost_amount}
   */
   readonly boostAmount?: number;
 }
@@ -2724,7 +4401,7 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoos
 export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsToTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     attribute_value: cdktn.stringToTerraform(struct!.attributeValue),
@@ -2736,7 +4413,7 @@ export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoost
 export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPointsToHclTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     attribute_value: {
@@ -2870,14 +4547,14 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoos
   * NUMERICAL
   * FRESHNESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#attribute_type GoogleCesTool#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#attribute_type GoogleCesTool#attribute_type}
   */
   readonly attributeType?: string;
   /**
   * The name of the field whose value will be used to determine the
   * boost amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#field_name GoogleCesTool#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#field_name GoogleCesTool#field_name}
   */
   readonly fieldName?: string;
   /**
@@ -2886,13 +4563,13 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoos
   * Possible values:
   * LINEAR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#interpolation_type GoogleCesTool#interpolation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#interpolation_type GoogleCesTool#interpolation_type}
   */
   readonly interpolationType?: string;
   /**
   * control_points block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#control_points GoogleCesTool#control_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#control_points GoogleCesTool#control_points}
   */
   readonly controlPoints?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecControlPoints[] | cdktn.IResolvable;
 }
@@ -2900,7 +4577,7 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoos
 export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecToTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference | GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     attribute_type: cdktn.stringToTerraform(struct!.attributeType),
@@ -2914,7 +4591,7 @@ export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoost
 export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecToHclTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpecOutputReference | GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     attribute_type: {
@@ -3072,7 +4749,7 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs {
   * Setting to 0.0 means no boost applied. The boosting condition is
   * ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost GoogleCesTool#boost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost GoogleCesTool#boost}
   */
   readonly boost?: number;
   /**
@@ -3082,13 +4759,13 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs {
   * Example: To boost suggestions in languages en or fr:
   * (lang_code: ANY("en", "fr"))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#condition GoogleCesTool#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#condition GoogleCesTool#condition}
   */
   readonly condition: string;
   /**
   * boost_control_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost_control_spec GoogleCesTool#boost_control_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost_control_spec GoogleCesTool#boost_control_spec}
   */
   readonly boostControlSpec?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsBoostControlSpec;
 }
@@ -3096,7 +4773,7 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs {
 export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsToTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     boost: cdktn.numberToTerraform(struct!.boost),
@@ -3109,7 +4786,7 @@ export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsToTer
 export function googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsToHclTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     boost: {
@@ -3261,7 +4938,7 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpec {
   /**
   * condition_boost_specs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#condition_boost_specs GoogleCesTool#condition_boost_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#condition_boost_specs GoogleCesTool#condition_boost_specs}
   */
   readonly conditionBoostSpecs: GoogleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecs[] | cdktn.IResolvable;
 }
@@ -3269,7 +4946,7 @@ export interface GoogleCesToolDataStoreToolBoostSpecsSpec {
 export function googleCesToolDataStoreToolBoostSpecsSpecToTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpec | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     condition_boost_specs: cdktn.listMapper(googleCesToolDataStoreToolBoostSpecsSpecConditionBoostSpecsToTerraform, true)(struct!.conditionBoostSpecs),
@@ -3280,7 +4957,7 @@ export function googleCesToolDataStoreToolBoostSpecsSpecToTerraform(struct?: Goo
 export function googleCesToolDataStoreToolBoostSpecsSpecToHclTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecsSpec | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     condition_boost_specs: {
@@ -3378,13 +5055,13 @@ export interface GoogleCesToolDataStoreToolBoostSpecs {
   * name of DataStore, such as
   * projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_stores GoogleCesTool#data_stores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_stores GoogleCesTool#data_stores}
   */
   readonly dataStores: string[];
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#spec GoogleCesTool#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#spec GoogleCesTool#spec}
   */
   readonly spec: GoogleCesToolDataStoreToolBoostSpecsSpec[] | cdktn.IResolvable;
 }
@@ -3392,7 +5069,7 @@ export interface GoogleCesToolDataStoreToolBoostSpecs {
 export function googleCesToolDataStoreToolBoostSpecsToTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_stores: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.dataStores),
@@ -3404,7 +5081,7 @@ export function googleCesToolDataStoreToolBoostSpecsToTerraform(struct?: GoogleC
 export function googleCesToolDataStoreToolBoostSpecsToHclTerraform(struct?: GoogleCesToolDataStoreToolBoostSpecs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_stores: {
@@ -3521,13 +5198,330 @@ export class GoogleCesToolDataStoreToolBoostSpecsList extends cdktn.ComplexList 
     return new GoogleCesToolDataStoreToolBoostSpecsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig {
+}
+
+export function googleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigToTerraform(struct?: GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigToHclTerraform(struct?: GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // collection - computed: true, optional: false, required: false
+  public get collection() {
+    return this.getStringAttribute('collection');
+  }
+
+  // collection_display_name - computed: true, optional: false, required: false
+  public get collectionDisplayName() {
+    return this.getStringAttribute('collection_display_name');
+  }
+
+  // data_source - computed: true, optional: false, required: false
+  public get dataSource() {
+    return this.getStringAttribute('data_source');
+  }
+}
+
+export class GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference {
+    return new GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesToolDataStoreToolDataStoreSourceDataStore {
+  /**
+  * Full resource name of the DataStore.
+  * Format: projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  */
+  readonly name: string;
+}
+
+export function googleCesToolDataStoreToolDataStoreSourceDataStoreToTerraform(struct?: GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference | GoogleCesToolDataStoreToolDataStoreSourceDataStore): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function googleCesToolDataStoreToolDataStoreSourceDataStoreToHclTerraform(struct?: GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference | GoogleCesToolDataStoreToolDataStoreSourceDataStore): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolDataStoreToolDataStoreSourceDataStore | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolDataStoreToolDataStoreSourceDataStore | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+    }
+  }
+
+  // connector_config - computed: true, optional: false, required: false
+  private _connectorConfig = new GoogleCesToolDataStoreToolDataStoreSourceDataStoreConnectorConfigList(this, "connector_config", false);
+  public get connectorConfig() {
+    return this._connectorConfig;
+  }
+
+  // create_time - computed: true, optional: false, required: false
+  public get createTime() {
+    return this.getStringAttribute('create_time');
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // document_processing_mode - computed: true, optional: false, required: false
+  public get documentProcessingMode() {
+    return this.getStringAttribute('document_processing_mode');
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+export interface GoogleCesToolDataStoreToolDataStoreSource {
+  /**
+  * Optional. Filter specification for the DataStore.
+  * See: https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+  */
+  readonly filter?: string;
+  /**
+  * data_store block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store GoogleCesTool#data_store}
+  */
+  readonly dataStore?: GoogleCesToolDataStoreToolDataStoreSourceDataStore;
+}
+
+export function googleCesToolDataStoreToolDataStoreSourceToTerraform(struct?: GoogleCesToolDataStoreToolDataStoreSourceOutputReference | GoogleCesToolDataStoreToolDataStoreSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    filter: cdktn.stringToTerraform(struct!.filter),
+    data_store: googleCesToolDataStoreToolDataStoreSourceDataStoreToTerraform(struct!.dataStore),
+  }
+}
+
+
+export function googleCesToolDataStoreToolDataStoreSourceToHclTerraform(struct?: GoogleCesToolDataStoreToolDataStoreSourceOutputReference | GoogleCesToolDataStoreToolDataStoreSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    filter: {
+      value: cdktn.stringToHclTerraform(struct!.filter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    data_store: {
+      value: googleCesToolDataStoreToolDataStoreSourceDataStoreToHclTerraform(struct!.dataStore),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesToolDataStoreToolDataStoreSourceDataStoreList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolDataStoreToolDataStoreSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolDataStoreToolDataStoreSource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._filter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filter = this._filter;
+    }
+    if (this._dataStore?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataStore = this._dataStore?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolDataStoreToolDataStoreSource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._filter = undefined;
+      this._dataStore.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._filter = value.filter;
+      this._dataStore.internalValue = value.dataStore;
+    }
+  }
+
+  // filter - computed: false, optional: true, required: false
+  private _filter?: string; 
+  public get filter() {
+    return this.getStringAttribute('filter');
+  }
+  public set filter(value: string) {
+    this._filter = value;
+  }
+  public resetFilter() {
+    this._filter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterInput() {
+    return this._filter;
+  }
+
+  // data_store - computed: false, optional: true, required: false
+  private _dataStore = new GoogleCesToolDataStoreToolDataStoreSourceDataStoreOutputReference(this, "data_store");
+  public get dataStore() {
+    return this._dataStore;
+  }
+  public putDataStore(value: GoogleCesToolDataStoreToolDataStoreSourceDataStore) {
+    this._dataStore.internalValue = value;
+  }
+  public resetDataStore() {
+    this._dataStore.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataStoreInput() {
+    return this._dataStore.internalValue;
+  }
+}
 export interface GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig {
 }
 
 export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigToTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -3537,7 +5531,7 @@ export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreC
 export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfigToHclTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreConnectorConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -3612,7 +5606,7 @@ export interface GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore
   * Format:
   * 'projects/{project}/locations/{location}/collections/{collection}/dataStores/{dataStore}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
   */
   readonly name: string;
 }
@@ -3620,7 +5614,7 @@ export interface GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore
 export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreToTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference | GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -3631,7 +5625,7 @@ export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreT
 export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreToHclTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStoreOutputReference | GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -3723,13 +5717,13 @@ export interface GoogleCesToolDataStoreToolEngineSourceDataStoreSources {
   * See:
   * https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
   */
   readonly filter?: string;
   /**
   * data_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store GoogleCesTool#data_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store GoogleCesTool#data_store}
   */
   readonly dataStore?: GoogleCesToolDataStoreToolEngineSourceDataStoreSourcesDataStore;
 }
@@ -3737,7 +5731,7 @@ export interface GoogleCesToolDataStoreToolEngineSourceDataStoreSources {
 export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesToTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceDataStoreSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     filter: cdktn.stringToTerraform(struct!.filter),
@@ -3749,7 +5743,7 @@ export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesToTerrafor
 export function googleCesToolDataStoreToolEngineSourceDataStoreSourcesToHclTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceDataStoreSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     filter: {
@@ -3878,7 +5872,7 @@ export interface GoogleCesToolDataStoreToolEngineSource {
   * Format:
   * 'projects/{project}/locations/{location}/collections/{collection}/engines/{engine}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#engine GoogleCesTool#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#engine GoogleCesTool#engine}
   */
   readonly engine: string;
   /**
@@ -3887,13 +5881,13 @@ export interface GoogleCesToolDataStoreToolEngineSource {
   * See:
   * https://cloud.google.com/generative-ai-app-builder/docs/filter-search-metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter GoogleCesTool#filter}
   */
   readonly filter?: string;
   /**
   * data_store_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#data_store_sources GoogleCesTool#data_store_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_sources GoogleCesTool#data_store_sources}
   */
   readonly dataStoreSources?: GoogleCesToolDataStoreToolEngineSourceDataStoreSources[] | cdktn.IResolvable;
 }
@@ -3901,7 +5895,7 @@ export interface GoogleCesToolDataStoreToolEngineSource {
 export function googleCesToolDataStoreToolEngineSourceToTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceOutputReference | GoogleCesToolDataStoreToolEngineSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     engine: cdktn.stringToTerraform(struct!.engine),
@@ -3914,7 +5908,7 @@ export function googleCesToolDataStoreToolEngineSourceToTerraform(struct?: Googl
 export function googleCesToolDataStoreToolEngineSourceToHclTerraform(struct?: GoogleCesToolDataStoreToolEngineSourceOutputReference | GoogleCesToolDataStoreToolEngineSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     engine: {
@@ -4034,7 +6028,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsGroundingConfig {
   /**
   * Whether grounding is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
@@ -4046,7 +6040,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsGroundingConfig {
   * For example, a level of 3 means that the groundedness score must be
   * 3 or higher for the response to be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
   */
   readonly groundingLevel?: number;
 }
@@ -4054,7 +6048,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsGroundingConfig {
 export function googleCesToolDataStoreToolModalityConfigsGroundingConfigToTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsGroundingConfigOutputReference | GoogleCesToolDataStoreToolModalityConfigsGroundingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disabled: cdktn.booleanToTerraform(struct!.disabled),
@@ -4066,7 +6060,7 @@ export function googleCesToolDataStoreToolModalityConfigsGroundingConfigToTerraf
 export function googleCesToolDataStoreToolModalityConfigsGroundingConfigToHclTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsGroundingConfigOutputReference | GoogleCesToolDataStoreToolModalityConfigsGroundingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disabled: {
@@ -4162,7 +6156,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSet
   * The LLM model that the agent should use.
   * If not set, the agent will inherit the model from its parent agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
   */
   readonly model?: string;
   /**
@@ -4171,7 +6165,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSet
   * produce responses that are more predictable. Higher temperatures produce
   * responses that are more creative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
   */
   readonly temperature?: number;
 }
@@ -4179,7 +6173,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSet
 export function googleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettingsToTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference | GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     model: cdktn.stringToTerraform(struct!.model),
@@ -4191,7 +6185,7 @@ export function googleCesToolDataStoreToolModalityConfigsRewriterConfigModelSett
 export function googleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettingsToHclTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettingsOutputReference | GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     model: {
@@ -4286,19 +6280,19 @@ export interface GoogleCesToolDataStoreToolModalityConfigsRewriterConfig {
   /**
   * Whether the rewriter is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The prompt definition. If not set, default prompt will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
   */
   readonly prompt?: string;
   /**
   * model_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
   */
   readonly modelSettings: GoogleCesToolDataStoreToolModalityConfigsRewriterConfigModelSettings;
 }
@@ -4306,7 +6300,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsRewriterConfig {
 export function googleCesToolDataStoreToolModalityConfigsRewriterConfigToTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsRewriterConfigOutputReference | GoogleCesToolDataStoreToolModalityConfigsRewriterConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disabled: cdktn.booleanToTerraform(struct!.disabled),
@@ -4319,7 +6313,7 @@ export function googleCesToolDataStoreToolModalityConfigsRewriterConfigToTerrafo
 export function googleCesToolDataStoreToolModalityConfigsRewriterConfigToHclTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsRewriterConfigOutputReference | GoogleCesToolDataStoreToolModalityConfigsRewriterConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disabled: {
@@ -4440,7 +6434,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigMod
   * The LLM model that the agent should use.
   * If not set, the agent will inherit the model from its parent agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model GoogleCesTool#model}
   */
   readonly model?: string;
   /**
@@ -4449,7 +6443,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigMod
   * produce responses that are more predictable. Higher temperatures produce
   * responses that are more creative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#temperature GoogleCesTool#temperature}
   */
   readonly temperature?: number;
 }
@@ -4457,7 +6451,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigMod
 export function googleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsToTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference | GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     model: cdktn.stringToTerraform(struct!.model),
@@ -4469,7 +6463,7 @@ export function googleCesToolDataStoreToolModalityConfigsSummarizationConfigMode
 export function googleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsToHclTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference | GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     model: {
@@ -4564,19 +6558,19 @@ export interface GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig {
   /**
   * Whether summarization is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The prompt definition. If not set, default prompt will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt GoogleCesTool#prompt}
   */
   readonly prompt?: string;
   /**
   * model_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#model_settings GoogleCesTool#model_settings}
   */
   readonly modelSettings?: GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettings;
 }
@@ -4584,7 +6578,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig {
 export function googleCesToolDataStoreToolModalityConfigsSummarizationConfigToTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigOutputReference | GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disabled: cdktn.booleanToTerraform(struct!.disabled),
@@ -4597,7 +6591,7 @@ export function googleCesToolDataStoreToolModalityConfigsSummarizationConfigToTe
 export function googleCesToolDataStoreToolModalityConfigsSummarizationConfigToHclTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigOutputReference | GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disabled: {
@@ -4723,25 +6717,25 @@ export interface GoogleCesToolDataStoreToolModalityConfigs {
   * TEXT
   * AUDIO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#modality_type GoogleCesTool#modality_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#modality_type GoogleCesTool#modality_type}
   */
   readonly modalityType: string;
   /**
   * grounding_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#grounding_config GoogleCesTool#grounding_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#grounding_config GoogleCesTool#grounding_config}
   */
   readonly groundingConfig?: GoogleCesToolDataStoreToolModalityConfigsGroundingConfig;
   /**
   * rewriter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#rewriter_config GoogleCesTool#rewriter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#rewriter_config GoogleCesTool#rewriter_config}
   */
   readonly rewriterConfig?: GoogleCesToolDataStoreToolModalityConfigsRewriterConfig;
   /**
   * summarization_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#summarization_config GoogleCesTool#summarization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#summarization_config GoogleCesTool#summarization_config}
   */
   readonly summarizationConfig?: GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig;
 }
@@ -4749,7 +6743,7 @@ export interface GoogleCesToolDataStoreToolModalityConfigs {
 export function googleCesToolDataStoreToolModalityConfigsToTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     modality_type: cdktn.stringToTerraform(struct!.modalityType),
@@ -4763,7 +6757,7 @@ export function googleCesToolDataStoreToolModalityConfigsToTerraform(struct?: Go
 export function googleCesToolDataStoreToolModalityConfigsToHclTerraform(struct?: GoogleCesToolDataStoreToolModalityConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     modality_type: {
@@ -4943,38 +6937,54 @@ export interface GoogleCesToolDataStoreTool {
   /**
   * The tool description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
   */
   readonly description?: string;
+  /**
+  * Optional. The filter parameter behavior.
+  * Possible values:
+  * FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED
+  * ALWAYS_INCLUDE
+  * NEVER_INCLUDE Possible values: ["FILTER_PARAMETER_BEHAVIOR_UNSPECIFIED", "ALWAYS_INCLUDE", "NEVER_INCLUDE"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#filter_parameter_behavior GoogleCesTool#filter_parameter_behavior}
+  */
+  readonly filterParameterBehavior?: string;
   /**
   * Number of search results to return per query.
   * The default value is 10. The maximum allowed value is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#max_results GoogleCesTool#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_results GoogleCesTool#max_results}
   */
   readonly maxResults?: number;
   /**
   * The data store tool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
   */
   readonly name: string;
   /**
   * boost_specs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#boost_specs GoogleCesTool#boost_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#boost_specs GoogleCesTool#boost_specs}
   */
   readonly boostSpecs?: GoogleCesToolDataStoreToolBoostSpecs[] | cdktn.IResolvable;
   /**
+  * data_store_source block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_store_source GoogleCesTool#data_store_source}
+  */
+  readonly dataStoreSource?: GoogleCesToolDataStoreToolDataStoreSource;
+  /**
   * engine_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#engine_source GoogleCesTool#engine_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#engine_source GoogleCesTool#engine_source}
   */
   readonly engineSource?: GoogleCesToolDataStoreToolEngineSource;
   /**
   * modality_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#modality_configs GoogleCesTool#modality_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#modality_configs GoogleCesTool#modality_configs}
   */
   readonly modalityConfigs?: GoogleCesToolDataStoreToolModalityConfigs[] | cdktn.IResolvable;
 }
@@ -4982,13 +6992,15 @@ export interface GoogleCesToolDataStoreTool {
 export function googleCesToolDataStoreToolToTerraform(struct?: GoogleCesToolDataStoreToolOutputReference | GoogleCesToolDataStoreTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
+    filter_parameter_behavior: cdktn.stringToTerraform(struct!.filterParameterBehavior),
     max_results: cdktn.numberToTerraform(struct!.maxResults),
     name: cdktn.stringToTerraform(struct!.name),
     boost_specs: cdktn.listMapper(googleCesToolDataStoreToolBoostSpecsToTerraform, true)(struct!.boostSpecs),
+    data_store_source: googleCesToolDataStoreToolDataStoreSourceToTerraform(struct!.dataStoreSource),
     engine_source: googleCesToolDataStoreToolEngineSourceToTerraform(struct!.engineSource),
     modality_configs: cdktn.listMapper(googleCesToolDataStoreToolModalityConfigsToTerraform, true)(struct!.modalityConfigs),
   }
@@ -4998,11 +7010,17 @@ export function googleCesToolDataStoreToolToTerraform(struct?: GoogleCesToolData
 export function googleCesToolDataStoreToolToHclTerraform(struct?: GoogleCesToolDataStoreToolOutputReference | GoogleCesToolDataStoreTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
       value: cdktn.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    filter_parameter_behavior: {
+      value: cdktn.stringToHclTerraform(struct!.filterParameterBehavior),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5024,6 +7042,12 @@ export function googleCesToolDataStoreToolToHclTerraform(struct?: GoogleCesToolD
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCesToolDataStoreToolBoostSpecsList",
+    },
+    data_store_source: {
+      value: googleCesToolDataStoreToolDataStoreSourceToHclTerraform(struct!.dataStoreSource),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesToolDataStoreToolDataStoreSourceList",
     },
     engine_source: {
       value: googleCesToolDataStoreToolEngineSourceToHclTerraform(struct!.engineSource),
@@ -5061,6 +7085,10 @@ export class GoogleCesToolDataStoreToolOutputReference extends cdktn.ComplexObje
       hasAnyValues = true;
       internalValueResult.description = this._description;
     }
+    if (this._filterParameterBehavior !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.filterParameterBehavior = this._filterParameterBehavior;
+    }
     if (this._maxResults !== undefined) {
       hasAnyValues = true;
       internalValueResult.maxResults = this._maxResults;
@@ -5072,6 +7100,10 @@ export class GoogleCesToolDataStoreToolOutputReference extends cdktn.ComplexObje
     if (this._boostSpecs?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.boostSpecs = this._boostSpecs?.internalValue;
+    }
+    if (this._dataStoreSource?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataStoreSource = this._dataStoreSource?.internalValue;
     }
     if (this._engineSource?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -5088,18 +7120,22 @@ export class GoogleCesToolDataStoreToolOutputReference extends cdktn.ComplexObje
     if (value === undefined) {
       this.isEmptyObject = false;
       this._description = undefined;
+      this._filterParameterBehavior = undefined;
       this._maxResults = undefined;
       this._name = undefined;
       this._boostSpecs.internalValue = undefined;
+      this._dataStoreSource.internalValue = undefined;
       this._engineSource.internalValue = undefined;
       this._modalityConfigs.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._description = value.description;
+      this._filterParameterBehavior = value.filterParameterBehavior;
       this._maxResults = value.maxResults;
       this._name = value.name;
       this._boostSpecs.internalValue = value.boostSpecs;
+      this._dataStoreSource.internalValue = value.dataStoreSource;
       this._engineSource.internalValue = value.engineSource;
       this._modalityConfigs.internalValue = value.modalityConfigs;
     }
@@ -5119,6 +7155,22 @@ export class GoogleCesToolDataStoreToolOutputReference extends cdktn.ComplexObje
   // Temporarily expose input value. Use with caution.
   public get descriptionInput() {
     return this._description;
+  }
+
+  // filter_parameter_behavior - computed: false, optional: true, required: false
+  private _filterParameterBehavior?: string; 
+  public get filterParameterBehavior() {
+    return this.getStringAttribute('filter_parameter_behavior');
+  }
+  public set filterParameterBehavior(value: string) {
+    this._filterParameterBehavior = value;
+  }
+  public resetFilterParameterBehavior() {
+    this._filterParameterBehavior = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get filterParameterBehaviorInput() {
+    return this._filterParameterBehavior;
   }
 
   // max_results - computed: false, optional: true, required: false
@@ -5166,6 +7218,22 @@ export class GoogleCesToolDataStoreToolOutputReference extends cdktn.ComplexObje
     return this._boostSpecs.internalValue;
   }
 
+  // data_store_source - computed: false, optional: true, required: false
+  private _dataStoreSource = new GoogleCesToolDataStoreToolDataStoreSourceOutputReference(this, "data_store_source");
+  public get dataStoreSource() {
+    return this._dataStoreSource;
+  }
+  public putDataStoreSource(value: GoogleCesToolDataStoreToolDataStoreSource) {
+    this._dataStoreSource.internalValue = value;
+  }
+  public resetDataStoreSource() {
+    this._dataStoreSource.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataStoreSourceInput() {
+    return this._dataStoreSource.internalValue;
+  }
+
   // engine_source - computed: false, optional: true, required: false
   private _engineSource = new GoogleCesToolDataStoreToolEngineSourceOutputReference(this, "engine_source");
   public get engineSource() {
@@ -5198,19 +7266,335 @@ export class GoogleCesToolDataStoreToolOutputReference extends cdktn.ComplexObje
     return this._modalityConfigs.internalValue;
   }
 }
+export interface GoogleCesToolFileSearchTool {
+  /**
+  * Optional. The type of the corpus. Default is FULLY_MANAGED.
+  * Possible values:
+  * CORPUS_TYPE_UNSPECIFIED
+  * USER_OWNED
+  * FULLY_MANAGED Possible values: ["CORPUS_TYPE_UNSPECIFIED", "USER_OWNED", "FULLY_MANAGED"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#corpus_type GoogleCesTool#corpus_type}
+  */
+  readonly corpusType?: string;
+  /**
+  * Optional. The tool description.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  */
+  readonly description?: string;
+  /**
+  * Optional. The corpus where files are stored.
+  * Format: projects/{project}/locations/{location}/ragCorpora/{rag_corpus}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#file_corpus GoogleCesTool#file_corpus}
+  */
+  readonly fileCorpus?: string;
+  /**
+  * Required. The tool name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  */
+  readonly name: string;
+}
+
+export function googleCesToolFileSearchToolToTerraform(struct?: GoogleCesToolFileSearchToolOutputReference | GoogleCesToolFileSearchTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    corpus_type: cdktn.stringToTerraform(struct!.corpusType),
+    description: cdktn.stringToTerraform(struct!.description),
+    file_corpus: cdktn.stringToTerraform(struct!.fileCorpus),
+    name: cdktn.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function googleCesToolFileSearchToolToHclTerraform(struct?: GoogleCesToolFileSearchToolOutputReference | GoogleCesToolFileSearchTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    corpus_type: {
+      value: cdktn.stringToHclTerraform(struct!.corpusType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktn.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    file_corpus: {
+      value: cdktn.stringToHclTerraform(struct!.fileCorpus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolFileSearchToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolFileSearchTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._corpusType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.corpusType = this._corpusType;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._fileCorpus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fileCorpus = this._fileCorpus;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolFileSearchTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._corpusType = undefined;
+      this._description = undefined;
+      this._fileCorpus = undefined;
+      this._name = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._corpusType = value.corpusType;
+      this._description = value.description;
+      this._fileCorpus = value.fileCorpus;
+      this._name = value.name;
+    }
+  }
+
+  // corpus_type - computed: false, optional: true, required: false
+  private _corpusType?: string; 
+  public get corpusType() {
+    return this.getStringAttribute('corpus_type');
+  }
+  public set corpusType(value: string) {
+    this._corpusType = value;
+  }
+  public resetCorpusType() {
+    this._corpusType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get corpusTypeInput() {
+    return this._corpusType;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // file_corpus - computed: false, optional: true, required: false
+  private _fileCorpus?: string; 
+  public get fileCorpus() {
+    return this.getStringAttribute('file_corpus');
+  }
+  public set fileCorpus(value: string) {
+    this._fileCorpus = value;
+  }
+  public resetFileCorpus() {
+    this._fileCorpus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileCorpusInput() {
+    return this._fileCorpus;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+export interface GoogleCesToolGoogleSearchToolPromptConfig {
+  /**
+  * Optional. Defines the prompt used for the system instructions when interacting with the
+  * agent in chat conversations. If not set, default prompt will be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_prompt GoogleCesTool#text_prompt}
+  */
+  readonly textPrompt?: string;
+  /**
+  * Optional. Defines the prompt used for the system instructions when interacting with the
+  * agent in voice conversations. If not set, default prompt will be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#voice_prompt GoogleCesTool#voice_prompt}
+  */
+  readonly voicePrompt?: string;
+}
+
+export function googleCesToolGoogleSearchToolPromptConfigToTerraform(struct?: GoogleCesToolGoogleSearchToolPromptConfigOutputReference | GoogleCesToolGoogleSearchToolPromptConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    text_prompt: cdktn.stringToTerraform(struct!.textPrompt),
+    voice_prompt: cdktn.stringToTerraform(struct!.voicePrompt),
+  }
+}
+
+
+export function googleCesToolGoogleSearchToolPromptConfigToHclTerraform(struct?: GoogleCesToolGoogleSearchToolPromptConfigOutputReference | GoogleCesToolGoogleSearchToolPromptConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    text_prompt: {
+      value: cdktn.stringToHclTerraform(struct!.textPrompt),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    voice_prompt: {
+      value: cdktn.stringToHclTerraform(struct!.voicePrompt),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolGoogleSearchToolPromptConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolGoogleSearchToolPromptConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._textPrompt !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textPrompt = this._textPrompt;
+    }
+    if (this._voicePrompt !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.voicePrompt = this._voicePrompt;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolGoogleSearchToolPromptConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._textPrompt = undefined;
+      this._voicePrompt = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._textPrompt = value.textPrompt;
+      this._voicePrompt = value.voicePrompt;
+    }
+  }
+
+  // text_prompt - computed: false, optional: true, required: false
+  private _textPrompt?: string; 
+  public get textPrompt() {
+    return this.getStringAttribute('text_prompt');
+  }
+  public set textPrompt(value: string) {
+    this._textPrompt = value;
+  }
+  public resetTextPrompt() {
+    this._textPrompt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textPromptInput() {
+    return this._textPrompt;
+  }
+
+  // voice_prompt - computed: false, optional: true, required: false
+  private _voicePrompt?: string; 
+  public get voicePrompt() {
+    return this.getStringAttribute('voice_prompt');
+  }
+  public set voicePrompt(value: string) {
+    this._voicePrompt = value;
+  }
+  public resetVoicePrompt() {
+    this._voicePrompt = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get voicePromptInput() {
+    return this._voicePrompt;
+  }
+}
 export interface GoogleCesToolGoogleSearchTool {
   /**
   * Content will be fetched directly from these URLs for context and grounding.
   * More details: https://cloud.google.com/vertex-ai/generative-ai/docs/url-context.
   * Example: "https://example.com/path.html". A maximum of 20 URLs are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#context_urls GoogleCesTool#context_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#context_urls GoogleCesTool#context_urls}
   */
   readonly contextUrls?: string[];
   /**
   * Description of the tool's purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
   */
   readonly description?: string;
   /**
@@ -5218,13 +7602,13 @@ export interface GoogleCesToolGoogleSearchTool {
   * Example: "example.com".
   * A maximum of 2000 domains can be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#exclude_domains GoogleCesTool#exclude_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#exclude_domains GoogleCesTool#exclude_domains}
   */
   readonly excludeDomains?: string[];
   /**
   * The name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
   */
   readonly name: string;
   /**
@@ -5236,15 +7620,21 @@ export interface GoogleCesToolGoogleSearchTool {
   * Example: "example.com", "another.site".
   * A maximum of 20 domains can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#preferred_domains GoogleCesTool#preferred_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#preferred_domains GoogleCesTool#preferred_domains}
   */
   readonly preferredDomains?: string[];
+  /**
+  * prompt_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prompt_config GoogleCesTool#prompt_config}
+  */
+  readonly promptConfig?: GoogleCesToolGoogleSearchToolPromptConfig;
 }
 
 export function googleCesToolGoogleSearchToolToTerraform(struct?: GoogleCesToolGoogleSearchToolOutputReference | GoogleCesToolGoogleSearchTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     context_urls: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.contextUrls),
@@ -5252,6 +7642,7 @@ export function googleCesToolGoogleSearchToolToTerraform(struct?: GoogleCesToolG
     exclude_domains: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludeDomains),
     name: cdktn.stringToTerraform(struct!.name),
     preferred_domains: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.preferredDomains),
+    prompt_config: googleCesToolGoogleSearchToolPromptConfigToTerraform(struct!.promptConfig),
   }
 }
 
@@ -5259,7 +7650,7 @@ export function googleCesToolGoogleSearchToolToTerraform(struct?: GoogleCesToolG
 export function googleCesToolGoogleSearchToolToHclTerraform(struct?: GoogleCesToolGoogleSearchToolOutputReference | GoogleCesToolGoogleSearchTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     context_urls: {
@@ -5291,6 +7682,12 @@ export function googleCesToolGoogleSearchToolToHclTerraform(struct?: GoogleCesTo
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    prompt_config: {
+      value: googleCesToolGoogleSearchToolPromptConfigToHclTerraform(struct!.promptConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesToolGoogleSearchToolPromptConfigList",
     },
   };
 
@@ -5332,6 +7729,10 @@ export class GoogleCesToolGoogleSearchToolOutputReference extends cdktn.ComplexO
       hasAnyValues = true;
       internalValueResult.preferredDomains = this._preferredDomains;
     }
+    if (this._promptConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.promptConfig = this._promptConfig?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -5343,6 +7744,7 @@ export class GoogleCesToolGoogleSearchToolOutputReference extends cdktn.ComplexO
       this._excludeDomains = undefined;
       this._name = undefined;
       this._preferredDomains = undefined;
+      this._promptConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -5351,6 +7753,7 @@ export class GoogleCesToolGoogleSearchToolOutputReference extends cdktn.ComplexO
       this._excludeDomains = value.excludeDomains;
       this._name = value.name;
       this._preferredDomains = value.preferredDomains;
+      this._promptConfig.internalValue = value.promptConfig;
     }
   }
 
@@ -5430,6 +7833,22 @@ export class GoogleCesToolGoogleSearchToolOutputReference extends cdktn.ComplexO
   public get preferredDomainsInput() {
     return this._preferredDomains;
   }
+
+  // prompt_config - computed: false, optional: true, required: false
+  private _promptConfig = new GoogleCesToolGoogleSearchToolPromptConfigOutputReference(this, "prompt_config");
+  public get promptConfig() {
+    return this._promptConfig;
+  }
+  public putPromptConfig(value: GoogleCesToolGoogleSearchToolPromptConfig) {
+    this._promptConfig.internalValue = value;
+  }
+  public resetPromptConfig() {
+    this._promptConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get promptConfigInput() {
+    return this._promptConfig.internalValue;
+  }
 }
 export interface GoogleCesToolPythonFunction {
   /**
@@ -5437,13 +7856,13 @@ export interface GoogleCesToolPythonFunction {
   * name defined in the python code. Case sensitive. If the name is not
   * provided, the first function defined in the python code will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
   */
   readonly name?: string;
   /**
   * The Python code to execute for the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
   */
   readonly pythonCode?: string;
 }
@@ -5451,7 +7870,7 @@ export interface GoogleCesToolPythonFunction {
 export function googleCesToolPythonFunctionToTerraform(struct?: GoogleCesToolPythonFunctionOutputReference | GoogleCesToolPythonFunction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -5463,7 +7882,7 @@ export function googleCesToolPythonFunctionToTerraform(struct?: GoogleCesToolPyt
 export function googleCesToolPythonFunctionToHclTerraform(struct?: GoogleCesToolPythonFunctionOutputReference | GoogleCesToolPythonFunction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -5561,15 +7980,15 @@ export class GoogleCesToolPythonFunctionOutputReference extends cdktn.ComplexObj
 }
 export interface GoogleCesToolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#create GoogleCesTool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#create GoogleCesTool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#delete GoogleCesTool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#update GoogleCesTool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#update GoogleCesTool#update}
   */
   readonly update?: string;
 }
@@ -5577,7 +7996,7 @@ export interface GoogleCesToolTimeouts {
 export function googleCesToolTimeoutsToTerraform(struct?: GoogleCesToolTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -5590,7 +8009,7 @@ export function googleCesToolTimeoutsToTerraform(struct?: GoogleCesToolTimeouts 
 export function googleCesToolTimeoutsToHclTerraform(struct?: GoogleCesToolTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -5719,9 +8138,1550 @@ export class GoogleCesToolTimeoutsOutputReference extends cdktn.ComplexObject {
     return this._update;
   }
 }
+export interface GoogleCesToolWidgetToolDataMappingPythonFunction {
+  /**
+  * Optional. The name of the Python function to execute. Must match a Python function
+  * name defined in the python code. Case sensitive. If the name is not
+  * provided, the first function defined in the python code will be used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  */
+  readonly name?: string;
+  /**
+  * Optional. The Python code to execute for the tool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_code GoogleCesTool#python_code}
+  */
+  readonly pythonCode?: string;
+}
+
+export function googleCesToolWidgetToolDataMappingPythonFunctionToTerraform(struct?: GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference | GoogleCesToolWidgetToolDataMappingPythonFunction): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+    python_code: cdktn.stringToTerraform(struct!.pythonCode),
+  }
+}
+
+
+export function googleCesToolWidgetToolDataMappingPythonFunctionToHclTerraform(struct?: GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference | GoogleCesToolWidgetToolDataMappingPythonFunction): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    python_code: {
+      value: cdktn.stringToHclTerraform(struct!.pythonCode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolWidgetToolDataMappingPythonFunction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._pythonCode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pythonCode = this._pythonCode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolWidgetToolDataMappingPythonFunction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._pythonCode = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._pythonCode = value.pythonCode;
+    }
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // python_code - computed: false, optional: true, required: false
+  private _pythonCode?: string; 
+  public get pythonCode() {
+    return this.getStringAttribute('python_code');
+  }
+  public set pythonCode(value: string) {
+    this._pythonCode = value;
+  }
+  public resetPythonCode() {
+    this._pythonCode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pythonCodeInput() {
+    return this._pythonCode;
+  }
+}
+export interface GoogleCesToolWidgetToolDataMapping {
+  /**
+  * Optional. A map of widget input parameter fields to the corresponding output fields of the source tool.
+  * An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#field_mappings GoogleCesTool#field_mappings}
+  */
+  readonly fieldMappings?: { [key: string]: string };
+  /**
+  * Optional. The mode of the data mapping.
+  * Possible values:
+  * MODE_UNSPECIFIED
+  * FIELD_MAPPING
+  * PYTHON_SCRIPT Possible values: ["MODE_UNSPECIFIED", "FIELD_MAPPING", "PYTHON_SCRIPT"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#mode GoogleCesTool#mode}
+  */
+  readonly mode?: string;
+  /**
+  * Optional. The resource name of the tool that provides the data for the widget (e.g., a search tool or a custom function).
+  * Format: projects/{project}/locations/{location}/agents/{agent}/tools/{tool}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#source_tool_name GoogleCesTool#source_tool_name}
+  */
+  readonly sourceToolName?: string;
+  /**
+  * python_function block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#python_function GoogleCesTool#python_function}
+  */
+  readonly pythonFunction?: GoogleCesToolWidgetToolDataMappingPythonFunction;
+}
+
+export function googleCesToolWidgetToolDataMappingToTerraform(struct?: GoogleCesToolWidgetToolDataMappingOutputReference | GoogleCesToolWidgetToolDataMapping): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    field_mappings: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.fieldMappings),
+    mode: cdktn.stringToTerraform(struct!.mode),
+    source_tool_name: cdktn.stringToTerraform(struct!.sourceToolName),
+    python_function: googleCesToolWidgetToolDataMappingPythonFunctionToTerraform(struct!.pythonFunction),
+  }
+}
+
+
+export function googleCesToolWidgetToolDataMappingToHclTerraform(struct?: GoogleCesToolWidgetToolDataMappingOutputReference | GoogleCesToolWidgetToolDataMapping): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    field_mappings: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.fieldMappings),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    mode: {
+      value: cdktn.stringToHclTerraform(struct!.mode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_tool_name: {
+      value: cdktn.stringToHclTerraform(struct!.sourceToolName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    python_function: {
+      value: googleCesToolWidgetToolDataMappingPythonFunctionToHclTerraform(struct!.pythonFunction),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesToolWidgetToolDataMappingPythonFunctionList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolWidgetToolDataMappingOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolWidgetToolDataMapping | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fieldMappings !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fieldMappings = this._fieldMappings;
+    }
+    if (this._mode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mode = this._mode;
+    }
+    if (this._sourceToolName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceToolName = this._sourceToolName;
+    }
+    if (this._pythonFunction?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pythonFunction = this._pythonFunction?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolWidgetToolDataMapping | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._fieldMappings = undefined;
+      this._mode = undefined;
+      this._sourceToolName = undefined;
+      this._pythonFunction.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._fieldMappings = value.fieldMappings;
+      this._mode = value.mode;
+      this._sourceToolName = value.sourceToolName;
+      this._pythonFunction.internalValue = value.pythonFunction;
+    }
+  }
+
+  // field_mappings - computed: false, optional: true, required: false
+  private _fieldMappings?: { [key: string]: string }; 
+  public get fieldMappings() {
+    return this.getStringMapAttribute('field_mappings');
+  }
+  public set fieldMappings(value: { [key: string]: string }) {
+    this._fieldMappings = value;
+  }
+  public resetFieldMappings() {
+    this._fieldMappings = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldMappingsInput() {
+    return this._fieldMappings;
+  }
+
+  // mode - computed: false, optional: true, required: false
+  private _mode?: string; 
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+  public set mode(value: string) {
+    this._mode = value;
+  }
+  public resetMode() {
+    this._mode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modeInput() {
+    return this._mode;
+  }
+
+  // source_tool_name - computed: false, optional: true, required: false
+  private _sourceToolName?: string; 
+  public get sourceToolName() {
+    return this.getStringAttribute('source_tool_name');
+  }
+  public set sourceToolName(value: string) {
+    this._sourceToolName = value;
+  }
+  public resetSourceToolName() {
+    this._sourceToolName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceToolNameInput() {
+    return this._sourceToolName;
+  }
+
+  // python_function - computed: false, optional: true, required: false
+  private _pythonFunction = new GoogleCesToolWidgetToolDataMappingPythonFunctionOutputReference(this, "python_function");
+  public get pythonFunction() {
+    return this._pythonFunction;
+  }
+  public putPythonFunction(value: GoogleCesToolWidgetToolDataMappingPythonFunction) {
+    this._pythonFunction.internalValue = value;
+  }
+  public resetPythonFunction() {
+    this._pythonFunction.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pythonFunctionInput() {
+    return this._pythonFunction.internalValue;
+  }
+}
+export interface GoogleCesToolWidgetToolParameters {
+  /**
+  * Defines the schema for additional properties allowed in an object.
+  * The value must be a valid JSON string representing the Schema object.
+  * (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#additional_properties GoogleCesTool#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The instance value should be valid against at least one of the schemas in this list.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#any_of GoogleCesTool#any_of}
+  */
+  readonly anyOf?: string;
+  /**
+  * Default value of the data. Represents a dynamically typed value
+  * which can be either null, a number, a string, a boolean, a struct,
+  * or a list of values. The provided default value must be compatible
+  * with the defined 'type' and other schema constraints.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#default GoogleCesTool#default}
+  */
+  readonly default?: string;
+  /**
+  * A map of definitions for use by ref. Only allowed at the root of the schema.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#defs GoogleCesTool#defs}
+  */
+  readonly defs?: string;
+  /**
+  * The description of the data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  */
+  readonly description?: string;
+  /**
+  * Possible values of the element of primitive type with enum format.
+  * Examples:
+  * 1. We can define direction as :
+  * {type:STRING, format:enum, enum:["EAST", NORTH", "SOUTH", "WEST"]}
+  * 2. We can define apartment number as :
+  * {type:INTEGER, format:enum, enum:["101", "201", "301"]}
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#enum GoogleCesTool#enum}
+  */
+  readonly enum?: string[];
+  /**
+  * Schema of the elements of Type.ARRAY.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#items GoogleCesTool#items}
+  */
+  readonly items?: string;
+  /**
+  * Maximum number of the elements for Type.ARRAY. (int64 format)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#max_items GoogleCesTool#max_items}
+  */
+  readonly maxItems?: number;
+  /**
+  * Maximum value for Type.INTEGER and Type.NUMBER.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#maximum GoogleCesTool#maximum}
+  */
+  readonly maximum?: number;
+  /**
+  * Minimum number of the elements for Type.ARRAY. (int64 format)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#min_items GoogleCesTool#min_items}
+  */
+  readonly minItems?: number;
+  /**
+  * Minimum value for Type.INTEGER and Type.NUMBER.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#minimum GoogleCesTool#minimum}
+  */
+  readonly minimum?: number;
+  /**
+  * Indicates if the value may be null.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#nullable GoogleCesTool#nullable}
+  */
+  readonly nullable?: boolean | cdktn.IResolvable;
+  /**
+  * Schemas of initial elements of Type.ARRAY.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#prefix_items GoogleCesTool#prefix_items}
+  */
+  readonly prefixItems?: string;
+  /**
+  * Properties of Type.OBJECT.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#properties GoogleCesTool#properties}
+  */
+  readonly properties?: string;
+  /**
+  * Allows indirect references between schema nodes. The value should be a
+  * valid reference to a child of the root 'defs'.
+  * For example, the following schema defines a reference to a schema node
+  * named "Pet":
+  * type: object
+  * properties:
+  *   pet:
+  *     ref: #/defs/Pet
+  * defs:
+  *   Pet:
+  *     type: object
+  *     properties:
+  *       name:
+  *         type: string
+  * The value of the "pet" property is a reference to the schema node
+  * named "Pet".
+  * See details in
+  * https://json-schema.org/understanding-json-schema/structuring.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ref GoogleCesTool#ref}
+  */
+  readonly ref?: string;
+  /**
+  * Required properties of Type.OBJECT.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#required GoogleCesTool#required}
+  */
+  readonly required?: string[];
+  /**
+  * The title of the schema.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#title GoogleCesTool#title}
+  */
+  readonly title?: string;
+  /**
+  * The type of the data.
+  * Possible values:
+  * STRING
+  * INTEGER
+  * NUMBER
+  * BOOLEAN
+  * OBJECT
+  * ARRAY
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+  */
+  readonly type: string;
+  /**
+  * Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#unique_items GoogleCesTool#unique_items}
+  */
+  readonly uniqueItems?: boolean | cdktn.IResolvable;
+}
+
+export function googleCesToolWidgetToolParametersToTerraform(struct?: GoogleCesToolWidgetToolParametersOutputReference | GoogleCesToolWidgetToolParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    additional_properties: cdktn.stringToTerraform(struct!.additionalProperties),
+    any_of: cdktn.stringToTerraform(struct!.anyOf),
+    default: cdktn.stringToTerraform(struct!.default),
+    defs: cdktn.stringToTerraform(struct!.defs),
+    description: cdktn.stringToTerraform(struct!.description),
+    enum: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.enum),
+    items: cdktn.stringToTerraform(struct!.items),
+    max_items: cdktn.numberToTerraform(struct!.maxItems),
+    maximum: cdktn.numberToTerraform(struct!.maximum),
+    min_items: cdktn.numberToTerraform(struct!.minItems),
+    minimum: cdktn.numberToTerraform(struct!.minimum),
+    nullable: cdktn.booleanToTerraform(struct!.nullable),
+    prefix_items: cdktn.stringToTerraform(struct!.prefixItems),
+    properties: cdktn.stringToTerraform(struct!.properties),
+    ref: cdktn.stringToTerraform(struct!.ref),
+    required: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.required),
+    title: cdktn.stringToTerraform(struct!.title),
+    type: cdktn.stringToTerraform(struct!.type),
+    unique_items: cdktn.booleanToTerraform(struct!.uniqueItems),
+  }
+}
+
+
+export function googleCesToolWidgetToolParametersToHclTerraform(struct?: GoogleCesToolWidgetToolParametersOutputReference | GoogleCesToolWidgetToolParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktn.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    any_of: {
+      value: cdktn.stringToHclTerraform(struct!.anyOf),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    default: {
+      value: cdktn.stringToHclTerraform(struct!.default),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    defs: {
+      value: cdktn.stringToHclTerraform(struct!.defs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    description: {
+      value: cdktn.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    enum: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.enum),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    items: {
+      value: cdktn.stringToHclTerraform(struct!.items),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    max_items: {
+      value: cdktn.numberToHclTerraform(struct!.maxItems),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    maximum: {
+      value: cdktn.numberToHclTerraform(struct!.maximum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_items: {
+      value: cdktn.numberToHclTerraform(struct!.minItems),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    minimum: {
+      value: cdktn.numberToHclTerraform(struct!.minimum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    nullable: {
+      value: cdktn.booleanToHclTerraform(struct!.nullable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    prefix_items: {
+      value: cdktn.stringToHclTerraform(struct!.prefixItems),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    properties: {
+      value: cdktn.stringToHclTerraform(struct!.properties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ref: {
+      value: cdktn.stringToHclTerraform(struct!.ref),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.required),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    title: {
+      value: cdktn.stringToHclTerraform(struct!.title),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    unique_items: {
+      value: cdktn.booleanToHclTerraform(struct!.uniqueItems),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolWidgetToolParametersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolWidgetToolParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._anyOf !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.anyOf = this._anyOf;
+    }
+    if (this._default !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.default = this._default;
+    }
+    if (this._defs !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defs = this._defs;
+    }
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._enum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enum = this._enum;
+    }
+    if (this._items !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.items = this._items;
+    }
+    if (this._maxItems !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxItems = this._maxItems;
+    }
+    if (this._maximum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximum = this._maximum;
+    }
+    if (this._minItems !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minItems = this._minItems;
+    }
+    if (this._minimum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimum = this._minimum;
+    }
+    if (this._nullable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.nullable = this._nullable;
+    }
+    if (this._prefixItems !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.prefixItems = this._prefixItems;
+    }
+    if (this._properties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.properties = this._properties;
+    }
+    if (this._ref !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ref = this._ref;
+    }
+    if (this._required !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.required = this._required;
+    }
+    if (this._title !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.title = this._title;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._uniqueItems !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uniqueItems = this._uniqueItems;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolWidgetToolParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalProperties = undefined;
+      this._anyOf = undefined;
+      this._default = undefined;
+      this._defs = undefined;
+      this._description = undefined;
+      this._enum = undefined;
+      this._items = undefined;
+      this._maxItems = undefined;
+      this._maximum = undefined;
+      this._minItems = undefined;
+      this._minimum = undefined;
+      this._nullable = undefined;
+      this._prefixItems = undefined;
+      this._properties = undefined;
+      this._ref = undefined;
+      this._required = undefined;
+      this._title = undefined;
+      this._type = undefined;
+      this._uniqueItems = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalProperties = value.additionalProperties;
+      this._anyOf = value.anyOf;
+      this._default = value.default;
+      this._defs = value.defs;
+      this._description = value.description;
+      this._enum = value.enum;
+      this._items = value.items;
+      this._maxItems = value.maxItems;
+      this._maximum = value.maximum;
+      this._minItems = value.minItems;
+      this._minimum = value.minimum;
+      this._nullable = value.nullable;
+      this._prefixItems = value.prefixItems;
+      this._properties = value.properties;
+      this._ref = value.ref;
+      this._required = value.required;
+      this._title = value.title;
+      this._type = value.type;
+      this._uniqueItems = value.uniqueItems;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // any_of - computed: false, optional: true, required: false
+  private _anyOf?: string; 
+  public get anyOf() {
+    return this.getStringAttribute('any_of');
+  }
+  public set anyOf(value: string) {
+    this._anyOf = value;
+  }
+  public resetAnyOf() {
+    this._anyOf = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get anyOfInput() {
+    return this._anyOf;
+  }
+
+  // default - computed: false, optional: true, required: false
+  private _default?: string; 
+  public get default() {
+    return this.getStringAttribute('default');
+  }
+  public set default(value: string) {
+    this._default = value;
+  }
+  public resetDefault() {
+    this._default = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultInput() {
+    return this._default;
+  }
+
+  // defs - computed: false, optional: true, required: false
+  private _defs?: string; 
+  public get defs() {
+    return this.getStringAttribute('defs');
+  }
+  public set defs(value: string) {
+    this._defs = value;
+  }
+  public resetDefs() {
+    this._defs = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defsInput() {
+    return this._defs;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // enum - computed: false, optional: true, required: false
+  private _enum?: string[]; 
+  public get enum() {
+    return this.getListAttribute('enum');
+  }
+  public set enum(value: string[]) {
+    this._enum = value;
+  }
+  public resetEnum() {
+    this._enum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enumInput() {
+    return this._enum;
+  }
+
+  // items - computed: false, optional: true, required: false
+  private _items?: string; 
+  public get items() {
+    return this.getStringAttribute('items');
+  }
+  public set items(value: string) {
+    this._items = value;
+  }
+  public resetItems() {
+    this._items = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get itemsInput() {
+    return this._items;
+  }
+
+  // max_items - computed: false, optional: true, required: false
+  private _maxItems?: number; 
+  public get maxItems() {
+    return this.getNumberAttribute('max_items');
+  }
+  public set maxItems(value: number) {
+    this._maxItems = value;
+  }
+  public resetMaxItems() {
+    this._maxItems = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxItemsInput() {
+    return this._maxItems;
+  }
+
+  // maximum - computed: false, optional: true, required: false
+  private _maximum?: number; 
+  public get maximum() {
+    return this.getNumberAttribute('maximum');
+  }
+  public set maximum(value: number) {
+    this._maximum = value;
+  }
+  public resetMaximum() {
+    this._maximum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumInput() {
+    return this._maximum;
+  }
+
+  // min_items - computed: false, optional: true, required: false
+  private _minItems?: number; 
+  public get minItems() {
+    return this.getNumberAttribute('min_items');
+  }
+  public set minItems(value: number) {
+    this._minItems = value;
+  }
+  public resetMinItems() {
+    this._minItems = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minItemsInput() {
+    return this._minItems;
+  }
+
+  // minimum - computed: false, optional: true, required: false
+  private _minimum?: number; 
+  public get minimum() {
+    return this.getNumberAttribute('minimum');
+  }
+  public set minimum(value: number) {
+    this._minimum = value;
+  }
+  public resetMinimum() {
+    this._minimum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumInput() {
+    return this._minimum;
+  }
+
+  // nullable - computed: false, optional: true, required: false
+  private _nullable?: boolean | cdktn.IResolvable; 
+  public get nullable() {
+    return this.getBooleanAttribute('nullable');
+  }
+  public set nullable(value: boolean | cdktn.IResolvable) {
+    this._nullable = value;
+  }
+  public resetNullable() {
+    this._nullable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nullableInput() {
+    return this._nullable;
+  }
+
+  // prefix_items - computed: false, optional: true, required: false
+  private _prefixItems?: string; 
+  public get prefixItems() {
+    return this.getStringAttribute('prefix_items');
+  }
+  public set prefixItems(value: string) {
+    this._prefixItems = value;
+  }
+  public resetPrefixItems() {
+    this._prefixItems = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get prefixItemsInput() {
+    return this._prefixItems;
+  }
+
+  // properties - computed: false, optional: true, required: false
+  private _properties?: string; 
+  public get properties() {
+    return this.getStringAttribute('properties');
+  }
+  public set properties(value: string) {
+    this._properties = value;
+  }
+  public resetProperties() {
+    this._properties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get propertiesInput() {
+    return this._properties;
+  }
+
+  // ref - computed: false, optional: true, required: false
+  private _ref?: string; 
+  public get ref() {
+    return this.getStringAttribute('ref');
+  }
+  public set ref(value: string) {
+    this._ref = value;
+  }
+  public resetRef() {
+    this._ref = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refInput() {
+    return this._ref;
+  }
+
+  // required - computed: false, optional: true, required: false
+  private _required?: string[]; 
+  public get required() {
+    return this.getListAttribute('required');
+  }
+  public set required(value: string[]) {
+    this._required = value;
+  }
+  public resetRequired() {
+    this._required = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredInput() {
+    return this._required;
+  }
+
+  // title - computed: false, optional: true, required: false
+  private _title?: string; 
+  public get title() {
+    return this.getStringAttribute('title');
+  }
+  public set title(value: string) {
+    this._title = value;
+  }
+  public resetTitle() {
+    this._title = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get titleInput() {
+    return this._title;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // unique_items - computed: false, optional: true, required: false
+  private _uniqueItems?: boolean | cdktn.IResolvable; 
+  public get uniqueItems() {
+    return this.getBooleanAttribute('unique_items');
+  }
+  public set uniqueItems(value: boolean | cdktn.IResolvable) {
+    this._uniqueItems = value;
+  }
+  public resetUniqueItems() {
+    this._uniqueItems = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uniqueItemsInput() {
+    return this._uniqueItems;
+  }
+}
+export interface GoogleCesToolWidgetToolTextResponseConfig {
+  /**
+  * Optional. The static text response to return when type is STATIC.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#static_text GoogleCesTool#static_text}
+  */
+  readonly staticText?: string;
+  /**
+  * Optional. Instruction for the LLM on how to generate the text response. Used as
+  * the description for the text response parameter if type is LLM_GENERATED.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_response_instruction GoogleCesTool#text_response_instruction}
+  */
+  readonly textResponseInstruction?: string;
+  /**
+  * Optional. The strategy for providing the text response.
+  * Possible values:
+  * TYPE_UNSPECIFIED
+  * NONE
+  * LLM_GENERATED
+  * STATIC Possible values: ["TYPE_UNSPECIFIED", "NONE", "LLM_GENERATED", "STATIC"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#type GoogleCesTool#type}
+  */
+  readonly type?: string;
+}
+
+export function googleCesToolWidgetToolTextResponseConfigToTerraform(struct?: GoogleCesToolWidgetToolTextResponseConfigOutputReference | GoogleCesToolWidgetToolTextResponseConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    static_text: cdktn.stringToTerraform(struct!.staticText),
+    text_response_instruction: cdktn.stringToTerraform(struct!.textResponseInstruction),
+    type: cdktn.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function googleCesToolWidgetToolTextResponseConfigToHclTerraform(struct?: GoogleCesToolWidgetToolTextResponseConfigOutputReference | GoogleCesToolWidgetToolTextResponseConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    static_text: {
+      value: cdktn.stringToHclTerraform(struct!.staticText),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    text_response_instruction: {
+      value: cdktn.stringToHclTerraform(struct!.textResponseInstruction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolWidgetToolTextResponseConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolWidgetToolTextResponseConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._staticText !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.staticText = this._staticText;
+    }
+    if (this._textResponseInstruction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textResponseInstruction = this._textResponseInstruction;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolWidgetToolTextResponseConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._staticText = undefined;
+      this._textResponseInstruction = undefined;
+      this._type = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._staticText = value.staticText;
+      this._textResponseInstruction = value.textResponseInstruction;
+      this._type = value.type;
+    }
+  }
+
+  // static_text - computed: false, optional: true, required: false
+  private _staticText?: string; 
+  public get staticText() {
+    return this.getStringAttribute('static_text');
+  }
+  public set staticText(value: string) {
+    this._staticText = value;
+  }
+  public resetStaticText() {
+    this._staticText = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get staticTextInput() {
+    return this._staticText;
+  }
+
+  // text_response_instruction - computed: false, optional: true, required: false
+  private _textResponseInstruction?: string; 
+  public get textResponseInstruction() {
+    return this.getStringAttribute('text_response_instruction');
+  }
+  public set textResponseInstruction(value: string) {
+    this._textResponseInstruction = value;
+  }
+  public resetTextResponseInstruction() {
+    this._textResponseInstruction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textResponseInstructionInput() {
+    return this._textResponseInstruction;
+  }
+
+  // type - computed: false, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface GoogleCesToolWidgetTool {
+  /**
+  * Optional. The description of the widget tool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#description GoogleCesTool#description}
+  */
+  readonly description?: string;
+  /**
+  * Required. The display name of the widget tool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#name GoogleCesTool#name}
+  */
+  readonly name: string;
+  /**
+  * Optional. Configuration for rendering the widget. Represents a JSON object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#ui_config GoogleCesTool#ui_config}
+  */
+  readonly uiConfig?: string;
+  /**
+  * Optional. The type of the widget tool. If not specified, the default type will be CUSTOMIZED.
+  * Possible values:
+  * WIDGET_TYPE_UNSPECIFIED
+  * CUSTOM
+  * PRODUCT_CAROUSEL
+  * PRODUCT_DETAILS
+  * QUICK_ACTIONS
+  * PRODUCT_COMPARISON
+  * ADVANCED_PRODUCT_DETAILS
+  * SHORT_FORM
+  * OVERALL_SATISFACTION
+  * ORDER_SUMMARY
+  * APPOINTMENT_DETAILS
+  * APPOINTMENT_SCHEDULER
+  * CONTACT_FORM Possible values: ["WIDGET_TYPE_UNSPECIFIED", "CUSTOM", "PRODUCT_CAROUSEL", "PRODUCT_DETAILS", "QUICK_ACTIONS", "PRODUCT_COMPARISON", "ADVANCED_PRODUCT_DETAILS", "SHORT_FORM", "OVERALL_SATISFACTION", "ORDER_SUMMARY", "APPOINTMENT_DETAILS", "APPOINTMENT_SCHEDULER", "CONTACT_FORM"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#widget_type GoogleCesTool#widget_type}
+  */
+  readonly widgetType?: string;
+  /**
+  * data_mapping block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#data_mapping GoogleCesTool#data_mapping}
+  */
+  readonly dataMapping?: GoogleCesToolWidgetToolDataMapping;
+  /**
+  * parameters block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#parameters GoogleCesTool#parameters}
+  */
+  readonly parameters?: GoogleCesToolWidgetToolParameters;
+  /**
+  * text_response_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#text_response_config GoogleCesTool#text_response_config}
+  */
+  readonly textResponseConfig?: GoogleCesToolWidgetToolTextResponseConfig;
+}
+
+export function googleCesToolWidgetToolToTerraform(struct?: GoogleCesToolWidgetToolOutputReference | GoogleCesToolWidgetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    description: cdktn.stringToTerraform(struct!.description),
+    name: cdktn.stringToTerraform(struct!.name),
+    ui_config: cdktn.stringToTerraform(struct!.uiConfig),
+    widget_type: cdktn.stringToTerraform(struct!.widgetType),
+    data_mapping: googleCesToolWidgetToolDataMappingToTerraform(struct!.dataMapping),
+    parameters: googleCesToolWidgetToolParametersToTerraform(struct!.parameters),
+    text_response_config: googleCesToolWidgetToolTextResponseConfigToTerraform(struct!.textResponseConfig),
+  }
+}
+
+
+export function googleCesToolWidgetToolToHclTerraform(struct?: GoogleCesToolWidgetToolOutputReference | GoogleCesToolWidgetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    description: {
+      value: cdktn.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ui_config: {
+      value: cdktn.stringToHclTerraform(struct!.uiConfig),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    widget_type: {
+      value: cdktn.stringToHclTerraform(struct!.widgetType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    data_mapping: {
+      value: googleCesToolWidgetToolDataMappingToHclTerraform(struct!.dataMapping),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesToolWidgetToolDataMappingList",
+    },
+    parameters: {
+      value: googleCesToolWidgetToolParametersToHclTerraform(struct!.parameters),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesToolWidgetToolParametersList",
+    },
+    text_response_config: {
+      value: googleCesToolWidgetToolTextResponseConfigToHclTerraform(struct!.textResponseConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesToolWidgetToolTextResponseConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesToolWidgetToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesToolWidgetTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._uiConfig !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uiConfig = this._uiConfig;
+    }
+    if (this._widgetType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.widgetType = this._widgetType;
+    }
+    if (this._dataMapping?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dataMapping = this._dataMapping?.internalValue;
+    }
+    if (this._parameters?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parameters = this._parameters?.internalValue;
+    }
+    if (this._textResponseConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textResponseConfig = this._textResponseConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesToolWidgetTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._description = undefined;
+      this._name = undefined;
+      this._uiConfig = undefined;
+      this._widgetType = undefined;
+      this._dataMapping.internalValue = undefined;
+      this._parameters.internalValue = undefined;
+      this._textResponseConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._description = value.description;
+      this._name = value.name;
+      this._uiConfig = value.uiConfig;
+      this._widgetType = value.widgetType;
+      this._dataMapping.internalValue = value.dataMapping;
+      this._parameters.internalValue = value.parameters;
+      this._textResponseConfig.internalValue = value.textResponseConfig;
+    }
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // ui_config - computed: false, optional: true, required: false
+  private _uiConfig?: string; 
+  public get uiConfig() {
+    return this.getStringAttribute('ui_config');
+  }
+  public set uiConfig(value: string) {
+    this._uiConfig = value;
+  }
+  public resetUiConfig() {
+    this._uiConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uiConfigInput() {
+    return this._uiConfig;
+  }
+
+  // widget_type - computed: false, optional: true, required: false
+  private _widgetType?: string; 
+  public get widgetType() {
+    return this.getStringAttribute('widget_type');
+  }
+  public set widgetType(value: string) {
+    this._widgetType = value;
+  }
+  public resetWidgetType() {
+    this._widgetType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get widgetTypeInput() {
+    return this._widgetType;
+  }
+
+  // data_mapping - computed: false, optional: true, required: false
+  private _dataMapping = new GoogleCesToolWidgetToolDataMappingOutputReference(this, "data_mapping");
+  public get dataMapping() {
+    return this._dataMapping;
+  }
+  public putDataMapping(value: GoogleCesToolWidgetToolDataMapping) {
+    this._dataMapping.internalValue = value;
+  }
+  public resetDataMapping() {
+    this._dataMapping.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataMappingInput() {
+    return this._dataMapping.internalValue;
+  }
+
+  // parameters - computed: false, optional: true, required: false
+  private _parameters = new GoogleCesToolWidgetToolParametersOutputReference(this, "parameters");
+  public get parameters() {
+    return this._parameters;
+  }
+  public putParameters(value: GoogleCesToolWidgetToolParameters) {
+    this._parameters.internalValue = value;
+  }
+  public resetParameters() {
+    this._parameters.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parametersInput() {
+    return this._parameters.internalValue;
+  }
+
+  // text_response_config - computed: false, optional: true, required: false
+  private _textResponseConfig = new GoogleCesToolWidgetToolTextResponseConfigOutputReference(this, "text_response_config");
+  public get textResponseConfig() {
+    return this._textResponseConfig;
+  }
+  public putTextResponseConfig(value: GoogleCesToolWidgetToolTextResponseConfig) {
+    this._textResponseConfig.internalValue = value;
+  }
+  public resetTextResponseConfig() {
+    this._textResponseConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textResponseConfigInput() {
+    return this._textResponseConfig.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool google_ces_tool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool google_ces_tool}
 */
 export class GoogleCesTool extends cdktn.TerraformResource {
 
@@ -5737,7 +9697,7 @@ export class GoogleCesTool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesTool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesTool to import
-  * @param importFromId The id of the existing GoogleCesTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesTool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5749,7 +9709,7 @@ export class GoogleCesTool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_tool google_ces_tool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_tool google_ces_tool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5760,7 +9720,7 @@ export class GoogleCesTool extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_tool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -5778,11 +9738,14 @@ export class GoogleCesTool extends cdktn.TerraformResource {
     this._location = config.location;
     this._project = config.project;
     this._toolId = config.toolId;
+    this._agentTool.internalValue = config.agentTool;
     this._clientFunction.internalValue = config.clientFunction;
     this._dataStoreTool.internalValue = config.dataStoreTool;
+    this._fileSearchTool.internalValue = config.fileSearchTool;
     this._googleSearchTool.internalValue = config.googleSearchTool;
     this._pythonFunction.internalValue = config.pythonFunction;
     this._timeouts.internalValue = config.timeouts;
+    this._widgetTool.internalValue = config.widgetTool;
   }
 
   // ==========
@@ -5800,6 +9763,12 @@ export class GoogleCesTool extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get appInput() {
     return this._app;
+  }
+
+  // connector_tool - computed: true, optional: false, required: false
+  private _connectorTool = new GoogleCesToolConnectorToolList(this, "connector_tool", false);
+  public get connectorTool() {
+    return this._connectorTool;
   }
 
   // create_time - computed: true, optional: false, required: false
@@ -5883,6 +9852,12 @@ export class GoogleCesTool extends cdktn.TerraformResource {
     return this._location;
   }
 
+  // mcp_tool - computed: true, optional: false, required: false
+  private _mcpTool = new GoogleCesToolMcpToolList(this, "mcp_tool", false);
+  public get mcpTool() {
+    return this._mcpTool;
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -5910,6 +9885,12 @@ export class GoogleCesTool extends cdktn.TerraformResource {
     return this._project;
   }
 
+  // remote_agent_tool - computed: true, optional: false, required: false
+  private _remoteAgentTool = new GoogleCesToolRemoteAgentToolList(this, "remote_agent_tool", false);
+  public get remoteAgentTool() {
+    return this._remoteAgentTool;
+  }
+
   // system_tool - computed: true, optional: false, required: false
   private _systemTool = new GoogleCesToolSystemToolList(this, "system_tool", false);
   public get systemTool() {
@@ -5932,6 +9913,22 @@ export class GoogleCesTool extends cdktn.TerraformResource {
   // update_time - computed: true, optional: false, required: false
   public get updateTime() {
     return this.getStringAttribute('update_time');
+  }
+
+  // agent_tool - computed: false, optional: true, required: false
+  private _agentTool = new GoogleCesToolAgentToolOutputReference(this, "agent_tool");
+  public get agentTool() {
+    return this._agentTool;
+  }
+  public putAgentTool(value: GoogleCesToolAgentTool) {
+    this._agentTool.internalValue = value;
+  }
+  public resetAgentTool() {
+    this._agentTool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentToolInput() {
+    return this._agentTool.internalValue;
   }
 
   // client_function - computed: false, optional: true, required: false
@@ -5964,6 +9961,22 @@ export class GoogleCesTool extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dataStoreToolInput() {
     return this._dataStoreTool.internalValue;
+  }
+
+  // file_search_tool - computed: false, optional: true, required: false
+  private _fileSearchTool = new GoogleCesToolFileSearchToolOutputReference(this, "file_search_tool");
+  public get fileSearchTool() {
+    return this._fileSearchTool;
+  }
+  public putFileSearchTool(value: GoogleCesToolFileSearchTool) {
+    this._fileSearchTool.internalValue = value;
+  }
+  public resetFileSearchTool() {
+    this._fileSearchTool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fileSearchToolInput() {
+    return this._fileSearchTool.internalValue;
   }
 
   // google_search_tool - computed: false, optional: true, required: false
@@ -6014,6 +10027,22 @@ export class GoogleCesTool extends cdktn.TerraformResource {
     return this._timeouts.internalValue;
   }
 
+  // widget_tool - computed: false, optional: true, required: false
+  private _widgetTool = new GoogleCesToolWidgetToolOutputReference(this, "widget_tool");
+  public get widgetTool() {
+    return this._widgetTool;
+  }
+  public putWidgetTool(value: GoogleCesToolWidgetTool) {
+    this._widgetTool.internalValue = value;
+  }
+  public resetWidgetTool() {
+    this._widgetTool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get widgetToolInput() {
+    return this._widgetTool.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -6027,11 +10056,14 @@ export class GoogleCesTool extends cdktn.TerraformResource {
       location: cdktn.stringToTerraform(this._location),
       project: cdktn.stringToTerraform(this._project),
       tool_id: cdktn.stringToTerraform(this._toolId),
+      agent_tool: googleCesToolAgentToolToTerraform(this._agentTool.internalValue),
       client_function: googleCesToolClientFunctionToTerraform(this._clientFunction.internalValue),
       data_store_tool: googleCesToolDataStoreToolToTerraform(this._dataStoreTool.internalValue),
+      file_search_tool: googleCesToolFileSearchToolToTerraform(this._fileSearchTool.internalValue),
       google_search_tool: googleCesToolGoogleSearchToolToTerraform(this._googleSearchTool.internalValue),
       python_function: googleCesToolPythonFunctionToTerraform(this._pythonFunction.internalValue),
       timeouts: googleCesToolTimeoutsToTerraform(this._timeouts.internalValue),
+      widget_tool: googleCesToolWidgetToolToTerraform(this._widgetTool.internalValue),
     };
   }
 
@@ -6079,6 +10111,12 @@ export class GoogleCesTool extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      agent_tool: {
+        value: googleCesToolAgentToolToHclTerraform(this._agentTool.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleCesToolAgentToolList",
+      },
       client_function: {
         value: googleCesToolClientFunctionToHclTerraform(this._clientFunction.internalValue),
         isBlock: true,
@@ -6090,6 +10128,12 @@ export class GoogleCesTool extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GoogleCesToolDataStoreToolList",
+      },
+      file_search_tool: {
+        value: googleCesToolFileSearchToolToHclTerraform(this._fileSearchTool.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleCesToolFileSearchToolList",
       },
       google_search_tool: {
         value: googleCesToolGoogleSearchToolToHclTerraform(this._googleSearchTool.internalValue),
@@ -6108,6 +10152,12 @@ export class GoogleCesTool extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "GoogleCesToolTimeouts",
+      },
+      widget_tool: {
+        value: googleCesToolWidgetToolToHclTerraform(this._widgetTool.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleCesToolWidgetToolList",
       },
     };
 

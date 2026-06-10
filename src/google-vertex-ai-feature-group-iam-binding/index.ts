@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,50 +13,50 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleVertexAiFeatureGroupIamBindingConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#feature_group GoogleVertexAiFeatureGroupIamBinding#feature_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#feature_group GoogleVertexAiFeatureGroupIamBinding#feature_group}
   */
   readonly featureGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#id GoogleVertexAiFeatureGroupIamBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#id GoogleVertexAiFeatureGroupIamBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#members GoogleVertexAiFeatureGroupIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#members GoogleVertexAiFeatureGroupIamBinding#members}
   */
   readonly members: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#project GoogleVertexAiFeatureGroupIamBinding#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#project GoogleVertexAiFeatureGroupIamBinding#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#region GoogleVertexAiFeatureGroupIamBinding#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#region GoogleVertexAiFeatureGroupIamBinding#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#role GoogleVertexAiFeatureGroupIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#role GoogleVertexAiFeatureGroupIamBinding#role}
   */
   readonly role: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#condition GoogleVertexAiFeatureGroupIamBinding#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#condition GoogleVertexAiFeatureGroupIamBinding#condition}
   */
   readonly condition?: GoogleVertexAiFeatureGroupIamBindingCondition;
 }
 export interface GoogleVertexAiFeatureGroupIamBindingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#description GoogleVertexAiFeatureGroupIamBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#description GoogleVertexAiFeatureGroupIamBinding#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#expression GoogleVertexAiFeatureGroupIamBinding#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#expression GoogleVertexAiFeatureGroupIamBinding#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#title GoogleVertexAiFeatureGroupIamBinding#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#title GoogleVertexAiFeatureGroupIamBinding#title}
   */
   readonly title: string;
 }
@@ -64,7 +64,7 @@ export interface GoogleVertexAiFeatureGroupIamBindingCondition {
 export function googleVertexAiFeatureGroupIamBindingConditionToTerraform(struct?: GoogleVertexAiFeatureGroupIamBindingConditionOutputReference | GoogleVertexAiFeatureGroupIamBindingCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -77,7 +77,7 @@ export function googleVertexAiFeatureGroupIamBindingConditionToTerraform(struct?
 export function googleVertexAiFeatureGroupIamBindingConditionToHclTerraform(struct?: GoogleVertexAiFeatureGroupIamBindingConditionOutputReference | GoogleVertexAiFeatureGroupIamBindingCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -192,7 +192,7 @@ export class GoogleVertexAiFeatureGroupIamBindingConditionOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding google_vertex_ai_feature_group_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding google_vertex_ai_feature_group_iam_binding}
 */
 export class GoogleVertexAiFeatureGroupIamBinding extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class GoogleVertexAiFeatureGroupIamBinding extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a GoogleVertexAiFeatureGroupIamBinding resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiFeatureGroupIamBinding to import
-  * @param importFromId The id of the existing GoogleVertexAiFeatureGroupIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiFeatureGroupIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiFeatureGroupIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class GoogleVertexAiFeatureGroupIamBinding extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_group_iam_binding google_vertex_ai_feature_group_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_group_iam_binding google_vertex_ai_feature_group_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class GoogleVertexAiFeatureGroupIamBinding extends cdktn.TerraformResourc
       terraformResourceType: 'google_vertex_ai_feature_group_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

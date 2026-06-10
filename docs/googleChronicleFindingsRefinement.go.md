@@ -4,7 +4,7 @@
 
 ### GoogleChronicleFindingsRefinement <a name="GoogleChronicleFindingsRefinement" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinement.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleChronicleFindingsRef
 
 The id of the existing GoogleChronicleFindingsRefinement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1031,9 +1031,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.instance">Instance</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.location">Location</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | Display name of the findings refinement. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#id GoogleChronicleFindingsRefinement#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#id GoogleChronicleFindingsRefinement#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.outcomeFilters">OutcomeFilters</a></code> | <code>interface{}</code> | outcome_filters block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#project GoogleChronicleFindingsRefinement#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#project GoogleChronicleFindingsRefinement#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.query">Query</a></code> | <code>*string</code> | The query for the findings refinement. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts">GoogleChronicleFindingsRefinementTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementConfig.property.type">Type</a></code> | <code>*string</code> | DETECTION_EXCLUSION is the only supported type of findings refinement. Possible values: DETECTION_EXCLUSION. |
@@ -1120,7 +1120,7 @@ Instance *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#instance GoogleChronicleFindingsRefinement#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#instance GoogleChronicleFindingsRefinement#instance}
 
 ---
 
@@ -1134,7 +1134,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#location GoogleChronicleFindingsRefinement#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#location GoogleChronicleFindingsRefinement#location}
 
 ---
 
@@ -1148,7 +1148,7 @@ DisplayName *string
 
 Display name of the findings refinement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#display_name GoogleChronicleFindingsRefinement#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#display_name GoogleChronicleFindingsRefinement#display_name}
 
 ---
 
@@ -1160,7 +1160,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#id GoogleChronicleFindingsRefinement#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#id GoogleChronicleFindingsRefinement#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1177,7 +1177,7 @@ OutcomeFilters interface{}
 
 outcome_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#outcome_filters GoogleChronicleFindingsRefinement#outcome_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#outcome_filters GoogleChronicleFindingsRefinement#outcome_filters}
 
 ---
 
@@ -1189,7 +1189,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#project GoogleChronicleFindingsRefinement#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#project GoogleChronicleFindingsRefinement#project}.
 
 ---
 
@@ -1209,7 +1209,7 @@ query is the same as a UDM search string. See the following for more
 information:
 https://cloud.google.com/chronicle/docs/investigation/udm-search
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#query GoogleChronicleFindingsRefinement#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#query GoogleChronicleFindingsRefinement#query}
 
 ---
 
@@ -1223,7 +1223,7 @@ Timeouts GoogleChronicleFindingsRefinementTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#timeouts GoogleChronicleFindingsRefinement#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#timeouts GoogleChronicleFindingsRefinement#timeouts}
 
 ---
 
@@ -1237,7 +1237,7 @@ Type *string
 
 DETECTION_EXCLUSION is the only supported type of findings refinement. Possible values: DETECTION_EXCLUSION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#type GoogleChronicleFindingsRefinement#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#type GoogleChronicleFindingsRefinement#type}
 
 ---
 
@@ -1275,7 +1275,7 @@ OutcomeFilterOperator *string
 
 The operator to be applied to the outcome variable. Possible values: EQUAL CONTAINS MATCHES_REGEX MATCHES_CIDR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#outcome_filter_operator GoogleChronicleFindingsRefinement#outcome_filter_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#outcome_filter_operator GoogleChronicleFindingsRefinement#outcome_filter_operator}
 
 ---
 
@@ -1289,7 +1289,7 @@ OutcomeValue *string
 
 The value of the outcome variable to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#outcome_value GoogleChronicleFindingsRefinement#outcome_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#outcome_value GoogleChronicleFindingsRefinement#outcome_value}
 
 ---
 
@@ -1303,7 +1303,7 @@ OutcomeVariable *string
 
 The outcome variable name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#outcome_variable GoogleChronicleFindingsRefinement#outcome_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#outcome_variable GoogleChronicleFindingsRefinement#outcome_variable}
 
 ---
 
@@ -1325,9 +1325,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#create GoogleChronicleFindingsRefinement#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#delete GoogleChronicleFindingsRefinement#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#update GoogleChronicleFindingsRefinement#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#create GoogleChronicleFindingsRefinement#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#delete GoogleChronicleFindingsRefinement#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFindingsRefinement.GoogleChronicleFindingsRefinementTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#update GoogleChronicleFindingsRefinement#update}. |
 
 ---
 
@@ -1339,7 +1339,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#create GoogleChronicleFindingsRefinement#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#create GoogleChronicleFindingsRefinement#create}.
 
 ---
 
@@ -1351,7 +1351,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#delete GoogleChronicleFindingsRefinement#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#delete GoogleChronicleFindingsRefinement#delete}.
 
 ---
 
@@ -1363,7 +1363,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_findings_refinement#update GoogleChronicleFindingsRefinement#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_findings_refinement#update GoogleChronicleFindingsRefinement#update}.
 
 ---
 

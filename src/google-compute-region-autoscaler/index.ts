@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleComputeRegionAutoscalerConfig extends cdktn.TerraformMeta
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#deletion_policy GoogleComputeRegionAutoscaler#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#deletion_policy GoogleComputeRegionAutoscaler#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#description GoogleComputeRegionAutoscaler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#description GoogleComputeRegionAutoscaler#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#id GoogleComputeRegionAutoscaler#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#id GoogleComputeRegionAutoscaler#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,35 +44,35 @@ export interface GoogleComputeRegionAutoscalerConfig extends cdktn.TerraformMeta
   * characters must be a dash, lowercase letter, or digit, except the last
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#name GoogleComputeRegionAutoscaler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#name GoogleComputeRegionAutoscaler#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#project GoogleComputeRegionAutoscaler#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#project GoogleComputeRegionAutoscaler#project}
   */
   readonly project?: string;
   /**
   * URL of the region where the instance group resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#region GoogleComputeRegionAutoscaler#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#region GoogleComputeRegionAutoscaler#region}
   */
   readonly region?: string;
   /**
   * URL of the managed instance group that this autoscaler will scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
   */
   readonly target: string;
   /**
   * autoscaling_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#autoscaling_policy GoogleComputeRegionAutoscaler#autoscaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#autoscaling_policy GoogleComputeRegionAutoscaler#autoscaling_policy}
   */
   readonly autoscalingPolicy: GoogleComputeRegionAutoscalerAutoscalingPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#timeouts GoogleComputeRegionAutoscaler#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#timeouts GoogleComputeRegionAutoscaler#timeouts}
   */
   readonly timeouts?: GoogleComputeRegionAutoscalerTimeouts;
 }
@@ -84,7 +84,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilization {
   * 
   * - OPTIMIZE_AVAILABILITY. Predictive autoscaling improves availability by monitoring daily and weekly load patterns and scaling out ahead of anticipated demand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#predictive_method GoogleComputeRegionAutoscaler#predictive_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#predictive_method GoogleComputeRegionAutoscaler#predictive_method}
   */
   readonly predictiveMethod?: string;
   /**
@@ -102,7 +102,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilization {
   * specified or until the average utilization reaches the target
   * utilization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
   */
   readonly target: number;
 }
@@ -110,7 +110,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilization {
 export function googleComputeRegionAutoscalerAutoscalingPolicyCpuUtilizationToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilizationOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     predictive_method: cdktn.stringToTerraform(struct!.predictiveMethod),
@@ -122,7 +122,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyCpuUtilizationToTe
 export function googleComputeRegionAutoscalerAutoscalingPolicyCpuUtilizationToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilizationOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     predictive_method: {
@@ -216,7 +216,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtil
   * balancing configuration) that autoscaler should maintain. Must
   * be a positive float value. If not defined, the default is 0.8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
   */
   readonly target: number;
 }
@@ -224,7 +224,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtil
 export function googleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target: cdktn.numberToTerraform(struct!.target),
@@ -235,7 +235,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtili
 export function googleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilizationOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target: {
@@ -330,7 +330,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyMetric {
   * TimeSeries are returned upon the query execution, the autoscaler
   * will sum their respective values to obtain its scaling value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#filter GoogleComputeRegionAutoscaler#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#filter GoogleComputeRegionAutoscaler#filter}
   */
   readonly filter?: string;
   /**
@@ -339,7 +339,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyMetric {
   * 
   * The metric must have a value type of INT64 or DOUBLE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#name GoogleComputeRegionAutoscaler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#name GoogleComputeRegionAutoscaler#name}
   */
   readonly name: string;
   /**
@@ -360,7 +360,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyMetric {
   * single instance, it could be better used with utilization_target
   * instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#single_instance_assignment GoogleComputeRegionAutoscaler#single_instance_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#single_instance_assignment GoogleComputeRegionAutoscaler#single_instance_assignment}
   */
   readonly singleInstanceAssignment?: number;
   /**
@@ -374,14 +374,14 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyMetric {
   * The autoscaler will work to keep this value constant for each
   * of the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#target GoogleComputeRegionAutoscaler#target}
   */
   readonly target?: number;
   /**
   * Defines how target utilization value is expressed for a
   * Stackdriver Monitoring metric. Possible values: ["GAUGE", "DELTA_PER_SECOND", "DELTA_PER_MINUTE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#type GoogleComputeRegionAutoscaler#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#type GoogleComputeRegionAutoscaler#type}
   */
   readonly type?: string;
 }
@@ -389,7 +389,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyMetric {
 export function googleComputeRegionAutoscalerAutoscalingPolicyMetricToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyMetric | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     filter: cdktn.stringToTerraform(struct!.filter),
@@ -404,7 +404,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyMetricToTerraform(
 export function googleComputeRegionAutoscalerAutoscalingPolicyMetricToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyMetric | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     filter: {
@@ -613,14 +613,14 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlM
   * Specifies a fixed number of VM instances. This must be a positive
   * integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#fixed GoogleComputeRegionAutoscaler#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#fixed GoogleComputeRegionAutoscaler#fixed}
   */
   readonly fixed?: number;
   /**
   * Specifies a percentage of instances between 0 to 100%, inclusive.
   * For example, specify 80 for 80%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#percent GoogleComputeRegionAutoscaler#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#percent GoogleComputeRegionAutoscaler#percent}
   */
   readonly percent?: number;
 }
@@ -628,7 +628,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlM
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMaxScaledDownReplicasToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMaxScaledDownReplicasOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMaxScaledDownReplicas): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fixed: cdktn.numberToTerraform(struct!.fixed),
@@ -640,7 +640,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMa
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMaxScaledDownReplicasToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMaxScaledDownReplicasOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMaxScaledDownReplicas): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fixed: {
@@ -736,13 +736,13 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControl 
   * How long back autoscaling should look when computing recommendations
   * to include directives regarding slower scale down, as described above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#time_window_sec GoogleComputeRegionAutoscaler#time_window_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#time_window_sec GoogleComputeRegionAutoscaler#time_window_sec}
   */
   readonly timeWindowSec?: number;
   /**
   * max_scaled_down_replicas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#max_scaled_down_replicas GoogleComputeRegionAutoscaler#max_scaled_down_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#max_scaled_down_replicas GoogleComputeRegionAutoscaler#max_scaled_down_replicas}
   */
   readonly maxScaledDownReplicas?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlMaxScaledDownReplicas;
 }
@@ -750,7 +750,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControl 
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     time_window_sec: cdktn.numberToTerraform(struct!.timeWindowSec),
@@ -762,7 +762,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlTo
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControlOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     time_window_sec: {
@@ -858,14 +858,14 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMax
   * Specifies a fixed number of VM instances. This must be a positive
   * integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#fixed GoogleComputeRegionAutoscaler#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#fixed GoogleComputeRegionAutoscaler#fixed}
   */
   readonly fixed?: number;
   /**
   * Specifies a percentage of instances between 0 to 100%, inclusive.
   * For example, specify 80 for 80%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#percent GoogleComputeRegionAutoscaler#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#percent GoogleComputeRegionAutoscaler#percent}
   */
   readonly percent?: number;
 }
@@ -873,7 +873,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMax
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicasToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicasOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicas): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fixed: cdktn.numberToTerraform(struct!.fixed),
@@ -885,7 +885,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxS
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicasToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicasOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicas): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fixed: {
@@ -981,13 +981,13 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControl {
   * How long back autoscaling should look when computing recommendations
   * to include directives regarding slower scale down, as described above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#time_window_sec GoogleComputeRegionAutoscaler#time_window_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#time_window_sec GoogleComputeRegionAutoscaler#time_window_sec}
   */
   readonly timeWindowSec?: number;
   /**
   * max_scaled_in_replicas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#max_scaled_in_replicas GoogleComputeRegionAutoscaler#max_scaled_in_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#max_scaled_in_replicas GoogleComputeRegionAutoscaler#max_scaled_in_replicas}
   */
   readonly maxScaledInReplicas?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlMaxScaledInReplicas;
 }
@@ -995,7 +995,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControl {
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleInControlToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     time_window_sec: cdktn.numberToTerraform(struct!.timeWindowSec),
@@ -1007,7 +1007,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyScaleInControlToTe
 export function googleComputeRegionAutoscalerAutoscalingPolicyScaleInControlToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControlOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     time_window_sec: {
@@ -1102,41 +1102,41 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedules 
   /**
   * A description of a scaling schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#description GoogleComputeRegionAutoscaler#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#description GoogleComputeRegionAutoscaler#description}
   */
   readonly description?: string;
   /**
   * A boolean value that specifies if a scaling schedule can influence autoscaler recommendations. If set to true, then a scaling schedule has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#disabled GoogleComputeRegionAutoscaler#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#disabled GoogleComputeRegionAutoscaler#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The duration of time intervals (in seconds) for which this scaling schedule will be running. The minimum allowed value is 300.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#duration_sec GoogleComputeRegionAutoscaler#duration_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#duration_sec GoogleComputeRegionAutoscaler#duration_sec}
   */
   readonly durationSec: number;
   /**
   * Minimum number of VM instances that autoscaler will recommend in time intervals starting according to schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#min_required_replicas GoogleComputeRegionAutoscaler#min_required_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#min_required_replicas GoogleComputeRegionAutoscaler#min_required_replicas}
   */
   readonly minRequiredReplicas: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#name GoogleComputeRegionAutoscaler#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#name GoogleComputeRegionAutoscaler#name}
   */
   readonly name: string;
   /**
   * The start timestamps of time intervals when this scaling schedule should provide a scaling signal. This field uses the extended cron format (with an optional year field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#schedule GoogleComputeRegionAutoscaler#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#schedule GoogleComputeRegionAutoscaler#schedule}
   */
   readonly schedule: string;
   /**
   * The time zone to be used when interpreting the schedule. The value of this field must be a time zone name from the tz database: http://en.wikipedia.org/wiki/Tz_database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#time_zone GoogleComputeRegionAutoscaler#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#time_zone GoogleComputeRegionAutoscaler#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -1144,7 +1144,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedules 
 export function googleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -1161,7 +1161,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesTo
 export function googleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1425,7 +1425,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicy {
   * instance may take to initialize. To do this, create an instance
   * and time the startup process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#cooldown_period GoogleComputeRegionAutoscaler#cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#cooldown_period GoogleComputeRegionAutoscaler#cooldown_period}
   */
   readonly cooldownPeriod?: number;
   /**
@@ -1434,7 +1434,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicy {
   * maximum number of replicas should not be lower than minimal number
   * of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#max_replicas GoogleComputeRegionAutoscaler#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#max_replicas GoogleComputeRegionAutoscaler#max_replicas}
   */
   readonly maxReplicas: number;
   /**
@@ -1443,13 +1443,13 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicy {
   * choose a default value depending on maximum number of instances
   * allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#min_replicas GoogleComputeRegionAutoscaler#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#min_replicas GoogleComputeRegionAutoscaler#min_replicas}
   */
   readonly minReplicas: number;
   /**
   * Defines operating mode for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#mode GoogleComputeRegionAutoscaler#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#mode GoogleComputeRegionAutoscaler#mode}
   */
   readonly mode?: string;
   /**
@@ -1460,43 +1460,43 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicy {
   * for your application to not have fluctuating size due to short term load
   * fluctuations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#stabilization_period GoogleComputeRegionAutoscaler#stabilization_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#stabilization_period GoogleComputeRegionAutoscaler#stabilization_period}
   */
   readonly stabilizationPeriod?: number;
   /**
   * cpu_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#cpu_utilization GoogleComputeRegionAutoscaler#cpu_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#cpu_utilization GoogleComputeRegionAutoscaler#cpu_utilization}
   */
   readonly cpuUtilization?: GoogleComputeRegionAutoscalerAutoscalingPolicyCpuUtilization;
   /**
   * load_balancing_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#load_balancing_utilization GoogleComputeRegionAutoscaler#load_balancing_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#load_balancing_utilization GoogleComputeRegionAutoscaler#load_balancing_utilization}
   */
   readonly loadBalancingUtilization?: GoogleComputeRegionAutoscalerAutoscalingPolicyLoadBalancingUtilization;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#metric GoogleComputeRegionAutoscaler#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#metric GoogleComputeRegionAutoscaler#metric}
   */
   readonly metric?: GoogleComputeRegionAutoscalerAutoscalingPolicyMetric[] | cdktn.IResolvable;
   /**
   * scale_down_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#scale_down_control GoogleComputeRegionAutoscaler#scale_down_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#scale_down_control GoogleComputeRegionAutoscaler#scale_down_control}
   */
   readonly scaleDownControl?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleDownControl;
   /**
   * scale_in_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#scale_in_control GoogleComputeRegionAutoscaler#scale_in_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#scale_in_control GoogleComputeRegionAutoscaler#scale_in_control}
   */
   readonly scaleInControl?: GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControl;
   /**
   * scaling_schedules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#scaling_schedules GoogleComputeRegionAutoscaler#scaling_schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#scaling_schedules GoogleComputeRegionAutoscaler#scaling_schedules}
   */
   readonly scalingSchedules?: GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedules[] | cdktn.IResolvable;
 }
@@ -1504,7 +1504,7 @@ export interface GoogleComputeRegionAutoscalerAutoscalingPolicy {
 export function googleComputeRegionAutoscalerAutoscalingPolicyToTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cooldown_period: cdktn.numberToTerraform(struct!.cooldownPeriod),
@@ -1525,7 +1525,7 @@ export function googleComputeRegionAutoscalerAutoscalingPolicyToTerraform(struct
 export function googleComputeRegionAutoscalerAutoscalingPolicyToHclTerraform(struct?: GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference | GoogleComputeRegionAutoscalerAutoscalingPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cooldown_period: {
@@ -1864,15 +1864,15 @@ export class GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference exten
 }
 export interface GoogleComputeRegionAutoscalerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#create GoogleComputeRegionAutoscaler#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#create GoogleComputeRegionAutoscaler#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#delete GoogleComputeRegionAutoscaler#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#delete GoogleComputeRegionAutoscaler#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#update GoogleComputeRegionAutoscaler#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#update GoogleComputeRegionAutoscaler#update}
   */
   readonly update?: string;
 }
@@ -1880,7 +1880,7 @@ export interface GoogleComputeRegionAutoscalerTimeouts {
 export function googleComputeRegionAutoscalerTimeoutsToTerraform(struct?: GoogleComputeRegionAutoscalerTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1893,7 +1893,7 @@ export function googleComputeRegionAutoscalerTimeoutsToTerraform(struct?: Google
 export function googleComputeRegionAutoscalerTimeoutsToHclTerraform(struct?: GoogleComputeRegionAutoscalerTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -2024,7 +2024,7 @@ export class GoogleComputeRegionAutoscalerTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler google_compute_region_autoscaler}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler google_compute_region_autoscaler}
 */
 export class GoogleComputeRegionAutoscaler extends cdktn.TerraformResource {
 
@@ -2040,7 +2040,7 @@ export class GoogleComputeRegionAutoscaler extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeRegionAutoscaler resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionAutoscaler to import
-  * @param importFromId The id of the existing GoogleComputeRegionAutoscaler that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeRegionAutoscaler that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionAutoscaler to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2052,7 +2052,7 @@ export class GoogleComputeRegionAutoscaler extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_autoscaler google_compute_region_autoscaler} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_autoscaler google_compute_region_autoscaler} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2063,7 +2063,7 @@ export class GoogleComputeRegionAutoscaler extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_region_autoscaler',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

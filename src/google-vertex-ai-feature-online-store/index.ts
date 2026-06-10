@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleVertexAiFeatureOnlineStoreConfig extends cdktn.TerraformM
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#deletion_policy GoogleVertexAiFeatureOnlineStore#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#deletion_policy GoogleVertexAiFeatureOnlineStore#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * If set to true, any FeatureViews and Features for this FeatureOnlineStore will also be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#force_destroy GoogleVertexAiFeatureOnlineStore#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#force_destroy GoogleVertexAiFeatureOnlineStore#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#id GoogleVertexAiFeatureOnlineStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#id GoogleVertexAiFeatureOnlineStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,59 +43,59 @@ export interface GoogleVertexAiFeatureOnlineStoreConfig extends cdktn.TerraformM
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#labels GoogleVertexAiFeatureOnlineStore#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#labels GoogleVertexAiFeatureOnlineStore#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name of the Feature Online Store. This value may be up to 60 characters, and valid characters are [a-z0-9_]. The first character cannot be a number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#name GoogleVertexAiFeatureOnlineStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#name GoogleVertexAiFeatureOnlineStore#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#project GoogleVertexAiFeatureOnlineStore#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#project GoogleVertexAiFeatureOnlineStore#project}
   */
   readonly project?: string;
   /**
   * The region of feature online store. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#region GoogleVertexAiFeatureOnlineStore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#region GoogleVertexAiFeatureOnlineStore#region}
   */
   readonly region?: string;
   /**
   * bigtable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#bigtable GoogleVertexAiFeatureOnlineStore#bigtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#bigtable GoogleVertexAiFeatureOnlineStore#bigtable}
   */
   readonly bigtable?: GoogleVertexAiFeatureOnlineStoreBigtable;
   /**
   * dedicated_serving_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#dedicated_serving_endpoint GoogleVertexAiFeatureOnlineStore#dedicated_serving_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#dedicated_serving_endpoint GoogleVertexAiFeatureOnlineStore#dedicated_serving_endpoint}
   */
   readonly dedicatedServingEndpoint?: GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpoint;
   /**
   * embedding_management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#embedding_management GoogleVertexAiFeatureOnlineStore#embedding_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#embedding_management GoogleVertexAiFeatureOnlineStore#embedding_management}
   */
   readonly embeddingManagement?: GoogleVertexAiFeatureOnlineStoreEmbeddingManagement;
   /**
   * encryption_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#encryption_spec GoogleVertexAiFeatureOnlineStore#encryption_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#encryption_spec GoogleVertexAiFeatureOnlineStore#encryption_spec}
   */
   readonly encryptionSpec?: GoogleVertexAiFeatureOnlineStoreEncryptionSpec;
   /**
   * optimized block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#optimized GoogleVertexAiFeatureOnlineStore#optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#optimized GoogleVertexAiFeatureOnlineStore#optimized}
   */
   readonly optimized?: GoogleVertexAiFeatureOnlineStoreOptimized;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#timeouts GoogleVertexAiFeatureOnlineStore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#timeouts GoogleVertexAiFeatureOnlineStore#timeouts}
   */
   readonly timeouts?: GoogleVertexAiFeatureOnlineStoreTimeouts;
 }
@@ -103,19 +103,19 @@ export interface GoogleVertexAiFeatureOnlineStoreBigtableAutoScaling {
   /**
   * A percentage of the cluster's CPU capacity. Can be from 10% to 80%. When a cluster's CPU utilization exceeds the target that you have set, Bigtable immediately adds nodes to the cluster. When CPU utilization is substantially lower than the target, Bigtable removes nodes. If not set will default to 50%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#cpu_utilization_target GoogleVertexAiFeatureOnlineStore#cpu_utilization_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#cpu_utilization_target GoogleVertexAiFeatureOnlineStore#cpu_utilization_target}
   */
   readonly cpuUtilizationTarget?: number;
   /**
   * The maximum number of nodes to scale up to. Must be greater than or equal to minNodeCount, and less than or equal to 10 times of 'minNodeCount'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#max_node_count GoogleVertexAiFeatureOnlineStore#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#max_node_count GoogleVertexAiFeatureOnlineStore#max_node_count}
   */
   readonly maxNodeCount: number;
   /**
   * The minimum number of nodes to scale down to. Must be greater than or equal to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#min_node_count GoogleVertexAiFeatureOnlineStore#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#min_node_count GoogleVertexAiFeatureOnlineStore#min_node_count}
   */
   readonly minNodeCount: number;
 }
@@ -123,7 +123,7 @@ export interface GoogleVertexAiFeatureOnlineStoreBigtableAutoScaling {
 export function googleVertexAiFeatureOnlineStoreBigtableAutoScalingToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreBigtableAutoScalingOutputReference | GoogleVertexAiFeatureOnlineStoreBigtableAutoScaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cpu_utilization_target: cdktn.numberToTerraform(struct!.cpuUtilizationTarget),
@@ -136,7 +136,7 @@ export function googleVertexAiFeatureOnlineStoreBigtableAutoScalingToTerraform(s
 export function googleVertexAiFeatureOnlineStoreBigtableAutoScalingToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreBigtableAutoScalingOutputReference | GoogleVertexAiFeatureOnlineStoreBigtableAutoScaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cpu_utilization_target: {
@@ -253,19 +253,19 @@ export interface GoogleVertexAiFeatureOnlineStoreBigtable {
   /**
   * Optional. If true, enable direct access to the Bigtable instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#enable_direct_bigtable_access GoogleVertexAiFeatureOnlineStore#enable_direct_bigtable_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#enable_direct_bigtable_access GoogleVertexAiFeatureOnlineStore#enable_direct_bigtable_access}
   */
   readonly enableDirectBigtableAccess?: boolean | cdktn.IResolvable;
   /**
   * The zone where the Bigtable instance will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#zone GoogleVertexAiFeatureOnlineStore#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#zone GoogleVertexAiFeatureOnlineStore#zone}
   */
   readonly zone?: string;
   /**
   * auto_scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#auto_scaling GoogleVertexAiFeatureOnlineStore#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#auto_scaling GoogleVertexAiFeatureOnlineStore#auto_scaling}
   */
   readonly autoScaling: GoogleVertexAiFeatureOnlineStoreBigtableAutoScaling;
 }
@@ -273,7 +273,7 @@ export interface GoogleVertexAiFeatureOnlineStoreBigtable {
 export function googleVertexAiFeatureOnlineStoreBigtableToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreBigtableOutputReference | GoogleVertexAiFeatureOnlineStoreBigtable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_direct_bigtable_access: cdktn.booleanToTerraform(struct!.enableDirectBigtableAccess),
@@ -286,7 +286,7 @@ export function googleVertexAiFeatureOnlineStoreBigtableToTerraform(struct?: Goo
 export function googleVertexAiFeatureOnlineStoreBigtableToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreBigtableOutputReference | GoogleVertexAiFeatureOnlineStoreBigtable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_direct_bigtable_access: {
@@ -406,13 +406,13 @@ export interface GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivate
   /**
   * If set to true, customers will use private service connection to send request. Otherwise, the connection will set to public endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#enable_private_service_connect GoogleVertexAiFeatureOnlineStore#enable_private_service_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#enable_private_service_connect GoogleVertexAiFeatureOnlineStore#enable_private_service_connect}
   */
   readonly enablePrivateServiceConnect: boolean | cdktn.IResolvable;
   /**
   * A list of Projects from which the forwarding rule will target the service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#project_allowlist GoogleVertexAiFeatureOnlineStore#project_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#project_allowlist GoogleVertexAiFeatureOnlineStore#project_allowlist}
   */
   readonly projectAllowlist?: string[];
 }
@@ -420,7 +420,7 @@ export interface GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivate
 export function googleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfigToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfigOutputReference | GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_private_service_connect: cdktn.booleanToTerraform(struct!.enablePrivateServiceConnect),
@@ -432,7 +432,7 @@ export function googleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateS
 export function googleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfigToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfigOutputReference | GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_private_service_connect: {
@@ -524,7 +524,7 @@ export interface GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpoint {
   /**
   * private_service_connect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#private_service_connect_config GoogleVertexAiFeatureOnlineStore#private_service_connect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#private_service_connect_config GoogleVertexAiFeatureOnlineStore#private_service_connect_config}
   */
   readonly privateServiceConnectConfig?: GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfig;
 }
@@ -532,7 +532,7 @@ export interface GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpoint {
 export function googleVertexAiFeatureOnlineStoreDedicatedServingEndpointToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointOutputReference | GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_service_connect_config: googleVertexAiFeatureOnlineStoreDedicatedServingEndpointPrivateServiceConnectConfigToTerraform(struct!.privateServiceConnectConfig),
@@ -543,7 +543,7 @@ export function googleVertexAiFeatureOnlineStoreDedicatedServingEndpointToTerraf
 export function googleVertexAiFeatureOnlineStoreDedicatedServingEndpointToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointOutputReference | GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_service_connect_config: {
@@ -620,7 +620,7 @@ export interface GoogleVertexAiFeatureOnlineStoreEmbeddingManagement {
   /**
   * Enable embedding management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#enabled GoogleVertexAiFeatureOnlineStore#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#enabled GoogleVertexAiFeatureOnlineStore#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -628,7 +628,7 @@ export interface GoogleVertexAiFeatureOnlineStoreEmbeddingManagement {
 export function googleVertexAiFeatureOnlineStoreEmbeddingManagementToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreEmbeddingManagementOutputReference | GoogleVertexAiFeatureOnlineStoreEmbeddingManagement): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -639,7 +639,7 @@ export function googleVertexAiFeatureOnlineStoreEmbeddingManagementToTerraform(s
 export function googleVertexAiFeatureOnlineStoreEmbeddingManagementToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreEmbeddingManagementOutputReference | GoogleVertexAiFeatureOnlineStoreEmbeddingManagement): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -706,7 +706,7 @@ export interface GoogleVertexAiFeatureOnlineStoreEncryptionSpec {
   /**
   * The Cloud KMS resource identifier of the customer managed encryption key used to protect a resource. Has the form: projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key. The key needs to be in the same region as where the compute resource is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#kms_key_name GoogleVertexAiFeatureOnlineStore#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#kms_key_name GoogleVertexAiFeatureOnlineStore#kms_key_name}
   */
   readonly kmsKeyName: string;
 }
@@ -714,7 +714,7 @@ export interface GoogleVertexAiFeatureOnlineStoreEncryptionSpec {
 export function googleVertexAiFeatureOnlineStoreEncryptionSpecToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreEncryptionSpecOutputReference | GoogleVertexAiFeatureOnlineStoreEncryptionSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -725,7 +725,7 @@ export function googleVertexAiFeatureOnlineStoreEncryptionSpecToTerraform(struct
 export function googleVertexAiFeatureOnlineStoreEncryptionSpecToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreEncryptionSpecOutputReference | GoogleVertexAiFeatureOnlineStoreEncryptionSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -791,7 +791,7 @@ export interface GoogleVertexAiFeatureOnlineStoreOptimized {
 export function googleVertexAiFeatureOnlineStoreOptimizedToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreOptimizedOutputReference | GoogleVertexAiFeatureOnlineStoreOptimized): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -801,7 +801,7 @@ export function googleVertexAiFeatureOnlineStoreOptimizedToTerraform(struct?: Go
 export function googleVertexAiFeatureOnlineStoreOptimizedToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreOptimizedOutputReference | GoogleVertexAiFeatureOnlineStoreOptimized): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -836,15 +836,15 @@ export class GoogleVertexAiFeatureOnlineStoreOptimizedOutputReference extends cd
 }
 export interface GoogleVertexAiFeatureOnlineStoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#create GoogleVertexAiFeatureOnlineStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#create GoogleVertexAiFeatureOnlineStore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#delete GoogleVertexAiFeatureOnlineStore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#delete GoogleVertexAiFeatureOnlineStore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#update GoogleVertexAiFeatureOnlineStore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#update GoogleVertexAiFeatureOnlineStore#update}
   */
   readonly update?: string;
 }
@@ -852,7 +852,7 @@ export interface GoogleVertexAiFeatureOnlineStoreTimeouts {
 export function googleVertexAiFeatureOnlineStoreTimeoutsToTerraform(struct?: GoogleVertexAiFeatureOnlineStoreTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -865,7 +865,7 @@ export function googleVertexAiFeatureOnlineStoreTimeoutsToTerraform(struct?: Goo
 export function googleVertexAiFeatureOnlineStoreTimeoutsToHclTerraform(struct?: GoogleVertexAiFeatureOnlineStoreTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -996,7 +996,7 @@ export class GoogleVertexAiFeatureOnlineStoreTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store}
 */
 export class GoogleVertexAiFeatureOnlineStore extends cdktn.TerraformResource {
 
@@ -1012,7 +1012,7 @@ export class GoogleVertexAiFeatureOnlineStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVertexAiFeatureOnlineStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiFeatureOnlineStore to import
-  * @param importFromId The id of the existing GoogleVertexAiFeatureOnlineStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiFeatureOnlineStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiFeatureOnlineStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1024,7 +1024,7 @@ export class GoogleVertexAiFeatureOnlineStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1035,7 +1035,7 @@ export class GoogleVertexAiFeatureOnlineStore extends cdktn.TerraformResource {
       terraformResourceType: 'google_vertex_ai_feature_online_store',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

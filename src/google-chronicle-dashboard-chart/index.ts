@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GoogleChronicleDashboardChartConfig extends cdktn.TerraformMeta
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#deletion_policy GoogleChronicleDashboardChart#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#deletion_policy GoogleChronicleDashboardChart#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,65 +34,65 @@ export interface GoogleChronicleDashboardChartConfig extends cdktn.TerraformMeta
   /**
   * The ID of the Chronicle instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#instance GoogleChronicleDashboardChart#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#instance GoogleChronicleDashboardChart#instance}
   */
   readonly instance: string;
   /**
   * The location of the Chronicle instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#location GoogleChronicleDashboardChart#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#location GoogleChronicleDashboardChart#location}
   */
   readonly location: string;
   /**
   * The parent NativeDashboard resource name, formatted as projects/{project}/locations/{location}/instances/{instance}/nativeDashboards/{dashboard_id}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#native_dashboard GoogleChronicleDashboardChart#native_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#native_dashboard GoogleChronicleDashboardChart#native_dashboard}
   */
   readonly nativeDashboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#project GoogleChronicleDashboardChart#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#project GoogleChronicleDashboardChart#project}
   */
   readonly project?: string;
   /**
   * chart_layout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#chart_layout GoogleChronicleDashboardChart#chart_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#chart_layout GoogleChronicleDashboardChart#chart_layout}
   */
   readonly chartLayout?: GoogleChronicleDashboardChartChartLayout;
   /**
   * dashboard_chart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_chart GoogleChronicleDashboardChart#dashboard_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#dashboard_chart GoogleChronicleDashboardChart#dashboard_chart}
   */
   readonly dashboardChart: GoogleChronicleDashboardChartDashboardChart;
   /**
   * dashboard_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_query GoogleChronicleDashboardChart#dashboard_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#dashboard_query GoogleChronicleDashboardChart#dashboard_query}
   */
   readonly dashboardQuery?: GoogleChronicleDashboardChartDashboardQuery;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#timeouts GoogleChronicleDashboardChart#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#timeouts GoogleChronicleDashboardChart#timeouts}
   */
   readonly timeouts?: GoogleChronicleDashboardChartTimeouts;
 }
 export interface GoogleChronicleDashboardChartChartLayout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#span_x GoogleChronicleDashboardChart#span_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#span_x GoogleChronicleDashboardChart#span_x}
   */
   readonly spanX: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#span_y GoogleChronicleDashboardChart#span_y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#span_y GoogleChronicleDashboardChart#span_y}
   */
   readonly spanY: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_x GoogleChronicleDashboardChart#start_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#start_x GoogleChronicleDashboardChart#start_x}
   */
   readonly startX?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_y GoogleChronicleDashboardChart#start_y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#start_y GoogleChronicleDashboardChart#start_y}
   */
   readonly startY?: number;
 }
@@ -100,7 +100,7 @@ export interface GoogleChronicleDashboardChartChartLayout {
 export function googleChronicleDashboardChartChartLayoutToTerraform(struct?: GoogleChronicleDashboardChartChartLayoutOutputReference | GoogleChronicleDashboardChartChartLayout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     span_x: cdktn.numberToTerraform(struct!.spanX),
@@ -114,7 +114,7 @@ export function googleChronicleDashboardChartChartLayoutToTerraform(struct?: Goo
 export function googleChronicleDashboardChartChartLayoutToHclTerraform(struct?: GoogleChronicleDashboardChartChartLayoutOutputReference | GoogleChronicleDashboardChartChartLayout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     span_x: {
@@ -262,7 +262,7 @@ export interface GoogleChronicleDashboardChartDashboardChartChartDatasource {
   * 'GLOBAL', 'IOC_MATCHES', 'RULES', 'SOAR_CASES', 'SOAR_PLAYBOOKS',
   * 'SOAR_CASE_HISTORY', 'DATA_TABLE', 'INVESTIGATION', 'INVESTIGATION_FEEDBACK'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#data_sources GoogleChronicleDashboardChart#data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#data_sources GoogleChronicleDashboardChart#data_sources}
   */
   readonly dataSources?: string[];
 }
@@ -270,7 +270,7 @@ export interface GoogleChronicleDashboardChartDashboardChartChartDatasource {
 export function googleChronicleDashboardChartDashboardChartChartDatasourceToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartChartDatasourceOutputReference | GoogleChronicleDashboardChartDashboardChartChartDatasource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_sources: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.dataSources),
@@ -281,7 +281,7 @@ export function googleChronicleDashboardChartDashboardChartChartDatasourceToTerr
 export function googleChronicleDashboardChartDashboardChartChartDatasourceToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartChartDatasourceOutputReference | GoogleChronicleDashboardChartDashboardChartChartDatasource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_sources: {
@@ -351,11 +351,11 @@ export class GoogleChronicleDashboardChartDashboardChartChartDatasourceOutputRef
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}
   */
   readonly link: string;
 }
@@ -363,7 +363,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLinkToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLinkOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -375,7 +375,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLinkToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLinkOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -465,13 +465,13 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrill
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}
   */
   readonly fieldValues?: string[];
   /**
   *  Possible values: ["EQUAL", "NOT_EQUAL", "IN", "GREATER_THAN", "GREATER_THAN_OR_EQUAL_TO", "LESS_THAN", "LESS_THAN_OR_EQUAL_TO", "BETWEEN", "PAST", "IS_NULL", "IS_NOT_NULL", "STARTS_WITH", "ENDS_WITH", "DOES_NOT_STARTS_WITH", "DOES_NOT_ENDS_WITH", "NOT_IN", "CONTAINS", "DOES_NOT_CONTAIN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
   */
   readonly filterOperator?: string;
 }
@@ -479,7 +479,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fieldValues),
@@ -491,7 +491,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field_values: {
@@ -616,13 +616,13 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrill
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}
   */
   readonly dashboardFilterId: string;
   /**
   * filter_operator_and_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
   */
   readonly filterOperatorAndValues: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues[] | cdktn.IResolvable;
 }
@@ -630,7 +630,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dashboard_filter_id: cdktn.stringToTerraform(struct!.dashboardFilterId),
@@ -642,7 +642,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dashboard_filter_id: {
@@ -763,7 +763,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
   /**
   * dashboard_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
   */
   readonly dashboardFilters: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters[] | cdktn.IResolvable;
 }
@@ -771,7 +771,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dashboard_filters: cdktn.listMapper(googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersToTerraform, true)(struct!.dashboardFilters),
@@ -782,7 +782,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dashboard_filters: {
@@ -844,7 +844,7 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrill
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
   */
   readonly query: string;
 }
@@ -852,7 +852,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQueryToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQueryOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     query: cdktn.stringToTerraform(struct!.query),
@@ -863,7 +863,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQueryToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQueryOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     query: {
@@ -925,29 +925,29 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrill
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left_click_column GoogleChronicleDashboardChart#left_click_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#left_click_column GoogleChronicleDashboardChart#left_click_column}
   */
   readonly leftClickColumn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}
   */
   readonly newTab: boolean | cdktn.IResolvable;
   /**
   * external_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
   */
   readonly externalLink?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
   */
   readonly filter?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
   */
   readonly query?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery;
 }
@@ -955,7 +955,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     left_click_column: cdktn.stringToTerraform(struct!.leftClickColumn),
@@ -970,7 +970,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     left_click_column: {
@@ -1144,7 +1144,7 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrill
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1152,7 +1152,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1163,7 +1163,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1225,11 +1225,11 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrill
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1238,13 +1238,13 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
   /**
   * custom_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
   */
   readonly customSettings?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings;
   /**
   * default_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
   */
   readonly defaultSettings?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings;
 }
@@ -1252,7 +1252,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     display_name: cdktn.stringToTerraform(struct!.displayName),
@@ -1266,7 +1266,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     display_name: {
@@ -1441,11 +1441,11 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrill
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}
   */
   readonly link: string;
 }
@@ -1453,7 +1453,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLinkToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLinkOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -1465,7 +1465,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLinkToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLinkOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1555,13 +1555,13 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDril
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}
   */
   readonly fieldValues?: string[];
   /**
   *  Possible values: ["EQUAL", "NOT_EQUAL", "IN", "GREATER_THAN", "GREATER_THAN_OR_EQUAL_TO", "LESS_THAN", "LESS_THAN_OR_EQUAL_TO", "BETWEEN", "PAST", "IS_NULL", "IS_NOT_NULL", "STARTS_WITH", "ENDS_WITH", "DOES_NOT_STARTS_WITH", "DOES_NOT_ENDS_WITH", "NOT_IN", "CONTAINS", "DOES_NOT_CONTAIN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
   */
   readonly filterOperator?: string;
 }
@@ -1569,7 +1569,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fieldValues),
@@ -1581,7 +1581,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field_values: {
@@ -1706,13 +1706,13 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDril
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}
   */
   readonly dashboardFilterId: string;
   /**
   * filter_operator_and_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
   */
   readonly filterOperatorAndValues: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues[] | cdktn.IResolvable;
 }
@@ -1720,7 +1720,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dashboard_filter_id: cdktn.stringToTerraform(struct!.dashboardFilterId),
@@ -1732,7 +1732,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dashboard_filter_id: {
@@ -1853,7 +1853,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
   /**
   * dashboard_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
   */
   readonly dashboardFilters: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters[] | cdktn.IResolvable;
 }
@@ -1861,7 +1861,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dashboard_filters: cdktn.listMapper(googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersToTerraform, true)(struct!.dashboardFilters),
@@ -1872,7 +1872,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dashboard_filters: {
@@ -1934,7 +1934,7 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDril
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
   */
   readonly query: string;
 }
@@ -1942,7 +1942,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQueryToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQueryOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     query: cdktn.stringToTerraform(struct!.query),
@@ -1953,7 +1953,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQueryToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQueryOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     query: {
@@ -2015,25 +2015,25 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDril
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}
   */
   readonly newTab: boolean | cdktn.IResolvable;
   /**
   * external_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
   */
   readonly externalLink?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
   */
   readonly filter?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
   */
   readonly query?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery;
 }
@@ -2041,7 +2041,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     new_tab: cdktn.booleanToTerraform(struct!.newTab),
@@ -2055,7 +2055,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     new_tab: {
@@ -2201,7 +2201,7 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDril
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -2209,7 +2209,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -2220,7 +2220,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -2282,11 +2282,11 @@ export class GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDril
 }
 export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2295,13 +2295,13 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
   /**
   * custom_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
   */
   readonly customSettings?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings;
   /**
   * default_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
   */
   readonly defaultSettings?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings;
 }
@@ -2309,7 +2309,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfigRight
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     display_name: cdktn.stringToTerraform(struct!.displayName),
@@ -2323,7 +2323,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightD
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     display_name: {
@@ -2500,13 +2500,13 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfig {
   /**
   * left_drill_downs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left_drill_downs GoogleChronicleDashboardChart#left_drill_downs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#left_drill_downs GoogleChronicleDashboardChart#left_drill_downs}
   */
   readonly leftDrillDowns?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns[] | cdktn.IResolvable;
   /**
   * right_drill_downs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#right_drill_downs GoogleChronicleDashboardChart#right_drill_downs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#right_drill_downs GoogleChronicleDashboardChart#right_drill_downs}
   */
   readonly rightDrillDowns?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns[] | cdktn.IResolvable;
 }
@@ -2514,7 +2514,7 @@ export interface GoogleChronicleDashboardChartDashboardChartDrillDownConfig {
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     left_drill_downs: cdktn.listMapper(googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsToTerraform, true)(struct!.leftDrillDowns),
@@ -2526,7 +2526,7 @@ export function googleChronicleDashboardChartDashboardChartDrillDownConfigToTerr
 export function googleChronicleDashboardChartDashboardChartDrillDownConfigToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartDrillDownConfigOutputReference | GoogleChronicleDashboardChartDashboardChartDrillDownConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     left_drill_downs: {
@@ -2621,11 +2621,11 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationButtonP
   /**
   *  Possible values: ["BUTTON_STYLE_UNSPECIFIED", "BUTTON_STYLE_FILLED", "BUTTON_STYLE_OUTLINED", "BUTTON_STYLE_TRANSPARENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#button_style GoogleChronicleDashboardChart#button_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#button_style GoogleChronicleDashboardChart#button_style}
   */
   readonly buttonStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
 }
@@ -2633,7 +2633,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationButtonP
 export function googleChronicleDashboardChartDashboardChartVisualizationButtonPropertiesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationButtonPropertiesOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     button_style: cdktn.stringToTerraform(struct!.buttonStyle),
@@ -2645,7 +2645,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationButtonPr
 export function googleChronicleDashboardChartDashboardChartVisualizationButtonPropertiesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationButtonPropertiesOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     button_style: {
@@ -2738,25 +2738,25 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationButtonPrope
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationButton {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#hyperlink GoogleChronicleDashboardChart#hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#hyperlink GoogleChronicleDashboardChart#hyperlink}
   */
   readonly hyperlink: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}
   */
   readonly newTab?: boolean | cdktn.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
   */
   readonly properties?: GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties;
 }
@@ -2764,7 +2764,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationButton 
 export function googleChronicleDashboardChartDashboardChartVisualizationButtonToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationButtonOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationButton): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -2779,7 +2779,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationButtonTo
 export function googleChronicleDashboardChartDashboardChartVisualizationButtonToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationButtonOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationButton): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -2950,11 +2950,11 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationButtonOutpu
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#header GoogleChronicleDashboardChart#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#header GoogleChronicleDashboardChart#header}
   */
   readonly header?: string;
 }
@@ -2962,7 +2962,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationColumnD
 export function googleChronicleDashboardChartDashboardChartVisualizationColumnDefsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field: cdktn.stringToTerraform(struct!.field),
@@ -2974,7 +2974,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationColumnDe
 export function googleChronicleDashboardChartDashboardChartVisualizationColumnDefsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field: {
@@ -3099,15 +3099,15 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefsL
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#count_column GoogleChronicleDashboardChart#count_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#count_column GoogleChronicleDashboardChart#count_column}
   */
   readonly countColumn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#latitude_column GoogleChronicleDashboardChart#latitude_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#latitude_column GoogleChronicleDashboardChart#latitude_column}
   */
   readonly latitudeColumn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#longitude_column GoogleChronicleDashboardChart#longitude_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#longitude_column GoogleChronicleDashboardChart#longitude_column}
   */
   readonly longitudeColumn?: string;
 }
@@ -3115,7 +3115,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleM
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     count_column: cdktn.stringToTerraform(struct!.countColumn),
@@ -3128,7 +3128,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMa
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     count_column: {
@@ -3249,19 +3249,19 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsC
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#fit_data GoogleChronicleDashboardChart#fit_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#fit_data GoogleChronicleDashboardChart#fit_data}
   */
   readonly fitData?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#latitude_value GoogleChronicleDashboardChart#latitude_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#latitude_value GoogleChronicleDashboardChart#latitude_value}
   */
   readonly latitudeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#longitude_value GoogleChronicleDashboardChart#longitude_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#longitude_value GoogleChronicleDashboardChart#longitude_value}
   */
   readonly longitudeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#zoom_scale_value GoogleChronicleDashboardChart#zoom_scale_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#zoom_scale_value GoogleChronicleDashboardChart#zoom_scale_value}
   */
   readonly zoomScaleValue?: number;
 }
@@ -3269,7 +3269,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleM
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPositionToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPositionOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fit_data: cdktn.booleanToTerraform(struct!.fitData),
@@ -3283,7 +3283,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMa
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPositionToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPositionOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fit_data: {
@@ -3432,13 +3432,13 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsC
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
   /**
   *  Possible values: ["POINT_SIZE_TYPE_UNSPECIFIED", "POINT_SIZE_TYPE_FIXED", "POINT_SIZE_TYPE_PROPORTIONAL_TO_SIZE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#point_size_type GoogleChronicleDashboardChart#point_size_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#point_size_type GoogleChronicleDashboardChart#point_size_type}
   */
   readonly pointSizeType?: string;
 }
@@ -3446,7 +3446,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleM
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -3458,7 +3458,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMa
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettingsOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
@@ -3553,25 +3553,25 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleM
   /**
   *  Possible values: ["PLOT_MODE_UNSPECIFIED", "PLOT_MODE_POINTS", "PLOT_MODE_HEATMAP", "PLOT_MODE_BOTH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#plot_mode GoogleChronicleDashboardChart#plot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#plot_mode GoogleChronicleDashboardChart#plot_mode}
   */
   readonly plotMode?: string;
   /**
   * data_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#data_settings GoogleChronicleDashboardChart#data_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#data_settings GoogleChronicleDashboardChart#data_settings}
   */
   readonly dataSettings?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings;
   /**
   * map_position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#map_position GoogleChronicleDashboardChart#map_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#map_position GoogleChronicleDashboardChart#map_position}
   */
   readonly mapPosition?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition;
   /**
   * point_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#point_settings GoogleChronicleDashboardChart#point_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#point_settings GoogleChronicleDashboardChart#point_settings}
   */
   readonly pointSettings?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings;
 }
@@ -3579,7 +3579,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationGoogleM
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     plot_mode: cdktn.stringToTerraform(struct!.plotMode),
@@ -3593,7 +3593,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMa
 export function googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     plot_mode: {
@@ -3742,54 +3742,54 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsC
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationLegends {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#bottom GoogleChronicleDashboardChart#bottom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#bottom GoogleChronicleDashboardChart#bottom}
   */
   readonly bottom?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left GoogleChronicleDashboardChart#left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#left GoogleChronicleDashboardChart#left}
   */
   readonly left?: number;
   /**
   *  Possible values: ["AUTO", "LEFT", "RIGHT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#legend_align GoogleChronicleDashboardChart#legend_align}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#legend_align GoogleChronicleDashboardChart#legend_align}
   */
   readonly legendAlign?: string;
   /**
   *  Possible values: ["VERTICAL", "HORIZONTAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#legend_orient GoogleChronicleDashboardChart#legend_orient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#legend_orient GoogleChronicleDashboardChart#legend_orient}
   */
   readonly legendOrient?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#padding GoogleChronicleDashboardChart#padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#padding GoogleChronicleDashboardChart#padding}
   */
   readonly padding?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#right GoogleChronicleDashboardChart#right}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#right GoogleChronicleDashboardChart#right}
   */
   readonly right?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#top GoogleChronicleDashboardChart#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#top GoogleChronicleDashboardChart#top}
   */
   readonly top?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#z GoogleChronicleDashboardChart#z}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#z GoogleChronicleDashboardChart#z}
   */
   readonly z?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#z_level GoogleChronicleDashboardChart#z_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#z_level GoogleChronicleDashboardChart#z_level}
   */
   readonly zLevel?: number;
 }
@@ -3797,7 +3797,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationLegends
 export function googleChronicleDashboardChartDashboardChartVisualizationLegendsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationLegends | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bottom: cdktn.numberToTerraform(struct!.bottom),
@@ -3818,7 +3818,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationLegendsT
 export function googleChronicleDashboardChartDashboardChartVisualizationLegendsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationLegends | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bottom: {
@@ -4195,7 +4195,7 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationLegendsList
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#background_color GoogleChronicleDashboardChart#background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#background_color GoogleChronicleDashboardChart#background_color}
   */
   readonly backgroundColor?: string;
 }
@@ -4203,7 +4203,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationMarkdow
 export function googleChronicleDashboardChartDashboardChartVisualizationMarkdownPropertiesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownPropertiesOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     background_color: cdktn.stringToTerraform(struct!.backgroundColor),
@@ -4214,7 +4214,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationMarkdown
 export function googleChronicleDashboardChartDashboardChartVisualizationMarkdownPropertiesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownPropertiesOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     background_color: {
@@ -4279,13 +4279,13 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownPro
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#content GoogleChronicleDashboardChart#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#content GoogleChronicleDashboardChart#content}
   */
   readonly content: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
   */
   readonly properties?: GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties;
 }
@@ -4293,7 +4293,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationMarkdow
 export function googleChronicleDashboardChartDashboardChartVisualizationMarkdownToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     content: cdktn.stringToTerraform(struct!.content),
@@ -4305,7 +4305,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationMarkdown
 export function googleChronicleDashboardChartDashboardChartVisualizationMarkdownToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     content: {
@@ -4395,31 +4395,31 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownOut
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#opacity GoogleChronicleDashboardChart#opacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#opacity GoogleChronicleDashboardChart#opacity}
   */
   readonly opacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#origin GoogleChronicleDashboardChart#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#origin GoogleChronicleDashboardChart#origin}
   */
   readonly origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_blur GoogleChronicleDashboardChart#shadow_blur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#shadow_blur GoogleChronicleDashboardChart#shadow_blur}
   */
   readonly shadowBlur?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_color GoogleChronicleDashboardChart#shadow_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#shadow_color GoogleChronicleDashboardChart#shadow_color}
   */
   readonly shadowColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_x GoogleChronicleDashboardChart#shadow_offset_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_x GoogleChronicleDashboardChart#shadow_offset_x}
   */
   readonly shadowOffsetX?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_y GoogleChronicleDashboardChart#shadow_offset_y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_y GoogleChronicleDashboardChart#shadow_offset_y}
   */
   readonly shadowOffsetY?: number;
 }
@@ -4427,7 +4427,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesA
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyleToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyleOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -4444,7 +4444,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesAr
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyleToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyleOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
@@ -4679,7 +4679,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesD
   /**
   * Whether to show data label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
 }
@@ -4687,7 +4687,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesD
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabelToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabelOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     show: cdktn.booleanToTerraform(struct!.show),
@@ -4698,7 +4698,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesDa
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabelToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabelOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     show: {
@@ -4763,19 +4763,19 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataL
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#item_name GoogleChronicleDashboardChart#item_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#item_name GoogleChronicleDashboardChart#item_name}
   */
   readonly itemName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#x GoogleChronicleDashboardChart#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#x GoogleChronicleDashboardChart#x}
   */
   readonly x?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#y GoogleChronicleDashboardChart#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#y GoogleChronicleDashboardChart#y}
   */
   readonly y?: string;
 }
@@ -4783,7 +4783,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesE
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesEncodeToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncodeOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     item_name: cdktn.stringToTerraform(struct!.itemName),
@@ -4797,7 +4797,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesEn
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesEncodeToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncodeOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     item_name: {
@@ -4946,11 +4946,11 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncod
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
   */
   readonly value?: number;
 }
@@ -4958,7 +4958,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesG
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -4970,7 +4970,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGa
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
@@ -5063,11 +5063,11 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGauge
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
   */
   readonly value?: number;
 }
@@ -5075,7 +5075,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesG
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValueToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValueOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -5087,7 +5087,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGa
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValueToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValueOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
@@ -5180,11 +5180,11 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGauge
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
   */
   readonly value?: number;
 }
@@ -5192,7 +5192,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesG
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -5204,7 +5204,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGa
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
@@ -5331,19 +5331,19 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesG
   /**
   * base_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#base_value GoogleChronicleDashboardChart#base_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#base_value GoogleChronicleDashboardChart#base_value}
   */
   readonly baseValue?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue;
   /**
   * limit_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#limit_value GoogleChronicleDashboardChart#limit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#limit_value GoogleChronicleDashboardChart#limit_value}
   */
   readonly limitValue?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue;
   /**
   * threshold_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#threshold_values GoogleChronicleDashboardChart#threshold_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#threshold_values GoogleChronicleDashboardChart#threshold_values}
   */
   readonly thresholdValues?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues[] | cdktn.IResolvable;
 }
@@ -5351,7 +5351,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesG
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     base_value: googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueToTerraform(struct!.baseValue),
@@ -5364,7 +5364,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGa
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     base_value: {
@@ -5485,11 +5485,11 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGauge
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
   */
   readonly label?: string;
 }
@@ -5497,7 +5497,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesI
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValueToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValueOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -5509,7 +5509,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesIt
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValueToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValueOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
@@ -5602,13 +5602,13 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemC
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#key GoogleChronicleDashboardChart#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#key GoogleChronicleDashboardChart#key}
   */
   readonly key?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
   */
   readonly value?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue;
 }
@@ -5616,7 +5616,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesI
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -5628,7 +5628,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesIt
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -5755,7 +5755,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesI
   /**
   * colors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#colors GoogleChronicleDashboardChart#colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#colors GoogleChronicleDashboardChart#colors}
   */
   readonly colors?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors[] | cdktn.IResolvable;
 }
@@ -5763,7 +5763,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesI
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     colors: cdktn.listMapper(googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsToTerraform, true)(struct!.colors),
@@ -5774,7 +5774,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesIt
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     colors: {
@@ -5839,15 +5839,15 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemC
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#border_color GoogleChronicleDashboardChart#border_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#border_color GoogleChronicleDashboardChart#border_color}
   */
   readonly borderColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#border_width GoogleChronicleDashboardChart#border_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#border_width GoogleChronicleDashboardChart#border_width}
   */
   readonly borderWidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
 }
@@ -5855,7 +5855,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesI
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyleToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyleOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     border_color: cdktn.stringToTerraform(struct!.borderColor),
@@ -5868,7 +5868,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesIt
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyleToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyleOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     border_color: {
@@ -5991,23 +5991,23 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesM
   /**
   *  Possible values: ["METRIC_DISPLAY_TREND_UNSPECIFIED", "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE", "METRIC_DISPLAY_TREND_PERCENTAGE", "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE_AND_PERCENTAGE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_display_trend GoogleChronicleDashboardChart#metric_display_trend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#metric_display_trend GoogleChronicleDashboardChart#metric_display_trend}
   */
   readonly metricDisplayTrend?: string;
   /**
   *  Possible values: ["METRIC_FORMAT_UNSPECIFIED", "METRIC_FORMAT_NUMBER", "METRIC_FORMAT_PLAIN_TEXT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_format GoogleChronicleDashboardChart#metric_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#metric_format GoogleChronicleDashboardChart#metric_format}
   */
   readonly metricFormat?: string;
   /**
   *  Possible values: ["METRIC_TREND_TYPE_UNSPECIFIED", "METRIC_TREND_TYPE_REGULAR", "METRIC_TREND_TYPE_INVERSE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_type GoogleChronicleDashboardChart#metric_trend_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_type GoogleChronicleDashboardChart#metric_trend_type}
   */
   readonly metricTrendType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_metric_trend GoogleChronicleDashboardChart#show_metric_trend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#show_metric_trend GoogleChronicleDashboardChart#show_metric_trend}
   */
   readonly showMetricTrend?: boolean | cdktn.IResolvable;
 }
@@ -6015,7 +6015,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeriesM
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfigToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     metric_display_trend: cdktn.stringToTerraform(struct!.metricDisplayTrend),
@@ -6029,7 +6029,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesMe
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfigToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     metric_display_trend: {
@@ -6178,91 +6178,91 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetri
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#radius GoogleChronicleDashboardChart#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#radius GoogleChronicleDashboardChart#radius}
   */
   readonly radius?: string[];
   /**
   * User specified series label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_name GoogleChronicleDashboardChart#series_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#series_name GoogleChronicleDashboardChart#series_name}
   */
   readonly seriesName?: string;
   /**
   *  Possible values: ["SAMESIGN", "ALL", "POSITIVE", "NEGATIVE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_stack_strategy GoogleChronicleDashboardChart#series_stack_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#series_stack_strategy GoogleChronicleDashboardChart#series_stack_strategy}
   */
   readonly seriesStackStrategy?: string;
   /**
   *  Possible values: ["LINE", "BAR", "PIE", "TEXT", "MAP", "GAUGE", "SCATTERPLOT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_type GoogleChronicleDashboardChart#series_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#series_type GoogleChronicleDashboardChart#series_type}
   */
   readonly seriesType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_unique_value GoogleChronicleDashboardChart#series_unique_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#series_unique_value GoogleChronicleDashboardChart#series_unique_value}
   */
   readonly seriesUniqueValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_background GoogleChronicleDashboardChart#show_background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#show_background GoogleChronicleDashboardChart#show_background}
   */
   readonly showBackground?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_symbol GoogleChronicleDashboardChart#show_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#show_symbol GoogleChronicleDashboardChart#show_symbol}
   */
   readonly showSymbol?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#stack GoogleChronicleDashboardChart#stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#stack GoogleChronicleDashboardChart#stack}
   */
   readonly stack?: string;
   /**
   * area_style block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#area_style GoogleChronicleDashboardChart#area_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#area_style GoogleChronicleDashboardChart#area_style}
   */
   readonly areaStyle?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle;
   /**
   * data_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#data_label GoogleChronicleDashboardChart#data_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#data_label GoogleChronicleDashboardChart#data_label}
   */
   readonly dataLabel?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel;
   /**
   * encode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#encode GoogleChronicleDashboardChart#encode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#encode GoogleChronicleDashboardChart#encode}
   */
   readonly encode?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode;
   /**
   * gauge_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#gauge_config GoogleChronicleDashboardChart#gauge_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#gauge_config GoogleChronicleDashboardChart#gauge_config}
   */
   readonly gaugeConfig?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig;
   /**
   * item_colors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#item_colors GoogleChronicleDashboardChart#item_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#item_colors GoogleChronicleDashboardChart#item_colors}
   */
   readonly itemColors?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors;
   /**
   * item_style block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#item_style GoogleChronicleDashboardChart#item_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#item_style GoogleChronicleDashboardChart#item_style}
   */
   readonly itemStyle?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle;
   /**
   * metric_trend_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_config GoogleChronicleDashboardChart#metric_trend_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_config GoogleChronicleDashboardChart#metric_trend_config}
   */
   readonly metricTrendConfig?: GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig;
 }
@@ -6270,7 +6270,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationSeries 
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeries | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     field: cdktn.stringToTerraform(struct!.field),
@@ -6297,7 +6297,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationSeriesTo
 export function googleChronicleDashboardChartDashboardChartVisualizationSeriesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationSeries | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     field: {
@@ -6844,11 +6844,11 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationTableCo
   /**
   *  Possible values: ["RENDER_TYPE_UNSPECIFIED", "RENDER_TYPE_TEXT", "RENDER_TYPE_ICON", "RENDER_TYPE_ICON_AND_TEXT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_render_type GoogleChronicleDashboardChart#column_render_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#column_render_type GoogleChronicleDashboardChart#column_render_type}
   */
   readonly columnRenderType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
   */
   readonly field?: string;
 }
@@ -6856,7 +6856,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationTableCo
 export function googleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     column_render_type: cdktn.stringToTerraform(struct!.columnRenderType),
@@ -6868,7 +6868,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationTableCon
 export function googleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     column_render_type: {
@@ -6993,15 +6993,15 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#cell_tooltip_text GoogleChronicleDashboardChart#cell_tooltip_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#cell_tooltip_text GoogleChronicleDashboardChart#cell_tooltip_text}
   */
   readonly cellTooltipText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}
   */
   readonly field: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#header_tooltip_text GoogleChronicleDashboardChart#header_tooltip_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#header_tooltip_text GoogleChronicleDashboardChart#header_tooltip_text}
   */
   readonly headerTooltipText?: string;
 }
@@ -7009,7 +7009,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationTableCo
 export function googleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cell_tooltip_text: cdktn.stringToTerraform(struct!.cellTooltipText),
@@ -7022,7 +7022,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationTableCon
 export function googleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cell_tooltip_text: {
@@ -7172,19 +7172,19 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enable_text_wrap GoogleChronicleDashboardChart#enable_text_wrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#enable_text_wrap GoogleChronicleDashboardChart#enable_text_wrap}
   */
   readonly enableTextWrap?: boolean | cdktn.IResolvable;
   /**
   * column_render_type_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_render_type_settings GoogleChronicleDashboardChart#column_render_type_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#column_render_type_settings GoogleChronicleDashboardChart#column_render_type_settings}
   */
   readonly columnRenderTypeSettings?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings[] | cdktn.IResolvable;
   /**
   * column_tooltip_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_tooltip_settings GoogleChronicleDashboardChart#column_tooltip_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#column_tooltip_settings GoogleChronicleDashboardChart#column_tooltip_settings}
   */
   readonly columnTooltipSettings?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings[] | cdktn.IResolvable;
 }
@@ -7192,7 +7192,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationTableCo
 export function googleChronicleDashboardChartDashboardChartVisualizationTableConfigToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_text_wrap: cdktn.booleanToTerraform(struct!.enableTextWrap),
@@ -7205,7 +7205,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationTableCon
 export function googleChronicleDashboardChartDashboardChartVisualizationTableConfigToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_text_wrap: {
@@ -7326,13 +7326,13 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationTooltip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
   */
   readonly show?: boolean | cdktn.IResolvable;
   /**
   *  Possible values: ["TOOLTIP_TRIGGER_UNSPECIFIED", "TOOLTIP_TRIGGER_NONE", "TOOLTIP_TRIGGER_ITEM", "TOOLTIP_TRIGGER_AXIS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#tooltip_trigger GoogleChronicleDashboardChart#tooltip_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#tooltip_trigger GoogleChronicleDashboardChart#tooltip_trigger}
   */
   readonly tooltipTrigger?: string;
 }
@@ -7340,7 +7340,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationTooltip
 export function googleChronicleDashboardChartDashboardChartVisualizationTooltipToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTooltipOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationTooltip): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     show: cdktn.booleanToTerraform(struct!.show),
@@ -7352,7 +7352,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationTooltipT
 export function googleChronicleDashboardChartDashboardChartVisualizationTooltipToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationTooltipOutputReference | GoogleChronicleDashboardChartDashboardChartVisualizationTooltip): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     show: {
@@ -7445,19 +7445,19 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationTooltipOutp
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}
   */
   readonly min?: number;
 }
@@ -7465,7 +7465,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationVisualM
 export function googleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     color: cdktn.stringToTerraform(struct!.color),
@@ -7479,7 +7479,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationVisualMa
 export function googleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     color: {
@@ -7662,13 +7662,13 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationVisualM
   /**
   *  Possible values: ["VISUAL_MAP_TYPE_UNSPECIFIED", "CONTINUOUS", "PIECEWISE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#visual_map_type GoogleChronicleDashboardChart#visual_map_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#visual_map_type GoogleChronicleDashboardChart#visual_map_type}
   */
   readonly visualMapType?: string;
   /**
   * pieces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#pieces GoogleChronicleDashboardChart#pieces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#pieces GoogleChronicleDashboardChart#pieces}
   */
   readonly pieces?: GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces[] | cdktn.IResolvable;
 }
@@ -7676,7 +7676,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationVisualM
 export function googleChronicleDashboardChartDashboardChartVisualizationVisualMapsToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationVisualMaps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     visual_map_type: cdktn.stringToTerraform(struct!.visualMapType),
@@ -7688,7 +7688,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationVisualMa
 export function googleChronicleDashboardChartDashboardChartVisualizationVisualMapsToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationVisualMaps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     visual_map_type: {
@@ -7815,19 +7815,19 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationXAxes {
   /**
   *  Possible values: ["VALUE", "CATEGORY", "TIME", "LOG"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
   */
   readonly axisType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}
   */
   readonly min?: number;
 }
@@ -7835,7 +7835,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationXAxes {
 export function googleChronicleDashboardChartDashboardChartVisualizationXAxesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationXAxes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     axis_type: cdktn.stringToTerraform(struct!.axisType),
@@ -7849,7 +7849,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationXAxesToT
 export function googleChronicleDashboardChartDashboardChartVisualizationXAxesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationXAxes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     axis_type: {
@@ -8032,19 +8032,19 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationYAxes {
   /**
   *  Possible values: ["VALUE", "CATEGORY", "TIME", "LOG"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
   */
   readonly axisType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}
   */
   readonly min?: number;
 }
@@ -8052,7 +8052,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualizationYAxes {
 export function googleChronicleDashboardChartDashboardChartVisualizationYAxesToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationYAxes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     axis_type: cdktn.stringToTerraform(struct!.axisType),
@@ -8066,7 +8066,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationYAxesToT
 export function googleChronicleDashboardChartDashboardChartVisualizationYAxesToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationYAxes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     axis_type: {
@@ -8247,81 +8247,81 @@ export class GoogleChronicleDashboardChartDashboardChartVisualizationYAxesList e
 }
 export interface GoogleChronicleDashboardChartDashboardChartVisualization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#grouping_type GoogleChronicleDashboardChart#grouping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#grouping_type GoogleChronicleDashboardChart#grouping_type}
   */
   readonly groupingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_column GoogleChronicleDashboardChart#series_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#series_column GoogleChronicleDashboardChart#series_column}
   */
   readonly seriesColumn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#threshold_coloring_enabled GoogleChronicleDashboardChart#threshold_coloring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#threshold_coloring_enabled GoogleChronicleDashboardChart#threshold_coloring_enabled}
   */
   readonly thresholdColoringEnabled?: boolean | cdktn.IResolvable;
   /**
   * button block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#button GoogleChronicleDashboardChart#button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#button GoogleChronicleDashboardChart#button}
   */
   readonly button?: GoogleChronicleDashboardChartDashboardChartVisualizationButton;
   /**
   * column_defs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_defs GoogleChronicleDashboardChart#column_defs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#column_defs GoogleChronicleDashboardChart#column_defs}
   */
   readonly columnDefs?: GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs[] | cdktn.IResolvable;
   /**
   * google_maps_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#google_maps_config GoogleChronicleDashboardChart#google_maps_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#google_maps_config GoogleChronicleDashboardChart#google_maps_config}
   */
   readonly googleMapsConfig?: GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig;
   /**
   * legends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#legends GoogleChronicleDashboardChart#legends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#legends GoogleChronicleDashboardChart#legends}
   */
   readonly legends?: GoogleChronicleDashboardChartDashboardChartVisualizationLegends[] | cdktn.IResolvable;
   /**
   * markdown block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#markdown GoogleChronicleDashboardChart#markdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#markdown GoogleChronicleDashboardChart#markdown}
   */
   readonly markdown?: GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown;
   /**
   * series block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series GoogleChronicleDashboardChart#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#series GoogleChronicleDashboardChart#series}
   */
   readonly series?: GoogleChronicleDashboardChartDashboardChartVisualizationSeries[] | cdktn.IResolvable;
   /**
   * table_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#table_config GoogleChronicleDashboardChart#table_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#table_config GoogleChronicleDashboardChart#table_config}
   */
   readonly tableConfig?: GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig;
   /**
   * tooltip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#tooltip GoogleChronicleDashboardChart#tooltip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#tooltip GoogleChronicleDashboardChart#tooltip}
   */
   readonly tooltip?: GoogleChronicleDashboardChartDashboardChartVisualizationTooltip;
   /**
   * visual_maps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#visual_maps GoogleChronicleDashboardChart#visual_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#visual_maps GoogleChronicleDashboardChart#visual_maps}
   */
   readonly visualMaps?: GoogleChronicleDashboardChartDashboardChartVisualizationVisualMaps[] | cdktn.IResolvable;
   /**
   * x_axes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#x_axes GoogleChronicleDashboardChart#x_axes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#x_axes GoogleChronicleDashboardChart#x_axes}
   */
   readonly xAxes?: GoogleChronicleDashboardChartDashboardChartVisualizationXAxes[] | cdktn.IResolvable;
   /**
   * y_axes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#y_axes GoogleChronicleDashboardChart#y_axes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#y_axes GoogleChronicleDashboardChart#y_axes}
   */
   readonly yAxes?: GoogleChronicleDashboardChartDashboardChartVisualizationYAxes[] | cdktn.IResolvable;
 }
@@ -8329,7 +8329,7 @@ export interface GoogleChronicleDashboardChartDashboardChartVisualization {
 export function googleChronicleDashboardChartDashboardChartVisualizationToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationOutputReference | GoogleChronicleDashboardChartDashboardChartVisualization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     grouping_type: cdktn.stringToTerraform(struct!.groupingType),
@@ -8353,7 +8353,7 @@ export function googleChronicleDashboardChartDashboardChartVisualizationToTerraf
 export function googleChronicleDashboardChartDashboardChartVisualizationToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartVisualizationOutputReference | GoogleChronicleDashboardChartDashboardChartVisualization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     grouping_type: {
@@ -8784,37 +8784,37 @@ export interface GoogleChronicleDashboardChartDashboardChart {
   /**
   * Description of the dashboardChart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
   */
   readonly description?: string;
   /**
   * Display name/Title of the dashboardChart visible to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
   */
   readonly displayName: string;
   /**
   * Type of tile (e.g., visualization, button, markdown). Possible values: ["TILE_TYPE_UNSPECIFIED", "TILE_TYPE_VISUALIZATION", "TILE_TYPE_BUTTON", "TILE_TYPE_MARKDOWN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#tile_type GoogleChronicleDashboardChart#tile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#tile_type GoogleChronicleDashboardChart#tile_type}
   */
   readonly tileType?: string;
   /**
   * chart_datasource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#chart_datasource GoogleChronicleDashboardChart#chart_datasource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#chart_datasource GoogleChronicleDashboardChart#chart_datasource}
   */
   readonly chartDatasource?: GoogleChronicleDashboardChartDashboardChartChartDatasource;
   /**
   * drill_down_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#drill_down_config GoogleChronicleDashboardChart#drill_down_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#drill_down_config GoogleChronicleDashboardChart#drill_down_config}
   */
   readonly drillDownConfig?: GoogleChronicleDashboardChartDashboardChartDrillDownConfig;
   /**
   * visualization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#visualization GoogleChronicleDashboardChart#visualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#visualization GoogleChronicleDashboardChart#visualization}
   */
   readonly visualization: GoogleChronicleDashboardChartDashboardChartVisualization;
 }
@@ -8822,7 +8822,7 @@ export interface GoogleChronicleDashboardChartDashboardChart {
 export function googleChronicleDashboardChartDashboardChartToTerraform(struct?: GoogleChronicleDashboardChartDashboardChartOutputReference | GoogleChronicleDashboardChartDashboardChart): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -8838,7 +8838,7 @@ export function googleChronicleDashboardChartDashboardChartToTerraform(struct?: 
 export function googleChronicleDashboardChartDashboardChartToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardChartOutputReference | GoogleChronicleDashboardChartDashboardChart): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -9047,13 +9047,13 @@ export class GoogleChronicleDashboardChartDashboardChartOutputReference extends 
 }
 export interface GoogleChronicleDashboardChartDashboardQueryInputRelativeTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_time_val GoogleChronicleDashboardChart#start_time_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#start_time_val GoogleChronicleDashboardChart#start_time_val}
   */
   readonly startTimeVal: string;
   /**
   * The time unit for the relative range. Possible values: ["SECOND", "MINUTE", "HOUR", "DAY", "WEEK", "MONTH", "YEAR"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#time_unit GoogleChronicleDashboardChart#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#time_unit GoogleChronicleDashboardChart#time_unit}
   */
   readonly timeUnit: string;
 }
@@ -9061,7 +9061,7 @@ export interface GoogleChronicleDashboardChartDashboardQueryInputRelativeTime {
 export function googleChronicleDashboardChartDashboardQueryInputRelativeTimeToTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryInputRelativeTimeOutputReference | GoogleChronicleDashboardChartDashboardQueryInputRelativeTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     start_time_val: cdktn.stringToTerraform(struct!.startTimeVal),
@@ -9073,7 +9073,7 @@ export function googleChronicleDashboardChartDashboardQueryInputRelativeTimeToTe
 export function googleChronicleDashboardChartDashboardQueryInputRelativeTimeToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryInputRelativeTimeOutputReference | GoogleChronicleDashboardChartDashboardQueryInputRelativeTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     start_time_val: {
@@ -9160,11 +9160,11 @@ export class GoogleChronicleDashboardChartDashboardQueryInputRelativeTimeOutputR
 }
 export interface GoogleChronicleDashboardChartDashboardQueryInputTimeWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#end_time GoogleChronicleDashboardChart#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#end_time GoogleChronicleDashboardChart#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_time GoogleChronicleDashboardChart#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#start_time GoogleChronicleDashboardChart#start_time}
   */
   readonly startTime?: string;
 }
@@ -9172,7 +9172,7 @@ export interface GoogleChronicleDashboardChartDashboardQueryInputTimeWindow {
 export function googleChronicleDashboardChartDashboardQueryInputTimeWindowToTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryInputTimeWindowOutputReference | GoogleChronicleDashboardChartDashboardQueryInputTimeWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     end_time: cdktn.stringToTerraform(struct!.endTime),
@@ -9184,7 +9184,7 @@ export function googleChronicleDashboardChartDashboardQueryInputTimeWindowToTerr
 export function googleChronicleDashboardChartDashboardQueryInputTimeWindowToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryInputTimeWindowOutputReference | GoogleChronicleDashboardChartDashboardQueryInputTimeWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     end_time: {
@@ -9279,13 +9279,13 @@ export interface GoogleChronicleDashboardChartDashboardQueryInput {
   /**
   * relative_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#relative_time GoogleChronicleDashboardChart#relative_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#relative_time GoogleChronicleDashboardChart#relative_time}
   */
   readonly relativeTime?: GoogleChronicleDashboardChartDashboardQueryInputRelativeTime;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#time_window GoogleChronicleDashboardChart#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#time_window GoogleChronicleDashboardChart#time_window}
   */
   readonly timeWindow?: GoogleChronicleDashboardChartDashboardQueryInputTimeWindow;
 }
@@ -9293,7 +9293,7 @@ export interface GoogleChronicleDashboardChartDashboardQueryInput {
 export function googleChronicleDashboardChartDashboardQueryInputToTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryInputOutputReference | GoogleChronicleDashboardChartDashboardQueryInput): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     relative_time: googleChronicleDashboardChartDashboardQueryInputRelativeTimeToTerraform(struct!.relativeTime),
@@ -9305,7 +9305,7 @@ export function googleChronicleDashboardChartDashboardQueryInputToTerraform(stru
 export function googleChronicleDashboardChartDashboardQueryInputToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryInputOutputReference | GoogleChronicleDashboardChartDashboardQueryInput): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     relative_time: {
@@ -9400,13 +9400,13 @@ export interface GoogleChronicleDashboardChartDashboardQuery {
   /**
   * The raw query string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
   */
   readonly query: string;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#input GoogleChronicleDashboardChart#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#input GoogleChronicleDashboardChart#input}
   */
   readonly input?: GoogleChronicleDashboardChartDashboardQueryInput;
 }
@@ -9414,7 +9414,7 @@ export interface GoogleChronicleDashboardChartDashboardQuery {
 export function googleChronicleDashboardChartDashboardQueryToTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryOutputReference | GoogleChronicleDashboardChartDashboardQuery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     query: cdktn.stringToTerraform(struct!.query),
@@ -9426,7 +9426,7 @@ export function googleChronicleDashboardChartDashboardQueryToTerraform(struct?: 
 export function googleChronicleDashboardChartDashboardQueryToHclTerraform(struct?: GoogleChronicleDashboardChartDashboardQueryOutputReference | GoogleChronicleDashboardChartDashboardQuery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     query: {
@@ -9526,15 +9526,15 @@ export class GoogleChronicleDashboardChartDashboardQueryOutputReference extends 
 }
 export interface GoogleChronicleDashboardChartTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#create GoogleChronicleDashboardChart#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#create GoogleChronicleDashboardChart#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#delete GoogleChronicleDashboardChart#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#delete GoogleChronicleDashboardChart#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#update GoogleChronicleDashboardChart#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#update GoogleChronicleDashboardChart#update}
   */
   readonly update?: string;
 }
@@ -9542,7 +9542,7 @@ export interface GoogleChronicleDashboardChartTimeouts {
 export function googleChronicleDashboardChartTimeoutsToTerraform(struct?: GoogleChronicleDashboardChartTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -9555,7 +9555,7 @@ export function googleChronicleDashboardChartTimeoutsToTerraform(struct?: Google
 export function googleChronicleDashboardChartTimeoutsToHclTerraform(struct?: GoogleChronicleDashboardChartTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -9686,7 +9686,7 @@ export class GoogleChronicleDashboardChartTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}
 */
 export class GoogleChronicleDashboardChart extends cdktn.TerraformResource {
 
@@ -9702,7 +9702,7 @@ export class GoogleChronicleDashboardChart extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleChronicleDashboardChart resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleChronicleDashboardChart to import
-  * @param importFromId The id of the existing GoogleChronicleDashboardChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleChronicleDashboardChart that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleChronicleDashboardChart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -9714,7 +9714,7 @@ export class GoogleChronicleDashboardChart extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9725,7 +9725,7 @@ export class GoogleChronicleDashboardChart extends cdktn.TerraformResource {
       terraformResourceType: 'google_chronicle_dashboard_chart',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,7 +21,7 @@ export interface GooglePrivilegedAccessManagerEntitlementConfig extends cdktn.Te
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#deletion_policy GooglePrivilegedAccessManagerEntitlement#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#deletion_policy GooglePrivilegedAccessManagerEntitlement#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -29,11 +29,11 @@ export interface GooglePrivilegedAccessManagerEntitlementConfig extends cdktn.Te
   * This value should be 4-63 characters, and valid characters are "[a-z]", "[0-9]", and "-". The first character should be from [a-z].
   * This value should be unique among all other Entitlements under the specified 'parent'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#entitlement_id GooglePrivilegedAccessManagerEntitlement#entitlement_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#entitlement_id GooglePrivilegedAccessManagerEntitlement#entitlement_id}
   */
   readonly entitlementId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#id GooglePrivilegedAccessManagerEntitlement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#id GooglePrivilegedAccessManagerEntitlement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -42,7 +42,7 @@ export interface GooglePrivilegedAccessManagerEntitlementConfig extends cdktn.Te
   /**
   * The region of the Entitlement resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#location GooglePrivilegedAccessManagerEntitlement#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#location GooglePrivilegedAccessManagerEntitlement#location}
   */
   readonly location: string;
   /**
@@ -50,49 +50,49 @@ export interface GooglePrivilegedAccessManagerEntitlementConfig extends cdktn.Te
   * A requester can choose to ask for access for less than this duration but never more.
   * Format: calculate the time in seconds and concatenate it with 's' i.e. 2 hours = "7200s", 45 minutes = "2700s"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#max_request_duration GooglePrivilegedAccessManagerEntitlement#max_request_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#max_request_duration GooglePrivilegedAccessManagerEntitlement#max_request_duration}
   */
   readonly maxRequestDuration: string;
   /**
   * Format: projects/{project-id|project-number} or organizations/{organization-number} or folders/{folder-number}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#parent GooglePrivilegedAccessManagerEntitlement#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#parent GooglePrivilegedAccessManagerEntitlement#parent}
   */
   readonly parent: string;
   /**
   * additional_notification_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#additional_notification_targets GooglePrivilegedAccessManagerEntitlement#additional_notification_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#additional_notification_targets GooglePrivilegedAccessManagerEntitlement#additional_notification_targets}
   */
   readonly additionalNotificationTargets?: GooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargets;
   /**
   * approval_workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#approval_workflow GooglePrivilegedAccessManagerEntitlement#approval_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#approval_workflow GooglePrivilegedAccessManagerEntitlement#approval_workflow}
   */
   readonly approvalWorkflow?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflow;
   /**
   * eligible_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#eligible_users GooglePrivilegedAccessManagerEntitlement#eligible_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#eligible_users GooglePrivilegedAccessManagerEntitlement#eligible_users}
   */
   readonly eligibleUsers: GooglePrivilegedAccessManagerEntitlementEligibleUsers[] | cdktn.IResolvable;
   /**
   * privileged_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#privileged_access GooglePrivilegedAccessManagerEntitlement#privileged_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#privileged_access GooglePrivilegedAccessManagerEntitlement#privileged_access}
   */
   readonly privilegedAccess: GooglePrivilegedAccessManagerEntitlementPrivilegedAccess;
   /**
   * requester_justification_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#requester_justification_config GooglePrivilegedAccessManagerEntitlement#requester_justification_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#requester_justification_config GooglePrivilegedAccessManagerEntitlement#requester_justification_config}
   */
   readonly requesterJustificationConfig: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#timeouts GooglePrivilegedAccessManagerEntitlement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#timeouts GooglePrivilegedAccessManagerEntitlement#timeouts}
   */
   readonly timeouts?: GooglePrivilegedAccessManagerEntitlementTimeouts;
 }
@@ -100,13 +100,13 @@ export interface GooglePrivilegedAccessManagerEntitlementAdditionalNotificationT
   /**
   * Optional. Additional email addresses to be notified when a principal(requester) is granted access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#admin_email_recipients GooglePrivilegedAccessManagerEntitlement#admin_email_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#admin_email_recipients GooglePrivilegedAccessManagerEntitlement#admin_email_recipients}
   */
   readonly adminEmailRecipients?: string[];
   /**
   * Optional. Additional email address to be notified about an eligible entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#requester_email_recipients GooglePrivilegedAccessManagerEntitlement#requester_email_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#requester_email_recipients GooglePrivilegedAccessManagerEntitlement#requester_email_recipients}
   */
   readonly requesterEmailRecipients?: string[];
 }
@@ -114,7 +114,7 @@ export interface GooglePrivilegedAccessManagerEntitlementAdditionalNotificationT
 export function googlePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference | GooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     admin_email_recipients: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.adminEmailRecipients),
@@ -126,7 +126,7 @@ export function googlePrivilegedAccessManagerEntitlementAdditionalNotificationTa
 export function googlePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference | GooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargets): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     admin_email_recipients: {
@@ -221,7 +221,7 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualA
   /**
   * Users who are being allowed for the operation. Each entry should be a valid v1 IAM Principal Identifier. Format for these is documented at: https://cloud.google.com/iam/docs/principal-identifiers#v1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#principals GooglePrivilegedAccessManagerEntitlement#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#principals GooglePrivilegedAccessManagerEntitlement#principals}
   */
   readonly principals: string[];
 }
@@ -229,7 +229,7 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualA
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversOutputReference | GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApprovers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     principals: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.principals),
@@ -240,7 +240,7 @@ export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualAp
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApproversOutputReference | GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApprovers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     principals: {
@@ -307,19 +307,19 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualA
   * will indefinitely block. Should always be greater than 0. Currently 1 is the only
   * supported value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#approvals_needed GooglePrivilegedAccessManagerEntitlement#approvals_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#approvals_needed GooglePrivilegedAccessManagerEntitlement#approvals_needed}
   */
   readonly approvalsNeeded?: number;
   /**
   * Optional. Additional email addresses to be notified when a grant is pending approval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#approver_email_recipients GooglePrivilegedAccessManagerEntitlement#approver_email_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#approver_email_recipients GooglePrivilegedAccessManagerEntitlement#approver_email_recipients}
   */
   readonly approverEmailRecipients?: string[];
   /**
   * approvers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#approvers GooglePrivilegedAccessManagerEntitlement#approvers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#approvers GooglePrivilegedAccessManagerEntitlement#approvers}
   */
   readonly approvers: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsApprovers;
 }
@@ -327,7 +327,7 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualA
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsSteps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     approvals_needed: cdktn.numberToTerraform(struct!.approvalsNeeded),
@@ -340,7 +340,7 @@ export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualAp
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsSteps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     approvals_needed: {
@@ -497,13 +497,13 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualA
   /**
   * Optional. Do the approvers need to provide a justification for their actions?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#require_approver_justification GooglePrivilegedAccessManagerEntitlement#require_approver_justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#require_approver_justification GooglePrivilegedAccessManagerEntitlement#require_approver_justification}
   */
   readonly requireApproverJustification?: boolean | cdktn.IResolvable;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#steps GooglePrivilegedAccessManagerEntitlement#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#steps GooglePrivilegedAccessManagerEntitlement#steps}
   */
   readonly steps: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsSteps[] | cdktn.IResolvable;
 }
@@ -511,7 +511,7 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualA
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsOutputReference | GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovals): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     require_approver_justification: cdktn.booleanToTerraform(struct!.requireApproverJustification),
@@ -523,7 +523,7 @@ export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualAp
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsOutputReference | GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovals): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     require_approver_justification: {
@@ -615,7 +615,7 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflow {
   /**
   * manual_approvals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#manual_approvals GooglePrivilegedAccessManagerEntitlement#manual_approvals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#manual_approvals GooglePrivilegedAccessManagerEntitlement#manual_approvals}
   */
   readonly manualApprovals: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovals;
 }
@@ -623,7 +623,7 @@ export interface GooglePrivilegedAccessManagerEntitlementApprovalWorkflow {
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference | GooglePrivilegedAccessManagerEntitlementApprovalWorkflow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     manual_approvals: googlePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsToTerraform(struct!.manualApprovals),
@@ -634,7 +634,7 @@ export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowToTerraf
 export function googlePrivilegedAccessManagerEntitlementApprovalWorkflowToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementApprovalWorkflowOutputReference | GooglePrivilegedAccessManagerEntitlementApprovalWorkflow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     manual_approvals: {
@@ -698,7 +698,7 @@ export interface GooglePrivilegedAccessManagerEntitlementEligibleUsers {
   /**
   * Users who are being allowed for the operation. Each entry should be a valid v1 IAM Principal Identifier. Format for these is documented at "https://cloud.google.com/iam/docs/principal-identifiers#v1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#principals GooglePrivilegedAccessManagerEntitlement#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#principals GooglePrivilegedAccessManagerEntitlement#principals}
   */
   readonly principals: string[];
 }
@@ -706,7 +706,7 @@ export interface GooglePrivilegedAccessManagerEntitlementEligibleUsers {
 export function googlePrivilegedAccessManagerEntitlementEligibleUsersToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementEligibleUsers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     principals: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.principals),
@@ -717,7 +717,7 @@ export function googlePrivilegedAccessManagerEntitlementEligibleUsersToTerraform
 export function googlePrivilegedAccessManagerEntitlementEligibleUsersToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementEligibleUsers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     principals: {
@@ -814,13 +814,13 @@ export interface GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamA
   * The expression field of the IAM condition to be associated with the role. If specified, a user with an active grant for this entitlement would be able to access the resource only if this condition evaluates to true for their request.
   * https://cloud.google.com/iam/docs/conditions-overview#attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#condition_expression GooglePrivilegedAccessManagerEntitlement#condition_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#condition_expression GooglePrivilegedAccessManagerEntitlement#condition_expression}
   */
   readonly conditionExpression?: string;
   /**
   * IAM role to be granted. https://cloud.google.com/iam/docs/roles-overview.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#role GooglePrivilegedAccessManagerEntitlement#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#role GooglePrivilegedAccessManagerEntitlement#role}
   */
   readonly role: string;
 }
@@ -828,7 +828,7 @@ export interface GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamA
 export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     condition_expression: cdktn.stringToTerraform(struct!.conditionExpression),
@@ -840,7 +840,7 @@ export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAc
 export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindingsToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     condition_expression: {
@@ -969,19 +969,19 @@ export interface GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamA
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#resource GooglePrivilegedAccessManagerEntitlement#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#resource GooglePrivilegedAccessManagerEntitlement#resource}
   */
   readonly resource: string;
   /**
   * The type of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#resource_type GooglePrivilegedAccessManagerEntitlement#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#resource_type GooglePrivilegedAccessManagerEntitlement#resource_type}
   */
   readonly resourceType: string;
   /**
   * role_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#role_bindings GooglePrivilegedAccessManagerEntitlement#role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#role_bindings GooglePrivilegedAccessManagerEntitlement#role_bindings}
   */
   readonly roleBindings: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessRoleBindings[] | cdktn.IResolvable;
 }
@@ -989,7 +989,7 @@ export interface GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamA
 export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference | GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccess): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resource: cdktn.stringToTerraform(struct!.resource),
@@ -1002,7 +1002,7 @@ export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAc
 export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessOutputReference | GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccess): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resource: {
@@ -1116,7 +1116,7 @@ export interface GooglePrivilegedAccessManagerEntitlementPrivilegedAccess {
   /**
   * gcp_iam_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#gcp_iam_access GooglePrivilegedAccessManagerEntitlement#gcp_iam_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#gcp_iam_access GooglePrivilegedAccessManagerEntitlement#gcp_iam_access}
   */
   readonly gcpIamAccess: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccess;
 }
@@ -1124,7 +1124,7 @@ export interface GooglePrivilegedAccessManagerEntitlementPrivilegedAccess {
 export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessOutputReference | GooglePrivilegedAccessManagerEntitlementPrivilegedAccess): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gcp_iam_access: googlePrivilegedAccessManagerEntitlementPrivilegedAccessGcpIamAccessToTerraform(struct!.gcpIamAccess),
@@ -1135,7 +1135,7 @@ export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessToTerraf
 export function googlePrivilegedAccessManagerEntitlementPrivilegedAccessToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementPrivilegedAccessOutputReference | GooglePrivilegedAccessManagerEntitlementPrivilegedAccess): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gcp_iam_access: {
@@ -1201,7 +1201,7 @@ export interface GooglePrivilegedAccessManagerEntitlementRequesterJustificationC
 export function googlePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference | GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatory): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1211,7 +1211,7 @@ export function googlePrivilegedAccessManagerEntitlementRequesterJustificationCo
 export function googlePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryOutputReference | GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatory): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1250,7 +1250,7 @@ export interface GooglePrivilegedAccessManagerEntitlementRequesterJustificationC
 export function googlePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference | GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructured): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1260,7 +1260,7 @@ export function googlePrivilegedAccessManagerEntitlementRequesterJustificationCo
 export function googlePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference | GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructured): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1297,13 +1297,13 @@ export interface GooglePrivilegedAccessManagerEntitlementRequesterJustificationC
   /**
   * not_mandatory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#not_mandatory GooglePrivilegedAccessManagerEntitlement#not_mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#not_mandatory GooglePrivilegedAccessManagerEntitlement#not_mandatory}
   */
   readonly notMandatory?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatory;
   /**
   * unstructured block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#unstructured GooglePrivilegedAccessManagerEntitlement#unstructured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#unstructured GooglePrivilegedAccessManagerEntitlement#unstructured}
   */
   readonly unstructured?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructured;
 }
@@ -1311,7 +1311,7 @@ export interface GooglePrivilegedAccessManagerEntitlementRequesterJustificationC
 export function googlePrivilegedAccessManagerEntitlementRequesterJustificationConfigToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigOutputReference | GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     not_mandatory: googlePrivilegedAccessManagerEntitlementRequesterJustificationConfigNotMandatoryToTerraform(struct!.notMandatory),
@@ -1323,7 +1323,7 @@ export function googlePrivilegedAccessManagerEntitlementRequesterJustificationCo
 export function googlePrivilegedAccessManagerEntitlementRequesterJustificationConfigToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigOutputReference | GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     not_mandatory: {
@@ -1416,15 +1416,15 @@ export class GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfi
 }
 export interface GooglePrivilegedAccessManagerEntitlementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#create GooglePrivilegedAccessManagerEntitlement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#create GooglePrivilegedAccessManagerEntitlement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#delete GooglePrivilegedAccessManagerEntitlement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#delete GooglePrivilegedAccessManagerEntitlement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#update GooglePrivilegedAccessManagerEntitlement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#update GooglePrivilegedAccessManagerEntitlement#update}
   */
   readonly update?: string;
 }
@@ -1432,7 +1432,7 @@ export interface GooglePrivilegedAccessManagerEntitlementTimeouts {
 export function googlePrivilegedAccessManagerEntitlementTimeoutsToTerraform(struct?: GooglePrivilegedAccessManagerEntitlementTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1445,7 +1445,7 @@ export function googlePrivilegedAccessManagerEntitlementTimeoutsToTerraform(stru
 export function googlePrivilegedAccessManagerEntitlementTimeoutsToHclTerraform(struct?: GooglePrivilegedAccessManagerEntitlementTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1576,7 +1576,7 @@ export class GooglePrivilegedAccessManagerEntitlementTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement}
 */
 export class GooglePrivilegedAccessManagerEntitlement extends cdktn.TerraformResource {
 
@@ -1592,7 +1592,7 @@ export class GooglePrivilegedAccessManagerEntitlement extends cdktn.TerraformRes
   * Generates CDKTN code for importing a GooglePrivilegedAccessManagerEntitlement resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GooglePrivilegedAccessManagerEntitlement to import
-  * @param importFromId The id of the existing GooglePrivilegedAccessManagerEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GooglePrivilegedAccessManagerEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GooglePrivilegedAccessManagerEntitlement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1604,7 +1604,7 @@ export class GooglePrivilegedAccessManagerEntitlement extends cdktn.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1615,7 +1615,7 @@ export class GooglePrivilegedAccessManagerEntitlement extends cdktn.TerraformRes
       terraformResourceType: 'google_privileged_access_manager_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

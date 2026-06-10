@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleSecureSourceManagerRepositoryConfig extends cdktn.Terrafo
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#deletion_policy GoogleSecureSourceManagerRepository#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#deletion_policy GoogleSecureSourceManagerRepository#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Description of the repository, which cannot exceed 500 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#description GoogleSecureSourceManagerRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#description GoogleSecureSourceManagerRepository#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#id GoogleSecureSourceManagerRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#id GoogleSecureSourceManagerRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,35 +40,35 @@ export interface GoogleSecureSourceManagerRepositoryConfig extends cdktn.Terrafo
   /**
   * The name of the instance in which the repository is hosted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#instance GoogleSecureSourceManagerRepository#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#instance GoogleSecureSourceManagerRepository#instance}
   */
   readonly instance: string;
   /**
   * The location for the Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#location GoogleSecureSourceManagerRepository#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#location GoogleSecureSourceManagerRepository#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#project GoogleSecureSourceManagerRepository#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#project GoogleSecureSourceManagerRepository#project}
   */
   readonly project?: string;
   /**
   * The ID for the Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#repository_id GoogleSecureSourceManagerRepository#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#repository_id GoogleSecureSourceManagerRepository#repository_id}
   */
   readonly repositoryId: string;
   /**
   * initial_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#initial_config GoogleSecureSourceManagerRepository#initial_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#initial_config GoogleSecureSourceManagerRepository#initial_config}
   */
   readonly initialConfig?: GoogleSecureSourceManagerRepositoryInitialConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#timeouts GoogleSecureSourceManagerRepository#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#timeouts GoogleSecureSourceManagerRepository#timeouts}
   */
   readonly timeouts?: GoogleSecureSourceManagerRepositoryTimeouts;
 }
@@ -78,7 +78,7 @@ export interface GoogleSecureSourceManagerRepositoryUris {
 export function googleSecureSourceManagerRepositoryUrisToTerraform(struct?: GoogleSecureSourceManagerRepositoryUris): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -88,7 +88,7 @@ export function googleSecureSourceManagerRepositoryUrisToTerraform(struct?: Goog
 export function googleSecureSourceManagerRepositoryUrisToHclTerraform(struct?: GoogleSecureSourceManagerRepositoryUris): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -161,28 +161,28 @@ export interface GoogleSecureSourceManagerRepositoryInitialConfig {
   /**
   * Default branch name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#default_branch GoogleSecureSourceManagerRepository#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#default_branch GoogleSecureSourceManagerRepository#default_branch}
   */
   readonly defaultBranch?: string;
   /**
   * List of gitignore template names user can choose from.
   * Valid values can be viewed at https://cloud.google.com/secure-source-manager/docs/reference/rest/v1/projects.locations.repositories#initialconfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#gitignores GoogleSecureSourceManagerRepository#gitignores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#gitignores GoogleSecureSourceManagerRepository#gitignores}
   */
   readonly gitignores?: string[];
   /**
   * License template name user can choose from.
   * Valid values can be viewed at https://cloud.google.com/secure-source-manager/docs/reference/rest/v1/projects.locations.repositories#initialconfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#license GoogleSecureSourceManagerRepository#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#license GoogleSecureSourceManagerRepository#license}
   */
   readonly license?: string;
   /**
   * README template name.
   * Valid values can be viewed at https://cloud.google.com/secure-source-manager/docs/reference/rest/v1/projects.locations.repositories#initialconfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#readme GoogleSecureSourceManagerRepository#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#readme GoogleSecureSourceManagerRepository#readme}
   */
   readonly readme?: string;
 }
@@ -190,7 +190,7 @@ export interface GoogleSecureSourceManagerRepositoryInitialConfig {
 export function googleSecureSourceManagerRepositoryInitialConfigToTerraform(struct?: GoogleSecureSourceManagerRepositoryInitialConfigOutputReference | GoogleSecureSourceManagerRepositoryInitialConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     default_branch: cdktn.stringToTerraform(struct!.defaultBranch),
@@ -204,7 +204,7 @@ export function googleSecureSourceManagerRepositoryInitialConfigToTerraform(stru
 export function googleSecureSourceManagerRepositoryInitialConfigToHclTerraform(struct?: GoogleSecureSourceManagerRepositoryInitialConfigOutputReference | GoogleSecureSourceManagerRepositoryInitialConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     default_branch: {
@@ -353,15 +353,15 @@ export class GoogleSecureSourceManagerRepositoryInitialConfigOutputReference ext
 }
 export interface GoogleSecureSourceManagerRepositoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#create GoogleSecureSourceManagerRepository#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#create GoogleSecureSourceManagerRepository#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#delete GoogleSecureSourceManagerRepository#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#delete GoogleSecureSourceManagerRepository#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#update GoogleSecureSourceManagerRepository#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#update GoogleSecureSourceManagerRepository#update}
   */
   readonly update?: string;
 }
@@ -369,7 +369,7 @@ export interface GoogleSecureSourceManagerRepositoryTimeouts {
 export function googleSecureSourceManagerRepositoryTimeoutsToTerraform(struct?: GoogleSecureSourceManagerRepositoryTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -382,7 +382,7 @@ export function googleSecureSourceManagerRepositoryTimeoutsToTerraform(struct?: 
 export function googleSecureSourceManagerRepositoryTimeoutsToHclTerraform(struct?: GoogleSecureSourceManagerRepositoryTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -513,7 +513,7 @@ export class GoogleSecureSourceManagerRepositoryTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository}
 */
 export class GoogleSecureSourceManagerRepository extends cdktn.TerraformResource {
 
@@ -529,7 +529,7 @@ export class GoogleSecureSourceManagerRepository extends cdktn.TerraformResource
   * Generates CDKTN code for importing a GoogleSecureSourceManagerRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSecureSourceManagerRepository to import
-  * @param importFromId The id of the existing GoogleSecureSourceManagerRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSecureSourceManagerRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSecureSourceManagerRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -541,7 +541,7 @@ export class GoogleSecureSourceManagerRepository extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -552,7 +552,7 @@ export class GoogleSecureSourceManagerRepository extends cdktn.TerraformResource
       terraformResourceType: 'google_secure_source_manager_repository',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

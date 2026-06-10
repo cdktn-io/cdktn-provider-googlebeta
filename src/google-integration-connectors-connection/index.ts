@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleIntegrationConnectorsConnectionConfig extends cdktn.Terra
   /**
   * connectorVersion of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#connector_version GoogleIntegrationConnectorsConnection#connector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#connector_version GoogleIntegrationConnectorsConnection#connector_version}
   */
   readonly connectorVersion: string;
   /**
@@ -27,23 +27,23 @@ export interface GoogleIntegrationConnectorsConnectionConfig extends cdktn.Terra
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#deletion_policy GoogleIntegrationConnectorsConnection#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#deletion_policy GoogleIntegrationConnectorsConnection#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An arbitrary description for the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#description GoogleIntegrationConnectorsConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#description GoogleIntegrationConnectorsConnection#description}
   */
   readonly description?: string;
   /**
   * Eventing enablement type. Will be nil if eventing is not enabled. Possible values: ["EVENTING_AND_CONNECTION", "ONLY_EVENTING"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#eventing_enablement_type GoogleIntegrationConnectorsConnection#eventing_enablement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#eventing_enablement_type GoogleIntegrationConnectorsConnection#eventing_enablement_type}
   */
   readonly eventingEnablementType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#id GoogleIntegrationConnectorsConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#id GoogleIntegrationConnectorsConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,89 +56,89 @@ export interface GoogleIntegrationConnectorsConnectionConfig extends cdktn.Terra
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#labels GoogleIntegrationConnectorsConnection#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#labels GoogleIntegrationConnectorsConnection#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Location in which Connection needs to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#location GoogleIntegrationConnectorsConnection#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#location GoogleIntegrationConnectorsConnection#location}
   */
   readonly location: string;
   /**
   * Name of Connection needs to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#name GoogleIntegrationConnectorsConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#name GoogleIntegrationConnectorsConnection#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#project GoogleIntegrationConnectorsConnection#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#project GoogleIntegrationConnectorsConnection#project}
   */
   readonly project?: string;
   /**
   * Service account needed for runtime plane to access Google Cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#service_account GoogleIntegrationConnectorsConnection#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#service_account GoogleIntegrationConnectorsConnection#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Suspended indicates if a user has suspended a connection or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#suspended GoogleIntegrationConnectorsConnection#suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#suspended GoogleIntegrationConnectorsConnection#suspended}
   */
   readonly suspended?: boolean | cdktn.IResolvable;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
   */
   readonly authConfig?: GoogleIntegrationConnectorsConnectionAuthConfig;
   /**
   * config_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#config_variable GoogleIntegrationConnectorsConnection#config_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#config_variable GoogleIntegrationConnectorsConnection#config_variable}
   */
   readonly configVariable?: GoogleIntegrationConnectorsConnectionConfigVariable[] | cdktn.IResolvable;
   /**
   * destination_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#destination_config GoogleIntegrationConnectorsConnection#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#destination_config GoogleIntegrationConnectorsConnection#destination_config}
   */
   readonly destinationConfig?: GoogleIntegrationConnectorsConnectionDestinationConfig[] | cdktn.IResolvable;
   /**
   * eventing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#eventing_config GoogleIntegrationConnectorsConnection#eventing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#eventing_config GoogleIntegrationConnectorsConnection#eventing_config}
   */
   readonly eventingConfig?: GoogleIntegrationConnectorsConnectionEventingConfig;
   /**
   * lock_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#lock_config GoogleIntegrationConnectorsConnection#lock_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#lock_config GoogleIntegrationConnectorsConnection#lock_config}
   */
   readonly lockConfig?: GoogleIntegrationConnectorsConnectionLockConfig;
   /**
   * log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#log_config GoogleIntegrationConnectorsConnection#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#log_config GoogleIntegrationConnectorsConnection#log_config}
   */
   readonly logConfig?: GoogleIntegrationConnectorsConnectionLogConfig;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#node_config GoogleIntegrationConnectorsConnection#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#node_config GoogleIntegrationConnectorsConnection#node_config}
   */
   readonly nodeConfig?: GoogleIntegrationConnectorsConnectionNodeConfig;
   /**
   * ssl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#ssl_config GoogleIntegrationConnectorsConnection#ssl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#ssl_config GoogleIntegrationConnectorsConnection#ssl_config}
   */
   readonly sslConfig?: GoogleIntegrationConnectorsConnectionSslConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#timeouts GoogleIntegrationConnectorsConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#timeouts GoogleIntegrationConnectorsConnection#timeouts}
   */
   readonly timeouts?: GoogleIntegrationConnectorsConnectionTimeouts;
 }
@@ -148,7 +148,7 @@ export interface GoogleIntegrationConnectorsConnectionConnectorVersionInfraConfi
 export function googleIntegrationConnectorsConnectionConnectorVersionInfraConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionConnectorVersionInfraConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -158,7 +158,7 @@ export function googleIntegrationConnectorsConnectionConnectorVersionInfraConfig
 export function googleIntegrationConnectorsConnectionConnectorVersionInfraConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionConnectorVersionInfraConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -223,7 +223,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingRuntimeDataStatus 
 export function googleIntegrationConnectorsConnectionEventingRuntimeDataStatusToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingRuntimeDataStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -233,7 +233,7 @@ export function googleIntegrationConnectorsConnectionEventingRuntimeDataStatusTo
 export function googleIntegrationConnectorsConnectionEventingRuntimeDataStatusToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingRuntimeDataStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -303,7 +303,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingRuntimeData {
 export function googleIntegrationConnectorsConnectionEventingRuntimeDataToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingRuntimeData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -313,7 +313,7 @@ export function googleIntegrationConnectorsConnectionEventingRuntimeDataToTerraf
 export function googleIntegrationConnectorsConnectionEventingRuntimeDataToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingRuntimeData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -384,7 +384,7 @@ export interface GoogleIntegrationConnectorsConnectionStatus {
 export function googleIntegrationConnectorsConnectionStatusToTerraform(struct?: GoogleIntegrationConnectorsConnectionStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -394,7 +394,7 @@ export function googleIntegrationConnectorsConnectionStatusToTerraform(struct?: 
 export function googleIntegrationConnectorsConnectionStatusToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -469,7 +469,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariab
   * expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
   * Will be empty string if google managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -477,7 +477,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariab
   /**
   * Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
   */
   readonly type: string;
 }
@@ -485,7 +485,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariab
 export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -497,7 +497,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariabl
 export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -589,7 +589,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariab
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -597,7 +597,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariab
 export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -608,7 +608,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariabl
 export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -672,37 +672,37 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariab
   /**
   * Boolean Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
   */
   readonly booleanValue?: boolean | cdktn.IResolvable;
   /**
   * Integer Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
   */
   readonly integerValue?: number;
   /**
   * Key for the configVariable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
   */
   readonly key: string;
   /**
   * String Value of configVariabley.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
   */
   readonly stringValue?: string;
   /**
   * encryption_key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
   */
   readonly encryptionKeyValue?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableEncryptionKeyValue;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
   */
   readonly secretValue?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariableSecretValue;
 }
@@ -710,7 +710,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariab
 export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariableToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     boolean_value: cdktn.booleanToTerraform(struct!.booleanValue),
@@ -726,7 +726,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariabl
 export function googleIntegrationConnectorsConnectionAuthConfigAdditionalVariableToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     boolean_value: {
@@ -963,7 +963,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFl
   * The resource name of the secret version in the format,
   * format as: projects/* /secrets/* /versions/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -973,7 +973,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFl
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -984,7 +984,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlo
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecretOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -1048,31 +1048,31 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFl
   /**
   * Auth URL for Authorization Code Flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#auth_uri GoogleIntegrationConnectorsConnection#auth_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#auth_uri GoogleIntegrationConnectorsConnection#auth_uri}
   */
   readonly authUri?: string;
   /**
   * Client ID for user-provided OAuth app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
   */
   readonly clientId?: string;
   /**
   * Whether to enable PKCE when the user performs the auth code flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#enable_pkce GoogleIntegrationConnectorsConnection#enable_pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#enable_pkce GoogleIntegrationConnectorsConnection#enable_pkce}
   */
   readonly enablePkce?: boolean | cdktn.IResolvable;
   /**
   * Scopes the connection will request when the user performs the auth code flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#scopes GoogleIntegrationConnectorsConnection#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#scopes GoogleIntegrationConnectorsConnection#scopes}
   */
   readonly scopes?: string[];
   /**
   * client_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
   */
   readonly clientSecret?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowClientSecret;
 }
@@ -1080,7 +1080,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFl
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     auth_uri: cdktn.stringToTerraform(struct!.authUri),
@@ -1095,7 +1095,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlo
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlowOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     auth_uri: {
@@ -1275,7 +1275,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCred
   * The resource name of the secret version in the format,
   * format as: projects/* /secrets/* /versions/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1285,7 +1285,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCred
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsClientSecretToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsClientSecretOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsClientSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -1296,7 +1296,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigOauth2ClientCrede
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsClientSecretToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsClientSecretOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsClientSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -1360,13 +1360,13 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCred
   /**
   * Secret version of Password for Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
   */
   readonly clientId: string;
   /**
   * client_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
   */
   readonly clientSecret?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsClientSecret;
 }
@@ -1374,7 +1374,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCred
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -1386,7 +1386,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigOauth2ClientCrede
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentialsOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentials): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -1479,7 +1479,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerC
   * The resource name of the secret version in the format,
   * format as: projects/* /secrets/* /versions/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1489,7 +1489,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerC
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKeyToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKeyOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -1500,7 +1500,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerCl
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKeyToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKeyOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -1564,19 +1564,19 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJ
   /**
   * Value for the "aud" claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#audience GoogleIntegrationConnectorsConnection#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#audience GoogleIntegrationConnectorsConnection#audience}
   */
   readonly audience?: string;
   /**
   * Value for the "iss" claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#issuer GoogleIntegrationConnectorsConnection#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#issuer GoogleIntegrationConnectorsConnection#issuer}
   */
   readonly issuer?: string;
   /**
   * Value for the "sub" claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#subject GoogleIntegrationConnectorsConnection#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#subject GoogleIntegrationConnectorsConnection#subject}
   */
   readonly subject?: string;
 }
@@ -1584,7 +1584,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJ
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJwtClaimsToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJwtClaimsOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJwtClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audience: cdktn.stringToTerraform(struct!.audience),
@@ -1597,7 +1597,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJw
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJwtClaimsToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJwtClaimsOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJwtClaims): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audience: {
@@ -1720,13 +1720,13 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearer 
   /**
   * client_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_key GoogleIntegrationConnectorsConnection#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_key GoogleIntegrationConnectorsConnection#client_key}
   */
   readonly clientKey?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKey;
   /**
   * jwt_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#jwt_claims GoogleIntegrationConnectorsConnection#jwt_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#jwt_claims GoogleIntegrationConnectorsConnection#jwt_claims}
   */
   readonly jwtClaims?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerJwtClaims;
 }
@@ -1734,7 +1734,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearer 
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_key: googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerClientKeyToTerraform(struct!.clientKey),
@@ -1746,7 +1746,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerTo
 export function googleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearerOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_key: {
@@ -1842,7 +1842,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshC
   * The resource name of the secret version in the format,
   * format as: projects/* /secrets/* /versions/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1852,7 +1852,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshC
 export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCert): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -1863,7 +1863,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshCl
 export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCert): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -1928,7 +1928,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshC
   * The resource name of the secret version in the format,
   * format as: projects/* /secrets/* /versions/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1938,7 +1938,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshC
 export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertPassToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertPassOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertPass): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -1949,7 +1949,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshCl
 export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertPassToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertPassOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertPass): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -2013,25 +2013,25 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKey {
   /**
   * Format of SSH Client cert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#cert_type GoogleIntegrationConnectorsConnection#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#cert_type GoogleIntegrationConnectorsConnection#cert_type}
   */
   readonly certType?: string;
   /**
   * The user account used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
   */
   readonly username: string;
   /**
   * ssh_client_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#ssh_client_cert GoogleIntegrationConnectorsConnection#ssh_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#ssh_client_cert GoogleIntegrationConnectorsConnection#ssh_client_cert}
   */
   readonly sshClientCert?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCert;
   /**
   * ssh_client_cert_pass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#ssh_client_cert_pass GoogleIntegrationConnectorsConnection#ssh_client_cert_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#ssh_client_cert_pass GoogleIntegrationConnectorsConnection#ssh_client_cert_pass}
   */
   readonly sshClientCertPass?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeySshClientCertPass;
 }
@@ -2039,7 +2039,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKey {
 export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeyToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cert_type: cdktn.stringToTerraform(struct!.certType),
@@ -2053,7 +2053,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeyToTer
 export function googleIntegrationConnectorsConnectionAuthConfigSshPublicKeyToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKeyOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cert_type: {
@@ -2202,7 +2202,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordPass
   * The resource name of the secret version in the format,
   * format as: projects/* /secrets/* /versions/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2212,7 +2212,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordPass
 export function googleIntegrationConnectorsConnectionAuthConfigUserPasswordPasswordToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordPasswordOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -2223,7 +2223,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigUserPasswordPassw
 export function googleIntegrationConnectorsConnectionAuthConfigUserPasswordPasswordToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordPasswordOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -2287,13 +2287,13 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigUserPassword {
   /**
   * Username for Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
   */
   readonly username: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
   */
   readonly password?: GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordPassword;
 }
@@ -2301,7 +2301,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfigUserPassword {
 export function googleIntegrationConnectorsConnectionAuthConfigUserPasswordToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigUserPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     username: cdktn.stringToTerraform(struct!.username),
@@ -2313,7 +2313,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigUserPasswordToTer
 export function googleIntegrationConnectorsConnectionAuthConfigUserPasswordToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference | GoogleIntegrationConnectorsConnectionAuthConfigUserPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     username: {
@@ -2405,49 +2405,49 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfig {
   /**
   * The type of authentication configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
   */
   readonly authKey?: string;
   /**
   * authType of the Connection Possible values: ["AUTH_TYPE_UNSPECIFIED", "USER_PASSWORD", "OAUTH2_JWT_BEARER", "OAUTH2_CLIENT_CREDENTIALS", "SSH_PUBLIC_KEY", "OAUTH2_AUTH_CODE_FLOW"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
   */
   readonly authType: string;
   /**
   * additional_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
   */
   readonly additionalVariable?: GoogleIntegrationConnectorsConnectionAuthConfigAdditionalVariable[] | cdktn.IResolvable;
   /**
   * oauth2_auth_code_flow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#oauth2_auth_code_flow GoogleIntegrationConnectorsConnection#oauth2_auth_code_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#oauth2_auth_code_flow GoogleIntegrationConnectorsConnection#oauth2_auth_code_flow}
   */
   readonly oauth2AuthCodeFlow?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2AuthCodeFlow;
   /**
   * oauth2_client_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#oauth2_client_credentials GoogleIntegrationConnectorsConnection#oauth2_client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#oauth2_client_credentials GoogleIntegrationConnectorsConnection#oauth2_client_credentials}
   */
   readonly oauth2ClientCredentials?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2ClientCredentials;
   /**
   * oauth2_jwt_bearer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#oauth2_jwt_bearer GoogleIntegrationConnectorsConnection#oauth2_jwt_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#oauth2_jwt_bearer GoogleIntegrationConnectorsConnection#oauth2_jwt_bearer}
   */
   readonly oauth2JwtBearer?: GoogleIntegrationConnectorsConnectionAuthConfigOauth2JwtBearer;
   /**
   * ssh_public_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#ssh_public_key GoogleIntegrationConnectorsConnection#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#ssh_public_key GoogleIntegrationConnectorsConnection#ssh_public_key}
   */
   readonly sshPublicKey?: GoogleIntegrationConnectorsConnectionAuthConfigSshPublicKey;
   /**
   * user_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
   */
   readonly userPassword?: GoogleIntegrationConnectorsConnectionAuthConfigUserPassword;
 }
@@ -2455,7 +2455,7 @@ export interface GoogleIntegrationConnectorsConnectionAuthConfig {
 export function googleIntegrationConnectorsConnectionAuthConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOutputReference | GoogleIntegrationConnectorsConnectionAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     auth_key: cdktn.stringToTerraform(struct!.authKey),
@@ -2473,7 +2473,7 @@ export function googleIntegrationConnectorsConnectionAuthConfigToTerraform(struc
 export function googleIntegrationConnectorsConnectionAuthConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionAuthConfigOutputReference | GoogleIntegrationConnectorsConnectionAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     auth_key: {
@@ -2735,7 +2735,7 @@ export interface GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKe
   * expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
   * Will be empty string if google managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2743,7 +2743,7 @@ export interface GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKe
   /**
   * Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
   */
   readonly type: string;
 }
@@ -2751,7 +2751,7 @@ export interface GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKe
 export function googleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -2763,7 +2763,7 @@ export function googleIntegrationConnectorsConnectionConfigVariableEncryptionKey
 export function googleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -2855,7 +2855,7 @@ export interface GoogleIntegrationConnectorsConnectionConfigVariableSecretValue 
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -2863,7 +2863,7 @@ export interface GoogleIntegrationConnectorsConnectionConfigVariableSecretValue 
 export function googleIntegrationConnectorsConnectionConfigVariableSecretValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionConfigVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionConfigVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -2874,7 +2874,7 @@ export function googleIntegrationConnectorsConnectionConfigVariableSecretValueTo
 export function googleIntegrationConnectorsConnectionConfigVariableSecretValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionConfigVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionConfigVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -2938,37 +2938,37 @@ export interface GoogleIntegrationConnectorsConnectionConfigVariable {
   /**
   * Boolean Value of configVariable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
   */
   readonly booleanValue?: boolean | cdktn.IResolvable;
   /**
   * Integer Value of configVariable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
   */
   readonly integerValue?: number;
   /**
   * Key for the configVariable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
   */
   readonly key: string;
   /**
   * String Value of configVariabley
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
   */
   readonly stringValue?: string;
   /**
   * encryption_key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
   */
   readonly encryptionKeyValue?: GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValue;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
   */
   readonly secretValue?: GoogleIntegrationConnectorsConnectionConfigVariableSecretValue;
 }
@@ -2976,7 +2976,7 @@ export interface GoogleIntegrationConnectorsConnectionConfigVariable {
 export function googleIntegrationConnectorsConnectionConfigVariableToTerraform(struct?: GoogleIntegrationConnectorsConnectionConfigVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     boolean_value: cdktn.booleanToTerraform(struct!.booleanValue),
@@ -2992,7 +2992,7 @@ export function googleIntegrationConnectorsConnectionConfigVariableToTerraform(s
 export function googleIntegrationConnectorsConnectionConfigVariableToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionConfigVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     boolean_value: {
@@ -3228,19 +3228,19 @@ export interface GoogleIntegrationConnectorsConnectionDestinationConfigDestinati
   /**
   * For publicly routable host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
   */
   readonly host?: string;
   /**
   * The port is the target port number that is accepted by the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
   */
   readonly port?: number;
   /**
   * PSC service attachments. Format: projects/* /regions/* /serviceAttachments/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -3250,7 +3250,7 @@ export interface GoogleIntegrationConnectorsConnectionDestinationConfigDestinati
 export function googleIntegrationConnectorsConnectionDestinationConfigDestinationToTerraform(struct?: GoogleIntegrationConnectorsConnectionDestinationConfigDestination | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host: cdktn.stringToTerraform(struct!.host),
@@ -3263,7 +3263,7 @@ export function googleIntegrationConnectorsConnectionDestinationConfigDestinatio
 export function googleIntegrationConnectorsConnectionDestinationConfigDestinationToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionDestinationConfigDestination | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host: {
@@ -3418,13 +3418,13 @@ export interface GoogleIntegrationConnectorsConnectionDestinationConfig {
   /**
   * The key is the destination identifier that is supported by the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
   */
   readonly key: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
   */
   readonly destination?: GoogleIntegrationConnectorsConnectionDestinationConfigDestination[] | cdktn.IResolvable;
 }
@@ -3432,7 +3432,7 @@ export interface GoogleIntegrationConnectorsConnectionDestinationConfig {
 export function googleIntegrationConnectorsConnectionDestinationConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionDestinationConfig | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -3444,7 +3444,7 @@ export function googleIntegrationConnectorsConnectionDestinationConfigToTerrafor
 export function googleIntegrationConnectorsConnectionDestinationConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionDestinationConfig | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -3570,7 +3570,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVa
   * expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
   * Will be empty string if google managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -3578,7 +3578,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVa
   /**
   * Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
   */
   readonly type?: string;
 }
@@ -3586,7 +3586,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVa
 export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVariableEncryptionKeyValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -3598,7 +3598,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVar
 export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVariableEncryptionKeyValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -3693,7 +3693,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVa
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -3701,7 +3701,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVa
 export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVariableSecretValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -3712,7 +3712,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVar
 export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVariableSecretValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -3776,37 +3776,37 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVa
   /**
   * Boolean Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
   */
   readonly booleanValue?: boolean | cdktn.IResolvable;
   /**
   * Integer Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
   */
   readonly integerValue?: number;
   /**
   * Key for the configVariable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
   */
   readonly key: string;
   /**
   * String Value of configVariabley.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
   */
   readonly stringValue?: string;
   /**
   * encryption_key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
   */
   readonly encryptionKeyValue?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableEncryptionKeyValue;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
   */
   readonly secretValue?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariableSecretValue;
 }
@@ -3814,7 +3814,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVa
 export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVariableToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     boolean_value: cdktn.booleanToTerraform(struct!.booleanValue),
@@ -3830,7 +3830,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVar
 export function googleIntegrationConnectorsConnectionEventingConfigAdditionalVariableToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     boolean_value: {
@@ -4068,7 +4068,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAd
   * expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
   * Will be empty string if google managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -4076,7 +4076,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAd
   /**
   * Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
   */
   readonly type?: string;
 }
@@ -4084,7 +4084,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAd
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableEncryptionKeyValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -4096,7 +4096,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdd
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableEncryptionKeyValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -4191,7 +4191,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAd
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -4199,7 +4199,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAd
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableSecretValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -4210,7 +4210,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdd
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableSecretValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -4274,37 +4274,37 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAd
   /**
   * Boolean Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
   */
   readonly booleanValue?: boolean | cdktn.IResolvable;
   /**
   * Integer Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
   */
   readonly integerValue?: number;
   /**
   * Key for the configVariable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
   */
   readonly key: string;
   /**
   * String Value of configVariabley.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
   */
   readonly stringValue?: string;
   /**
   * encryption_key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
   */
   readonly encryptionKeyValue?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableEncryptionKeyValue;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
   */
   readonly secretValue?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableSecretValue;
 }
@@ -4312,7 +4312,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAd
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     boolean_value: cdktn.booleanToTerraform(struct!.booleanValue),
@@ -4328,7 +4328,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdd
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariableToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     boolean_value: {
@@ -4565,7 +4565,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUs
   * The resource name of the secret version in the format,
   * format as: projects/* /secrets/* /versions/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -4575,7 +4575,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUs
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordPasswordToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordPasswordOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -4586,7 +4586,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigUse
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordPasswordToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordPasswordOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -4650,13 +4650,13 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUs
   /**
   * Username for Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
   */
   readonly username?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
   */
   readonly password?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordPassword;
 }
@@ -4664,7 +4664,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUs
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     username: cdktn.stringToTerraform(struct!.username),
@@ -4676,7 +4676,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigUse
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPasswordOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     username: {
@@ -4771,25 +4771,25 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfig {
   /**
   * The type of authentication configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
   */
   readonly authKey?: string;
   /**
   * authType of the Connection Possible values: ["USER_PASSWORD"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
   */
   readonly authType: string;
   /**
   * additional_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
   */
   readonly additionalVariable?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigAdditionalVariable[] | cdktn.IResolvable;
   /**
   * user_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
   */
   readonly userPassword: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigUserPassword;
 }
@@ -4797,7 +4797,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigAuthConfig {
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     auth_key: cdktn.stringToTerraform(struct!.authKey),
@@ -4811,7 +4811,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigToT
 export function googleIntegrationConnectorsConnectionEventingConfigAuthConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfigOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     auth_key: {
@@ -4956,19 +4956,19 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigRegistration
   /**
   * Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
   */
   readonly host?: string;
   /**
   * port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
   */
   readonly port?: number;
   /**
   * Service Attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
   */
   readonly serviceAttachment?: string;
 }
@@ -4976,7 +4976,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigRegistration
 export function googleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigDestinationToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigDestination | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host: cdktn.stringToTerraform(struct!.host),
@@ -4989,7 +4989,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigRegistrationD
 export function googleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigDestinationToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigDestination | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host: {
@@ -5144,13 +5144,13 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigRegistration
   /**
   * Key for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
   */
   readonly key?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
   */
   readonly destination?: GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigDestination[] | cdktn.IResolvable;
 }
@@ -5158,7 +5158,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfigRegistration
 export function googleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -5170,7 +5170,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigRegistrationD
 export function googleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigOutputReference | GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -5265,25 +5265,25 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfig {
   /**
   * Enrichment Enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#enrichment_enabled GoogleIntegrationConnectorsConnection#enrichment_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#enrichment_enabled GoogleIntegrationConnectorsConnection#enrichment_enabled}
   */
   readonly enrichmentEnabled?: boolean | cdktn.IResolvable;
   /**
   * additional_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
   */
   readonly additionalVariable?: GoogleIntegrationConnectorsConnectionEventingConfigAdditionalVariable[] | cdktn.IResolvable;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
   */
   readonly authConfig?: GoogleIntegrationConnectorsConnectionEventingConfigAuthConfig;
   /**
   * registration_destination_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#registration_destination_config GoogleIntegrationConnectorsConnection#registration_destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#registration_destination_config GoogleIntegrationConnectorsConnection#registration_destination_config}
   */
   readonly registrationDestinationConfig: GoogleIntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfig;
 }
@@ -5291,7 +5291,7 @@ export interface GoogleIntegrationConnectorsConnectionEventingConfig {
 export function googleIntegrationConnectorsConnectionEventingConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigOutputReference | GoogleIntegrationConnectorsConnectionEventingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enrichment_enabled: cdktn.booleanToTerraform(struct!.enrichmentEnabled),
@@ -5305,7 +5305,7 @@ export function googleIntegrationConnectorsConnectionEventingConfigToTerraform(s
 export function googleIntegrationConnectorsConnectionEventingConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionEventingConfigOutputReference | GoogleIntegrationConnectorsConnectionEventingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enrichment_enabled: {
@@ -5453,13 +5453,13 @@ export interface GoogleIntegrationConnectorsConnectionLockConfig {
   /**
   * Indicates whether or not the connection is locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#locked GoogleIntegrationConnectorsConnection#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#locked GoogleIntegrationConnectorsConnection#locked}
   */
   readonly locked: boolean | cdktn.IResolvable;
   /**
   * Describes why a connection is locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#reason GoogleIntegrationConnectorsConnection#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#reason GoogleIntegrationConnectorsConnection#reason}
   */
   readonly reason?: string;
 }
@@ -5467,7 +5467,7 @@ export interface GoogleIntegrationConnectorsConnectionLockConfig {
 export function googleIntegrationConnectorsConnectionLockConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionLockConfigOutputReference | GoogleIntegrationConnectorsConnectionLockConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     locked: cdktn.booleanToTerraform(struct!.locked),
@@ -5479,7 +5479,7 @@ export function googleIntegrationConnectorsConnectionLockConfigToTerraform(struc
 export function googleIntegrationConnectorsConnectionLockConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionLockConfigOutputReference | GoogleIntegrationConnectorsConnectionLockConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     locked: {
@@ -5571,13 +5571,13 @@ export interface GoogleIntegrationConnectorsConnectionLogConfig {
   /**
   * Enabled represents whether logging is enabled or not for a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#enabled GoogleIntegrationConnectorsConnection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#enabled GoogleIntegrationConnectorsConnection#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * Log configuration level. Possible values: ["LOG_LEVEL_UNSPECIFIED", "ERROR", "INFO", "DEBUG"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#level GoogleIntegrationConnectorsConnection#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#level GoogleIntegrationConnectorsConnection#level}
   */
   readonly level?: string;
 }
@@ -5585,7 +5585,7 @@ export interface GoogleIntegrationConnectorsConnectionLogConfig {
 export function googleIntegrationConnectorsConnectionLogConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionLogConfigOutputReference | GoogleIntegrationConnectorsConnectionLogConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -5597,7 +5597,7 @@ export function googleIntegrationConnectorsConnectionLogConfigToTerraform(struct
 export function googleIntegrationConnectorsConnectionLogConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionLogConfigOutputReference | GoogleIntegrationConnectorsConnectionLogConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -5689,13 +5689,13 @@ export interface GoogleIntegrationConnectorsConnectionNodeConfig {
   /**
   * Minimum number of nodes in the runtime nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#max_node_count GoogleIntegrationConnectorsConnection#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#max_node_count GoogleIntegrationConnectorsConnection#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * Minimum number of nodes in the runtime nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#min_node_count GoogleIntegrationConnectorsConnection#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#min_node_count GoogleIntegrationConnectorsConnection#min_node_count}
   */
   readonly minNodeCount?: number;
 }
@@ -5703,7 +5703,7 @@ export interface GoogleIntegrationConnectorsConnectionNodeConfig {
 export function googleIntegrationConnectorsConnectionNodeConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionNodeConfigOutputReference | GoogleIntegrationConnectorsConnectionNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_node_count: cdktn.numberToTerraform(struct!.maxNodeCount),
@@ -5715,7 +5715,7 @@ export function googleIntegrationConnectorsConnectionNodeConfigToTerraform(struc
 export function googleIntegrationConnectorsConnectionNodeConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionNodeConfigOutputReference | GoogleIntegrationConnectorsConnectionNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_node_count: {
@@ -5812,7 +5812,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariabl
   * expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
   * Will be empty string if google managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -5820,7 +5820,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariabl
   /**
   * Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
   */
   readonly type?: string;
 }
@@ -5828,7 +5828,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariabl
 export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -5840,7 +5840,7 @@ export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariable
 export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValueOutputReference | GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -5935,7 +5935,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariabl
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -5943,7 +5943,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariabl
 export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariableSecretValueToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -5954,7 +5954,7 @@ export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariable
 export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariableSecretValueToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableSecretValueOutputReference | GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableSecretValue): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -6018,37 +6018,37 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariabl
   /**
   * Boolean Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
   */
   readonly booleanValue?: boolean | cdktn.IResolvable;
   /**
   * Integer Value of configVariable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
   */
   readonly integerValue?: number;
   /**
   * Key for the configVariable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
   */
   readonly key: string;
   /**
   * String Value of configVariabley.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
   */
   readonly stringValue?: string;
   /**
   * encryption_key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
   */
   readonly encryptionKeyValue?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableEncryptionKeyValue;
   /**
   * secret_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
   */
   readonly secretValue?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableSecretValue;
 }
@@ -6056,7 +6056,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariabl
 export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariableToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     boolean_value: cdktn.booleanToTerraform(struct!.booleanValue),
@@ -6072,7 +6072,7 @@ export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariable
 export function googleIntegrationConnectorsConnectionSslConfigAdditionalVariableToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariable | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     boolean_value: {
@@ -6308,7 +6308,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigClientCertificate
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -6316,7 +6316,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigClientCertificate
 export function googleIntegrationConnectorsConnectionSslConfigClientCertificateToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigClientCertificateOutputReference | GoogleIntegrationConnectorsConnectionSslConfigClientCertificate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -6327,7 +6327,7 @@ export function googleIntegrationConnectorsConnectionSslConfigClientCertificateT
 export function googleIntegrationConnectorsConnectionSslConfigClientCertificateToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigClientCertificateOutputReference | GoogleIntegrationConnectorsConnectionSslConfigClientCertificate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -6391,7 +6391,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKey 
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -6399,7 +6399,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKey 
 export function googleIntegrationConnectorsConnectionSslConfigClientPrivateKeyToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyOutputReference | GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -6410,7 +6410,7 @@ export function googleIntegrationConnectorsConnectionSslConfigClientPrivateKeyTo
 export function googleIntegrationConnectorsConnectionSslConfigClientPrivateKeyToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyOutputReference | GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -6474,7 +6474,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyP
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -6482,7 +6482,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyP
 export function googleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReference | GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPass): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -6493,7 +6493,7 @@ export function googleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPa
 export function googleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReference | GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPass): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -6557,7 +6557,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigPrivateServerCert
   /**
   * Secret version of Secret Value for Config variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -6565,7 +6565,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfigPrivateServerCert
 export function googleIntegrationConnectorsConnectionSslConfigPrivateServerCertificateToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigPrivateServerCertificateOutputReference | GoogleIntegrationConnectorsConnectionSslConfigPrivateServerCertificate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -6576,7 +6576,7 @@ export function googleIntegrationConnectorsConnectionSslConfigPrivateServerCerti
 export function googleIntegrationConnectorsConnectionSslConfigPrivateServerCertificateToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigPrivateServerCertificateOutputReference | GoogleIntegrationConnectorsConnectionSslConfigPrivateServerCertificate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -6640,61 +6640,61 @@ export interface GoogleIntegrationConnectorsConnectionSslConfig {
   /**
   * Type of Client Cert (PEM/JKS/.. etc.) Possible values: ["PEM"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_cert_type GoogleIntegrationConnectorsConnection#client_cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_cert_type GoogleIntegrationConnectorsConnection#client_cert_type}
   */
   readonly clientCertType?: string;
   /**
   * Type of Server Cert (PEM/JKS/.. etc.) Possible values: ["PEM"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#server_cert_type GoogleIntegrationConnectorsConnection#server_cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#server_cert_type GoogleIntegrationConnectorsConnection#server_cert_type}
   */
   readonly serverCertType?: string;
   /**
   * Enum for Trust Model Possible values: ["PUBLIC", "PRIVATE", "INSECURE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#trust_model GoogleIntegrationConnectorsConnection#trust_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#trust_model GoogleIntegrationConnectorsConnection#trust_model}
   */
   readonly trustModel?: string;
   /**
   * Enum for controlling the SSL Type (TLS/MTLS) Possible values: ["TLS", "MTLS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
   */
   readonly type: string;
   /**
   * Bool for enabling SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#use_ssl GoogleIntegrationConnectorsConnection#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#use_ssl GoogleIntegrationConnectorsConnection#use_ssl}
   */
   readonly useSsl?: boolean | cdktn.IResolvable;
   /**
   * additional_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
   */
   readonly additionalVariable?: GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariable[] | cdktn.IResolvable;
   /**
   * client_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_certificate GoogleIntegrationConnectorsConnection#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_certificate GoogleIntegrationConnectorsConnection#client_certificate}
   */
   readonly clientCertificate?: GoogleIntegrationConnectorsConnectionSslConfigClientCertificate;
   /**
   * client_private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_private_key GoogleIntegrationConnectorsConnection#client_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_private_key GoogleIntegrationConnectorsConnection#client_private_key}
   */
   readonly clientPrivateKey?: GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKey;
   /**
   * client_private_key_pass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#client_private_key_pass GoogleIntegrationConnectorsConnection#client_private_key_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#client_private_key_pass GoogleIntegrationConnectorsConnection#client_private_key_pass}
   */
   readonly clientPrivateKeyPass?: GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPass;
   /**
   * private_server_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#private_server_certificate GoogleIntegrationConnectorsConnection#private_server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#private_server_certificate GoogleIntegrationConnectorsConnection#private_server_certificate}
   */
   readonly privateServerCertificate?: GoogleIntegrationConnectorsConnectionSslConfigPrivateServerCertificate;
 }
@@ -6702,7 +6702,7 @@ export interface GoogleIntegrationConnectorsConnectionSslConfig {
 export function googleIntegrationConnectorsConnectionSslConfigToTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigOutputReference | GoogleIntegrationConnectorsConnectionSslConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_cert_type: cdktn.stringToTerraform(struct!.clientCertType),
@@ -6722,7 +6722,7 @@ export function googleIntegrationConnectorsConnectionSslConfigToTerraform(struct
 export function googleIntegrationConnectorsConnectionSslConfigToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionSslConfigOutputReference | GoogleIntegrationConnectorsConnectionSslConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_cert_type: {
@@ -7036,15 +7036,15 @@ export class GoogleIntegrationConnectorsConnectionSslConfigOutputReference exten
 }
 export interface GoogleIntegrationConnectorsConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#create GoogleIntegrationConnectorsConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#create GoogleIntegrationConnectorsConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#delete GoogleIntegrationConnectorsConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#delete GoogleIntegrationConnectorsConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#update GoogleIntegrationConnectorsConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#update GoogleIntegrationConnectorsConnection#update}
   */
   readonly update?: string;
 }
@@ -7052,7 +7052,7 @@ export interface GoogleIntegrationConnectorsConnectionTimeouts {
 export function googleIntegrationConnectorsConnectionTimeoutsToTerraform(struct?: GoogleIntegrationConnectorsConnectionTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -7065,7 +7065,7 @@ export function googleIntegrationConnectorsConnectionTimeoutsToTerraform(struct?
 export function googleIntegrationConnectorsConnectionTimeoutsToHclTerraform(struct?: GoogleIntegrationConnectorsConnectionTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -7196,7 +7196,7 @@ export class GoogleIntegrationConnectorsConnectionTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection google_integration_connectors_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection google_integration_connectors_connection}
 */
 export class GoogleIntegrationConnectorsConnection extends cdktn.TerraformResource {
 
@@ -7212,7 +7212,7 @@ export class GoogleIntegrationConnectorsConnection extends cdktn.TerraformResour
   * Generates CDKTN code for importing a GoogleIntegrationConnectorsConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIntegrationConnectorsConnection to import
-  * @param importFromId The id of the existing GoogleIntegrationConnectorsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIntegrationConnectorsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIntegrationConnectorsConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -7224,7 +7224,7 @@ export class GoogleIntegrationConnectorsConnection extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integration_connectors_connection google_integration_connectors_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_integration_connectors_connection google_integration_connectors_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7235,7 +7235,7 @@ export class GoogleIntegrationConnectorsConnection extends cdktn.TerraformResour
       terraformResourceType: 'google_integration_connectors_connection',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

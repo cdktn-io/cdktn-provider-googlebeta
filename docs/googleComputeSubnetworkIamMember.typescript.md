@@ -4,7 +4,7 @@
 
 ### GoogleComputeSubnetworkIamMember <a name="GoogleComputeSubnetworkIamMember" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member google_compute_subnetwork_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member google_compute_subnetwork_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeSubnetworkIam
 
 The id of the existing GoogleComputeSubnetworkIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,9 +904,9 @@ const googleComputeSubnetworkIamMemberCondition: googleComputeSubnetworkIamMembe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#expression GoogleComputeSubnetworkIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#title GoogleComputeSubnetworkIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#description GoogleComputeSubnetworkIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#expression GoogleComputeSubnetworkIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#title GoogleComputeSubnetworkIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#description GoogleComputeSubnetworkIamMember#description}. |
 
 ---
 
@@ -918,7 +918,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#expression GoogleComputeSubnetworkIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#expression GoogleComputeSubnetworkIamMember#expression}.
 
 ---
 
@@ -930,7 +930,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#title GoogleComputeSubnetworkIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#title GoogleComputeSubnetworkIamMember#title}.
 
 ---
 
@@ -942,7 +942,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#description GoogleComputeSubnetworkIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#description GoogleComputeSubnetworkIamMember#description}.
 
 ---
 
@@ -967,13 +967,13 @@ const googleComputeSubnetworkIamMemberConfig: googleComputeSubnetworkIamMember.G
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#member GoogleComputeSubnetworkIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#role GoogleComputeSubnetworkIamMember#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.subnetwork">subnetwork</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#subnetwork GoogleComputeSubnetworkIamMember#subnetwork}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#member GoogleComputeSubnetworkIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#role GoogleComputeSubnetworkIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.subnetwork">subnetwork</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#subnetwork GoogleComputeSubnetworkIamMember#subnetwork}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#id GoogleComputeSubnetworkIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#project GoogleComputeSubnetworkIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#region GoogleComputeSubnetworkIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#id GoogleComputeSubnetworkIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#project GoogleComputeSubnetworkIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#region GoogleComputeSubnetworkIamMember#region}. |
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly member: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#member GoogleComputeSubnetworkIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#member GoogleComputeSubnetworkIamMember#member}.
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#role GoogleComputeSubnetworkIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#role GoogleComputeSubnetworkIamMember#role}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly subnetwork: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#subnetwork GoogleComputeSubnetworkIamMember#subnetwork}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#subnetwork GoogleComputeSubnetworkIamMember#subnetwork}.
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly condition: GoogleComputeSubnetworkIamMemberCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#condition GoogleComputeSubnetworkIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#condition GoogleComputeSubnetworkIamMember#condition}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#id GoogleComputeSubnetworkIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#id GoogleComputeSubnetworkIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1120,7 +1120,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#project GoogleComputeSubnetworkIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#project GoogleComputeSubnetworkIamMember#project}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly region: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_subnetwork_iam_member#region GoogleComputeSubnetworkIamMember#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_subnetwork_iam_member#region GoogleComputeSubnetworkIamMember#region}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeNetworkFirewallPolicyAssociation <a name="GoogleComputeNetworkFirewallPolicyAssociation" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociation.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeNetworkFirewa
 
 The id of the existing GoogleComputeNetworkFirewallPolicyAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,8 +930,8 @@ new GoogleComputeNetworkFirewallPolicyAssociationConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.firewallPolicy">FirewallPolicy</a></code> | <code>string</code> | The firewall policy of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.name">Name</a></code> | <code>string</code> | The name for an association. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#id GoogleComputeNetworkFirewallPolicyAssociation#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#project GoogleComputeNetworkFirewallPolicyAssociation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#id GoogleComputeNetworkFirewallPolicyAssociation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#project GoogleComputeNetworkFirewallPolicyAssociation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationTimeouts">GoogleComputeNetworkFirewallPolicyAssociationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1016,7 +1016,7 @@ public string AttachmentTarget { get; set; }
 
 The target that the firewall policy is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#attachment_target GoogleComputeNetworkFirewallPolicyAssociation#attachment_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#attachment_target GoogleComputeNetworkFirewallPolicyAssociation#attachment_target}
 
 ---
 
@@ -1030,7 +1030,7 @@ public string FirewallPolicy { get; set; }
 
 The firewall policy of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#firewall_policy GoogleComputeNetworkFirewallPolicyAssociation#firewall_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#firewall_policy GoogleComputeNetworkFirewallPolicyAssociation#firewall_policy}
 
 ---
 
@@ -1044,7 +1044,7 @@ public string Name { get; set; }
 
 The name for an association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#name GoogleComputeNetworkFirewallPolicyAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#name GoogleComputeNetworkFirewallPolicyAssociation#name}
 
 ---
 
@@ -1065,7 +1065,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#deletion_policy GoogleComputeNetworkFirewallPolicyAssociation#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#deletion_policy GoogleComputeNetworkFirewallPolicyAssociation#deletion_policy}
 
 ---
 
@@ -1077,7 +1077,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#id GoogleComputeNetworkFirewallPolicyAssociation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#id GoogleComputeNetworkFirewallPolicyAssociation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1092,7 +1092,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#project GoogleComputeNetworkFirewallPolicyAssociation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#project GoogleComputeNetworkFirewallPolicyAssociation#project}.
 
 ---
 
@@ -1106,7 +1106,7 @@ public GoogleComputeNetworkFirewallPolicyAssociationTimeouts Timeouts { get; set
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#timeouts GoogleComputeNetworkFirewallPolicyAssociation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#timeouts GoogleComputeNetworkFirewallPolicyAssociation#timeouts}
 
 ---
 
@@ -1127,8 +1127,8 @@ new GoogleComputeNetworkFirewallPolicyAssociationTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#create GoogleComputeNetworkFirewallPolicyAssociation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#delete GoogleComputeNetworkFirewallPolicyAssociation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#create GoogleComputeNetworkFirewallPolicyAssociation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyAssociation.GoogleComputeNetworkFirewallPolicyAssociationTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#delete GoogleComputeNetworkFirewallPolicyAssociation#delete}. |
 
 ---
 
@@ -1140,7 +1140,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#create GoogleComputeNetworkFirewallPolicyAssociation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#create GoogleComputeNetworkFirewallPolicyAssociation#create}.
 
 ---
 
@@ -1152,7 +1152,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_association#delete GoogleComputeNetworkFirewallPolicyAssociation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_network_firewall_policy_association#delete GoogleComputeNetworkFirewallPolicyAssociation#delete}.
 
 ---
 

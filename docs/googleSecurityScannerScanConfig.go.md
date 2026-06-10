@@ -4,7 +4,7 @@
 
 ### GoogleSecurityScannerScanConfig <a name="GoogleSecurityScannerScanConfig" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.Initializer"></a>
 
@@ -82,6 +82,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetExportToSecurityCommandCenter">ResetExportToSecurityCommandCenter</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetIgnoreHttpStatusErrors">ResetIgnoreHttpStatusErrors</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetMaxQps">ResetMaxQps</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetSchedule">ResetSchedule</a></code> | *No description.* |
@@ -466,6 +467,12 @@ func ResetExportToSecurityCommandCenter()
 func ResetId()
 ```
 
+##### `ResetIgnoreHttpStatusErrors` <a name="ResetIgnoreHttpStatusErrors" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetIgnoreHttpStatusErrors"></a>
+
+```go
+func ResetIgnoreHttpStatusErrors()
+```
+
 ##### `ResetMaxQps` <a name="ResetMaxQps" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.resetMaxQps"></a>
 
 ```go
@@ -605,7 +612,7 @@ The construct id used in the generated config for the GoogleSecurityScannerScanC
 
 The id of the existing GoogleSecurityScannerScanConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -645,6 +652,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.exportToSecurityCommandCenterInput">ExportToSecurityCommandCenterInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.ignoreHttpStatusErrorsInput">IgnoreHttpStatusErrorsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.maxQpsInput">MaxQpsInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.scheduleInput">ScheduleInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigSchedule">GoogleSecurityScannerScanConfigSchedule</a></code> | *No description.* |
@@ -657,6 +665,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.exportToSecurityCommandCenter">ExportToSecurityCommandCenter</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.ignoreHttpStatusErrors">IgnoreHttpStatusErrors</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.maxQps">MaxQps</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.project">Project</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.startingUrls">StartingUrls</a></code> | <code>*[]*string</code> | *No description.* |
@@ -907,6 +916,16 @@ func IdInput() *string
 
 ---
 
+##### `IgnoreHttpStatusErrorsInput`<sup>Optional</sup> <a name="IgnoreHttpStatusErrorsInput" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.ignoreHttpStatusErrorsInput"></a>
+
+```go
+func IgnoreHttpStatusErrorsInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `MaxQpsInput`<sup>Optional</sup> <a name="MaxQpsInput" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.maxQpsInput"></a>
 
 ```go
@@ -1027,6 +1046,16 @@ func Id() *string
 
 ---
 
+##### `IgnoreHttpStatusErrors`<sup>Required</sup> <a name="IgnoreHttpStatusErrors" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.ignoreHttpStatusErrors"></a>
+
+```go
+func IgnoreHttpStatusErrors() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `MaxQps`<sup>Required</sup> <a name="MaxQps" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfig.property.maxQps"></a>
 
 ```go
@@ -1129,7 +1158,7 @@ CustomAccount GoogleSecurityScannerScanConfigAuthenticationCustomAccount
 
 custom_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#custom_account GoogleSecurityScannerScanConfig#custom_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#custom_account GoogleSecurityScannerScanConfig#custom_account}
 
 ---
 
@@ -1143,7 +1172,7 @@ GoogleAccount GoogleSecurityScannerScanConfigAuthenticationGoogleAccount
 
 google_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#google_account GoogleSecurityScannerScanConfig#google_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#google_account GoogleSecurityScannerScanConfig#google_account}
 
 ---
 
@@ -1181,7 +1210,7 @@ LoginUrl *string
 
 The login form URL of the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#login_url GoogleSecurityScannerScanConfig#login_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#login_url GoogleSecurityScannerScanConfig#login_url}
 
 ---
 
@@ -1195,7 +1224,7 @@ Password *string
 
 The password of the custom account. The credential is stored encrypted in GCP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
 
 ---
 
@@ -1209,7 +1238,7 @@ Username *string
 
 The user name of the custom account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
 
 ---
 
@@ -1245,7 +1274,7 @@ Password *string
 
 The password of the Google account. The credential is stored encrypted in GCP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
 
 ---
 
@@ -1259,7 +1288,7 @@ Username *string
 
 The user name of the Google account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
 
 ---
 
@@ -1285,6 +1314,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlese
 	DeletionPolicy: *string,
 	ExportToSecurityCommandCenter: *string,
 	Id: *string,
+	IgnoreHttpStatusErrors: interface{},
 	MaxQps: *f64,
 	Project: *string,
 	Schedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigSchedule,
@@ -1311,9 +1341,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlese
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.blacklistPatterns">BlacklistPatterns</a></code> | <code>*[]*string</code> | The blacklist URL patterns as described in https://cloud.google.com/security-scanner/docs/excluded-urls. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.exportToSecurityCommandCenter">ExportToSecurityCommandCenter</a></code> | <code>*string</code> | Controls export of scan configurations and results to Cloud Security Command Center. Default value: "ENABLED" Possible values: ["ENABLED", "DISABLED"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#id GoogleSecurityScannerScanConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#id GoogleSecurityScannerScanConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.ignoreHttpStatusErrors">IgnoreHttpStatusErrors</a></code> | <code>interface{}</code> | Whether to keep scanning even if most requests return HTTP error codes. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.maxQps">MaxQps</a></code> | <code>*f64</code> | The maximum QPS during scanning. A valid value ranges from 5 to 20 inclusively. Defaults to 15. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#project GoogleSecurityScannerScanConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#project GoogleSecurityScannerScanConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.schedule">Schedule</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigSchedule">GoogleSecurityScannerScanConfigSchedule</a></code> | schedule block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.targetPlatforms">TargetPlatforms</a></code> | <code>*[]*string</code> | Set of Cloud Platforms targeted by the scan. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigTimeouts">GoogleSecurityScannerScanConfigTimeouts</a></code> | timeouts block. |
@@ -1401,7 +1432,7 @@ DisplayName *string
 
 The user provider display name of the ScanConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#display_name GoogleSecurityScannerScanConfig#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#display_name GoogleSecurityScannerScanConfig#display_name}
 
 ---
 
@@ -1415,7 +1446,7 @@ StartingUrls *[]*string
 
 The starting URLs from which the scanner finds site pages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#starting_urls GoogleSecurityScannerScanConfig#starting_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#starting_urls GoogleSecurityScannerScanConfig#starting_urls}
 
 ---
 
@@ -1429,7 +1460,7 @@ Authentication GoogleSecurityScannerScanConfigAuthentication
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#authentication GoogleSecurityScannerScanConfig#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#authentication GoogleSecurityScannerScanConfig#authentication}
 
 ---
 
@@ -1443,7 +1474,7 @@ BlacklistPatterns *[]*string
 
 The blacklist URL patterns as described in https://cloud.google.com/security-scanner/docs/excluded-urls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#blacklist_patterns GoogleSecurityScannerScanConfig#blacklist_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#blacklist_patterns GoogleSecurityScannerScanConfig#blacklist_patterns}
 
 ---
 
@@ -1464,7 +1495,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#deletion_policy GoogleSecurityScannerScanConfig#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#deletion_policy GoogleSecurityScannerScanConfig#deletion_policy}
 
 ---
 
@@ -1478,7 +1509,7 @@ ExportToSecurityCommandCenter *string
 
 Controls export of scan configurations and results to Cloud Security Command Center. Default value: "ENABLED" Possible values: ["ENABLED", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#export_to_security_command_center GoogleSecurityScannerScanConfig#export_to_security_command_center}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#export_to_security_command_center GoogleSecurityScannerScanConfig#export_to_security_command_center}
 
 ---
 
@@ -1490,10 +1521,24 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#id GoogleSecurityScannerScanConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#id GoogleSecurityScannerScanConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `IgnoreHttpStatusErrors`<sup>Optional</sup> <a name="IgnoreHttpStatusErrors" id="@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigConfig.property.ignoreHttpStatusErrors"></a>
+
+```go
+IgnoreHttpStatusErrors interface{}
+```
+
+- *Type:* interface{}
+
+Whether to keep scanning even if most requests return HTTP error codes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#ignore_http_status_errors GoogleSecurityScannerScanConfig#ignore_http_status_errors}
 
 ---
 
@@ -1507,7 +1552,7 @@ MaxQps *f64
 
 The maximum QPS during scanning. A valid value ranges from 5 to 20 inclusively. Defaults to 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#max_qps GoogleSecurityScannerScanConfig#max_qps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#max_qps GoogleSecurityScannerScanConfig#max_qps}
 
 ---
 
@@ -1519,7 +1564,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#project GoogleSecurityScannerScanConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#project GoogleSecurityScannerScanConfig#project}.
 
 ---
 
@@ -1533,7 +1578,7 @@ Schedule GoogleSecurityScannerScanConfigSchedule
 
 schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#schedule GoogleSecurityScannerScanConfig#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#schedule GoogleSecurityScannerScanConfig#schedule}
 
 ---
 
@@ -1549,7 +1594,7 @@ Set of Cloud Platforms targeted by the scan.
 
 If empty, APP_ENGINE will be used as a default. Possible values: ["APP_ENGINE", "COMPUTE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#target_platforms GoogleSecurityScannerScanConfig#target_platforms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#target_platforms GoogleSecurityScannerScanConfig#target_platforms}
 
 ---
 
@@ -1563,7 +1608,7 @@ Timeouts GoogleSecurityScannerScanConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#timeouts GoogleSecurityScannerScanConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#timeouts GoogleSecurityScannerScanConfig#timeouts}
 
 ---
 
@@ -1577,7 +1622,7 @@ UserAgent *string
 
 Type of the user agents used for scanning Default value: "CHROME_LINUX" Possible values: ["USER_AGENT_UNSPECIFIED", "CHROME_LINUX", "CHROME_ANDROID", "SAFARI_IPHONE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#user_agent GoogleSecurityScannerScanConfig#user_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#user_agent GoogleSecurityScannerScanConfig#user_agent}
 
 ---
 
@@ -1613,7 +1658,7 @@ IntervalDurationDays *f64
 
 The duration of time between executions in days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#interval_duration_days GoogleSecurityScannerScanConfig#interval_duration_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#interval_duration_days GoogleSecurityScannerScanConfig#interval_duration_days}
 
 ---
 
@@ -1631,7 +1676,7 @@ The value is refreshed
 by the server after each run. If unspecified, it will default to current server time,
 which means the scan will be scheduled to start immediately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#schedule_time GoogleSecurityScannerScanConfig#schedule_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#schedule_time GoogleSecurityScannerScanConfig#schedule_time}
 
 ---
 
@@ -1653,9 +1698,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlese
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#create GoogleSecurityScannerScanConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#delete GoogleSecurityScannerScanConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#update GoogleSecurityScannerScanConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#create GoogleSecurityScannerScanConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#delete GoogleSecurityScannerScanConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecurityScannerScanConfig.GoogleSecurityScannerScanConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#update GoogleSecurityScannerScanConfig#update}. |
 
 ---
 
@@ -1667,7 +1712,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#create GoogleSecurityScannerScanConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#create GoogleSecurityScannerScanConfig#create}.
 
 ---
 
@@ -1679,7 +1724,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#delete GoogleSecurityScannerScanConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#delete GoogleSecurityScannerScanConfig#delete}.
 
 ---
 
@@ -1691,7 +1736,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#update GoogleSecurityScannerScanConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#update GoogleSecurityScannerScanConfig#update}.
 
 ---
 

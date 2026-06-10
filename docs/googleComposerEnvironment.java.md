@@ -4,7 +4,7 @@
 
 ### GoogleComposerEnvironment <a name="GoogleComposerEnvironment" id="@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment google_composer_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment google_composer_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer"></a>
 
@@ -45,7 +45,7 @@ GoogleComposerEnvironment.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfigA">GoogleComposerEnvironmentConfigA</a></code> | config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | User-defined labels for this environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironment.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The location or Compute Engine region for the environment. |
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#name GoogleComposerEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#name GoogleComposerEnvironment#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#config GoogleComposerEnvironment#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#config GoogleComposerEnvironment#config}
 
 ---
 
@@ -147,7 +147,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#deletion_policy GoogleComposerEnvironment#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#deletion_policy GoogleComposerEnvironment#deletion_policy}
 
 ---
 
@@ -155,7 +155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -175,7 +175,7 @@ The labels map can contain no more than 64 entries. Entries of the labels map ar
 			Please refer to the field 'effective_labels' for all of the labels present on the resource.
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#labels GoogleComposerEnvironment#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#labels GoogleComposerEnvironment#labels}
 
 ---
 
@@ -187,7 +187,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#project GoogleComposerEnvironment#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#project GoogleComposerEnvironment#project}
 
 ---
 
@@ -197,7 +197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location or Compute Engine region for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#region GoogleComposerEnvironment#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#region GoogleComposerEnvironment#region}
 
 ---
 
@@ -207,7 +207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 storage_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#storage_config GoogleComposerEnvironment#storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#storage_config GoogleComposerEnvironment#storage_config}
 
 ---
 
@@ -217,7 +217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#timeouts GoogleComposerEnvironment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#timeouts GoogleComposerEnvironment#timeouts}
 
 ---
 
@@ -761,7 +761,7 @@ The construct id used in the generated config for the GoogleComposerEnvironment 
 
 The id of the existing GoogleComposerEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1217,7 +1217,7 @@ GoogleComposerEnvironmentConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfigA">GoogleComposerEnvironmentConfigA</a></code> | config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | User-defined labels for this environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentConfig.property.region">region</a></code> | <code>java.lang.String</code> | The location or Compute Engine region for the environment. |
@@ -1306,7 +1306,7 @@ public java.lang.String getName();
 
 Name of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#name GoogleComposerEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#name GoogleComposerEnvironment#name}
 
 ---
 
@@ -1320,7 +1320,7 @@ public GoogleComposerEnvironmentConfigA getConfig();
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#config GoogleComposerEnvironment#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#config GoogleComposerEnvironment#config}
 
 ---
 
@@ -1341,7 +1341,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#deletion_policy GoogleComposerEnvironment#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#deletion_policy GoogleComposerEnvironment#deletion_policy}
 
 ---
 
@@ -1353,7 +1353,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#id GoogleComposerEnvironment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1377,7 +1377,7 @@ The labels map can contain no more than 64 entries. Entries of the labels map ar
 			Please refer to the field 'effective_labels' for all of the labels present on the resource.
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#labels GoogleComposerEnvironment#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#labels GoogleComposerEnvironment#labels}
 
 ---
 
@@ -1393,7 +1393,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#project GoogleComposerEnvironment#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#project GoogleComposerEnvironment#project}
 
 ---
 
@@ -1407,7 +1407,7 @@ public java.lang.String getRegion();
 
 The location or Compute Engine region for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#region GoogleComposerEnvironment#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#region GoogleComposerEnvironment#region}
 
 ---
 
@@ -1421,7 +1421,7 @@ public GoogleComposerEnvironmentStorageConfig getStorageConfig();
 
 storage_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#storage_config GoogleComposerEnvironment#storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#storage_config GoogleComposerEnvironment#storage_config}
 
 ---
 
@@ -1435,7 +1435,7 @@ public GoogleComposerEnvironmentTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#timeouts GoogleComposerEnvironment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#timeouts GoogleComposerEnvironment#timeouts}
 
 ---
 
@@ -1501,7 +1501,7 @@ public GoogleComposerEnvironmentConfigDatabaseConfig getDatabaseConfig();
 
 database_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#database_config GoogleComposerEnvironment#database_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#database_config GoogleComposerEnvironment#database_config}
 
 ---
 
@@ -1515,7 +1515,7 @@ public GoogleComposerEnvironmentConfigDataRetentionConfig getDataRetentionConfig
 
 data_retention_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#data_retention_config GoogleComposerEnvironment#data_retention_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#data_retention_config GoogleComposerEnvironment#data_retention_config}
 
 ---
 
@@ -1531,7 +1531,7 @@ Optional.
 
 If true, builds performed during operations that install Python packages have only private connectivity to Google services. If false, the builds also have access to the internet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enable_private_builds_only GoogleComposerEnvironment#enable_private_builds_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enable_private_builds_only GoogleComposerEnvironment#enable_private_builds_only}
 
 ---
 
@@ -1545,7 +1545,7 @@ public java.lang.Boolean|IResolvable getEnablePrivateEnvironment();
 
 Optional. If true, a private Composer environment will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enable_private_environment GoogleComposerEnvironment#enable_private_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enable_private_environment GoogleComposerEnvironment#enable_private_environment}
 
 ---
 
@@ -1559,7 +1559,7 @@ public GoogleComposerEnvironmentConfigEncryptionConfig getEncryptionConfig();
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#encryption_config GoogleComposerEnvironment#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#encryption_config GoogleComposerEnvironment#encryption_config}
 
 ---
 
@@ -1575,7 +1575,7 @@ The size of the Cloud Composer environment.
 
 This field is supported for Cloud Composer environments in versions composer-2.*.*-airflow-*.*.* and newer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#environment_size GoogleComposerEnvironment#environment_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#environment_size GoogleComposerEnvironment#environment_size}
 
 ---
 
@@ -1589,7 +1589,7 @@ public GoogleComposerEnvironmentConfigMaintenanceWindow getMaintenanceWindow();
 
 maintenance_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#maintenance_window GoogleComposerEnvironment#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#maintenance_window GoogleComposerEnvironment#maintenance_window}
 
 ---
 
@@ -1603,7 +1603,7 @@ public GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfig getMasterAu
 
 master_authorized_networks_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#master_authorized_networks_config GoogleComposerEnvironment#master_authorized_networks_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#master_authorized_networks_config GoogleComposerEnvironment#master_authorized_networks_config}
 
 ---
 
@@ -1617,7 +1617,7 @@ public GoogleComposerEnvironmentConfigNodeConfig getNodeConfig();
 
 node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#node_config GoogleComposerEnvironment#node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#node_config GoogleComposerEnvironment#node_config}
 
 ---
 
@@ -1633,7 +1633,7 @@ The number of nodes in the Kubernetes Engine cluster that will be used to run th
 
 This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#node_count GoogleComposerEnvironment#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#node_count GoogleComposerEnvironment#node_count}
 
 ---
 
@@ -1647,7 +1647,7 @@ public GoogleComposerEnvironmentConfigPrivateEnvironmentConfig getPrivateEnviron
 
 private_environment_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#private_environment_config GoogleComposerEnvironment#private_environment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#private_environment_config GoogleComposerEnvironment#private_environment_config}
 
 ---
 
@@ -1661,7 +1661,7 @@ public GoogleComposerEnvironmentConfigRecoveryConfig getRecoveryConfig();
 
 recovery_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#recovery_config GoogleComposerEnvironment#recovery_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#recovery_config GoogleComposerEnvironment#recovery_config}
 
 ---
 
@@ -1677,7 +1677,7 @@ Whether high resilience is enabled or not.
 
 This field is supported for Cloud Composer environments in versions composer-2.1.15-airflow-*.*.* and newer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#resilience_mode GoogleComposerEnvironment#resilience_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#resilience_mode GoogleComposerEnvironment#resilience_mode}
 
 ---
 
@@ -1691,7 +1691,7 @@ public GoogleComposerEnvironmentConfigSoftwareConfig getSoftwareConfig();
 
 software_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#software_config GoogleComposerEnvironment#software_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#software_config GoogleComposerEnvironment#software_config}
 
 ---
 
@@ -1705,7 +1705,7 @@ public GoogleComposerEnvironmentConfigWebServerConfig getWebServerConfig();
 
 web_server_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#web_server_config GoogleComposerEnvironment#web_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#web_server_config GoogleComposerEnvironment#web_server_config}
 
 ---
 
@@ -1719,7 +1719,7 @@ public GoogleComposerEnvironmentConfigWebServerNetworkAccessControl getWebServer
 
 web_server_network_access_control block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#web_server_network_access_control GoogleComposerEnvironment#web_server_network_access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#web_server_network_access_control GoogleComposerEnvironment#web_server_network_access_control}
 
 ---
 
@@ -1733,7 +1733,7 @@ public GoogleComposerEnvironmentConfigWorkloadsConfig getWorkloadsConfig();
 
 workloads_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#workloads_config GoogleComposerEnvironment#workloads_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#workloads_config GoogleComposerEnvironment#workloads_config}
 
 ---
 
@@ -1771,7 +1771,7 @@ Optional.
 
 Cloud SQL machine type used by Airflow database. It has to be one of: db-n1-standard-2, db-n1-standard-4, db-n1-standard-8 or db-n1-standard-16. If not specified, db-n1-standard-2 will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#machine_type GoogleComposerEnvironment#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#machine_type GoogleComposerEnvironment#machine_type}
 
 ---
 
@@ -1785,7 +1785,7 @@ public java.lang.String getZone();
 
 Optional. Cloud SQL database preferred zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#zone GoogleComposerEnvironment#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#zone GoogleComposerEnvironment#zone}
 
 ---
 
@@ -1821,7 +1821,7 @@ public IResolvable|java.util.List<GoogleComposerEnvironmentConfigDataRetentionCo
 
 airflow_metadata_retention_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#airflow_metadata_retention_config GoogleComposerEnvironment#airflow_metadata_retention_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#airflow_metadata_retention_config GoogleComposerEnvironment#airflow_metadata_retention_config}
 
 ---
 
@@ -1835,7 +1835,7 @@ public IResolvable|java.util.List<GoogleComposerEnvironmentConfigDataRetentionCo
 
 task_logs_retention_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#task_logs_retention_config GoogleComposerEnvironment#task_logs_retention_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#task_logs_retention_config GoogleComposerEnvironment#task_logs_retention_config}
 
 ---
 
@@ -1873,7 +1873,7 @@ How many days data should be retained for.
 
 This field is supported for Cloud Composer environments in composer 3 and newer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#retention_days GoogleComposerEnvironment#retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#retention_days GoogleComposerEnvironment#retention_days}
 
 ---
 
@@ -1889,7 +1889,7 @@ Whether database retention is enabled or not.
 
 This field is supported for Cloud Composer environments in composer 3 and newer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#retention_mode GoogleComposerEnvironment#retention_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#retention_mode GoogleComposerEnvironment#retention_mode}
 
 ---
 
@@ -1925,7 +1925,7 @@ Whether logs in cloud logging only is enabled or not.
 
 This field is supported for Cloud Composer environments in versions composer-2.0.32-airflow-2.1.4 and newer but not in composer-3*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#storage_mode GoogleComposerEnvironment#storage_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#storage_mode GoogleComposerEnvironment#storage_mode}
 
 ---
 
@@ -1959,7 +1959,7 @@ public java.lang.String getKmsKeyName();
 
 Optional. Customer-managed Encryption Key available through Google's Key Management Service. Cannot be updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#kms_key_name GoogleComposerEnvironment#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#kms_key_name GoogleComposerEnvironment#kms_key_name}
 
 ---
 
@@ -1999,7 +1999,7 @@ Maintenance window end time.
 
 It is used only to calculate the duration of the maintenance window. The value for end-time must be in the future, relative to 'start_time'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#end_time GoogleComposerEnvironment#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#end_time GoogleComposerEnvironment#end_time}
 
 ---
 
@@ -2015,7 +2015,7 @@ Maintenance window recurrence.
 
 Format is a subset of RFC-5545 (https://tools.ietf.org/html/rfc5545) 'RRULE'. The only allowed values for 'FREQ' field are 'FREQ=DAILY' and 'FREQ=WEEKLY;BYDAY=...'. Example values: 'FREQ=WEEKLY;BYDAY=TU,WE', 'FREQ=DAILY'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#recurrence GoogleComposerEnvironment#recurrence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#recurrence GoogleComposerEnvironment#recurrence}
 
 ---
 
@@ -2029,7 +2029,7 @@ public java.lang.String getStartTime();
 
 Start time of the first recurrence of the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#start_time GoogleComposerEnvironment#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#start_time GoogleComposerEnvironment#start_time}
 
 ---
 
@@ -2065,7 +2065,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Whether or not master authorized networks is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enabled GoogleComposerEnvironment#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enabled GoogleComposerEnvironment#enabled}
 
 ---
 
@@ -2079,7 +2079,7 @@ public IResolvable|java.util.List<GoogleComposerEnvironmentConfigMasterAuthorize
 
 cidr_blocks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cidr_blocks GoogleComposerEnvironment#cidr_blocks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cidr_blocks GoogleComposerEnvironment#cidr_blocks}
 
 ---
 
@@ -2115,7 +2115,7 @@ public java.lang.String getCidrBlock();
 
 cidr_block must be specified in CIDR notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cidr_block GoogleComposerEnvironment#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cidr_block GoogleComposerEnvironment#cidr_block}
 
 ---
 
@@ -2129,7 +2129,7 @@ public java.lang.String getDisplayName();
 
 display_name is a field for users to identify CIDR blocks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#display_name GoogleComposerEnvironment#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#display_name GoogleComposerEnvironment#display_name}
 
 ---
 
@@ -2187,7 +2187,7 @@ public java.lang.String getComposerInternalIpv4CidrBlock();
 
 IPv4 cidr range that will be used by Composer internal components.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#composer_internal_ipv4_cidr_block GoogleComposerEnvironment#composer_internal_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#composer_internal_ipv4_cidr_block GoogleComposerEnvironment#composer_internal_ipv4_cidr_block}
 
 ---
 
@@ -2203,7 +2203,7 @@ PSC (Private Service Connect) Network entry point.
 
 Customers can pre-create the Network Attachment and point Cloud Composer environment to use. It is possible to share network attachment among many environments, provided enough IP addresses are available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#composer_network_attachment GoogleComposerEnvironment#composer_network_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#composer_network_attachment GoogleComposerEnvironment#composer_network_attachment}
 
 ---
 
@@ -2219,7 +2219,7 @@ The disk size in GB used for node VMs.
 
 Minimum size is 20GB. If unspecified, defaults to 100GB. Cannot be updated. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#disk_size_gb GoogleComposerEnvironment#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#disk_size_gb GoogleComposerEnvironment#disk_size_gb}
 
 ---
 
@@ -2235,7 +2235,7 @@ Deploys 'ip-masq-agent' daemon set in the GKE cluster and defines nonMasqueradeC
 
 See: https://cloud.google.com/kubernetes-engine/docs/how-to/ip-masquerade-agent
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enable_ip_masq_agent GoogleComposerEnvironment#enable_ip_masq_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enable_ip_masq_agent GoogleComposerEnvironment#enable_ip_masq_agent}
 
 ---
 
@@ -2249,7 +2249,7 @@ public GoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicy getIpAllocati
 
 ip_allocation_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#ip_allocation_policy GoogleComposerEnvironment#ip_allocation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#ip_allocation_policy GoogleComposerEnvironment#ip_allocation_policy}
 
 ---
 
@@ -2265,7 +2265,7 @@ The Compute Engine machine type used for cluster instances, specified as a name 
 
 For example: "projects/{project}/zones/{zone}/machineTypes/{machineType}". Must belong to the enclosing environment's project and region/zone. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#machine_type GoogleComposerEnvironment#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#machine_type GoogleComposerEnvironment#machine_type}
 
 ---
 
@@ -2281,7 +2281,7 @@ The maximum pods per node in the GKE cluster allocated during environment creati
 
 Lowering this value reduces IP address consumption by the Cloud Composer Kubernetes cluster. This value can only be set during environment creation, and only if the environment is VPC-Native. The range of possible values is 8-110, and the default is 32. Cannot be updated. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#max_pods_per_node GoogleComposerEnvironment#max_pods_per_node}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#max_pods_per_node GoogleComposerEnvironment#max_pods_per_node}
 
 ---
 
@@ -2297,7 +2297,7 @@ The Compute Engine machine type used for cluster instances, specified as a name 
 
 For example: "projects/{project}/zones/{zone}/machineTypes/{machineType}". Must belong to the enclosing environment's project and region/zone. The network must belong to the environment's project. If unspecified, the "default" network ID in the environment's project is used. If a Custom Subnet Network is provided, subnetwork must also be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#network GoogleComposerEnvironment#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#network GoogleComposerEnvironment#network}
 
 ---
 
@@ -2313,7 +2313,7 @@ The set of Google API scopes to be made available on all node VMs.
 
 Cannot be updated. If empty, defaults to ["https://www.googleapis.com/auth/cloud-platform"]. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#oauth_scopes GoogleComposerEnvironment#oauth_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#oauth_scopes GoogleComposerEnvironment#oauth_scopes}
 
 ---
 
@@ -2329,7 +2329,7 @@ The Google Cloud Platform Service Account to be used by the node VMs.
 
 If a service account is not specified, the "default" Compute Engine service account is used. Cannot be updated. If given, note that the service account must have roles/composer.worker for any GCP resources created under the Cloud Composer Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#service_account GoogleComposerEnvironment#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#service_account GoogleComposerEnvironment#service_account}
 
 ---
 
@@ -2343,7 +2343,7 @@ public java.lang.String getSubnetwork();
 
 The Compute Engine subnetwork to be used for machine communications, specified as a self-link, relative resource name (e.g. "projects/{project}/regions/{region}/subnetworks/{subnetwork}"), or by name. If subnetwork is provided, network must also be provided and the subnetwork must belong to the enclosing environment's project and region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#subnetwork GoogleComposerEnvironment#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#subnetwork GoogleComposerEnvironment#subnetwork}
 
 ---
 
@@ -2359,7 +2359,7 @@ The list of instance tags applied to all node VMs.
 
 Tags are used to identify valid sources or targets for network firewalls. Each tag within the list must comply with RFC1035. Cannot be updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#tags GoogleComposerEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#tags GoogleComposerEnvironment#tags}
 
 ---
 
@@ -2373,7 +2373,7 @@ public java.lang.String getZone();
 
 The Compute Engine zone in which to deploy the VMs running the Apache Airflow software, specified as the zone name or relative resource name (e.g. "projects/{project}/zones/{zone}"). Must belong to the enclosing environment's project and region. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#zone GoogleComposerEnvironment#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#zone GoogleComposerEnvironment#zone}
 
 ---
 
@@ -2417,7 +2417,7 @@ The IP address range used to allocate IP addresses to pods in the cluster.
 
 For Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*, this field is applicable only when use_ip_aliases is true. Set to blank to have GKE choose a range with the default size. Set to /netmask (e.g. /14) to have GKE choose a range with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) from the RFC-1918 private networks (e.g. 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) to pick a specific range to use. Specify either cluster_secondary_range_name or cluster_ipv4_cidr_block but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cluster_ipv4_cidr_block GoogleComposerEnvironment#cluster_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cluster_ipv4_cidr_block GoogleComposerEnvironment#cluster_ipv4_cidr_block}
 
 ---
 
@@ -2433,7 +2433,7 @@ The name of the cluster's secondary range used to allocate IP addresses to pods.
 
 Specify either cluster_secondary_range_name or cluster_ipv4_cidr_block but not both. For Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*, this field is applicable only when use_ip_aliases is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cluster_secondary_range_name GoogleComposerEnvironment#cluster_secondary_range_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cluster_secondary_range_name GoogleComposerEnvironment#cluster_secondary_range_name}
 
 ---
 
@@ -2449,7 +2449,7 @@ The IP address range used to allocate IP addresses in this cluster.
 
 For Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*, this field is applicable only when use_ip_aliases is true. Set to blank to have GKE choose a range with the default size. Set to /netmask (e.g. /14) to have GKE choose a range with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) from the RFC-1918 private networks (e.g. 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) to pick a specific range to use. Specify either services_secondary_range_name or services_ipv4_cidr_block but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#services_ipv4_cidr_block GoogleComposerEnvironment#services_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#services_ipv4_cidr_block GoogleComposerEnvironment#services_ipv4_cidr_block}
 
 ---
 
@@ -2465,7 +2465,7 @@ The name of the services' secondary range used to allocate IP addresses to the c
 
 Specify either services_secondary_range_name or services_ipv4_cidr_block but not both. For Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*, this field is applicable only when use_ip_aliases is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#services_secondary_range_name GoogleComposerEnvironment#services_secondary_range_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#services_secondary_range_name GoogleComposerEnvironment#services_secondary_range_name}
 
 ---
 
@@ -2481,7 +2481,7 @@ Whether or not to enable Alias IPs in the GKE cluster.
 
 If true, a VPC-native cluster is created. Defaults to true if the ip_allocation_policy block is present in config. This field is only supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*. Environments in newer versions always use VPC-native GKE clusters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#use_ip_aliases GoogleComposerEnvironment#use_ip_aliases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#use_ip_aliases GoogleComposerEnvironment#use_ip_aliases}
 
 ---
 
@@ -2531,7 +2531,7 @@ When specified, the environment will use Private Service Connect instead of VPC 
 
 This field is supported for Cloud Composer environments in versions composer-2.*.*-airflow-*.*.* and newer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cloud_composer_connection_subnetwork GoogleComposerEnvironment#cloud_composer_connection_subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cloud_composer_connection_subnetwork GoogleComposerEnvironment#cloud_composer_connection_subnetwork}
 
 ---
 
@@ -2547,7 +2547,7 @@ The CIDR block from which IP range for Cloud Composer Network in tenant project 
 
 Needs to be disjoint from private_cluster_config.master_ipv4_cidr_block and cloud_sql_ipv4_cidr_block. This field is supported for Cloud Composer environments in versions composer-2.*.*-airflow-*.*.* and newer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cloud_composer_network_ipv4_cidr_block GoogleComposerEnvironment#cloud_composer_network_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cloud_composer_network_ipv4_cidr_block GoogleComposerEnvironment#cloud_composer_network_ipv4_cidr_block}
 
 ---
 
@@ -2563,7 +2563,7 @@ The CIDR block from which IP range in tenant project will be reserved for Cloud 
 
 Needs to be disjoint from web_server_ipv4_cidr_block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cloud_sql_ipv4_cidr_block GoogleComposerEnvironment#cloud_sql_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cloud_sql_ipv4_cidr_block GoogleComposerEnvironment#cloud_sql_ipv4_cidr_block}
 
 ---
 
@@ -2577,7 +2577,7 @@ public java.lang.String getConnectionType();
 
 Mode of internal communication within the Composer environment. Must be one of "VPC_PEERING" or "PRIVATE_SERVICE_CONNECT".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#connection_type GoogleComposerEnvironment#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#connection_type GoogleComposerEnvironment#connection_type}
 
 ---
 
@@ -2593,7 +2593,7 @@ If true, access to the public endpoint of the GKE cluster is denied.
 
 If this field is set to true, ip_allocation_policy.use_ip_aliases must be set to true for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enable_private_endpoint GoogleComposerEnvironment#enable_private_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enable_private_endpoint GoogleComposerEnvironment#enable_private_endpoint}
 
 ---
 
@@ -2607,7 +2607,7 @@ public java.lang.Boolean|IResolvable getEnablePrivatelyUsedPublicIps();
 
 When enabled, IPs from public (non-RFC1918) ranges can be used for ip_allocation_policy.cluster_ipv4_cidr_block and ip_allocation_policy.service_ipv4_cidr_block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enable_privately_used_public_ips GoogleComposerEnvironment#enable_privately_used_public_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enable_privately_used_public_ips GoogleComposerEnvironment#enable_privately_used_public_ips}
 
 ---
 
@@ -2623,7 +2623,7 @@ The IP range in CIDR notation to use for the hosted master network.
 
 This range is used for assigning internal IP addresses to the cluster master or set of masters and to the internal load balancer virtual IP. This range must not overlap with any other ranges in use within the cluster's network. If left blank, the default value of '172.16.0.0/28' is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#master_ipv4_cidr_block GoogleComposerEnvironment#master_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#master_ipv4_cidr_block GoogleComposerEnvironment#master_ipv4_cidr_block}
 
 ---
 
@@ -2639,7 +2639,7 @@ The CIDR block from which IP range for web server will be reserved.
 
 Needs to be disjoint from master_ipv4_cidr_block and cloud_sql_ipv4_cidr_block. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#web_server_ipv4_cidr_block GoogleComposerEnvironment#web_server_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#web_server_ipv4_cidr_block GoogleComposerEnvironment#web_server_ipv4_cidr_block}
 
 ---
 
@@ -2673,7 +2673,7 @@ public GoogleComposerEnvironmentConfigRecoveryConfigScheduledSnapshotsConfig get
 
 scheduled_snapshots_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#scheduled_snapshots_config GoogleComposerEnvironment#scheduled_snapshots_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#scheduled_snapshots_config GoogleComposerEnvironment#scheduled_snapshots_config}
 
 ---
 
@@ -2713,7 +2713,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 When enabled, Cloud Composer periodically saves snapshots of your environment to a Cloud Storage bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enabled GoogleComposerEnvironment#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enabled GoogleComposerEnvironment#enabled}
 
 ---
 
@@ -2727,7 +2727,7 @@ public java.lang.String getSnapshotCreationSchedule();
 
 Snapshot schedule, in the unix-cron format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#snapshot_creation_schedule GoogleComposerEnvironment#snapshot_creation_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#snapshot_creation_schedule GoogleComposerEnvironment#snapshot_creation_schedule}
 
 ---
 
@@ -2741,7 +2741,7 @@ public java.lang.String getSnapshotLocation();
 
 the URI of a bucket folder where to save the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#snapshot_location GoogleComposerEnvironment#snapshot_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#snapshot_location GoogleComposerEnvironment#snapshot_location}
 
 ---
 
@@ -2757,7 +2757,7 @@ A time zone for the schedule.
 
 This value is a time offset and does not take into account daylight saving time changes. Valid values are from UTC-12 to UTC+12. Examples: UTC, UTC-01, UTC+03.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#time_zone GoogleComposerEnvironment#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#time_zone GoogleComposerEnvironment#time_zone}
 
 ---
 
@@ -2807,7 +2807,7 @@ Apache Airflow configuration properties to override.
 
 Property keys contain the section and property names, separated by a hyphen, for example "core-dags_are_paused_at_creation". Section names must not contain hyphens ("-"), opening square brackets ("["), or closing square brackets ("]"). The property name must not be empty and cannot contain "=" or ";". Section and property names cannot contain characters: "." Apache Airflow configuration property names must be written in snake_case. Property values can contain any character, and can be written in any lower/upper case format. Certain Apache Airflow configuration property values are blacklisted, and cannot be overridden.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#airflow_config_overrides GoogleComposerEnvironment#airflow_config_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#airflow_config_overrides GoogleComposerEnvironment#airflow_config_overrides}
 
 ---
 
@@ -2821,7 +2821,7 @@ public GoogleComposerEnvironmentConfigSoftwareConfigCloudDataLineageIntegration 
 
 cloud_data_lineage_integration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cloud_data_lineage_integration GoogleComposerEnvironment#cloud_data_lineage_integration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cloud_data_lineage_integration GoogleComposerEnvironment#cloud_data_lineage_integration}
 
 ---
 
@@ -2837,7 +2837,7 @@ Additional environment variables to provide to the Apache Airflow scheduler, wor
 
 Environment variable names must match the regular expression [a-zA-Z_][a-zA-Z0-9_]*. They cannot specify Apache Airflow software configuration overrides (they cannot match the regular expression AIRFLOW__[A-Z0-9_]+__[A-Z0-9_]+), and they cannot match any of the following reserved names: AIRFLOW_HOME C_FORCE_ROOT CONTAINER_NAME DAGS_FOLDER GCP_PROJECT GCS_BUCKET GKE_CLUSTER_NAME SQL_DATABASE SQL_INSTANCE SQL_PASSWORD SQL_PROJECT SQL_REGION SQL_USER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#env_variables GoogleComposerEnvironment#env_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#env_variables GoogleComposerEnvironment#env_variables}
 
 ---
 
@@ -2853,7 +2853,7 @@ The version of the software running in the environment.
 
 This encapsulates both the version of Cloud Composer functionality and the version of Apache Airflow. It must match the regular expression composer-([0-9]+(.[0-9]+.[0-9]+(-preview.[0-9]+)?)?|latest)-airflow-([0-9]+(.[0-9]+(.[0-9]+)?)?). The Cloud Composer portion of the image version is a full semantic version, or an alias in the form of major version number or 'latest'. The Apache Airflow portion of the image version is a full semantic version that points to one of the supported Apache Airflow versions, or an alias in the form of only major or major.minor versions specified. See documentation for more details and version list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#image_version GoogleComposerEnvironment#image_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#image_version GoogleComposerEnvironment#image_version}
 
 ---
 
@@ -2869,7 +2869,7 @@ Custom Python Package Index (PyPI) packages to be installed in the environment.
 
 Keys refer to the lowercase package name (e.g. "numpy"). Values are the lowercase extras and version specifier (e.g. "==1.12.0", "[devel,gcp_api]", "[devel]>=1.8.2, <1.9.2"). To specify a package without pinning it to a version specifier, use the empty string as the value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#pypi_packages GoogleComposerEnvironment#pypi_packages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#pypi_packages GoogleComposerEnvironment#pypi_packages}
 
 ---
 
@@ -2885,7 +2885,7 @@ The major version of Python used to run the Apache Airflow scheduler, worker, an
 
 Can be set to '2' or '3'. If not specified, the default is '2'. Cannot be updated. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-*.*.*. Environments in newer versions always use Python major version 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#python_version GoogleComposerEnvironment#python_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#python_version GoogleComposerEnvironment#python_version}
 
 ---
 
@@ -2899,7 +2899,7 @@ public java.lang.Number getSchedulerCount();
 
 The number of schedulers for Airflow. This field is supported for Cloud Composer environments in versions composer-1.*.*-airflow-2.*.*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#scheduler_count GoogleComposerEnvironment#scheduler_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#scheduler_count GoogleComposerEnvironment#scheduler_count}
 
 ---
 
@@ -2913,7 +2913,7 @@ public java.lang.String getWebServerPluginsMode();
 
 Should be either 'ENABLED' or 'DISABLED'. Defaults to 'ENABLED'. Used in Composer 3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#web_server_plugins_mode GoogleComposerEnvironment#web_server_plugins_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#web_server_plugins_mode GoogleComposerEnvironment#web_server_plugins_mode}
 
 ---
 
@@ -2947,7 +2947,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Whether or not Cloud Data Lineage integration is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#enabled GoogleComposerEnvironment#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#enabled GoogleComposerEnvironment#enabled}
 
 ---
 
@@ -2983,7 +2983,7 @@ Optional.
 
 Machine type on which Airflow web server is running. It has to be one of: composer-n1-webserver-2, composer-n1-webserver-4 or composer-n1-webserver-8. If not specified, composer-n1-webserver-2 will be used. Value custom is returned only in response, if Airflow web server parameters were manually changed to a non-standard values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#machine_type GoogleComposerEnvironment#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#machine_type GoogleComposerEnvironment#machine_type}
 
 ---
 
@@ -3017,7 +3017,7 @@ public IResolvable|java.util.List<GoogleComposerEnvironmentConfigWebServerNetwor
 
 allowed_ip_range block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#allowed_ip_range GoogleComposerEnvironment#allowed_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#allowed_ip_range GoogleComposerEnvironment#allowed_ip_range}
 
 ---
 
@@ -3055,7 +3055,7 @@ IP address or range, defined using CIDR notation, of requests that this rule app
 
 Examples: 192.168.1.1 or 192.168.0.0/16 or 2001:db8::/32 or 2001:0db8:0000:0042:0000:8a2e:0370:7334. IP range prefixes should be properly truncated. For example, 1.2.3.4/24 should be truncated to 1.2.3.0/24. Similarly, for IPv6, 2001:db8::1/32 should be truncated to 2001:db8::/32.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#value GoogleComposerEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#value GoogleComposerEnvironment#value}
 
 ---
 
@@ -3069,7 +3069,7 @@ public java.lang.String getDescription();
 
 A description of this ip range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#description GoogleComposerEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#description GoogleComposerEnvironment#description}
 
 ---
 
@@ -3111,7 +3111,7 @@ public GoogleComposerEnvironmentConfigWorkloadsConfigDagProcessor getDagProcesso
 
 dag_processor block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#dag_processor GoogleComposerEnvironment#dag_processor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#dag_processor GoogleComposerEnvironment#dag_processor}
 
 ---
 
@@ -3125,7 +3125,7 @@ public GoogleComposerEnvironmentConfigWorkloadsConfigScheduler getScheduler();
 
 scheduler block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#scheduler GoogleComposerEnvironment#scheduler}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#scheduler GoogleComposerEnvironment#scheduler}
 
 ---
 
@@ -3139,7 +3139,7 @@ public GoogleComposerEnvironmentConfigWorkloadsConfigTriggerer getTriggerer();
 
 triggerer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#triggerer GoogleComposerEnvironment#triggerer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#triggerer GoogleComposerEnvironment#triggerer}
 
 ---
 
@@ -3153,7 +3153,7 @@ public GoogleComposerEnvironmentConfigWorkloadsConfigWebServer getWebServer();
 
 web_server block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#web_server GoogleComposerEnvironment#web_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#web_server GoogleComposerEnvironment#web_server}
 
 ---
 
@@ -3167,7 +3167,7 @@ public GoogleComposerEnvironmentConfigWorkloadsConfigWorker getWorker();
 
 worker block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#worker GoogleComposerEnvironment#worker}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#worker GoogleComposerEnvironment#worker}
 
 ---
 
@@ -3207,7 +3207,7 @@ public java.lang.Number getCount();
 
 Number of DAG processors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#count GoogleComposerEnvironment#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#count GoogleComposerEnvironment#count}
 
 ---
 
@@ -3221,7 +3221,7 @@ public java.lang.Number getCpu();
 
 CPU request and limit for DAG processor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
 
 ---
 
@@ -3235,7 +3235,7 @@ public java.lang.Number getMemoryGb();
 
 Memory (GB) request and limit for DAG processor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
 
 ---
 
@@ -3249,7 +3249,7 @@ public java.lang.Number getStorageGb();
 
 Storage (GB) request and limit for DAG processor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
 
 ---
 
@@ -3289,7 +3289,7 @@ public java.lang.Number getCount();
 
 The number of schedulers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#count GoogleComposerEnvironment#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#count GoogleComposerEnvironment#count}
 
 ---
 
@@ -3303,7 +3303,7 @@ public java.lang.Number getCpu();
 
 CPU request and limit for a single Airflow scheduler replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
 
 ---
 
@@ -3317,7 +3317,7 @@ public java.lang.Number getMemoryGb();
 
 Memory (GB) request and limit for a single Airflow scheduler replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
 
 ---
 
@@ -3331,7 +3331,7 @@ public java.lang.Number getStorageGb();
 
 Storage (GB) request and limit for a single Airflow scheduler replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
 
 ---
 
@@ -3369,7 +3369,7 @@ public java.lang.Number getCount();
 
 The number of triggerers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#count GoogleComposerEnvironment#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#count GoogleComposerEnvironment#count}
 
 ---
 
@@ -3383,7 +3383,7 @@ public java.lang.Number getCpu();
 
 CPU request and limit for a single Airflow triggerer replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
 
 ---
 
@@ -3397,7 +3397,7 @@ public java.lang.Number getMemoryGb();
 
 Memory (GB) request and limit for a single Airflow triggerer replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
 
 ---
 
@@ -3435,7 +3435,7 @@ public java.lang.Number getCpu();
 
 CPU request and limit for Airflow web server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
 
 ---
 
@@ -3449,7 +3449,7 @@ public java.lang.Number getMemoryGb();
 
 Memory (GB) request and limit for Airflow web server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
 
 ---
 
@@ -3463,7 +3463,7 @@ public java.lang.Number getStorageGb();
 
 Storage (GB) request and limit for Airflow web server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
 
 ---
 
@@ -3505,7 +3505,7 @@ public java.lang.Number getCpu();
 
 CPU request and limit for a single Airflow worker replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#cpu GoogleComposerEnvironment#cpu}
 
 ---
 
@@ -3519,7 +3519,7 @@ public java.lang.Number getMaxCount();
 
 Maximum number of workers for autoscaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#max_count GoogleComposerEnvironment#max_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#max_count GoogleComposerEnvironment#max_count}
 
 ---
 
@@ -3533,7 +3533,7 @@ public java.lang.Number getMemoryGb();
 
 Memory (GB) request and limit for a single Airflow worker replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#memory_gb GoogleComposerEnvironment#memory_gb}
 
 ---
 
@@ -3547,7 +3547,7 @@ public java.lang.Number getMinCount();
 
 Minimum number of workers for autoscaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#min_count GoogleComposerEnvironment#min_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#min_count GoogleComposerEnvironment#min_count}
 
 ---
 
@@ -3561,7 +3561,7 @@ public java.lang.Number getStorageGb();
 
 Storage (GB) request and limit for a single Airflow worker replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#storage_gb GoogleComposerEnvironment#storage_gb}
 
 ---
 
@@ -3595,7 +3595,7 @@ public java.lang.String getBucket();
 
 Optional. Name of an existing Cloud Storage bucket to be used by the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#bucket GoogleComposerEnvironment#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#bucket GoogleComposerEnvironment#bucket}
 
 ---
 
@@ -3617,9 +3617,9 @@ GoogleComposerEnvironmentTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#create GoogleComposerEnvironment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#delete GoogleComposerEnvironment#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#update GoogleComposerEnvironment#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#create GoogleComposerEnvironment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#delete GoogleComposerEnvironment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerEnvironment.GoogleComposerEnvironmentTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#update GoogleComposerEnvironment#update}. |
 
 ---
 
@@ -3631,7 +3631,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#create GoogleComposerEnvironment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#create GoogleComposerEnvironment#create}.
 
 ---
 
@@ -3643,7 +3643,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#delete GoogleComposerEnvironment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#delete GoogleComposerEnvironment#delete}.
 
 ---
 
@@ -3655,7 +3655,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_composer_environment#update GoogleComposerEnvironment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_composer_environment#update GoogleComposerEnvironment#update}.
 
 ---
 

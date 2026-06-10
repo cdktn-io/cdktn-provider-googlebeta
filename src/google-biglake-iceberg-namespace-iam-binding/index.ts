@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,50 +13,50 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleBiglakeIcebergNamespaceIamBindingConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#catalog GoogleBiglakeIcebergNamespaceIamBinding#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#catalog GoogleBiglakeIcebergNamespaceIamBinding#catalog}
   */
   readonly catalog: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#id GoogleBiglakeIcebergNamespaceIamBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#id GoogleBiglakeIcebergNamespaceIamBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#members GoogleBiglakeIcebergNamespaceIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#members GoogleBiglakeIcebergNamespaceIamBinding#members}
   */
   readonly members: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#namespace_id GoogleBiglakeIcebergNamespaceIamBinding#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#namespace_id GoogleBiglakeIcebergNamespaceIamBinding#namespace_id}
   */
   readonly namespaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#project GoogleBiglakeIcebergNamespaceIamBinding#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#project GoogleBiglakeIcebergNamespaceIamBinding#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#role GoogleBiglakeIcebergNamespaceIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#role GoogleBiglakeIcebergNamespaceIamBinding#role}
   */
   readonly role: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#condition GoogleBiglakeIcebergNamespaceIamBinding#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#condition GoogleBiglakeIcebergNamespaceIamBinding#condition}
   */
   readonly condition?: GoogleBiglakeIcebergNamespaceIamBindingCondition;
 }
 export interface GoogleBiglakeIcebergNamespaceIamBindingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#description GoogleBiglakeIcebergNamespaceIamBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#description GoogleBiglakeIcebergNamespaceIamBinding#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#expression GoogleBiglakeIcebergNamespaceIamBinding#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#expression GoogleBiglakeIcebergNamespaceIamBinding#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#title GoogleBiglakeIcebergNamespaceIamBinding#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#title GoogleBiglakeIcebergNamespaceIamBinding#title}
   */
   readonly title: string;
 }
@@ -64,7 +64,7 @@ export interface GoogleBiglakeIcebergNamespaceIamBindingCondition {
 export function googleBiglakeIcebergNamespaceIamBindingConditionToTerraform(struct?: GoogleBiglakeIcebergNamespaceIamBindingConditionOutputReference | GoogleBiglakeIcebergNamespaceIamBindingCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -77,7 +77,7 @@ export function googleBiglakeIcebergNamespaceIamBindingConditionToTerraform(stru
 export function googleBiglakeIcebergNamespaceIamBindingConditionToHclTerraform(struct?: GoogleBiglakeIcebergNamespaceIamBindingConditionOutputReference | GoogleBiglakeIcebergNamespaceIamBindingCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -192,7 +192,7 @@ export class GoogleBiglakeIcebergNamespaceIamBindingConditionOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding}
 */
 export class GoogleBiglakeIcebergNamespaceIamBinding extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class GoogleBiglakeIcebergNamespaceIamBinding extends cdktn.TerraformReso
   * Generates CDKTN code for importing a GoogleBiglakeIcebergNamespaceIamBinding resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBiglakeIcebergNamespaceIamBinding to import
-  * @param importFromId The id of the existing GoogleBiglakeIcebergNamespaceIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleBiglakeIcebergNamespaceIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBiglakeIcebergNamespaceIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class GoogleBiglakeIcebergNamespaceIamBinding extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class GoogleBiglakeIcebergNamespaceIamBinding extends cdktn.TerraformReso
       terraformResourceType: 'google_biglake_iceberg_namespace_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

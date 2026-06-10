@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,46 +13,46 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleApiGatewayApiIamMemberConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#api GoogleApiGatewayApiIamMember#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#api GoogleApiGatewayApiIamMember#api}
   */
   readonly api: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#id GoogleApiGatewayApiIamMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#id GoogleApiGatewayApiIamMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#member GoogleApiGatewayApiIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#member GoogleApiGatewayApiIamMember#member}
   */
   readonly member: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#project GoogleApiGatewayApiIamMember#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#project GoogleApiGatewayApiIamMember#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#role GoogleApiGatewayApiIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#role GoogleApiGatewayApiIamMember#role}
   */
   readonly role: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#condition GoogleApiGatewayApiIamMember#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#condition GoogleApiGatewayApiIamMember#condition}
   */
   readonly condition?: GoogleApiGatewayApiIamMemberCondition;
 }
 export interface GoogleApiGatewayApiIamMemberCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#description GoogleApiGatewayApiIamMember#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#description GoogleApiGatewayApiIamMember#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#expression GoogleApiGatewayApiIamMember#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#expression GoogleApiGatewayApiIamMember#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#title GoogleApiGatewayApiIamMember#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#title GoogleApiGatewayApiIamMember#title}
   */
   readonly title: string;
 }
@@ -60,7 +60,7 @@ export interface GoogleApiGatewayApiIamMemberCondition {
 export function googleApiGatewayApiIamMemberConditionToTerraform(struct?: GoogleApiGatewayApiIamMemberConditionOutputReference | GoogleApiGatewayApiIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -73,7 +73,7 @@ export function googleApiGatewayApiIamMemberConditionToTerraform(struct?: Google
 export function googleApiGatewayApiIamMemberConditionToHclTerraform(struct?: GoogleApiGatewayApiIamMemberConditionOutputReference | GoogleApiGatewayApiIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -188,7 +188,7 @@ export class GoogleApiGatewayApiIamMemberConditionOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member google_api_gateway_api_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member google_api_gateway_api_iam_member}
 */
 export class GoogleApiGatewayApiIamMember extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class GoogleApiGatewayApiIamMember extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleApiGatewayApiIamMember resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleApiGatewayApiIamMember to import
-  * @param importFromId The id of the existing GoogleApiGatewayApiIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleApiGatewayApiIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleApiGatewayApiIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class GoogleApiGatewayApiIamMember extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_api_gateway_api_iam_member google_api_gateway_api_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_api_gateway_api_iam_member google_api_gateway_api_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class GoogleApiGatewayApiIamMember extends cdktn.TerraformResource {
       terraformResourceType: 'google_api_gateway_api_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

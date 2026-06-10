@@ -4,7 +4,7 @@
 
 ### GoogleDocumentAiSchema <a name="GoogleDocumentAiSchema" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema google_document_ai_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema google_document_ai_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleDocumentAiSchema to 
 
 The id of the existing GoogleDocumentAiSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -987,9 +987,9 @@ new GoogleDocumentAiSchemaConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.location">Location</a></code> | <code>string</code> | The location of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.displayName">DisplayName</a></code> | <code>string</code> | The user-defined name of the Schema. |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#id GoogleDocumentAiSchema#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#id GoogleDocumentAiSchema#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | The Google Cloud labels for the Schema. |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#project GoogleDocumentAiSchema#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#project GoogleDocumentAiSchema#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts">GoogleDocumentAiSchemaTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1074,7 +1074,7 @@ public string Location { get; set; }
 
 The location of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#location GoogleDocumentAiSchema#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#location GoogleDocumentAiSchema#location}
 
 ---
 
@@ -1095,7 +1095,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#deletion_policy GoogleDocumentAiSchema#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#deletion_policy GoogleDocumentAiSchema#deletion_policy}
 
 ---
 
@@ -1109,7 +1109,7 @@ public string DisplayName { get; set; }
 
 The user-defined name of the Schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#display_name GoogleDocumentAiSchema#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#display_name GoogleDocumentAiSchema#display_name}
 
 ---
 
@@ -1121,7 +1121,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#id GoogleDocumentAiSchema#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#id GoogleDocumentAiSchema#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1141,7 +1141,7 @@ The Google Cloud labels for the Schema.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#labels GoogleDocumentAiSchema#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#labels GoogleDocumentAiSchema#labels}
 
 ---
 
@@ -1153,7 +1153,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#project GoogleDocumentAiSchema#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#project GoogleDocumentAiSchema#project}.
 
 ---
 
@@ -1167,7 +1167,7 @@ public GoogleDocumentAiSchemaTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#timeouts GoogleDocumentAiSchema#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#timeouts GoogleDocumentAiSchema#timeouts}
 
 ---
 
@@ -1189,9 +1189,9 @@ new GoogleDocumentAiSchemaTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#create GoogleDocumentAiSchema#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#delete GoogleDocumentAiSchema#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#update GoogleDocumentAiSchema#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#create GoogleDocumentAiSchema#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#delete GoogleDocumentAiSchema#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#update GoogleDocumentAiSchema#update}. |
 
 ---
 
@@ -1203,7 +1203,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#create GoogleDocumentAiSchema#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#create GoogleDocumentAiSchema#create}.
 
 ---
 
@@ -1215,7 +1215,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#delete GoogleDocumentAiSchema#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#delete GoogleDocumentAiSchema#delete}.
 
 ---
 
@@ -1227,7 +1227,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_document_ai_schema#update GoogleDocumentAiSchema#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_document_ai_schema#update GoogleDocumentAiSchema#update}.
 
 ---
 

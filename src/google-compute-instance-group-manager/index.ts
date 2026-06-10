@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleComputeInstanceGroupManagerConfig extends cdktn.Terraform
   /**
   * The base instance name to use for instances in this group. The value must be a valid RFC1035 name. Supported characters are lowercase letters, numbers, and hyphens (-). Instances are named by appending a hyphen and a random four-character string to the base instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#base_instance_name GoogleComputeInstanceGroupManager#base_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#base_instance_name GoogleComputeInstanceGroupManager#base_instance_name}
   */
   readonly baseInstanceName: string;
   /**
@@ -27,17 +27,17 @@ export interface GoogleComputeInstanceGroupManagerConfig extends cdktn.Terraform
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#deletion_policy GoogleComputeInstanceGroupManager#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#deletion_policy GoogleComputeInstanceGroupManager#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional textual description of the instance group manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#description GoogleComputeInstanceGroupManager#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#description GoogleComputeInstanceGroupManager#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#id GoogleComputeInstanceGroupManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#id GoogleComputeInstanceGroupManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,145 +46,145 @@ export interface GoogleComputeInstanceGroupManagerConfig extends cdktn.Terraform
   /**
   * Pagination behavior of the listManagedInstances API method for this managed instance group. Valid values are: "PAGELESS", "PAGINATED". If PAGELESS (default), Pagination is disabled for the group's listManagedInstances API method. maxResults and pageToken query parameters are ignored and all instances are returned in a single response. If PAGINATED, pagination is enabled, maxResults and pageToken query parameters are respected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#list_managed_instances_results GoogleComputeInstanceGroupManager#list_managed_instances_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#list_managed_instances_results GoogleComputeInstanceGroupManager#list_managed_instances_results}
   */
   readonly listManagedInstancesResults?: string;
   /**
   * The name of the instance group manager. Must be 1-63 characters long and comply with RFC1035. Supported characters include lowercase letters, numbers, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#name GoogleComputeInstanceGroupManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#name GoogleComputeInstanceGroupManager#name}
   */
   readonly name: string;
   /**
   * The ID of the project in which the resource belongs. If it is not provided, the provider project is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#project GoogleComputeInstanceGroupManager#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#project GoogleComputeInstanceGroupManager#project}
   */
   readonly project?: string;
   /**
   * The full URL of all target pools to which new instances in the group are added. Updating the target pools attribute does not affect existing instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#target_pools GoogleComputeInstanceGroupManager#target_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#target_pools GoogleComputeInstanceGroupManager#target_pools}
   */
   readonly targetPools?: string[];
   /**
   * The target number of running instances for this managed instance group. This value should always be explicitly set unless this resource is attached to an autoscaler, in which case it should never be set. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#target_size GoogleComputeInstanceGroupManager#target_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#target_size GoogleComputeInstanceGroupManager#target_size}
   */
   readonly targetSize?: number;
   /**
   * The target number of stopped instances for this managed instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#target_stopped_size GoogleComputeInstanceGroupManager#target_stopped_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#target_stopped_size GoogleComputeInstanceGroupManager#target_stopped_size}
   */
   readonly targetStoppedSize?: number;
   /**
   * The target number of suspended instances for this managed instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#target_suspended_size GoogleComputeInstanceGroupManager#target_suspended_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#target_suspended_size GoogleComputeInstanceGroupManager#target_suspended_size}
   */
   readonly targetSuspendedSize?: number;
   /**
   * Whether to wait for all instances to be created/updated before returning. Note that if this is set to true and the operation does not succeed, Terraform will continue trying until it times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#wait_for_instances GoogleComputeInstanceGroupManager#wait_for_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#wait_for_instances GoogleComputeInstanceGroupManager#wait_for_instances}
   */
   readonly waitForInstances?: boolean | cdktn.IResolvable;
   /**
   * When used with wait_for_instances specifies the status to wait for. When STABLE is specified this resource will wait until the instances are stable before returning. When UPDATED is set, it will wait for the version target to be reached and any per instance configs to be effective and all instances configs to be effective as well as all instances to be stable before returning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#wait_for_instances_status GoogleComputeInstanceGroupManager#wait_for_instances_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#wait_for_instances_status GoogleComputeInstanceGroupManager#wait_for_instances_status}
   */
   readonly waitForInstancesStatus?: string;
   /**
   * The zone that instances in this group should be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#zone GoogleComputeInstanceGroupManager#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#zone GoogleComputeInstanceGroupManager#zone}
   */
   readonly zone?: string;
   /**
   * all_instances_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#all_instances_config GoogleComputeInstanceGroupManager#all_instances_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#all_instances_config GoogleComputeInstanceGroupManager#all_instances_config}
   */
   readonly allInstancesConfig?: GoogleComputeInstanceGroupManagerAllInstancesConfig;
   /**
   * auto_healing_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#auto_healing_policies GoogleComputeInstanceGroupManager#auto_healing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#auto_healing_policies GoogleComputeInstanceGroupManager#auto_healing_policies}
   */
   readonly autoHealingPolicies?: GoogleComputeInstanceGroupManagerAutoHealingPolicies;
   /**
   * instance_lifecycle_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#instance_lifecycle_policy GoogleComputeInstanceGroupManager#instance_lifecycle_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#instance_lifecycle_policy GoogleComputeInstanceGroupManager#instance_lifecycle_policy}
   */
   readonly instanceLifecyclePolicy?: GoogleComputeInstanceGroupManagerInstanceLifecyclePolicy;
   /**
   * named_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#named_port GoogleComputeInstanceGroupManager#named_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#named_port GoogleComputeInstanceGroupManager#named_port}
   */
   readonly namedPort?: GoogleComputeInstanceGroupManagerNamedPort[] | cdktn.IResolvable;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#params GoogleComputeInstanceGroupManager#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#params GoogleComputeInstanceGroupManager#params}
   */
   readonly params?: GoogleComputeInstanceGroupManagerParams;
   /**
   * resource_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#resource_policies GoogleComputeInstanceGroupManager#resource_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#resource_policies GoogleComputeInstanceGroupManager#resource_policies}
   */
   readonly resourcePolicies?: GoogleComputeInstanceGroupManagerResourcePolicies;
   /**
   * standby_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#standby_policy GoogleComputeInstanceGroupManager#standby_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#standby_policy GoogleComputeInstanceGroupManager#standby_policy}
   */
   readonly standbyPolicy?: GoogleComputeInstanceGroupManagerStandbyPolicy;
   /**
   * stateful_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#stateful_disk GoogleComputeInstanceGroupManager#stateful_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#stateful_disk GoogleComputeInstanceGroupManager#stateful_disk}
   */
   readonly statefulDisk?: GoogleComputeInstanceGroupManagerStatefulDisk[] | cdktn.IResolvable;
   /**
   * stateful_external_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#stateful_external_ip GoogleComputeInstanceGroupManager#stateful_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#stateful_external_ip GoogleComputeInstanceGroupManager#stateful_external_ip}
   */
   readonly statefulExternalIp?: GoogleComputeInstanceGroupManagerStatefulExternalIp[] | cdktn.IResolvable;
   /**
   * stateful_internal_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#stateful_internal_ip GoogleComputeInstanceGroupManager#stateful_internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#stateful_internal_ip GoogleComputeInstanceGroupManager#stateful_internal_ip}
   */
   readonly statefulInternalIp?: GoogleComputeInstanceGroupManagerStatefulInternalIp[] | cdktn.IResolvable;
   /**
   * target_size_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#target_size_policy GoogleComputeInstanceGroupManager#target_size_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#target_size_policy GoogleComputeInstanceGroupManager#target_size_policy}
   */
   readonly targetSizePolicy?: GoogleComputeInstanceGroupManagerTargetSizePolicy[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#timeouts GoogleComputeInstanceGroupManager#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#timeouts GoogleComputeInstanceGroupManager#timeouts}
   */
   readonly timeouts?: GoogleComputeInstanceGroupManagerTimeouts;
   /**
   * update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#update_policy GoogleComputeInstanceGroupManager#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#update_policy GoogleComputeInstanceGroupManager#update_policy}
   */
   readonly updatePolicy?: GoogleComputeInstanceGroupManagerUpdatePolicy;
   /**
   * version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#version GoogleComputeInstanceGroupManager#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#version GoogleComputeInstanceGroupManager#version}
   */
   readonly version: GoogleComputeInstanceGroupManagerVersion[] | cdktn.IResolvable;
 }
@@ -194,7 +194,7 @@ export interface GoogleComputeInstanceGroupManagerStatusAllInstancesConfig {
 export function googleComputeInstanceGroupManagerStatusAllInstancesConfigToTerraform(struct?: GoogleComputeInstanceGroupManagerStatusAllInstancesConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -204,7 +204,7 @@ export function googleComputeInstanceGroupManagerStatusAllInstancesConfigToTerra
 export function googleComputeInstanceGroupManagerStatusAllInstancesConfigToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatusAllInstancesConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -274,7 +274,7 @@ export interface GoogleComputeInstanceGroupManagerStatusStatefulPerInstanceConfi
 export function googleComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsToTerraform(struct?: GoogleComputeInstanceGroupManagerStatusStatefulPerInstanceConfigs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -284,7 +284,7 @@ export function googleComputeInstanceGroupManagerStatusStatefulPerInstanceConfig
 export function googleComputeInstanceGroupManagerStatusStatefulPerInstanceConfigsToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatusStatefulPerInstanceConfigs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -349,7 +349,7 @@ export interface GoogleComputeInstanceGroupManagerStatusStateful {
 export function googleComputeInstanceGroupManagerStatusStatefulToTerraform(struct?: GoogleComputeInstanceGroupManagerStatusStateful): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -359,7 +359,7 @@ export function googleComputeInstanceGroupManagerStatusStatefulToTerraform(struc
 export function googleComputeInstanceGroupManagerStatusStatefulToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatusStateful): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -430,7 +430,7 @@ export interface GoogleComputeInstanceGroupManagerStatusVersionTarget {
 export function googleComputeInstanceGroupManagerStatusVersionTargetToTerraform(struct?: GoogleComputeInstanceGroupManagerStatusVersionTarget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -440,7 +440,7 @@ export function googleComputeInstanceGroupManagerStatusVersionTargetToTerraform(
 export function googleComputeInstanceGroupManagerStatusVersionTargetToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatusVersionTarget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -505,7 +505,7 @@ export interface GoogleComputeInstanceGroupManagerStatus {
 export function googleComputeInstanceGroupManagerStatusToTerraform(struct?: GoogleComputeInstanceGroupManagerStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -515,7 +515,7 @@ export function googleComputeInstanceGroupManagerStatusToTerraform(struct?: Goog
 export function googleComputeInstanceGroupManagerStatusToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -596,13 +596,13 @@ export interface GoogleComputeInstanceGroupManagerAllInstancesConfig {
   /**
   * The label key-value pairs that you want to patch onto the instance,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#labels GoogleComputeInstanceGroupManager#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#labels GoogleComputeInstanceGroupManager#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The metadata key-value pairs that you want to patch onto the instance. For more information, see Project and instance metadata,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#metadata GoogleComputeInstanceGroupManager#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#metadata GoogleComputeInstanceGroupManager#metadata}
   */
   readonly metadata?: { [key: string]: string };
 }
@@ -610,7 +610,7 @@ export interface GoogleComputeInstanceGroupManagerAllInstancesConfig {
 export function googleComputeInstanceGroupManagerAllInstancesConfigToTerraform(struct?: GoogleComputeInstanceGroupManagerAllInstancesConfigOutputReference | GoogleComputeInstanceGroupManagerAllInstancesConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
@@ -622,7 +622,7 @@ export function googleComputeInstanceGroupManagerAllInstancesConfigToTerraform(s
 export function googleComputeInstanceGroupManagerAllInstancesConfigToHclTerraform(struct?: GoogleComputeInstanceGroupManagerAllInstancesConfigOutputReference | GoogleComputeInstanceGroupManagerAllInstancesConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     labels: {
@@ -717,13 +717,13 @@ export interface GoogleComputeInstanceGroupManagerAutoHealingPolicies {
   /**
   * The health check resource that signals autohealing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#health_check GoogleComputeInstanceGroupManager#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#health_check GoogleComputeInstanceGroupManager#health_check}
   */
   readonly healthCheck: string;
   /**
   * The number of seconds that the managed instance group waits before it applies autohealing policies to new instances or recently recreated instances. Between 0 and 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#initial_delay_sec GoogleComputeInstanceGroupManager#initial_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#initial_delay_sec GoogleComputeInstanceGroupManager#initial_delay_sec}
   */
   readonly initialDelaySec: number;
 }
@@ -731,7 +731,7 @@ export interface GoogleComputeInstanceGroupManagerAutoHealingPolicies {
 export function googleComputeInstanceGroupManagerAutoHealingPoliciesToTerraform(struct?: GoogleComputeInstanceGroupManagerAutoHealingPoliciesOutputReference | GoogleComputeInstanceGroupManagerAutoHealingPolicies): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     health_check: cdktn.stringToTerraform(struct!.healthCheck),
@@ -743,7 +743,7 @@ export function googleComputeInstanceGroupManagerAutoHealingPoliciesToTerraform(
 export function googleComputeInstanceGroupManagerAutoHealingPoliciesToHclTerraform(struct?: GoogleComputeInstanceGroupManagerAutoHealingPoliciesOutputReference | GoogleComputeInstanceGroupManagerAutoHealingPolicies): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     health_check: {
@@ -832,7 +832,7 @@ export interface GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepai
   /**
   * Specifies whether the MIG can change a VM's zone during a repair. If "YES", MIG can select a different zone for the VM during a repair. Else if "NO", MIG cannot change a VM's zone during a repair. The default value of allow_changing_zone is "NO".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#allow_changing_zone GoogleComputeInstanceGroupManager#allow_changing_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#allow_changing_zone GoogleComputeInstanceGroupManager#allow_changing_zone}
   */
   readonly allowChangingZone?: string;
 }
@@ -840,7 +840,7 @@ export interface GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepai
 export function googleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepairToTerraform(struct?: GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference | GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepair): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_changing_zone: cdktn.stringToTerraform(struct!.allowChangingZone),
@@ -851,7 +851,7 @@ export function googleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepair
 export function googleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepairToHclTerraform(struct?: GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference | GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepair): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_changing_zone: {
@@ -918,25 +918,25 @@ export interface GoogleComputeInstanceGroupManagerInstanceLifecyclePolicy {
   /**
   * Specifies the action that a MIG performs on a failed VM. If the value of the "on_failed_health_check" field is DEFAULT_ACTION, then the same action also applies to the VMs on which your application fails a health check. Valid values are: REPAIR, DO_NOTHING. If REPAIR (default), then MIG automatically repairs a failed VM by recreating it. For more information, see about repairing VMs in a MIG. If DO_NOTHING, then MIG does not repair a failed VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#default_action_on_failure GoogleComputeInstanceGroupManager#default_action_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#default_action_on_failure GoogleComputeInstanceGroupManager#default_action_on_failure}
   */
   readonly defaultActionOnFailure?: string;
   /**
   * Specifies whether to apply the group's latest configuration when repairing a VM. Valid options are: YES, NO. If YES and you updated the group's instance template or per-instance configurations after the VM was created, then these changes are applied when VM is repaired. If NO (default), then updates are applied in accordance with the group's update policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#force_update_on_repair GoogleComputeInstanceGroupManager#force_update_on_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#force_update_on_repair GoogleComputeInstanceGroupManager#force_update_on_repair}
   */
   readonly forceUpdateOnRepair?: string;
   /**
   * Specifies the action that a MIG performs on an unhealthy VM. A VM is marked as unhealthy when the application running on that VM fails a health check. Valid values are: DEFAULT_ACTION, DO_NOTHING, REPAIR. If DEFAULT_ACTION (default), then MIG uses the same action configured for the  "default_action_on_failure" field. If DO_NOTHING, then MIG does not repair unhealthy VM. If REPAIR, then MIG automatically repairs an unhealthy VM by recreating it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#on_failed_health_check GoogleComputeInstanceGroupManager#on_failed_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#on_failed_health_check GoogleComputeInstanceGroupManager#on_failed_health_check}
   */
   readonly onFailedHealthCheck?: string;
   /**
   * on_repair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#on_repair GoogleComputeInstanceGroupManager#on_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#on_repair GoogleComputeInstanceGroupManager#on_repair}
   */
   readonly onRepair?: GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOnRepair;
 }
@@ -944,7 +944,7 @@ export interface GoogleComputeInstanceGroupManagerInstanceLifecyclePolicy {
 export function googleComputeInstanceGroupManagerInstanceLifecyclePolicyToTerraform(struct?: GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference | GoogleComputeInstanceGroupManagerInstanceLifecyclePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     default_action_on_failure: cdktn.stringToTerraform(struct!.defaultActionOnFailure),
@@ -958,7 +958,7 @@ export function googleComputeInstanceGroupManagerInstanceLifecyclePolicyToTerraf
 export function googleComputeInstanceGroupManagerInstanceLifecyclePolicyToHclTerraform(struct?: GoogleComputeInstanceGroupManagerInstanceLifecyclePolicyOutputReference | GoogleComputeInstanceGroupManagerInstanceLifecyclePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     default_action_on_failure: {
@@ -1109,13 +1109,13 @@ export interface GoogleComputeInstanceGroupManagerNamedPort {
   /**
   * The name of the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#name GoogleComputeInstanceGroupManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#name GoogleComputeInstanceGroupManager#name}
   */
   readonly name: string;
   /**
   * The port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#port GoogleComputeInstanceGroupManager#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#port GoogleComputeInstanceGroupManager#port}
   */
   readonly port: number;
 }
@@ -1123,7 +1123,7 @@ export interface GoogleComputeInstanceGroupManagerNamedPort {
 export function googleComputeInstanceGroupManagerNamedPortToTerraform(struct?: GoogleComputeInstanceGroupManagerNamedPort | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1135,7 +1135,7 @@ export function googleComputeInstanceGroupManagerNamedPortToTerraform(struct?: G
 export function googleComputeInstanceGroupManagerNamedPortToHclTerraform(struct?: GoogleComputeInstanceGroupManagerNamedPort | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1256,7 +1256,7 @@ export interface GoogleComputeInstanceGroupManagerParams {
   /**
   * Resource manager tags to bind to the managed instance group. The tags are key-value pairs. Keys must be in the format tagKeys/123 and values in the format tagValues/456.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#resource_manager_tags GoogleComputeInstanceGroupManager#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#resource_manager_tags GoogleComputeInstanceGroupManager#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
 }
@@ -1264,7 +1264,7 @@ export interface GoogleComputeInstanceGroupManagerParams {
 export function googleComputeInstanceGroupManagerParamsToTerraform(struct?: GoogleComputeInstanceGroupManagerParamsOutputReference | GoogleComputeInstanceGroupManagerParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
@@ -1275,7 +1275,7 @@ export function googleComputeInstanceGroupManagerParamsToTerraform(struct?: Goog
 export function googleComputeInstanceGroupManagerParamsToHclTerraform(struct?: GoogleComputeInstanceGroupManagerParamsOutputReference | GoogleComputeInstanceGroupManagerParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resource_manager_tags: {
@@ -1342,7 +1342,7 @@ export interface GoogleComputeInstanceGroupManagerResourcePolicies {
   /**
   * The URL of the workload policy that is specified for this managed instance group. It can be a full or partial URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#workload_policy GoogleComputeInstanceGroupManager#workload_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#workload_policy GoogleComputeInstanceGroupManager#workload_policy}
   */
   readonly workloadPolicy?: string;
 }
@@ -1350,7 +1350,7 @@ export interface GoogleComputeInstanceGroupManagerResourcePolicies {
 export function googleComputeInstanceGroupManagerResourcePoliciesToTerraform(struct?: GoogleComputeInstanceGroupManagerResourcePoliciesOutputReference | GoogleComputeInstanceGroupManagerResourcePolicies): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     workload_policy: cdktn.stringToTerraform(struct!.workloadPolicy),
@@ -1361,7 +1361,7 @@ export function googleComputeInstanceGroupManagerResourcePoliciesToTerraform(str
 export function googleComputeInstanceGroupManagerResourcePoliciesToHclTerraform(struct?: GoogleComputeInstanceGroupManagerResourcePoliciesOutputReference | GoogleComputeInstanceGroupManagerResourcePolicies): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     workload_policy: {
@@ -1428,13 +1428,13 @@ export interface GoogleComputeInstanceGroupManagerStandbyPolicy {
   /**
   * Specifies the number of seconds that the MIG should wait to suspend or stop a VM after that VM was created. The initial delay gives the initialization script the time to prepare your VM for a quick scale out. The value of initial delay must be between 0 and 3600 seconds. The default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#initial_delay_sec GoogleComputeInstanceGroupManager#initial_delay_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#initial_delay_sec GoogleComputeInstanceGroupManager#initial_delay_sec}
   */
   readonly initialDelaySec?: number;
   /**
   * Defines how a MIG resumes or starts VMs from a standby pool when the group scales out. The default mode is "MANUAL".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#mode GoogleComputeInstanceGroupManager#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#mode GoogleComputeInstanceGroupManager#mode}
   */
   readonly mode?: string;
 }
@@ -1442,7 +1442,7 @@ export interface GoogleComputeInstanceGroupManagerStandbyPolicy {
 export function googleComputeInstanceGroupManagerStandbyPolicyToTerraform(struct?: GoogleComputeInstanceGroupManagerStandbyPolicyOutputReference | GoogleComputeInstanceGroupManagerStandbyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     initial_delay_sec: cdktn.numberToTerraform(struct!.initialDelaySec),
@@ -1454,7 +1454,7 @@ export function googleComputeInstanceGroupManagerStandbyPolicyToTerraform(struct
 export function googleComputeInstanceGroupManagerStandbyPolicyToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStandbyPolicyOutputReference | GoogleComputeInstanceGroupManagerStandbyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     initial_delay_sec: {
@@ -1549,13 +1549,13 @@ export interface GoogleComputeInstanceGroupManagerStatefulDisk {
   /**
   * A value that prescribes what should happen to the stateful disk when the VM instance is deleted. The available options are NEVER and ON_PERMANENT_INSTANCE_DELETION. NEVER - detach the disk when the VM is deleted, but do not delete the disk. ON_PERMANENT_INSTANCE_DELETION will delete the stateful disk when the VM is permanently deleted from the instance group. The default is NEVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#delete_rule GoogleComputeInstanceGroupManager#delete_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#delete_rule GoogleComputeInstanceGroupManager#delete_rule}
   */
   readonly deleteRule?: string;
   /**
   * The device name of the disk to be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#device_name GoogleComputeInstanceGroupManager#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#device_name GoogleComputeInstanceGroupManager#device_name}
   */
   readonly deviceName: string;
 }
@@ -1563,7 +1563,7 @@ export interface GoogleComputeInstanceGroupManagerStatefulDisk {
 export function googleComputeInstanceGroupManagerStatefulDiskToTerraform(struct?: GoogleComputeInstanceGroupManagerStatefulDisk | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     delete_rule: cdktn.stringToTerraform(struct!.deleteRule),
@@ -1575,7 +1575,7 @@ export function googleComputeInstanceGroupManagerStatefulDiskToTerraform(struct?
 export function googleComputeInstanceGroupManagerStatefulDiskToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatefulDisk | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     delete_rule: {
@@ -1699,13 +1699,13 @@ export interface GoogleComputeInstanceGroupManagerStatefulExternalIp {
   /**
   * A value that prescribes what should happen to an associated static Address resource when a VM instance is permanently deleted. The available options are NEVER and ON_PERMANENT_INSTANCE_DELETION. NEVER - detach the IP when the VM is deleted, but do not delete the address resource. ON_PERMANENT_INSTANCE_DELETION will delete the stateful address when the VM is permanently deleted from the instance group. The default is NEVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#delete_rule GoogleComputeInstanceGroupManager#delete_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#delete_rule GoogleComputeInstanceGroupManager#delete_rule}
   */
   readonly deleteRule?: string;
   /**
   * The network interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#interface_name GoogleComputeInstanceGroupManager#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#interface_name GoogleComputeInstanceGroupManager#interface_name}
   */
   readonly interfaceName?: string;
 }
@@ -1713,7 +1713,7 @@ export interface GoogleComputeInstanceGroupManagerStatefulExternalIp {
 export function googleComputeInstanceGroupManagerStatefulExternalIpToTerraform(struct?: GoogleComputeInstanceGroupManagerStatefulExternalIp | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     delete_rule: cdktn.stringToTerraform(struct!.deleteRule),
@@ -1725,7 +1725,7 @@ export function googleComputeInstanceGroupManagerStatefulExternalIpToTerraform(s
 export function googleComputeInstanceGroupManagerStatefulExternalIpToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatefulExternalIp | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     delete_rule: {
@@ -1852,13 +1852,13 @@ export interface GoogleComputeInstanceGroupManagerStatefulInternalIp {
   /**
   * A value that prescribes what should happen to an associated static Address resource when a VM instance is permanently deleted. The available options are NEVER and ON_PERMANENT_INSTANCE_DELETION. NEVER - detach the IP when the VM is deleted, but do not delete the address resource. ON_PERMANENT_INSTANCE_DELETION will delete the stateful address when the VM is permanently deleted from the instance group. The default is NEVER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#delete_rule GoogleComputeInstanceGroupManager#delete_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#delete_rule GoogleComputeInstanceGroupManager#delete_rule}
   */
   readonly deleteRule?: string;
   /**
   * The network interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#interface_name GoogleComputeInstanceGroupManager#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#interface_name GoogleComputeInstanceGroupManager#interface_name}
   */
   readonly interfaceName?: string;
 }
@@ -1866,7 +1866,7 @@ export interface GoogleComputeInstanceGroupManagerStatefulInternalIp {
 export function googleComputeInstanceGroupManagerStatefulInternalIpToTerraform(struct?: GoogleComputeInstanceGroupManagerStatefulInternalIp | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     delete_rule: cdktn.stringToTerraform(struct!.deleteRule),
@@ -1878,7 +1878,7 @@ export function googleComputeInstanceGroupManagerStatefulInternalIpToTerraform(s
 export function googleComputeInstanceGroupManagerStatefulInternalIpToHclTerraform(struct?: GoogleComputeInstanceGroupManagerStatefulInternalIp | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     delete_rule: {
@@ -2005,7 +2005,7 @@ export interface GoogleComputeInstanceGroupManagerTargetSizePolicy {
   /**
   * The mode of target size policy based on which the MIG creates its VMs individually or all at once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#mode GoogleComputeInstanceGroupManager#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#mode GoogleComputeInstanceGroupManager#mode}
   */
   readonly mode: string;
 }
@@ -2013,7 +2013,7 @@ export interface GoogleComputeInstanceGroupManagerTargetSizePolicy {
 export function googleComputeInstanceGroupManagerTargetSizePolicyToTerraform(struct?: GoogleComputeInstanceGroupManagerTargetSizePolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mode: cdktn.stringToTerraform(struct!.mode),
@@ -2024,7 +2024,7 @@ export function googleComputeInstanceGroupManagerTargetSizePolicyToTerraform(str
 export function googleComputeInstanceGroupManagerTargetSizePolicyToHclTerraform(struct?: GoogleComputeInstanceGroupManagerTargetSizePolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mode: {
@@ -2118,15 +2118,15 @@ export class GoogleComputeInstanceGroupManagerTargetSizePolicyList extends cdktn
 }
 export interface GoogleComputeInstanceGroupManagerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#create GoogleComputeInstanceGroupManager#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#create GoogleComputeInstanceGroupManager#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#delete GoogleComputeInstanceGroupManager#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#delete GoogleComputeInstanceGroupManager#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#update GoogleComputeInstanceGroupManager#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#update GoogleComputeInstanceGroupManager#update}
   */
   readonly update?: string;
 }
@@ -2134,7 +2134,7 @@ export interface GoogleComputeInstanceGroupManagerTimeouts {
 export function googleComputeInstanceGroupManagerTimeoutsToTerraform(struct?: GoogleComputeInstanceGroupManagerTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -2147,7 +2147,7 @@ export function googleComputeInstanceGroupManagerTimeoutsToTerraform(struct?: Go
 export function googleComputeInstanceGroupManagerTimeoutsToHclTerraform(struct?: GoogleComputeInstanceGroupManagerTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -2280,55 +2280,55 @@ export interface GoogleComputeInstanceGroupManagerUpdatePolicy {
   /**
   * Specifies a fixed number of VM instances. This must be a positive integer. Conflicts with max_surge_percent. Both cannot be 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#max_surge_fixed GoogleComputeInstanceGroupManager#max_surge_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#max_surge_fixed GoogleComputeInstanceGroupManager#max_surge_fixed}
   */
   readonly maxSurgeFixed?: number;
   /**
   * Specifies a percentage of instances between 0 to 100%, inclusive. For example, specify 80 for 80%. Conflicts with max_surge_fixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#max_surge_percent GoogleComputeInstanceGroupManager#max_surge_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#max_surge_percent GoogleComputeInstanceGroupManager#max_surge_percent}
   */
   readonly maxSurgePercent?: number;
   /**
   * Specifies a fixed number of VM instances. This must be a positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#max_unavailable_fixed GoogleComputeInstanceGroupManager#max_unavailable_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#max_unavailable_fixed GoogleComputeInstanceGroupManager#max_unavailable_fixed}
   */
   readonly maxUnavailableFixed?: number;
   /**
   * Specifies a percentage of instances between 0 to 100%, inclusive. For example, specify 80 for 80%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#max_unavailable_percent GoogleComputeInstanceGroupManager#max_unavailable_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#max_unavailable_percent GoogleComputeInstanceGroupManager#max_unavailable_percent}
   */
   readonly maxUnavailablePercent?: number;
   /**
   * Minimum number of seconds to wait for after a newly created instance becomes available. This value must be from range [0, 3600].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#min_ready_sec GoogleComputeInstanceGroupManager#min_ready_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#min_ready_sec GoogleComputeInstanceGroupManager#min_ready_sec}
   */
   readonly minReadySec?: number;
   /**
   * Minimal action to be taken on an instance. You can specify either NONE to forbid any actions, REFRESH to update without stopping instances, RESTART to restart existing instances or REPLACE to delete and create new instances from the target template. If you specify a REFRESH, the Updater will attempt to perform that action only. However, if the Updater determines that the minimal action you specify is not enough to perform the update, it might perform a more disruptive action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#minimal_action GoogleComputeInstanceGroupManager#minimal_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#minimal_action GoogleComputeInstanceGroupManager#minimal_action}
   */
   readonly minimalAction: string;
   /**
   * Most disruptive action that is allowed to be taken on an instance. You can specify either NONE to forbid any actions, REFRESH to allow actions that do not need instance restart, RESTART to allow actions that can be applied without instance replacing or REPLACE to allow all possible actions. If the Updater determines that the minimal update action needed is more disruptive than most disruptive allowed action you specify it will not perform the update at all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#most_disruptive_allowed_action GoogleComputeInstanceGroupManager#most_disruptive_allowed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#most_disruptive_allowed_action GoogleComputeInstanceGroupManager#most_disruptive_allowed_action}
   */
   readonly mostDisruptiveAllowedAction?: string;
   /**
   * The instance replacement method for managed instance groups. Valid values are: "RECREATE", "SUBSTITUTE". If SUBSTITUTE (default), the group replaces VM instances with new instances that have randomly generated names. If RECREATE, instance names are preserved.  You must also set max_unavailable_fixed or max_unavailable_percent to be greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#replacement_method GoogleComputeInstanceGroupManager#replacement_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#replacement_method GoogleComputeInstanceGroupManager#replacement_method}
   */
   readonly replacementMethod?: string;
   /**
   * The type of update process. You can specify either PROACTIVE so that the instance group manager proactively executes actions in order to bring instances to their target versions or OPPORTUNISTIC so that no action is proactively executed but the update will be performed as part of other actions (for example, resizes or recreateInstances calls).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#type GoogleComputeInstanceGroupManager#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#type GoogleComputeInstanceGroupManager#type}
   */
   readonly type: string;
 }
@@ -2336,7 +2336,7 @@ export interface GoogleComputeInstanceGroupManagerUpdatePolicy {
 export function googleComputeInstanceGroupManagerUpdatePolicyToTerraform(struct?: GoogleComputeInstanceGroupManagerUpdatePolicyOutputReference | GoogleComputeInstanceGroupManagerUpdatePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_surge_fixed: cdktn.numberToTerraform(struct!.maxSurgeFixed),
@@ -2355,7 +2355,7 @@ export function googleComputeInstanceGroupManagerUpdatePolicyToTerraform(struct?
 export function googleComputeInstanceGroupManagerUpdatePolicyToHclTerraform(struct?: GoogleComputeInstanceGroupManagerUpdatePolicyOutputReference | GoogleComputeInstanceGroupManagerUpdatePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_surge_fixed: {
@@ -2640,13 +2640,13 @@ export interface GoogleComputeInstanceGroupManagerVersionTargetSize {
   /**
   * The number of instances which are managed for this version. Conflicts with percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#fixed GoogleComputeInstanceGroupManager#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#fixed GoogleComputeInstanceGroupManager#fixed}
   */
   readonly fixed?: number;
   /**
   * The number of instances (calculated as percentage) which are managed for this version. Conflicts with fixed. Note that when using percent, rounding will be in favor of explicitly set target_size values; a managed instance group with 2 instances and 2 versions, one of which has a target_size.percent of 60 will create 2 instances of that version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#percent GoogleComputeInstanceGroupManager#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#percent GoogleComputeInstanceGroupManager#percent}
   */
   readonly percent?: number;
 }
@@ -2654,7 +2654,7 @@ export interface GoogleComputeInstanceGroupManagerVersionTargetSize {
 export function googleComputeInstanceGroupManagerVersionTargetSizeToTerraform(struct?: GoogleComputeInstanceGroupManagerVersionTargetSizeOutputReference | GoogleComputeInstanceGroupManagerVersionTargetSize): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fixed: cdktn.numberToTerraform(struct!.fixed),
@@ -2666,7 +2666,7 @@ export function googleComputeInstanceGroupManagerVersionTargetSizeToTerraform(st
 export function googleComputeInstanceGroupManagerVersionTargetSizeToHclTerraform(struct?: GoogleComputeInstanceGroupManagerVersionTargetSizeOutputReference | GoogleComputeInstanceGroupManagerVersionTargetSize): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fixed: {
@@ -2761,19 +2761,19 @@ export interface GoogleComputeInstanceGroupManagerVersion {
   /**
   * The full URL to an instance template from which all new instances of this version will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#instance_template GoogleComputeInstanceGroupManager#instance_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#instance_template GoogleComputeInstanceGroupManager#instance_template}
   */
   readonly instanceTemplate: string;
   /**
   * Version name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#name GoogleComputeInstanceGroupManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#name GoogleComputeInstanceGroupManager#name}
   */
   readonly name?: string;
   /**
   * target_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#target_size GoogleComputeInstanceGroupManager#target_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#target_size GoogleComputeInstanceGroupManager#target_size}
   */
   readonly targetSize?: GoogleComputeInstanceGroupManagerVersionTargetSize;
 }
@@ -2781,7 +2781,7 @@ export interface GoogleComputeInstanceGroupManagerVersion {
 export function googleComputeInstanceGroupManagerVersionToTerraform(struct?: GoogleComputeInstanceGroupManagerVersion | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     instance_template: cdktn.stringToTerraform(struct!.instanceTemplate),
@@ -2794,7 +2794,7 @@ export function googleComputeInstanceGroupManagerVersionToTerraform(struct?: Goo
 export function googleComputeInstanceGroupManagerVersionToHclTerraform(struct?: GoogleComputeInstanceGroupManagerVersion | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     instance_template: {
@@ -2944,7 +2944,7 @@ export class GoogleComputeInstanceGroupManagerVersionList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager}
 */
 export class GoogleComputeInstanceGroupManager extends cdktn.TerraformResource {
 
@@ -2960,7 +2960,7 @@ export class GoogleComputeInstanceGroupManager extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeInstanceGroupManager resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeInstanceGroupManager to import
-  * @param importFromId The id of the existing GoogleComputeInstanceGroupManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeInstanceGroupManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeInstanceGroupManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2972,7 +2972,7 @@ export class GoogleComputeInstanceGroupManager extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2983,7 +2983,7 @@ export class GoogleComputeInstanceGroupManager extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_instance_group_manager',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

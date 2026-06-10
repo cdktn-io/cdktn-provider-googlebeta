@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionInstantSnapshotIamMember <a name="GoogleComputeRegionInstantSnapshotIamMember" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeRegionInstant
 
 The id of the existing GoogleComputeRegionInstantSnapshotIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ new GoogleComputeRegionInstantSnapshotIamMemberCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#expression GoogleComputeRegionInstantSnapshotIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#title GoogleComputeRegionInstantSnapshotIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#description GoogleComputeRegionInstantSnapshotIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#expression GoogleComputeRegionInstantSnapshotIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#title GoogleComputeRegionInstantSnapshotIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#description GoogleComputeRegionInstantSnapshotIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#expression GoogleComputeRegionInstantSnapshotIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#expression GoogleComputeRegionInstantSnapshotIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#title GoogleComputeRegionInstantSnapshotIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#title GoogleComputeRegionInstantSnapshotIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#description GoogleComputeRegionInstantSnapshotIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#description GoogleComputeRegionInstantSnapshotIamMember#description}.
 
 ---
 
@@ -986,13 +986,13 @@ new GoogleComputeRegionInstantSnapshotIamMemberConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#member GoogleComputeRegionInstantSnapshotIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#name GoogleComputeRegionInstantSnapshotIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#role GoogleComputeRegionInstantSnapshotIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#member GoogleComputeRegionInstantSnapshotIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#name GoogleComputeRegionInstantSnapshotIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#role GoogleComputeRegionInstantSnapshotIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberCondition">GoogleComputeRegionInstantSnapshotIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#id GoogleComputeRegionInstantSnapshotIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#project GoogleComputeRegionInstantSnapshotIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#region GoogleComputeRegionInstantSnapshotIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#id GoogleComputeRegionInstantSnapshotIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#project GoogleComputeRegionInstantSnapshotIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshotIamMember.GoogleComputeRegionInstantSnapshotIamMemberConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#region GoogleComputeRegionInstantSnapshotIamMember#region}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public string Member { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#member GoogleComputeRegionInstantSnapshotIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#member GoogleComputeRegionInstantSnapshotIamMember#member}.
 
 ---
 
@@ -1086,7 +1086,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#name GoogleComputeRegionInstantSnapshotIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#name GoogleComputeRegionInstantSnapshotIamMember#name}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#role GoogleComputeRegionInstantSnapshotIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#role GoogleComputeRegionInstantSnapshotIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ public GoogleComputeRegionInstantSnapshotIamMemberCondition Condition { get; set
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#condition GoogleComputeRegionInstantSnapshotIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#condition GoogleComputeRegionInstantSnapshotIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#id GoogleComputeRegionInstantSnapshotIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#id GoogleComputeRegionInstantSnapshotIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#project GoogleComputeRegionInstantSnapshotIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#project GoogleComputeRegionInstantSnapshotIamMember#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public string Region { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_instant_snapshot_iam_member#region GoogleComputeRegionInstantSnapshotIamMember#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_instant_snapshot_iam_member#region GoogleComputeRegionInstantSnapshotIamMember#region}.
 
 ---
 

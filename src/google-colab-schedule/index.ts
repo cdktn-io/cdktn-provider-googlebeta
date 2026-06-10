@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface GoogleColabScheduleConfig extends cdktn.TerraformMetaArguments 
   /**
   * Whether new scheduled runs can be queued when max_concurrent_runs limit is reached. If set to true, new runs will be queued instead of skipped. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#allow_queueing GoogleColabSchedule#allow_queueing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#allow_queueing GoogleColabSchedule#allow_queueing}
   */
   readonly allowQueueing?: boolean | cdktn.IResolvable;
   /**
   * Cron schedule (https://en.wikipedia.org/wiki/Cron) to launch scheduled runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#cron GoogleColabSchedule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#cron GoogleColabSchedule#cron}
   */
   readonly cron: string;
   /**
@@ -33,29 +33,29 @@ export interface GoogleColabScheduleConfig extends cdktn.TerraformMetaArguments 
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#deletion_policy GoogleColabSchedule#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#deletion_policy GoogleColabSchedule#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Desired state of the Colab Schedule. Set this field to 'ACTIVE' to start/resume the schedule, and 'PAUSED' to pause the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#desired_state GoogleColabSchedule#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#desired_state GoogleColabSchedule#desired_state}
   */
   readonly desiredState?: string;
   /**
   * Required. The display name of the Schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
   */
   readonly displayName: string;
   /**
   * Timestamp after which no new runs can be scheduled. If specified, the schedule will be completed when either end_time is reached or when scheduled_run_count >= max_run_count. Must be in the RFC 3339 (https://www.ietf.org/rfc/rfc3339.txt) format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#end_time GoogleColabSchedule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#end_time GoogleColabSchedule#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#id GoogleColabSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#id GoogleColabSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,41 +64,41 @@ export interface GoogleColabScheduleConfig extends cdktn.TerraformMetaArguments 
   /**
   * The location for the resource: https://cloud.google.com/colab/docs/locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#location GoogleColabSchedule#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#location GoogleColabSchedule#location}
   */
   readonly location: string;
   /**
   * Maximum number of runs that can be started concurrently for this Schedule. This is the limit for starting the scheduled requests and not the execution of the notebook execution jobs created by the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#max_concurrent_run_count GoogleColabSchedule#max_concurrent_run_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#max_concurrent_run_count GoogleColabSchedule#max_concurrent_run_count}
   */
   readonly maxConcurrentRunCount: string;
   /**
   * Maximum run count of the schedule. If specified, The schedule will be completed when either startedRunCount >= maxRunCount or when endTime is reached. If not specified, new runs will keep getting scheduled until this Schedule is paused or deleted. Already scheduled runs will be allowed to complete. Unset if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#max_run_count GoogleColabSchedule#max_run_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#max_run_count GoogleColabSchedule#max_run_count}
   */
   readonly maxRunCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#project GoogleColabSchedule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#project GoogleColabSchedule#project}
   */
   readonly project?: string;
   /**
   * The timestamp after which the first run can be scheduled. Defaults to the schedule creation time. Must be in the RFC 3339 (https://www.ietf.org/rfc/rfc3339.txt) format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#start_time GoogleColabSchedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#start_time GoogleColabSchedule#start_time}
   */
   readonly startTime?: string;
   /**
   * create_notebook_execution_job_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#create_notebook_execution_job_request GoogleColabSchedule#create_notebook_execution_job_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#create_notebook_execution_job_request GoogleColabSchedule#create_notebook_execution_job_request}
   */
   readonly createNotebookExecutionJobRequest: GoogleColabScheduleCreateNotebookExecutionJobRequest;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#timeouts GoogleColabSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#timeouts GoogleColabSchedule#timeouts}
   */
   readonly timeouts?: GoogleColabScheduleTimeouts;
 }
@@ -106,13 +106,13 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExe
   /**
   * The commit SHA to read repository with. If unset, the file will be read at HEAD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#commit_sha GoogleColabSchedule#commit_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#commit_sha GoogleColabSchedule#commit_sha}
   */
   readonly commitSha?: string;
   /**
   * The resource name of the Dataform Repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#dataform_repository_resource_name GoogleColabSchedule#dataform_repository_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#dataform_repository_resource_name GoogleColabSchedule#dataform_repository_resource_name}
   */
   readonly dataformRepositoryResourceName: string;
 }
@@ -120,7 +120,7 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExe
 export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceToTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     commit_sha: cdktn.stringToTerraform(struct!.commitSha),
@@ -132,7 +132,7 @@ export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExec
 export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceToHclTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     commit_sha: {
@@ -224,13 +224,13 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExe
   /**
   * The version of the Cloud Storage object to read. If unset, the current version of the object is read. See https://cloud.google.com/storage/docs/metadata#generation-number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#generation GoogleColabSchedule#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#generation GoogleColabSchedule#generation}
   */
   readonly generation?: string;
   /**
   * The Cloud Storage uri pointing to the ipynb file. Format: gs://bucket/notebook_file.ipynb
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#uri GoogleColabSchedule#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#uri GoogleColabSchedule#uri}
   */
   readonly uri: string;
 }
@@ -238,7 +238,7 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExe
 export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceToTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     generation: cdktn.stringToTerraform(struct!.generation),
@@ -250,7 +250,7 @@ export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExec
 export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceToHclTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSourceOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     generation: {
@@ -342,49 +342,49 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExe
   /**
   * Required. The display name of the Notebook Execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#display_name GoogleColabSchedule#display_name}
   */
   readonly displayName: string;
   /**
   * Max running time of the execution job in seconds (default 86400s / 24 hrs). A duration in seconds with up to nine fractional digits, ending with "s". Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#execution_timeout GoogleColabSchedule#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#execution_timeout GoogleColabSchedule#execution_timeout}
   */
   readonly executionTimeout?: string;
   /**
   * The user email to run the execution as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#execution_user GoogleColabSchedule#execution_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#execution_user GoogleColabSchedule#execution_user}
   */
   readonly executionUser?: string;
   /**
   * The Cloud Storage location to upload the result to. Format:'gs://bucket-name'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#gcs_output_uri GoogleColabSchedule#gcs_output_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#gcs_output_uri GoogleColabSchedule#gcs_output_uri}
   */
   readonly gcsOutputUri: string;
   /**
   * The NotebookRuntimeTemplate to source compute configuration from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#notebook_runtime_template_resource_name GoogleColabSchedule#notebook_runtime_template_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#notebook_runtime_template_resource_name GoogleColabSchedule#notebook_runtime_template_resource_name}
   */
   readonly notebookRuntimeTemplateResourceName: string;
   /**
   * The service account to run the execution as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#service_account GoogleColabSchedule#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#service_account GoogleColabSchedule#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * dataform_repository_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#dataform_repository_source GoogleColabSchedule#dataform_repository_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#dataform_repository_source GoogleColabSchedule#dataform_repository_source}
   */
   readonly dataformRepositorySource?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource;
   /**
   * gcs_notebook_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#gcs_notebook_source GoogleColabSchedule#gcs_notebook_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#gcs_notebook_source GoogleColabSchedule#gcs_notebook_source}
   */
   readonly gcsNotebookSource?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource;
 }
@@ -392,7 +392,7 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExe
 export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobToTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     display_name: cdktn.stringToTerraform(struct!.displayName),
@@ -410,7 +410,7 @@ export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExec
 export function googleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobToHclTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     display_name: {
@@ -664,7 +664,7 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequest {
   /**
   * notebook_execution_job block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#notebook_execution_job GoogleColabSchedule#notebook_execution_job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#notebook_execution_job GoogleColabSchedule#notebook_execution_job}
   */
   readonly notebookExecutionJob: GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob;
 }
@@ -672,7 +672,7 @@ export interface GoogleColabScheduleCreateNotebookExecutionJobRequest {
 export function googleColabScheduleCreateNotebookExecutionJobRequestToTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequest): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     notebook_execution_job: googleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobToTerraform(struct!.notebookExecutionJob),
@@ -683,7 +683,7 @@ export function googleColabScheduleCreateNotebookExecutionJobRequestToTerraform(
 export function googleColabScheduleCreateNotebookExecutionJobRequestToHclTerraform(struct?: GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference | GoogleColabScheduleCreateNotebookExecutionJobRequest): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     notebook_execution_job: {
@@ -745,15 +745,15 @@ export class GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference
 }
 export interface GoogleColabScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#create GoogleColabSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#create GoogleColabSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#delete GoogleColabSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#delete GoogleColabSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#update GoogleColabSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#update GoogleColabSchedule#update}
   */
   readonly update?: string;
 }
@@ -761,7 +761,7 @@ export interface GoogleColabScheduleTimeouts {
 export function googleColabScheduleTimeoutsToTerraform(struct?: GoogleColabScheduleTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -774,7 +774,7 @@ export function googleColabScheduleTimeoutsToTerraform(struct?: GoogleColabSched
 export function googleColabScheduleTimeoutsToHclTerraform(struct?: GoogleColabScheduleTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -905,7 +905,7 @@ export class GoogleColabScheduleTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule google_colab_schedule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule google_colab_schedule}
 */
 export class GoogleColabSchedule extends cdktn.TerraformResource {
 
@@ -921,7 +921,7 @@ export class GoogleColabSchedule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleColabSchedule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleColabSchedule to import
-  * @param importFromId The id of the existing GoogleColabSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleColabSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleColabSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -933,7 +933,7 @@ export class GoogleColabSchedule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_colab_schedule google_colab_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_colab_schedule google_colab_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -944,7 +944,7 @@ export class GoogleColabSchedule extends cdktn.TerraformResource {
       terraformResourceType: 'google_colab_schedule',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

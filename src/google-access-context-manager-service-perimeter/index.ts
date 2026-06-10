@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,18 +21,18 @@ export interface GoogleAccessContextManagerServicePerimeterConfig extends cdktn.
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#deletion_policy GoogleAccessContextManagerServicePerimeter#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#deletion_policy GoogleAccessContextManagerServicePerimeter#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Description of the ServicePerimeter and its use. Does not affect
   * behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#description GoogleAccessContextManagerServicePerimeter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#description GoogleAccessContextManagerServicePerimeter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#id GoogleAccessContextManagerServicePerimeter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#id GoogleAccessContextManagerServicePerimeter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,14 +43,14 @@ export interface GoogleAccessContextManagerServicePerimeterConfig extends cdktn.
   * begin with a letter and only include alphanumeric and '_'.
   * Format: accessPolicies/{policy_id}/servicePerimeters/{short_name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#name GoogleAccessContextManagerServicePerimeter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#name GoogleAccessContextManagerServicePerimeter#name}
   */
   readonly name: string;
   /**
   * The AccessPolicy this ServicePerimeter lives in.
   * Format: accessPolicies/{policy_id}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#parent GoogleAccessContextManagerServicePerimeter#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#parent GoogleAccessContextManagerServicePerimeter#parent}
   */
   readonly parent: string;
   /**
@@ -71,13 +71,13 @@ export interface GoogleAccessContextManagerServicePerimeterConfig extends cdktn.
   * with a common perimeter, but should not be able to share data among
   * themselves. Default value: "PERIMETER_TYPE_REGULAR" Possible values: ["PERIMETER_TYPE_REGULAR", "PERIMETER_TYPE_BRIDGE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#perimeter_type GoogleAccessContextManagerServicePerimeter#perimeter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#perimeter_type GoogleAccessContextManagerServicePerimeter#perimeter_type}
   */
   readonly perimeterType?: string;
   /**
   * Human readable title. Must be unique within the Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
   */
   readonly title: string;
   /**
@@ -91,25 +91,25 @@ export interface GoogleAccessContextManagerServicePerimeterConfig extends cdktn.
   * between currently enforced and suggested restrictions. useExplicitDryRunSpec must
   * bet set to True if any of the fields in the spec are set to non-default values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#use_explicit_dry_run_spec GoogleAccessContextManagerServicePerimeter#use_explicit_dry_run_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#use_explicit_dry_run_spec GoogleAccessContextManagerServicePerimeter#use_explicit_dry_run_spec}
   */
   readonly useExplicitDryRunSpec?: boolean | cdktn.IResolvable;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#spec GoogleAccessContextManagerServicePerimeter#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#spec GoogleAccessContextManagerServicePerimeter#spec}
   */
   readonly spec?: GoogleAccessContextManagerServicePerimeterSpec;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#status GoogleAccessContextManagerServicePerimeter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#status GoogleAccessContextManagerServicePerimeter#status}
   */
   readonly status?: GoogleAccessContextManagerServicePerimeterStatus;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#timeouts GoogleAccessContextManagerServicePerimeter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#timeouts GoogleAccessContextManagerServicePerimeter#timeouts}
   */
   readonly timeouts?: GoogleAccessContextManagerServicePerimeterTimeouts;
 }
@@ -117,7 +117,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   /**
   * An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
   */
   readonly accessLevel?: string;
   /**
@@ -128,7 +128,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * organization that the perimeter is defined in. '*' is not allowed, the
   * case of allowing all Google Cloud resources only is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
   */
   readonly resource?: string;
 }
@@ -136,7 +136,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_level: cdktn.stringToTerraform(struct!.accessLevel),
@@ -148,7 +148,7 @@ export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgre
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSourcesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_level: {
@@ -277,7 +277,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * Should be in the format of email address. The email address should
   * represent individual user or service account only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
   */
   readonly identities?: string[];
   /**
@@ -285,19 +285,19 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * perimeter. If left unspecified, then members of 'identities' field will
   * be allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
   */
   readonly identityType?: string;
   /**
   * Whether to enforce traffic restrictions based on 'sources' field. If the 'sources' field is non-empty, then this field must be set to 'SOURCE_RESTRICTION_ENABLED'. Possible values: ["SOURCE_RESTRICTION_UNSPECIFIED", "SOURCE_RESTRICTION_ENABLED", "SOURCE_RESTRICTION_DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#source_restriction GoogleAccessContextManagerServicePerimeter#source_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#source_restriction GoogleAccessContextManagerServicePerimeter#source_restriction}
   */
   readonly sourceRestriction?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
   */
   readonly sources?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromSources[] | cdktn.IResolvable;
 }
@@ -305,7 +305,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromOutputReference | GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     identities: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.identities),
@@ -319,7 +319,7 @@ export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgre
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFromOutputReference | GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     identities: {
@@ -472,14 +472,14 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * 'serviceName' in 'ApiOperation'. If '*' used as value for method,
   * then ALL methods and permissions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
   */
   readonly method?: string;
   /**
   * Value for permission should be a valid Cloud IAM permission for the
   * corresponding 'serviceName' in 'ApiOperation'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
   */
   readonly permission?: string;
 }
@@ -487,7 +487,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperationsMethodSelectorsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     method: cdktn.stringToTerraform(struct!.method),
@@ -499,7 +499,7 @@ export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgre
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperationsMethodSelectorsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     method: {
@@ -628,13 +628,13 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * 'EgressPolicy' want to allow. A single 'ApiOperation' with serviceName
   * field set to '*' will allow all methods AND permissions for all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
   */
   readonly serviceName?: string;
   /**
   * method_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
   */
   readonly methodSelectors?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperationsMethodSelectors[] | cdktn.IResolvable;
 }
@@ -642,7 +642,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperationsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     service_name: cdktn.stringToTerraform(struct!.serviceName),
@@ -654,7 +654,7 @@ export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgre
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperationsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     service_name: {
@@ -783,7 +783,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * matches if it contains an external resource in this list (Example:
   * s3://bucket/path). Currently '*' is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#external_resources GoogleAccessContextManagerServicePerimeter#external_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#external_resources GoogleAccessContextManagerServicePerimeter#external_resources}
   */
   readonly externalResources?: string[];
   /**
@@ -793,7 +793,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * then this 'EgressTo' rule will authorize access to all resources outside
   * the perimeter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
   */
   readonly resources?: string[];
   /**
@@ -801,13 +801,13 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
   * specified in the corresponding 'EgressFrom'
   * are allowed to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
   */
   readonly roles?: string[];
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
   */
   readonly operations?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOperations[] | cdktn.IResolvable;
 }
@@ -815,7 +815,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgr
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOutputReference | GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     external_resources: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.externalResources),
@@ -829,7 +829,7 @@ export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgre
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressToOutputReference | GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     external_resources: {
@@ -980,19 +980,19 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPolicies {
   /**
   * Human readable title. Must be unique within the perimeter. Does not affect behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
   */
   readonly title?: string;
   /**
   * egress_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#egress_from GoogleAccessContextManagerServicePerimeter#egress_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#egress_from GoogleAccessContextManagerServicePerimeter#egress_from}
   */
   readonly egressFrom?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressFrom;
   /**
   * egress_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#egress_to GoogleAccessContextManagerServicePerimeter#egress_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#egress_to GoogleAccessContextManagerServicePerimeter#egress_to}
   */
   readonly egressTo?: GoogleAccessContextManagerServicePerimeterSpecEgressPoliciesEgressTo;
 }
@@ -1000,7 +1000,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecEgressPolicies {
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     title: cdktn.stringToTerraform(struct!.title),
@@ -1013,7 +1013,7 @@ export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesToTe
 export function googleAccessContextManagerServicePerimeterSpecEgressPoliciesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecEgressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     title: {
@@ -1175,7 +1175,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * Example 'accessPolicies/MY_POLICY/accessLevels/MY_LEVEL.'
   * If * is specified, then all IngressSources will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
   */
   readonly accessLevel?: string;
   /**
@@ -1186,7 +1186,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * organization that the perimeter is defined in. '*' is not allowed, the case
   * of allowing all Google Cloud resources only is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
   */
   readonly resource?: string;
 }
@@ -1194,7 +1194,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromSourcesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_level: cdktn.stringToTerraform(struct!.accessLevel),
@@ -1206,7 +1206,7 @@ export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIng
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromSourcesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_level: {
@@ -1335,7 +1335,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * Should be in the format of email address. The email address should represent
   * individual user or service account only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
   */
   readonly identities?: string[];
   /**
@@ -1343,13 +1343,13 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * perimeter. If left unspecified, then members of 'identities' field will be
   * allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
   */
   readonly identityType?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
   */
   readonly sources?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromSources[] | cdktn.IResolvable;
 }
@@ -1357,7 +1357,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromOutputReference | GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     identities: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.identities),
@@ -1370,7 +1370,7 @@ export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIng
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFromOutputReference | GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     identities: {
@@ -1495,14 +1495,14 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * serviceName in 'ApiOperation'. If '*' used as value for 'method', then
   * ALL methods and permissions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
   */
   readonly method?: string;
   /**
   * Value for permission should be a valid Cloud IAM permission for the
   * corresponding 'serviceName' in 'ApiOperation'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
   */
   readonly permission?: string;
 }
@@ -1510,7 +1510,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperationsMethodSelectorsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     method: cdktn.stringToTerraform(struct!.method),
@@ -1522,7 +1522,7 @@ export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIng
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperationsMethodSelectorsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     method: {
@@ -1651,13 +1651,13 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * 'EgressPolicy' want to allow. A single 'ApiOperation' with 'serviceName'
   * field set to '*' will allow all methods AND permissions for all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
   */
   readonly serviceName?: string;
   /**
   * method_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
   */
   readonly methodSelectors?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperationsMethodSelectors[] | cdktn.IResolvable;
 }
@@ -1665,7 +1665,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperationsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     service_name: cdktn.stringToTerraform(struct!.serviceName),
@@ -1677,7 +1677,7 @@ export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIng
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperationsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     service_name: {
@@ -1811,7 +1811,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * resources inside the perimeter, provided that the request
   * also matches the 'operations' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
   */
   readonly resources?: string[];
   /**
@@ -1819,13 +1819,13 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
   * specified in the corresponding 'IngressFrom'
   * are allowed to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
   */
   readonly roles?: string[];
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
   */
   readonly operations?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOperations[] | cdktn.IResolvable;
 }
@@ -1833,7 +1833,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIn
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOutputReference | GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resources: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.resources),
@@ -1846,7 +1846,7 @@ export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIng
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressToOutputReference | GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resources: {
@@ -1969,19 +1969,19 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPolicies {
   /**
   * Human readable title. Must be unique within the perimeter. Does not affect behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
   */
   readonly title?: string;
   /**
   * ingress_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#ingress_from GoogleAccessContextManagerServicePerimeter#ingress_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#ingress_from GoogleAccessContextManagerServicePerimeter#ingress_from}
   */
   readonly ingressFrom?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressFrom;
   /**
   * ingress_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#ingress_to GoogleAccessContextManagerServicePerimeter#ingress_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#ingress_to GoogleAccessContextManagerServicePerimeter#ingress_to}
   */
   readonly ingressTo?: GoogleAccessContextManagerServicePerimeterSpecIngressPoliciesIngressTo;
 }
@@ -1989,7 +1989,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecIngressPolicies {
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     title: cdktn.stringToTerraform(struct!.title),
@@ -2002,7 +2002,7 @@ export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesToT
 export function googleAccessContextManagerServicePerimeterSpecIngressPoliciesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecIngressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     title: {
@@ -2158,14 +2158,14 @@ export interface GoogleAccessContextManagerServicePerimeterSpecVpcAccessibleServ
   * The list of APIs usable within the Service Perimeter.
   * Must be empty unless 'enableRestriction' is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#allowed_services GoogleAccessContextManagerServicePerimeter#allowed_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#allowed_services GoogleAccessContextManagerServicePerimeter#allowed_services}
   */
   readonly allowedServices?: string[];
   /**
   * Whether to restrict API calls within the Service Perimeter to the
   * list of APIs specified in 'allowedServices'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#enable_restriction GoogleAccessContextManagerServicePerimeter#enable_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#enable_restriction GoogleAccessContextManagerServicePerimeter#enable_restriction}
   */
   readonly enableRestriction?: boolean | cdktn.IResolvable;
 }
@@ -2173,7 +2173,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpecVpcAccessibleServ
 export function googleAccessContextManagerServicePerimeterSpecVpcAccessibleServicesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference | GoogleAccessContextManagerServicePerimeterSpecVpcAccessibleServices): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_services: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedServices),
@@ -2185,7 +2185,7 @@ export function googleAccessContextManagerServicePerimeterSpecVpcAccessibleServi
 export function googleAccessContextManagerServicePerimeterSpecVpcAccessibleServicesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecVpcAccessibleServicesOutputReference | GoogleAccessContextManagerServicePerimeterSpecVpcAccessibleServices): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_services: {
@@ -2289,7 +2289,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpec {
   * 
   * Format: accessPolicies/{policy_id}/accessLevels/{access_level_name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#access_levels GoogleAccessContextManagerServicePerimeter#access_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#access_levels GoogleAccessContextManagerServicePerimeter#access_levels}
   */
   readonly accessLevels?: string[];
   /**
@@ -2297,7 +2297,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpec {
   * Currently only projects are allowed.
   * Format: projects/{project_number}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
   */
   readonly resources?: string[];
   /**
@@ -2307,25 +2307,25 @@ export interface GoogleAccessContextManagerServicePerimeterSpec {
   * buckets inside the perimeter must meet the perimeter's access
   * restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#restricted_services GoogleAccessContextManagerServicePerimeter#restricted_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#restricted_services GoogleAccessContextManagerServicePerimeter#restricted_services}
   */
   readonly restrictedServices?: string[];
   /**
   * egress_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#egress_policies GoogleAccessContextManagerServicePerimeter#egress_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#egress_policies GoogleAccessContextManagerServicePerimeter#egress_policies}
   */
   readonly egressPolicies?: GoogleAccessContextManagerServicePerimeterSpecEgressPolicies[] | cdktn.IResolvable;
   /**
   * ingress_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#ingress_policies GoogleAccessContextManagerServicePerimeter#ingress_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#ingress_policies GoogleAccessContextManagerServicePerimeter#ingress_policies}
   */
   readonly ingressPolicies?: GoogleAccessContextManagerServicePerimeterSpecIngressPolicies[] | cdktn.IResolvable;
   /**
   * vpc_accessible_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#vpc_accessible_services GoogleAccessContextManagerServicePerimeter#vpc_accessible_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#vpc_accessible_services GoogleAccessContextManagerServicePerimeter#vpc_accessible_services}
   */
   readonly vpcAccessibleServices?: GoogleAccessContextManagerServicePerimeterSpecVpcAccessibleServices;
 }
@@ -2333,7 +2333,7 @@ export interface GoogleAccessContextManagerServicePerimeterSpec {
 export function googleAccessContextManagerServicePerimeterSpecToTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecOutputReference | GoogleAccessContextManagerServicePerimeterSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_levels: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.accessLevels),
@@ -2349,7 +2349,7 @@ export function googleAccessContextManagerServicePerimeterSpecToTerraform(struct
 export function googleAccessContextManagerServicePerimeterSpecToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterSpecOutputReference | GoogleAccessContextManagerServicePerimeterSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_levels: {
@@ -2556,7 +2556,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   /**
   * An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
   */
   readonly accessLevel?: string;
   /**
@@ -2567,7 +2567,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * organization that the perimeter is defined in. '*' is not allowed, the
   * case of allowing all Google Cloud resources only is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
   */
   readonly resource?: string;
 }
@@ -2575,7 +2575,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromSourcesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_level: cdktn.stringToTerraform(struct!.accessLevel),
@@ -2587,7 +2587,7 @@ export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEg
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromSourcesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_level: {
@@ -2718,7 +2718,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * that have the prefix user, group and serviceAccount in
   * https://cloud.google.com/iam/docs/principal-identifiers#v1 are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
   */
   readonly identities?: string[];
   /**
@@ -2726,19 +2726,19 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * perimeter. If left unspecified, then members of 'identities' field will
   * be allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
   */
   readonly identityType?: string;
   /**
   * Whether to enforce traffic restrictions based on 'sources' field. If the 'sources' field is non-empty, then this field must be set to 'SOURCE_RESTRICTION_ENABLED'. Possible values: ["SOURCE_RESTRICTION_UNSPECIFIED", "SOURCE_RESTRICTION_ENABLED", "SOURCE_RESTRICTION_DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#source_restriction GoogleAccessContextManagerServicePerimeter#source_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#source_restriction GoogleAccessContextManagerServicePerimeter#source_restriction}
   */
   readonly sourceRestriction?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
   */
   readonly sources?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromSources[] | cdktn.IResolvable;
 }
@@ -2746,7 +2746,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromOutputReference | GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     identities: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.identities),
@@ -2760,7 +2760,7 @@ export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEg
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFromOutputReference | GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     identities: {
@@ -2913,14 +2913,14 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * 'serviceName' in 'ApiOperation'. If '*' used as value for method,
   * then ALL methods and permissions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
   */
   readonly method?: string;
   /**
   * Value for permission should be a valid Cloud IAM permission for the
   * corresponding 'serviceName' in 'ApiOperation'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
   */
   readonly permission?: string;
 }
@@ -2928,7 +2928,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperationsMethodSelectorsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     method: cdktn.stringToTerraform(struct!.method),
@@ -2940,7 +2940,7 @@ export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEg
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperationsMethodSelectorsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     method: {
@@ -3069,13 +3069,13 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * 'EgressPolicy' want to allow. A single 'ApiOperation' with serviceName
   * field set to '*' will allow all methods AND permissions for all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
   */
   readonly serviceName?: string;
   /**
   * method_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
   */
   readonly methodSelectors?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperationsMethodSelectors[] | cdktn.IResolvable;
 }
@@ -3083,7 +3083,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperationsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     service_name: cdktn.stringToTerraform(struct!.serviceName),
@@ -3095,7 +3095,7 @@ export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEg
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperationsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     service_name: {
@@ -3224,7 +3224,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * matches if it contains an external resource in this list (Example:
   * s3://bucket/path). Currently '*' is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#external_resources GoogleAccessContextManagerServicePerimeter#external_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#external_resources GoogleAccessContextManagerServicePerimeter#external_resources}
   */
   readonly externalResources?: string[];
   /**
@@ -3234,7 +3234,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * then this 'EgressTo' rule will authorize access to all resources outside
   * the perimeter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
   */
   readonly resources?: string[];
   /**
@@ -3242,13 +3242,13 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
   * specified in the corresponding 'EgressFrom'
   * are allowed to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
   */
   readonly roles?: string[];
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
   */
   readonly operations?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOperations[] | cdktn.IResolvable;
 }
@@ -3256,7 +3256,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesE
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOutputReference | GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     external_resources: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.externalResources),
@@ -3270,7 +3270,7 @@ export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEg
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressToOutputReference | GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     external_resources: {
@@ -3421,19 +3421,19 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPolicies 
   /**
   * Human readable title. Must be unique within the perimeter. Does not affect behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
   */
   readonly title?: string;
   /**
   * egress_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#egress_from GoogleAccessContextManagerServicePerimeter#egress_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#egress_from GoogleAccessContextManagerServicePerimeter#egress_from}
   */
   readonly egressFrom?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressFrom;
   /**
   * egress_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#egress_to GoogleAccessContextManagerServicePerimeter#egress_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#egress_to GoogleAccessContextManagerServicePerimeter#egress_to}
   */
   readonly egressTo?: GoogleAccessContextManagerServicePerimeterStatusEgressPoliciesEgressTo;
 }
@@ -3441,7 +3441,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusEgressPolicies 
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     title: cdktn.stringToTerraform(struct!.title),
@@ -3454,7 +3454,7 @@ export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesTo
 export function googleAccessContextManagerServicePerimeterStatusEgressPoliciesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusEgressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     title: {
@@ -3616,7 +3616,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * Example 'accessPolicies/MY_POLICY/accessLevels/MY_LEVEL.'
   * If * is specified, then all IngressSources will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#access_level GoogleAccessContextManagerServicePerimeter#access_level}
   */
   readonly accessLevel?: string;
   /**
@@ -3630,7 +3630,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * organization that the perimeter is defined in. '*' is not allowed, the case
   * of allowing all Google Cloud resources only is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resource GoogleAccessContextManagerServicePerimeter#resource}
   */
   readonly resource?: string;
 }
@@ -3638,7 +3638,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_level: cdktn.stringToTerraform(struct!.accessLevel),
@@ -3650,7 +3650,7 @@ export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesI
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSourcesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSources | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_level: {
@@ -3781,7 +3781,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * that have the prefix user, group and serviceAccount in
   * https://cloud.google.com/iam/docs/principal-identifiers#v1 are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identities GoogleAccessContextManagerServicePerimeter#identities}
   */
   readonly identities?: string[];
   /**
@@ -3789,13 +3789,13 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * perimeter. If left unspecified, then members of 'identities' field will be
   * allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#identity_type GoogleAccessContextManagerServicePerimeter#identity_type}
   */
   readonly identityType?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#sources GoogleAccessContextManagerServicePerimeter#sources}
   */
   readonly sources?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromSources[] | cdktn.IResolvable;
 }
@@ -3803,7 +3803,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromOutputReference | GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     identities: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.identities),
@@ -3816,7 +3816,7 @@ export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesI
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFromOutputReference | GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFrom): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     identities: {
@@ -3941,14 +3941,14 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * serviceName in 'ApiOperation'. If '*' used as value for 'method', then
   * ALL methods and permissions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method GoogleAccessContextManagerServicePerimeter#method}
   */
   readonly method?: string;
   /**
   * Value for permission should be a valid Cloud IAM permission for the
   * corresponding 'serviceName' in 'ApiOperation'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#permission GoogleAccessContextManagerServicePerimeter#permission}
   */
   readonly permission?: string;
 }
@@ -3956,7 +3956,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperationsMethodSelectorsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     method: cdktn.stringToTerraform(struct!.method),
@@ -3968,7 +3968,7 @@ export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesI
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperationsMethodSelectorsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperationsMethodSelectors | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     method: {
@@ -4097,13 +4097,13 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * 'EgressPolicy' want to allow. A single 'ApiOperation' with 'serviceName'
   * field set to '*' will allow all methods AND permissions for all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#service_name GoogleAccessContextManagerServicePerimeter#service_name}
   */
   readonly serviceName?: string;
   /**
   * method_selectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#method_selectors GoogleAccessContextManagerServicePerimeter#method_selectors}
   */
   readonly methodSelectors?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperationsMethodSelectors[] | cdktn.IResolvable;
 }
@@ -4111,7 +4111,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperationsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     service_name: cdktn.stringToTerraform(struct!.serviceName),
@@ -4123,7 +4123,7 @@ export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesI
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperationsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     service_name: {
@@ -4257,7 +4257,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * resources inside the perimeter, provided that the request
   * also matches the 'operations' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
   */
   readonly resources?: string[];
   /**
@@ -4265,13 +4265,13 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   * specified in the corresponding 'IngressFrom'
   * are allowed to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#roles GoogleAccessContextManagerServicePerimeter#roles}
   */
   readonly roles?: string[];
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#operations GoogleAccessContextManagerServicePerimeter#operations}
   */
   readonly operations?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOperations[] | cdktn.IResolvable;
 }
@@ -4279,7 +4279,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOutputReference | GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resources: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.resources),
@@ -4292,7 +4292,7 @@ export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesI
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressToOutputReference | GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressTo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resources: {
@@ -4415,19 +4415,19 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
   /**
   * Human readable title. Must be unique within the perimeter. Does not affect behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#title GoogleAccessContextManagerServicePerimeter#title}
   */
   readonly title?: string;
   /**
   * ingress_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#ingress_from GoogleAccessContextManagerServicePerimeter#ingress_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#ingress_from GoogleAccessContextManagerServicePerimeter#ingress_from}
   */
   readonly ingressFrom?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressFrom;
   /**
   * ingress_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#ingress_to GoogleAccessContextManagerServicePerimeter#ingress_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#ingress_to GoogleAccessContextManagerServicePerimeter#ingress_to}
   */
   readonly ingressTo?: GoogleAccessContextManagerServicePerimeterStatusIngressPoliciesIngressTo;
 }
@@ -4435,7 +4435,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusIngressPolicies
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     title: cdktn.stringToTerraform(struct!.title),
@@ -4448,7 +4448,7 @@ export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesT
 export function googleAccessContextManagerServicePerimeterStatusIngressPoliciesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusIngressPolicies | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     title: {
@@ -4604,14 +4604,14 @@ export interface GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleSe
   * The list of APIs usable within the Service Perimeter.
   * Must be empty unless 'enableRestriction' is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#allowed_services GoogleAccessContextManagerServicePerimeter#allowed_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#allowed_services GoogleAccessContextManagerServicePerimeter#allowed_services}
   */
   readonly allowedServices?: string[];
   /**
   * Whether to restrict API calls within the Service Perimeter to the
   * list of APIs specified in 'allowedServices'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#enable_restriction GoogleAccessContextManagerServicePerimeter#enable_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#enable_restriction GoogleAccessContextManagerServicePerimeter#enable_restriction}
   */
   readonly enableRestriction?: boolean | cdktn.IResolvable;
 }
@@ -4619,7 +4619,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleSe
 export function googleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference | GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServices): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_services: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedServices),
@@ -4631,7 +4631,7 @@ export function googleAccessContextManagerServicePerimeterStatusVpcAccessibleSer
 export function googleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference | GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServices): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_services: {
@@ -4735,7 +4735,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatus {
   * 
   * Format: accessPolicies/{policy_id}/accessLevels/{access_level_name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#access_levels GoogleAccessContextManagerServicePerimeter#access_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#access_levels GoogleAccessContextManagerServicePerimeter#access_levels}
   */
   readonly accessLevels?: string[];
   /**
@@ -4743,7 +4743,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatus {
   * Currently only projects are allowed.
   * Format: projects/{project_number}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#resources GoogleAccessContextManagerServicePerimeter#resources}
   */
   readonly resources?: string[];
   /**
@@ -4753,25 +4753,25 @@ export interface GoogleAccessContextManagerServicePerimeterStatus {
   * buckets inside the perimeter must meet the perimeter's access
   * restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#restricted_services GoogleAccessContextManagerServicePerimeter#restricted_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#restricted_services GoogleAccessContextManagerServicePerimeter#restricted_services}
   */
   readonly restrictedServices?: string[];
   /**
   * egress_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#egress_policies GoogleAccessContextManagerServicePerimeter#egress_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#egress_policies GoogleAccessContextManagerServicePerimeter#egress_policies}
   */
   readonly egressPolicies?: GoogleAccessContextManagerServicePerimeterStatusEgressPolicies[] | cdktn.IResolvable;
   /**
   * ingress_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#ingress_policies GoogleAccessContextManagerServicePerimeter#ingress_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#ingress_policies GoogleAccessContextManagerServicePerimeter#ingress_policies}
   */
   readonly ingressPolicies?: GoogleAccessContextManagerServicePerimeterStatusIngressPolicies[] | cdktn.IResolvable;
   /**
   * vpc_accessible_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#vpc_accessible_services GoogleAccessContextManagerServicePerimeter#vpc_accessible_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#vpc_accessible_services GoogleAccessContextManagerServicePerimeter#vpc_accessible_services}
   */
   readonly vpcAccessibleServices?: GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServices;
 }
@@ -4779,7 +4779,7 @@ export interface GoogleAccessContextManagerServicePerimeterStatus {
 export function googleAccessContextManagerServicePerimeterStatusToTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusOutputReference | GoogleAccessContextManagerServicePerimeterStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_levels: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.accessLevels),
@@ -4795,7 +4795,7 @@ export function googleAccessContextManagerServicePerimeterStatusToTerraform(stru
 export function googleAccessContextManagerServicePerimeterStatusToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterStatusOutputReference | GoogleAccessContextManagerServicePerimeterStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_levels: {
@@ -5000,15 +5000,15 @@ export class GoogleAccessContextManagerServicePerimeterStatusOutputReference ext
 }
 export interface GoogleAccessContextManagerServicePerimeterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#create GoogleAccessContextManagerServicePerimeter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#create GoogleAccessContextManagerServicePerimeter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#delete GoogleAccessContextManagerServicePerimeter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#delete GoogleAccessContextManagerServicePerimeter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#update GoogleAccessContextManagerServicePerimeter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#update GoogleAccessContextManagerServicePerimeter#update}
   */
   readonly update?: string;
 }
@@ -5016,7 +5016,7 @@ export interface GoogleAccessContextManagerServicePerimeterTimeouts {
 export function googleAccessContextManagerServicePerimeterTimeoutsToTerraform(struct?: GoogleAccessContextManagerServicePerimeterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -5029,7 +5029,7 @@ export function googleAccessContextManagerServicePerimeterTimeoutsToTerraform(st
 export function googleAccessContextManagerServicePerimeterTimeoutsToHclTerraform(struct?: GoogleAccessContextManagerServicePerimeterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -5160,7 +5160,7 @@ export class GoogleAccessContextManagerServicePerimeterTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter}
 */
 export class GoogleAccessContextManagerServicePerimeter extends cdktn.TerraformResource {
 
@@ -5176,7 +5176,7 @@ export class GoogleAccessContextManagerServicePerimeter extends cdktn.TerraformR
   * Generates CDKTN code for importing a GoogleAccessContextManagerServicePerimeter resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAccessContextManagerServicePerimeter to import
-  * @param importFromId The id of the existing GoogleAccessContextManagerServicePerimeter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleAccessContextManagerServicePerimeter that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAccessContextManagerServicePerimeter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5188,7 +5188,7 @@ export class GoogleAccessContextManagerServicePerimeter extends cdktn.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5199,7 +5199,7 @@ export class GoogleAccessContextManagerServicePerimeter extends cdktn.TerraformR
       terraformResourceType: 'google_access_context_manager_service_perimeter',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

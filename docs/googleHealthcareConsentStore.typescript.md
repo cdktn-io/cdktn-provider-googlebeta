@@ -4,7 +4,7 @@
 
 ### GoogleHealthcareConsentStore <a name="GoogleHealthcareConsentStore" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStore.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleHealthcareConsentSto
 
 The id of the existing GoogleHealthcareConsentStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -963,7 +963,7 @@ const googleHealthcareConsentStoreConfig: googleHealthcareConsentStore.GoogleHea
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.property.defaultConsentTtl">defaultConsentTtl</a></code> | <code>string</code> | Default time to live for consents in this store. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.property.enableConsentCreateOnUpdate">enableConsentCreateOnUpdate</a></code> | <code>boolean \| cdktn.IResolvable</code> | If true, [consents.patch] [google.cloud.healthcare.v1.consent.UpdateConsent] creates the consent if it does not already exist. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#id GoogleHealthcareConsentStore#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#id GoogleHealthcareConsentStore#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | User-supplied key-value pairs used to organize Consent stores. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts">GoogleHealthcareConsentStoreTimeouts</a></code> | timeouts block. |
 
@@ -1049,7 +1049,7 @@ public readonly dataset: string;
 
 Identifies the dataset addressed by this request. Must be in the format 'projects/{project}/locations/{location}/datasets/{dataset}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#dataset GoogleHealthcareConsentStore#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#dataset GoogleHealthcareConsentStore#dataset}
 
 ---
 
@@ -1063,7 +1063,7 @@ public readonly name: string;
 
 The name of this ConsentStore, for example: "consent1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#name GoogleHealthcareConsentStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#name GoogleHealthcareConsentStore#name}
 
 ---
 
@@ -1081,7 +1081,7 @@ Must be at least 24 hours. Updating this field will not affect the expiration ti
 
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#default_consent_ttl GoogleHealthcareConsentStore#default_consent_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#default_consent_ttl GoogleHealthcareConsentStore#default_consent_ttl}
 
 ---
 
@@ -1103,7 +1103,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#deletion_policy GoogleHealthcareConsentStore#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#deletion_policy GoogleHealthcareConsentStore#deletion_policy}
 
 ---
 
@@ -1117,7 +1117,7 @@ public readonly enableConsentCreateOnUpdate: boolean | IResolvable;
 
 If true, [consents.patch] [google.cloud.healthcare.v1.consent.UpdateConsent] creates the consent if it does not already exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#enable_consent_create_on_update GoogleHealthcareConsentStore#enable_consent_create_on_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#enable_consent_create_on_update GoogleHealthcareConsentStore#enable_consent_create_on_update}
 
 ---
 
@@ -1129,7 +1129,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#id GoogleHealthcareConsentStore#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#id GoogleHealthcareConsentStore#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1161,7 +1161,7 @@ Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#labels GoogleHealthcareConsentStore#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#labels GoogleHealthcareConsentStore#labels}
 
 ---
 
@@ -1175,7 +1175,7 @@ public readonly timeouts: GoogleHealthcareConsentStoreTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#timeouts GoogleHealthcareConsentStore#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#timeouts GoogleHealthcareConsentStore#timeouts}
 
 ---
 
@@ -1193,9 +1193,9 @@ const googleHealthcareConsentStoreTimeouts: googleHealthcareConsentStore.GoogleH
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#create GoogleHealthcareConsentStore#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#delete GoogleHealthcareConsentStore#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#update GoogleHealthcareConsentStore#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#create GoogleHealthcareConsentStore#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#delete GoogleHealthcareConsentStore#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareConsentStore.GoogleHealthcareConsentStoreTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#update GoogleHealthcareConsentStore#update}. |
 
 ---
 
@@ -1207,7 +1207,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#create GoogleHealthcareConsentStore#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#create GoogleHealthcareConsentStore#create}.
 
 ---
 
@@ -1219,7 +1219,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#delete GoogleHealthcareConsentStore#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#delete GoogleHealthcareConsentStore#delete}.
 
 ---
 
@@ -1231,7 +1231,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_healthcare_consent_store#update GoogleHealthcareConsentStore#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_healthcare_consent_store#update GoogleHealthcareConsentStore#update}.
 
 ---
 

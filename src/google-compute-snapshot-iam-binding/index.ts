@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,46 +13,46 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleComputeSnapshotIamBindingConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#id GoogleComputeSnapshotIamBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#id GoogleComputeSnapshotIamBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#members GoogleComputeSnapshotIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#members GoogleComputeSnapshotIamBinding#members}
   */
   readonly members: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#name GoogleComputeSnapshotIamBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#name GoogleComputeSnapshotIamBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#project GoogleComputeSnapshotIamBinding#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#project GoogleComputeSnapshotIamBinding#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#role GoogleComputeSnapshotIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#role GoogleComputeSnapshotIamBinding#role}
   */
   readonly role: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#condition GoogleComputeSnapshotIamBinding#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#condition GoogleComputeSnapshotIamBinding#condition}
   */
   readonly condition?: GoogleComputeSnapshotIamBindingCondition;
 }
 export interface GoogleComputeSnapshotIamBindingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#description GoogleComputeSnapshotIamBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#description GoogleComputeSnapshotIamBinding#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#expression GoogleComputeSnapshotIamBinding#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#expression GoogleComputeSnapshotIamBinding#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#title GoogleComputeSnapshotIamBinding#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#title GoogleComputeSnapshotIamBinding#title}
   */
   readonly title: string;
 }
@@ -60,7 +60,7 @@ export interface GoogleComputeSnapshotIamBindingCondition {
 export function googleComputeSnapshotIamBindingConditionToTerraform(struct?: GoogleComputeSnapshotIamBindingConditionOutputReference | GoogleComputeSnapshotIamBindingCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -73,7 +73,7 @@ export function googleComputeSnapshotIamBindingConditionToTerraform(struct?: Goo
 export function googleComputeSnapshotIamBindingConditionToHclTerraform(struct?: GoogleComputeSnapshotIamBindingConditionOutputReference | GoogleComputeSnapshotIamBindingCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -188,7 +188,7 @@ export class GoogleComputeSnapshotIamBindingConditionOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding google_compute_snapshot_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding google_compute_snapshot_iam_binding}
 */
 export class GoogleComputeSnapshotIamBinding extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class GoogleComputeSnapshotIamBinding extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeSnapshotIamBinding resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeSnapshotIamBinding to import
-  * @param importFromId The id of the existing GoogleComputeSnapshotIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeSnapshotIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeSnapshotIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class GoogleComputeSnapshotIamBinding extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_snapshot_iam_binding google_compute_snapshot_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_snapshot_iam_binding google_compute_snapshot_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class GoogleComputeSnapshotIamBinding extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_snapshot_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

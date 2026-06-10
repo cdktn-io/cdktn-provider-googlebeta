@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteConfig extends cdktn.T
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#deletion_policy GoogleNetworkConnectivityPolicyBasedRoute#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#deletion_policy GoogleNetworkConnectivityPolicyBasedRoute#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#description GoogleNetworkConnectivityPolicyBasedRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#description GoogleNetworkConnectivityPolicyBasedRoute#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#id GoogleNetworkConnectivityPolicyBasedRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#id GoogleNetworkConnectivityPolicyBasedRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,65 +44,65 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteConfig extends cdktn.T
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#labels GoogleNetworkConnectivityPolicyBasedRoute#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#labels GoogleNetworkConnectivityPolicyBasedRoute#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the policy based route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#name GoogleNetworkConnectivityPolicyBasedRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#name GoogleNetworkConnectivityPolicyBasedRoute#name}
   */
   readonly name: string;
   /**
   * Fully-qualified URL of the network that this route applies to, for example: projects/my-project/global/networks/my-network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#network GoogleNetworkConnectivityPolicyBasedRoute#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#network GoogleNetworkConnectivityPolicyBasedRoute#network}
   */
   readonly network: string;
   /**
   * The IP address of a global-access-enabled L4 ILB that is the next hop for matching packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#next_hop_ilb_ip GoogleNetworkConnectivityPolicyBasedRoute#next_hop_ilb_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#next_hop_ilb_ip GoogleNetworkConnectivityPolicyBasedRoute#next_hop_ilb_ip}
   */
   readonly nextHopIlbIp?: string;
   /**
   * Other routes that will be referenced to determine the next hop of the packet. Possible values: ["DEFAULT_ROUTING"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#next_hop_other_routes GoogleNetworkConnectivityPolicyBasedRoute#next_hop_other_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#next_hop_other_routes GoogleNetworkConnectivityPolicyBasedRoute#next_hop_other_routes}
   */
   readonly nextHopOtherRoutes?: string;
   /**
   * The priority of this policy-based route. Priority is used to break ties in cases where there are more than one matching policy-based routes found. In cases where multiple policy-based routes are matched, the one with the lowest-numbered priority value wins. The default value is 1000. The priority value must be from 1 to 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#priority GoogleNetworkConnectivityPolicyBasedRoute#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#priority GoogleNetworkConnectivityPolicyBasedRoute#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#project GoogleNetworkConnectivityPolicyBasedRoute#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#project GoogleNetworkConnectivityPolicyBasedRoute#project}
   */
   readonly project?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#filter GoogleNetworkConnectivityPolicyBasedRoute#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#filter GoogleNetworkConnectivityPolicyBasedRoute#filter}
   */
   readonly filter: GoogleNetworkConnectivityPolicyBasedRouteFilter;
   /**
   * interconnect_attachment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#interconnect_attachment GoogleNetworkConnectivityPolicyBasedRoute#interconnect_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#interconnect_attachment GoogleNetworkConnectivityPolicyBasedRoute#interconnect_attachment}
   */
   readonly interconnectAttachment?: GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#timeouts GoogleNetworkConnectivityPolicyBasedRoute#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#timeouts GoogleNetworkConnectivityPolicyBasedRoute#timeouts}
   */
   readonly timeouts?: GoogleNetworkConnectivityPolicyBasedRouteTimeouts;
   /**
   * virtual_machine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#virtual_machine GoogleNetworkConnectivityPolicyBasedRoute#virtual_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#virtual_machine GoogleNetworkConnectivityPolicyBasedRoute#virtual_machine}
   */
   readonly virtualMachine?: GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine;
 }
@@ -112,7 +112,7 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteWarnings {
 export function googleNetworkConnectivityPolicyBasedRouteWarningsToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteWarnings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -122,7 +122,7 @@ export function googleNetworkConnectivityPolicyBasedRouteWarningsToTerraform(str
 export function googleNetworkConnectivityPolicyBasedRouteWarningsToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteWarnings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -196,25 +196,25 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteFilter {
   /**
   * The destination IP range of outgoing packets that this policy-based route applies to. Default is "0.0.0.0/0".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#dest_range GoogleNetworkConnectivityPolicyBasedRoute#dest_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#dest_range GoogleNetworkConnectivityPolicyBasedRoute#dest_range}
   */
   readonly destRange?: string;
   /**
   * The IP protocol that this policy-based route applies to. Valid values are 'TCP', 'UDP', and 'ALL'. Default is 'ALL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#ip_protocol GoogleNetworkConnectivityPolicyBasedRoute#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#ip_protocol GoogleNetworkConnectivityPolicyBasedRoute#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
   * Internet protocol versions this policy-based route applies to. Possible values: ["IPV4", "IPV6"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#protocol_version GoogleNetworkConnectivityPolicyBasedRoute#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#protocol_version GoogleNetworkConnectivityPolicyBasedRoute#protocol_version}
   */
   readonly protocolVersion: string;
   /**
   * The source IP range of outgoing packets that this policy-based route applies to. Default is "0.0.0.0/0".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#src_range GoogleNetworkConnectivityPolicyBasedRoute#src_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#src_range GoogleNetworkConnectivityPolicyBasedRoute#src_range}
   */
   readonly srcRange?: string;
 }
@@ -222,7 +222,7 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteFilter {
 export function googleNetworkConnectivityPolicyBasedRouteFilterToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteFilterOutputReference | GoogleNetworkConnectivityPolicyBasedRouteFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dest_range: cdktn.stringToTerraform(struct!.destRange),
@@ -236,7 +236,7 @@ export function googleNetworkConnectivityPolicyBasedRouteFilterToTerraform(struc
 export function googleNetworkConnectivityPolicyBasedRouteFilterToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteFilterOutputReference | GoogleNetworkConnectivityPolicyBasedRouteFilter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dest_range: {
@@ -384,7 +384,7 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment
   /**
   * Cloud region to install this policy-based route on for Interconnect attachments. Use 'all' to install it on all Interconnect attachments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#region GoogleNetworkConnectivityPolicyBasedRoute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#region GoogleNetworkConnectivityPolicyBasedRoute#region}
   */
   readonly region: string;
 }
@@ -392,7 +392,7 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment
 export function googleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference | GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     region: cdktn.stringToTerraform(struct!.region),
@@ -403,7 +403,7 @@ export function googleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentT
 export function googleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutputReference | GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     region: {
@@ -465,15 +465,15 @@ export class GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachmentOutp
 }
 export interface GoogleNetworkConnectivityPolicyBasedRouteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#create GoogleNetworkConnectivityPolicyBasedRoute#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#create GoogleNetworkConnectivityPolicyBasedRoute#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#delete GoogleNetworkConnectivityPolicyBasedRoute#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#delete GoogleNetworkConnectivityPolicyBasedRoute#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#update GoogleNetworkConnectivityPolicyBasedRoute#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#update GoogleNetworkConnectivityPolicyBasedRoute#update}
   */
   readonly update?: string;
 }
@@ -481,7 +481,7 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteTimeouts {
 export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -494,7 +494,7 @@ export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToTerraform(str
 export function googleNetworkConnectivityPolicyBasedRouteTimeoutsToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -627,7 +627,7 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine {
   /**
   * A list of VM instance tags that this policy-based route applies to. VM instances that have ANY of tags specified here will install this PBR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#tags GoogleNetworkConnectivityPolicyBasedRoute#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#tags GoogleNetworkConnectivityPolicyBasedRoute#tags}
   */
   readonly tags: string[];
 }
@@ -635,7 +635,7 @@ export interface GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine {
 export function googleNetworkConnectivityPolicyBasedRouteVirtualMachineToTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference | GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     tags: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.tags),
@@ -646,7 +646,7 @@ export function googleNetworkConnectivityPolicyBasedRouteVirtualMachineToTerrafo
 export function googleNetworkConnectivityPolicyBasedRouteVirtualMachineToHclTerraform(struct?: GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference | GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     tags: {
@@ -708,7 +708,7 @@ export class GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}
 */
 export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktn.TerraformResource {
 
@@ -724,7 +724,7 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktn.TerraformRe
   * Generates CDKTN code for importing a GoogleNetworkConnectivityPolicyBasedRoute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkConnectivityPolicyBasedRoute to import
-  * @param importFromId The id of the existing GoogleNetworkConnectivityPolicyBasedRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkConnectivityPolicyBasedRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkConnectivityPolicyBasedRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -736,7 +736,7 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktn.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -747,7 +747,7 @@ export class GoogleNetworkConnectivityPolicyBasedRoute extends cdktn.TerraformRe
       terraformResourceType: 'google_network_connectivity_policy_based_route',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

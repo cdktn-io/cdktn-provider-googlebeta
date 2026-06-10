@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileConfig extends c
   /**
   * The ID of the connection profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#connection_profile_id GoogleDatabaseMigrationServiceConnectionProfile#connection_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#connection_profile_id GoogleDatabaseMigrationServiceConnectionProfile#connection_profile_id}
   */
   readonly connectionProfileId: string;
   /**
@@ -27,17 +27,17 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileConfig extends c
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#deletion_policy GoogleDatabaseMigrationServiceConnectionProfile#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#deletion_policy GoogleDatabaseMigrationServiceConnectionProfile#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The connection profile display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#display_name GoogleDatabaseMigrationServiceConnectionProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#display_name GoogleDatabaseMigrationServiceConnectionProfile#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#id GoogleDatabaseMigrationServiceConnectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#id GoogleDatabaseMigrationServiceConnectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,59 +50,59 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileConfig extends c
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#labels GoogleDatabaseMigrationServiceConnectionProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#labels GoogleDatabaseMigrationServiceConnectionProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location where the connection profile should reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#location GoogleDatabaseMigrationServiceConnectionProfile#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#location GoogleDatabaseMigrationServiceConnectionProfile#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#project GoogleDatabaseMigrationServiceConnectionProfile#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#project GoogleDatabaseMigrationServiceConnectionProfile#project}
   */
   readonly project?: string;
   /**
   * The connection profile role. Possible values: ["SOURCE", "DESTINATION"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#role GoogleDatabaseMigrationServiceConnectionProfile#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#role GoogleDatabaseMigrationServiceConnectionProfile#role}
   */
   readonly role?: string;
   /**
   * alloydb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#alloydb GoogleDatabaseMigrationServiceConnectionProfile#alloydb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#alloydb GoogleDatabaseMigrationServiceConnectionProfile#alloydb}
   */
   readonly alloydb?: GoogleDatabaseMigrationServiceConnectionProfileAlloydb;
   /**
   * cloudsql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#cloudsql GoogleDatabaseMigrationServiceConnectionProfile#cloudsql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#cloudsql GoogleDatabaseMigrationServiceConnectionProfile#cloudsql}
   */
   readonly cloudsql?: GoogleDatabaseMigrationServiceConnectionProfileCloudsql;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#mysql GoogleDatabaseMigrationServiceConnectionProfile#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#mysql GoogleDatabaseMigrationServiceConnectionProfile#mysql}
   */
   readonly mysql?: GoogleDatabaseMigrationServiceConnectionProfileMysql;
   /**
   * oracle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#oracle GoogleDatabaseMigrationServiceConnectionProfile#oracle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#oracle GoogleDatabaseMigrationServiceConnectionProfile#oracle}
   */
   readonly oracle?: GoogleDatabaseMigrationServiceConnectionProfileOracle;
   /**
   * postgresql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#postgresql GoogleDatabaseMigrationServiceConnectionProfile#postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#postgresql GoogleDatabaseMigrationServiceConnectionProfile#postgresql}
   */
   readonly postgresql?: GoogleDatabaseMigrationServiceConnectionProfilePostgresql;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#timeouts GoogleDatabaseMigrationServiceConnectionProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#timeouts GoogleDatabaseMigrationServiceConnectionProfile#timeouts}
   */
   readonly timeouts?: GoogleDatabaseMigrationServiceConnectionProfileTimeouts;
 }
@@ -112,7 +112,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileError {
 export function googleDatabaseMigrationServiceConnectionProfileErrorToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -122,7 +122,7 @@ export function googleDatabaseMigrationServiceConnectionProfileErrorToTerraform(
 export function googleDatabaseMigrationServiceConnectionProfileErrorToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -196,13 +196,13 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsI
   /**
   * The initial password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
   */
   readonly password: string;
   /**
   * The database username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#user GoogleDatabaseMigrationServiceConnectionProfile#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#user GoogleDatabaseMigrationServiceConnectionProfile#user}
   */
   readonly user: string;
 }
@@ -210,7 +210,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsI
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUserToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUserOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUser): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     password: cdktn.stringToTerraform(struct!.password),
@@ -222,7 +222,7 @@ export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsIn
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUserToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUserOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUser): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     password: {
@@ -316,7 +316,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsP
   /**
   * The number of CPU's in the VM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#cpu_count GoogleDatabaseMigrationServiceConnectionProfile#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#cpu_count GoogleDatabaseMigrationServiceConnectionProfile#cpu_count}
   */
   readonly cpuCount: number;
 }
@@ -324,7 +324,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsP
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfigToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfigOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cpu_count: cdktn.numberToTerraform(struct!.cpuCount),
@@ -335,7 +335,7 @@ export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPr
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfigToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfigOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cpu_count: {
@@ -399,13 +399,13 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsP
   /**
   * Database flags to pass to AlloyDB when DMS is creating the AlloyDB cluster and instances. See the AlloyDB documentation for how these can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#database_flags GoogleDatabaseMigrationServiceConnectionProfile#database_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#database_flags GoogleDatabaseMigrationServiceConnectionProfile#database_flags}
   */
   readonly databaseFlags?: { [key: string]: string };
   /**
   * The database username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#id GoogleDatabaseMigrationServiceConnectionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#id GoogleDatabaseMigrationServiceConnectionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -414,13 +414,13 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsP
   /**
   * Labels for the AlloyDB primary instance created by DMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#labels GoogleDatabaseMigrationServiceConnectionProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#labels GoogleDatabaseMigrationServiceConnectionProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * machine_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#machine_config GoogleDatabaseMigrationServiceConnectionProfile#machine_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#machine_config GoogleDatabaseMigrationServiceConnectionProfile#machine_config}
   */
   readonly machineConfig: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsMachineConfig;
 }
@@ -428,7 +428,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsP
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database_flags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.databaseFlags),
@@ -442,7 +442,7 @@ export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPr
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettingsOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database_flags: {
@@ -592,26 +592,26 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings 
   /**
   * Labels for the AlloyDB cluster created by DMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#labels GoogleDatabaseMigrationServiceConnectionProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#labels GoogleDatabaseMigrationServiceConnectionProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Required. The resource link for the VPC network in which cluster resources are created and from which they are accessible via Private IP. The network must belong to the same project as the cluster.
   * It is specified in the form: 'projects/{project_number}/global/networks/{network_id}'. This is required to create a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#vpc_network GoogleDatabaseMigrationServiceConnectionProfile#vpc_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#vpc_network GoogleDatabaseMigrationServiceConnectionProfile#vpc_network}
   */
   readonly vpcNetwork: string;
   /**
   * initial_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#initial_user GoogleDatabaseMigrationServiceConnectionProfile#initial_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#initial_user GoogleDatabaseMigrationServiceConnectionProfile#initial_user}
   */
   readonly initialUser: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsInitialUser;
   /**
   * primary_instance_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#primary_instance_settings GoogleDatabaseMigrationServiceConnectionProfile#primary_instance_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#primary_instance_settings GoogleDatabaseMigrationServiceConnectionProfile#primary_instance_settings}
   */
   readonly primaryInstanceSettings?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsPrimaryInstanceSettings;
 }
@@ -619,7 +619,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings 
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
@@ -633,7 +633,7 @@ export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsTo
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbSettingsToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettingsOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     labels: {
@@ -778,13 +778,13 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydb {
   /**
   * Required. The AlloyDB cluster ID that this connection profile is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#cluster_id GoogleDatabaseMigrationServiceConnectionProfile#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#cluster_id GoogleDatabaseMigrationServiceConnectionProfile#cluster_id}
   */
   readonly clusterId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#settings GoogleDatabaseMigrationServiceConnectionProfile#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#settings GoogleDatabaseMigrationServiceConnectionProfile#settings}
   */
   readonly settings?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbSettings;
 }
@@ -792,7 +792,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileAlloydb {
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydb): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cluster_id: cdktn.stringToTerraform(struct!.clusterId),
@@ -804,7 +804,7 @@ export function googleDatabaseMigrationServiceConnectionProfileAlloydbToTerrafor
 export function googleDatabaseMigrationServiceConnectionProfileAlloydbToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileAlloydbOutputReference | GoogleDatabaseMigrationServiceConnectionProfileAlloydb): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cluster_id: {
@@ -896,25 +896,25 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings
   /**
   * The time when this access control entry expires in RFC 3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#expire_time GoogleDatabaseMigrationServiceConnectionProfile#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#expire_time GoogleDatabaseMigrationServiceConnectionProfile#expire_time}
   */
   readonly expireTime?: string;
   /**
   * A label to identify this entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#label GoogleDatabaseMigrationServiceConnectionProfile#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#label GoogleDatabaseMigrationServiceConnectionProfile#label}
   */
   readonly label?: string;
   /**
   * Input only. The time-to-leave of this access control entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ttl GoogleDatabaseMigrationServiceConnectionProfile#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ttl GoogleDatabaseMigrationServiceConnectionProfile#ttl}
   */
   readonly ttl?: string;
   /**
   * The allowlisted value for the access control list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#value GoogleDatabaseMigrationServiceConnectionProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#value GoogleDatabaseMigrationServiceConnectionProfile#value}
   */
   readonly value: string;
 }
@@ -922,7 +922,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     expire_time: cdktn.stringToTerraform(struct!.expireTime),
@@ -936,7 +936,7 @@ export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsI
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworksToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     expire_time: {
@@ -1116,26 +1116,26 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings
   /**
   * Whether the instance should be assigned an IPv4 address or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#enable_ipv4 GoogleDatabaseMigrationServiceConnectionProfile#enable_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#enable_ipv4 GoogleDatabaseMigrationServiceConnectionProfile#enable_ipv4}
   */
   readonly enableIpv4?: boolean | cdktn.IResolvable;
   /**
   * The resource link for the VPC network from which the Cloud SQL instance is accessible for private IP. For example, projects/myProject/global/networks/default.
   * This setting can be updated, but it cannot be removed after it is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#private_network GoogleDatabaseMigrationServiceConnectionProfile#private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#private_network GoogleDatabaseMigrationServiceConnectionProfile#private_network}
   */
   readonly privateNetwork?: string;
   /**
   * Whether SSL connections over IP should be enforced or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#require_ssl GoogleDatabaseMigrationServiceConnectionProfile#require_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#require_ssl GoogleDatabaseMigrationServiceConnectionProfile#require_ssl}
   */
   readonly requireSsl?: boolean | cdktn.IResolvable;
   /**
   * authorized_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#authorized_networks GoogleDatabaseMigrationServiceConnectionProfile#authorized_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#authorized_networks GoogleDatabaseMigrationServiceConnectionProfile#authorized_networks}
   */
   readonly authorizedNetworks?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigAuthorizedNetworks[] | cdktn.IResolvable;
 }
@@ -1143,7 +1143,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference | GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_ipv4: cdktn.booleanToTerraform(struct!.enableIpv4),
@@ -1157,7 +1157,7 @@ export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsI
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfigOutputReference | GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_ipv4: {
@@ -1308,100 +1308,100 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings
   /**
   * The activation policy specifies when the instance is activated; it is applicable only when the instance state is 'RUNNABLE'. Possible values: ["ALWAYS", "NEVER"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#activation_policy GoogleDatabaseMigrationServiceConnectionProfile#activation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#activation_policy GoogleDatabaseMigrationServiceConnectionProfile#activation_policy}
   */
   readonly activationPolicy?: string;
   /**
   * If you enable this setting, Cloud SQL checks your available storage every 30 seconds. If the available storage falls below a threshold size, Cloud SQL automatically adds additional storage capacity.
   * If the available storage repeatedly falls below the threshold size, Cloud SQL continues to add storage until it reaches the maximum of 30 TB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#auto_storage_increase GoogleDatabaseMigrationServiceConnectionProfile#auto_storage_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#auto_storage_increase GoogleDatabaseMigrationServiceConnectionProfile#auto_storage_increase}
   */
   readonly autoStorageIncrease?: boolean | cdktn.IResolvable;
   /**
   * The KMS key name used for the csql instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#cmek_key_name GoogleDatabaseMigrationServiceConnectionProfile#cmek_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#cmek_key_name GoogleDatabaseMigrationServiceConnectionProfile#cmek_key_name}
   */
   readonly cmekKeyName?: string;
   /**
   * The Cloud SQL default instance level collation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#collation GoogleDatabaseMigrationServiceConnectionProfile#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#collation GoogleDatabaseMigrationServiceConnectionProfile#collation}
   */
   readonly collation?: string;
   /**
   * The storage capacity available to the database, in GB. The minimum (and default) size is 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#data_disk_size_gb GoogleDatabaseMigrationServiceConnectionProfile#data_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#data_disk_size_gb GoogleDatabaseMigrationServiceConnectionProfile#data_disk_size_gb}
   */
   readonly dataDiskSizeGb?: string;
   /**
   * The type of storage. Possible values: ["PD_SSD", "PD_HDD"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#data_disk_type GoogleDatabaseMigrationServiceConnectionProfile#data_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#data_disk_type GoogleDatabaseMigrationServiceConnectionProfile#data_disk_type}
   */
   readonly dataDiskType?: string;
   /**
   * The database flags passed to the Cloud SQL instance at startup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#database_flags GoogleDatabaseMigrationServiceConnectionProfile#database_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#database_flags GoogleDatabaseMigrationServiceConnectionProfile#database_flags}
   */
   readonly databaseFlags?: { [key: string]: string };
   /**
   * The database engine type and version.
   * Currently supported values located at https://cloud.google.com/database-migration/docs/reference/rest/v1/projects.locations.connectionProfiles#sqldatabaseversion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#database_version GoogleDatabaseMigrationServiceConnectionProfile#database_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#database_version GoogleDatabaseMigrationServiceConnectionProfile#database_version}
   */
   readonly databaseVersion?: string;
   /**
   * The edition of the given Cloud SQL instance. Possible values: ["ENTERPRISE", "ENTERPRISE_PLUS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#edition GoogleDatabaseMigrationServiceConnectionProfile#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#edition GoogleDatabaseMigrationServiceConnectionProfile#edition}
   */
   readonly edition?: string;
   /**
   * Input only. Initial root password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#root_password GoogleDatabaseMigrationServiceConnectionProfile#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#root_password GoogleDatabaseMigrationServiceConnectionProfile#root_password}
   */
   readonly rootPassword?: string;
   /**
   * The Database Migration Service source connection profile ID, in the format: projects/my_project_name/locations/us-central1/connectionProfiles/connection_profile_ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#source_id GoogleDatabaseMigrationServiceConnectionProfile#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#source_id GoogleDatabaseMigrationServiceConnectionProfile#source_id}
   */
   readonly sourceId: string;
   /**
   * The maximum size to which storage capacity can be automatically increased. The default value is 0, which specifies that there is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#storage_auto_resize_limit GoogleDatabaseMigrationServiceConnectionProfile#storage_auto_resize_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#storage_auto_resize_limit GoogleDatabaseMigrationServiceConnectionProfile#storage_auto_resize_limit}
   */
   readonly storageAutoResizeLimit?: string;
   /**
   * The tier (or machine type) for this instance, for example: db-n1-standard-1 (MySQL instances) or db-custom-1-3840 (PostgreSQL instances).
   * For more information, see https://cloud.google.com/sql/docs/mysql/instance-settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#tier GoogleDatabaseMigrationServiceConnectionProfile#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#tier GoogleDatabaseMigrationServiceConnectionProfile#tier}
   */
   readonly tier?: string;
   /**
   * The resource labels for a Cloud SQL instance to use to annotate any related underlying resources such as Compute Engine VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#user_labels GoogleDatabaseMigrationServiceConnectionProfile#user_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#user_labels GoogleDatabaseMigrationServiceConnectionProfile#user_labels}
   */
   readonly userLabels?: { [key: string]: string };
   /**
   * The Google Cloud Platform zone where your Cloud SQL datdabse instance is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#zone GoogleDatabaseMigrationServiceConnectionProfile#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#zone GoogleDatabaseMigrationServiceConnectionProfile#zone}
   */
   readonly zone?: string;
   /**
   * ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ip_config GoogleDatabaseMigrationServiceConnectionProfile#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ip_config GoogleDatabaseMigrationServiceConnectionProfile#ip_config}
   */
   readonly ipConfig?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsIpConfig;
 }
@@ -1409,7 +1409,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsOutputReference | GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     activation_policy: cdktn.stringToTerraform(struct!.activationPolicy),
@@ -1435,7 +1435,7 @@ export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsT
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsOutputReference | GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     activation_policy: {
@@ -1924,7 +1924,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsql {
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#settings GoogleDatabaseMigrationServiceConnectionProfile#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#settings GoogleDatabaseMigrationServiceConnectionProfile#settings}
   */
   readonly settings?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlSettings;
 }
@@ -1932,7 +1932,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileCloudsql {
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlOutputReference | GoogleDatabaseMigrationServiceConnectionProfileCloudsql): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     settings: googleDatabaseMigrationServiceConnectionProfileCloudsqlSettingsToTerraform(struct!.settings),
@@ -1943,7 +1943,7 @@ export function googleDatabaseMigrationServiceConnectionProfileCloudsqlToTerrafo
 export function googleDatabaseMigrationServiceConnectionProfileCloudsqlToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileCloudsqlOutputReference | GoogleDatabaseMigrationServiceConnectionProfileCloudsql): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     settings: {
@@ -2026,27 +2026,27 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl {
   * Input only. The x509 PEM-encoded certificate of the CA that signed the source database server's certificate.
   * The replica will use this certificate to verify it's connecting to the right host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ca_certificate GoogleDatabaseMigrationServiceConnectionProfile#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ca_certificate GoogleDatabaseMigrationServiceConnectionProfile#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * Input only. The x509 PEM-encoded certificate that will be used by the replica to authenticate against the source database server.
   * If this field is used then the 'clientKey' field is mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#client_certificate GoogleDatabaseMigrationServiceConnectionProfile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#client_certificate GoogleDatabaseMigrationServiceConnectionProfile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Input only. The unencrypted PKCS#1 or PKCS#8 PEM-encoded private key associated with the Client Certificate.
   * If this field is used then the 'clientCertificate' field is mandatory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#client_key GoogleDatabaseMigrationServiceConnectionProfile#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#client_key GoogleDatabaseMigrationServiceConnectionProfile#client_key}
   */
   readonly clientKey?: string;
   /**
   * The current connection profile state. Possible values: ["SERVER_ONLY", "SERVER_CLIENT", "REQUIRED", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#type GoogleDatabaseMigrationServiceConnectionProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#type GoogleDatabaseMigrationServiceConnectionProfile#type}
   */
   readonly type?: string;
 }
@@ -2054,7 +2054,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl {
 export function googleDatabaseMigrationServiceConnectionProfileMysqlSslToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileMysqlSslOutputReference | GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     ca_certificate: cdktn.stringToTerraform(struct!.caCertificate),
@@ -2068,7 +2068,7 @@ export function googleDatabaseMigrationServiceConnectionProfileMysqlSslToTerrafo
 export function googleDatabaseMigrationServiceConnectionProfileMysqlSslToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileMysqlSslOutputReference | GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     ca_certificate: {
@@ -2219,38 +2219,38 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileMysql {
   /**
   * If the connection profile is a Cloud SQL database, use this field to provide the Cloud SQL instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#cloud_sql_id GoogleDatabaseMigrationServiceConnectionProfile#cloud_sql_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#cloud_sql_id GoogleDatabaseMigrationServiceConnectionProfile#cloud_sql_id}
   */
   readonly cloudSqlId?: string;
   /**
   * The IP or hostname of the source MySQL database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#host GoogleDatabaseMigrationServiceConnectionProfile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#host GoogleDatabaseMigrationServiceConnectionProfile#host}
   */
   readonly host?: string;
   /**
   * Input only. The password for the user that Database Migration Service will be using to connect to the database.
   * This field is not returned on request, and the value is encrypted when stored in Database Migration Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
   */
   readonly password?: string;
   /**
   * The network port of the source MySQL database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
   */
   readonly port?: number;
   /**
   * The username that Database Migration Service will use to connect to the database. The value is encrypted when stored in Database Migration Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
   */
   readonly username?: string;
   /**
   * ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ssl GoogleDatabaseMigrationServiceConnectionProfile#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ssl GoogleDatabaseMigrationServiceConnectionProfile#ssl}
   */
   readonly ssl?: GoogleDatabaseMigrationServiceConnectionProfileMysqlSsl;
 }
@@ -2258,7 +2258,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileMysql {
 export function googleDatabaseMigrationServiceConnectionProfileMysqlToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileMysqlOutputReference | GoogleDatabaseMigrationServiceConnectionProfileMysql): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cloud_sql_id: cdktn.stringToTerraform(struct!.cloudSqlId),
@@ -2274,7 +2274,7 @@ export function googleDatabaseMigrationServiceConnectionProfileMysqlToTerraform(
 export function googleDatabaseMigrationServiceConnectionProfileMysqlToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileMysqlOutputReference | GoogleDatabaseMigrationServiceConnectionProfileMysql): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cloud_sql_id: {
@@ -2486,31 +2486,31 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSsh
   /**
   * Required. Hostname for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#hostname GoogleDatabaseMigrationServiceConnectionProfile#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#hostname GoogleDatabaseMigrationServiceConnectionProfile#hostname}
   */
   readonly hostname: string;
   /**
   * Input only. SSH password. Only one of 'password' and 'private_key' can be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
   */
   readonly password?: string;
   /**
   * Port for the SSH tunnel, default value is 22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
   */
   readonly port: number;
   /**
   * Input only. SSH private key. Only one of 'password' and 'private_key' can be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#private_key GoogleDatabaseMigrationServiceConnectionProfile#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#private_key GoogleDatabaseMigrationServiceConnectionProfile#private_key}
   */
   readonly privateKey?: string;
   /**
   * Required. Username for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
   */
   readonly username: string;
 }
@@ -2518,7 +2518,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSsh
 export function googleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -2533,7 +2533,7 @@ export function googleDatabaseMigrationServiceConnectionProfileOracleForwardSshC
 export function googleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -2703,7 +2703,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateCon
   /**
   * Required. The resource name (URI) of the private connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#private_connection GoogleDatabaseMigrationServiceConnectionProfile#private_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#private_connection GoogleDatabaseMigrationServiceConnectionProfile#private_connection}
   */
   readonly privateConnection: string;
 }
@@ -2711,7 +2711,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateCon
 export function googleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_connection: cdktn.stringToTerraform(struct!.privateConnection),
@@ -2722,7 +2722,7 @@ export function googleDatabaseMigrationServiceConnectionProfileOraclePrivateConn
 export function googleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_connection: {
@@ -2787,21 +2787,21 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOracleSsl {
   * Input only. The x509 PEM-encoded certificate of the CA that signed the source database server's certificate.
   * The replica will use this certificate to verify it's connecting to the right host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ca_certificate GoogleDatabaseMigrationServiceConnectionProfile#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ca_certificate GoogleDatabaseMigrationServiceConnectionProfile#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * Input only. The x509 PEM-encoded certificate that will be used by the replica to authenticate against the source database server.
   * If this field is used then the 'clientKey' field is mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#client_certificate GoogleDatabaseMigrationServiceConnectionProfile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#client_certificate GoogleDatabaseMigrationServiceConnectionProfile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Input only. The unencrypted PKCS#1 or PKCS#8 PEM-encoded private key associated with the Client Certificate.
   * If this field is used then the 'clientCertificate' field is mandatory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#client_key GoogleDatabaseMigrationServiceConnectionProfile#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#client_key GoogleDatabaseMigrationServiceConnectionProfile#client_key}
   */
   readonly clientKey?: string;
 }
@@ -2809,7 +2809,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOracleSsl {
 export function googleDatabaseMigrationServiceConnectionProfileOracleSslToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleSslOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracleSsl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     ca_certificate: cdktn.stringToTerraform(struct!.caCertificate),
@@ -2822,7 +2822,7 @@ export function googleDatabaseMigrationServiceConnectionProfileOracleSslToTerraf
 export function googleDatabaseMigrationServiceConnectionProfileOracleSslToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleSslOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracleSsl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     ca_certificate: {
@@ -2952,7 +2952,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServ
 export function googleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivityToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -2962,7 +2962,7 @@ export function googleDatabaseMigrationServiceConnectionProfileOracleStaticServi
 export function googleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivityToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -2999,56 +2999,56 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOracle {
   /**
   * Required. Database service for the Oracle connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#database_service GoogleDatabaseMigrationServiceConnectionProfile#database_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#database_service GoogleDatabaseMigrationServiceConnectionProfile#database_service}
   */
   readonly databaseService: string;
   /**
   * Required. The IP or hostname of the source Oracle database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#host GoogleDatabaseMigrationServiceConnectionProfile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#host GoogleDatabaseMigrationServiceConnectionProfile#host}
   */
   readonly host: string;
   /**
   * Required. Input only. The password for the user that Database Migration Service will be using to connect to the database.
   * This field is not returned on request, and the value is encrypted when stored in Database Migration Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
   */
   readonly password: string;
   /**
   * Required. The network port of the source Oracle database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
   */
   readonly port: number;
   /**
   * Required. The username that Database Migration Service will use to connect to the database. The value is encrypted when stored in Database Migration Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
   */
   readonly username: string;
   /**
   * forward_ssh_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#forward_ssh_connectivity GoogleDatabaseMigrationServiceConnectionProfile#forward_ssh_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#forward_ssh_connectivity GoogleDatabaseMigrationServiceConnectionProfile#forward_ssh_connectivity}
   */
   readonly forwardSshConnectivity?: GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity;
   /**
   * private_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#private_connectivity GoogleDatabaseMigrationServiceConnectionProfile#private_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#private_connectivity GoogleDatabaseMigrationServiceConnectionProfile#private_connectivity}
   */
   readonly privateConnectivity?: GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity;
   /**
   * ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ssl GoogleDatabaseMigrationServiceConnectionProfile#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ssl GoogleDatabaseMigrationServiceConnectionProfile#ssl}
   */
   readonly ssl?: GoogleDatabaseMigrationServiceConnectionProfileOracleSsl;
   /**
   * static_service_ip_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#static_service_ip_connectivity GoogleDatabaseMigrationServiceConnectionProfile#static_service_ip_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#static_service_ip_connectivity GoogleDatabaseMigrationServiceConnectionProfile#static_service_ip_connectivity}
   */
   readonly staticServiceIpConnectivity?: GoogleDatabaseMigrationServiceConnectionProfileOracleStaticServiceIpConnectivity;
 }
@@ -3056,7 +3056,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileOracle {
 export function googleDatabaseMigrationServiceConnectionProfileOracleToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracle): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     database_service: cdktn.stringToTerraform(struct!.databaseService),
@@ -3075,7 +3075,7 @@ export function googleDatabaseMigrationServiceConnectionProfileOracleToTerraform
 export function googleDatabaseMigrationServiceConnectionProfileOracleToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference | GoogleDatabaseMigrationServiceConnectionProfileOracle): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     database_service: {
@@ -3356,7 +3356,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivat
   /**
   * Required. The resource name (URI) of the private connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#private_connection GoogleDatabaseMigrationServiceConnectionProfile#private_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#private_connection GoogleDatabaseMigrationServiceConnectionProfile#private_connection}
   */
   readonly privateConnection: string;
 }
@@ -3364,7 +3364,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivat
 export function googleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivityToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_connection: cdktn.stringToTerraform(struct!.privateConnection),
@@ -3375,7 +3375,7 @@ export function googleDatabaseMigrationServiceConnectionProfilePostgresqlPrivate
 export function googleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivityToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivityOutputReference | GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_connection: {
@@ -3440,27 +3440,27 @@ export interface GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl {
   * Input only. The x509 PEM-encoded certificate of the CA that signed the source database server's certificate.
   * The replica will use this certificate to verify it's connecting to the right host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ca_certificate GoogleDatabaseMigrationServiceConnectionProfile#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ca_certificate GoogleDatabaseMigrationServiceConnectionProfile#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * Input only. The x509 PEM-encoded certificate that will be used by the replica to authenticate against the source database server.
   * If this field is used then the 'clientKey' field is mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#client_certificate GoogleDatabaseMigrationServiceConnectionProfile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#client_certificate GoogleDatabaseMigrationServiceConnectionProfile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Input only. The unencrypted PKCS#1 or PKCS#8 PEM-encoded private key associated with the Client Certificate.
   * If this field is used then the 'clientCertificate' field is mandatory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#client_key GoogleDatabaseMigrationServiceConnectionProfile#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#client_key GoogleDatabaseMigrationServiceConnectionProfile#client_key}
   */
   readonly clientKey?: string;
   /**
   * The current connection profile state. Possible values: ["SERVER_ONLY", "SERVER_CLIENT", "REQUIRED", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#type GoogleDatabaseMigrationServiceConnectionProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#type GoogleDatabaseMigrationServiceConnectionProfile#type}
   */
   readonly type?: string;
 }
@@ -3468,7 +3468,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl {
 export function googleDatabaseMigrationServiceConnectionProfilePostgresqlSslToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSslOutputReference | GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     ca_certificate: cdktn.stringToTerraform(struct!.caCertificate),
@@ -3482,7 +3482,7 @@ export function googleDatabaseMigrationServiceConnectionProfilePostgresqlSslToTe
 export function googleDatabaseMigrationServiceConnectionProfilePostgresqlSslToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSslOutputReference | GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     ca_certificate: {
@@ -3633,56 +3633,56 @@ export interface GoogleDatabaseMigrationServiceConnectionProfilePostgresql {
   /**
   * If the connection profile is an AlloyDB instance, use this field to provide the AlloyDB cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#alloydb_cluster_id GoogleDatabaseMigrationServiceConnectionProfile#alloydb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#alloydb_cluster_id GoogleDatabaseMigrationServiceConnectionProfile#alloydb_cluster_id}
   */
   readonly alloydbClusterId?: string;
   /**
   * If the connection profile is a Cloud SQL database, use this field to provide the Cloud SQL instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#cloud_sql_id GoogleDatabaseMigrationServiceConnectionProfile#cloud_sql_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#cloud_sql_id GoogleDatabaseMigrationServiceConnectionProfile#cloud_sql_id}
   */
   readonly cloudSqlId?: string;
   /**
   * The name of the specific database within the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#database GoogleDatabaseMigrationServiceConnectionProfile#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#database GoogleDatabaseMigrationServiceConnectionProfile#database}
   */
   readonly database?: string;
   /**
   * The IP or hostname of the source MySQL database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#host GoogleDatabaseMigrationServiceConnectionProfile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#host GoogleDatabaseMigrationServiceConnectionProfile#host}
   */
   readonly host?: string;
   /**
   * Input only. The password for the user that Database Migration Service will be using to connect to the database.
   * This field is not returned on request, and the value is encrypted when stored in Database Migration Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#password GoogleDatabaseMigrationServiceConnectionProfile#password}
   */
   readonly password?: string;
   /**
   * The network port of the source MySQL database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#port GoogleDatabaseMigrationServiceConnectionProfile#port}
   */
   readonly port?: number;
   /**
   * The username that Database Migration Service will use to connect to the database. The value is encrypted when stored in Database Migration Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#username GoogleDatabaseMigrationServiceConnectionProfile#username}
   */
   readonly username?: string;
   /**
   * private_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#private_connectivity GoogleDatabaseMigrationServiceConnectionProfile#private_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#private_connectivity GoogleDatabaseMigrationServiceConnectionProfile#private_connectivity}
   */
   readonly privateConnectivity?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity;
   /**
   * ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#ssl GoogleDatabaseMigrationServiceConnectionProfile#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#ssl GoogleDatabaseMigrationServiceConnectionProfile#ssl}
   */
   readonly ssl?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl;
 }
@@ -3690,7 +3690,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfilePostgresql {
 export function googleDatabaseMigrationServiceConnectionProfilePostgresqlToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference | GoogleDatabaseMigrationServiceConnectionProfilePostgresql): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     alloydb_cluster_id: cdktn.stringToTerraform(struct!.alloydbClusterId),
@@ -3709,7 +3709,7 @@ export function googleDatabaseMigrationServiceConnectionProfilePostgresqlToTerra
 export function googleDatabaseMigrationServiceConnectionProfilePostgresqlToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference | GoogleDatabaseMigrationServiceConnectionProfilePostgresql): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     alloydb_cluster_id: {
@@ -4008,15 +4008,15 @@ export class GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputRefe
 }
 export interface GoogleDatabaseMigrationServiceConnectionProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#create GoogleDatabaseMigrationServiceConnectionProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#create GoogleDatabaseMigrationServiceConnectionProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#delete GoogleDatabaseMigrationServiceConnectionProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#delete GoogleDatabaseMigrationServiceConnectionProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#update GoogleDatabaseMigrationServiceConnectionProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#update GoogleDatabaseMigrationServiceConnectionProfile#update}
   */
   readonly update?: string;
 }
@@ -4024,7 +4024,7 @@ export interface GoogleDatabaseMigrationServiceConnectionProfileTimeouts {
 export function googleDatabaseMigrationServiceConnectionProfileTimeoutsToTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -4037,7 +4037,7 @@ export function googleDatabaseMigrationServiceConnectionProfileTimeoutsToTerrafo
 export function googleDatabaseMigrationServiceConnectionProfileTimeoutsToHclTerraform(struct?: GoogleDatabaseMigrationServiceConnectionProfileTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -4168,7 +4168,7 @@ export class GoogleDatabaseMigrationServiceConnectionProfileTimeoutsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile}
 */
 export class GoogleDatabaseMigrationServiceConnectionProfile extends cdktn.TerraformResource {
 
@@ -4184,7 +4184,7 @@ export class GoogleDatabaseMigrationServiceConnectionProfile extends cdktn.Terra
   * Generates CDKTN code for importing a GoogleDatabaseMigrationServiceConnectionProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDatabaseMigrationServiceConnectionProfile to import
-  * @param importFromId The id of the existing GoogleDatabaseMigrationServiceConnectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDatabaseMigrationServiceConnectionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDatabaseMigrationServiceConnectionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4196,7 +4196,7 @@ export class GoogleDatabaseMigrationServiceConnectionProfile extends cdktn.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4207,7 +4207,7 @@ export class GoogleDatabaseMigrationServiceConnectionProfile extends cdktn.Terra
       terraformResourceType: 'google_database_migration_service_connection_profile',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,7 +21,7 @@ export interface GoogleIamFolderAccessPolicyConfig extends cdktn.TerraformMetaAr
   * /a-z{2,62}/.
   * This value must be unique among all access policies with the same parent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#access_policy_id GoogleIamFolderAccessPolicy#access_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#access_policy_id GoogleIamFolderAccessPolicy#access_policy_id}
   */
   readonly accessPolicyId: string;
   /**
@@ -31,7 +31,7 @@ export interface GoogleIamFolderAccessPolicyConfig extends cdktn.TerraformMetaAr
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#annotations GoogleIamFolderAccessPolicy#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#annotations GoogleIamFolderAccessPolicy#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -43,24 +43,24 @@ export interface GoogleIamFolderAccessPolicyConfig extends cdktn.TerraformMetaAr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#deletion_policy GoogleIamFolderAccessPolicy#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#deletion_policy GoogleIamFolderAccessPolicy#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The description of the access policy. Must be less than
   * or equal to 63 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#display_name GoogleIamFolderAccessPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#display_name GoogleIamFolderAccessPolicy#display_name}
   */
   readonly displayName?: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#folder GoogleIamFolderAccessPolicy#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#folder GoogleIamFolderAccessPolicy#folder}
   */
   readonly folder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#id GoogleIamFolderAccessPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#id GoogleIamFolderAccessPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,19 +69,19 @@ export interface GoogleIamFolderAccessPolicyConfig extends cdktn.TerraformMetaAr
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#location GoogleIamFolderAccessPolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#location GoogleIamFolderAccessPolicy#location}
   */
   readonly location: string;
   /**
   * details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#details GoogleIamFolderAccessPolicy#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#details GoogleIamFolderAccessPolicy#details}
   */
   readonly details?: GoogleIamFolderAccessPolicyDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#timeouts GoogleIamFolderAccessPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#timeouts GoogleIamFolderAccessPolicy#timeouts}
   */
   readonly timeouts?: GoogleIamFolderAccessPolicyTimeouts;
 }
@@ -90,11 +90,11 @@ export interface GoogleIamFolderAccessPolicyDetailsRulesConditions {
   * Textual representation of an expression in Common Expression Language
   * syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#expression GoogleIamFolderAccessPolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#expression GoogleIamFolderAccessPolicy#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#service GoogleIamFolderAccessPolicy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#service GoogleIamFolderAccessPolicy#service}
   */
   readonly service: string;
 }
@@ -102,7 +102,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRulesConditions {
 export function googleIamFolderAccessPolicyDetailsRulesConditionsToTerraform(struct?: GoogleIamFolderAccessPolicyDetailsRulesConditions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     expression: cdktn.stringToTerraform(struct!.expression),
@@ -114,7 +114,7 @@ export function googleIamFolderAccessPolicyDetailsRulesConditionsToTerraform(str
 export function googleIamFolderAccessPolicyDetailsRulesConditionsToHclTerraform(struct?: GoogleIamFolderAccessPolicyDetailsRulesConditions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     expression: {
@@ -243,7 +243,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRulesOperation {
   * The excluded permissions can be specified using the same syntax as
   * 'permissions'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#excluded_permissions GoogleIamFolderAccessPolicy#excluded_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#excluded_permissions GoogleIamFolderAccessPolicy#excluded_permissions}
   */
   readonly excludedPermissions?: string[];
   /**
@@ -253,7 +253,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRulesOperation {
   * Currently supported permissions are as follows:
   * * 'eventarc.googleapis.com/messageBuses.publish'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#permissions GoogleIamFolderAccessPolicy#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#permissions GoogleIamFolderAccessPolicy#permissions}
   */
   readonly permissions: string[];
 }
@@ -261,7 +261,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRulesOperation {
 export function googleIamFolderAccessPolicyDetailsRulesOperationToTerraform(struct?: GoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference | GoogleIamFolderAccessPolicyDetailsRulesOperation): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     excluded_permissions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludedPermissions),
@@ -273,7 +273,7 @@ export function googleIamFolderAccessPolicyDetailsRulesOperationToTerraform(stru
 export function googleIamFolderAccessPolicyDetailsRulesOperationToHclTerraform(struct?: GoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference | GoogleIamFolderAccessPolicyDetailsRulesOperation): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     excluded_permissions: {
@@ -366,7 +366,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRules {
   * Customer specified description of the rule. Must be less than or equal to
   * 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#description GoogleIamFolderAccessPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#description GoogleIamFolderAccessPolicy#description}
   */
   readonly description?: string;
   /**
@@ -375,7 +375,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRules {
   * DENY
   * ALLOW Possible values: ["DENY", "ALLOW"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#effect GoogleIamFolderAccessPolicy#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#effect GoogleIamFolderAccessPolicy#effect}
   */
   readonly effect: string;
   /**
@@ -384,7 +384,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRules {
   * group to the 'principals', then exclude specific users who belong to
   * that group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#excluded_principals GoogleIamFolderAccessPolicy#excluded_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#excluded_principals GoogleIamFolderAccessPolicy#excluded_principals}
   */
   readonly excludedPrincipals?: string[];
   /**
@@ -422,19 +422,19 @@ export interface GoogleIamFolderAccessPolicyDetailsRules {
   * If the service account is undeleted, this identifier reverts to the
   * standard identifier for a service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#principals GoogleIamFolderAccessPolicy#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#principals GoogleIamFolderAccessPolicy#principals}
   */
   readonly principals: string[];
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#conditions GoogleIamFolderAccessPolicy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#conditions GoogleIamFolderAccessPolicy#conditions}
   */
   readonly conditions?: GoogleIamFolderAccessPolicyDetailsRulesConditions[] | cdktn.IResolvable;
   /**
   * operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#operation GoogleIamFolderAccessPolicy#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#operation GoogleIamFolderAccessPolicy#operation}
   */
   readonly operation: GoogleIamFolderAccessPolicyDetailsRulesOperation;
 }
@@ -442,7 +442,7 @@ export interface GoogleIamFolderAccessPolicyDetailsRules {
 export function googleIamFolderAccessPolicyDetailsRulesToTerraform(struct?: GoogleIamFolderAccessPolicyDetailsRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -458,7 +458,7 @@ export function googleIamFolderAccessPolicyDetailsRulesToTerraform(struct?: Goog
 export function googleIamFolderAccessPolicyDetailsRulesToHclTerraform(struct?: GoogleIamFolderAccessPolicyDetailsRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -688,7 +688,7 @@ export interface GoogleIamFolderAccessPolicyDetails {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#rules GoogleIamFolderAccessPolicy#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#rules GoogleIamFolderAccessPolicy#rules}
   */
   readonly rules: GoogleIamFolderAccessPolicyDetailsRules[] | cdktn.IResolvable;
 }
@@ -696,7 +696,7 @@ export interface GoogleIamFolderAccessPolicyDetails {
 export function googleIamFolderAccessPolicyDetailsToTerraform(struct?: GoogleIamFolderAccessPolicyDetailsOutputReference | GoogleIamFolderAccessPolicyDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     rules: cdktn.listMapper(googleIamFolderAccessPolicyDetailsRulesToTerraform, true)(struct!.rules),
@@ -707,7 +707,7 @@ export function googleIamFolderAccessPolicyDetailsToTerraform(struct?: GoogleIam
 export function googleIamFolderAccessPolicyDetailsToHclTerraform(struct?: GoogleIamFolderAccessPolicyDetailsOutputReference | GoogleIamFolderAccessPolicyDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     rules: {
@@ -769,15 +769,15 @@ export class GoogleIamFolderAccessPolicyDetailsOutputReference extends cdktn.Com
 }
 export interface GoogleIamFolderAccessPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#create GoogleIamFolderAccessPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#create GoogleIamFolderAccessPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#delete GoogleIamFolderAccessPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#delete GoogleIamFolderAccessPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#update GoogleIamFolderAccessPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#update GoogleIamFolderAccessPolicy#update}
   */
   readonly update?: string;
 }
@@ -785,7 +785,7 @@ export interface GoogleIamFolderAccessPolicyTimeouts {
 export function googleIamFolderAccessPolicyTimeoutsToTerraform(struct?: GoogleIamFolderAccessPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -798,7 +798,7 @@ export function googleIamFolderAccessPolicyTimeoutsToTerraform(struct?: GoogleIa
 export function googleIamFolderAccessPolicyTimeoutsToHclTerraform(struct?: GoogleIamFolderAccessPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -929,7 +929,7 @@ export class GoogleIamFolderAccessPolicyTimeoutsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}
 */
 export class GoogleIamFolderAccessPolicy extends cdktn.TerraformResource {
 
@@ -945,7 +945,7 @@ export class GoogleIamFolderAccessPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleIamFolderAccessPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIamFolderAccessPolicy to import
-  * @param importFromId The id of the existing GoogleIamFolderAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIamFolderAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIamFolderAccessPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -957,7 +957,7 @@ export class GoogleIamFolderAccessPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -968,7 +968,7 @@ export class GoogleIamFolderAccessPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'google_iam_folder_access_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

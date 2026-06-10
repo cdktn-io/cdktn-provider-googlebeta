@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -24,20 +24,20 @@ export interface GoogleContainerAttachedClusterConfig extends cdktn.TerraformMet
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#annotations GoogleContainerAttachedCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#annotations GoogleContainerAttachedCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * This field uses a custom implementation please refer to documentation under /hashicorp/terraform-provider-google-beta/website/docs/r/container_attached_cluster.html.markdown for specifics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#deletion_policy GoogleContainerAttachedCluster#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#deletion_policy GoogleContainerAttachedCluster#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A human readable description of this attached cluster. Cannot be longer
   * than 255 UTF-8 encoded bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#description GoogleContainerAttachedCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#description GoogleContainerAttachedCluster#description}
   */
   readonly description?: string;
   /**
@@ -45,11 +45,11 @@ export interface GoogleContainerAttachedClusterConfig extends cdktn.TerraformMet
   * "eks", "aks", "generic". The generic distribution provides the ability to register
   * or migrate any CNCF conformant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#distribution GoogleContainerAttachedCluster#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#distribution GoogleContainerAttachedCluster#distribution}
   */
   readonly distribution: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#id GoogleContainerAttachedCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#id GoogleContainerAttachedCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,77 +58,77 @@ export interface GoogleContainerAttachedClusterConfig extends cdktn.TerraformMet
   /**
   * The location for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#location GoogleContainerAttachedCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#location GoogleContainerAttachedCluster#location}
   */
   readonly location: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#name GoogleContainerAttachedCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#name GoogleContainerAttachedCluster#name}
   */
   readonly name: string;
   /**
   * The platform version for the cluster (e.g. '1.23.0-gke.1').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#platform_version GoogleContainerAttachedCluster#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#platform_version GoogleContainerAttachedCluster#platform_version}
   */
   readonly platformVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#project GoogleContainerAttachedCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#project GoogleContainerAttachedCluster#project}
   */
   readonly project?: string;
   /**
   * authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#authorization GoogleContainerAttachedCluster#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#authorization GoogleContainerAttachedCluster#authorization}
   */
   readonly authorization?: GoogleContainerAttachedClusterAuthorization;
   /**
   * binary_authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#binary_authorization GoogleContainerAttachedCluster#binary_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#binary_authorization GoogleContainerAttachedCluster#binary_authorization}
   */
   readonly binaryAuthorization?: GoogleContainerAttachedClusterBinaryAuthorization;
   /**
   * fleet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#fleet GoogleContainerAttachedCluster#fleet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#fleet GoogleContainerAttachedCluster#fleet}
   */
   readonly fleet: GoogleContainerAttachedClusterFleet;
   /**
   * logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#logging_config GoogleContainerAttachedCluster#logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#logging_config GoogleContainerAttachedCluster#logging_config}
   */
   readonly loggingConfig?: GoogleContainerAttachedClusterLoggingConfig;
   /**
   * monitoring_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#monitoring_config GoogleContainerAttachedCluster#monitoring_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#monitoring_config GoogleContainerAttachedCluster#monitoring_config}
   */
   readonly monitoringConfig?: GoogleContainerAttachedClusterMonitoringConfig;
   /**
   * oidc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#oidc_config GoogleContainerAttachedCluster#oidc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#oidc_config GoogleContainerAttachedCluster#oidc_config}
   */
   readonly oidcConfig: GoogleContainerAttachedClusterOidcConfig;
   /**
   * proxy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#proxy_config GoogleContainerAttachedCluster#proxy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#proxy_config GoogleContainerAttachedCluster#proxy_config}
   */
   readonly proxyConfig?: GoogleContainerAttachedClusterProxyConfig;
   /**
   * security_posture_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#security_posture_config GoogleContainerAttachedCluster#security_posture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#security_posture_config GoogleContainerAttachedCluster#security_posture_config}
   */
   readonly securityPostureConfig?: GoogleContainerAttachedClusterSecurityPostureConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#timeouts GoogleContainerAttachedCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#timeouts GoogleContainerAttachedCluster#timeouts}
   */
   readonly timeouts?: GoogleContainerAttachedClusterTimeouts;
 }
@@ -138,7 +138,7 @@ export interface GoogleContainerAttachedClusterErrors {
 export function googleContainerAttachedClusterErrorsToTerraform(struct?: GoogleContainerAttachedClusterErrors): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -148,7 +148,7 @@ export function googleContainerAttachedClusterErrorsToTerraform(struct?: GoogleC
 export function googleContainerAttachedClusterErrorsToHclTerraform(struct?: GoogleContainerAttachedClusterErrors): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -213,7 +213,7 @@ export interface GoogleContainerAttachedClusterWorkloadIdentityConfig {
 export function googleContainerAttachedClusterWorkloadIdentityConfigToTerraform(struct?: GoogleContainerAttachedClusterWorkloadIdentityConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -223,7 +223,7 @@ export function googleContainerAttachedClusterWorkloadIdentityConfigToTerraform(
 export function googleContainerAttachedClusterWorkloadIdentityConfigToHclTerraform(struct?: GoogleContainerAttachedClusterWorkloadIdentityConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -301,7 +301,7 @@ export interface GoogleContainerAttachedClusterAuthorization {
   * For more info on RBAC, see
   * https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#admin_groups GoogleContainerAttachedCluster#admin_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#admin_groups GoogleContainerAttachedCluster#admin_groups}
   */
   readonly adminGroups?: string[];
   /**
@@ -312,7 +312,7 @@ export interface GoogleContainerAttachedClusterAuthorization {
   * For more info on RBAC, see
   * https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#admin_users GoogleContainerAttachedCluster#admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#admin_users GoogleContainerAttachedCluster#admin_users}
   */
   readonly adminUsers?: string[];
 }
@@ -320,7 +320,7 @@ export interface GoogleContainerAttachedClusterAuthorization {
 export function googleContainerAttachedClusterAuthorizationToTerraform(struct?: GoogleContainerAttachedClusterAuthorizationOutputReference | GoogleContainerAttachedClusterAuthorization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     admin_groups: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.adminGroups),
@@ -332,7 +332,7 @@ export function googleContainerAttachedClusterAuthorizationToTerraform(struct?: 
 export function googleContainerAttachedClusterAuthorizationToHclTerraform(struct?: GoogleContainerAttachedClusterAuthorizationOutputReference | GoogleContainerAttachedClusterAuthorization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     admin_groups: {
@@ -427,7 +427,7 @@ export interface GoogleContainerAttachedClusterBinaryAuthorization {
   /**
   * Configure Binary Authorization evaluation mode. Possible values: ["DISABLED", "PROJECT_SINGLETON_POLICY_ENFORCE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#evaluation_mode GoogleContainerAttachedCluster#evaluation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#evaluation_mode GoogleContainerAttachedCluster#evaluation_mode}
   */
   readonly evaluationMode?: string;
 }
@@ -435,7 +435,7 @@ export interface GoogleContainerAttachedClusterBinaryAuthorization {
 export function googleContainerAttachedClusterBinaryAuthorizationToTerraform(struct?: GoogleContainerAttachedClusterBinaryAuthorizationOutputReference | GoogleContainerAttachedClusterBinaryAuthorization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     evaluation_mode: cdktn.stringToTerraform(struct!.evaluationMode),
@@ -446,7 +446,7 @@ export function googleContainerAttachedClusterBinaryAuthorizationToTerraform(str
 export function googleContainerAttachedClusterBinaryAuthorizationToHclTerraform(struct?: GoogleContainerAttachedClusterBinaryAuthorizationOutputReference | GoogleContainerAttachedClusterBinaryAuthorization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     evaluation_mode: {
@@ -513,7 +513,7 @@ export interface GoogleContainerAttachedClusterFleet {
   /**
   * The number of the Fleet host project where this cluster will be registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#project GoogleContainerAttachedCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#project GoogleContainerAttachedCluster#project}
   */
   readonly project: string;
 }
@@ -521,7 +521,7 @@ export interface GoogleContainerAttachedClusterFleet {
 export function googleContainerAttachedClusterFleetToTerraform(struct?: GoogleContainerAttachedClusterFleetOutputReference | GoogleContainerAttachedClusterFleet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     project: cdktn.stringToTerraform(struct!.project),
@@ -532,7 +532,7 @@ export function googleContainerAttachedClusterFleetToTerraform(struct?: GoogleCo
 export function googleContainerAttachedClusterFleetToHclTerraform(struct?: GoogleContainerAttachedClusterFleetOutputReference | GoogleContainerAttachedClusterFleet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     project: {
@@ -601,7 +601,7 @@ export interface GoogleContainerAttachedClusterLoggingConfigComponentConfig {
   /**
   * The components to be enabled. Possible values: ["SYSTEM_COMPONENTS", "WORKLOADS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#enable_components GoogleContainerAttachedCluster#enable_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#enable_components GoogleContainerAttachedCluster#enable_components}
   */
   readonly enableComponents?: string[];
 }
@@ -609,7 +609,7 @@ export interface GoogleContainerAttachedClusterLoggingConfigComponentConfig {
 export function googleContainerAttachedClusterLoggingConfigComponentConfigToTerraform(struct?: GoogleContainerAttachedClusterLoggingConfigComponentConfigOutputReference | GoogleContainerAttachedClusterLoggingConfigComponentConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_components: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.enableComponents),
@@ -620,7 +620,7 @@ export function googleContainerAttachedClusterLoggingConfigComponentConfigToTerr
 export function googleContainerAttachedClusterLoggingConfigComponentConfigToHclTerraform(struct?: GoogleContainerAttachedClusterLoggingConfigComponentConfigOutputReference | GoogleContainerAttachedClusterLoggingConfigComponentConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_components: {
@@ -687,7 +687,7 @@ export interface GoogleContainerAttachedClusterLoggingConfig {
   /**
   * component_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#component_config GoogleContainerAttachedCluster#component_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#component_config GoogleContainerAttachedCluster#component_config}
   */
   readonly componentConfig?: GoogleContainerAttachedClusterLoggingConfigComponentConfig;
 }
@@ -695,7 +695,7 @@ export interface GoogleContainerAttachedClusterLoggingConfig {
 export function googleContainerAttachedClusterLoggingConfigToTerraform(struct?: GoogleContainerAttachedClusterLoggingConfigOutputReference | GoogleContainerAttachedClusterLoggingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     component_config: googleContainerAttachedClusterLoggingConfigComponentConfigToTerraform(struct!.componentConfig),
@@ -706,7 +706,7 @@ export function googleContainerAttachedClusterLoggingConfigToTerraform(struct?: 
 export function googleContainerAttachedClusterLoggingConfigToHclTerraform(struct?: GoogleContainerAttachedClusterLoggingConfigOutputReference | GoogleContainerAttachedClusterLoggingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     component_config: {
@@ -773,7 +773,7 @@ export interface GoogleContainerAttachedClusterMonitoringConfigManagedPrometheus
   /**
   * Enable Managed Collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#enabled GoogleContainerAttachedCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#enabled GoogleContainerAttachedCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -781,7 +781,7 @@ export interface GoogleContainerAttachedClusterMonitoringConfigManagedPrometheus
 export function googleContainerAttachedClusterMonitoringConfigManagedPrometheusConfigToTerraform(struct?: GoogleContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReference | GoogleContainerAttachedClusterMonitoringConfigManagedPrometheusConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -792,7 +792,7 @@ export function googleContainerAttachedClusterMonitoringConfigManagedPrometheusC
 export function googleContainerAttachedClusterMonitoringConfigManagedPrometheusConfigToHclTerraform(struct?: GoogleContainerAttachedClusterMonitoringConfigManagedPrometheusConfigOutputReference | GoogleContainerAttachedClusterMonitoringConfigManagedPrometheusConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -859,7 +859,7 @@ export interface GoogleContainerAttachedClusterMonitoringConfig {
   /**
   * managed_prometheus_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#managed_prometheus_config GoogleContainerAttachedCluster#managed_prometheus_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#managed_prometheus_config GoogleContainerAttachedCluster#managed_prometheus_config}
   */
   readonly managedPrometheusConfig?: GoogleContainerAttachedClusterMonitoringConfigManagedPrometheusConfig;
 }
@@ -867,7 +867,7 @@ export interface GoogleContainerAttachedClusterMonitoringConfig {
 export function googleContainerAttachedClusterMonitoringConfigToTerraform(struct?: GoogleContainerAttachedClusterMonitoringConfigOutputReference | GoogleContainerAttachedClusterMonitoringConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     managed_prometheus_config: googleContainerAttachedClusterMonitoringConfigManagedPrometheusConfigToTerraform(struct!.managedPrometheusConfig),
@@ -878,7 +878,7 @@ export function googleContainerAttachedClusterMonitoringConfigToTerraform(struct
 export function googleContainerAttachedClusterMonitoringConfigToHclTerraform(struct?: GoogleContainerAttachedClusterMonitoringConfigOutputReference | GoogleContainerAttachedClusterMonitoringConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     managed_prometheus_config: {
@@ -945,13 +945,13 @@ export interface GoogleContainerAttachedClusterOidcConfig {
   /**
   * A JSON Web Token (JWT) issuer URI. 'issuer' must start with 'https://'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#issuer_url GoogleContainerAttachedCluster#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#issuer_url GoogleContainerAttachedCluster#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * OIDC verification keys in JWKS format (RFC 7517).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#jwks GoogleContainerAttachedCluster#jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#jwks GoogleContainerAttachedCluster#jwks}
   */
   readonly jwks?: string;
 }
@@ -959,7 +959,7 @@ export interface GoogleContainerAttachedClusterOidcConfig {
 export function googleContainerAttachedClusterOidcConfigToTerraform(struct?: GoogleContainerAttachedClusterOidcConfigOutputReference | GoogleContainerAttachedClusterOidcConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     issuer_url: cdktn.stringToTerraform(struct!.issuerUrl),
@@ -971,7 +971,7 @@ export function googleContainerAttachedClusterOidcConfigToTerraform(struct?: Goo
 export function googleContainerAttachedClusterOidcConfigToHclTerraform(struct?: GoogleContainerAttachedClusterOidcConfigOutputReference | GoogleContainerAttachedClusterOidcConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     issuer_url: {
@@ -1063,13 +1063,13 @@ export interface GoogleContainerAttachedClusterProxyConfigKubernetesSecret {
   /**
   * Name of the kubernetes secret containing the proxy config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#name GoogleContainerAttachedCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#name GoogleContainerAttachedCluster#name}
   */
   readonly name: string;
   /**
   * Namespace of the kubernetes secret containing the proxy config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#namespace GoogleContainerAttachedCluster#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#namespace GoogleContainerAttachedCluster#namespace}
   */
   readonly namespace: string;
 }
@@ -1077,7 +1077,7 @@ export interface GoogleContainerAttachedClusterProxyConfigKubernetesSecret {
 export function googleContainerAttachedClusterProxyConfigKubernetesSecretToTerraform(struct?: GoogleContainerAttachedClusterProxyConfigKubernetesSecretOutputReference | GoogleContainerAttachedClusterProxyConfigKubernetesSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -1089,7 +1089,7 @@ export function googleContainerAttachedClusterProxyConfigKubernetesSecretToTerra
 export function googleContainerAttachedClusterProxyConfigKubernetesSecretToHclTerraform(struct?: GoogleContainerAttachedClusterProxyConfigKubernetesSecretOutputReference | GoogleContainerAttachedClusterProxyConfigKubernetesSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -1178,7 +1178,7 @@ export interface GoogleContainerAttachedClusterProxyConfig {
   /**
   * kubernetes_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#kubernetes_secret GoogleContainerAttachedCluster#kubernetes_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#kubernetes_secret GoogleContainerAttachedCluster#kubernetes_secret}
   */
   readonly kubernetesSecret?: GoogleContainerAttachedClusterProxyConfigKubernetesSecret;
 }
@@ -1186,7 +1186,7 @@ export interface GoogleContainerAttachedClusterProxyConfig {
 export function googleContainerAttachedClusterProxyConfigToTerraform(struct?: GoogleContainerAttachedClusterProxyConfigOutputReference | GoogleContainerAttachedClusterProxyConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kubernetes_secret: googleContainerAttachedClusterProxyConfigKubernetesSecretToTerraform(struct!.kubernetesSecret),
@@ -1197,7 +1197,7 @@ export function googleContainerAttachedClusterProxyConfigToTerraform(struct?: Go
 export function googleContainerAttachedClusterProxyConfigToHclTerraform(struct?: GoogleContainerAttachedClusterProxyConfigOutputReference | GoogleContainerAttachedClusterProxyConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kubernetes_secret: {
@@ -1264,7 +1264,7 @@ export interface GoogleContainerAttachedClusterSecurityPostureConfig {
   /**
   * Sets the mode of the Kubernetes security posture API's workload vulnerability scanning. Possible values: ["VULNERABILITY_DISABLED", "VULNERABILITY_ENTERPRISE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#vulnerability_mode GoogleContainerAttachedCluster#vulnerability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#vulnerability_mode GoogleContainerAttachedCluster#vulnerability_mode}
   */
   readonly vulnerabilityMode: string;
 }
@@ -1272,7 +1272,7 @@ export interface GoogleContainerAttachedClusterSecurityPostureConfig {
 export function googleContainerAttachedClusterSecurityPostureConfigToTerraform(struct?: GoogleContainerAttachedClusterSecurityPostureConfigOutputReference | GoogleContainerAttachedClusterSecurityPostureConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     vulnerability_mode: cdktn.stringToTerraform(struct!.vulnerabilityMode),
@@ -1283,7 +1283,7 @@ export function googleContainerAttachedClusterSecurityPostureConfigToTerraform(s
 export function googleContainerAttachedClusterSecurityPostureConfigToHclTerraform(struct?: GoogleContainerAttachedClusterSecurityPostureConfigOutputReference | GoogleContainerAttachedClusterSecurityPostureConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     vulnerability_mode: {
@@ -1345,15 +1345,15 @@ export class GoogleContainerAttachedClusterSecurityPostureConfigOutputReference 
 }
 export interface GoogleContainerAttachedClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#create GoogleContainerAttachedCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#create GoogleContainerAttachedCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#delete GoogleContainerAttachedCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#delete GoogleContainerAttachedCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#update GoogleContainerAttachedCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#update GoogleContainerAttachedCluster#update}
   */
   readonly update?: string;
 }
@@ -1361,7 +1361,7 @@ export interface GoogleContainerAttachedClusterTimeouts {
 export function googleContainerAttachedClusterTimeoutsToTerraform(struct?: GoogleContainerAttachedClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1374,7 +1374,7 @@ export function googleContainerAttachedClusterTimeoutsToTerraform(struct?: Googl
 export function googleContainerAttachedClusterTimeoutsToHclTerraform(struct?: GoogleContainerAttachedClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1505,7 +1505,7 @@ export class GoogleContainerAttachedClusterTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster google_container_attached_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster google_container_attached_cluster}
 */
 export class GoogleContainerAttachedCluster extends cdktn.TerraformResource {
 
@@ -1521,7 +1521,7 @@ export class GoogleContainerAttachedCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleContainerAttachedCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleContainerAttachedCluster to import
-  * @param importFromId The id of the existing GoogleContainerAttachedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleContainerAttachedCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleContainerAttachedCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1533,7 +1533,7 @@ export class GoogleContainerAttachedCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_attached_cluster google_container_attached_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_attached_cluster google_container_attached_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1544,7 +1544,7 @@ export class GoogleContainerAttachedCluster extends cdktn.TerraformResource {
       terraformResourceType: 'google_container_attached_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

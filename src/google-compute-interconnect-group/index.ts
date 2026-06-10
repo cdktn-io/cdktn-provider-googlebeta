@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleComputeInterconnectGroupConfig extends cdktn.TerraformMet
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#deletion_policy GoogleComputeInterconnectGroup#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#deletion_policy GoogleComputeInterconnectGroup#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource. Provide this property when you create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#description GoogleComputeInterconnectGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#description GoogleComputeInterconnectGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#id GoogleComputeInterconnectGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#id GoogleComputeInterconnectGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,29 +44,29 @@ export interface GoogleComputeInterconnectGroupConfig extends cdktn.TerraformMet
   * character must be a lowercase letter, and all following characters must be a dash,
   * lowercase letter, or digit, except the last character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#name GoogleComputeInterconnectGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#name GoogleComputeInterconnectGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#project GoogleComputeInterconnectGroup#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#project GoogleComputeInterconnectGroup#project}
   */
   readonly project?: string;
   /**
   * intent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#intent GoogleComputeInterconnectGroup#intent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#intent GoogleComputeInterconnectGroup#intent}
   */
   readonly intent: GoogleComputeInterconnectGroupIntent;
   /**
   * interconnects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#interconnects GoogleComputeInterconnectGroup#interconnects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#interconnects GoogleComputeInterconnectGroup#interconnects}
   */
   readonly interconnects?: GoogleComputeInterconnectGroupInterconnects[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#timeouts GoogleComputeInterconnectGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#timeouts GoogleComputeInterconnectGroup#timeouts}
   */
   readonly timeouts?: GoogleComputeInterconnectGroupTimeouts;
 }
@@ -76,7 +76,7 @@ export interface GoogleComputeInterconnectGroupConfiguredTopologyCapabilityInten
 export function googleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersToTerraform(struct?: GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -86,7 +86,7 @@ export function googleComputeInterconnectGroupConfiguredTopologyCapabilityIntend
 export function googleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockersToHclTerraform(struct?: GoogleComputeInterconnectGroupConfiguredTopologyCapabilityIntendedCapabilityBlockers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -181,7 +181,7 @@ export interface GoogleComputeInterconnectGroupConfiguredTopologyCapability {
 export function googleComputeInterconnectGroupConfiguredTopologyCapabilityToTerraform(struct?: GoogleComputeInterconnectGroupConfiguredTopologyCapability): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -191,7 +191,7 @@ export function googleComputeInterconnectGroupConfiguredTopologyCapabilityToTerr
 export function googleComputeInterconnectGroupConfiguredTopologyCapabilityToHclTerraform(struct?: GoogleComputeInterconnectGroupConfiguredTopologyCapability): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -262,7 +262,7 @@ export interface GoogleComputeInterconnectGroupConfigured {
 export function googleComputeInterconnectGroupConfiguredToTerraform(struct?: GoogleComputeInterconnectGroupConfigured): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -272,7 +272,7 @@ export function googleComputeInterconnectGroupConfiguredToTerraform(struct?: Goo
 export function googleComputeInterconnectGroupConfiguredToHclTerraform(struct?: GoogleComputeInterconnectGroupConfigured): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -338,7 +338,7 @@ export interface GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilities
 export function googleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesToTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZones): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -348,7 +348,7 @@ export function googleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZ
 export function googleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZonesToHclTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesZones): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -418,7 +418,7 @@ export interface GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilities
 export function googleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesToTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilities): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -428,7 +428,7 @@ export function googleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesT
 export function googleComputeInterconnectGroupPhysicalStructureMetrosFacilitiesToHclTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructureMetrosFacilities): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -499,7 +499,7 @@ export interface GoogleComputeInterconnectGroupPhysicalStructureMetros {
 export function googleComputeInterconnectGroupPhysicalStructureMetrosToTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructureMetros): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -509,7 +509,7 @@ export function googleComputeInterconnectGroupPhysicalStructureMetrosToTerraform
 export function googleComputeInterconnectGroupPhysicalStructureMetrosToHclTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructureMetros): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -580,7 +580,7 @@ export interface GoogleComputeInterconnectGroupPhysicalStructure {
 export function googleComputeInterconnectGroupPhysicalStructureToTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructure): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -590,7 +590,7 @@ export function googleComputeInterconnectGroupPhysicalStructureToTerraform(struc
 export function googleComputeInterconnectGroupPhysicalStructureToHclTerraform(struct?: GoogleComputeInterconnectGroupPhysicalStructure): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -655,7 +655,7 @@ export interface GoogleComputeInterconnectGroupIntent {
   * The reliability the user intends this group to be capable of, in terms
   * of the Interconnect product SLAs. Possible values: ["PRODUCTION_NON_CRITICAL", "PRODUCTION_CRITICAL", "NO_SLA", "AVAILABILITY_SLA_UNSPECIFIED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#topology_capability GoogleComputeInterconnectGroup#topology_capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#topology_capability GoogleComputeInterconnectGroup#topology_capability}
   */
   readonly topologyCapability?: string;
 }
@@ -663,7 +663,7 @@ export interface GoogleComputeInterconnectGroupIntent {
 export function googleComputeInterconnectGroupIntentToTerraform(struct?: GoogleComputeInterconnectGroupIntentOutputReference | GoogleComputeInterconnectGroupIntent): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     topology_capability: cdktn.stringToTerraform(struct!.topologyCapability),
@@ -674,7 +674,7 @@ export function googleComputeInterconnectGroupIntentToTerraform(struct?: GoogleC
 export function googleComputeInterconnectGroupIntentToHclTerraform(struct?: GoogleComputeInterconnectGroupIntentOutputReference | GoogleComputeInterconnectGroupIntent): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     topology_capability: {
@@ -741,11 +741,11 @@ export interface GoogleComputeInterconnectGroupInterconnects {
   /**
   * The URL of an Interconnect in this group. All Interconnects in the group are unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#interconnect GoogleComputeInterconnectGroup#interconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#interconnect GoogleComputeInterconnectGroup#interconnect}
   */
   readonly interconnect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#name GoogleComputeInterconnectGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#name GoogleComputeInterconnectGroup#name}
   */
   readonly name: string;
 }
@@ -753,7 +753,7 @@ export interface GoogleComputeInterconnectGroupInterconnects {
 export function googleComputeInterconnectGroupInterconnectsToTerraform(struct?: GoogleComputeInterconnectGroupInterconnects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     interconnect: cdktn.stringToTerraform(struct!.interconnect),
@@ -765,7 +765,7 @@ export function googleComputeInterconnectGroupInterconnectsToTerraform(struct?: 
 export function googleComputeInterconnectGroupInterconnectsToHclTerraform(struct?: GoogleComputeInterconnectGroupInterconnects | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     interconnect: {
@@ -887,15 +887,15 @@ export class GoogleComputeInterconnectGroupInterconnectsList extends cdktn.Compl
 }
 export interface GoogleComputeInterconnectGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#create GoogleComputeInterconnectGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#create GoogleComputeInterconnectGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#delete GoogleComputeInterconnectGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#delete GoogleComputeInterconnectGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#update GoogleComputeInterconnectGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#update GoogleComputeInterconnectGroup#update}
   */
   readonly update?: string;
 }
@@ -903,7 +903,7 @@ export interface GoogleComputeInterconnectGroupTimeouts {
 export function googleComputeInterconnectGroupTimeoutsToTerraform(struct?: GoogleComputeInterconnectGroupTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -916,7 +916,7 @@ export function googleComputeInterconnectGroupTimeoutsToTerraform(struct?: Googl
 export function googleComputeInterconnectGroupTimeoutsToHclTerraform(struct?: GoogleComputeInterconnectGroupTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1047,7 +1047,7 @@ export class GoogleComputeInterconnectGroupTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group}
 */
 export class GoogleComputeInterconnectGroup extends cdktn.TerraformResource {
 
@@ -1063,7 +1063,7 @@ export class GoogleComputeInterconnectGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeInterconnectGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeInterconnectGroup to import
-  * @param importFromId The id of the existing GoogleComputeInterconnectGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeInterconnectGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeInterconnectGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1075,7 +1075,7 @@ export class GoogleComputeInterconnectGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1086,7 +1086,7 @@ export class GoogleComputeInterconnectGroup extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_interconnect_group',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

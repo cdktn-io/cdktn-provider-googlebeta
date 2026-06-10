@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,7 +18,7 @@ export interface GoogleWorkstationsWorkstationClusterConfig extends cdktn.Terraf
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#annotations GoogleWorkstationsWorkstationCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#annotations GoogleWorkstationsWorkstationCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -30,17 +30,17 @@ export interface GoogleWorkstationsWorkstationClusterConfig extends cdktn.Terraf
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#deletion_policy GoogleWorkstationsWorkstationCluster#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#deletion_policy GoogleWorkstationsWorkstationCluster#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Human-readable name for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#display_name GoogleWorkstationsWorkstationCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#display_name GoogleWorkstationsWorkstationCluster#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#id GoogleWorkstationsWorkstationCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#id GoogleWorkstationsWorkstationCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,31 +52,31 @@ export interface GoogleWorkstationsWorkstationClusterConfig extends cdktn.Terraf
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#labels GoogleWorkstationsWorkstationCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#labels GoogleWorkstationsWorkstationCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location where the workstation cluster should reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#location GoogleWorkstationsWorkstationCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#location GoogleWorkstationsWorkstationCluster#location}
   */
   readonly location?: string;
   /**
   * The relative resource name of the VPC network on which the instance can be accessed.
   * It is specified in the following form: "projects/{projectNumber}/global/networks/{network_id}".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#network GoogleWorkstationsWorkstationCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#network GoogleWorkstationsWorkstationCluster#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#project GoogleWorkstationsWorkstationCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#project GoogleWorkstationsWorkstationCluster#project}
   */
   readonly project?: string;
   /**
   * Name of the Compute Engine subnetwork in which instances associated with this cluster will be created.
   * Must be part of the subnetwork specified for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#subnetwork GoogleWorkstationsWorkstationCluster#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#subnetwork GoogleWorkstationsWorkstationCluster#subnetwork}
   */
   readonly subnetwork: string;
   /**
@@ -85,45 +85,45 @@ export interface GoogleWorkstationsWorkstationClusterConfig extends cdktn.Terraf
   * "123/environment": "production",
   * "123/costCenter": "marketing"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#tags GoogleWorkstationsWorkstationCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#tags GoogleWorkstationsWorkstationCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Specifies the redirect URL for unauthorized requests received by workstation VMs in this cluster.
   * Redirects to this endpoint will send a base64 encoded 'state' query param containing the target workstation name and original request hostname. The endpoint is responsible for retrieving a token using 'GenerateAccessToken' and redirecting back to the original hostname with the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#workstation_authorization_url GoogleWorkstationsWorkstationCluster#workstation_authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#workstation_authorization_url GoogleWorkstationsWorkstationCluster#workstation_authorization_url}
   */
   readonly workstationAuthorizationUrl?: string;
   /**
   * ID to use for the workstation cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#workstation_cluster_id GoogleWorkstationsWorkstationCluster#workstation_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#workstation_cluster_id GoogleWorkstationsWorkstationCluster#workstation_cluster_id}
   */
   readonly workstationClusterId: string;
   /**
   * Specifies the launch URL for workstations in this cluster. Requests sent to unstarted workstations will be redirected to this URL.
   * Requests redirected to the launch endpoint will be sent with a 'workstation' query parameter containing the full workstation resource. The launch endpoint is responsible for starting the workstation, polling it until it reaches 'STATE_RUNNING', and then issuing a redirect to the workstation's host URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#workstation_launch_url GoogleWorkstationsWorkstationCluster#workstation_launch_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#workstation_launch_url GoogleWorkstationsWorkstationCluster#workstation_launch_url}
   */
   readonly workstationLaunchUrl?: string;
   /**
   * domain_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#domain_config GoogleWorkstationsWorkstationCluster#domain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#domain_config GoogleWorkstationsWorkstationCluster#domain_config}
   */
   readonly domainConfig?: GoogleWorkstationsWorkstationClusterDomainConfig;
   /**
   * private_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#private_cluster_config GoogleWorkstationsWorkstationCluster#private_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#private_cluster_config GoogleWorkstationsWorkstationCluster#private_cluster_config}
   */
   readonly privateClusterConfig?: GoogleWorkstationsWorkstationClusterPrivateClusterConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#timeouts GoogleWorkstationsWorkstationCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#timeouts GoogleWorkstationsWorkstationCluster#timeouts}
   */
   readonly timeouts?: GoogleWorkstationsWorkstationClusterTimeouts;
 }
@@ -133,7 +133,7 @@ export interface GoogleWorkstationsWorkstationClusterConditions {
 export function googleWorkstationsWorkstationClusterConditionsToTerraform(struct?: GoogleWorkstationsWorkstationClusterConditions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -143,7 +143,7 @@ export function googleWorkstationsWorkstationClusterConditionsToTerraform(struct
 export function googleWorkstationsWorkstationClusterConditionsToHclTerraform(struct?: GoogleWorkstationsWorkstationClusterConditions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -217,7 +217,7 @@ export interface GoogleWorkstationsWorkstationClusterDomainConfig {
   /**
   * Domain used by Workstations for HTTP ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#domain GoogleWorkstationsWorkstationCluster#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#domain GoogleWorkstationsWorkstationCluster#domain}
   */
   readonly domain: string;
 }
@@ -225,7 +225,7 @@ export interface GoogleWorkstationsWorkstationClusterDomainConfig {
 export function googleWorkstationsWorkstationClusterDomainConfigToTerraform(struct?: GoogleWorkstationsWorkstationClusterDomainConfigOutputReference | GoogleWorkstationsWorkstationClusterDomainConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     domain: cdktn.stringToTerraform(struct!.domain),
@@ -236,7 +236,7 @@ export function googleWorkstationsWorkstationClusterDomainConfigToTerraform(stru
 export function googleWorkstationsWorkstationClusterDomainConfigToHclTerraform(struct?: GoogleWorkstationsWorkstationClusterDomainConfigOutputReference | GoogleWorkstationsWorkstationClusterDomainConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     domain: {
@@ -301,13 +301,13 @@ export interface GoogleWorkstationsWorkstationClusterPrivateClusterConfig {
   * Additional project IDs that are allowed to attach to the workstation cluster's service attachment.
   * By default, the workstation cluster's project and the VPC host project (if different) are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#allowed_projects GoogleWorkstationsWorkstationCluster#allowed_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#allowed_projects GoogleWorkstationsWorkstationCluster#allowed_projects}
   */
   readonly allowedProjects?: string[];
   /**
   * Whether Workstations endpoint is private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#enable_private_endpoint GoogleWorkstationsWorkstationCluster#enable_private_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#enable_private_endpoint GoogleWorkstationsWorkstationCluster#enable_private_endpoint}
   */
   readonly enablePrivateEndpoint: boolean | cdktn.IResolvable;
 }
@@ -315,7 +315,7 @@ export interface GoogleWorkstationsWorkstationClusterPrivateClusterConfig {
 export function googleWorkstationsWorkstationClusterPrivateClusterConfigToTerraform(struct?: GoogleWorkstationsWorkstationClusterPrivateClusterConfigOutputReference | GoogleWorkstationsWorkstationClusterPrivateClusterConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_projects: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedProjects),
@@ -327,7 +327,7 @@ export function googleWorkstationsWorkstationClusterPrivateClusterConfigToTerraf
 export function googleWorkstationsWorkstationClusterPrivateClusterConfigToHclTerraform(struct?: GoogleWorkstationsWorkstationClusterPrivateClusterConfigOutputReference | GoogleWorkstationsWorkstationClusterPrivateClusterConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_projects: {
@@ -427,15 +427,15 @@ export class GoogleWorkstationsWorkstationClusterPrivateClusterConfigOutputRefer
 }
 export interface GoogleWorkstationsWorkstationClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#create GoogleWorkstationsWorkstationCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#create GoogleWorkstationsWorkstationCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#delete GoogleWorkstationsWorkstationCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#delete GoogleWorkstationsWorkstationCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#update GoogleWorkstationsWorkstationCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#update GoogleWorkstationsWorkstationCluster#update}
   */
   readonly update?: string;
 }
@@ -443,7 +443,7 @@ export interface GoogleWorkstationsWorkstationClusterTimeouts {
 export function googleWorkstationsWorkstationClusterTimeoutsToTerraform(struct?: GoogleWorkstationsWorkstationClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -456,7 +456,7 @@ export function googleWorkstationsWorkstationClusterTimeoutsToTerraform(struct?:
 export function googleWorkstationsWorkstationClusterTimeoutsToHclTerraform(struct?: GoogleWorkstationsWorkstationClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -587,7 +587,7 @@ export class GoogleWorkstationsWorkstationClusterTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster}
 */
 export class GoogleWorkstationsWorkstationCluster extends cdktn.TerraformResource {
 
@@ -603,7 +603,7 @@ export class GoogleWorkstationsWorkstationCluster extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a GoogleWorkstationsWorkstationCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleWorkstationsWorkstationCluster to import
-  * @param importFromId The id of the existing GoogleWorkstationsWorkstationCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleWorkstationsWorkstationCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleWorkstationsWorkstationCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -615,7 +615,7 @@ export class GoogleWorkstationsWorkstationCluster extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -626,7 +626,7 @@ export class GoogleWorkstationsWorkstationCluster extends cdktn.TerraformResourc
       terraformResourceType: 'google_workstations_workstation_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

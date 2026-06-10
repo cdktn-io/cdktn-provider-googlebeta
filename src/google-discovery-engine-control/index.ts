@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface GoogleDiscoveryEngineControlConfig extends cdktn.TerraformMetaA
   /**
   * The collection ID. Currently only accepts "default_collection".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#collection_id GoogleDiscoveryEngineControl#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#collection_id GoogleDiscoveryEngineControl#collection_id}
   */
   readonly collectionId?: string;
   /**
   * The unique id of the control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#control_id GoogleDiscoveryEngineControl#control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#control_id GoogleDiscoveryEngineControl#control_id}
   */
   readonly controlId: string;
   /**
@@ -33,24 +33,24 @@ export interface GoogleDiscoveryEngineControlConfig extends cdktn.TerraformMetaA
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#deletion_policy GoogleDiscoveryEngineControl#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#deletion_policy GoogleDiscoveryEngineControl#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The display name of the control. This field must be a UTF-8 encoded
   * string with a length limit of 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#display_name GoogleDiscoveryEngineControl#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#display_name GoogleDiscoveryEngineControl#display_name}
   */
   readonly displayName: string;
   /**
   * The engine to add the control to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#engine_id GoogleDiscoveryEngineControl#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#engine_id GoogleDiscoveryEngineControl#engine_id}
   */
   readonly engineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#id GoogleDiscoveryEngineControl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#id GoogleDiscoveryEngineControl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,65 +60,65 @@ export interface GoogleDiscoveryEngineControlConfig extends cdktn.TerraformMetaA
   * The geographic location where the data store should reside. The value can
   * only be one of "global", "us" and "eu".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#location GoogleDiscoveryEngineControl#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#location GoogleDiscoveryEngineControl#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#project GoogleDiscoveryEngineControl#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#project GoogleDiscoveryEngineControl#project}
   */
   readonly project?: string;
   /**
   * The solution type that the control belongs to. Possible values: ["SOLUTION_TYPE_RECOMMENDATION", "SOLUTION_TYPE_SEARCH", "SOLUTION_TYPE_CHAT", "SOLUTION_TYPE_GENERATIVE_CHAT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#solution_type GoogleDiscoveryEngineControl#solution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#solution_type GoogleDiscoveryEngineControl#solution_type}
   */
   readonly solutionType: string;
   /**
   * The use cases that the control is used for. Possible values: ["SEARCH_USE_CASE_SEARCH", "SEARCH_USE_CASE_BROWSE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#use_cases GoogleDiscoveryEngineControl#use_cases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#use_cases GoogleDiscoveryEngineControl#use_cases}
   */
   readonly useCases?: string[];
   /**
   * boost_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#boost_action GoogleDiscoveryEngineControl#boost_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#boost_action GoogleDiscoveryEngineControl#boost_action}
   */
   readonly boostAction?: GoogleDiscoveryEngineControlBoostAction;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#conditions GoogleDiscoveryEngineControl#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#conditions GoogleDiscoveryEngineControl#conditions}
   */
   readonly conditions?: GoogleDiscoveryEngineControlConditions[] | cdktn.IResolvable;
   /**
   * filter_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#filter_action GoogleDiscoveryEngineControl#filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#filter_action GoogleDiscoveryEngineControl#filter_action}
   */
   readonly filterAction?: GoogleDiscoveryEngineControlFilterAction;
   /**
   * promote_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#promote_action GoogleDiscoveryEngineControl#promote_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#promote_action GoogleDiscoveryEngineControl#promote_action}
   */
   readonly promoteAction?: GoogleDiscoveryEngineControlPromoteAction;
   /**
   * redirect_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#redirect_action GoogleDiscoveryEngineControl#redirect_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#redirect_action GoogleDiscoveryEngineControl#redirect_action}
   */
   readonly redirectAction?: GoogleDiscoveryEngineControlRedirectAction;
   /**
   * synonyms_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#synonyms_action GoogleDiscoveryEngineControl#synonyms_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#synonyms_action GoogleDiscoveryEngineControl#synonyms_action}
   */
   readonly synonymsAction?: GoogleDiscoveryEngineControlSynonymsAction;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#timeouts GoogleDiscoveryEngineControl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#timeouts GoogleDiscoveryEngineControl#timeouts}
   */
   readonly timeouts?: GoogleDiscoveryEngineControlTimeouts;
 }
@@ -126,14 +126,14 @@ export interface GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecCo
   /**
   * The attribute value of the control point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#attribute_value GoogleDiscoveryEngineControl#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#attribute_value GoogleDiscoveryEngineControl#attribute_value}
   */
   readonly attributeValue?: string;
   /**
   * The value between -1 to 1 by which to boost the score if the attributeValue
   * evaluates to the value specified above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#boost_amount GoogleDiscoveryEngineControl#boost_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#boost_amount GoogleDiscoveryEngineControl#boost_amount}
   */
   readonly boostAmount?: number;
 }
@@ -141,7 +141,7 @@ export interface GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecCo
 export function googleDiscoveryEngineControlBoostActionInterpolationBoostSpecControlPointToTerraform(struct?: GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecControlPointOutputReference | GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecControlPoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     attribute_value: cdktn.stringToTerraform(struct!.attributeValue),
@@ -153,7 +153,7 @@ export function googleDiscoveryEngineControlBoostActionInterpolationBoostSpecCon
 export function googleDiscoveryEngineControlBoostActionInterpolationBoostSpecControlPointToHclTerraform(struct?: GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecControlPointOutputReference | GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecControlPoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     attribute_value: {
@@ -248,25 +248,25 @@ export interface GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpec {
   /**
   * The attribute type to be used to determine the boost amount. Possible values: ["NUMERICAL", "FRESHNESS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#attribute_type GoogleDiscoveryEngineControl#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#attribute_type GoogleDiscoveryEngineControl#attribute_type}
   */
   readonly attributeType?: string;
   /**
   * The name of the field whose value will be used to determine the boost amount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#field_name GoogleDiscoveryEngineControl#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#field_name GoogleDiscoveryEngineControl#field_name}
   */
   readonly fieldName?: string;
   /**
   * The interpolation type to be applied to connect the control points. Possible values: ["LINEAR"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#interpolation_type GoogleDiscoveryEngineControl#interpolation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#interpolation_type GoogleDiscoveryEngineControl#interpolation_type}
   */
   readonly interpolationType?: string;
   /**
   * control_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#control_point GoogleDiscoveryEngineControl#control_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#control_point GoogleDiscoveryEngineControl#control_point}
   */
   readonly controlPoint?: GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecControlPoint;
 }
@@ -274,7 +274,7 @@ export interface GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpec {
 export function googleDiscoveryEngineControlBoostActionInterpolationBoostSpecToTerraform(struct?: GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecOutputReference | GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     attribute_type: cdktn.stringToTerraform(struct!.attributeType),
@@ -288,7 +288,7 @@ export function googleDiscoveryEngineControlBoostActionInterpolationBoostSpecToT
 export function googleDiscoveryEngineControlBoostActionInterpolationBoostSpecToHclTerraform(struct?: GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpecOutputReference | GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     attribute_type: {
@@ -439,25 +439,25 @@ export interface GoogleDiscoveryEngineControlBoostAction {
   /**
   * The data store to boost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#data_store GoogleDiscoveryEngineControl#data_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#data_store GoogleDiscoveryEngineControl#data_store}
   */
   readonly dataStore: string;
   /**
   * The filter to apply to the search results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#filter GoogleDiscoveryEngineControl#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#filter GoogleDiscoveryEngineControl#filter}
   */
   readonly filter: string;
   /**
   * The fixed boost value to apply to the search results. Positive values will increase the relevance of the results, while negative values will decrease the relevance. The value must be between -100 and 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#fixed_boost GoogleDiscoveryEngineControl#fixed_boost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#fixed_boost GoogleDiscoveryEngineControl#fixed_boost}
   */
   readonly fixedBoost?: number;
   /**
   * interpolation_boost_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#interpolation_boost_spec GoogleDiscoveryEngineControl#interpolation_boost_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#interpolation_boost_spec GoogleDiscoveryEngineControl#interpolation_boost_spec}
   */
   readonly interpolationBoostSpec?: GoogleDiscoveryEngineControlBoostActionInterpolationBoostSpec;
 }
@@ -465,7 +465,7 @@ export interface GoogleDiscoveryEngineControlBoostAction {
 export function googleDiscoveryEngineControlBoostActionToTerraform(struct?: GoogleDiscoveryEngineControlBoostActionOutputReference | GoogleDiscoveryEngineControlBoostAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_store: cdktn.stringToTerraform(struct!.dataStore),
@@ -479,7 +479,7 @@ export function googleDiscoveryEngineControlBoostActionToTerraform(struct?: Goog
 export function googleDiscoveryEngineControlBoostActionToHclTerraform(struct?: GoogleDiscoveryEngineControlBoostActionOutputReference | GoogleDiscoveryEngineControlBoostAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_store: {
@@ -624,13 +624,13 @@ export interface GoogleDiscoveryEngineControlConditionsActiveTimeRange {
   /**
   * The end time of the active time range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#end_time GoogleDiscoveryEngineControl#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#end_time GoogleDiscoveryEngineControl#end_time}
   */
   readonly endTime?: string;
   /**
   * The start time of the active time range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#start_time GoogleDiscoveryEngineControl#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#start_time GoogleDiscoveryEngineControl#start_time}
   */
   readonly startTime?: string;
 }
@@ -638,7 +638,7 @@ export interface GoogleDiscoveryEngineControlConditionsActiveTimeRange {
 export function googleDiscoveryEngineControlConditionsActiveTimeRangeToTerraform(struct?: GoogleDiscoveryEngineControlConditionsActiveTimeRange | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     end_time: cdktn.stringToTerraform(struct!.endTime),
@@ -650,7 +650,7 @@ export function googleDiscoveryEngineControlConditionsActiveTimeRangeToTerraform
 export function googleDiscoveryEngineControlConditionsActiveTimeRangeToHclTerraform(struct?: GoogleDiscoveryEngineControlConditionsActiveTimeRange | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     end_time: {
@@ -777,13 +777,13 @@ export interface GoogleDiscoveryEngineControlConditionsQueryTerms {
   /**
   * If true, the query term must be an exact match. Otherwise, the query term can be a partial match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#full_match GoogleDiscoveryEngineControl#full_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#full_match GoogleDiscoveryEngineControl#full_match}
   */
   readonly fullMatch?: boolean | cdktn.IResolvable;
   /**
   * The value of the query term.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#value GoogleDiscoveryEngineControl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#value GoogleDiscoveryEngineControl#value}
   */
   readonly value?: string;
 }
@@ -791,7 +791,7 @@ export interface GoogleDiscoveryEngineControlConditionsQueryTerms {
 export function googleDiscoveryEngineControlConditionsQueryTermsToTerraform(struct?: GoogleDiscoveryEngineControlConditionsQueryTerms | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     full_match: cdktn.booleanToTerraform(struct!.fullMatch),
@@ -803,7 +803,7 @@ export function googleDiscoveryEngineControlConditionsQueryTermsToTerraform(stru
 export function googleDiscoveryEngineControlConditionsQueryTermsToHclTerraform(struct?: GoogleDiscoveryEngineControlConditionsQueryTerms | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     full_match: {
@@ -930,19 +930,19 @@ export interface GoogleDiscoveryEngineControlConditions {
   /**
   * The regular expression that the query must match for this condition to be met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#query_regex GoogleDiscoveryEngineControl#query_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#query_regex GoogleDiscoveryEngineControl#query_regex}
   */
   readonly queryRegex?: string;
   /**
   * active_time_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#active_time_range GoogleDiscoveryEngineControl#active_time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#active_time_range GoogleDiscoveryEngineControl#active_time_range}
   */
   readonly activeTimeRange?: GoogleDiscoveryEngineControlConditionsActiveTimeRange[] | cdktn.IResolvable;
   /**
   * query_terms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#query_terms GoogleDiscoveryEngineControl#query_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#query_terms GoogleDiscoveryEngineControl#query_terms}
   */
   readonly queryTerms?: GoogleDiscoveryEngineControlConditionsQueryTerms[] | cdktn.IResolvable;
 }
@@ -950,7 +950,7 @@ export interface GoogleDiscoveryEngineControlConditions {
 export function googleDiscoveryEngineControlConditionsToTerraform(struct?: GoogleDiscoveryEngineControlConditions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     query_regex: cdktn.stringToTerraform(struct!.queryRegex),
@@ -963,7 +963,7 @@ export function googleDiscoveryEngineControlConditionsToTerraform(struct?: Googl
 export function googleDiscoveryEngineControlConditionsToHclTerraform(struct?: GoogleDiscoveryEngineControlConditions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     query_regex: {
@@ -1118,13 +1118,13 @@ export interface GoogleDiscoveryEngineControlFilterAction {
   /**
   * The data store to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#data_store GoogleDiscoveryEngineControl#data_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#data_store GoogleDiscoveryEngineControl#data_store}
   */
   readonly dataStore: string;
   /**
   * The filter to apply to the search results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#filter GoogleDiscoveryEngineControl#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#filter GoogleDiscoveryEngineControl#filter}
   */
   readonly filter: string;
 }
@@ -1132,7 +1132,7 @@ export interface GoogleDiscoveryEngineControlFilterAction {
 export function googleDiscoveryEngineControlFilterActionToTerraform(struct?: GoogleDiscoveryEngineControlFilterActionOutputReference | GoogleDiscoveryEngineControlFilterAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_store: cdktn.stringToTerraform(struct!.dataStore),
@@ -1144,7 +1144,7 @@ export function googleDiscoveryEngineControlFilterActionToTerraform(struct?: Goo
 export function googleDiscoveryEngineControlFilterActionToHclTerraform(struct?: GoogleDiscoveryEngineControlFilterActionOutputReference | GoogleDiscoveryEngineControlFilterAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_store: {
@@ -1233,37 +1233,37 @@ export interface GoogleDiscoveryEngineControlPromoteActionSearchLinkPromotion {
   /**
   * The description of the promoted link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#description GoogleDiscoveryEngineControl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#description GoogleDiscoveryEngineControl#description}
   */
   readonly description?: string;
   /**
   * The document to promote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#document GoogleDiscoveryEngineControl#document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#document GoogleDiscoveryEngineControl#document}
   */
   readonly document?: string;
   /**
   * Return promotions for basic site search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#enabled GoogleDiscoveryEngineControl#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#enabled GoogleDiscoveryEngineControl#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The image URI of the promoted link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#image_uri GoogleDiscoveryEngineControl#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#image_uri GoogleDiscoveryEngineControl#image_uri}
   */
   readonly imageUri?: string;
   /**
   * The title of the promoted link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#title GoogleDiscoveryEngineControl#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#title GoogleDiscoveryEngineControl#title}
   */
   readonly title: string;
   /**
   * The URI to promote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#uri GoogleDiscoveryEngineControl#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#uri GoogleDiscoveryEngineControl#uri}
   */
   readonly uri?: string;
 }
@@ -1271,7 +1271,7 @@ export interface GoogleDiscoveryEngineControlPromoteActionSearchLinkPromotion {
 export function googleDiscoveryEngineControlPromoteActionSearchLinkPromotionToTerraform(struct?: GoogleDiscoveryEngineControlPromoteActionSearchLinkPromotionOutputReference | GoogleDiscoveryEngineControlPromoteActionSearchLinkPromotion): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -1287,7 +1287,7 @@ export function googleDiscoveryEngineControlPromoteActionSearchLinkPromotionToTe
 export function googleDiscoveryEngineControlPromoteActionSearchLinkPromotionToHclTerraform(struct?: GoogleDiscoveryEngineControlPromoteActionSearchLinkPromotionOutputReference | GoogleDiscoveryEngineControlPromoteActionSearchLinkPromotion): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1491,13 +1491,13 @@ export interface GoogleDiscoveryEngineControlPromoteAction {
   /**
   * The data store to promote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#data_store GoogleDiscoveryEngineControl#data_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#data_store GoogleDiscoveryEngineControl#data_store}
   */
   readonly dataStore: string;
   /**
   * search_link_promotion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#search_link_promotion GoogleDiscoveryEngineControl#search_link_promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#search_link_promotion GoogleDiscoveryEngineControl#search_link_promotion}
   */
   readonly searchLinkPromotion: GoogleDiscoveryEngineControlPromoteActionSearchLinkPromotion;
 }
@@ -1505,7 +1505,7 @@ export interface GoogleDiscoveryEngineControlPromoteAction {
 export function googleDiscoveryEngineControlPromoteActionToTerraform(struct?: GoogleDiscoveryEngineControlPromoteActionOutputReference | GoogleDiscoveryEngineControlPromoteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_store: cdktn.stringToTerraform(struct!.dataStore),
@@ -1517,7 +1517,7 @@ export function googleDiscoveryEngineControlPromoteActionToTerraform(struct?: Go
 export function googleDiscoveryEngineControlPromoteActionToHclTerraform(struct?: GoogleDiscoveryEngineControlPromoteActionOutputReference | GoogleDiscoveryEngineControlPromoteAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_store: {
@@ -1606,7 +1606,7 @@ export interface GoogleDiscoveryEngineControlRedirectAction {
   /**
   * The URI to redirect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#redirect_uri GoogleDiscoveryEngineControl#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#redirect_uri GoogleDiscoveryEngineControl#redirect_uri}
   */
   readonly redirectUri: string;
 }
@@ -1614,7 +1614,7 @@ export interface GoogleDiscoveryEngineControlRedirectAction {
 export function googleDiscoveryEngineControlRedirectActionToTerraform(struct?: GoogleDiscoveryEngineControlRedirectActionOutputReference | GoogleDiscoveryEngineControlRedirectAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     redirect_uri: cdktn.stringToTerraform(struct!.redirectUri),
@@ -1625,7 +1625,7 @@ export function googleDiscoveryEngineControlRedirectActionToTerraform(struct?: G
 export function googleDiscoveryEngineControlRedirectActionToHclTerraform(struct?: GoogleDiscoveryEngineControlRedirectActionOutputReference | GoogleDiscoveryEngineControlRedirectAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     redirect_uri: {
@@ -1689,7 +1689,7 @@ export interface GoogleDiscoveryEngineControlSynonymsAction {
   /**
   * The synonyms to apply to the search results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#synonyms GoogleDiscoveryEngineControl#synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#synonyms GoogleDiscoveryEngineControl#synonyms}
   */
   readonly synonyms?: string[];
 }
@@ -1697,7 +1697,7 @@ export interface GoogleDiscoveryEngineControlSynonymsAction {
 export function googleDiscoveryEngineControlSynonymsActionToTerraform(struct?: GoogleDiscoveryEngineControlSynonymsActionOutputReference | GoogleDiscoveryEngineControlSynonymsAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     synonyms: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.synonyms),
@@ -1708,7 +1708,7 @@ export function googleDiscoveryEngineControlSynonymsActionToTerraform(struct?: G
 export function googleDiscoveryEngineControlSynonymsActionToHclTerraform(struct?: GoogleDiscoveryEngineControlSynonymsActionOutputReference | GoogleDiscoveryEngineControlSynonymsAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     synonyms: {
@@ -1773,15 +1773,15 @@ export class GoogleDiscoveryEngineControlSynonymsActionOutputReference extends c
 }
 export interface GoogleDiscoveryEngineControlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#create GoogleDiscoveryEngineControl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#create GoogleDiscoveryEngineControl#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#delete GoogleDiscoveryEngineControl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#delete GoogleDiscoveryEngineControl#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#update GoogleDiscoveryEngineControl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#update GoogleDiscoveryEngineControl#update}
   */
   readonly update?: string;
 }
@@ -1789,7 +1789,7 @@ export interface GoogleDiscoveryEngineControlTimeouts {
 export function googleDiscoveryEngineControlTimeoutsToTerraform(struct?: GoogleDiscoveryEngineControlTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1802,7 +1802,7 @@ export function googleDiscoveryEngineControlTimeoutsToTerraform(struct?: GoogleD
 export function googleDiscoveryEngineControlTimeoutsToHclTerraform(struct?: GoogleDiscoveryEngineControlTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1933,7 +1933,7 @@ export class GoogleDiscoveryEngineControlTimeoutsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control google_discovery_engine_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control google_discovery_engine_control}
 */
 export class GoogleDiscoveryEngineControl extends cdktn.TerraformResource {
 
@@ -1949,7 +1949,7 @@ export class GoogleDiscoveryEngineControl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDiscoveryEngineControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDiscoveryEngineControl to import
-  * @param importFromId The id of the existing GoogleDiscoveryEngineControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDiscoveryEngineControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDiscoveryEngineControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1961,7 +1961,7 @@ export class GoogleDiscoveryEngineControl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_control google_discovery_engine_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_control google_discovery_engine_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1972,7 +1972,7 @@ export class GoogleDiscoveryEngineControl extends cdktn.TerraformResource {
       terraformResourceType: 'google_discovery_engine_control',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

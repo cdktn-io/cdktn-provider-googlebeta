@@ -4,7 +4,7 @@
 
 ### GoogleStorageHmacKey <a name="GoogleStorageHmacKey" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key google_storage_hmac_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key google_storage_hmac_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKey.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleStorageHmacKey to im
 
 The id of the existing GoogleStorageHmacKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,8 +945,8 @@ new GoogleStorageHmacKeyConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.serviceAccountEmail">ServiceAccountEmail</a></code> | <code>string</code> | The email address of the key's associated service account. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.state">State</a></code> | <code>string</code> | The state of the key. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts">GoogleStorageHmacKeyTimeouts</a></code> | timeouts block. |
 
@@ -1032,7 +1032,7 @@ public string ServiceAccountEmail { get; set; }
 
 The email address of the key's associated service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#service_account_email GoogleStorageHmacKey#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#service_account_email GoogleStorageHmacKey#service_account_email}
 
 ---
 
@@ -1053,7 +1053,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#deletion_policy GoogleStorageHmacKey#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#deletion_policy GoogleStorageHmacKey#deletion_policy}
 
 ---
 
@@ -1065,7 +1065,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#id GoogleStorageHmacKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1080,7 +1080,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#project GoogleStorageHmacKey#project}.
 
 ---
 
@@ -1096,7 +1096,7 @@ The state of the key.
 
 Can be set to one of ACTIVE, INACTIVE. Default value: "ACTIVE" Possible values: ["ACTIVE", "INACTIVE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#state GoogleStorageHmacKey#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#state GoogleStorageHmacKey#state}
 
 ---
 
@@ -1110,7 +1110,7 @@ public GoogleStorageHmacKeyTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#timeouts GoogleStorageHmacKey#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#timeouts GoogleStorageHmacKey#timeouts}
 
 ---
 
@@ -1132,9 +1132,9 @@ new GoogleStorageHmacKeyTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageHmacKey.GoogleStorageHmacKeyTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}. |
 
 ---
 
@@ -1146,7 +1146,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#create GoogleStorageHmacKey#create}.
 
 ---
 
@@ -1158,7 +1158,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#delete GoogleStorageHmacKey#delete}.
 
 ---
 
@@ -1170,7 +1170,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_hmac_key#update GoogleStorageHmacKey#update}.
 
 ---
 

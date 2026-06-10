@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,23 +21,23 @@ export interface GoogleApihubPluginInstanceConfig extends cdktn.TerraformMetaArg
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#deletion_policy GoogleApihubPluginInstance#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#deletion_policy GoogleApihubPluginInstance#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The display name for this plugin instance. Max length is 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#disable GoogleApihubPluginInstance#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#disable GoogleApihubPluginInstance#disable}
   */
   readonly disable?: boolean | cdktn.IResolvable;
   /**
   * The display name for this plugin instance. Max length is 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#display_name GoogleApihubPluginInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#display_name GoogleApihubPluginInstance#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#id GoogleApihubPluginInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#id GoogleApihubPluginInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface GoogleApihubPluginInstanceConfig extends cdktn.TerraformMetaArg
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#location GoogleApihubPluginInstance#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#location GoogleApihubPluginInstance#location}
   */
   readonly location: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#plugin GoogleApihubPluginInstance#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#plugin GoogleApihubPluginInstance#plugin}
   */
   readonly plugin: string;
   /**
@@ -67,29 +67,29 @@ export interface GoogleApihubPluginInstanceConfig extends cdktn.TerraformMetaArg
   * This value should be 4-63 characters, and valid characters
   * are /a-z[0-9]-_/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#plugin_instance_id GoogleApihubPluginInstance#plugin_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#plugin_instance_id GoogleApihubPluginInstance#plugin_instance_id}
   */
   readonly pluginInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#project GoogleApihubPluginInstance#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#project GoogleApihubPluginInstance#project}
   */
   readonly project?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#actions GoogleApihubPluginInstance#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#actions GoogleApihubPluginInstance#actions}
   */
   readonly actions?: GoogleApihubPluginInstanceActions[] | cdktn.IResolvable;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#auth_config GoogleApihubPluginInstance#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#auth_config GoogleApihubPluginInstance#auth_config}
   */
   readonly authConfig?: GoogleApihubPluginInstanceAuthConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#timeouts GoogleApihubPluginInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#timeouts GoogleApihubPluginInstance#timeouts}
   */
   readonly timeouts?: GoogleApihubPluginInstanceTimeouts;
 }
@@ -99,7 +99,7 @@ export interface GoogleApihubPluginInstanceActionsHubInstanceActionLastExecution
 export function googleApihubPluginInstanceActionsHubInstanceActionLastExecutionToTerraform(struct?: GoogleApihubPluginInstanceActionsHubInstanceActionLastExecution): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -109,7 +109,7 @@ export function googleApihubPluginInstanceActionsHubInstanceActionLastExecutionT
 export function googleApihubPluginInstanceActionsHubInstanceActionLastExecutionToHclTerraform(struct?: GoogleApihubPluginInstanceActionsHubInstanceActionLastExecution): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -189,7 +189,7 @@ export interface GoogleApihubPluginInstanceActionsHubInstanceAction {
 export function googleApihubPluginInstanceActionsHubInstanceActionToTerraform(struct?: GoogleApihubPluginInstanceActionsHubInstanceAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -199,7 +199,7 @@ export function googleApihubPluginInstanceActionsHubInstanceActionToTerraform(st
 export function googleApihubPluginInstanceActionsHubInstanceActionToHclTerraform(struct?: GoogleApihubPluginInstanceActionsHubInstanceAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -270,7 +270,7 @@ export interface GoogleApihubPluginInstanceActionsCurationConfigCustomCuration {
   * curation resource in the format:
   * 'projects/{project}/locations/{location}/curations/{curation}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#curation GoogleApihubPluginInstance#curation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#curation GoogleApihubPluginInstance#curation}
   */
   readonly curation: string;
 }
@@ -278,7 +278,7 @@ export interface GoogleApihubPluginInstanceActionsCurationConfigCustomCuration {
 export function googleApihubPluginInstanceActionsCurationConfigCustomCurationToTerraform(struct?: GoogleApihubPluginInstanceActionsCurationConfigCustomCurationOutputReference | GoogleApihubPluginInstanceActionsCurationConfigCustomCuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     curation: cdktn.stringToTerraform(struct!.curation),
@@ -289,7 +289,7 @@ export function googleApihubPluginInstanceActionsCurationConfigCustomCurationToT
 export function googleApihubPluginInstanceActionsCurationConfigCustomCurationToHclTerraform(struct?: GoogleApihubPluginInstanceActionsCurationConfigCustomCurationOutputReference | GoogleApihubPluginInstanceActionsCurationConfigCustomCuration): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     curation: {
@@ -356,13 +356,13 @@ export interface GoogleApihubPluginInstanceActionsCurationConfig {
   * DEFAULT_CURATION_FOR_API_METADATA
   * CUSTOM_CURATION_FOR_API_METADATA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#curation_type GoogleApihubPluginInstance#curation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#curation_type GoogleApihubPluginInstance#curation_type}
   */
   readonly curationType?: string;
   /**
   * custom_curation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#custom_curation GoogleApihubPluginInstance#custom_curation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#custom_curation GoogleApihubPluginInstance#custom_curation}
   */
   readonly customCuration?: GoogleApihubPluginInstanceActionsCurationConfigCustomCuration;
 }
@@ -370,7 +370,7 @@ export interface GoogleApihubPluginInstanceActionsCurationConfig {
 export function googleApihubPluginInstanceActionsCurationConfigToTerraform(struct?: GoogleApihubPluginInstanceActionsCurationConfigOutputReference | GoogleApihubPluginInstanceActionsCurationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     curation_type: cdktn.stringToTerraform(struct!.curationType),
@@ -382,7 +382,7 @@ export function googleApihubPluginInstanceActionsCurationConfigToTerraform(struc
 export function googleApihubPluginInstanceActionsCurationConfigToHclTerraform(struct?: GoogleApihubPluginInstanceActionsCurationConfigOutputReference | GoogleApihubPluginInstanceActionsCurationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     curation_type: {
@@ -478,27 +478,27 @@ export interface GoogleApihubPluginInstanceActions {
   * This should map to one of the action id specified
   * in actions_config in the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#action_id GoogleApihubPluginInstance#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#action_id GoogleApihubPluginInstance#action_id}
   */
   readonly actionId: string;
   /**
   * The schedule for this plugin instance action. This can only be set if the
   * plugin supports API_HUB_SCHEDULE_TRIGGER mode for this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#schedule_cron_expression GoogleApihubPluginInstance#schedule_cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#schedule_cron_expression GoogleApihubPluginInstance#schedule_cron_expression}
   */
   readonly scheduleCronExpression?: string;
   /**
   * The time zone for the schedule cron expression. If not provided, UTC will
   * be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#schedule_time_zone GoogleApihubPluginInstance#schedule_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#schedule_time_zone GoogleApihubPluginInstance#schedule_time_zone}
   */
   readonly scheduleTimeZone?: string;
   /**
   * curation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#curation_config GoogleApihubPluginInstance#curation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#curation_config GoogleApihubPluginInstance#curation_config}
   */
   readonly curationConfig?: GoogleApihubPluginInstanceActionsCurationConfig;
 }
@@ -506,7 +506,7 @@ export interface GoogleApihubPluginInstanceActions {
 export function googleApihubPluginInstanceActionsToTerraform(struct?: GoogleApihubPluginInstanceActions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     action_id: cdktn.stringToTerraform(struct!.actionId),
@@ -520,7 +520,7 @@ export function googleApihubPluginInstanceActionsToTerraform(struct?: GoogleApih
 export function googleApihubPluginInstanceActionsToHclTerraform(struct?: GoogleApihubPluginInstanceActions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     action_id: {
@@ -712,7 +712,7 @@ export interface GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey {
   * The resource name of the secret version in the format,
   * format as: 'projects/* /secrets/* /versions/*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#secret_version GoogleApihubPluginInstance#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#secret_version GoogleApihubPluginInstance#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -722,7 +722,7 @@ export interface GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey {
 export function googleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyOutputReference | GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -733,7 +733,7 @@ export function googleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyToTerrafor
 export function googleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyOutputReference | GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -805,7 +805,7 @@ export interface GoogleApihubPluginInstanceAuthConfigApiKeyConfig {
   * BODY
   * COOKIE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#http_element_location GoogleApihubPluginInstance#http_element_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#http_element_location GoogleApihubPluginInstance#http_element_location}
   */
   readonly httpElementLocation: string;
   /**
@@ -813,13 +813,13 @@ export interface GoogleApihubPluginInstanceAuthConfigApiKeyConfig {
   * E.g. If the API request is "https://example.com/act?api_key=",
   * "api_key" would be the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#name GoogleApihubPluginInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#name GoogleApihubPluginInstance#name}
   */
   readonly name: string;
   /**
   * api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#api_key GoogleApihubPluginInstance#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#api_key GoogleApihubPluginInstance#api_key}
   */
   readonly apiKey: GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey;
 }
@@ -827,7 +827,7 @@ export interface GoogleApihubPluginInstanceAuthConfigApiKeyConfig {
 export function googleApihubPluginInstanceAuthConfigApiKeyConfigToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigApiKeyConfigOutputReference | GoogleApihubPluginInstanceAuthConfigApiKeyConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     http_element_location: cdktn.stringToTerraform(struct!.httpElementLocation),
@@ -840,7 +840,7 @@ export function googleApihubPluginInstanceAuthConfigApiKeyConfigToTerraform(stru
 export function googleApihubPluginInstanceAuthConfigApiKeyConfigToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigApiKeyConfigOutputReference | GoogleApihubPluginInstanceAuthConfigApiKeyConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     http_element_location: {
@@ -957,7 +957,7 @@ export interface GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig 
   * The 'iam.serviceAccounts.getAccessToken' permission should be granted on
   * this service account to the impersonator service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#service_account GoogleApihubPluginInstance#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#service_account GoogleApihubPluginInstance#service_account}
   */
   readonly serviceAccount: string;
 }
@@ -965,7 +965,7 @@ export interface GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig 
 export function googleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigOutputReference | GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     service_account: cdktn.stringToTerraform(struct!.serviceAccount),
@@ -976,7 +976,7 @@ export function googleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigTo
 export function googleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigOutputReference | GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     service_account: {
@@ -1041,7 +1041,7 @@ export interface GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConf
   * The resource name of the secret version in the format,
   * format as: 'projects/* /secrets/* /versions/*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#secret_version GoogleApihubPluginInstance#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#secret_version GoogleApihubPluginInstance#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1051,7 +1051,7 @@ export interface GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConf
 export function googleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference | GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -1062,7 +1062,7 @@ export function googleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfi
 export function googleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference | GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -1126,13 +1126,13 @@ export interface GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConf
   /**
   * The client identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#client_id GoogleApihubPluginInstance#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#client_id GoogleApihubPluginInstance#client_id}
   */
   readonly clientId: string;
   /**
   * client_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#client_secret GoogleApihubPluginInstance#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#client_secret GoogleApihubPluginInstance#client_secret}
   */
   readonly clientSecret: GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret;
 }
@@ -1140,7 +1140,7 @@ export interface GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConf
 export function googleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference | GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -1152,7 +1152,7 @@ export function googleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfi
 export function googleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference | GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -1242,7 +1242,7 @@ export interface GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword 
   * The resource name of the secret version in the format,
   * format as: 'projects/* /secrets/* /versions/*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#secret_version GoogleApihubPluginInstance#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#secret_version GoogleApihubPluginInstance#secret_version}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1252,7 +1252,7 @@ export interface GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword 
 export function googleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference | GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -1263,7 +1263,7 @@ export function googleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordTo
 export function googleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference | GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -1327,13 +1327,13 @@ export interface GoogleApihubPluginInstanceAuthConfigUserPasswordConfig {
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#username GoogleApihubPluginInstance#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#username GoogleApihubPluginInstance#username}
   */
   readonly username: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#password GoogleApihubPluginInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#password GoogleApihubPluginInstance#password}
   */
   readonly password: GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword;
 }
@@ -1341,7 +1341,7 @@ export interface GoogleApihubPluginInstanceAuthConfigUserPasswordConfig {
 export function googleApihubPluginInstanceAuthConfigUserPasswordConfigToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigUserPasswordConfigOutputReference | GoogleApihubPluginInstanceAuthConfigUserPasswordConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     username: cdktn.stringToTerraform(struct!.username),
@@ -1353,7 +1353,7 @@ export function googleApihubPluginInstanceAuthConfigUserPasswordConfigToTerrafor
 export function googleApihubPluginInstanceAuthConfigUserPasswordConfigToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigUserPasswordConfigOutputReference | GoogleApihubPluginInstanceAuthConfigUserPasswordConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     username: {
@@ -1448,31 +1448,31 @@ export interface GoogleApihubPluginInstanceAuthConfig {
   * API_KEY
   * OAUTH2_CLIENT_CREDENTIALS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#auth_type GoogleApihubPluginInstance#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#auth_type GoogleApihubPluginInstance#auth_type}
   */
   readonly authType: string;
   /**
   * api_key_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#api_key_config GoogleApihubPluginInstance#api_key_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#api_key_config GoogleApihubPluginInstance#api_key_config}
   */
   readonly apiKeyConfig?: GoogleApihubPluginInstanceAuthConfigApiKeyConfig;
   /**
   * google_service_account_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#google_service_account_config GoogleApihubPluginInstance#google_service_account_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#google_service_account_config GoogleApihubPluginInstance#google_service_account_config}
   */
   readonly googleServiceAccountConfig?: GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig;
   /**
   * oauth2_client_credentials_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#oauth2_client_credentials_config GoogleApihubPluginInstance#oauth2_client_credentials_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#oauth2_client_credentials_config GoogleApihubPluginInstance#oauth2_client_credentials_config}
   */
   readonly oauth2ClientCredentialsConfig?: GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfig;
   /**
   * user_password_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#user_password_config GoogleApihubPluginInstance#user_password_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#user_password_config GoogleApihubPluginInstance#user_password_config}
   */
   readonly userPasswordConfig?: GoogleApihubPluginInstanceAuthConfigUserPasswordConfig;
 }
@@ -1480,7 +1480,7 @@ export interface GoogleApihubPluginInstanceAuthConfig {
 export function googleApihubPluginInstanceAuthConfigToTerraform(struct?: GoogleApihubPluginInstanceAuthConfigOutputReference | GoogleApihubPluginInstanceAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     auth_type: cdktn.stringToTerraform(struct!.authType),
@@ -1495,7 +1495,7 @@ export function googleApihubPluginInstanceAuthConfigToTerraform(struct?: GoogleA
 export function googleApihubPluginInstanceAuthConfigToHclTerraform(struct?: GoogleApihubPluginInstanceAuthConfigOutputReference | GoogleApihubPluginInstanceAuthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     auth_type: {
@@ -1669,15 +1669,15 @@ export class GoogleApihubPluginInstanceAuthConfigOutputReference extends cdktn.C
 }
 export interface GoogleApihubPluginInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#create GoogleApihubPluginInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#create GoogleApihubPluginInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#delete GoogleApihubPluginInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#delete GoogleApihubPluginInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#update GoogleApihubPluginInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#update GoogleApihubPluginInstance#update}
   */
   readonly update?: string;
 }
@@ -1685,7 +1685,7 @@ export interface GoogleApihubPluginInstanceTimeouts {
 export function googleApihubPluginInstanceTimeoutsToTerraform(struct?: GoogleApihubPluginInstanceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1698,7 +1698,7 @@ export function googleApihubPluginInstanceTimeoutsToTerraform(struct?: GoogleApi
 export function googleApihubPluginInstanceTimeoutsToHclTerraform(struct?: GoogleApihubPluginInstanceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1829,7 +1829,7 @@ export class GoogleApihubPluginInstanceTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance google_apihub_plugin_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance google_apihub_plugin_instance}
 */
 export class GoogleApihubPluginInstance extends cdktn.TerraformResource {
 
@@ -1845,7 +1845,7 @@ export class GoogleApihubPluginInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleApihubPluginInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleApihubPluginInstance to import
-  * @param importFromId The id of the existing GoogleApihubPluginInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleApihubPluginInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleApihubPluginInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1857,7 +1857,7 @@ export class GoogleApihubPluginInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apihub_plugin_instance google_apihub_plugin_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_plugin_instance google_apihub_plugin_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1868,7 +1868,7 @@ export class GoogleApihubPluginInstance extends cdktn.TerraformResource {
       terraformResourceType: 'google_apihub_plugin_instance',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

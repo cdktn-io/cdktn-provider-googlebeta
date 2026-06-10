@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,13 +20,13 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   *   * READ_ONLY_SINGLE: The AccessMode means the disk can be attached to multiple instances in RO mode.
   * The AccessMode is only valid for Hyperdisk disk types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#access_mode GoogleComputeDisk#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#access_mode GoogleComputeDisk#access_mode}
   */
   readonly accessMode?: string;
   /**
   * The architecture of the disk. Values include 'X86_64', 'ARM64'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#architecture GoogleComputeDisk#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#architecture GoogleComputeDisk#architecture}
   */
   readonly architecture?: string;
   /**
@@ -34,13 +34,13 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * If your disk is encrypted with customer managed encryption keys these will be reused for the snapshot creation.
   * The name of the snapshot by default will be '{{disk-name}}-YYYYMMDD-HHmm'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#create_snapshot_before_destroy GoogleComputeDisk#create_snapshot_before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#create_snapshot_before_destroy GoogleComputeDisk#create_snapshot_before_destroy}
   */
   readonly createSnapshotBeforeDestroy?: boolean | cdktn.IResolvable;
   /**
   * This will set a custom name prefix for the snapshot that's created when the disk is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#create_snapshot_before_destroy_prefix GoogleComputeDisk#create_snapshot_before_destroy_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#create_snapshot_before_destroy_prefix GoogleComputeDisk#create_snapshot_before_destroy_prefix}
   */
   readonly createSnapshotBeforeDestroyPrefix?: string;
   /**
@@ -52,31 +52,31 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#deletion_policy GoogleComputeDisk#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#deletion_policy GoogleComputeDisk#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource. Provide this property when
   * you create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#description GoogleComputeDisk#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#description GoogleComputeDisk#description}
   */
   readonly description?: string;
   /**
   * Whether this disk is using confidential compute mode.
   * Note: Only supported on hyperdisk skus, disk_encryption_key is required when setting to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#enable_confidential_compute GoogleComputeDisk#enable_confidential_compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#enable_confidential_compute GoogleComputeDisk#enable_confidential_compute}
   */
   readonly enableConfidentialCompute?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether the disk restored from a source snapshot should erase Windows specific VSS signature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#erase_windows_vss_signature GoogleComputeDisk#erase_windows_vss_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#erase_windows_vss_signature GoogleComputeDisk#erase_windows_vss_signature}
   */
   readonly eraseWindowsVssSignature?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#id GoogleComputeDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#id GoogleComputeDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,13 +93,13 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * For instance, the image 'centos-6-v20180104' includes its family name 'centos-6'.
   * These images can be referred by family name here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#image GoogleComputeDisk#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#image GoogleComputeDisk#image}
   */
   readonly image?: string;
   /**
   * Specifies the disk interface to use for attaching this disk, which is either SCSI or NVME. The default is SCSI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#interface GoogleComputeDisk#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#interface GoogleComputeDisk#interface}
   */
   readonly interface?: string;
   /**
@@ -109,19 +109,19 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#labels GoogleComputeDisk#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#labels GoogleComputeDisk#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Any applicable license URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#licenses GoogleComputeDisk#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#licenses GoogleComputeDisk#licenses}
   */
   readonly licenses?: string[];
   /**
   * Indicates whether or not the disk can be read/write attached to more than one instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#multi_writer GoogleComputeDisk#multi_writer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#multi_writer GoogleComputeDisk#multi_writer}
   */
   readonly multiWriter?: boolean | cdktn.IResolvable;
   /**
@@ -133,7 +133,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * characters must be a dash, lowercase letter, or digit, except the last
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#name GoogleComputeDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#name GoogleComputeDisk#name}
   */
   readonly name: string;
   /**
@@ -143,11 +143,11 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * If an unsupported value is requested, the error message will list
   * the supported values for the caller's project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#physical_block_size_bytes GoogleComputeDisk#physical_block_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#physical_block_size_bytes GoogleComputeDisk#physical_block_size_bytes}
   */
   readonly physicalBlockSizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#project GoogleComputeDisk#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#project GoogleComputeDisk#project}
   */
   readonly project?: string;
   /**
@@ -155,7 +155,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * Note: Updating currently is only supported by hyperdisk skus without the need to delete and recreate the disk, hyperdisk
   * allows for an update of IOPS every 4 hours. To update your hyperdisk more frequently, you'll need to manually delete and recreate it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#provisioned_iops GoogleComputeDisk#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#provisioned_iops GoogleComputeDisk#provisioned_iops}
   */
   readonly provisionedIops?: number;
   /**
@@ -163,7 +163,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * Note: Updating currently is only supported by hyperdisk skus without the need to delete and recreate the disk, hyperdisk
   * allows for an update of Throughput every 4 hours. To update your hyperdisk more frequently, you'll need to manually delete and recreate it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#provisioned_throughput GoogleComputeDisk#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#provisioned_throughput GoogleComputeDisk#provisioned_throughput}
   */
   readonly provisionedThroughput?: number;
   /**
@@ -175,7 +175,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * ['google_compute_disk_resource_policy_attachment'](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_disk_resource_policy_attachment)
   * to allow for updating the resource policy attached to the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#resource_policies GoogleComputeDisk#resource_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#resource_policies GoogleComputeDisk#resource_policies}
   */
   readonly resourcePolicies?: string[];
   /**
@@ -193,7 +193,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * You can add 'lifecycle.prevent_destroy' in the config to prevent destroying
   * and recreating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#size GoogleComputeDisk#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#size GoogleComputeDisk#size}
   */
   readonly size?: number;
   /**
@@ -207,7 +207,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * * 'global/snapshots/snapshot'
   * * 'snapshot'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#snapshot GoogleComputeDisk#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#snapshot GoogleComputeDisk#snapshot}
   */
   readonly snapshot?: string;
   /**
@@ -221,7 +221,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * * zones/{zone}/disks/{disk}
   * * regions/{region}/disks/{disk}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#source_disk GoogleComputeDisk#source_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#source_disk GoogleComputeDisk#source_disk}
   */
   readonly sourceDisk?: string;
   /**
@@ -232,7 +232,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * * 'projects/project/zones/zone/instantSnapshots/instantSnapshot'
   * * 'zones/zone/instantSnapshots/instantSnapshot'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#source_instant_snapshot GoogleComputeDisk#source_instant_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#source_instant_snapshot GoogleComputeDisk#source_instant_snapshot}
   */
   readonly sourceInstantSnapshot?: string;
   /**
@@ -242,7 +242,7 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * This flag is not optimized for creating multiple disks from a source storage object.
   * To create many disks from a source storage object, use gcloud compute images import instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#source_storage_object GoogleComputeDisk#source_storage_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#source_storage_object GoogleComputeDisk#source_storage_object}
   */
   readonly sourceStorageObject?: string;
   /**
@@ -253,62 +253,62 @@ export interface GoogleComputeDiskConfig extends cdktn.TerraformMetaArguments {
   * * /zones/{zone}/storagePools/{storagePool}
   * * /{storagePool}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#storage_pool GoogleComputeDisk#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#storage_pool GoogleComputeDisk#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * URL of the disk type resource describing which disk type to use to
   * create the disk. Provide this when creating the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#type GoogleComputeDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#type GoogleComputeDisk#type}
   */
   readonly type?: string;
   /**
   * A reference to the zone where the disk resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#zone GoogleComputeDisk#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#zone GoogleComputeDisk#zone}
   */
   readonly zone?: string;
   /**
   * async_primary_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#async_primary_disk GoogleComputeDisk#async_primary_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#async_primary_disk GoogleComputeDisk#async_primary_disk}
   */
   readonly asyncPrimaryDisk?: GoogleComputeDiskAsyncPrimaryDisk;
   /**
   * disk_encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#disk_encryption_key GoogleComputeDisk#disk_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#disk_encryption_key GoogleComputeDisk#disk_encryption_key}
   */
   readonly diskEncryptionKey?: GoogleComputeDiskDiskEncryptionKey;
   /**
   * guest_os_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#guest_os_features GoogleComputeDisk#guest_os_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#guest_os_features GoogleComputeDisk#guest_os_features}
   */
   readonly guestOsFeatures?: GoogleComputeDiskGuestOsFeatures[] | cdktn.IResolvable;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#params GoogleComputeDisk#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#params GoogleComputeDisk#params}
   */
   readonly params?: GoogleComputeDiskParams;
   /**
   * source_image_encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#source_image_encryption_key GoogleComputeDisk#source_image_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#source_image_encryption_key GoogleComputeDisk#source_image_encryption_key}
   */
   readonly sourceImageEncryptionKey?: GoogleComputeDiskSourceImageEncryptionKey;
   /**
   * source_snapshot_encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#source_snapshot_encryption_key GoogleComputeDisk#source_snapshot_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#source_snapshot_encryption_key GoogleComputeDisk#source_snapshot_encryption_key}
   */
   readonly sourceSnapshotEncryptionKey?: GoogleComputeDiskSourceSnapshotEncryptionKey;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#timeouts GoogleComputeDisk#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#timeouts GoogleComputeDisk#timeouts}
   */
   readonly timeouts?: GoogleComputeDiskTimeouts;
 }
@@ -316,7 +316,7 @@ export interface GoogleComputeDiskAsyncPrimaryDisk {
   /**
   * Primary disk for asynchronous disk replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#disk GoogleComputeDisk#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#disk GoogleComputeDisk#disk}
   */
   readonly disk: string;
 }
@@ -324,7 +324,7 @@ export interface GoogleComputeDiskAsyncPrimaryDisk {
 export function googleComputeDiskAsyncPrimaryDiskToTerraform(struct?: GoogleComputeDiskAsyncPrimaryDiskOutputReference | GoogleComputeDiskAsyncPrimaryDisk): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disk: cdktn.stringToTerraform(struct!.disk),
@@ -335,7 +335,7 @@ export function googleComputeDiskAsyncPrimaryDiskToTerraform(struct?: GoogleComp
 export function googleComputeDiskAsyncPrimaryDiskToHclTerraform(struct?: GoogleComputeDiskAsyncPrimaryDiskOutputReference | GoogleComputeDiskAsyncPrimaryDisk): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disk: {
@@ -403,21 +403,21 @@ export interface GoogleComputeDiskDiskEncryptionKey {
   * 'roles/cloudkms.cryptoKeyEncrypterDecrypter' to use this feature.
   * See https://cloud.google.com/compute/docs/disks/customer-managed-encryption#encrypt_a_new_persistent_disk_with_your_own_keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#kms_key_self_link GoogleComputeDisk#kms_key_self_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#kms_key_self_link GoogleComputeDisk#kms_key_self_link}
   */
   readonly kmsKeySelfLink?: string;
   /**
   * The service account used for the encryption request for the given KMS key.
   * If absent, the Compute Engine Service Agent service account is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#kms_key_service_account GoogleComputeDisk#kms_key_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#kms_key_service_account GoogleComputeDisk#kms_key_service_account}
   */
   readonly kmsKeyServiceAccount?: string;
   /**
   * Specifies a 256-bit customer-supplied encryption key, encoded in
   * RFC 4648 base64 to either encrypt or decrypt this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#raw_key GoogleComputeDisk#raw_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#raw_key GoogleComputeDisk#raw_key}
   */
   readonly rawKey?: string;
   /**
@@ -425,7 +425,7 @@ export interface GoogleComputeDiskDiskEncryptionKey {
   * customer-supplied encryption key to either encrypt or decrypt
   * this resource. You can provide either the rawKey or the rsaEncryptedKey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#rsa_encrypted_key GoogleComputeDisk#rsa_encrypted_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#rsa_encrypted_key GoogleComputeDisk#rsa_encrypted_key}
   */
   readonly rsaEncryptedKey?: string;
 }
@@ -433,7 +433,7 @@ export interface GoogleComputeDiskDiskEncryptionKey {
 export function googleComputeDiskDiskEncryptionKeyToTerraform(struct?: GoogleComputeDiskDiskEncryptionKeyOutputReference | GoogleComputeDiskDiskEncryptionKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_self_link: cdktn.stringToTerraform(struct!.kmsKeySelfLink),
@@ -447,7 +447,7 @@ export function googleComputeDiskDiskEncryptionKeyToTerraform(struct?: GoogleCom
 export function googleComputeDiskDiskEncryptionKeyToHclTerraform(struct?: GoogleComputeDiskDiskEncryptionKeyOutputReference | GoogleComputeDiskDiskEncryptionKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_self_link: {
@@ -603,7 +603,7 @@ export interface GoogleComputeDiskGuestOsFeatures {
   /**
   * The type of supported feature. Read [Enabling guest operating system features](https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images#guest-os-features) to see a list of available options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#type GoogleComputeDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#type GoogleComputeDisk#type}
   */
   readonly type: string;
 }
@@ -611,7 +611,7 @@ export interface GoogleComputeDiskGuestOsFeatures {
 export function googleComputeDiskGuestOsFeaturesToTerraform(struct?: GoogleComputeDiskGuestOsFeatures | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     type: cdktn.stringToTerraform(struct!.type),
@@ -622,7 +622,7 @@ export function googleComputeDiskGuestOsFeaturesToTerraform(struct?: GoogleCompu
 export function googleComputeDiskGuestOsFeaturesToHclTerraform(struct?: GoogleComputeDiskGuestOsFeatures | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     type: {
@@ -720,7 +720,7 @@ export interface GoogleComputeDiskParams {
   * same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
   * and values are in the format tagValues/456.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#resource_manager_tags GoogleComputeDisk#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#resource_manager_tags GoogleComputeDisk#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
 }
@@ -728,7 +728,7 @@ export interface GoogleComputeDiskParams {
 export function googleComputeDiskParamsToTerraform(struct?: GoogleComputeDiskParamsOutputReference | GoogleComputeDiskParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
@@ -739,7 +739,7 @@ export function googleComputeDiskParamsToTerraform(struct?: GoogleComputeDiskPar
 export function googleComputeDiskParamsToHclTerraform(struct?: GoogleComputeDiskParamsOutputReference | GoogleComputeDiskParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resource_manager_tags: {
@@ -810,21 +810,21 @@ export interface GoogleComputeDiskSourceImageEncryptionKey {
   * 'roles/cloudkms.cryptoKeyEncrypterDecrypter' to use this feature.
   * See https://cloud.google.com/compute/docs/disks/customer-managed-encryption#encrypt_a_new_persistent_disk_with_your_own_keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#kms_key_self_link GoogleComputeDisk#kms_key_self_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#kms_key_self_link GoogleComputeDisk#kms_key_self_link}
   */
   readonly kmsKeySelfLink?: string;
   /**
   * The service account used for the encryption request for the given KMS key.
   * If absent, the Compute Engine Service Agent service account is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#kms_key_service_account GoogleComputeDisk#kms_key_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#kms_key_service_account GoogleComputeDisk#kms_key_service_account}
   */
   readonly kmsKeyServiceAccount?: string;
   /**
   * Specifies a 256-bit customer-supplied encryption key, encoded in
   * RFC 4648 base64 to either encrypt or decrypt this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#raw_key GoogleComputeDisk#raw_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#raw_key GoogleComputeDisk#raw_key}
   */
   readonly rawKey?: string;
 }
@@ -832,7 +832,7 @@ export interface GoogleComputeDiskSourceImageEncryptionKey {
 export function googleComputeDiskSourceImageEncryptionKeyToTerraform(struct?: GoogleComputeDiskSourceImageEncryptionKeyOutputReference | GoogleComputeDiskSourceImageEncryptionKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_self_link: cdktn.stringToTerraform(struct!.kmsKeySelfLink),
@@ -845,7 +845,7 @@ export function googleComputeDiskSourceImageEncryptionKeyToTerraform(struct?: Go
 export function googleComputeDiskSourceImageEncryptionKeyToHclTerraform(struct?: GoogleComputeDiskSourceImageEncryptionKeyOutputReference | GoogleComputeDiskSourceImageEncryptionKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_self_link: {
@@ -977,21 +977,21 @@ export interface GoogleComputeDiskSourceSnapshotEncryptionKey {
   * 'roles/cloudkms.cryptoKeyEncrypterDecrypter' to use this feature.
   * See https://cloud.google.com/compute/docs/disks/customer-managed-encryption#encrypt_a_new_persistent_disk_with_your_own_keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#kms_key_self_link GoogleComputeDisk#kms_key_self_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#kms_key_self_link GoogleComputeDisk#kms_key_self_link}
   */
   readonly kmsKeySelfLink?: string;
   /**
   * The service account used for the encryption request for the given KMS key.
   * If absent, the Compute Engine Service Agent service account is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#kms_key_service_account GoogleComputeDisk#kms_key_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#kms_key_service_account GoogleComputeDisk#kms_key_service_account}
   */
   readonly kmsKeyServiceAccount?: string;
   /**
   * Specifies a 256-bit customer-supplied encryption key, encoded in
   * RFC 4648 base64 to either encrypt or decrypt this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#raw_key GoogleComputeDisk#raw_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#raw_key GoogleComputeDisk#raw_key}
   */
   readonly rawKey?: string;
 }
@@ -999,7 +999,7 @@ export interface GoogleComputeDiskSourceSnapshotEncryptionKey {
 export function googleComputeDiskSourceSnapshotEncryptionKeyToTerraform(struct?: GoogleComputeDiskSourceSnapshotEncryptionKeyOutputReference | GoogleComputeDiskSourceSnapshotEncryptionKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_self_link: cdktn.stringToTerraform(struct!.kmsKeySelfLink),
@@ -1012,7 +1012,7 @@ export function googleComputeDiskSourceSnapshotEncryptionKeyToTerraform(struct?:
 export function googleComputeDiskSourceSnapshotEncryptionKeyToHclTerraform(struct?: GoogleComputeDiskSourceSnapshotEncryptionKeyOutputReference | GoogleComputeDiskSourceSnapshotEncryptionKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_self_link: {
@@ -1138,15 +1138,15 @@ export class GoogleComputeDiskSourceSnapshotEncryptionKeyOutputReference extends
 }
 export interface GoogleComputeDiskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#create GoogleComputeDisk#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#create GoogleComputeDisk#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#delete GoogleComputeDisk#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#delete GoogleComputeDisk#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#update GoogleComputeDisk#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#update GoogleComputeDisk#update}
   */
   readonly update?: string;
 }
@@ -1154,7 +1154,7 @@ export interface GoogleComputeDiskTimeouts {
 export function googleComputeDiskTimeoutsToTerraform(struct?: GoogleComputeDiskTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1167,7 +1167,7 @@ export function googleComputeDiskTimeoutsToTerraform(struct?: GoogleComputeDiskT
 export function googleComputeDiskTimeoutsToHclTerraform(struct?: GoogleComputeDiskTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1298,7 +1298,7 @@ export class GoogleComputeDiskTimeoutsOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk google_compute_disk}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk google_compute_disk}
 */
 export class GoogleComputeDisk extends cdktn.TerraformResource {
 
@@ -1314,7 +1314,7 @@ export class GoogleComputeDisk extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeDisk resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeDisk to import
-  * @param importFromId The id of the existing GoogleComputeDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1326,7 +1326,7 @@ export class GoogleComputeDisk extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk google_compute_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk google_compute_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1337,7 +1337,7 @@ export class GoogleComputeDisk extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_disk',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

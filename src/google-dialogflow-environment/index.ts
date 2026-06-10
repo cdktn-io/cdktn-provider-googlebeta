@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,7 +17,7 @@ export interface GoogleDialogflowEnvironmentConfig extends cdktn.TerraformMetaAr
   * - projects/<Project ID>/agent/versions/<Version ID>
   * - projects/<Project ID>/locations/<Location ID>/agent/versions/<Version ID>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#agent_version GoogleDialogflowEnvironment#agent_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#agent_version GoogleDialogflowEnvironment#agent_version}
   */
   readonly agentVersion?: string;
   /**
@@ -29,50 +29,50 @@ export interface GoogleDialogflowEnvironmentConfig extends cdktn.TerraformMetaAr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#deletion_policy GoogleDialogflowEnvironment#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#deletion_policy GoogleDialogflowEnvironment#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The developer-provided description for this environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#description GoogleDialogflowEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#description GoogleDialogflowEnvironment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#environmentid GoogleDialogflowEnvironment#environmentid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#environmentid GoogleDialogflowEnvironment#environmentid}
   */
   readonly environmentid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#id GoogleDialogflowEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#id GoogleDialogflowEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#location GoogleDialogflowEnvironment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#location GoogleDialogflowEnvironment#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#project GoogleDialogflowEnvironment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#project GoogleDialogflowEnvironment#project}
   */
   readonly project?: string;
   /**
   * fulfillment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#fulfillment GoogleDialogflowEnvironment#fulfillment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#fulfillment GoogleDialogflowEnvironment#fulfillment}
   */
   readonly fulfillment?: GoogleDialogflowEnvironmentFulfillment;
   /**
   * text_to_speech_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#text_to_speech_settings GoogleDialogflowEnvironment#text_to_speech_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#text_to_speech_settings GoogleDialogflowEnvironment#text_to_speech_settings}
   */
   readonly textToSpeechSettings?: GoogleDialogflowEnvironmentTextToSpeechSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#timeouts GoogleDialogflowEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#timeouts GoogleDialogflowEnvironment#timeouts}
   */
   readonly timeouts?: GoogleDialogflowEnvironmentTimeouts;
 }
@@ -80,7 +80,7 @@ export interface GoogleDialogflowEnvironmentFulfillmentFeatures {
   /**
   * The type of the feature that enabled for fulfillment. Possible values: ["TYPE_UNSPECIFIED", "SMALLTALK"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#type GoogleDialogflowEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#type GoogleDialogflowEnvironment#type}
   */
   readonly type: string;
 }
@@ -88,7 +88,7 @@ export interface GoogleDialogflowEnvironmentFulfillmentFeatures {
 export function googleDialogflowEnvironmentFulfillmentFeaturesToTerraform(struct?: GoogleDialogflowEnvironmentFulfillmentFeatures | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     type: cdktn.stringToTerraform(struct!.type),
@@ -99,7 +99,7 @@ export function googleDialogflowEnvironmentFulfillmentFeaturesToTerraform(struct
 export function googleDialogflowEnvironmentFulfillmentFeaturesToHclTerraform(struct?: GoogleDialogflowEnvironmentFulfillmentFeatures | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     type: {
@@ -195,25 +195,25 @@ export interface GoogleDialogflowEnvironmentFulfillmentGenericWebService {
   /**
   * The password for HTTP Basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#password GoogleDialogflowEnvironment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#password GoogleDialogflowEnvironment#password}
   */
   readonly password?: string;
   /**
   * The HTTP request headers to send together with fulfillment requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#request_headers GoogleDialogflowEnvironment#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#request_headers GoogleDialogflowEnvironment#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
   * The fulfillment URI for receiving POST requests. It must use https protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#uri GoogleDialogflowEnvironment#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#uri GoogleDialogflowEnvironment#uri}
   */
   readonly uri: string;
   /**
   * The user name for HTTP Basic authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#username GoogleDialogflowEnvironment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#username GoogleDialogflowEnvironment#username}
   */
   readonly username?: string;
 }
@@ -221,7 +221,7 @@ export interface GoogleDialogflowEnvironmentFulfillmentGenericWebService {
 export function googleDialogflowEnvironmentFulfillmentGenericWebServiceToTerraform(struct?: GoogleDialogflowEnvironmentFulfillmentGenericWebServiceOutputReference | GoogleDialogflowEnvironmentFulfillmentGenericWebService): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     password: cdktn.stringToTerraform(struct!.password),
@@ -235,7 +235,7 @@ export function googleDialogflowEnvironmentFulfillmentGenericWebServiceToTerrafo
 export function googleDialogflowEnvironmentFulfillmentGenericWebServiceToHclTerraform(struct?: GoogleDialogflowEnvironmentFulfillmentGenericWebServiceOutputReference | GoogleDialogflowEnvironmentFulfillmentGenericWebService): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     password: {
@@ -383,7 +383,7 @@ export interface GoogleDialogflowEnvironmentFulfillment {
   /**
   * The human-readable name of the fulfillment, unique within the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#display_name GoogleDialogflowEnvironment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#display_name GoogleDialogflowEnvironment#display_name}
   */
   readonly displayName?: string;
   /**
@@ -391,19 +391,19 @@ export interface GoogleDialogflowEnvironmentFulfillment {
   * - projects/<Project ID>/agent/fulfillment
   * - projects/<Project ID>/locations/<Location ID>/agent/fulfillment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#name GoogleDialogflowEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#name GoogleDialogflowEnvironment#name}
   */
   readonly name?: string;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#features GoogleDialogflowEnvironment#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#features GoogleDialogflowEnvironment#features}
   */
   readonly features?: GoogleDialogflowEnvironmentFulfillmentFeatures[] | cdktn.IResolvable;
   /**
   * generic_web_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#generic_web_service GoogleDialogflowEnvironment#generic_web_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#generic_web_service GoogleDialogflowEnvironment#generic_web_service}
   */
   readonly genericWebService?: GoogleDialogflowEnvironmentFulfillmentGenericWebService;
 }
@@ -411,7 +411,7 @@ export interface GoogleDialogflowEnvironmentFulfillment {
 export function googleDialogflowEnvironmentFulfillmentToTerraform(struct?: GoogleDialogflowEnvironmentFulfillmentOutputReference | GoogleDialogflowEnvironmentFulfillment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     display_name: cdktn.stringToTerraform(struct!.displayName),
@@ -425,7 +425,7 @@ export function googleDialogflowEnvironmentFulfillmentToTerraform(struct?: Googl
 export function googleDialogflowEnvironmentFulfillmentToHclTerraform(struct?: GoogleDialogflowEnvironmentFulfillmentOutputReference | GoogleDialogflowEnvironmentFulfillment): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     display_name: {
@@ -576,13 +576,13 @@ export interface GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeech
   /**
   * The name of the voice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#name GoogleDialogflowEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#name GoogleDialogflowEnvironment#name}
   */
   readonly name?: string;
   /**
   * The preferred gender of the voice. Possible values: ["SSML_VOICE_GENDER_UNSPECIFIED", "SSML_VOICE_GENDER_MALE", "SSML_VOICE_GENDER_FEMALE", "SSML_VOICE_GENDER_NEUTRAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#ssml_gender GoogleDialogflowEnvironment#ssml_gender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#ssml_gender GoogleDialogflowEnvironment#ssml_gender}
   */
   readonly ssmlGender?: string;
 }
@@ -590,7 +590,7 @@ export interface GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeech
 export function googleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsVoiceToTerraform(struct?: GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsVoiceOutputReference | GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsVoice): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -602,7 +602,7 @@ export function googleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechC
 export function googleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsVoiceToHclTerraform(struct?: GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsVoiceOutputReference | GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsVoice): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -697,35 +697,35 @@ export interface GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeech
   /**
   * An identifier which selects 'audio effects' profiles that are applied on (post synthesized) text to speech. Effects are applied on top of each other in the order they are given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#effects_profile_id GoogleDialogflowEnvironment#effects_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#effects_profile_id GoogleDialogflowEnvironment#effects_profile_id}
   */
   readonly effectsProfileId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#language GoogleDialogflowEnvironment#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#language GoogleDialogflowEnvironment#language}
   */
   readonly language: string;
   /**
   * Speaking pitch, in the range [-20.0, 20.0]. 20 means increase 20 semitones from the original pitch. -20 means decrease 20 semitones from the original pitch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#pitch GoogleDialogflowEnvironment#pitch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#pitch GoogleDialogflowEnvironment#pitch}
   */
   readonly pitch?: number;
   /**
   * Speaking rate/speed, in the range [0.25, 4.0].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#speaking_rate GoogleDialogflowEnvironment#speaking_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#speaking_rate GoogleDialogflowEnvironment#speaking_rate}
   */
   readonly speakingRate?: number;
   /**
   * Volume gain (in dB) of the normal native volume supported by the specific voice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#volume_gain_db GoogleDialogflowEnvironment#volume_gain_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#volume_gain_db GoogleDialogflowEnvironment#volume_gain_db}
   */
   readonly volumeGainDb?: number;
   /**
   * voice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#voice GoogleDialogflowEnvironment#voice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#voice GoogleDialogflowEnvironment#voice}
   */
   readonly voice?: GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsVoice;
 }
@@ -733,7 +733,7 @@ export interface GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeech
 export function googleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsToTerraform(struct?: GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     effects_profile_id: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.effectsProfileId),
@@ -749,7 +749,7 @@ export function googleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechC
 export function googleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigsToHclTerraform(struct?: GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     effects_profile_id: {
@@ -985,25 +985,25 @@ export interface GoogleDialogflowEnvironmentTextToSpeechSettings {
   /**
   * Indicates whether text to speech is enabled. Even when this field is false, other settings in this proto are still retained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#enable_text_to_speech GoogleDialogflowEnvironment#enable_text_to_speech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#enable_text_to_speech GoogleDialogflowEnvironment#enable_text_to_speech}
   */
   readonly enableTextToSpeech?: boolean | cdktn.IResolvable;
   /**
   * Audio encoding of the synthesized audio content. Possible values: ["OUTPUT_AUDIO_ENCODING_UNSPECIFIED", "OUTPUT_AUDIO_ENCODING_LINEAR_16", "OUTPUT_AUDIO_ENCODING_MP3", "OUTPUT_AUDIO_ENCODING_MP3_64_KBPS", "OUTPUT_AUDIO_ENCODING_OGG_OPUS", "OUTPUT_AUDIO_ENCODING_MULAW", "OUTPUT_AUDIO_ENCODING_ALAW"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#output_audio_encoding GoogleDialogflowEnvironment#output_audio_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#output_audio_encoding GoogleDialogflowEnvironment#output_audio_encoding}
   */
   readonly outputAudioEncoding?: string;
   /**
   * The synthesis sample rate (in hertz) for this audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#sample_rate_hertz GoogleDialogflowEnvironment#sample_rate_hertz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#sample_rate_hertz GoogleDialogflowEnvironment#sample_rate_hertz}
   */
   readonly sampleRateHertz?: number;
   /**
   * synthesize_speech_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#synthesize_speech_configs GoogleDialogflowEnvironment#synthesize_speech_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#synthesize_speech_configs GoogleDialogflowEnvironment#synthesize_speech_configs}
   */
   readonly synthesizeSpeechConfigs?: GoogleDialogflowEnvironmentTextToSpeechSettingsSynthesizeSpeechConfigs[] | cdktn.IResolvable;
 }
@@ -1011,7 +1011,7 @@ export interface GoogleDialogflowEnvironmentTextToSpeechSettings {
 export function googleDialogflowEnvironmentTextToSpeechSettingsToTerraform(struct?: GoogleDialogflowEnvironmentTextToSpeechSettingsOutputReference | GoogleDialogflowEnvironmentTextToSpeechSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_text_to_speech: cdktn.booleanToTerraform(struct!.enableTextToSpeech),
@@ -1025,7 +1025,7 @@ export function googleDialogflowEnvironmentTextToSpeechSettingsToTerraform(struc
 export function googleDialogflowEnvironmentTextToSpeechSettingsToHclTerraform(struct?: GoogleDialogflowEnvironmentTextToSpeechSettingsOutputReference | GoogleDialogflowEnvironmentTextToSpeechSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_text_to_speech: {
@@ -1174,15 +1174,15 @@ export class GoogleDialogflowEnvironmentTextToSpeechSettingsOutputReference exte
 }
 export interface GoogleDialogflowEnvironmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#create GoogleDialogflowEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#create GoogleDialogflowEnvironment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#delete GoogleDialogflowEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#delete GoogleDialogflowEnvironment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#update GoogleDialogflowEnvironment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#update GoogleDialogflowEnvironment#update}
   */
   readonly update?: string;
 }
@@ -1190,7 +1190,7 @@ export interface GoogleDialogflowEnvironmentTimeouts {
 export function googleDialogflowEnvironmentTimeoutsToTerraform(struct?: GoogleDialogflowEnvironmentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1203,7 +1203,7 @@ export function googleDialogflowEnvironmentTimeoutsToTerraform(struct?: GoogleDi
 export function googleDialogflowEnvironmentTimeoutsToHclTerraform(struct?: GoogleDialogflowEnvironmentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1334,7 +1334,7 @@ export class GoogleDialogflowEnvironmentTimeoutsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment google_dialogflow_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment google_dialogflow_environment}
 */
 export class GoogleDialogflowEnvironment extends cdktn.TerraformResource {
 
@@ -1350,7 +1350,7 @@ export class GoogleDialogflowEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDialogflowEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDialogflowEnvironment to import
-  * @param importFromId The id of the existing GoogleDialogflowEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDialogflowEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDialogflowEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1362,7 +1362,7 @@ export class GoogleDialogflowEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_environment google_dialogflow_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_environment google_dialogflow_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1373,7 +1373,7 @@ export class GoogleDialogflowEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'google_dialogflow_environment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

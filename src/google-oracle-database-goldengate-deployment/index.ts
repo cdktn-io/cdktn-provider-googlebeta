@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,13 +21,13 @@ export interface GoogleOracleDatabaseGoldengateDeploymentConfig extends cdktn.Te
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#deletion_policy GoogleOracleDatabaseGoldengateDeployment#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#deletion_policy GoogleOracleDatabaseGoldengateDeployment#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The display name for the GoldengateDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#display_name GoogleOracleDatabaseGoldengateDeployment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#display_name GoogleOracleDatabaseGoldengateDeployment#display_name}
   */
   readonly displayName: string;
   /**
@@ -35,7 +35,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentConfig extends cdktn.Te
   * Example: us-east4-b-r2.
   * If not specified, the system will pick a zone based on availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#gcp_oracle_zone GoogleOracleDatabaseGoldengateDeployment#gcp_oracle_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#gcp_oracle_zone GoogleOracleDatabaseGoldengateDeployment#gcp_oracle_zone}
   */
   readonly gcpOracleZone?: string;
   /**
@@ -44,11 +44,11 @@ export interface GoogleOracleDatabaseGoldengateDeploymentConfig extends cdktn.Te
   * 63 characters in length. The value must start with a letter and end with a
   * letter or a number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#goldengate_deployment_id GoogleOracleDatabaseGoldengateDeployment#goldengate_deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#goldengate_deployment_id GoogleOracleDatabaseGoldengateDeployment#goldengate_deployment_id}
   */
   readonly goldengateDeploymentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#id GoogleOracleDatabaseGoldengateDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#id GoogleOracleDatabaseGoldengateDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,42 +60,42 @@ export interface GoogleOracleDatabaseGoldengateDeploymentConfig extends cdktn.Te
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#labels GoogleOracleDatabaseGoldengateDeployment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#labels GoogleOracleDatabaseGoldengateDeployment#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#location GoogleOracleDatabaseGoldengateDeployment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#location GoogleOracleDatabaseGoldengateDeployment#location}
   */
   readonly location: string;
   /**
   * The name of the OdbNetwork associated with the GoldengateDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#odb_network GoogleOracleDatabaseGoldengateDeployment#odb_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#odb_network GoogleOracleDatabaseGoldengateDeployment#odb_network}
   */
   readonly odbNetwork?: string;
   /**
   * The name of the OdbSubnet associated with the GoldengateDeployment for IP
   * allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#odb_subnet GoogleOracleDatabaseGoldengateDeployment#odb_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#odb_subnet GoogleOracleDatabaseGoldengateDeployment#odb_subnet}
   */
   readonly odbSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#project GoogleOracleDatabaseGoldengateDeployment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#project GoogleOracleDatabaseGoldengateDeployment#project}
   */
   readonly project?: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#properties GoogleOracleDatabaseGoldengateDeployment#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#properties GoogleOracleDatabaseGoldengateDeployment#properties}
   */
   readonly properties: GoogleOracleDatabaseGoldengateDeploymentProperties;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#timeouts GoogleOracleDatabaseGoldengateDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#timeouts GoogleOracleDatabaseGoldengateDeployment#timeouts}
   */
   readonly timeouts?: GoogleOracleDatabaseGoldengateDeploymentTimeouts;
 }
@@ -105,7 +105,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesIngressIps {
 export function googleOracleDatabaseGoldengateDeploymentPropertiesIngressIpsToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesIngressIps): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -115,7 +115,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesIngressIpsToTe
 export function googleOracleDatabaseGoldengateDeploymentPropertiesIngressIpsToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesIngressIps): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -180,7 +180,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesLocks {
 export function googleOracleDatabaseGoldengateDeploymentPropertiesLocksToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesLocks): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -190,7 +190,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesLocksToTerrafo
 export function googleOracleDatabaseGoldengateDeploymentPropertiesLocksToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesLocks): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -275,7 +275,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesPlacements {
 export function googleOracleDatabaseGoldengateDeploymentPropertiesPlacementsToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesPlacements): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -285,7 +285,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesPlacementsToTe
 export function googleOracleDatabaseGoldengateDeploymentPropertiesPlacementsToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesPlacements): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -355,7 +355,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesBackupSchedul
 export function googleOracleDatabaseGoldengateDeploymentPropertiesBackupScheduleToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesBackupScheduleOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesBackupSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -365,7 +365,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesBackupSchedule
 export function googleOracleDatabaseGoldengateDeploymentPropertiesBackupScheduleToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesBackupScheduleOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesBackupSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -434,7 +434,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDia
 export function googleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiagnosticDataToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiagnosticDataOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiagnosticData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -444,7 +444,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiag
 export function googleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiagnosticDataToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiagnosticDataOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiagnosticData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -514,14 +514,14 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceCo
   * period must be shorter or equal to major release upgrade period. Not
   * passing this field during create will equate to using the service default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#bundle_release_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#bundle_release_upgrade_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#bundle_release_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#bundle_release_upgrade_period_days}
   */
   readonly bundleReleaseUpgradePeriodDays?: number;
   /**
   * Defines auto upgrade period for interim releases. This period must be
   * shorter or equal to bundle release upgrade period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#interim_release_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#interim_release_upgrade_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#interim_release_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#interim_release_upgrade_period_days}
   */
   readonly interimReleaseUpgradePeriodDays?: number;
   /**
@@ -529,7 +529,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceCo
   * auto-upgrade is enabled for interim release,  you have to specify
   * interim_release_upgrade_period_days too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#is_interim_release_auto_upgrade_enabled GoogleOracleDatabaseGoldengateDeployment#is_interim_release_auto_upgrade_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#is_interim_release_auto_upgrade_enabled GoogleOracleDatabaseGoldengateDeployment#is_interim_release_auto_upgrade_enabled}
   */
   readonly isInterimReleaseAutoUpgradeEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -537,7 +537,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceCo
   * cannot be longer than service defined period for major releases. Not
   * passing this field during create will equate to using the service default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#major_release_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#major_release_upgrade_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#major_release_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#major_release_upgrade_period_days}
   */
   readonly majorReleaseUpgradePeriodDays?: number;
   /**
@@ -546,7 +546,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceCo
   * releases. Not passing this field during create will equate to using the
   * service default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#security_patch_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#security_patch_upgrade_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#security_patch_upgrade_period_days GoogleOracleDatabaseGoldengateDeployment#security_patch_upgrade_period_days}
   */
   readonly securityPatchUpgradePeriodDays?: number;
 }
@@ -554,7 +554,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceCo
 export function googleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfigToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfigOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bundle_release_upgrade_period_days: cdktn.numberToTerraform(struct!.bundleReleaseUpgradePeriodDays),
@@ -569,7 +569,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceCon
 export function googleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfigToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfigOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bundle_release_upgrade_period_days: {
@@ -755,13 +755,13 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWi
   * SATURDAY
   * SUNDAY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#day GoogleOracleDatabaseGoldengateDeployment#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#day GoogleOracleDatabaseGoldengateDeployment#day}
   */
   readonly day: string;
   /**
   * Start hour for maintenance period. Hour is in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#start_hour GoogleOracleDatabaseGoldengateDeployment#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#start_hour GoogleOracleDatabaseGoldengateDeployment#start_hour}
   */
   readonly startHour: number;
 }
@@ -769,7 +769,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWi
 export function googleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWindowToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWindowOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     day: cdktn.stringToTerraform(struct!.day),
@@ -781,7 +781,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWin
 export function googleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWindowToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWindowOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     day: {
@@ -872,7 +872,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupR
 export function googleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRolesMappingToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRolesMappingOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRolesMapping): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -882,7 +882,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRo
 export function googleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRolesMappingToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRolesMappingOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRolesMapping): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -939,19 +939,19 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesOggData {
   /**
   * The Goldengate deployment console password in plain text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#admin_password GoogleOracleDatabaseGoldengateDeployment#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#admin_password GoogleOracleDatabaseGoldengateDeployment#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Input only. The Goldengate deployment console password secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#admin_password_secret_version GoogleOracleDatabaseGoldengateDeployment#admin_password_secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#admin_password_secret_version GoogleOracleDatabaseGoldengateDeployment#admin_password_secret_version}
   */
   readonly adminPasswordSecretVersion?: string;
   /**
   * The Goldengate deployment console username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#admin_username GoogleOracleDatabaseGoldengateDeployment#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#admin_username GoogleOracleDatabaseGoldengateDeployment#admin_username}
   */
   readonly adminUsername: string;
   /**
@@ -959,19 +959,19 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesOggData {
   * 32 characters long, must contain only alphanumeric characters and must
   * start with a letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#deployment GoogleOracleDatabaseGoldengateDeployment#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#deployment GoogleOracleDatabaseGoldengateDeployment#deployment}
   */
   readonly deployment: string;
   /**
   * Version of OGG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#ogg_version GoogleOracleDatabaseGoldengateDeployment#ogg_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#ogg_version GoogleOracleDatabaseGoldengateDeployment#ogg_version}
   */
   readonly oggVersion?: string;
   /**
   * group_roles_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#group_roles_mapping GoogleOracleDatabaseGoldengateDeployment#group_roles_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#group_roles_mapping GoogleOracleDatabaseGoldengateDeployment#group_roles_mapping}
   */
   readonly groupRolesMapping?: GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataGroupRolesMapping;
 }
@@ -979,7 +979,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentPropertiesOggData {
 export function googleOracleDatabaseGoldengateDeploymentPropertiesOggDataToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesOggData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     admin_password: cdktn.stringToTerraform(struct!.adminPassword),
@@ -995,7 +995,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesOggDataToTerra
 export function googleOracleDatabaseGoldengateDeploymentPropertiesOggDataToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesOggDataOutputReference | GoogleOracleDatabaseGoldengateDeploymentPropertiesOggData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     admin_password: {
@@ -1216,32 +1216,32 @@ export interface GoogleOracleDatabaseGoldengateDeploymentProperties {
   /**
   * The Minimum number of OCPUs to be made available for this Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#cpu_core_count GoogleOracleDatabaseGoldengateDeployment#cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#cpu_core_count GoogleOracleDatabaseGoldengateDeployment#cpu_core_count}
   */
   readonly cpuCoreCount?: number;
   /**
   * A valid Goldengate Deployment type. For a list of supported types, use
   * the 'ListGoldengateDeploymentTypes' operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#deployment_type GoogleOracleDatabaseGoldengateDeployment#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#deployment_type GoogleOracleDatabaseGoldengateDeployment#deployment_type}
   */
   readonly deploymentType: string;
   /**
   * The description of the GoldengateDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#description GoogleOracleDatabaseGoldengateDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#description GoogleOracleDatabaseGoldengateDeployment#description}
   */
   readonly description?: string;
   /**
   * The environment type of the GoldengateDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#environment_type GoogleOracleDatabaseGoldengateDeployment#environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#environment_type GoogleOracleDatabaseGoldengateDeployment#environment_type}
   */
   readonly environmentType?: string;
   /**
   * Indicates if auto scaling is enabled for the Deployment's CPU core count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#is_auto_scaling_enabled GoogleOracleDatabaseGoldengateDeployment#is_auto_scaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#is_auto_scaling_enabled GoogleOracleDatabaseGoldengateDeployment#is_auto_scaling_enabled}
   */
   readonly isAutoScalingEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -1250,37 +1250,37 @@ export interface GoogleOracleDatabaseGoldengateDeploymentProperties {
   * LICENSE_INCLUDED
   * BRING_YOUR_OWN_LICENSE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#license_model GoogleOracleDatabaseGoldengateDeployment#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#license_model GoogleOracleDatabaseGoldengateDeployment#license_model}
   */
   readonly licenseModel?: string;
   /**
   * backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#backup_schedule GoogleOracleDatabaseGoldengateDeployment#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#backup_schedule GoogleOracleDatabaseGoldengateDeployment#backup_schedule}
   */
   readonly backupSchedule?: GoogleOracleDatabaseGoldengateDeploymentPropertiesBackupSchedule;
   /**
   * deployment_diagnostic_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#deployment_diagnostic_data GoogleOracleDatabaseGoldengateDeployment#deployment_diagnostic_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#deployment_diagnostic_data GoogleOracleDatabaseGoldengateDeployment#deployment_diagnostic_data}
   */
   readonly deploymentDiagnosticData?: GoogleOracleDatabaseGoldengateDeploymentPropertiesDeploymentDiagnosticData;
   /**
   * maintenance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#maintenance_config GoogleOracleDatabaseGoldengateDeployment#maintenance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#maintenance_config GoogleOracleDatabaseGoldengateDeployment#maintenance_config}
   */
   readonly maintenanceConfig?: GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceConfig;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#maintenance_window GoogleOracleDatabaseGoldengateDeployment#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#maintenance_window GoogleOracleDatabaseGoldengateDeployment#maintenance_window}
   */
   readonly maintenanceWindow?: GoogleOracleDatabaseGoldengateDeploymentPropertiesMaintenanceWindow;
   /**
   * ogg_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#ogg_data GoogleOracleDatabaseGoldengateDeployment#ogg_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#ogg_data GoogleOracleDatabaseGoldengateDeployment#ogg_data}
   */
   readonly oggData: GoogleOracleDatabaseGoldengateDeploymentPropertiesOggData;
 }
@@ -1288,7 +1288,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentProperties {
 export function googleOracleDatabaseGoldengateDeploymentPropertiesToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesOutputReference | GoogleOracleDatabaseGoldengateDeploymentProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cpu_core_count: cdktn.numberToTerraform(struct!.cpuCoreCount),
@@ -1309,7 +1309,7 @@ export function googleOracleDatabaseGoldengateDeploymentPropertiesToTerraform(st
 export function googleOracleDatabaseGoldengateDeploymentPropertiesToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentPropertiesOutputReference | GoogleOracleDatabaseGoldengateDeploymentProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cpu_core_count: {
@@ -1806,15 +1806,15 @@ export class GoogleOracleDatabaseGoldengateDeploymentPropertiesOutputReference e
 }
 export interface GoogleOracleDatabaseGoldengateDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#create GoogleOracleDatabaseGoldengateDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#create GoogleOracleDatabaseGoldengateDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#delete GoogleOracleDatabaseGoldengateDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#delete GoogleOracleDatabaseGoldengateDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#update GoogleOracleDatabaseGoldengateDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#update GoogleOracleDatabaseGoldengateDeployment#update}
   */
   readonly update?: string;
 }
@@ -1822,7 +1822,7 @@ export interface GoogleOracleDatabaseGoldengateDeploymentTimeouts {
 export function googleOracleDatabaseGoldengateDeploymentTimeoutsToTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1835,7 +1835,7 @@ export function googleOracleDatabaseGoldengateDeploymentTimeoutsToTerraform(stru
 export function googleOracleDatabaseGoldengateDeploymentTimeoutsToHclTerraform(struct?: GoogleOracleDatabaseGoldengateDeploymentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1966,7 +1966,7 @@ export class GoogleOracleDatabaseGoldengateDeploymentTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment}
 */
 export class GoogleOracleDatabaseGoldengateDeployment extends cdktn.TerraformResource {
 
@@ -1982,7 +1982,7 @@ export class GoogleOracleDatabaseGoldengateDeployment extends cdktn.TerraformRes
   * Generates CDKTN code for importing a GoogleOracleDatabaseGoldengateDeployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleOracleDatabaseGoldengateDeployment to import
-  * @param importFromId The id of the existing GoogleOracleDatabaseGoldengateDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleOracleDatabaseGoldengateDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleOracleDatabaseGoldengateDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1994,7 +1994,7 @@ export class GoogleOracleDatabaseGoldengateDeployment extends cdktn.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2005,7 +2005,7 @@ export class GoogleOracleDatabaseGoldengateDeployment extends cdktn.TerraformRes
       terraformResourceType: 'google_oracle_database_goldengate_deployment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

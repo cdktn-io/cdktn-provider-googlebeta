@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,7 +18,7 @@ export interface GoogleGkeonpremVmwareClusterConfig extends cdktn.TerraformMetaA
   * In the future, references to other resource types might be allowed if
   * admin clusters are modeled as their own resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#admin_cluster_membership GoogleGkeonpremVmwareCluster#admin_cluster_membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#admin_cluster_membership GoogleGkeonpremVmwareCluster#admin_cluster_membership}
   */
   readonly adminClusterMembership: string;
   /**
@@ -35,7 +35,7 @@ export interface GoogleGkeonpremVmwareClusterConfig extends cdktn.TerraformMetaA
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#annotations GoogleGkeonpremVmwareCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#annotations GoogleGkeonpremVmwareCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -47,35 +47,35 @@ export interface GoogleGkeonpremVmwareClusterConfig extends cdktn.TerraformMetaA
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#deletion_policy GoogleGkeonpremVmwareCluster#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#deletion_policy GoogleGkeonpremVmwareCluster#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A human readable description of this VMware User Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#description GoogleGkeonpremVmwareCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#description GoogleGkeonpremVmwareCluster#description}
   */
   readonly description?: string;
   /**
   * Disable bundled ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#disable_bundled_ingress GoogleGkeonpremVmwareCluster#disable_bundled_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#disable_bundled_ingress GoogleGkeonpremVmwareCluster#disable_bundled_ingress}
   */
   readonly disableBundledIngress?: boolean | cdktn.IResolvable;
   /**
   * Enable advanced cluster. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#enable_advanced_cluster GoogleGkeonpremVmwareCluster#enable_advanced_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#enable_advanced_cluster GoogleGkeonpremVmwareCluster#enable_advanced_cluster}
   */
   readonly enableAdvancedCluster?: boolean | cdktn.IResolvable;
   /**
   * Enable control plane V2. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#enable_control_plane_v2 GoogleGkeonpremVmwareCluster#enable_control_plane_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#enable_control_plane_v2 GoogleGkeonpremVmwareCluster#enable_control_plane_v2}
   */
   readonly enableControlPlaneV2?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#id GoogleGkeonpremVmwareCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#id GoogleGkeonpremVmwareCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,101 +84,101 @@ export interface GoogleGkeonpremVmwareClusterConfig extends cdktn.TerraformMetaA
   /**
   * The location of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#location GoogleGkeonpremVmwareCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#location GoogleGkeonpremVmwareCluster#location}
   */
   readonly location: string;
   /**
   * The VMware cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#name GoogleGkeonpremVmwareCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#name GoogleGkeonpremVmwareCluster#name}
   */
   readonly name: string;
   /**
   * The Anthos clusters on the VMware version for your user cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#on_prem_version GoogleGkeonpremVmwareCluster#on_prem_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#on_prem_version GoogleGkeonpremVmwareCluster#on_prem_version}
   */
   readonly onPremVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#project GoogleGkeonpremVmwareCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#project GoogleGkeonpremVmwareCluster#project}
   */
   readonly project?: string;
   /**
   * A list of validations to skip during preflight checks. Possible values: ["VALIDATION_SKIP_UNSPECIFIED", "ALL", "WORKSTATION", "CONFIG", "DOCKER", "INFRA", "LOAD_BALANCER", "VIPS", "NODE_IPS", "DNS", "TOD", "NET_CONFIG", "STORAGE_DRIVER", "PROXY", "INTERNET", "GCP", "GKEHUB", "RESERVED_IPS", "STACKDRIVER", "NODEPOOL_AUTOSCALING", "OS_IMAGES", "CLUSTER_VERSION", "CLUSTER_HEALTH", "WINDOWS", "HSM_SECRET_ENCRYPTION", "BACKUP_ADMIN", "CONNECTIVITY", "CLUSTER_SECRETS_CONFIG", "CSI_WORKLOAD", "VSPHERE_VERSION", "MIGRATION"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#skip_validations GoogleGkeonpremVmwareCluster#skip_validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#skip_validations GoogleGkeonpremVmwareCluster#skip_validations}
   */
   readonly skipValidations?: string[];
   /**
   * Enable VM tracking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#vm_tracking_enabled GoogleGkeonpremVmwareCluster#vm_tracking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#vm_tracking_enabled GoogleGkeonpremVmwareCluster#vm_tracking_enabled}
   */
   readonly vmTrackingEnabled?: boolean | cdktn.IResolvable;
   /**
   * anti_affinity_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#anti_affinity_groups GoogleGkeonpremVmwareCluster#anti_affinity_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#anti_affinity_groups GoogleGkeonpremVmwareCluster#anti_affinity_groups}
   */
   readonly antiAffinityGroups?: GoogleGkeonpremVmwareClusterAntiAffinityGroups;
   /**
   * authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#authorization GoogleGkeonpremVmwareCluster#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#authorization GoogleGkeonpremVmwareCluster#authorization}
   */
   readonly authorization?: GoogleGkeonpremVmwareClusterAuthorization;
   /**
   * auto_repair_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#auto_repair_config GoogleGkeonpremVmwareCluster#auto_repair_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#auto_repair_config GoogleGkeonpremVmwareCluster#auto_repair_config}
   */
   readonly autoRepairConfig?: GoogleGkeonpremVmwareClusterAutoRepairConfig;
   /**
   * control_plane_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_node GoogleGkeonpremVmwareCluster#control_plane_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_node GoogleGkeonpremVmwareCluster#control_plane_node}
   */
   readonly controlPlaneNode: GoogleGkeonpremVmwareClusterControlPlaneNode;
   /**
   * dataplane_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#dataplane_v2 GoogleGkeonpremVmwareCluster#dataplane_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#dataplane_v2 GoogleGkeonpremVmwareCluster#dataplane_v2}
   */
   readonly dataplaneV2?: GoogleGkeonpremVmwareClusterDataplaneV2;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#load_balancer GoogleGkeonpremVmwareCluster#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#load_balancer GoogleGkeonpremVmwareCluster#load_balancer}
   */
   readonly loadBalancer?: GoogleGkeonpremVmwareClusterLoadBalancer;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#network_config GoogleGkeonpremVmwareCluster#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#network_config GoogleGkeonpremVmwareCluster#network_config}
   */
   readonly networkConfig?: GoogleGkeonpremVmwareClusterNetworkConfig;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#storage GoogleGkeonpremVmwareCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#storage GoogleGkeonpremVmwareCluster#storage}
   */
   readonly storage?: GoogleGkeonpremVmwareClusterStorage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#timeouts GoogleGkeonpremVmwareCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#timeouts GoogleGkeonpremVmwareCluster#timeouts}
   */
   readonly timeouts?: GoogleGkeonpremVmwareClusterTimeouts;
   /**
   * upgrade_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#upgrade_policy GoogleGkeonpremVmwareCluster#upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#upgrade_policy GoogleGkeonpremVmwareCluster#upgrade_policy}
   */
   readonly upgradePolicy?: GoogleGkeonpremVmwareClusterUpgradePolicy;
   /**
   * vcenter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#vcenter GoogleGkeonpremVmwareCluster#vcenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#vcenter GoogleGkeonpremVmwareCluster#vcenter}
   */
   readonly vcenter?: GoogleGkeonpremVmwareClusterVcenter;
 }
@@ -188,7 +188,7 @@ export interface GoogleGkeonpremVmwareClusterFleet {
 export function googleGkeonpremVmwareClusterFleetToTerraform(struct?: GoogleGkeonpremVmwareClusterFleet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -198,7 +198,7 @@ export function googleGkeonpremVmwareClusterFleetToTerraform(struct?: GoogleGkeo
 export function googleGkeonpremVmwareClusterFleetToHclTerraform(struct?: GoogleGkeonpremVmwareClusterFleet): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -263,7 +263,7 @@ export interface GoogleGkeonpremVmwareClusterStatusConditions {
 export function googleGkeonpremVmwareClusterStatusConditionsToTerraform(struct?: GoogleGkeonpremVmwareClusterStatusConditions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -273,7 +273,7 @@ export function googleGkeonpremVmwareClusterStatusConditionsToTerraform(struct?:
 export function googleGkeonpremVmwareClusterStatusConditionsToHclTerraform(struct?: GoogleGkeonpremVmwareClusterStatusConditions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -358,7 +358,7 @@ export interface GoogleGkeonpremVmwareClusterStatus {
 export function googleGkeonpremVmwareClusterStatusToTerraform(struct?: GoogleGkeonpremVmwareClusterStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -368,7 +368,7 @@ export function googleGkeonpremVmwareClusterStatusToTerraform(struct?: GoogleGke
 export function googleGkeonpremVmwareClusterStatusToHclTerraform(struct?: GoogleGkeonpremVmwareClusterStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -439,7 +439,7 @@ export interface GoogleGkeonpremVmwareClusterValidationCheckStatusResult {
 export function googleGkeonpremVmwareClusterValidationCheckStatusResultToTerraform(struct?: GoogleGkeonpremVmwareClusterValidationCheckStatusResult): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -449,7 +449,7 @@ export function googleGkeonpremVmwareClusterValidationCheckStatusResultToTerrafo
 export function googleGkeonpremVmwareClusterValidationCheckStatusResultToHclTerraform(struct?: GoogleGkeonpremVmwareClusterValidationCheckStatusResult): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -534,7 +534,7 @@ export interface GoogleGkeonpremVmwareClusterValidationCheckStatus {
 export function googleGkeonpremVmwareClusterValidationCheckStatusToTerraform(struct?: GoogleGkeonpremVmwareClusterValidationCheckStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -544,7 +544,7 @@ export function googleGkeonpremVmwareClusterValidationCheckStatusToTerraform(str
 export function googleGkeonpremVmwareClusterValidationCheckStatusToHclTerraform(struct?: GoogleGkeonpremVmwareClusterValidationCheckStatus): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -610,7 +610,7 @@ export interface GoogleGkeonpremVmwareClusterValidationCheck {
 export function googleGkeonpremVmwareClusterValidationCheckToTerraform(struct?: GoogleGkeonpremVmwareClusterValidationCheck): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -620,7 +620,7 @@ export function googleGkeonpremVmwareClusterValidationCheckToTerraform(struct?: 
 export function googleGkeonpremVmwareClusterValidationCheckToHclTerraform(struct?: GoogleGkeonpremVmwareClusterValidationCheck): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -696,7 +696,7 @@ export interface GoogleGkeonpremVmwareClusterAntiAffinityGroups {
   * hosts).
   * Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#aag_config_disabled GoogleGkeonpremVmwareCluster#aag_config_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#aag_config_disabled GoogleGkeonpremVmwareCluster#aag_config_disabled}
   */
   readonly aagConfigDisabled: boolean | cdktn.IResolvable;
 }
@@ -704,7 +704,7 @@ export interface GoogleGkeonpremVmwareClusterAntiAffinityGroups {
 export function googleGkeonpremVmwareClusterAntiAffinityGroupsToTerraform(struct?: GoogleGkeonpremVmwareClusterAntiAffinityGroupsOutputReference | GoogleGkeonpremVmwareClusterAntiAffinityGroups): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     aag_config_disabled: cdktn.booleanToTerraform(struct!.aagConfigDisabled),
@@ -715,7 +715,7 @@ export function googleGkeonpremVmwareClusterAntiAffinityGroupsToTerraform(struct
 export function googleGkeonpremVmwareClusterAntiAffinityGroupsToHclTerraform(struct?: GoogleGkeonpremVmwareClusterAntiAffinityGroupsOutputReference | GoogleGkeonpremVmwareClusterAntiAffinityGroups): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     aag_config_disabled: {
@@ -779,7 +779,7 @@ export interface GoogleGkeonpremVmwareClusterAuthorizationAdminUsers {
   /**
   * The name of the user, e.g. 'my-gcp-id@gmail.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#username GoogleGkeonpremVmwareCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#username GoogleGkeonpremVmwareCluster#username}
   */
   readonly username: string;
 }
@@ -787,7 +787,7 @@ export interface GoogleGkeonpremVmwareClusterAuthorizationAdminUsers {
 export function googleGkeonpremVmwareClusterAuthorizationAdminUsersToTerraform(struct?: GoogleGkeonpremVmwareClusterAuthorizationAdminUsers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     username: cdktn.stringToTerraform(struct!.username),
@@ -798,7 +798,7 @@ export function googleGkeonpremVmwareClusterAuthorizationAdminUsersToTerraform(s
 export function googleGkeonpremVmwareClusterAuthorizationAdminUsersToHclTerraform(struct?: GoogleGkeonpremVmwareClusterAuthorizationAdminUsers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     username: {
@@ -894,7 +894,7 @@ export interface GoogleGkeonpremVmwareClusterAuthorization {
   /**
   * admin_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#admin_users GoogleGkeonpremVmwareCluster#admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#admin_users GoogleGkeonpremVmwareCluster#admin_users}
   */
   readonly adminUsers?: GoogleGkeonpremVmwareClusterAuthorizationAdminUsers[] | cdktn.IResolvable;
 }
@@ -902,7 +902,7 @@ export interface GoogleGkeonpremVmwareClusterAuthorization {
 export function googleGkeonpremVmwareClusterAuthorizationToTerraform(struct?: GoogleGkeonpremVmwareClusterAuthorizationOutputReference | GoogleGkeonpremVmwareClusterAuthorization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     admin_users: cdktn.listMapper(googleGkeonpremVmwareClusterAuthorizationAdminUsersToTerraform, true)(struct!.adminUsers),
@@ -913,7 +913,7 @@ export function googleGkeonpremVmwareClusterAuthorizationToTerraform(struct?: Go
 export function googleGkeonpremVmwareClusterAuthorizationToHclTerraform(struct?: GoogleGkeonpremVmwareClusterAuthorizationOutputReference | GoogleGkeonpremVmwareClusterAuthorization): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     admin_users: {
@@ -980,7 +980,7 @@ export interface GoogleGkeonpremVmwareClusterAutoRepairConfig {
   /**
   * Whether auto repair is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#enabled GoogleGkeonpremVmwareCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#enabled GoogleGkeonpremVmwareCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -988,7 +988,7 @@ export interface GoogleGkeonpremVmwareClusterAutoRepairConfig {
 export function googleGkeonpremVmwareClusterAutoRepairConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterAutoRepairConfigOutputReference | GoogleGkeonpremVmwareClusterAutoRepairConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -999,7 +999,7 @@ export function googleGkeonpremVmwareClusterAutoRepairConfigToTerraform(struct?:
 export function googleGkeonpremVmwareClusterAutoRepairConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterAutoRepairConfigOutputReference | GoogleGkeonpremVmwareClusterAutoRepairConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1065,7 +1065,7 @@ export interface GoogleGkeonpremVmwareClusterControlPlaneNodeVsphereConfig {
 export function googleGkeonpremVmwareClusterControlPlaneNodeVsphereConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterControlPlaneNodeVsphereConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1075,7 +1075,7 @@ export function googleGkeonpremVmwareClusterControlPlaneNodeVsphereConfigToTerra
 export function googleGkeonpremVmwareClusterControlPlaneNodeVsphereConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterControlPlaneNodeVsphereConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1143,7 +1143,7 @@ export interface GoogleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfig {
   /**
   * Whether to enable control plane node auto resizing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#enabled GoogleGkeonpremVmwareCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#enabled GoogleGkeonpremVmwareCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1151,7 +1151,7 @@ export interface GoogleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfig {
 export function googleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfigOutputReference | GoogleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1162,7 +1162,7 @@ export function googleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfigToTe
 export function googleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfigOutputReference | GoogleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1227,27 +1227,27 @@ export interface GoogleGkeonpremVmwareClusterControlPlaneNode {
   * The number of CPUs for each admin cluster node that serve as control planes
   * for this VMware User Cluster. (default: 4 CPUs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#cpus GoogleGkeonpremVmwareCluster#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#cpus GoogleGkeonpremVmwareCluster#cpus}
   */
   readonly cpus?: number;
   /**
   * The megabytes of memory for each admin cluster node that serves as a
   * control plane for this VMware User Cluster (default: 8192 MB memory).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#memory GoogleGkeonpremVmwareCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#memory GoogleGkeonpremVmwareCluster#memory}
   */
   readonly memory?: number;
   /**
   * The number of control plane nodes for this VMware User Cluster.
   * (default: 1 replica).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#replicas GoogleGkeonpremVmwareCluster#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#replicas GoogleGkeonpremVmwareCluster#replicas}
   */
   readonly replicas?: number;
   /**
   * auto_resize_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#auto_resize_config GoogleGkeonpremVmwareCluster#auto_resize_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#auto_resize_config GoogleGkeonpremVmwareCluster#auto_resize_config}
   */
   readonly autoResizeConfig?: GoogleGkeonpremVmwareClusterControlPlaneNodeAutoResizeConfig;
 }
@@ -1255,7 +1255,7 @@ export interface GoogleGkeonpremVmwareClusterControlPlaneNode {
 export function googleGkeonpremVmwareClusterControlPlaneNodeToTerraform(struct?: GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference | GoogleGkeonpremVmwareClusterControlPlaneNode): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cpus: cdktn.numberToTerraform(struct!.cpus),
@@ -1269,7 +1269,7 @@ export function googleGkeonpremVmwareClusterControlPlaneNodeToTerraform(struct?:
 export function googleGkeonpremVmwareClusterControlPlaneNodeToHclTerraform(struct?: GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference | GoogleGkeonpremVmwareClusterControlPlaneNode): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cpus: {
@@ -1426,19 +1426,19 @@ export interface GoogleGkeonpremVmwareClusterDataplaneV2 {
   /**
   * Enable advanced networking which requires dataplane_v2_enabled to be set true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#advanced_networking GoogleGkeonpremVmwareCluster#advanced_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#advanced_networking GoogleGkeonpremVmwareCluster#advanced_networking}
   */
   readonly advancedNetworking?: boolean | cdktn.IResolvable;
   /**
   * Enables Dataplane V2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#dataplane_v2_enabled GoogleGkeonpremVmwareCluster#dataplane_v2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#dataplane_v2_enabled GoogleGkeonpremVmwareCluster#dataplane_v2_enabled}
   */
   readonly dataplaneV2Enabled?: boolean | cdktn.IResolvable;
   /**
   * Enable Dataplane V2 for clusters with Windows nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#windows_dataplane_v2_enabled GoogleGkeonpremVmwareCluster#windows_dataplane_v2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#windows_dataplane_v2_enabled GoogleGkeonpremVmwareCluster#windows_dataplane_v2_enabled}
   */
   readonly windowsDataplaneV2Enabled?: boolean | cdktn.IResolvable;
 }
@@ -1446,7 +1446,7 @@ export interface GoogleGkeonpremVmwareClusterDataplaneV2 {
 export function googleGkeonpremVmwareClusterDataplaneV2ToTerraform(struct?: GoogleGkeonpremVmwareClusterDataplaneV2OutputReference | GoogleGkeonpremVmwareClusterDataplaneV2): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     advanced_networking: cdktn.booleanToTerraform(struct!.advancedNetworking),
@@ -1459,7 +1459,7 @@ export function googleGkeonpremVmwareClusterDataplaneV2ToTerraform(struct?: Goog
 export function googleGkeonpremVmwareClusterDataplaneV2ToHclTerraform(struct?: GoogleGkeonpremVmwareClusterDataplaneV2OutputReference | GoogleGkeonpremVmwareClusterDataplaneV2): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     advanced_networking: {
@@ -1582,7 +1582,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerF5Config {
   /**
   * The load balancer's IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#address GoogleGkeonpremVmwareCluster#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#address GoogleGkeonpremVmwareCluster#address}
   */
   readonly address?: string;
   /**
@@ -1590,13 +1590,13 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerF5Config {
   * his partition is usually created for the admin cluster for example:
   * 'my-f5-admin-partition'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#partition GoogleGkeonpremVmwareCluster#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#partition GoogleGkeonpremVmwareCluster#partition}
   */
   readonly partition?: string;
   /**
   * The pool name. Only necessary, if using SNAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#snat_pool GoogleGkeonpremVmwareCluster#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#snat_pool GoogleGkeonpremVmwareCluster#snat_pool}
   */
   readonly snatPool?: string;
 }
@@ -1604,7 +1604,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerF5Config {
 export function googleGkeonpremVmwareClusterLoadBalancerF5ConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerF5ConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerF5Config): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     address: cdktn.stringToTerraform(struct!.address),
@@ -1617,7 +1617,7 @@ export function googleGkeonpremVmwareClusterLoadBalancerF5ConfigToTerraform(stru
 export function googleGkeonpremVmwareClusterLoadBalancerF5ConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerF5ConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerF5Config): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     address: {
@@ -1741,28 +1741,28 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerManualLbConfig {
   * NodePort for control plane service. The Kubernetes API server in the admin
   * cluster is implemented as a Service of type NodePort (ex. 30968).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_node_port GoogleGkeonpremVmwareCluster#control_plane_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_node_port GoogleGkeonpremVmwareCluster#control_plane_node_port}
   */
   readonly controlPlaneNodePort?: number;
   /**
   * NodePort for ingress service's http. The ingress service in the admin
   * cluster is implemented as a Service of type NodePort (ex. 32527).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ingress_http_node_port GoogleGkeonpremVmwareCluster#ingress_http_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ingress_http_node_port GoogleGkeonpremVmwareCluster#ingress_http_node_port}
   */
   readonly ingressHttpNodePort?: number;
   /**
   * NodePort for ingress service's https. The ingress service in the admin
   * cluster is implemented as a Service of type NodePort (ex. 30139).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ingress_https_node_port GoogleGkeonpremVmwareCluster#ingress_https_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ingress_https_node_port GoogleGkeonpremVmwareCluster#ingress_https_node_port}
   */
   readonly ingressHttpsNodePort?: number;
   /**
   * NodePort for konnectivity server service running as a sidecar in each
   * kube-apiserver pod (ex. 30564).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#konnectivity_server_node_port GoogleGkeonpremVmwareCluster#konnectivity_server_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#konnectivity_server_node_port GoogleGkeonpremVmwareCluster#konnectivity_server_node_port}
   */
   readonly konnectivityServerNodePort?: number;
 }
@@ -1770,7 +1770,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerManualLbConfig {
 export function googleGkeonpremVmwareClusterLoadBalancerManualLbConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerManualLbConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     control_plane_node_port: cdktn.numberToTerraform(struct!.controlPlaneNodePort),
@@ -1784,7 +1784,7 @@ export function googleGkeonpremVmwareClusterLoadBalancerManualLbConfigToTerrafor
 export function googleGkeonpremVmwareClusterLoadBalancerManualLbConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerManualLbConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerManualLbConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     control_plane_node_port: {
@@ -1937,7 +1937,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoo
   * must be either in the CIDR form (1.2.3.0/24) or range
   * form (1.2.3.1-1.2.3.5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#addresses GoogleGkeonpremVmwareCluster#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#addresses GoogleGkeonpremVmwareCluster#addresses}
   */
   readonly addresses: string[];
   /**
@@ -1945,19 +1945,19 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoo
   * This avoids buggy consumer devices mistakenly dropping IPv4 traffic for
   * those special IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#avoid_buggy_ips GoogleGkeonpremVmwareCluster#avoid_buggy_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#avoid_buggy_ips GoogleGkeonpremVmwareCluster#avoid_buggy_ips}
   */
   readonly avoidBuggyIps?: boolean | cdktn.IResolvable;
   /**
   * If true, prevent IP addresses from being automatically assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#manual_assign GoogleGkeonpremVmwareCluster#manual_assign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#manual_assign GoogleGkeonpremVmwareCluster#manual_assign}
   */
   readonly manualAssign?: boolean | cdktn.IResolvable;
   /**
   * The name of the address pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#pool GoogleGkeonpremVmwareCluster#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#pool GoogleGkeonpremVmwareCluster#pool}
   */
   readonly pool: string;
 }
@@ -1965,7 +1965,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoo
 export function googleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoolsToTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPools | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.addresses),
@@ -1979,7 +1979,7 @@ export function googleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPool
 export function googleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoolsToHclTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPools | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     addresses: {
@@ -2156,7 +2156,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfig {
   /**
   * address_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#address_pools GoogleGkeonpremVmwareCluster#address_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#address_pools GoogleGkeonpremVmwareCluster#address_pools}
   */
   readonly addressPools: GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPools[] | cdktn.IResolvable;
 }
@@ -2164,7 +2164,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfig {
 export function googleGkeonpremVmwareClusterLoadBalancerMetalLbConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     address_pools: cdktn.listMapper(googleGkeonpremVmwareClusterLoadBalancerMetalLbConfigAddressPoolsToTerraform, true)(struct!.addressPools),
@@ -2175,7 +2175,7 @@ export function googleGkeonpremVmwareClusterLoadBalancerMetalLbConfigToTerraform
 export function googleGkeonpremVmwareClusterLoadBalancerMetalLbConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     address_pools: {
@@ -2239,13 +2239,13 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerVipConfig {
   /**
   * The VIP which you previously set aside for the Kubernetes API of this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_vip GoogleGkeonpremVmwareCluster#control_plane_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_vip GoogleGkeonpremVmwareCluster#control_plane_vip}
   */
   readonly controlPlaneVip?: string;
   /**
   * The VIP which you previously set aside for ingress traffic into this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ingress_vip GoogleGkeonpremVmwareCluster#ingress_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ingress_vip GoogleGkeonpremVmwareCluster#ingress_vip}
   */
   readonly ingressVip?: string;
 }
@@ -2253,7 +2253,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancerVipConfig {
 export function googleGkeonpremVmwareClusterLoadBalancerVipConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerVipConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerVipConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     control_plane_vip: cdktn.stringToTerraform(struct!.controlPlaneVip),
@@ -2265,7 +2265,7 @@ export function googleGkeonpremVmwareClusterLoadBalancerVipConfigToTerraform(str
 export function googleGkeonpremVmwareClusterLoadBalancerVipConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerVipConfigOutputReference | GoogleGkeonpremVmwareClusterLoadBalancerVipConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     control_plane_vip: {
@@ -2360,25 +2360,25 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancer {
   /**
   * f5_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#f5_config GoogleGkeonpremVmwareCluster#f5_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#f5_config GoogleGkeonpremVmwareCluster#f5_config}
   */
   readonly f5Config?: GoogleGkeonpremVmwareClusterLoadBalancerF5Config;
   /**
   * manual_lb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#manual_lb_config GoogleGkeonpremVmwareCluster#manual_lb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#manual_lb_config GoogleGkeonpremVmwareCluster#manual_lb_config}
   */
   readonly manualLbConfig?: GoogleGkeonpremVmwareClusterLoadBalancerManualLbConfig;
   /**
   * metal_lb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#metal_lb_config GoogleGkeonpremVmwareCluster#metal_lb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#metal_lb_config GoogleGkeonpremVmwareCluster#metal_lb_config}
   */
   readonly metalLbConfig?: GoogleGkeonpremVmwareClusterLoadBalancerMetalLbConfig;
   /**
   * vip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#vip_config GoogleGkeonpremVmwareCluster#vip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#vip_config GoogleGkeonpremVmwareCluster#vip_config}
   */
   readonly vipConfig?: GoogleGkeonpremVmwareClusterLoadBalancerVipConfig;
 }
@@ -2386,7 +2386,7 @@ export interface GoogleGkeonpremVmwareClusterLoadBalancer {
 export function googleGkeonpremVmwareClusterLoadBalancerToTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerOutputReference | GoogleGkeonpremVmwareClusterLoadBalancer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     f5_config: googleGkeonpremVmwareClusterLoadBalancerF5ConfigToTerraform(struct!.f5Config),
@@ -2400,7 +2400,7 @@ export function googleGkeonpremVmwareClusterLoadBalancerToTerraform(struct?: Goo
 export function googleGkeonpremVmwareClusterLoadBalancerToHclTerraform(struct?: GoogleGkeonpremVmwareClusterLoadBalancerOutputReference | GoogleGkeonpremVmwareClusterLoadBalancer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     f5_config: {
@@ -2551,13 +2551,13 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigCo
   /**
   * Hostname of the machine. VM's name will be used if this field is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#hostname GoogleGkeonpremVmwareCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#hostname GoogleGkeonpremVmwareCluster#hostname}
   */
   readonly hostname?: string;
   /**
   * IP could be an IP address (like 1.2.3.4) or a CIDR (like 1.2.3.0/24).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ip GoogleGkeonpremVmwareCluster#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ip GoogleGkeonpremVmwareCluster#ip}
   */
   readonly ip?: string;
 }
@@ -2565,7 +2565,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigCo
 export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockIpsToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockIps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -2577,7 +2577,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigCon
 export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockIpsToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockIps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -2704,19 +2704,19 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigCo
   /**
   * The network gateway used by the VMware User Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#gateway GoogleGkeonpremVmwareCluster#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#gateway GoogleGkeonpremVmwareCluster#gateway}
   */
   readonly gateway?: string;
   /**
   * The netmask used by the VMware User Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#netmask GoogleGkeonpremVmwareCluster#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#netmask GoogleGkeonpremVmwareCluster#netmask}
   */
   readonly netmask?: string;
   /**
   * ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ips GoogleGkeonpremVmwareCluster#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ips GoogleGkeonpremVmwareCluster#ips}
   */
   readonly ips?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockIps[] | cdktn.IResolvable;
 }
@@ -2724,7 +2724,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigCo
 export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlock): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gateway: cdktn.stringToTerraform(struct!.gateway),
@@ -2737,7 +2737,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigCon
 export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlock): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gateway: {
@@ -2860,7 +2860,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2Config {
   /**
   * control_plane_ip_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_ip_block GoogleGkeonpremVmwareCluster#control_plane_ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_ip_block GoogleGkeonpremVmwareCluster#control_plane_ip_block}
   */
   readonly controlPlaneIpBlock?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlock;
 }
@@ -2868,7 +2868,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2Config {
 export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2Config): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     control_plane_ip_block: googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigControlPlaneIpBlockToTerraform(struct!.controlPlaneIpBlock),
@@ -2879,7 +2879,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigToT
 export function googleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2ConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2Config): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     control_plane_ip_block: {
@@ -2947,7 +2947,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigDhcpIpConfig {
   * enabled is a flag to mark if DHCP IP allocation is
   * used for VMware user clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#enabled GoogleGkeonpremVmwareCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#enabled GoogleGkeonpremVmwareCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -2955,7 +2955,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigDhcpIpConfig {
 export function googleGkeonpremVmwareClusterNetworkConfigDhcpIpConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigDhcpIpConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -2966,7 +2966,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigDhcpIpConfigToTerraform
 export function googleGkeonpremVmwareClusterNetworkConfigDhcpIpConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigDhcpIpConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigDhcpIpConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -3030,19 +3030,19 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigHostConfig {
   /**
   * DNS search domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#dns_search_domains GoogleGkeonpremVmwareCluster#dns_search_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#dns_search_domains GoogleGkeonpremVmwareCluster#dns_search_domains}
   */
   readonly dnsSearchDomains?: string[];
   /**
   * DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#dns_servers GoogleGkeonpremVmwareCluster#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#dns_servers GoogleGkeonpremVmwareCluster#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * NTP servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ntp_servers GoogleGkeonpremVmwareCluster#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ntp_servers GoogleGkeonpremVmwareCluster#ntp_servers}
   */
   readonly ntpServers?: string[];
 }
@@ -3050,7 +3050,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigHostConfig {
 export function googleGkeonpremVmwareClusterNetworkConfigHostConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigHostConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigHostConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dns_search_domains: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.dnsSearchDomains),
@@ -3063,7 +3063,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigHostConfigToTerraform(s
 export function googleGkeonpremVmwareClusterNetworkConfigHostConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigHostConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigHostConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dns_search_domains: {
@@ -3186,13 +3186,13 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocks
   /**
   * Hostname of the machine. VM's name will be used if this field is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#hostname GoogleGkeonpremVmwareCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#hostname GoogleGkeonpremVmwareCluster#hostname}
   */
   readonly hostname?: string;
   /**
   * IP could be an IP address (like 1.2.3.4) or a CIDR (like 1.2.3.0/24).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ip GoogleGkeonpremVmwareCluster#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ip GoogleGkeonpremVmwareCluster#ip}
   */
   readonly ip: string;
 }
@@ -3200,7 +3200,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocks
 export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksIpsToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksIps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hostname: cdktn.stringToTerraform(struct!.hostname),
@@ -3212,7 +3212,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksI
 export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksIpsToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksIps | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hostname: {
@@ -3336,19 +3336,19 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocks
   /**
   * The network gateway used by the VMware User Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#gateway GoogleGkeonpremVmwareCluster#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#gateway GoogleGkeonpremVmwareCluster#gateway}
   */
   readonly gateway: string;
   /**
   * The netmask used by the VMware User Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#netmask GoogleGkeonpremVmwareCluster#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#netmask GoogleGkeonpremVmwareCluster#netmask}
   */
   readonly netmask: string;
   /**
   * ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ips GoogleGkeonpremVmwareCluster#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ips GoogleGkeonpremVmwareCluster#ips}
   */
   readonly ips: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksIps[] | cdktn.IResolvable;
 }
@@ -3356,7 +3356,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocks
 export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gateway: cdktn.stringToTerraform(struct!.gateway),
@@ -3369,7 +3369,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksT
 export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gateway: {
@@ -3515,7 +3515,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfig {
   /**
   * ip_blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ip_blocks GoogleGkeonpremVmwareCluster#ip_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ip_blocks GoogleGkeonpremVmwareCluster#ip_blocks}
   */
   readonly ipBlocks: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocks[] | cdktn.IResolvable;
 }
@@ -3523,7 +3523,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfig {
 export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     ip_blocks: cdktn.listMapper(googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigIpBlocksToTerraform, true)(struct!.ipBlocks),
@@ -3534,7 +3534,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigToTerrafo
 export function googleGkeonpremVmwareClusterNetworkConfigStaticIpConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     ip_blocks: {
@@ -3599,7 +3599,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfig {
   * All pods in the cluster are assigned an RFC1918 IPv4 address from these ranges.
   * Only a single range is supported. This field cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#pod_address_cidr_blocks GoogleGkeonpremVmwareCluster#pod_address_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#pod_address_cidr_blocks GoogleGkeonpremVmwareCluster#pod_address_cidr_blocks}
   */
   readonly podAddressCidrBlocks: string[];
   /**
@@ -3607,37 +3607,37 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfig {
   * from these ranges. Only a single range is supported.. This field
   * cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#service_address_cidr_blocks GoogleGkeonpremVmwareCluster#service_address_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#service_address_cidr_blocks GoogleGkeonpremVmwareCluster#service_address_cidr_blocks}
   */
   readonly serviceAddressCidrBlocks: string[];
   /**
   * vcenter_network specifies vCenter network name. Inherited from the admin cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#vcenter_network GoogleGkeonpremVmwareCluster#vcenter_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#vcenter_network GoogleGkeonpremVmwareCluster#vcenter_network}
   */
   readonly vcenterNetwork?: string;
   /**
   * control_plane_v2_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_v2_config GoogleGkeonpremVmwareCluster#control_plane_v2_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_v2_config GoogleGkeonpremVmwareCluster#control_plane_v2_config}
   */
   readonly controlPlaneV2Config?: GoogleGkeonpremVmwareClusterNetworkConfigControlPlaneV2Config;
   /**
   * dhcp_ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#dhcp_ip_config GoogleGkeonpremVmwareCluster#dhcp_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#dhcp_ip_config GoogleGkeonpremVmwareCluster#dhcp_ip_config}
   */
   readonly dhcpIpConfig?: GoogleGkeonpremVmwareClusterNetworkConfigDhcpIpConfig;
   /**
   * host_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#host_config GoogleGkeonpremVmwareCluster#host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#host_config GoogleGkeonpremVmwareCluster#host_config}
   */
   readonly hostConfig?: GoogleGkeonpremVmwareClusterNetworkConfigHostConfig;
   /**
   * static_ip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#static_ip_config GoogleGkeonpremVmwareCluster#static_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#static_ip_config GoogleGkeonpremVmwareCluster#static_ip_config}
   */
   readonly staticIpConfig?: GoogleGkeonpremVmwareClusterNetworkConfigStaticIpConfig;
 }
@@ -3645,7 +3645,7 @@ export interface GoogleGkeonpremVmwareClusterNetworkConfig {
 export function googleGkeonpremVmwareClusterNetworkConfigToTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     pod_address_cidr_blocks: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.podAddressCidrBlocks),
@@ -3662,7 +3662,7 @@ export function googleGkeonpremVmwareClusterNetworkConfigToTerraform(struct?: Go
 export function googleGkeonpremVmwareClusterNetworkConfigToHclTerraform(struct?: GoogleGkeonpremVmwareClusterNetworkConfigOutputReference | GoogleGkeonpremVmwareClusterNetworkConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     pod_address_cidr_blocks: {
@@ -3892,7 +3892,7 @@ export interface GoogleGkeonpremVmwareClusterStorage {
   * Whether or not to deploy vSphere CSI components in the VMware User Cluster.
   * Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#vsphere_csi_disabled GoogleGkeonpremVmwareCluster#vsphere_csi_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#vsphere_csi_disabled GoogleGkeonpremVmwareCluster#vsphere_csi_disabled}
   */
   readonly vsphereCsiDisabled: boolean | cdktn.IResolvable;
 }
@@ -3900,7 +3900,7 @@ export interface GoogleGkeonpremVmwareClusterStorage {
 export function googleGkeonpremVmwareClusterStorageToTerraform(struct?: GoogleGkeonpremVmwareClusterStorageOutputReference | GoogleGkeonpremVmwareClusterStorage): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     vsphere_csi_disabled: cdktn.booleanToTerraform(struct!.vsphereCsiDisabled),
@@ -3911,7 +3911,7 @@ export function googleGkeonpremVmwareClusterStorageToTerraform(struct?: GoogleGk
 export function googleGkeonpremVmwareClusterStorageToHclTerraform(struct?: GoogleGkeonpremVmwareClusterStorageOutputReference | GoogleGkeonpremVmwareClusterStorage): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     vsphere_csi_disabled: {
@@ -3973,15 +3973,15 @@ export class GoogleGkeonpremVmwareClusterStorageOutputReference extends cdktn.Co
 }
 export interface GoogleGkeonpremVmwareClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#create GoogleGkeonpremVmwareCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#create GoogleGkeonpremVmwareCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#delete GoogleGkeonpremVmwareCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#delete GoogleGkeonpremVmwareCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#update GoogleGkeonpremVmwareCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#update GoogleGkeonpremVmwareCluster#update}
   */
   readonly update?: string;
 }
@@ -3989,7 +3989,7 @@ export interface GoogleGkeonpremVmwareClusterTimeouts {
 export function googleGkeonpremVmwareClusterTimeoutsToTerraform(struct?: GoogleGkeonpremVmwareClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -4002,7 +4002,7 @@ export function googleGkeonpremVmwareClusterTimeoutsToTerraform(struct?: GoogleG
 export function googleGkeonpremVmwareClusterTimeoutsToHclTerraform(struct?: GoogleGkeonpremVmwareClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -4135,7 +4135,7 @@ export interface GoogleGkeonpremVmwareClusterUpgradePolicy {
   /**
   * Controls whether the upgrade applies to the control plane only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_only GoogleGkeonpremVmwareCluster#control_plane_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#control_plane_only GoogleGkeonpremVmwareCluster#control_plane_only}
   */
   readonly controlPlaneOnly?: boolean | cdktn.IResolvable;
 }
@@ -4143,7 +4143,7 @@ export interface GoogleGkeonpremVmwareClusterUpgradePolicy {
 export function googleGkeonpremVmwareClusterUpgradePolicyToTerraform(struct?: GoogleGkeonpremVmwareClusterUpgradePolicyOutputReference | GoogleGkeonpremVmwareClusterUpgradePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     control_plane_only: cdktn.booleanToTerraform(struct!.controlPlaneOnly),
@@ -4154,7 +4154,7 @@ export function googleGkeonpremVmwareClusterUpgradePolicyToTerraform(struct?: Go
 export function googleGkeonpremVmwareClusterUpgradePolicyToHclTerraform(struct?: GoogleGkeonpremVmwareClusterUpgradePolicyOutputReference | GoogleGkeonpremVmwareClusterUpgradePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     control_plane_only: {
@@ -4221,43 +4221,43 @@ export interface GoogleGkeonpremVmwareClusterVcenter {
   /**
   * Contains the vCenter CA certificate public key for SSL verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#ca_cert_data GoogleGkeonpremVmwareCluster#ca_cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#ca_cert_data GoogleGkeonpremVmwareCluster#ca_cert_data}
   */
   readonly caCertData?: string;
   /**
   * The name of the vCenter cluster for the user cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#cluster GoogleGkeonpremVmwareCluster#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#cluster GoogleGkeonpremVmwareCluster#cluster}
   */
   readonly cluster?: string;
   /**
   * The name of the vCenter datacenter for the user cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#datacenter GoogleGkeonpremVmwareCluster#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#datacenter GoogleGkeonpremVmwareCluster#datacenter}
   */
   readonly datacenter?: string;
   /**
   * The name of the vCenter datastore for the user cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#datastore GoogleGkeonpremVmwareCluster#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#datastore GoogleGkeonpremVmwareCluster#datastore}
   */
   readonly datastore?: string;
   /**
   * The name of the vCenter folder for the user cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#folder GoogleGkeonpremVmwareCluster#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#folder GoogleGkeonpremVmwareCluster#folder}
   */
   readonly folder?: string;
   /**
   * The name of the vCenter resource pool for the user cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#resource_pool GoogleGkeonpremVmwareCluster#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#resource_pool GoogleGkeonpremVmwareCluster#resource_pool}
   */
   readonly resourcePool?: string;
   /**
   * The name of the vCenter storage policy for the user cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#storage_policy_name GoogleGkeonpremVmwareCluster#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#storage_policy_name GoogleGkeonpremVmwareCluster#storage_policy_name}
   */
   readonly storagePolicyName?: string;
 }
@@ -4265,7 +4265,7 @@ export interface GoogleGkeonpremVmwareClusterVcenter {
 export function googleGkeonpremVmwareClusterVcenterToTerraform(struct?: GoogleGkeonpremVmwareClusterVcenterOutputReference | GoogleGkeonpremVmwareClusterVcenter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     ca_cert_data: cdktn.stringToTerraform(struct!.caCertData),
@@ -4282,7 +4282,7 @@ export function googleGkeonpremVmwareClusterVcenterToTerraform(struct?: GoogleGk
 export function googleGkeonpremVmwareClusterVcenterToHclTerraform(struct?: GoogleGkeonpremVmwareClusterVcenterOutputReference | GoogleGkeonpremVmwareClusterVcenter): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     ca_cert_data: {
@@ -4520,7 +4520,7 @@ export class GoogleGkeonpremVmwareClusterVcenterOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster}
 */
 export class GoogleGkeonpremVmwareCluster extends cdktn.TerraformResource {
 
@@ -4536,7 +4536,7 @@ export class GoogleGkeonpremVmwareCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleGkeonpremVmwareCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGkeonpremVmwareCluster to import
-  * @param importFromId The id of the existing GoogleGkeonpremVmwareCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleGkeonpremVmwareCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGkeonpremVmwareCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4548,7 +4548,7 @@ export class GoogleGkeonpremVmwareCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4559,7 +4559,7 @@ export class GoogleGkeonpremVmwareCluster extends cdktn.TerraformResource {
       terraformResourceType: 'google_gkeonprem_vmware_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleVertexAiEndpointConfig extends cdktn.TerraformMetaArgumen
   /**
   * If true, the endpoint will be exposed through a dedicated DNS [Endpoint.dedicated_endpoint_dns]. Your request to the dedicated DNS will be isolated from other users' traffic and will have better performance and reliability. Note: Once you enabled dedicated endpoint, you won't be able to send request to the shared DNS {region}-aiplatform.googleapis.com. The limitation will be removed soon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#dedicated_endpoint_enabled GoogleVertexAiEndpoint#dedicated_endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#dedicated_endpoint_enabled GoogleVertexAiEndpoint#dedicated_endpoint_enabled}
   */
   readonly dedicatedEndpointEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -27,23 +27,23 @@ export interface GoogleVertexAiEndpointConfig extends cdktn.TerraformMetaArgumen
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#deletion_policy GoogleVertexAiEndpoint#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#deletion_policy GoogleVertexAiEndpoint#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The description of the Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#description GoogleVertexAiEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#description GoogleVertexAiEndpoint#description}
   */
   readonly description?: string;
   /**
   * Required. The display name of the Endpoint. The name can be up to 128 characters long and can consist of any UTF-8 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#display_name GoogleVertexAiEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#display_name GoogleVertexAiEndpoint#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#id GoogleVertexAiEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#id GoogleVertexAiEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,35 +55,35 @@ export interface GoogleVertexAiEndpointConfig extends cdktn.TerraformMetaArgumen
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#labels GoogleVertexAiEndpoint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#labels GoogleVertexAiEndpoint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#location GoogleVertexAiEndpoint#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#location GoogleVertexAiEndpoint#location}
   */
   readonly location: string;
   /**
   * The resource name of the Endpoint. The name must be numeric with no leading zeros and can be at most 10 digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#name GoogleVertexAiEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#name GoogleVertexAiEndpoint#name}
   */
   readonly name: string;
   /**
   * The full name of the Google Compute Engine [network](https://cloud.google.com//compute/docs/networks-and-firewalls#networks) to which the Endpoint should be peered. Private services access must already be configured for the network. If left unspecified, the Endpoint is not peered with any network. Only one of the fields, network or enable_private_service_connect, can be set. [Format](https://cloud.google.com/compute/docs/reference/rest/v1/networks/insert): 'projects/{project}/global/networks/{network}'. Where '{project}' is a project number, as in '12345', and '{network}' is network name. Only one of the fields, 'network' or 'privateServiceConnectConfig', can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#network GoogleVertexAiEndpoint#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#network GoogleVertexAiEndpoint#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#project GoogleVertexAiEndpoint#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#project GoogleVertexAiEndpoint#project}
   */
   readonly project?: string;
   /**
   * The region for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#region GoogleVertexAiEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#region GoogleVertexAiEndpoint#region}
   */
   readonly region?: string;
   /**
@@ -95,31 +95,31 @@ export interface GoogleVertexAiEndpointConfig extends cdktn.TerraformMetaArgumen
   * 
   * ~> **Note:** To set the map to empty, set '"{}"', apply, and then remove the field from your config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#traffic_split GoogleVertexAiEndpoint#traffic_split}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#traffic_split GoogleVertexAiEndpoint#traffic_split}
   */
   readonly trafficSplit?: string;
   /**
   * encryption_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#encryption_spec GoogleVertexAiEndpoint#encryption_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#encryption_spec GoogleVertexAiEndpoint#encryption_spec}
   */
   readonly encryptionSpec?: GoogleVertexAiEndpointEncryptionSpec;
   /**
   * predict_request_response_logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#predict_request_response_logging_config GoogleVertexAiEndpoint#predict_request_response_logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#predict_request_response_logging_config GoogleVertexAiEndpoint#predict_request_response_logging_config}
   */
   readonly predictRequestResponseLoggingConfig?: GoogleVertexAiEndpointPredictRequestResponseLoggingConfig;
   /**
   * private_service_connect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#private_service_connect_config GoogleVertexAiEndpoint#private_service_connect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#private_service_connect_config GoogleVertexAiEndpoint#private_service_connect_config}
   */
   readonly privateServiceConnectConfig?: GoogleVertexAiEndpointPrivateServiceConnectConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#timeouts GoogleVertexAiEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#timeouts GoogleVertexAiEndpoint#timeouts}
   */
   readonly timeouts?: GoogleVertexAiEndpointTimeouts;
 }
@@ -129,7 +129,7 @@ export interface GoogleVertexAiEndpointDeployedModelsAutomaticResources {
 export function googleVertexAiEndpointDeployedModelsAutomaticResourcesToTerraform(struct?: GoogleVertexAiEndpointDeployedModelsAutomaticResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -139,7 +139,7 @@ export function googleVertexAiEndpointDeployedModelsAutomaticResourcesToTerrafor
 export function googleVertexAiEndpointDeployedModelsAutomaticResourcesToHclTerraform(struct?: GoogleVertexAiEndpointDeployedModelsAutomaticResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -209,7 +209,7 @@ export interface GoogleVertexAiEndpointDeployedModelsDedicatedResourcesAutoscali
 export function googleVertexAiEndpointDeployedModelsDedicatedResourcesAutoscalingMetricSpecsToTerraform(struct?: GoogleVertexAiEndpointDeployedModelsDedicatedResourcesAutoscalingMetricSpecs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -219,7 +219,7 @@ export function googleVertexAiEndpointDeployedModelsDedicatedResourcesAutoscalin
 export function googleVertexAiEndpointDeployedModelsDedicatedResourcesAutoscalingMetricSpecsToHclTerraform(struct?: GoogleVertexAiEndpointDeployedModelsDedicatedResourcesAutoscalingMetricSpecs): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -289,7 +289,7 @@ export interface GoogleVertexAiEndpointDeployedModelsDedicatedResourcesMachineSp
 export function googleVertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecToTerraform(struct?: GoogleVertexAiEndpointDeployedModelsDedicatedResourcesMachineSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -299,7 +299,7 @@ export function googleVertexAiEndpointDeployedModelsDedicatedResourcesMachineSpe
 export function googleVertexAiEndpointDeployedModelsDedicatedResourcesMachineSpecToHclTerraform(struct?: GoogleVertexAiEndpointDeployedModelsDedicatedResourcesMachineSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -374,7 +374,7 @@ export interface GoogleVertexAiEndpointDeployedModelsDedicatedResources {
 export function googleVertexAiEndpointDeployedModelsDedicatedResourcesToTerraform(struct?: GoogleVertexAiEndpointDeployedModelsDedicatedResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -384,7 +384,7 @@ export function googleVertexAiEndpointDeployedModelsDedicatedResourcesToTerrafor
 export function googleVertexAiEndpointDeployedModelsDedicatedResourcesToHclTerraform(struct?: GoogleVertexAiEndpointDeployedModelsDedicatedResources): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -466,7 +466,7 @@ export interface GoogleVertexAiEndpointDeployedModelsPrivateEndpoints {
 export function googleVertexAiEndpointDeployedModelsPrivateEndpointsToTerraform(struct?: GoogleVertexAiEndpointDeployedModelsPrivateEndpoints): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -476,7 +476,7 @@ export function googleVertexAiEndpointDeployedModelsPrivateEndpointsToTerraform(
 export function googleVertexAiEndpointDeployedModelsPrivateEndpointsToHclTerraform(struct?: GoogleVertexAiEndpointDeployedModelsPrivateEndpoints): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -556,7 +556,7 @@ export interface GoogleVertexAiEndpointDeployedModels {
 export function googleVertexAiEndpointDeployedModelsToTerraform(struct?: GoogleVertexAiEndpointDeployedModels): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -566,7 +566,7 @@ export function googleVertexAiEndpointDeployedModelsToTerraform(struct?: GoogleV
 export function googleVertexAiEndpointDeployedModelsToHclTerraform(struct?: GoogleVertexAiEndpointDeployedModels): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -687,7 +687,7 @@ export interface GoogleVertexAiEndpointEncryptionSpec {
   /**
   * Required. The Cloud KMS resource identifier of the customer managed encryption key used to protect a resource. Has the form: 'projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key'. The key needs to be in the same region as where the compute resource is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#kms_key_name GoogleVertexAiEndpoint#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#kms_key_name GoogleVertexAiEndpoint#kms_key_name}
   */
   readonly kmsKeyName: string;
 }
@@ -695,7 +695,7 @@ export interface GoogleVertexAiEndpointEncryptionSpec {
 export function googleVertexAiEndpointEncryptionSpecToTerraform(struct?: GoogleVertexAiEndpointEncryptionSpecOutputReference | GoogleVertexAiEndpointEncryptionSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -706,7 +706,7 @@ export function googleVertexAiEndpointEncryptionSpecToTerraform(struct?: GoogleV
 export function googleVertexAiEndpointEncryptionSpecToHclTerraform(struct?: GoogleVertexAiEndpointEncryptionSpecOutputReference | GoogleVertexAiEndpointEncryptionSpec): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -770,7 +770,7 @@ export interface GoogleVertexAiEndpointPredictRequestResponseLoggingConfigBigque
   /**
   * BigQuery URI to a project or table, up to 2000 characters long. When only the project is specified, the Dataset and Table is created. When the full table reference is specified, the Dataset must exist and table must not exist. Accepted forms: - BigQuery path. For example: 'bq://projectId' or 'bq://projectId.bqDatasetId' or 'bq://projectId.bqDatasetId.bqTableId'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#output_uri GoogleVertexAiEndpoint#output_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#output_uri GoogleVertexAiEndpoint#output_uri}
   */
   readonly outputUri?: string;
 }
@@ -778,7 +778,7 @@ export interface GoogleVertexAiEndpointPredictRequestResponseLoggingConfigBigque
 export function googleVertexAiEndpointPredictRequestResponseLoggingConfigBigqueryDestinationToTerraform(struct?: GoogleVertexAiEndpointPredictRequestResponseLoggingConfigBigqueryDestinationOutputReference | GoogleVertexAiEndpointPredictRequestResponseLoggingConfigBigqueryDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     output_uri: cdktn.stringToTerraform(struct!.outputUri),
@@ -789,7 +789,7 @@ export function googleVertexAiEndpointPredictRequestResponseLoggingConfigBigquer
 export function googleVertexAiEndpointPredictRequestResponseLoggingConfigBigqueryDestinationToHclTerraform(struct?: GoogleVertexAiEndpointPredictRequestResponseLoggingConfigBigqueryDestinationOutputReference | GoogleVertexAiEndpointPredictRequestResponseLoggingConfigBigqueryDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     output_uri: {
@@ -856,19 +856,19 @@ export interface GoogleVertexAiEndpointPredictRequestResponseLoggingConfig {
   /**
   * If logging is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#enabled GoogleVertexAiEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#enabled GoogleVertexAiEndpoint#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Percentage of requests to be logged, expressed as a fraction in range(0,1]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#sampling_rate GoogleVertexAiEndpoint#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#sampling_rate GoogleVertexAiEndpoint#sampling_rate}
   */
   readonly samplingRate?: number;
   /**
   * bigquery_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#bigquery_destination GoogleVertexAiEndpoint#bigquery_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#bigquery_destination GoogleVertexAiEndpoint#bigquery_destination}
   */
   readonly bigqueryDestination?: GoogleVertexAiEndpointPredictRequestResponseLoggingConfigBigqueryDestination;
 }
@@ -876,7 +876,7 @@ export interface GoogleVertexAiEndpointPredictRequestResponseLoggingConfig {
 export function googleVertexAiEndpointPredictRequestResponseLoggingConfigToTerraform(struct?: GoogleVertexAiEndpointPredictRequestResponseLoggingConfigOutputReference | GoogleVertexAiEndpointPredictRequestResponseLoggingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -889,7 +889,7 @@ export function googleVertexAiEndpointPredictRequestResponseLoggingConfigToTerra
 export function googleVertexAiEndpointPredictRequestResponseLoggingConfigToHclTerraform(struct?: GoogleVertexAiEndpointPredictRequestResponseLoggingConfigOutputReference | GoogleVertexAiEndpointPredictRequestResponseLoggingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1012,13 +1012,13 @@ export interface GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationC
   /**
   * The full name of the Google Compute Engine [network](https://cloud.google.com/compute/docs/networks-and-firewalls#networks). [Format](https://cloud.google.com/compute/docs/reference/rest/v1/networks/get): projects/{project}/global/networks/{network}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#network GoogleVertexAiEndpoint#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#network GoogleVertexAiEndpoint#network}
   */
   readonly network: string;
   /**
   * Project id used to create forwarding rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#project_id GoogleVertexAiEndpoint#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#project_id GoogleVertexAiEndpoint#project_id}
   */
   readonly projectId: string;
 }
@@ -1026,7 +1026,7 @@ export interface GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationC
 export function googleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsToTerraform(struct?: GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     network: cdktn.stringToTerraform(struct!.network),
@@ -1038,7 +1038,7 @@ export function googleVertexAiEndpointPrivateServiceConnectConfigPscAutomationCo
 export function googleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsToHclTerraform(struct?: GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     network: {
@@ -1179,25 +1179,25 @@ export interface GoogleVertexAiEndpointPrivateServiceConnectConfig {
   /**
   * Required. If true, expose the IndexEndpoint via private service connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#enable_private_service_connect GoogleVertexAiEndpoint#enable_private_service_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#enable_private_service_connect GoogleVertexAiEndpoint#enable_private_service_connect}
   */
   readonly enablePrivateServiceConnect: boolean | cdktn.IResolvable;
   /**
   * If set to true, enable secure private service connect with IAM authorization. Otherwise, private service connect will be done without authorization. Note latency will be slightly increased if authorization is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#enable_secure_private_service_connect GoogleVertexAiEndpoint#enable_secure_private_service_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#enable_secure_private_service_connect GoogleVertexAiEndpoint#enable_secure_private_service_connect}
   */
   readonly enableSecurePrivateServiceConnect?: boolean | cdktn.IResolvable;
   /**
   * A list of Projects from which the forwarding rule will target the service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#project_allowlist GoogleVertexAiEndpoint#project_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#project_allowlist GoogleVertexAiEndpoint#project_allowlist}
   */
   readonly projectAllowlist?: string[];
   /**
   * psc_automation_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#psc_automation_configs GoogleVertexAiEndpoint#psc_automation_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#psc_automation_configs GoogleVertexAiEndpoint#psc_automation_configs}
   */
   readonly pscAutomationConfigs?: GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigs[] | cdktn.IResolvable;
 }
@@ -1205,7 +1205,7 @@ export interface GoogleVertexAiEndpointPrivateServiceConnectConfig {
 export function googleVertexAiEndpointPrivateServiceConnectConfigToTerraform(struct?: GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference | GoogleVertexAiEndpointPrivateServiceConnectConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_private_service_connect: cdktn.booleanToTerraform(struct!.enablePrivateServiceConnect),
@@ -1219,7 +1219,7 @@ export function googleVertexAiEndpointPrivateServiceConnectConfigToTerraform(str
 export function googleVertexAiEndpointPrivateServiceConnectConfigToHclTerraform(struct?: GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference | GoogleVertexAiEndpointPrivateServiceConnectConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_private_service_connect: {
@@ -1365,15 +1365,15 @@ export class GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference ex
 }
 export interface GoogleVertexAiEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#create GoogleVertexAiEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#create GoogleVertexAiEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#delete GoogleVertexAiEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#delete GoogleVertexAiEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#update GoogleVertexAiEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#update GoogleVertexAiEndpoint#update}
   */
   readonly update?: string;
 }
@@ -1381,7 +1381,7 @@ export interface GoogleVertexAiEndpointTimeouts {
 export function googleVertexAiEndpointTimeoutsToTerraform(struct?: GoogleVertexAiEndpointTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1394,7 +1394,7 @@ export function googleVertexAiEndpointTimeoutsToTerraform(struct?: GoogleVertexA
 export function googleVertexAiEndpointTimeoutsToHclTerraform(struct?: GoogleVertexAiEndpointTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1525,7 +1525,7 @@ export class GoogleVertexAiEndpointTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint google_vertex_ai_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint google_vertex_ai_endpoint}
 */
 export class GoogleVertexAiEndpoint extends cdktn.TerraformResource {
 
@@ -1541,7 +1541,7 @@ export class GoogleVertexAiEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVertexAiEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiEndpoint to import
-  * @param importFromId The id of the existing GoogleVertexAiEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1553,7 +1553,7 @@ export class GoogleVertexAiEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_endpoint google_vertex_ai_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_endpoint google_vertex_ai_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1564,7 +1564,7 @@ export class GoogleVertexAiEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'google_vertex_ai_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

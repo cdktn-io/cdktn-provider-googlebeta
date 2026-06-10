@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleMigrationCenterAssetsExportJobConfig extends cdktn.Terraf
   /**
   * The ID to use for the asset export job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#assets_export_job_id GoogleMigrationCenterAssetsExportJob#assets_export_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#assets_export_job_id GoogleMigrationCenterAssetsExportJob#assets_export_job_id}
   */
   readonly assetsExportJobId: string;
   /**
@@ -27,11 +27,11 @@ export interface GoogleMigrationCenterAssetsExportJobConfig extends cdktn.Terraf
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#deletion_policy GoogleMigrationCenterAssetsExportJob#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#deletion_policy GoogleMigrationCenterAssetsExportJob#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#id GoogleMigrationCenterAssetsExportJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#id GoogleMigrationCenterAssetsExportJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,48 +53,48 @@ export interface GoogleMigrationCenterAssetsExportJobConfig extends cdktn.Terraf
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#labels GoogleMigrationCenterAssetsExportJob#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#labels GoogleMigrationCenterAssetsExportJob#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#location GoogleMigrationCenterAssetsExportJob#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#location GoogleMigrationCenterAssetsExportJob#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#project GoogleMigrationCenterAssetsExportJob#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#project GoogleMigrationCenterAssetsExportJob#project}
   */
   readonly project?: string;
   /**
   * When this value is set to 'true' the response will include all assets,
   * including those that are hidden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#show_hidden GoogleMigrationCenterAssetsExportJob#show_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#show_hidden GoogleMigrationCenterAssetsExportJob#show_hidden}
   */
   readonly showHidden?: boolean | cdktn.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#condition GoogleMigrationCenterAssetsExportJob#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#condition GoogleMigrationCenterAssetsExportJob#condition}
   */
   readonly condition?: GoogleMigrationCenterAssetsExportJobCondition;
   /**
   * performance_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#performance_data GoogleMigrationCenterAssetsExportJob#performance_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#performance_data GoogleMigrationCenterAssetsExportJob#performance_data}
   */
   readonly performanceData?: GoogleMigrationCenterAssetsExportJobPerformanceData;
   /**
   * signed_uri_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#signed_uri_destination GoogleMigrationCenterAssetsExportJob#signed_uri_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#signed_uri_destination GoogleMigrationCenterAssetsExportJob#signed_uri_destination}
   */
   readonly signedUriDestination?: GoogleMigrationCenterAssetsExportJobSignedUriDestination;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#timeouts GoogleMigrationCenterAssetsExportJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#timeouts GoogleMigrationCenterAssetsExportJob#timeouts}
   */
   readonly timeouts?: GoogleMigrationCenterAssetsExportJobTimeouts;
 }
@@ -104,7 +104,7 @@ export interface GoogleMigrationCenterAssetsExportJobInventory {
 export function googleMigrationCenterAssetsExportJobInventoryToTerraform(struct?: GoogleMigrationCenterAssetsExportJobInventory): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -114,7 +114,7 @@ export function googleMigrationCenterAssetsExportJobInventoryToTerraform(struct?
 export function googleMigrationCenterAssetsExportJobInventoryToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobInventory): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -174,7 +174,7 @@ export interface GoogleMigrationCenterAssetsExportJobNetworkDependencies {
 export function googleMigrationCenterAssetsExportJobNetworkDependenciesToTerraform(struct?: GoogleMigrationCenterAssetsExportJobNetworkDependencies): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -184,7 +184,7 @@ export function googleMigrationCenterAssetsExportJobNetworkDependenciesToTerrafo
 export function googleMigrationCenterAssetsExportJobNetworkDependenciesToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobNetworkDependencies): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -244,7 +244,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultError
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultErrorDetailsToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultErrorDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -254,7 +254,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultErrorD
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultErrorDetailsToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultErrorDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -314,7 +314,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultError
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultErrorToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -324,7 +324,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultErrorT
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultErrorToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultError): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -400,7 +400,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutpu
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFileSignedUriToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFileSignedUri): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -410,7 +410,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutput
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFileSignedUriToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFileSignedUri): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -480,7 +480,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutpu
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFileToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -490,7 +490,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutput
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFileToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesCsvOutputFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -566,7 +566,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutpu
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFileSignedUriToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFileSignedUri): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -576,7 +576,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutput
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFileSignedUriToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFileSignedUri): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -646,7 +646,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutpu
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFileToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -656,7 +656,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutput
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFileToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesXlsxOutputFile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -722,7 +722,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutpu
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntries): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -732,7 +732,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutput
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntriesToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesEntries): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -809,7 +809,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutpu
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFiles): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -819,7 +819,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutput
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFilesToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultOutputFiles): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -885,7 +885,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultSigne
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUrisSignedUrisToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUrisSignedUris): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -895,7 +895,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultSigned
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUrisSignedUrisToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUrisSignedUris): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -965,7 +965,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResultSigne
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUrisToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUris): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -975,7 +975,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultSigned
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUrisToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResultSignedUris): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1041,7 +1041,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutionsResult {
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResult): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1051,7 +1051,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsResultToTerr
 export function googleMigrationCenterAssetsExportJobRecentExecutionsResultToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutionsResult): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1129,7 +1129,7 @@ export interface GoogleMigrationCenterAssetsExportJobRecentExecutions {
 export function googleMigrationCenterAssetsExportJobRecentExecutionsToTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1139,7 +1139,7 @@ export function googleMigrationCenterAssetsExportJobRecentExecutionsToTerraform(
 export function googleMigrationCenterAssetsExportJobRecentExecutionsToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobRecentExecutions): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1228,7 +1228,7 @@ export interface GoogleMigrationCenterAssetsExportJobCondition {
   /**
   * Assets filter, supports the same syntax as asset listing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#filter GoogleMigrationCenterAssetsExportJob#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#filter GoogleMigrationCenterAssetsExportJob#filter}
   */
   readonly filter?: string;
 }
@@ -1236,7 +1236,7 @@ export interface GoogleMigrationCenterAssetsExportJobCondition {
 export function googleMigrationCenterAssetsExportJobConditionToTerraform(struct?: GoogleMigrationCenterAssetsExportJobConditionOutputReference | GoogleMigrationCenterAssetsExportJobCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     filter: cdktn.stringToTerraform(struct!.filter),
@@ -1247,7 +1247,7 @@ export function googleMigrationCenterAssetsExportJobConditionToTerraform(struct?
 export function googleMigrationCenterAssetsExportJobConditionToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobConditionOutputReference | GoogleMigrationCenterAssetsExportJobCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     filter: {
@@ -1319,7 +1319,7 @@ export interface GoogleMigrationCenterAssetsExportJobPerformanceData {
   * The maximum value is 420; values above 420 will be coerced to 420.
   * If unset (0 value) a default value of 40 will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#max_days GoogleMigrationCenterAssetsExportJob#max_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#max_days GoogleMigrationCenterAssetsExportJob#max_days}
   */
   readonly maxDays?: number;
 }
@@ -1327,7 +1327,7 @@ export interface GoogleMigrationCenterAssetsExportJobPerformanceData {
 export function googleMigrationCenterAssetsExportJobPerformanceDataToTerraform(struct?: GoogleMigrationCenterAssetsExportJobPerformanceDataOutputReference | GoogleMigrationCenterAssetsExportJobPerformanceData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_days: cdktn.numberToTerraform(struct!.maxDays),
@@ -1338,7 +1338,7 @@ export function googleMigrationCenterAssetsExportJobPerformanceDataToTerraform(s
 export function googleMigrationCenterAssetsExportJobPerformanceDataToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobPerformanceDataOutputReference | GoogleMigrationCenterAssetsExportJobPerformanceData): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_days: {
@@ -1408,7 +1408,7 @@ export interface GoogleMigrationCenterAssetsExportJobSignedUriDestination {
   * CSV
   * XLSX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#file_format GoogleMigrationCenterAssetsExportJob#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#file_format GoogleMigrationCenterAssetsExportJob#file_format}
   */
   readonly fileFormat: string;
 }
@@ -1416,7 +1416,7 @@ export interface GoogleMigrationCenterAssetsExportJobSignedUriDestination {
 export function googleMigrationCenterAssetsExportJobSignedUriDestinationToTerraform(struct?: GoogleMigrationCenterAssetsExportJobSignedUriDestinationOutputReference | GoogleMigrationCenterAssetsExportJobSignedUriDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     file_format: cdktn.stringToTerraform(struct!.fileFormat),
@@ -1427,7 +1427,7 @@ export function googleMigrationCenterAssetsExportJobSignedUriDestinationToTerraf
 export function googleMigrationCenterAssetsExportJobSignedUriDestinationToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobSignedUriDestinationOutputReference | GoogleMigrationCenterAssetsExportJobSignedUriDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     file_format: {
@@ -1489,15 +1489,15 @@ export class GoogleMigrationCenterAssetsExportJobSignedUriDestinationOutputRefer
 }
 export interface GoogleMigrationCenterAssetsExportJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#create GoogleMigrationCenterAssetsExportJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#create GoogleMigrationCenterAssetsExportJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#delete GoogleMigrationCenterAssetsExportJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#delete GoogleMigrationCenterAssetsExportJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#update GoogleMigrationCenterAssetsExportJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#update GoogleMigrationCenterAssetsExportJob#update}
   */
   readonly update?: string;
 }
@@ -1505,7 +1505,7 @@ export interface GoogleMigrationCenterAssetsExportJobTimeouts {
 export function googleMigrationCenterAssetsExportJobTimeoutsToTerraform(struct?: GoogleMigrationCenterAssetsExportJobTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1518,7 +1518,7 @@ export function googleMigrationCenterAssetsExportJobTimeoutsToTerraform(struct?:
 export function googleMigrationCenterAssetsExportJobTimeoutsToHclTerraform(struct?: GoogleMigrationCenterAssetsExportJobTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1649,7 +1649,7 @@ export class GoogleMigrationCenterAssetsExportJobTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job google_migration_center_assets_export_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job google_migration_center_assets_export_job}
 */
 export class GoogleMigrationCenterAssetsExportJob extends cdktn.TerraformResource {
 
@@ -1665,7 +1665,7 @@ export class GoogleMigrationCenterAssetsExportJob extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a GoogleMigrationCenterAssetsExportJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMigrationCenterAssetsExportJob to import
-  * @param importFromId The id of the existing GoogleMigrationCenterAssetsExportJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleMigrationCenterAssetsExportJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMigrationCenterAssetsExportJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1677,7 +1677,7 @@ export class GoogleMigrationCenterAssetsExportJob extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job google_migration_center_assets_export_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_assets_export_job google_migration_center_assets_export_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1688,7 +1688,7 @@ export class GoogleMigrationCenterAssetsExportJob extends cdktn.TerraformResourc
       terraformResourceType: 'google_migration_center_assets_export_job',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

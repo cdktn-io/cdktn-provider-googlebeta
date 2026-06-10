@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,18 +21,18 @@ export interface GoogleBeyondcorpSecurityGatewayConfig extends cdktn.TerraformMe
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#deletion_policy GoogleBeyondcorpSecurityGateway#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#deletion_policy GoogleBeyondcorpSecurityGateway#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Optional. An arbitrary user-provided name for the SecurityGateway.
   * Cannot exceed 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#display_name GoogleBeyondcorpSecurityGateway#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#display_name GoogleBeyondcorpSecurityGateway#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#id GoogleBeyondcorpSecurityGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#id GoogleBeyondcorpSecurityGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,11 +41,11 @@ export interface GoogleBeyondcorpSecurityGatewayConfig extends cdktn.TerraformMe
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. Must be omitted or set to 'global'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#location GoogleBeyondcorpSecurityGateway#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#location GoogleBeyondcorpSecurityGateway#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#project GoogleBeyondcorpSecurityGateway#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#project GoogleBeyondcorpSecurityGateway#project}
   */
   readonly project?: string;
   /**
@@ -54,37 +54,37 @@ export interface GoogleBeyondcorpSecurityGatewayConfig extends cdktn.TerraformMe
   * * Must contain between 4-63 characters from '/a-z-/'.
   * * Must end with a number or letter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#security_gateway_id GoogleBeyondcorpSecurityGateway#security_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#security_gateway_id GoogleBeyondcorpSecurityGateway#security_gateway_id}
   */
   readonly securityGatewayId: string;
   /**
   * hubs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#hubs GoogleBeyondcorpSecurityGateway#hubs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#hubs GoogleBeyondcorpSecurityGateway#hubs}
   */
   readonly hubs?: GoogleBeyondcorpSecurityGatewayHubs[] | cdktn.IResolvable;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#logging GoogleBeyondcorpSecurityGateway#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#logging GoogleBeyondcorpSecurityGateway#logging}
   */
   readonly logging?: GoogleBeyondcorpSecurityGatewayLogging;
   /**
   * proxy_protocol_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#proxy_protocol_config GoogleBeyondcorpSecurityGateway#proxy_protocol_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#proxy_protocol_config GoogleBeyondcorpSecurityGateway#proxy_protocol_config}
   */
   readonly proxyProtocolConfig?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfig;
   /**
   * service_discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#service_discovery GoogleBeyondcorpSecurityGateway#service_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#service_discovery GoogleBeyondcorpSecurityGateway#service_discovery}
   */
   readonly serviceDiscovery?: GoogleBeyondcorpSecurityGatewayServiceDiscovery;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#timeouts GoogleBeyondcorpSecurityGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#timeouts GoogleBeyondcorpSecurityGateway#timeouts}
   */
   readonly timeouts?: GoogleBeyondcorpSecurityGatewayTimeouts;
 }
@@ -94,7 +94,7 @@ export interface GoogleBeyondcorpSecurityGatewayHubsInternetGateway {
 export function googleBeyondcorpSecurityGatewayHubsInternetGatewayToTerraform(struct?: GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference | GoogleBeyondcorpSecurityGatewayHubsInternetGateway): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -104,7 +104,7 @@ export function googleBeyondcorpSecurityGatewayHubsInternetGatewayToTerraform(st
 export function googleBeyondcorpSecurityGatewayHubsInternetGatewayToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference | GoogleBeyondcorpSecurityGatewayHubsInternetGateway): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -144,13 +144,13 @@ export class GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference e
 }
 export interface GoogleBeyondcorpSecurityGatewayHubs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#region GoogleBeyondcorpSecurityGateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#region GoogleBeyondcorpSecurityGateway#region}
   */
   readonly region: string;
   /**
   * internet_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#internet_gateway GoogleBeyondcorpSecurityGateway#internet_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#internet_gateway GoogleBeyondcorpSecurityGateway#internet_gateway}
   */
   readonly internetGateway?: GoogleBeyondcorpSecurityGatewayHubsInternetGateway;
 }
@@ -158,7 +158,7 @@ export interface GoogleBeyondcorpSecurityGatewayHubs {
 export function googleBeyondcorpSecurityGatewayHubsToTerraform(struct?: GoogleBeyondcorpSecurityGatewayHubs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     region: cdktn.stringToTerraform(struct!.region),
@@ -170,7 +170,7 @@ export function googleBeyondcorpSecurityGatewayHubsToTerraform(struct?: GoogleBe
 export function googleBeyondcorpSecurityGatewayHubsToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayHubs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     region: {
@@ -296,7 +296,7 @@ export interface GoogleBeyondcorpSecurityGatewayLogging {
 export function googleBeyondcorpSecurityGatewayLoggingToTerraform(struct?: GoogleBeyondcorpSecurityGatewayLoggingOutputReference | GoogleBeyondcorpSecurityGatewayLogging): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -306,7 +306,7 @@ export function googleBeyondcorpSecurityGatewayLoggingToTerraform(struct?: Googl
 export function googleBeyondcorpSecurityGatewayLoggingToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayLoggingOutputReference | GoogleBeyondcorpSecurityGatewayLogging): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -343,7 +343,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
   /**
   * The output type of the delegated device info. Possible values: ["PROTOBUF", "JSON", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
   */
   readonly outputType?: string;
 }
@@ -351,7 +351,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersDeviceInfoToTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersDeviceInfoOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersDeviceInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     output_type: cdktn.stringToTerraform(struct!.outputType),
@@ -362,7 +362,7 @@ export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHead
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersDeviceInfoToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersDeviceInfoOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersDeviceInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     output_type: {
@@ -429,7 +429,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
   /**
   * The output type of the delegated group info. Possible values: ["PROTOBUF", "JSON", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
   */
   readonly outputType?: string;
 }
@@ -437,7 +437,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfoToTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfoOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     output_type: cdktn.stringToTerraform(struct!.outputType),
@@ -448,7 +448,7 @@ export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHead
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfoToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfoOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     output_type: {
@@ -515,7 +515,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
   /**
   * The output type of the delegated user info. Possible values: ["PROTOBUF", "JSON", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
   */
   readonly outputType?: string;
 }
@@ -523,7 +523,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersUserInfoToTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersUserInfoOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersUserInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     output_type: cdktn.stringToTerraform(struct!.outputType),
@@ -534,7 +534,7 @@ export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHead
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersUserInfoToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersUserInfoOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersUserInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     output_type: {
@@ -601,25 +601,25 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
   /**
   * Default output type for all enabled headers. Possible values: ["PROTOBUF", "JSON", "NONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#output_type GoogleBeyondcorpSecurityGateway#output_type}
   */
   readonly outputType?: string;
   /**
   * device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#device_info GoogleBeyondcorpSecurityGateway#device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#device_info GoogleBeyondcorpSecurityGateway#device_info}
   */
   readonly deviceInfo?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersDeviceInfo;
   /**
   * group_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#group_info GoogleBeyondcorpSecurityGateway#group_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#group_info GoogleBeyondcorpSecurityGateway#group_info}
   */
   readonly groupInfo?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersGroupInfo;
   /**
   * user_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#user_info GoogleBeyondcorpSecurityGateway#user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#user_info GoogleBeyondcorpSecurityGateway#user_info}
   */
   readonly userInfo?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersUserInfo;
 }
@@ -627,7 +627,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHea
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersToTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeaders): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     output_type: cdktn.stringToTerraform(struct!.outputType),
@@ -641,7 +641,7 @@ export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHead
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeadersOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeaders): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     output_type: {
@@ -792,19 +792,19 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfig {
   /**
   * The configuration for the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#allowed_client_headers GoogleBeyondcorpSecurityGateway#allowed_client_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#allowed_client_headers GoogleBeyondcorpSecurityGateway#allowed_client_headers}
   */
   readonly allowedClientHeaders?: string[];
   /**
   * Client IP configuration. The client IP address is included if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#client_ip GoogleBeyondcorpSecurityGateway#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#client_ip GoogleBeyondcorpSecurityGateway#client_ip}
   */
   readonly clientIp?: boolean | cdktn.IResolvable;
   /**
   * Gateway identity configuration. Possible values: ["RESOURCE_NAME"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#gateway_identity GoogleBeyondcorpSecurityGateway#gateway_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#gateway_identity GoogleBeyondcorpSecurityGateway#gateway_identity}
   */
   readonly gatewayIdentity?: string;
   /**
@@ -814,13 +814,13 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfig {
   *   and ".", and SHOULD begin with a letter.
   * > Field values SHOULD contain only ASCII printable characters and tab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#metadata_headers GoogleBeyondcorpSecurityGateway#metadata_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#metadata_headers GoogleBeyondcorpSecurityGateway#metadata_headers}
   */
   readonly metadataHeaders?: { [key: string]: string };
   /**
   * contextual_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#contextual_headers GoogleBeyondcorpSecurityGateway#contextual_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#contextual_headers GoogleBeyondcorpSecurityGateway#contextual_headers}
   */
   readonly contextualHeaders?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigContextualHeaders;
 }
@@ -828,7 +828,7 @@ export interface GoogleBeyondcorpSecurityGatewayProxyProtocolConfig {
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigToTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_client_headers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedClientHeaders),
@@ -843,7 +843,7 @@ export function googleBeyondcorpSecurityGatewayProxyProtocolConfigToTerraform(st
 export function googleBeyondcorpSecurityGatewayProxyProtocolConfigToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayProxyProtocolConfigOutputReference | GoogleBeyondcorpSecurityGatewayProxyProtocolConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_client_headers: {
@@ -1022,7 +1022,7 @@ export interface GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResour
   /**
   * Contains uri path fragment where HTTP request is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#path GoogleBeyondcorpSecurityGateway#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#path GoogleBeyondcorpSecurityGateway#path}
   */
   readonly path?: string;
 }
@@ -1030,7 +1030,7 @@ export interface GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResour
 export function googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverrideToTerraform(struct?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverrideOutputReference | GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverride): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     path: cdktn.stringToTerraform(struct!.path),
@@ -1041,7 +1041,7 @@ export function googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourc
 export function googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverrideToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverrideOutputReference | GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverride): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     path: {
@@ -1108,7 +1108,7 @@ export interface GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGateway {
   /**
   * resource_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#resource_override GoogleBeyondcorpSecurityGateway#resource_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#resource_override GoogleBeyondcorpSecurityGateway#resource_override}
   */
   readonly resourceOverride?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverride;
 }
@@ -1116,7 +1116,7 @@ export interface GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGateway {
 export function googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayToTerraform(struct?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayOutputReference | GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGateway): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resource_override: googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverrideToTerraform(struct!.resourceOverride),
@@ -1127,7 +1127,7 @@ export function googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayToTerra
 export function googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayOutputReference | GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGateway): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resource_override: {
@@ -1194,7 +1194,7 @@ export interface GoogleBeyondcorpSecurityGatewayServiceDiscovery {
   /**
   * api_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#api_gateway GoogleBeyondcorpSecurityGateway#api_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#api_gateway GoogleBeyondcorpSecurityGateway#api_gateway}
   */
   readonly apiGateway?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryApiGateway;
 }
@@ -1202,7 +1202,7 @@ export interface GoogleBeyondcorpSecurityGatewayServiceDiscovery {
 export function googleBeyondcorpSecurityGatewayServiceDiscoveryToTerraform(struct?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryOutputReference | GoogleBeyondcorpSecurityGatewayServiceDiscovery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     api_gateway: googleBeyondcorpSecurityGatewayServiceDiscoveryApiGatewayToTerraform(struct!.apiGateway),
@@ -1213,7 +1213,7 @@ export function googleBeyondcorpSecurityGatewayServiceDiscoveryToTerraform(struc
 export function googleBeyondcorpSecurityGatewayServiceDiscoveryToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayServiceDiscoveryOutputReference | GoogleBeyondcorpSecurityGatewayServiceDiscovery): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     api_gateway: {
@@ -1278,15 +1278,15 @@ export class GoogleBeyondcorpSecurityGatewayServiceDiscoveryOutputReference exte
 }
 export interface GoogleBeyondcorpSecurityGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#create GoogleBeyondcorpSecurityGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#create GoogleBeyondcorpSecurityGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#delete GoogleBeyondcorpSecurityGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#delete GoogleBeyondcorpSecurityGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#update GoogleBeyondcorpSecurityGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#update GoogleBeyondcorpSecurityGateway#update}
   */
   readonly update?: string;
 }
@@ -1294,7 +1294,7 @@ export interface GoogleBeyondcorpSecurityGatewayTimeouts {
 export function googleBeyondcorpSecurityGatewayTimeoutsToTerraform(struct?: GoogleBeyondcorpSecurityGatewayTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1307,7 +1307,7 @@ export function googleBeyondcorpSecurityGatewayTimeoutsToTerraform(struct?: Goog
 export function googleBeyondcorpSecurityGatewayTimeoutsToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1438,7 +1438,7 @@ export class GoogleBeyondcorpSecurityGatewayTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}
 */
 export class GoogleBeyondcorpSecurityGateway extends cdktn.TerraformResource {
 
@@ -1454,7 +1454,7 @@ export class GoogleBeyondcorpSecurityGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleBeyondcorpSecurityGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBeyondcorpSecurityGateway to import
-  * @param importFromId The id of the existing GoogleBeyondcorpSecurityGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleBeyondcorpSecurityGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBeyondcorpSecurityGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1466,7 +1466,7 @@ export class GoogleBeyondcorpSecurityGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1477,7 +1477,7 @@ export class GoogleBeyondcorpSecurityGateway extends cdktn.TerraformResource {
       terraformResourceType: 'google_beyondcorp_security_gateway',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

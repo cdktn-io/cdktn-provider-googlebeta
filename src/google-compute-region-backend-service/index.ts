@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,14 +20,14 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * 
   * When the load balancing scheme is INTERNAL, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#affinity_cookie_ttl_sec GoogleComputeRegionBackendService#affinity_cookie_ttl_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#affinity_cookie_ttl_sec GoogleComputeRegionBackendService#affinity_cookie_ttl_sec}
   */
   readonly affinityCookieTtlSec?: number;
   /**
   * Time for which instance will be drained (not accept new
   * connections, but still work to finish started).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#connection_draining_timeout_sec GoogleComputeRegionBackendService#connection_draining_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#connection_draining_timeout_sec GoogleComputeRegionBackendService#connection_draining_timeout_sec}
   */
   readonly connectionDrainingTimeoutSec?: number;
   /**
@@ -39,19 +39,19 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#deletion_policy GoogleComputeRegionBackendService#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#deletion_policy GoogleComputeRegionBackendService#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
   */
   readonly description?: string;
   /**
   * If true, enable Cloud CDN for this RegionBackendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enable_cdn GoogleComputeRegionBackendService#enable_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enable_cdn GoogleComputeRegionBackendService#enable_cdn}
   */
   readonly enableCdn?: boolean | cdktn.IResolvable;
   /**
@@ -62,11 +62,11 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * A health check must be specified unless the backend service uses an internet
   * or serverless NEG as a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#health_checks GoogleComputeRegionBackendService#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#health_checks GoogleComputeRegionBackendService#health_checks}
   */
   readonly healthChecks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#id GoogleComputeRegionBackendService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   /**
   * Specifies preference of traffic to the backend (from the proxy and from the client for proxyless gRPC). Possible values: ["IPV4_ONLY", "PREFER_IPV6", "IPV6_ONLY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#ip_address_selection_policy GoogleComputeRegionBackendService#ip_address_selection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#ip_address_selection_policy GoogleComputeRegionBackendService#ip_address_selection_policy}
   */
   readonly ipAddressSelectionPolicy?: string;
   /**
@@ -84,7 +84,7 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * balancing cannot be used with the other(s). For more information, refer to
   * [Choosing a load balancer](https://cloud.google.com/load-balancing/docs/backend-service). Default value: "INTERNAL" Possible values: ["EXTERNAL", "EXTERNAL_MANAGED", "INTERNAL", "INTERNAL_MANAGED", "INTERNAL_SELF_MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#load_balancing_scheme GoogleComputeRegionBackendService#load_balancing_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#load_balancing_scheme GoogleComputeRegionBackendService#load_balancing_scheme}
   */
   readonly loadBalancingScheme?: string;
   /**
@@ -152,7 +152,7 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * by a URL map that is bound to target gRPC proxy that has validate_for_proxyless
   * field set to true. Possible values: ["ROUND_ROBIN", "LEAST_REQUEST", "RING_HASH", "RANDOM", "ORIGINAL_DESTINATION", "MAGLEV", "WEIGHTED_MAGLEV", "WEIGHTED_ROUND_ROBIN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#locality_lb_policy GoogleComputeRegionBackendService#locality_lb_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#locality_lb_policy GoogleComputeRegionBackendService#locality_lb_policy}
   */
   readonly localityLbPolicy?: string;
   /**
@@ -164,7 +164,7 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * characters must be a dash, lowercase letter, or digit, except the last
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
   */
   readonly name: string;
   /**
@@ -173,7 +173,7 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * This field can only be specified when the load balancing scheme is set to INTERNAL, or when the load balancing scheme is set to EXTERNAL and haPolicy fastIpMove is enabled.
   * Changes to this field force recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#network GoogleComputeRegionBackendService#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#network GoogleComputeRegionBackendService#network}
   */
   readonly network?: string;
   /**
@@ -185,11 +185,11 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * default of "http" if not given.
   * Must be omitted when the loadBalancingScheme is INTERNAL (Internal TCP/UDP Load Balancing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#port_name GoogleComputeRegionBackendService#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#port_name GoogleComputeRegionBackendService#port_name}
   */
   readonly portName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#project GoogleComputeRegionBackendService#project}
   */
   readonly project?: string;
   /**
@@ -198,27 +198,27 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * or GRPC. Refer to the documentation for the load balancers or for Traffic Director
   * for more information. Possible values: ["HTTP", "HTTPS", "HTTP2", "TCP", "SSL", "UDP", "GRPC", "UNSPECIFIED", "H2C"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#protocol GoogleComputeRegionBackendService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#protocol GoogleComputeRegionBackendService#protocol}
   */
   readonly protocol?: string;
   /**
   * The Region in which the created backend service should reside.
   * If it is not provided, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#region GoogleComputeRegionBackendService#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#region GoogleComputeRegionBackendService#region}
   */
   readonly region?: string;
   /**
   * The security policy associated with this backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#security_policy GoogleComputeRegionBackendService#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#security_policy GoogleComputeRegionBackendService#security_policy}
   */
   readonly securityPolicy?: string;
   /**
   * Type of session affinity to use. The default is NONE. Session affinity is
   * not applicable if the protocol is UDP. Possible values: ["NONE", "CLIENT_IP", "CLIENT_IP_PORT_PROTO", "CLIENT_IP_PROTO", "GENERATED_COOKIE", "HEADER_FIELD", "HTTP_COOKIE", "CLIENT_IP_NO_DESTINATION", "STRONG_COOKIE_AFFINITY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#session_affinity GoogleComputeRegionBackendService#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#session_affinity GoogleComputeRegionBackendService#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
@@ -227,115 +227,115 @@ export interface GoogleComputeRegionBackendServiceConfig extends cdktn.Terraform
   * The default is 30 seconds.
   * The full range of timeout values allowed goes from 1 through 2,147,483,647 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#timeout_sec GoogleComputeRegionBackendService#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#timeout_sec GoogleComputeRegionBackendService#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#backend GoogleComputeRegionBackendService#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#backend GoogleComputeRegionBackendService#backend}
   */
   readonly backend?: GoogleComputeRegionBackendServiceBackend[] | cdktn.IResolvable;
   /**
   * cdn_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#cdn_policy GoogleComputeRegionBackendService#cdn_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#cdn_policy GoogleComputeRegionBackendService#cdn_policy}
   */
   readonly cdnPolicy?: GoogleComputeRegionBackendServiceCdnPolicy;
   /**
   * circuit_breakers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#circuit_breakers GoogleComputeRegionBackendService#circuit_breakers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#circuit_breakers GoogleComputeRegionBackendService#circuit_breakers}
   */
   readonly circuitBreakers?: GoogleComputeRegionBackendServiceCircuitBreakers;
   /**
   * connection_tracking_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#connection_tracking_policy GoogleComputeRegionBackendService#connection_tracking_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#connection_tracking_policy GoogleComputeRegionBackendService#connection_tracking_policy}
   */
   readonly connectionTrackingPolicy?: GoogleComputeRegionBackendServiceConnectionTrackingPolicy;
   /**
   * consistent_hash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#consistent_hash GoogleComputeRegionBackendService#consistent_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#consistent_hash GoogleComputeRegionBackendService#consistent_hash}
   */
   readonly consistentHash?: GoogleComputeRegionBackendServiceConsistentHash;
   /**
   * custom_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
   */
   readonly customMetrics?: GoogleComputeRegionBackendServiceCustomMetrics[] | cdktn.IResolvable;
   /**
   * dynamic_forwarding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#dynamic_forwarding GoogleComputeRegionBackendService#dynamic_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#dynamic_forwarding GoogleComputeRegionBackendService#dynamic_forwarding}
   */
   readonly dynamicForwarding?: GoogleComputeRegionBackendServiceDynamicForwarding;
   /**
   * failover_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#failover_policy GoogleComputeRegionBackendService#failover_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#failover_policy GoogleComputeRegionBackendService#failover_policy}
   */
   readonly failoverPolicy?: GoogleComputeRegionBackendServiceFailoverPolicy;
   /**
   * ha_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#ha_policy GoogleComputeRegionBackendService#ha_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#ha_policy GoogleComputeRegionBackendService#ha_policy}
   */
   readonly haPolicy?: GoogleComputeRegionBackendServiceHaPolicy;
   /**
   * iap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#iap GoogleComputeRegionBackendService#iap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#iap GoogleComputeRegionBackendService#iap}
   */
   readonly iap?: GoogleComputeRegionBackendServiceIap;
   /**
   * log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#log_config GoogleComputeRegionBackendService#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#log_config GoogleComputeRegionBackendService#log_config}
   */
   readonly logConfig?: GoogleComputeRegionBackendServiceLogConfig;
   /**
   * network_pass_through_lb_traffic_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#network_pass_through_lb_traffic_policy GoogleComputeRegionBackendService#network_pass_through_lb_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#network_pass_through_lb_traffic_policy GoogleComputeRegionBackendService#network_pass_through_lb_traffic_policy}
   */
   readonly networkPassThroughLbTrafficPolicy?: GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy;
   /**
   * outlier_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#outlier_detection GoogleComputeRegionBackendService#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#outlier_detection GoogleComputeRegionBackendService#outlier_detection}
   */
   readonly outlierDetection?: GoogleComputeRegionBackendServiceOutlierDetection;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#params GoogleComputeRegionBackendService#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#params GoogleComputeRegionBackendService#params}
   */
   readonly params?: GoogleComputeRegionBackendServiceParams;
   /**
   * strong_session_affinity_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#strong_session_affinity_cookie GoogleComputeRegionBackendService#strong_session_affinity_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#strong_session_affinity_cookie GoogleComputeRegionBackendService#strong_session_affinity_cookie}
   */
   readonly strongSessionAffinityCookie?: GoogleComputeRegionBackendServiceStrongSessionAffinityCookie;
   /**
   * subsetting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#subsetting GoogleComputeRegionBackendService#subsetting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#subsetting GoogleComputeRegionBackendService#subsetting}
   */
   readonly subsetting?: GoogleComputeRegionBackendServiceSubsetting;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#timeouts GoogleComputeRegionBackendService#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#timeouts GoogleComputeRegionBackendService#timeouts}
   */
   readonly timeouts?: GoogleComputeRegionBackendServiceTimeouts;
   /**
   * tls_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#tls_settings GoogleComputeRegionBackendService#tls_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#tls_settings GoogleComputeRegionBackendService#tls_settings}
   */
   readonly tlsSettings?: GoogleComputeRegionBackendServiceTlsSettings;
 }
@@ -344,14 +344,14 @@ export interface GoogleComputeRegionBackendServiceBackendCustomMetrics {
   * If true, the metric data is collected and reported to Cloud
   * Monitoring, but is not used for load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
   */
   readonly dryRun: boolean | cdktn.IResolvable;
   /**
   * Optional parameter to define a target utilization for the Custom Metrics
   * balancing mode. The valid range is <code>[0.0, 1.0]</code>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
   */
   readonly maxUtilization?: number;
   /**
@@ -365,7 +365,7 @@ export interface GoogleComputeRegionBackendServiceBackendCustomMetrics {
   * loadBalancingScheme set to <code>EXTERNAL_MANAGED</code>,
   * <code>INTERNAL_MANAGED</code> <code>INTERNAL_SELF_MANAGED</code>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
   */
   readonly name: string;
 }
@@ -373,7 +373,7 @@ export interface GoogleComputeRegionBackendServiceBackendCustomMetrics {
 export function googleComputeRegionBackendServiceBackendCustomMetricsToTerraform(struct?: GoogleComputeRegionBackendServiceBackendCustomMetrics | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dry_run: cdktn.booleanToTerraform(struct!.dryRun),
@@ -386,7 +386,7 @@ export function googleComputeRegionBackendServiceBackendCustomMetricsToTerraform
 export function googleComputeRegionBackendServiceBackendCustomMetricsToHclTerraform(struct?: GoogleComputeRegionBackendServiceBackendCustomMetrics | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dry_run: {
@@ -538,7 +538,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * See the [Backend Services Overview](https://cloud.google.com/load-balancing/docs/backend-service#balancing-mode)
   * for an explanation of load balancing modes. Default value: "UTILIZATION" Possible values: ["UTILIZATION", "RATE", "CONNECTION", "CUSTOM_METRICS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#balancing_mode GoogleComputeRegionBackendService#balancing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#balancing_mode GoogleComputeRegionBackendService#balancing_mode}
   */
   readonly balancingMode?: string;
   /**
@@ -553,21 +553,21 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * A setting of 0 means the group is completely drained, offering
   * 0% of its available Capacity. Valid range is [0.0,1.0].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#capacity_scaler GoogleComputeRegionBackendService#capacity_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#capacity_scaler GoogleComputeRegionBackendService#capacity_scaler}
   */
   readonly capacityScaler?: number;
   /**
   * An optional description of this resource.
   * Provide this property when you create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#description GoogleComputeRegionBackendService#description}
   */
   readonly description?: string;
   /**
   * This field designates whether this is a failover backend. More
   * than one failover backend can be configured for a given RegionBackendService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#failover GoogleComputeRegionBackendService#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#failover GoogleComputeRegionBackendService#failover}
   */
   readonly failover?: boolean | cdktn.IResolvable;
   /**
@@ -592,7 +592,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * Group resource using the fully-qualified URL, rather than a
   * partial URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#group GoogleComputeRegionBackendService#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#group GoogleComputeRegionBackendService#group}
   */
   readonly group: string;
   /**
@@ -604,7 +604,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * of maxConnectionsPerInstance or maxConnectionsPerEndpoint,
   * as appropriate for group type, must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
   */
   readonly maxConnections?: number;
   /**
@@ -617,7 +617,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * CONNECTION mode, either maxConnections or
   * maxConnectionsPerEndpoint must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_connections_per_endpoint GoogleComputeRegionBackendService#max_connections_per_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_connections_per_endpoint GoogleComputeRegionBackendService#max_connections_per_endpoint}
   */
   readonly maxConnectionsPerEndpoint?: number;
   /**
@@ -630,7 +630,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * For CONNECTION mode, either maxConnections or
   * maxConnectionsPerInstance must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_connections_per_instance GoogleComputeRegionBackendService#max_connections_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_connections_per_instance GoogleComputeRegionBackendService#max_connections_per_instance}
   */
   readonly maxConnectionsPerInstance?: number;
   /**
@@ -638,21 +638,21 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * or instance group. Not available if backend's balancingMode is RATE
   * or CONNECTION.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests GoogleComputeRegionBackendService#max_in_flight_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests GoogleComputeRegionBackendService#max_in_flight_requests}
   */
   readonly maxInFlightRequests?: number;
   /**
   * Defines a maximum number of in-flight requests for a single endpoint.
   * Not available if backend's balancingMode is RATE or CONNECTION.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests_per_endpoint GoogleComputeRegionBackendService#max_in_flight_requests_per_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests_per_endpoint GoogleComputeRegionBackendService#max_in_flight_requests_per_endpoint}
   */
   readonly maxInFlightRequestsPerEndpoint?: number;
   /**
   * Defines a maximum number of in-flight requests for a single VM.
   * Not available if backend's balancingMode is RATE or CONNECTION.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests_per_instance GoogleComputeRegionBackendService#max_in_flight_requests_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_in_flight_requests_per_instance GoogleComputeRegionBackendService#max_in_flight_requests_per_instance}
   */
   readonly maxInFlightRequestsPerInstance?: number;
   /**
@@ -664,7 +664,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * of maxRatePerInstance or maxRatePerEndpoint, as appropriate for
   * group type, must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_rate GoogleComputeRegionBackendService#max_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_rate GoogleComputeRegionBackendService#max_rate}
   */
   readonly maxRate?: number;
   /**
@@ -674,7 +674,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * either maxRate or maxRatePerEndpoint must be set. Cannot be set
   * for INTERNAL backend services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_rate_per_endpoint GoogleComputeRegionBackendService#max_rate_per_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_rate_per_endpoint GoogleComputeRegionBackendService#max_rate_per_endpoint}
   */
   readonly maxRatePerEndpoint?: number;
   /**
@@ -684,7 +684,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * either maxRate or maxRatePerInstance must be set. Cannot be set
   * for INTERNAL backend services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_rate_per_instance GoogleComputeRegionBackendService#max_rate_per_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_rate_per_instance GoogleComputeRegionBackendService#max_rate_per_instance}
   */
   readonly maxRatePerInstance?: number;
   /**
@@ -692,7 +692,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
   * CPU utilization target for the group. Valid range is [0.0, 1.0].
   * Cannot be set for INTERNAL backend services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_utilization GoogleComputeRegionBackendService#max_utilization}
   */
   readonly maxUtilization?: number;
   /**
@@ -701,13 +701,13 @@ export interface GoogleComputeRegionBackendServiceBackend {
   *   seconds to finish.
   * - SHORT: Most requests are expected to finish with a sub-second latency. Possible values: ["LONG", "SHORT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#traffic_duration GoogleComputeRegionBackendService#traffic_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#traffic_duration GoogleComputeRegionBackendService#traffic_duration}
   */
   readonly trafficDuration?: string;
   /**
   * custom_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#custom_metrics GoogleComputeRegionBackendService#custom_metrics}
   */
   readonly customMetrics?: GoogleComputeRegionBackendServiceBackendCustomMetrics[] | cdktn.IResolvable;
 }
@@ -715,7 +715,7 @@ export interface GoogleComputeRegionBackendServiceBackend {
 export function googleComputeRegionBackendServiceBackendToTerraform(struct?: GoogleComputeRegionBackendServiceBackend | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     balancing_mode: cdktn.stringToTerraform(struct!.balancingMode),
@@ -742,7 +742,7 @@ export function googleComputeRegionBackendServiceBackendToTerraform(struct?: Goo
 export function googleComputeRegionBackendServiceBackendToHclTerraform(struct?: GoogleComputeRegionBackendServiceBackend | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     balancing_mode: {
@@ -1286,19 +1286,19 @@ export interface GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy {
   /**
   * If true requests to different hosts will be cached separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#include_host GoogleComputeRegionBackendService#include_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#include_host GoogleComputeRegionBackendService#include_host}
   */
   readonly includeHost?: boolean | cdktn.IResolvable;
   /**
   * Names of cookies to include in cache keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#include_named_cookies GoogleComputeRegionBackendService#include_named_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#include_named_cookies GoogleComputeRegionBackendService#include_named_cookies}
   */
   readonly includeNamedCookies?: string[];
   /**
   * If true, http and https requests will be cached separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#include_protocol GoogleComputeRegionBackendService#include_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#include_protocol GoogleComputeRegionBackendService#include_protocol}
   */
   readonly includeProtocol?: boolean | cdktn.IResolvable;
   /**
@@ -1310,7 +1310,7 @@ export interface GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy {
   * If false, the query string will be excluded from the cache
   * key entirely.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#include_query_string GoogleComputeRegionBackendService#include_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#include_query_string GoogleComputeRegionBackendService#include_query_string}
   */
   readonly includeQueryString?: boolean | cdktn.IResolvable;
   /**
@@ -1321,7 +1321,7 @@ export interface GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy {
   * '&' and '=' will be percent encoded and not treated as
   * delimiters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#query_string_blacklist GoogleComputeRegionBackendService#query_string_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#query_string_blacklist GoogleComputeRegionBackendService#query_string_blacklist}
   */
   readonly queryStringBlacklist?: string[];
   /**
@@ -1332,7 +1332,7 @@ export interface GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy {
   * '&' and '=' will be percent encoded and not treated as
   * delimiters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#query_string_whitelist GoogleComputeRegionBackendService#query_string_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#query_string_whitelist GoogleComputeRegionBackendService#query_string_whitelist}
   */
   readonly queryStringWhitelist?: string[];
 }
@@ -1340,7 +1340,7 @@ export interface GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy {
 export function googleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyToTerraform(struct?: GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference | GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     include_host: cdktn.booleanToTerraform(struct!.includeHost),
@@ -1356,7 +1356,7 @@ export function googleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyToTerraf
 export function googleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyToHclTerraform(struct?: GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference | GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     include_host: {
@@ -1564,14 +1564,14 @@ export interface GoogleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicy
   * The HTTP status code to define a TTL against. Only HTTP status codes 300, 301, 308, 404, 405, 410, 421, 451 and 501
   * can be specified as values, and you cannot specify a status code more than once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#code GoogleComputeRegionBackendService#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#code GoogleComputeRegionBackendService#code}
   */
   readonly code?: number;
   /**
   * The TTL (in seconds) for which to cache responses with the corresponding status code. The maximum allowed value is 1800s
   * (30 minutes), noting that infrequently accessed objects may be evicted from the cache before the defined TTL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
   */
   readonly ttl?: number;
 }
@@ -1579,7 +1579,7 @@ export interface GoogleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicy
 export function googleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyToTerraform(struct?: GoogleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     code: cdktn.numberToTerraform(struct!.code),
@@ -1591,7 +1591,7 @@ export function googleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyT
 export function googleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicyToHclTerraform(struct?: GoogleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicy | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     code: {
@@ -1719,38 +1719,38 @@ export interface GoogleComputeRegionBackendServiceCdnPolicy {
   * Specifies the cache setting for all responses from this backend.
   * The possible values are: USE_ORIGIN_HEADERS, FORCE_CACHE_ALL and CACHE_ALL_STATIC Possible values: ["USE_ORIGIN_HEADERS", "FORCE_CACHE_ALL", "CACHE_ALL_STATIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#cache_mode GoogleComputeRegionBackendService#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#cache_mode GoogleComputeRegionBackendService#cache_mode}
   */
   readonly cacheMode?: string;
   /**
   * Specifies the maximum allowed TTL for cached content served by this origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#client_ttl GoogleComputeRegionBackendService#client_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#client_ttl GoogleComputeRegionBackendService#client_ttl}
   */
   readonly clientTtl?: number;
   /**
   * Specifies the default TTL for cached content served by this origin for responses
   * that do not have an existing valid TTL (max-age or s-max-age).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#default_ttl GoogleComputeRegionBackendService#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#default_ttl GoogleComputeRegionBackendService#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * Specifies the maximum allowed TTL for cached content served by this origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_ttl GoogleComputeRegionBackendService#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_ttl GoogleComputeRegionBackendService#max_ttl}
   */
   readonly maxTtl?: number;
   /**
   * Negative caching allows per-status code TTLs to be set, in order to apply fine-grained caching for common errors or redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#negative_caching GoogleComputeRegionBackendService#negative_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#negative_caching GoogleComputeRegionBackendService#negative_caching}
   */
   readonly negativeCaching?: boolean | cdktn.IResolvable;
   /**
   * Serve existing content from the cache (if available) when revalidating content with the origin, or when an error is encountered when refreshing the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#serve_while_stale GoogleComputeRegionBackendService#serve_while_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#serve_while_stale GoogleComputeRegionBackendService#serve_while_stale}
   */
   readonly serveWhileStale?: number;
   /**
@@ -1765,19 +1765,19 @@ export interface GoogleComputeRegionBackendServiceCdnPolicy {
   * existing Cache-Control header. The actual headers served in
   * responses will not be altered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#signed_url_cache_max_age_sec GoogleComputeRegionBackendService#signed_url_cache_max_age_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#signed_url_cache_max_age_sec GoogleComputeRegionBackendService#signed_url_cache_max_age_sec}
   */
   readonly signedUrlCacheMaxAgeSec?: number;
   /**
   * cache_key_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#cache_key_policy GoogleComputeRegionBackendService#cache_key_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#cache_key_policy GoogleComputeRegionBackendService#cache_key_policy}
   */
   readonly cacheKeyPolicy?: GoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy;
   /**
   * negative_caching_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#negative_caching_policy GoogleComputeRegionBackendService#negative_caching_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#negative_caching_policy GoogleComputeRegionBackendService#negative_caching_policy}
   */
   readonly negativeCachingPolicy?: GoogleComputeRegionBackendServiceCdnPolicyNegativeCachingPolicy[] | cdktn.IResolvable;
 }
@@ -1785,7 +1785,7 @@ export interface GoogleComputeRegionBackendServiceCdnPolicy {
 export function googleComputeRegionBackendServiceCdnPolicyToTerraform(struct?: GoogleComputeRegionBackendServiceCdnPolicyOutputReference | GoogleComputeRegionBackendServiceCdnPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cache_mode: cdktn.stringToTerraform(struct!.cacheMode),
@@ -1804,7 +1804,7 @@ export function googleComputeRegionBackendServiceCdnPolicyToTerraform(struct?: G
 export function googleComputeRegionBackendServiceCdnPolicyToHclTerraform(struct?: GoogleComputeRegionBackendServiceCdnPolicyOutputReference | GoogleComputeRegionBackendServiceCdnPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cache_mode: {
@@ -2098,14 +2098,14 @@ export interface GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeout 
   * with a 0 seconds field and a positive nanos field. Must
   * be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second.
   * Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
   */
   readonly seconds: number;
 }
@@ -2113,7 +2113,7 @@ export interface GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeout 
 export function googleComputeRegionBackendServiceCircuitBreakersConnectTimeoutToTerraform(struct?: GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeoutOutputReference | GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -2125,7 +2125,7 @@ export function googleComputeRegionBackendServiceCircuitBreakersConnectTimeoutTo
 export function googleComputeRegionBackendServiceCircuitBreakersConnectTimeoutToHclTerraform(struct?: GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeoutOutputReference | GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeout): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -2218,21 +2218,21 @@ export interface GoogleComputeRegionBackendServiceCircuitBreakers {
   * The maximum number of connections to the backend cluster.
   * Defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_connections GoogleComputeRegionBackendService#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * The maximum number of pending requests to the backend cluster.
   * Defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_pending_requests GoogleComputeRegionBackendService#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_pending_requests GoogleComputeRegionBackendService#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
   /**
   * The maximum number of parallel requests to the backend cluster.
   * Defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_requests GoogleComputeRegionBackendService#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_requests GoogleComputeRegionBackendService#max_requests}
   */
   readonly maxRequests?: number;
   /**
@@ -2241,20 +2241,20 @@ export interface GoogleComputeRegionBackendServiceCircuitBreakers {
   * not specified, there is no limit. Setting this parameter to 1
   * will effectively disable keep alive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_requests_per_connection GoogleComputeRegionBackendService#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_requests_per_connection GoogleComputeRegionBackendService#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * The maximum number of parallel retries to the backend cluster.
   * Defaults to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_retries GoogleComputeRegionBackendService#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_retries GoogleComputeRegionBackendService#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * connect_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#connect_timeout GoogleComputeRegionBackendService#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#connect_timeout GoogleComputeRegionBackendService#connect_timeout}
   */
   readonly connectTimeout?: GoogleComputeRegionBackendServiceCircuitBreakersConnectTimeout;
 }
@@ -2262,7 +2262,7 @@ export interface GoogleComputeRegionBackendServiceCircuitBreakers {
 export function googleComputeRegionBackendServiceCircuitBreakersToTerraform(struct?: GoogleComputeRegionBackendServiceCircuitBreakersOutputReference | GoogleComputeRegionBackendServiceCircuitBreakers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_connections: cdktn.numberToTerraform(struct!.maxConnections),
@@ -2278,7 +2278,7 @@ export function googleComputeRegionBackendServiceCircuitBreakersToTerraform(stru
 export function googleComputeRegionBackendServiceCircuitBreakersToHclTerraform(struct?: GoogleComputeRegionBackendServiceCircuitBreakersOutputReference | GoogleComputeRegionBackendServiceCircuitBreakers): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_connections: {
@@ -2500,13 +2500,13 @@ export interface GoogleComputeRegionBackendServiceConnectionTrackingPolicy {
   * unhealthy backends regardless of protocol and session affinity. It is
   * generally not recommended to use this mode overriding the default. Default value: "DEFAULT_FOR_PROTOCOL" Possible values: ["DEFAULT_FOR_PROTOCOL", "NEVER_PERSIST", "ALWAYS_PERSIST"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#connection_persistence_on_unhealthy_backends GoogleComputeRegionBackendService#connection_persistence_on_unhealthy_backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#connection_persistence_on_unhealthy_backends GoogleComputeRegionBackendService#connection_persistence_on_unhealthy_backends}
   */
   readonly connectionPersistenceOnUnhealthyBackends?: string;
   /**
   * Enable Strong Session Affinity for Network Load Balancing. This option is not available publicly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enable_strong_affinity GoogleComputeRegionBackendService#enable_strong_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enable_strong_affinity GoogleComputeRegionBackendService#enable_strong_affinity}
   */
   readonly enableStrongAffinity?: boolean | cdktn.IResolvable;
   /**
@@ -2517,7 +2517,7 @@ export interface GoogleComputeRegionBackendServiceConnectionTrackingPolicy {
   * 
   * For NLB the minimum(default) is 60 seconds and the maximum is 16 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#idle_timeout_sec GoogleComputeRegionBackendService#idle_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#idle_timeout_sec GoogleComputeRegionBackendService#idle_timeout_sec}
   */
   readonly idleTimeoutSec?: number;
   /**
@@ -2528,7 +2528,7 @@ export interface GoogleComputeRegionBackendServiceConnectionTrackingPolicy {
   * 'PER_SESSION': The Connection Tracking is performed as per the
   * configured Session Affinity. It matches the configured Session Affinity. Default value: "PER_CONNECTION" Possible values: ["PER_CONNECTION", "PER_SESSION"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#tracking_mode GoogleComputeRegionBackendService#tracking_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#tracking_mode GoogleComputeRegionBackendService#tracking_mode}
   */
   readonly trackingMode?: string;
 }
@@ -2536,7 +2536,7 @@ export interface GoogleComputeRegionBackendServiceConnectionTrackingPolicy {
 export function googleComputeRegionBackendServiceConnectionTrackingPolicyToTerraform(struct?: GoogleComputeRegionBackendServiceConnectionTrackingPolicyOutputReference | GoogleComputeRegionBackendServiceConnectionTrackingPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     connection_persistence_on_unhealthy_backends: cdktn.stringToTerraform(struct!.connectionPersistenceOnUnhealthyBackends),
@@ -2550,7 +2550,7 @@ export function googleComputeRegionBackendServiceConnectionTrackingPolicyToTerra
 export function googleComputeRegionBackendServiceConnectionTrackingPolicyToHclTerraform(struct?: GoogleComputeRegionBackendServiceConnectionTrackingPolicyOutputReference | GoogleComputeRegionBackendServiceConnectionTrackingPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     connection_persistence_on_unhealthy_backends: {
@@ -2704,14 +2704,14 @@ export interface GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtl {
   * with a 0 seconds field and a positive nanos field. Must
   * be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second.
   * Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
   */
   readonly seconds: number;
 }
@@ -2719,7 +2719,7 @@ export interface GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtl {
 export function googleComputeRegionBackendServiceConsistentHashHttpCookieTtlToTerraform(struct?: GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtlOutputReference | GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -2731,7 +2731,7 @@ export function googleComputeRegionBackendServiceConsistentHashHttpCookieTtlToTe
 export function googleComputeRegionBackendServiceConsistentHashHttpCookieTtlToHclTerraform(struct?: GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtlOutputReference | GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -2823,19 +2823,19 @@ export interface GoogleComputeRegionBackendServiceConsistentHashHttpCookie {
   /**
   * Name of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
   */
   readonly name?: string;
   /**
   * Path to set for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
   */
   readonly path?: string;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
   */
   readonly ttl?: GoogleComputeRegionBackendServiceConsistentHashHttpCookieTtl;
 }
@@ -2843,7 +2843,7 @@ export interface GoogleComputeRegionBackendServiceConsistentHashHttpCookie {
 export function googleComputeRegionBackendServiceConsistentHashHttpCookieToTerraform(struct?: GoogleComputeRegionBackendServiceConsistentHashHttpCookieOutputReference | GoogleComputeRegionBackendServiceConsistentHashHttpCookie): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -2856,7 +2856,7 @@ export function googleComputeRegionBackendServiceConsistentHashHttpCookieToTerra
 export function googleComputeRegionBackendServiceConsistentHashHttpCookieToHclTerraform(struct?: GoogleComputeRegionBackendServiceConsistentHashHttpCookieOutputReference | GoogleComputeRegionBackendServiceConsistentHashHttpCookie): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -2980,7 +2980,7 @@ export interface GoogleComputeRegionBackendServiceConsistentHash {
   * The hash based on the value of the specified header field.
   * This field is applicable if the sessionAffinity is set to HEADER_FIELD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#http_header_name GoogleComputeRegionBackendService#http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#http_header_name GoogleComputeRegionBackendService#http_header_name}
   */
   readonly httpHeaderName?: string;
   /**
@@ -2991,13 +2991,13 @@ export interface GoogleComputeRegionBackendServiceConsistentHash {
   * virtual node.
   * Defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#minimum_ring_size GoogleComputeRegionBackendService#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#minimum_ring_size GoogleComputeRegionBackendService#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
   /**
   * http_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#http_cookie GoogleComputeRegionBackendService#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#http_cookie GoogleComputeRegionBackendService#http_cookie}
   */
   readonly httpCookie?: GoogleComputeRegionBackendServiceConsistentHashHttpCookie;
 }
@@ -3005,7 +3005,7 @@ export interface GoogleComputeRegionBackendServiceConsistentHash {
 export function googleComputeRegionBackendServiceConsistentHashToTerraform(struct?: GoogleComputeRegionBackendServiceConsistentHashOutputReference | GoogleComputeRegionBackendServiceConsistentHash): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     http_header_name: cdktn.stringToTerraform(struct!.httpHeaderName),
@@ -3018,7 +3018,7 @@ export function googleComputeRegionBackendServiceConsistentHashToTerraform(struc
 export function googleComputeRegionBackendServiceConsistentHashToHclTerraform(struct?: GoogleComputeRegionBackendServiceConsistentHashOutputReference | GoogleComputeRegionBackendServiceConsistentHash): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     http_header_name: {
@@ -3141,7 +3141,7 @@ export interface GoogleComputeRegionBackendServiceCustomMetrics {
   /**
   * If true, the metric data is not used for load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#dry_run GoogleComputeRegionBackendService#dry_run}
   */
   readonly dryRun: boolean | cdktn.IResolvable;
   /**
@@ -3155,7 +3155,7 @@ export interface GoogleComputeRegionBackendServiceCustomMetrics {
   * loadBalancingScheme set to <code>EXTERNAL_MANAGED</code>,
   * <code>INTERNAL_MANAGED</code> <code>INTERNAL_SELF_MANAGED</code>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
   */
   readonly name: string;
 }
@@ -3163,7 +3163,7 @@ export interface GoogleComputeRegionBackendServiceCustomMetrics {
 export function googleComputeRegionBackendServiceCustomMetricsToTerraform(struct?: GoogleComputeRegionBackendServiceCustomMetrics | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dry_run: cdktn.booleanToTerraform(struct!.dryRun),
@@ -3175,7 +3175,7 @@ export function googleComputeRegionBackendServiceCustomMetricsToTerraform(struct
 export function googleComputeRegionBackendServiceCustomMetricsToHclTerraform(struct?: GoogleComputeRegionBackendServiceCustomMetrics | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dry_run: {
@@ -3296,13 +3296,13 @@ export interface GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy 
   /**
   * A boolean flag enabling dynamic forwarding proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * Determines the dynamic forwarding proxy mode Possible values: ["DIRECT_FORWARDING", "CLOUD_RUN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#proxy_mode GoogleComputeRegionBackendService#proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#proxy_mode GoogleComputeRegionBackendService#proxy_mode}
   */
   readonly proxyMode: string;
 }
@@ -3310,7 +3310,7 @@ export interface GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy 
 export function googleComputeRegionBackendServiceDynamicForwardingForwardProxyToTerraform(struct?: GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference | GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -3322,7 +3322,7 @@ export function googleComputeRegionBackendServiceDynamicForwardingForwardProxyTo
 export function googleComputeRegionBackendServiceDynamicForwardingForwardProxyToHclTerraform(struct?: GoogleComputeRegionBackendServiceDynamicForwardingForwardProxyOutputReference | GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -3411,7 +3411,7 @@ export interface GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelecti
   /**
   * A boolean flag enabling IP:PORT based dynamic forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -3419,7 +3419,7 @@ export interface GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelecti
 export function googleComputeRegionBackendServiceDynamicForwardingIpPortSelectionToTerraform(struct?: GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference | GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -3430,7 +3430,7 @@ export function googleComputeRegionBackendServiceDynamicForwardingIpPortSelectio
 export function googleComputeRegionBackendServiceDynamicForwardingIpPortSelectionToHclTerraform(struct?: GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelectionOutputReference | GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -3497,13 +3497,13 @@ export interface GoogleComputeRegionBackendServiceDynamicForwarding {
   /**
   * forward_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#forward_proxy GoogleComputeRegionBackendService#forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#forward_proxy GoogleComputeRegionBackendService#forward_proxy}
   */
   readonly forwardProxy?: GoogleComputeRegionBackendServiceDynamicForwardingForwardProxy;
   /**
   * ip_port_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#ip_port_selection GoogleComputeRegionBackendService#ip_port_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#ip_port_selection GoogleComputeRegionBackendService#ip_port_selection}
   */
   readonly ipPortSelection?: GoogleComputeRegionBackendServiceDynamicForwardingIpPortSelection;
 }
@@ -3511,7 +3511,7 @@ export interface GoogleComputeRegionBackendServiceDynamicForwarding {
 export function googleComputeRegionBackendServiceDynamicForwardingToTerraform(struct?: GoogleComputeRegionBackendServiceDynamicForwardingOutputReference | GoogleComputeRegionBackendServiceDynamicForwarding): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     forward_proxy: googleComputeRegionBackendServiceDynamicForwardingForwardProxyToTerraform(struct!.forwardProxy),
@@ -3523,7 +3523,7 @@ export function googleComputeRegionBackendServiceDynamicForwardingToTerraform(st
 export function googleComputeRegionBackendServiceDynamicForwardingToHclTerraform(struct?: GoogleComputeRegionBackendServiceDynamicForwardingOutputReference | GoogleComputeRegionBackendServiceDynamicForwarding): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     forward_proxy: {
@@ -3625,7 +3625,7 @@ export interface GoogleComputeRegionBackendServiceFailoverPolicy {
   * This can be set to true only if the protocol is TCP.
   * The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#disable_connection_drain_on_failover GoogleComputeRegionBackendService#disable_connection_drain_on_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#disable_connection_drain_on_failover GoogleComputeRegionBackendService#disable_connection_drain_on_failover}
   */
   readonly disableConnectionDrainOnFailover?: boolean | cdktn.IResolvable;
   /**
@@ -3634,7 +3634,7 @@ export interface GoogleComputeRegionBackendServiceFailoverPolicy {
   * set to false, new connections are sent across all VMs in the primary group.
   * The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#drop_traffic_if_unhealthy GoogleComputeRegionBackendService#drop_traffic_if_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#drop_traffic_if_unhealthy GoogleComputeRegionBackendService#drop_traffic_if_unhealthy}
   */
   readonly dropTrafficIfUnhealthy?: boolean | cdktn.IResolvable;
   /**
@@ -3647,7 +3647,7 @@ export interface GoogleComputeRegionBackendServiceFailoverPolicy {
   * VMs with the best effort, or to all VMs when no VM is healthy.
   * This field is only used with l4 load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#failover_ratio GoogleComputeRegionBackendService#failover_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#failover_ratio GoogleComputeRegionBackendService#failover_ratio}
   */
   readonly failoverRatio?: number;
 }
@@ -3655,7 +3655,7 @@ export interface GoogleComputeRegionBackendServiceFailoverPolicy {
 export function googleComputeRegionBackendServiceFailoverPolicyToTerraform(struct?: GoogleComputeRegionBackendServiceFailoverPolicyOutputReference | GoogleComputeRegionBackendServiceFailoverPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disable_connection_drain_on_failover: cdktn.booleanToTerraform(struct!.disableConnectionDrainOnFailover),
@@ -3668,7 +3668,7 @@ export function googleComputeRegionBackendServiceFailoverPolicyToTerraform(struc
 export function googleComputeRegionBackendServiceFailoverPolicyToHclTerraform(struct?: GoogleComputeRegionBackendServiceFailoverPolicyOutputReference | GoogleComputeRegionBackendServiceFailoverPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disable_connection_drain_on_failover: {
@@ -3792,7 +3792,7 @@ export interface GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpoint 
   * The name of the VM instance of the leader network endpoint. The instance must
   * already be attached to the NEG specified in the haPolicy.leader.backendGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#instance GoogleComputeRegionBackendService#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#instance GoogleComputeRegionBackendService#instance}
   */
   readonly instance?: string;
 }
@@ -3800,7 +3800,7 @@ export interface GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpoint 
 export function googleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointToTerraform(struct?: GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReference | GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     instance: cdktn.stringToTerraform(struct!.instance),
@@ -3811,7 +3811,7 @@ export function googleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointTo
 export function googleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointToHclTerraform(struct?: GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReference | GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpoint): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     instance: {
@@ -3879,13 +3879,13 @@ export interface GoogleComputeRegionBackendServiceHaPolicyLeader {
   * A fully-qualified URL of the zonal Network Endpoint Group (NEG) that the leader is
   * attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#backend_group GoogleComputeRegionBackendService#backend_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#backend_group GoogleComputeRegionBackendService#backend_group}
   */
   readonly backendGroup?: string;
   /**
   * network_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#network_endpoint GoogleComputeRegionBackendService#network_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#network_endpoint GoogleComputeRegionBackendService#network_endpoint}
   */
   readonly networkEndpoint?: GoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpoint;
 }
@@ -3893,7 +3893,7 @@ export interface GoogleComputeRegionBackendServiceHaPolicyLeader {
 export function googleComputeRegionBackendServiceHaPolicyLeaderToTerraform(struct?: GoogleComputeRegionBackendServiceHaPolicyLeaderOutputReference | GoogleComputeRegionBackendServiceHaPolicyLeader): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backend_group: cdktn.stringToTerraform(struct!.backendGroup),
@@ -3905,7 +3905,7 @@ export function googleComputeRegionBackendServiceHaPolicyLeaderToTerraform(struc
 export function googleComputeRegionBackendServiceHaPolicyLeaderToHclTerraform(struct?: GoogleComputeRegionBackendServiceHaPolicyLeaderOutputReference | GoogleComputeRegionBackendServiceHaPolicyLeader): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backend_group: {
@@ -4013,13 +4013,13 @@ export interface GoogleComputeRegionBackendServiceHaPolicy {
   *              forwarding rule IP address with that VM, and both new and in-flight packets
   *              are quickly delivered to that VM. Possible values: ["DISABLED", "GARP_RA"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#fast_ip_move GoogleComputeRegionBackendService#fast_ip_move}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#fast_ip_move GoogleComputeRegionBackendService#fast_ip_move}
   */
   readonly fastIpMove?: string;
   /**
   * leader block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#leader GoogleComputeRegionBackendService#leader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#leader GoogleComputeRegionBackendService#leader}
   */
   readonly leader?: GoogleComputeRegionBackendServiceHaPolicyLeader;
 }
@@ -4027,7 +4027,7 @@ export interface GoogleComputeRegionBackendServiceHaPolicy {
 export function googleComputeRegionBackendServiceHaPolicyToTerraform(struct?: GoogleComputeRegionBackendServiceHaPolicyOutputReference | GoogleComputeRegionBackendServiceHaPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fast_ip_move: cdktn.stringToTerraform(struct!.fastIpMove),
@@ -4039,7 +4039,7 @@ export function googleComputeRegionBackendServiceHaPolicyToTerraform(struct?: Go
 export function googleComputeRegionBackendServiceHaPolicyToHclTerraform(struct?: GoogleComputeRegionBackendServiceHaPolicyOutputReference | GoogleComputeRegionBackendServiceHaPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fast_ip_move: {
@@ -4134,19 +4134,19 @@ export interface GoogleComputeRegionBackendServiceIap {
   /**
   * Whether the serving infrastructure will authenticate and authorize all incoming requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enabled GoogleComputeRegionBackendService#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * OAuth2 Client ID for IAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#oauth2_client_id GoogleComputeRegionBackendService#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#oauth2_client_id GoogleComputeRegionBackendService#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
   * OAuth2 Client Secret for IAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#oauth2_client_secret GoogleComputeRegionBackendService#oauth2_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#oauth2_client_secret GoogleComputeRegionBackendService#oauth2_client_secret}
   */
   readonly oauth2ClientSecret?: string;
 }
@@ -4154,7 +4154,7 @@ export interface GoogleComputeRegionBackendServiceIap {
 export function googleComputeRegionBackendServiceIapToTerraform(struct?: GoogleComputeRegionBackendServiceIapOutputReference | GoogleComputeRegionBackendServiceIap): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -4167,7 +4167,7 @@ export function googleComputeRegionBackendServiceIapToTerraform(struct?: GoogleC
 export function googleComputeRegionBackendServiceIapToHclTerraform(struct?: GoogleComputeRegionBackendServiceIapOutputReference | GoogleComputeRegionBackendServiceIap): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -4292,20 +4292,20 @@ export interface GoogleComputeRegionBackendServiceLogConfig {
   /**
   * Whether to enable logging for the load balancer traffic served by this backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enable GoogleComputeRegionBackendService#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enable GoogleComputeRegionBackendService#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
   /**
   * Specifies the fields to include in logging. This field can only be specified if logging is enabled for this backend service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#optional_fields GoogleComputeRegionBackendService#optional_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#optional_fields GoogleComputeRegionBackendService#optional_fields}
   */
   readonly optionalFields?: string[];
   /**
   * Specifies the optional logging mode for the load balancer traffic.
   * Supported values: INCLUDE_ALL_OPTIONAL, EXCLUDE_ALL_OPTIONAL, CUSTOM. Possible values: ["INCLUDE_ALL_OPTIONAL", "EXCLUDE_ALL_OPTIONAL", "CUSTOM"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#optional_mode GoogleComputeRegionBackendService#optional_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#optional_mode GoogleComputeRegionBackendService#optional_mode}
   */
   readonly optionalMode?: string;
   /**
@@ -4314,7 +4314,7 @@ export interface GoogleComputeRegionBackendServiceLogConfig {
   * where 1.0 means all logged requests are reported and 0.0 means no logged requests are reported.
   * The default value is 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#sample_rate GoogleComputeRegionBackendService#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#sample_rate GoogleComputeRegionBackendService#sample_rate}
   */
   readonly sampleRate?: number;
 }
@@ -4322,7 +4322,7 @@ export interface GoogleComputeRegionBackendServiceLogConfig {
 export function googleComputeRegionBackendServiceLogConfigToTerraform(struct?: GoogleComputeRegionBackendServiceLogConfigOutputReference | GoogleComputeRegionBackendServiceLogConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable: cdktn.booleanToTerraform(struct!.enable),
@@ -4336,7 +4336,7 @@ export function googleComputeRegionBackendServiceLogConfigToTerraform(struct?: G
 export function googleComputeRegionBackendServiceLogConfigToHclTerraform(struct?: GoogleComputeRegionBackendServiceLogConfigOutputReference | GoogleComputeRegionBackendServiceLogConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable: {
@@ -4487,7 +4487,7 @@ export interface GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPol
   /**
   * This field indicates whether zonal affinity is enabled or not. Default value: "ZONAL_AFFINITY_DISABLED" Possible values: ["ZONAL_AFFINITY_DISABLED", "ZONAL_AFFINITY_SPILL_CROSS_ZONE", "ZONAL_AFFINITY_STAY_WITHIN_ZONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#spillover GoogleComputeRegionBackendService#spillover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#spillover GoogleComputeRegionBackendService#spillover}
   */
   readonly spillover?: string;
   /**
@@ -4497,7 +4497,7 @@ export interface GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPol
   * of healthy backend endpoints in a zone to the count of backend endpoints in that same zone is below this
   * threshold, the load balancer distributes all new connections to all healthy endpoints across all zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#spillover_ratio GoogleComputeRegionBackendService#spillover_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#spillover_ratio GoogleComputeRegionBackendService#spillover_ratio}
   */
   readonly spilloverRatio?: number;
 }
@@ -4505,7 +4505,7 @@ export interface GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPol
 export function googleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityToTerraform(struct?: GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference | GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     spillover: cdktn.stringToTerraform(struct!.spillover),
@@ -4517,7 +4517,7 @@ export function googleComputeRegionBackendServiceNetworkPassThroughLbTrafficPoli
 export function googleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityToHclTerraform(struct?: GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityOutputReference | GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     spillover: {
@@ -4612,7 +4612,7 @@ export interface GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPol
   /**
   * zonal_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#zonal_affinity GoogleComputeRegionBackendService#zonal_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#zonal_affinity GoogleComputeRegionBackendService#zonal_affinity}
   */
   readonly zonalAffinity?: GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinity;
 }
@@ -4620,7 +4620,7 @@ export interface GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPol
 export function googleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyToTerraform(struct?: GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference | GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     zonal_affinity: googleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyZonalAffinityToTerraform(struct!.zonalAffinity),
@@ -4631,7 +4631,7 @@ export function googleComputeRegionBackendServiceNetworkPassThroughLbTrafficPoli
 export function googleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyToHclTerraform(struct?: GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference | GoogleComputeRegionBackendServiceNetworkPassThroughLbTrafficPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     zonal_affinity: {
@@ -4700,14 +4700,14 @@ export interface GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTi
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
   */
   readonly seconds: number;
 }
@@ -4715,7 +4715,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTi
 export function googleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeToTerraform(struct?: GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference | GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -4727,7 +4727,7 @@ export function googleComputeRegionBackendServiceOutlierDetectionBaseEjectionTim
 export function googleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeToHclTerraform(struct?: GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference | GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -4821,14 +4821,14 @@ export interface GoogleComputeRegionBackendServiceOutlierDetectionInterval {
   * less than one second are represented with a 0 'seconds' field and a positive
   * 'nanos' field. Must be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second. Must be from 0 to 315,576,000,000
   * inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
   */
   readonly seconds: number;
 }
@@ -4836,7 +4836,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetectionInterval {
 export function googleComputeRegionBackendServiceOutlierDetectionIntervalToTerraform(struct?: GoogleComputeRegionBackendServiceOutlierDetectionIntervalOutputReference | GoogleComputeRegionBackendServiceOutlierDetectionInterval): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -4848,7 +4848,7 @@ export function googleComputeRegionBackendServiceOutlierDetectionIntervalToTerra
 export function googleComputeRegionBackendServiceOutlierDetectionIntervalToHclTerraform(struct?: GoogleComputeRegionBackendServiceOutlierDetectionIntervalOutputReference | GoogleComputeRegionBackendServiceOutlierDetectionInterval): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -4942,7 +4942,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * backend host is accessed over HTTP, a 5xx return code qualifies as an error.
   * Defaults to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#consecutive_errors GoogleComputeRegionBackendService#consecutive_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#consecutive_errors GoogleComputeRegionBackendService#consecutive_errors}
   */
   readonly consecutiveErrors?: number;
   /**
@@ -4950,7 +4950,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * errors that are mapped to one of those status codes) before a consecutive
   * gateway failure ejection occurs. Defaults to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#consecutive_gateway_failure GoogleComputeRegionBackendService#consecutive_gateway_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#consecutive_gateway_failure GoogleComputeRegionBackendService#consecutive_gateway_failure}
   */
   readonly consecutiveGatewayFailure?: number;
   /**
@@ -4958,7 +4958,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * status is detected through consecutive 5xx. This setting can be used to disable
   * ejection or to ramp it up slowly. Defaults to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_errors GoogleComputeRegionBackendService#enforcing_consecutive_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_errors GoogleComputeRegionBackendService#enforcing_consecutive_errors}
   */
   readonly enforcingConsecutiveErrors?: number;
   /**
@@ -4966,7 +4966,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * status is detected through consecutive gateway failures. This setting can be
   * used to disable ejection or to ramp it up slowly. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_gateway_failure GoogleComputeRegionBackendService#enforcing_consecutive_gateway_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enforcing_consecutive_gateway_failure GoogleComputeRegionBackendService#enforcing_consecutive_gateway_failure}
   */
   readonly enforcingConsecutiveGatewayFailure?: number;
   /**
@@ -4974,14 +4974,14 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * status is detected through success rate statistics. This setting can be used to
   * disable ejection or to ramp it up slowly. Defaults to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#enforcing_success_rate GoogleComputeRegionBackendService#enforcing_success_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#enforcing_success_rate GoogleComputeRegionBackendService#enforcing_success_rate}
   */
   readonly enforcingSuccessRate?: number;
   /**
   * Maximum percentage of hosts in the load balancing pool for the backend service
   * that can be ejected. Defaults to 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#max_ejection_percent GoogleComputeRegionBackendService#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#max_ejection_percent GoogleComputeRegionBackendService#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
@@ -4990,7 +4990,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * detection via success rate statistics is not performed for any host in the
   * cluster. Defaults to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#success_rate_minimum_hosts GoogleComputeRegionBackendService#success_rate_minimum_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#success_rate_minimum_hosts GoogleComputeRegionBackendService#success_rate_minimum_hosts}
   */
   readonly successRateMinimumHosts?: number;
   /**
@@ -5000,7 +5000,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * detection via success rate statistics is not performed for that host. Defaults
   * to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#success_rate_request_volume GoogleComputeRegionBackendService#success_rate_request_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#success_rate_request_volume GoogleComputeRegionBackendService#success_rate_request_volume}
   */
   readonly successRateRequestVolume?: number;
   /**
@@ -5011,19 +5011,19 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
   * by a thousand to get a double. That is, if the desired factor is 1.9, the
   * runtime value should be 1900. Defaults to 1900.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#success_rate_stdev_factor GoogleComputeRegionBackendService#success_rate_stdev_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#success_rate_stdev_factor GoogleComputeRegionBackendService#success_rate_stdev_factor}
   */
   readonly successRateStdevFactor?: number;
   /**
   * base_ejection_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#base_ejection_time GoogleComputeRegionBackendService#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#base_ejection_time GoogleComputeRegionBackendService#base_ejection_time}
   */
   readonly baseEjectionTime?: GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTime;
   /**
   * interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#interval GoogleComputeRegionBackendService#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#interval GoogleComputeRegionBackendService#interval}
   */
   readonly interval?: GoogleComputeRegionBackendServiceOutlierDetectionInterval;
 }
@@ -5031,7 +5031,7 @@ export interface GoogleComputeRegionBackendServiceOutlierDetection {
 export function googleComputeRegionBackendServiceOutlierDetectionToTerraform(struct?: GoogleComputeRegionBackendServiceOutlierDetectionOutputReference | GoogleComputeRegionBackendServiceOutlierDetection): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     consecutive_errors: cdktn.numberToTerraform(struct!.consecutiveErrors),
@@ -5052,7 +5052,7 @@ export function googleComputeRegionBackendServiceOutlierDetectionToTerraform(str
 export function googleComputeRegionBackendServiceOutlierDetectionToHclTerraform(struct?: GoogleComputeRegionBackendServiceOutlierDetectionOutputReference | GoogleComputeRegionBackendServiceOutlierDetection): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     consecutive_errors: {
@@ -5401,7 +5401,7 @@ export interface GoogleComputeRegionBackendServiceParams {
   * same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
   * and values are in the format tagValues/456.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#resource_manager_tags GoogleComputeRegionBackendService#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#resource_manager_tags GoogleComputeRegionBackendService#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
 }
@@ -5409,7 +5409,7 @@ export interface GoogleComputeRegionBackendServiceParams {
 export function googleComputeRegionBackendServiceParamsToTerraform(struct?: GoogleComputeRegionBackendServiceParamsOutputReference | GoogleComputeRegionBackendServiceParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
@@ -5420,7 +5420,7 @@ export function googleComputeRegionBackendServiceParamsToTerraform(struct?: Goog
 export function googleComputeRegionBackendServiceParamsToHclTerraform(struct?: GoogleComputeRegionBackendServiceParamsOutputReference | GoogleComputeRegionBackendServiceParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     resource_manager_tags: {
@@ -5490,14 +5490,14 @@ export interface GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtl
   * with a 0 seconds field and a positive nanos field. Must
   * be from 0 to 999,999,999 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#nanos GoogleComputeRegionBackendService#nanos}
   */
   readonly nanos?: number;
   /**
   * Span of time at a resolution of a second.
   * Must be from 0 to 315,576,000,000 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#seconds GoogleComputeRegionBackendService#seconds}
   */
   readonly seconds: number;
 }
@@ -5505,7 +5505,7 @@ export interface GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtl
 export function googleComputeRegionBackendServiceStrongSessionAffinityCookieTtlToTerraform(struct?: GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReference | GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     nanos: cdktn.numberToTerraform(struct!.nanos),
@@ -5517,7 +5517,7 @@ export function googleComputeRegionBackendServiceStrongSessionAffinityCookieTtlT
 export function googleComputeRegionBackendServiceStrongSessionAffinityCookieTtlToHclTerraform(struct?: GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtlOutputReference | GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtl): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     nanos: {
@@ -5609,19 +5609,19 @@ export interface GoogleComputeRegionBackendServiceStrongSessionAffinityCookie {
   /**
   * Name of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#name GoogleComputeRegionBackendService#name}
   */
   readonly name?: string;
   /**
   * Path to set for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#path GoogleComputeRegionBackendService#path}
   */
   readonly path?: string;
   /**
   * ttl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#ttl GoogleComputeRegionBackendService#ttl}
   */
   readonly ttl?: GoogleComputeRegionBackendServiceStrongSessionAffinityCookieTtl;
 }
@@ -5629,7 +5629,7 @@ export interface GoogleComputeRegionBackendServiceStrongSessionAffinityCookie {
 export function googleComputeRegionBackendServiceStrongSessionAffinityCookieToTerraform(struct?: GoogleComputeRegionBackendServiceStrongSessionAffinityCookieOutputReference | GoogleComputeRegionBackendServiceStrongSessionAffinityCookie): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     name: cdktn.stringToTerraform(struct!.name),
@@ -5642,7 +5642,7 @@ export function googleComputeRegionBackendServiceStrongSessionAffinityCookieToTe
 export function googleComputeRegionBackendServiceStrongSessionAffinityCookieToHclTerraform(struct?: GoogleComputeRegionBackendServiceStrongSessionAffinityCookieOutputReference | GoogleComputeRegionBackendServiceStrongSessionAffinityCookie): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     name: {
@@ -5765,7 +5765,7 @@ export interface GoogleComputeRegionBackendServiceSubsetting {
   /**
   * The algorithm used for subsetting. Possible values: ["CONSISTENT_HASH_SUBSETTING"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#policy GoogleComputeRegionBackendService#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#policy GoogleComputeRegionBackendService#policy}
   */
   readonly policy: string;
   /**
@@ -5777,7 +5777,7 @@ export interface GoogleComputeRegionBackendServiceSubsetting {
   * of proxies/clients visible to each backend and vice versa.
   * Must be greater than 0. If subsetSize is larger than the number of backends/endpoints, then subsetting is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#subset_size GoogleComputeRegionBackendService#subset_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#subset_size GoogleComputeRegionBackendService#subset_size}
   */
   readonly subsetSize?: number;
 }
@@ -5785,7 +5785,7 @@ export interface GoogleComputeRegionBackendServiceSubsetting {
 export function googleComputeRegionBackendServiceSubsettingToTerraform(struct?: GoogleComputeRegionBackendServiceSubsettingOutputReference | GoogleComputeRegionBackendServiceSubsetting): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     policy: cdktn.stringToTerraform(struct!.policy),
@@ -5797,7 +5797,7 @@ export function googleComputeRegionBackendServiceSubsettingToTerraform(struct?: 
 export function googleComputeRegionBackendServiceSubsettingToHclTerraform(struct?: GoogleComputeRegionBackendServiceSubsettingOutputReference | GoogleComputeRegionBackendServiceSubsetting): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     policy: {
@@ -5887,15 +5887,15 @@ export class GoogleComputeRegionBackendServiceSubsettingOutputReference extends 
 }
 export interface GoogleComputeRegionBackendServiceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#create GoogleComputeRegionBackendService#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#create GoogleComputeRegionBackendService#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#delete GoogleComputeRegionBackendService#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#delete GoogleComputeRegionBackendService#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#update GoogleComputeRegionBackendService#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#update GoogleComputeRegionBackendService#update}
   */
   readonly update?: string;
 }
@@ -5903,7 +5903,7 @@ export interface GoogleComputeRegionBackendServiceTimeouts {
 export function googleComputeRegionBackendServiceTimeoutsToTerraform(struct?: GoogleComputeRegionBackendServiceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -5916,7 +5916,7 @@ export function googleComputeRegionBackendServiceTimeoutsToTerraform(struct?: Go
 export function googleComputeRegionBackendServiceTimeoutsToHclTerraform(struct?: GoogleComputeRegionBackendServiceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -6049,13 +6049,13 @@ export interface GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames {
   /**
   * The SAN specified as a DNS Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#dns_name GoogleComputeRegionBackendService#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#dns_name GoogleComputeRegionBackendService#dns_name}
   */
   readonly dnsName?: string;
   /**
   * The SAN specified as a URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#uniform_resource_identifier GoogleComputeRegionBackendService#uniform_resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#uniform_resource_identifier GoogleComputeRegionBackendService#uniform_resource_identifier}
   */
   readonly uniformResourceIdentifier?: string;
 }
@@ -6063,7 +6063,7 @@ export interface GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames {
 export function googleComputeRegionBackendServiceTlsSettingsSubjectAltNamesToTerraform(struct?: GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dns_name: cdktn.stringToTerraform(struct!.dnsName),
@@ -6075,7 +6075,7 @@ export function googleComputeRegionBackendServiceTlsSettingsSubjectAltNamesToTer
 export function googleComputeRegionBackendServiceTlsSettingsSubjectAltNamesToHclTerraform(struct?: GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dns_name: {
@@ -6204,7 +6204,7 @@ export interface GoogleComputeRegionBackendServiceTlsSettings {
   * Can be used in authenticating TLS connections to the backend, as specified by the authenticationMode field.
   * Can only be specified if authenticationMode is not NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#authentication_config GoogleComputeRegionBackendService#authentication_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#authentication_config GoogleComputeRegionBackendService#authentication_config}
   */
   readonly authenticationConfig?: string;
   /**
@@ -6213,13 +6213,13 @@ export interface GoogleComputeRegionBackendServiceTlsSettings {
   * server certificate. With a Regional Internet NEG backend, if the SNI is specified here, the load balancer uses it
   * regardless of whether the Regional Internet NEG is specified with FQDN or IP address and port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#sni GoogleComputeRegionBackendService#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#sni GoogleComputeRegionBackendService#sni}
   */
   readonly sni?: string;
   /**
   * subject_alt_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#subject_alt_names GoogleComputeRegionBackendService#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#subject_alt_names GoogleComputeRegionBackendService#subject_alt_names}
   */
   readonly subjectAltNames?: GoogleComputeRegionBackendServiceTlsSettingsSubjectAltNames[] | cdktn.IResolvable;
 }
@@ -6227,7 +6227,7 @@ export interface GoogleComputeRegionBackendServiceTlsSettings {
 export function googleComputeRegionBackendServiceTlsSettingsToTerraform(struct?: GoogleComputeRegionBackendServiceTlsSettingsOutputReference | GoogleComputeRegionBackendServiceTlsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     authentication_config: cdktn.stringToTerraform(struct!.authenticationConfig),
@@ -6240,7 +6240,7 @@ export function googleComputeRegionBackendServiceTlsSettingsToTerraform(struct?:
 export function googleComputeRegionBackendServiceTlsSettingsToHclTerraform(struct?: GoogleComputeRegionBackendServiceTlsSettingsOutputReference | GoogleComputeRegionBackendServiceTlsSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     authentication_config: {
@@ -6361,7 +6361,7 @@ export class GoogleComputeRegionBackendServiceTlsSettingsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service google_compute_region_backend_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service google_compute_region_backend_service}
 */
 export class GoogleComputeRegionBackendService extends cdktn.TerraformResource {
 
@@ -6377,7 +6377,7 @@ export class GoogleComputeRegionBackendService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeRegionBackendService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionBackendService to import
-  * @param importFromId The id of the existing GoogleComputeRegionBackendService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeRegionBackendService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionBackendService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6389,7 +6389,7 @@ export class GoogleComputeRegionBackendService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_service google_compute_region_backend_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_backend_service google_compute_region_backend_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6400,7 +6400,7 @@ export class GoogleComputeRegionBackendService extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_region_backend_service',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
