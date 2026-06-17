@@ -4,7 +4,7 @@
 
 ### GoogleComputeBackendBucketSignedUrlKey <a name="GoogleComputeBackendBucketSignedUrlKey" id="@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key google_compute_backend_bucket_signed_url_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key google_compute_backend_bucket_signed_url_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKey.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeBackendBucket
 
 The id of the existing GoogleComputeBackendBucketSignedUrlKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -919,8 +919,8 @@ new GoogleComputeBackendBucketSignedUrlKeyConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.keyValue">KeyValue</a></code> | <code>string</code> | 128-bit key value used for signing the URL. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.name">Name</a></code> | <code>string</code> | Name of the signed URL key. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#id GoogleComputeBackendBucketSignedUrlKey#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#project GoogleComputeBackendBucketSignedUrlKey#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#id GoogleComputeBackendBucketSignedUrlKey#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#project GoogleComputeBackendBucketSignedUrlKey#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyTimeouts">GoogleComputeBackendBucketSignedUrlKeyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1005,7 +1005,7 @@ public string BackendBucket { get; set; }
 
 The backend bucket this signed URL key belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#backend_bucket GoogleComputeBackendBucketSignedUrlKey#backend_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#backend_bucket GoogleComputeBackendBucketSignedUrlKey#backend_bucket}
 
 ---
 
@@ -1022,7 +1022,7 @@ public string KeyValue { get; set; }
 The key value must be a
 valid RFC 4648 Section 5 base64url encoded string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#key_value GoogleComputeBackendBucketSignedUrlKey#key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#key_value GoogleComputeBackendBucketSignedUrlKey#key_value}
 
 ---
 
@@ -1036,7 +1036,7 @@ public string Name { get; set; }
 
 Name of the signed URL key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#name GoogleComputeBackendBucketSignedUrlKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#name GoogleComputeBackendBucketSignedUrlKey#name}
 
 ---
 
@@ -1057,7 +1057,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#deletion_policy GoogleComputeBackendBucketSignedUrlKey#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#deletion_policy GoogleComputeBackendBucketSignedUrlKey#deletion_policy}
 
 ---
 
@@ -1069,7 +1069,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#id GoogleComputeBackendBucketSignedUrlKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#id GoogleComputeBackendBucketSignedUrlKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1084,7 +1084,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#project GoogleComputeBackendBucketSignedUrlKey#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#project GoogleComputeBackendBucketSignedUrlKey#project}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public GoogleComputeBackendBucketSignedUrlKeyTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#timeouts GoogleComputeBackendBucketSignedUrlKey#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#timeouts GoogleComputeBackendBucketSignedUrlKey#timeouts}
 
 ---
 
@@ -1119,8 +1119,8 @@ new GoogleComputeBackendBucketSignedUrlKeyTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#create GoogleComputeBackendBucketSignedUrlKey#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#delete GoogleComputeBackendBucketSignedUrlKey#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#create GoogleComputeBackendBucketSignedUrlKey#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBackendBucketSignedUrlKey.GoogleComputeBackendBucketSignedUrlKeyTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#delete GoogleComputeBackendBucketSignedUrlKey#delete}. |
 
 ---
 
@@ -1132,7 +1132,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#create GoogleComputeBackendBucketSignedUrlKey#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#create GoogleComputeBackendBucketSignedUrlKey#create}.
 
 ---
 
@@ -1144,7 +1144,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_backend_bucket_signed_url_key#delete GoogleComputeBackendBucketSignedUrlKey#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_backend_bucket_signed_url_key#delete GoogleComputeBackendBucketSignedUrlKey#delete}.
 
 ---
 

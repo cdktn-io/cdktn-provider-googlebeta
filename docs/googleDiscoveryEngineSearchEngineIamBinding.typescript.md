@@ -4,7 +4,7 @@
 
 ### GoogleDiscoveryEngineSearchEngineIamBinding <a name="GoogleDiscoveryEngineSearchEngineIamBinding" id="@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDiscoveryEngineSearc
 
 The id of the existing GoogleDiscoveryEngineSearchEngineIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,9 +926,9 @@ const googleDiscoveryEngineSearchEngineIamBindingCondition: googleDiscoveryEngin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#expression GoogleDiscoveryEngineSearchEngineIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#title GoogleDiscoveryEngineSearchEngineIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#description GoogleDiscoveryEngineSearchEngineIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#expression GoogleDiscoveryEngineSearchEngineIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#title GoogleDiscoveryEngineSearchEngineIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#description GoogleDiscoveryEngineSearchEngineIamBinding#description}. |
 
 ---
 
@@ -940,7 +940,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#expression GoogleDiscoveryEngineSearchEngineIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#expression GoogleDiscoveryEngineSearchEngineIamBinding#expression}.
 
 ---
 
@@ -952,7 +952,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#title GoogleDiscoveryEngineSearchEngineIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#title GoogleDiscoveryEngineSearchEngineIamBinding#title}.
 
 ---
 
@@ -964,7 +964,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#description GoogleDiscoveryEngineSearchEngineIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#description GoogleDiscoveryEngineSearchEngineIamBinding#description}.
 
 ---
 
@@ -989,14 +989,14 @@ const googleDiscoveryEngineSearchEngineIamBindingConfig: googleDiscoveryEngineSe
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.collectionId">collectionId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#collection_id GoogleDiscoveryEngineSearchEngineIamBinding#collection_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.engineId">engineId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#engine_id GoogleDiscoveryEngineSearchEngineIamBinding#engine_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#members GoogleDiscoveryEngineSearchEngineIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#role GoogleDiscoveryEngineSearchEngineIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.collectionId">collectionId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#collection_id GoogleDiscoveryEngineSearchEngineIamBinding#collection_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.engineId">engineId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#engine_id GoogleDiscoveryEngineSearchEngineIamBinding#engine_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#members GoogleDiscoveryEngineSearchEngineIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#role GoogleDiscoveryEngineSearchEngineIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingCondition">GoogleDiscoveryEngineSearchEngineIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#id GoogleDiscoveryEngineSearchEngineIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#location GoogleDiscoveryEngineSearchEngineIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#project GoogleDiscoveryEngineSearchEngineIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#id GoogleDiscoveryEngineSearchEngineIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#location GoogleDiscoveryEngineSearchEngineIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSearchEngineIamBinding.GoogleDiscoveryEngineSearchEngineIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#project GoogleDiscoveryEngineSearchEngineIamBinding#project}. |
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly collectionId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#collection_id GoogleDiscoveryEngineSearchEngineIamBinding#collection_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#collection_id GoogleDiscoveryEngineSearchEngineIamBinding#collection_id}.
 
 ---
 
@@ -1090,7 +1090,7 @@ public readonly engineId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#engine_id GoogleDiscoveryEngineSearchEngineIamBinding#engine_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#engine_id GoogleDiscoveryEngineSearchEngineIamBinding#engine_id}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public readonly members: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#members GoogleDiscoveryEngineSearchEngineIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#members GoogleDiscoveryEngineSearchEngineIamBinding#members}.
 
 ---
 
@@ -1114,7 +1114,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#role GoogleDiscoveryEngineSearchEngineIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#role GoogleDiscoveryEngineSearchEngineIamBinding#role}.
 
 ---
 
@@ -1128,7 +1128,7 @@ public readonly condition: GoogleDiscoveryEngineSearchEngineIamBindingCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#condition GoogleDiscoveryEngineSearchEngineIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#condition GoogleDiscoveryEngineSearchEngineIamBinding#condition}
 
 ---
 
@@ -1140,7 +1140,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#id GoogleDiscoveryEngineSearchEngineIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#id GoogleDiscoveryEngineSearchEngineIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1155,7 +1155,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#location GoogleDiscoveryEngineSearchEngineIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#location GoogleDiscoveryEngineSearchEngineIamBinding#location}.
 
 ---
 
@@ -1167,7 +1167,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_binding#project GoogleDiscoveryEngineSearchEngineIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_binding#project GoogleDiscoveryEngineSearchEngineIamBinding#project}.
 
 ---
 

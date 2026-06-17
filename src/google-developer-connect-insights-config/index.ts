@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktn.Terraf
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#annotations GoogleDeveloperConnectInsightsConfig#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#annotations GoogleDeveloperConnectInsightsConfig#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -27,7 +27,7 @@ export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktn.Terraf
   * Format:
   * projects/{project}/locations/{location}/applications/{application}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#app_hub_application GoogleDeveloperConnectInsightsConfig#app_hub_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#app_hub_application GoogleDeveloperConnectInsightsConfig#app_hub_application}
   */
   readonly appHubApplication?: string;
   /**
@@ -39,11 +39,11 @@ export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktn.Terraf
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#deletion_policy GoogleDeveloperConnectInsightsConfig#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#deletion_policy GoogleDeveloperConnectInsightsConfig#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#id GoogleDeveloperConnectInsightsConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#id GoogleDeveloperConnectInsightsConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktn.Terraf
   /**
   * ID of the requesting InsightsConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#insights_config_id GoogleDeveloperConnectInsightsConfig#insights_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#insights_config_id GoogleDeveloperConnectInsightsConfig#insights_config_id}
   */
   readonly insightsConfigId: string;
   /**
@@ -61,35 +61,35 @@ export interface GoogleDeveloperConnectInsightsConfigConfig extends cdktn.Terraf
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#labels GoogleDeveloperConnectInsightsConfig#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#labels GoogleDeveloperConnectInsightsConfig#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#location GoogleDeveloperConnectInsightsConfig#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#location GoogleDeveloperConnectInsightsConfig#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#project GoogleDeveloperConnectInsightsConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#project GoogleDeveloperConnectInsightsConfig#project}
   */
   readonly project?: string;
   /**
   * artifact_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#artifact_configs GoogleDeveloperConnectInsightsConfig#artifact_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#artifact_configs GoogleDeveloperConnectInsightsConfig#artifact_configs}
   */
   readonly artifactConfigs?: GoogleDeveloperConnectInsightsConfigArtifactConfigs[] | cdktn.IResolvable;
   /**
   * target_projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#target_projects GoogleDeveloperConnectInsightsConfig#target_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#target_projects GoogleDeveloperConnectInsightsConfig#target_projects}
   */
   readonly targetProjects?: GoogleDeveloperConnectInsightsConfigTargetProjects;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#timeouts GoogleDeveloperConnectInsightsConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#timeouts GoogleDeveloperConnectInsightsConfig#timeouts}
   */
   readonly timeouts?: GoogleDeveloperConnectInsightsConfigTimeouts;
 }
@@ -515,7 +515,7 @@ export interface GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifa
   /**
   * The project id of the project where the provenance is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#project_id GoogleDeveloperConnectInsightsConfig#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#project_id GoogleDeveloperConnectInsightsConfig#project_id}
   */
   readonly projectId: string;
 }
@@ -598,13 +598,13 @@ export interface GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifa
   /**
   * The name of the artifact registry package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#artifact_registry_package GoogleDeveloperConnectInsightsConfig#artifact_registry_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#artifact_registry_package GoogleDeveloperConnectInsightsConfig#artifact_registry_package}
   */
   readonly artifactRegistryPackage: string;
   /**
   * The host project of Artifact Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#project_id GoogleDeveloperConnectInsightsConfig#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#project_id GoogleDeveloperConnectInsightsConfig#project_id}
   */
   readonly projectId: string;
 }
@@ -716,19 +716,19 @@ export interface GoogleDeveloperConnectInsightsConfigArtifactConfigs {
   * The URI does not include the tag / digest because it captures a lineage of
   * artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#uri GoogleDeveloperConnectInsightsConfig#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#uri GoogleDeveloperConnectInsightsConfig#uri}
   */
   readonly uri?: string;
   /**
   * google_artifact_analysis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#google_artifact_analysis GoogleDeveloperConnectInsightsConfig#google_artifact_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#google_artifact_analysis GoogleDeveloperConnectInsightsConfig#google_artifact_analysis}
   */
   readonly googleArtifactAnalysis?: GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactAnalysis;
   /**
   * google_artifact_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#google_artifact_registry GoogleDeveloperConnectInsightsConfig#google_artifact_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#google_artifact_registry GoogleDeveloperConnectInsightsConfig#google_artifact_registry}
   */
   readonly googleArtifactRegistry?: GoogleDeveloperConnectInsightsConfigArtifactConfigsGoogleArtifactRegistry;
 }
@@ -904,7 +904,7 @@ export interface GoogleDeveloperConnectInsightsConfigTargetProjects {
   /**
   * The project IDs. Format {project}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#project_ids GoogleDeveloperConnectInsightsConfig#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#project_ids GoogleDeveloperConnectInsightsConfig#project_ids}
   */
   readonly projectIds?: string[];
 }
@@ -988,15 +988,15 @@ export class GoogleDeveloperConnectInsightsConfigTargetProjectsOutputReference e
 }
 export interface GoogleDeveloperConnectInsightsConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#create GoogleDeveloperConnectInsightsConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#create GoogleDeveloperConnectInsightsConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#delete GoogleDeveloperConnectInsightsConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#delete GoogleDeveloperConnectInsightsConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#update GoogleDeveloperConnectInsightsConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#update GoogleDeveloperConnectInsightsConfig#update}
   */
   readonly update?: string;
 }
@@ -1148,7 +1148,7 @@ export class GoogleDeveloperConnectInsightsConfigTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config}
 */
 export class GoogleDeveloperConnectInsightsConfig extends cdktn.TerraformResource {
 
@@ -1164,7 +1164,7 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a GoogleDeveloperConnectInsightsConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDeveloperConnectInsightsConfig to import
-  * @param importFromId The id of the existing GoogleDeveloperConnectInsightsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDeveloperConnectInsightsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDeveloperConnectInsightsConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1176,7 +1176,7 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1187,7 +1187,7 @@ export class GoogleDeveloperConnectInsightsConfig extends cdktn.TerraformResourc
       terraformResourceType: 'google_developer_connect_insights_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,34 +15,34 @@ export interface GoogleChronicleEnvironmentConfig extends cdktn.TerraformMetaArg
   /**
   * Environment nicknames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#aliases_json GoogleChronicleEnvironment#aliases_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#aliases_json GoogleChronicleEnvironment#aliases_json}
   */
   readonly aliasesJson?: string;
   /**
   * MAX_NAME_LENGTH = 256
   * Name of the contact for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#contact GoogleChronicleEnvironment#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#contact GoogleChronicleEnvironment#contact}
   */
   readonly contact: string;
   /**
   * MAX_NAME_LENGTH = 256
   * Email of the contact for the environment. Multiple emails can be sepereated with the ';' character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#contact_emails GoogleChronicleEnvironment#contact_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#contact_emails GoogleChronicleEnvironment#contact_emails}
   */
   readonly contactEmails: string;
   /**
   * MAX_NAME_LENGTH = 256
   * Phone number of the contact for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#contact_phone GoogleChronicleEnvironment#contact_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#contact_phone GoogleChronicleEnvironment#contact_phone}
   */
   readonly contactPhone: string;
   /**
   * data access scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#data_access_scopes_json GoogleChronicleEnvironment#data_access_scopes_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#data_access_scopes_json GoogleChronicleEnvironment#data_access_scopes_json}
   */
   readonly dataAccessScopesJson?: string;
   /**
@@ -54,31 +54,31 @@ export interface GoogleChronicleEnvironmentConfig extends cdktn.TerraformMetaArg
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#deletion_policy GoogleChronicleEnvironment#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#deletion_policy GoogleChronicleEnvironment#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Whether Terraform will be prevented from destroying the environment. Deleting an environment will remove all its data and all playbooks, environments, integrations instances, reports and agents related to the environment. Once you delete an environment, it cannot be reversed. Deleting environments via terraform destroy or terraform apply will only succeed if this field is false in the Terraform state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#deletion_protection GoogleChronicleEnvironment#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#deletion_protection GoogleChronicleEnvironment#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * MAX_NAME_LENGTH = 256
   * Description of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#description GoogleChronicleEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#description GoogleChronicleEnvironment#description}
   */
   readonly description: string;
   /**
   * Name of the environment
   * MAX_NAME_LENGTH = 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#display_name GoogleChronicleEnvironment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#display_name GoogleChronicleEnvironment#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#id GoogleChronicleEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#id GoogleChronicleEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,43 +87,43 @@ export interface GoogleChronicleEnvironmentConfig extends cdktn.TerraformMetaArg
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#instance GoogleChronicleEnvironment#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#instance GoogleChronicleEnvironment#instance}
   */
   readonly instance: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#location GoogleChronicleEnvironment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#location GoogleChronicleEnvironment#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#project GoogleChronicleEnvironment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#project GoogleChronicleEnvironment#project}
   */
   readonly project?: string;
   /**
   * Environment data retention in months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#retention_duration GoogleChronicleEnvironment#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#retention_duration GoogleChronicleEnvironment#retention_duration}
   */
   readonly retentionDuration: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#timeouts GoogleChronicleEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#timeouts GoogleChronicleEnvironment#timeouts}
   */
   readonly timeouts?: GoogleChronicleEnvironmentTimeouts;
 }
 export interface GoogleChronicleEnvironmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#create GoogleChronicleEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#create GoogleChronicleEnvironment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#delete GoogleChronicleEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#delete GoogleChronicleEnvironment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#update GoogleChronicleEnvironment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#update GoogleChronicleEnvironment#update}
   */
   readonly update?: string;
 }
@@ -275,7 +275,7 @@ export class GoogleChronicleEnvironmentTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment google_chronicle_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment google_chronicle_environment}
 */
 export class GoogleChronicleEnvironment extends cdktn.TerraformResource {
 
@@ -291,7 +291,7 @@ export class GoogleChronicleEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleChronicleEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleChronicleEnvironment to import
-  * @param importFromId The id of the existing GoogleChronicleEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleChronicleEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleChronicleEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -303,7 +303,7 @@ export class GoogleChronicleEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_chronicle_environment google_chronicle_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_environment google_chronicle_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -314,7 +314,7 @@ export class GoogleChronicleEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'google_chronicle_environment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -61,6 +61,7 @@ export * as googleApigeeEnvgroupAttachment from './google-apigee-envgroup-attach
 export * as googleApigeeEnvironment from './google-apigee-environment/index';
 export * as googleApigeeEnvironmentAddonsConfig from './google-apigee-environment-addons-config/index';
 export * as googleApigeeEnvironmentApiRevisionDeployment from './google-apigee-environment-api-revision-deployment/index';
+export * as googleApigeeEnvironmentDebugmask from './google-apigee-environment-debugmask/index';
 export * as googleApigeeEnvironmentIamBinding from './google-apigee-environment-iam-binding/index';
 export * as googleApigeeEnvironmentIamMember from './google-apigee-environment-iam-member/index';
 export * as googleApigeeEnvironmentIamPolicy from './google-apigee-environment-iam-policy/index';
@@ -237,10 +238,12 @@ export * as googleChronicleEnvironment from './google-chronicle-environment/inde
 export * as googleChronicleFeed from './google-chronicle-feed/index';
 export * as googleChronicleFindingsRefinement from './google-chronicle-findings-refinement/index';
 export * as googleChronicleNativeDashboard from './google-chronicle-native-dashboard/index';
+export * as googleChronicleParser from './google-chronicle-parser/index';
 export * as googleChronicleReferenceList from './google-chronicle-reference-list/index';
 export * as googleChronicleRetrohunt from './google-chronicle-retrohunt/index';
 export * as googleChronicleRule from './google-chronicle-rule/index';
 export * as googleChronicleRuleDeployment from './google-chronicle-rule-deployment/index';
+export * as googleChronicleSoarNetwork from './google-chronicle-soar-network/index';
 export * as googleChronicleWatchlist from './google-chronicle-watchlist/index';
 export * as googleCloudAssetFolderFeed from './google-cloud-asset-folder-feed/index';
 export * as googleCloudAssetOrganizationFeed from './google-cloud-asset-organization-feed/index';
@@ -995,6 +998,7 @@ export * as googleMemorystoreInstanceDesiredUserCreatedEndpoints from './google-
 export * as googleMigrationCenterAssetsExportJob from './google-migration-center-assets-export-job/index';
 export * as googleMigrationCenterDiscoveryClient from './google-migration-center-discovery-client/index';
 export * as googleMigrationCenterGroup from './google-migration-center-group/index';
+export * as googleMigrationCenterImportDataFile from './google-migration-center-import-data-file/index';
 export * as googleMigrationCenterImportJob from './google-migration-center-import-job/index';
 export * as googleMigrationCenterPreferenceSet from './google-migration-center-preference-set/index';
 export * as googleMigrationCenterReport from './google-migration-center-report/index';
@@ -1385,6 +1389,7 @@ export * as googleVertexAiReasoningEngineIamBinding from './google-vertex-ai-rea
 export * as googleVertexAiReasoningEngineIamMember from './google-vertex-ai-reasoning-engine-iam-member/index';
 export * as googleVertexAiReasoningEngineIamPolicy from './google-vertex-ai-reasoning-engine-iam-policy/index';
 export * as googleVertexAiTensorboard from './google-vertex-ai-tensorboard/index';
+export * as googleVertexAiTensorboardExperiment from './google-vertex-ai-tensorboard-experiment/index';
 export * as googleVmwareengineCluster from './google-vmwareengine-cluster/index';
 export * as googleVmwareengineDatastore from './google-vmwareengine-datastore/index';
 export * as googleVmwareengineExternalAccessRule from './google-vmwareengine-external-access-rule/index';
@@ -1578,6 +1583,8 @@ export * as dataGoogleComputeRegionNetworkEndpointGroup from './data-google-comp
 export * as dataGoogleComputeRegionSecurityPolicy from './data-google-compute-region-security-policy/index';
 export * as dataGoogleComputeRegionSslCertificate from './data-google-compute-region-ssl-certificate/index';
 export * as dataGoogleComputeRegionSslPolicy from './data-google-compute-region-ssl-policy/index';
+export * as dataGoogleComputeRegionTargetHttpProxy from './data-google-compute-region-target-http-proxy/index';
+export * as dataGoogleComputeRegionTargetHttpsProxy from './data-google-compute-region-target-https-proxy/index';
 export * as dataGoogleComputeRegions from './data-google-compute-regions/index';
 export * as dataGoogleComputeReservation from './data-google-compute-reservation/index';
 export * as dataGoogleComputeReservationBlock from './data-google-compute-reservation-block/index';
@@ -1599,6 +1606,8 @@ export * as dataGoogleComputeStoragePoolTypes from './data-google-compute-storag
 export * as dataGoogleComputeSubnetwork from './data-google-compute-subnetwork/index';
 export * as dataGoogleComputeSubnetworkIamPolicy from './data-google-compute-subnetwork-iam-policy/index';
 export * as dataGoogleComputeSubnetworks from './data-google-compute-subnetworks/index';
+export * as dataGoogleComputeTargetHttpProxy from './data-google-compute-target-http-proxy/index';
+export * as dataGoogleComputeTargetHttpsProxy from './data-google-compute-target-https-proxy/index';
 export * as dataGoogleComputeVpnGateway from './data-google-compute-vpn-gateway/index';
 export * as dataGoogleComputeZones from './data-google-compute-zones/index';
 export * as dataGoogleContainerAnalysisNoteIamPolicy from './data-google-container-analysis-note-iam-policy/index';
@@ -1753,6 +1762,7 @@ export * as dataGoogleOracleDatabaseDbServers from './data-google-oracle-databas
 export * as dataGoogleOracleDatabaseGoldengateConnectionTypes from './data-google-oracle-database-goldengate-connection-types/index';
 export * as dataGoogleOracleDatabaseGoldengateDeploymentEnvironments from './data-google-oracle-database-goldengate-deployment-environments/index';
 export * as dataGoogleOracleDatabaseGoldengateDeploymentTypes from './data-google-oracle-database-goldengate-deployment-types/index';
+export * as dataGoogleOracleDatabaseGoldengateDeploymentVersions from './data-google-oracle-database-goldengate-deployment-versions/index';
 export * as dataGoogleOracleDatabaseOdbNetwork from './data-google-oracle-database-odb-network/index';
 export * as dataGoogleOracleDatabaseOdbSubnet from './data-google-oracle-database-odb-subnet/index';
 export * as dataGoogleOrganization from './data-google-organization/index';
@@ -1839,6 +1849,8 @@ export * as dataGoogleStorageBuckets from './data-google-storage-buckets/index';
 export * as dataGoogleStorageControlFolderIntelligenceConfig from './data-google-storage-control-folder-intelligence-config/index';
 export * as dataGoogleStorageControlOrganizationIntelligenceConfig from './data-google-storage-control-organization-intelligence-config/index';
 export * as dataGoogleStorageControlProjectIntelligenceConfig from './data-google-storage-control-project-intelligence-config/index';
+export * as dataGoogleStorageControlProjectIntelligenceFinding from './data-google-storage-control-project-intelligence-finding/index';
+export * as dataGoogleStorageControlProjectIntelligenceFindings from './data-google-storage-control-project-intelligence-findings/index';
 export * as dataGoogleStorageInsightsDatasetConfig from './data-google-storage-insights-dataset-config/index';
 export * as dataGoogleStorageManagedFolderIamPolicy from './data-google-storage-managed-folder-iam-policy/index';
 export * as dataGoogleStorageObjectSignedUrl from './data-google-storage-object-signed-url/index';

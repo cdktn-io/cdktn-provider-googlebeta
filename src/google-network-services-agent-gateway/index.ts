@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleNetworkServicesAgentGatewayConfig extends cdktn.Terraform
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#deletion_policy GoogleNetworkServicesAgentGateway#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#deletion_policy GoogleNetworkServicesAgentGateway#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A free-text description of the resource. Max length 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#description GoogleNetworkServicesAgentGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#description GoogleNetworkServicesAgentGateway#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#id GoogleNetworkServicesAgentGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#id GoogleNetworkServicesAgentGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,61 +44,61 @@ export interface GoogleNetworkServicesAgentGatewayConfig extends cdktn.Terraform
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#labels GoogleNetworkServicesAgentGateway#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#labels GoogleNetworkServicesAgentGateway#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location of the agent gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#location GoogleNetworkServicesAgentGateway#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#location GoogleNetworkServicesAgentGateway#location}
   */
   readonly location: string;
   /**
   * Name of the AgentGateway resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#name GoogleNetworkServicesAgentGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#name GoogleNetworkServicesAgentGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#project GoogleNetworkServicesAgentGateway#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#project GoogleNetworkServicesAgentGateway#project}
   */
   readonly project?: string;
   /**
   * List of protocols supported by an Agent Gateway. Possible values: ["MCP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#protocols GoogleNetworkServicesAgentGateway#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#protocols GoogleNetworkServicesAgentGateway#protocols}
   */
-  readonly protocols: string[];
+  readonly protocols?: string[];
   /**
   * A list of Agent registries containing the agents, MCP servers and tools governed by the Agent Gateway.
   * Note: Currently limited to project-scoped registries Must be of format
   * '//agentregistry.googleapis.com/{version}/projects/{{project}}/locations/{{location}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#registries GoogleNetworkServicesAgentGateway#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#registries GoogleNetworkServicesAgentGateway#registries}
   */
   readonly registries?: string[];
   /**
   * google_managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#google_managed GoogleNetworkServicesAgentGateway#google_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#google_managed GoogleNetworkServicesAgentGateway#google_managed}
   */
   readonly googleManaged?: GoogleNetworkServicesAgentGatewayGoogleManaged;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#network_config GoogleNetworkServicesAgentGateway#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#network_config GoogleNetworkServicesAgentGateway#network_config}
   */
   readonly networkConfig?: GoogleNetworkServicesAgentGatewayNetworkConfig;
   /**
   * self_managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#self_managed GoogleNetworkServicesAgentGateway#self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#self_managed GoogleNetworkServicesAgentGateway#self_managed}
   */
   readonly selfManaged?: GoogleNetworkServicesAgentGatewaySelfManaged;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#timeouts GoogleNetworkServicesAgentGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#timeouts GoogleNetworkServicesAgentGateway#timeouts}
   */
   readonly timeouts?: GoogleNetworkServicesAgentGatewayTimeouts;
 }
@@ -191,7 +191,7 @@ export interface GoogleNetworkServicesAgentGatewayGoogleManaged {
   /**
   * Operating Mode of Agent Gateway. Possible values: ["AGENT_TO_ANYWHERE", "CLIENT_TO_AGENT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#governed_access_path GoogleNetworkServicesAgentGateway#governed_access_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#governed_access_path GoogleNetworkServicesAgentGateway#governed_access_path}
   */
   readonly governedAccessPath: string;
 }
@@ -274,7 +274,7 @@ export interface GoogleNetworkServicesAgentGatewayNetworkConfigEgress {
   /**
   * The URI of the Network Attachment resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#network_attachment GoogleNetworkServicesAgentGateway#network_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#network_attachment GoogleNetworkServicesAgentGateway#network_attachment}
   */
   readonly networkAttachment: string;
 }
@@ -357,7 +357,7 @@ export interface GoogleNetworkServicesAgentGatewayNetworkConfig {
   /**
   * egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#egress GoogleNetworkServicesAgentGateway#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#egress GoogleNetworkServicesAgentGateway#egress}
   */
   readonly egress: GoogleNetworkServicesAgentGatewayNetworkConfigEgress;
 }
@@ -440,7 +440,7 @@ export interface GoogleNetworkServicesAgentGatewaySelfManaged {
   /**
   * A supported Google Cloud networking proxy in the Project and Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#resource_uri GoogleNetworkServicesAgentGateway#resource_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#resource_uri GoogleNetworkServicesAgentGateway#resource_uri}
   */
   readonly resourceUri: string;
 }
@@ -521,15 +521,15 @@ export class GoogleNetworkServicesAgentGatewaySelfManagedOutputReference extends
 }
 export interface GoogleNetworkServicesAgentGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#create GoogleNetworkServicesAgentGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#create GoogleNetworkServicesAgentGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#delete GoogleNetworkServicesAgentGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#delete GoogleNetworkServicesAgentGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#update GoogleNetworkServicesAgentGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#update GoogleNetworkServicesAgentGateway#update}
   */
   readonly update?: string;
 }
@@ -681,7 +681,7 @@ export class GoogleNetworkServicesAgentGatewayTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway}
 */
 export class GoogleNetworkServicesAgentGateway extends cdktn.TerraformResource {
 
@@ -697,7 +697,7 @@ export class GoogleNetworkServicesAgentGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleNetworkServicesAgentGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkServicesAgentGateway to import
-  * @param importFromId The id of the existing GoogleNetworkServicesAgentGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkServicesAgentGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkServicesAgentGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -709,7 +709,7 @@ export class GoogleNetworkServicesAgentGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -720,7 +720,7 @@ export class GoogleNetworkServicesAgentGateway extends cdktn.TerraformResource {
       terraformResourceType: 'google_network_services_agent_gateway',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -878,13 +878,16 @@ export class GoogleNetworkServicesAgentGateway extends cdktn.TerraformResource {
     return this._project;
   }
 
-  // protocols - computed: false, optional: false, required: true
+  // protocols - computed: false, optional: true, required: false
   private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
   public set protocols(value: string[]) {
     this._protocols = value;
+  }
+  public resetProtocols() {
+    this._protocols = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get protocolsInput() {

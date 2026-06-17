@@ -4,9 +4,238 @@
  */
 
 import * as cdktn from 'cdktn';
-import { DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigList,
-DataGoogleContainerClusterNodePoolAutoConfigNetworkTagsList,
-DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfigList } from './structs400';
+import { DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingList } from './structs400';
+export interface DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig {
+}
+
+export function dataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigToTerraform(struct?: DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigToHclTerraform(struct?: DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cgroup_mode - computed: true, optional: false, required: false
+  public get cgroupMode() {
+    return this.getStringAttribute('cgroup_mode');
+  }
+
+  // node_kernel_module_loading - computed: true, optional: false, required: false
+  private _nodeKernelModuleLoading = new DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingList(this, "node_kernel_module_loading", false);
+  public get nodeKernelModuleLoading() {
+    return this._nodeKernelModuleLoading;
+  }
+}
+
+export class DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference {
+    return new DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataGoogleContainerClusterNodePoolAutoConfigNetworkTags {
+}
+
+export function dataGoogleContainerClusterNodePoolAutoConfigNetworkTagsToTerraform(struct?: DataGoogleContainerClusterNodePoolAutoConfigNetworkTags): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataGoogleContainerClusterNodePoolAutoConfigNetworkTagsToHclTerraform(struct?: DataGoogleContainerClusterNodePoolAutoConfigNetworkTags): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataGoogleContainerClusterNodePoolAutoConfigNetworkTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataGoogleContainerClusterNodePoolAutoConfigNetworkTags | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataGoogleContainerClusterNodePoolAutoConfigNetworkTags | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // tags - computed: true, optional: false, required: false
+  public get tags() {
+    return this.getListAttribute('tags');
+  }
+}
+
+export class DataGoogleContainerClusterNodePoolAutoConfigNetworkTagsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataGoogleContainerClusterNodePoolAutoConfigNetworkTagsOutputReference {
+    return new DataGoogleContainerClusterNodePoolAutoConfigNetworkTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfig {
+}
+
+export function dataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfigToTerraform(struct?: DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfigToHclTerraform(struct?: DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // insecure_kubelet_readonly_port_enabled - computed: true, optional: false, required: false
+  public get insecureKubeletReadonlyPortEnabled() {
+    return this.getStringAttribute('insecure_kubelet_readonly_port_enabled');
+  }
+}
+
+export class DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfigList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfigOutputReference {
+    return new DataGoogleContainerClusterNodePoolAutoConfigNodeKubeletConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataGoogleContainerClusterNodePoolAutoConfig {
 }
 

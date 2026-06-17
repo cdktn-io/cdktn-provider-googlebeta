@@ -4,7 +4,7 @@
 
 ### GoogleClouddeployTargetIamBinding <a name="GoogleClouddeployTargetIamBinding" id="@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleClouddeployTargetIam
 
 The id of the existing GoogleClouddeployTargetIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,9 +904,9 @@ const googleClouddeployTargetIamBindingCondition: googleClouddeployTargetIamBind
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#expression GoogleClouddeployTargetIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#title GoogleClouddeployTargetIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#description GoogleClouddeployTargetIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#expression GoogleClouddeployTargetIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#title GoogleClouddeployTargetIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#description GoogleClouddeployTargetIamBinding#description}. |
 
 ---
 
@@ -918,7 +918,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#expression GoogleClouddeployTargetIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#expression GoogleClouddeployTargetIamBinding#expression}.
 
 ---
 
@@ -930,7 +930,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#title GoogleClouddeployTargetIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#title GoogleClouddeployTargetIamBinding#title}.
 
 ---
 
@@ -942,7 +942,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#description GoogleClouddeployTargetIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#description GoogleClouddeployTargetIamBinding#description}.
 
 ---
 
@@ -967,13 +967,13 @@ const googleClouddeployTargetIamBindingConfig: googleClouddeployTargetIamBinding
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#members GoogleClouddeployTargetIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#name GoogleClouddeployTargetIamBinding#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#role GoogleClouddeployTargetIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#members GoogleClouddeployTargetIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#name GoogleClouddeployTargetIamBinding#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#role GoogleClouddeployTargetIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingCondition">GoogleClouddeployTargetIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#id GoogleClouddeployTargetIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#location GoogleClouddeployTargetIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#project GoogleClouddeployTargetIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#id GoogleClouddeployTargetIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#location GoogleClouddeployTargetIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTargetIamBinding.GoogleClouddeployTargetIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#project GoogleClouddeployTargetIamBinding#project}. |
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly members: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#members GoogleClouddeployTargetIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#members GoogleClouddeployTargetIamBinding#members}.
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#name GoogleClouddeployTargetIamBinding#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#name GoogleClouddeployTargetIamBinding#name}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#role GoogleClouddeployTargetIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#role GoogleClouddeployTargetIamBinding#role}.
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly condition: GoogleClouddeployTargetIamBindingCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#condition GoogleClouddeployTargetIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#condition GoogleClouddeployTargetIamBinding#condition}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#id GoogleClouddeployTargetIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#id GoogleClouddeployTargetIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1120,7 +1120,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#location GoogleClouddeployTargetIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#location GoogleClouddeployTargetIamBinding#location}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target_iam_binding#project GoogleClouddeployTargetIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_clouddeploy_target_iam_binding#project GoogleClouddeployTargetIamBinding#project}.
 
 ---
 

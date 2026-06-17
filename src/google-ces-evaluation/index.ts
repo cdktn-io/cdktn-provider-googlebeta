@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,7 +13,7 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleCesEvaluationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}
   */
   readonly app: string;
   /**
@@ -25,19 +25,19 @@ export interface GoogleCesEvaluationConfig extends cdktn.TerraformMetaArguments 
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#deletion_policy GoogleCesEvaluation#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#deletion_policy GoogleCesEvaluation#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * User-defined description of the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
   */
   readonly description?: string;
   /**
   * User-defined display name of the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
   */
   readonly displayName: string;
   /**
@@ -45,46 +45,46 @@ export interface GoogleCesEvaluationConfig extends cdktn.TerraformMetaArguments 
   * the evaluation's resource name. If not provided, a unique ID will be
   * automatically assigned for the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
   */
   readonly evaluationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}
   */
   readonly project?: string;
   /**
   * User defined tags to categorize the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
   */
   readonly tags?: string[];
   /**
   * golden block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
   */
   readonly golden?: GoogleCesEvaluationGolden;
   /**
   * scenario block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#scenario GoogleCesEvaluation#scenario}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#scenario GoogleCesEvaluation#scenario}
   */
   readonly scenario?: GoogleCesEvaluationScenario;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
   */
   readonly timeouts?: GoogleCesEvaluationTimeouts;
 }
@@ -192,7 +192,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsAgentTransfer {
   /**
   * The resource name of the target agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
   */
   readonly targetAgent: string;
 }
@@ -280,7 +280,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The agent to which the conversation is being transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
   */
   readonly targetAgent: string;
 }
@@ -368,13 +368,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * Raw bytes of the blob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -483,13 +483,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * Raw bytes of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -598,13 +598,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -716,13 +716,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
   */
   readonly args?: { [key: string]: string };
   /**
   * The unique identifier of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -731,13 +731,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetTool;
 }
@@ -915,13 +915,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -1033,7 +1033,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1042,19 +1042,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetTool;
 }
@@ -1232,43 +1232,43 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * Text data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
   */
   readonly text?: string;
   /**
   * Updated variables in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
   */
   readonly updatedVariables?: { [key: string]: string };
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransfer;
   /**
   * blob block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
   */
   readonly blob?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlob;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
   */
   readonly image?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImage;
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
   */
   readonly toolCall?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCall;
   /**
   * tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
   */
   readonly toolResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponse;
 }
@@ -1560,13 +1560,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse {
   /**
   * The role within the conversation, e.g., user, agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
   */
   readonly role?: string;
   /**
   * chunks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
   */
   readonly chunks?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunks[] | cdktn.IResolvable;
 }
@@ -1681,13 +1681,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer {
   /**
   * The display name of the target agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
   */
   readonly displayName?: string;
   /**
   * The resource name of the target agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
   */
   readonly targetAgent?: string;
 }
@@ -1802,13 +1802,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseT
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -1920,7 +1920,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse 
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1929,19 +1929,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse 
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetTool;
 }
@@ -2119,13 +2119,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTo
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -2237,13 +2237,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall {
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
   */
   readonly args?: { [key: string]: string };
   /**
   * The unique identifier of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2252,13 +2252,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall {
   /**
   * The resource name of the tool. Note: 'tool' and 'toolset_tool' are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTool;
 }
@@ -2436,13 +2436,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseTools
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -2554,7 +2554,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse {
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2563,19 +2563,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse {
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetTool;
 }
@@ -2753,7 +2753,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables 
   /**
   * Dummy property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
   */
   readonly notes?: string;
 }
@@ -2839,43 +2839,43 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectation {
   /**
   * A note describing the expectation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
   */
   readonly note?: string;
   /**
   * agent_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
   */
   readonly agentResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse;
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer;
   /**
   * mock_tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
   */
   readonly mockToolResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse;
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
   */
   readonly toolCall?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall;
   /**
   * tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
   */
   readonly toolResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse;
   /**
   * updated_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
   */
   readonly updatedVariables?: GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables;
 }
@@ -3135,13 +3135,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputBlob {
   /**
   * Raw bytes of the blob, base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -3250,7 +3250,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputEvent {
   /**
   * Event name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
   */
   readonly event: string;
 }
@@ -3333,13 +3333,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputImage {
   /**
   * Raw bytes of the image, base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -3448,13 +3448,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRe
   /**
   * The tool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The toolset name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -3566,7 +3566,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRe
   /**
   * Optional. Matching ID of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3575,19 +3575,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRe
   /**
   * Required. The tool execution result in JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response: { [key: string]: string };
   /**
   * Name of the tool to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool;
 }
@@ -3794,7 +3794,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses {
   /**
   * tool_responses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
   */
   readonly toolResponses?: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponses[] | cdktn.IResolvable;
 }
@@ -3880,55 +3880,55 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInput {
   /**
   * Audio data from the end user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
   */
   readonly audio?: string;
   /**
   * DTMF digits from the end user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
   */
   readonly dtmf?: string;
   /**
   * Natural language query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
   */
   readonly text?: string;
   /**
   * Map of variables to set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * Whether the session should continue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
   */
   readonly willContinue?: boolean | cdktn.IResolvable;
   /**
   * blob block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
   */
   readonly blob?: GoogleCesEvaluationGoldenTurnsStepsUserInputBlob;
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
   */
   readonly event?: GoogleCesEvaluationGoldenTurnsStepsUserInputEvent;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
   */
   readonly image?: GoogleCesEvaluationGoldenTurnsStepsUserInputImage;
   /**
   * tool_responses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
   */
   readonly toolResponses?: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses;
 }
@@ -4246,19 +4246,19 @@ export interface GoogleCesEvaluationGoldenTurnsSteps {
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesEvaluationGoldenTurnsStepsAgentTransfer;
   /**
   * expectation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#expectation GoogleCesEvaluation#expectation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#expectation GoogleCesEvaluation#expectation}
   */
   readonly expectation?: GoogleCesEvaluationGoldenTurnsStepsExpectation;
   /**
   * user_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#user_input GoogleCesEvaluation#user_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#user_input GoogleCesEvaluation#user_input}
   */
   readonly userInput?: GoogleCesEvaluationGoldenTurnsStepsUserInput;
 }
@@ -4434,7 +4434,7 @@ export interface GoogleCesEvaluationGoldenTurns {
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#steps GoogleCesEvaluation#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#steps GoogleCesEvaluation#steps}
   */
   readonly steps: GoogleCesEvaluationGoldenTurnsSteps[] | cdktn.IResolvable;
 }
@@ -4555,13 +4555,13 @@ export interface GoogleCesEvaluationGolden {
   /**
   * The evaluation expectations to evaluate the replayed conversation against. Format: projects/{project}/locations/{location}/apps/{app}/evaluationExpectations/{evaluationExpectation}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
   */
   readonly evaluationExpectations?: string[];
   /**
   * turns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
   */
   readonly turns: GoogleCesEvaluationGoldenTurns[] | cdktn.IResolvable;
 }
@@ -4673,7 +4673,7 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * The agent to which the conversation is being transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
   */
   readonly targetAgent: string;
 }
@@ -4761,13 +4761,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * Raw bytes of the blob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -4876,13 +4876,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * Raw bytes of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -4991,13 +4991,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -5109,13 +5109,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
   */
   readonly args?: { [key: string]: string };
   /**
   * The unique identifier of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5124,13 +5124,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool;
 }
@@ -5308,13 +5308,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -5426,7 +5426,7 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5435,19 +5435,19 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool;
 }
@@ -5625,43 +5625,43 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChu
   /**
   * Text data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
   */
   readonly text?: string;
   /**
   * Updated variables in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
   */
   readonly updatedVariables?: { [key: string]: string };
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer;
   /**
   * blob block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
   */
   readonly blob?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
   */
   readonly image?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage;
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
   */
   readonly toolCall?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall;
   /**
   * tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
   */
   readonly toolResponse?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse;
 }
@@ -5953,13 +5953,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse {
   /**
   * The role within the conversation, e.g., user, agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
   */
   readonly role?: string;
   /**
   * chunks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
   */
   readonly chunks?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks[] | cdktn.IResolvable;
 }
@@ -6074,13 +6074,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationE
   /**
   * The tool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * Required. The toolset name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset?: string;
 }
@@ -6195,13 +6195,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationE
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
   */
   readonly args?: { [key: string]: string };
   /**
   * Optional. The unique identifier of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6210,13 +6210,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationE
   /**
   * Name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool;
 }
@@ -6394,13 +6394,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationM
   /**
   * The tool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * Required. The toolset name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset?: string;
 }
@@ -6515,7 +6515,7 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationM
   /**
   * Optional. Matching ID of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6524,19 +6524,19 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationM
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * Name of the tool to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool;
 }
@@ -6714,13 +6714,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation 
   /**
   * expected_tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#expected_tool_call GoogleCesEvaluation#expected_tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#expected_tool_call GoogleCesEvaluation#expected_tool_call}
   */
   readonly expectedToolCall?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall;
   /**
   * mock_tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
   */
   readonly mockToolResponse?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse;
 }
@@ -6835,13 +6835,13 @@ export interface GoogleCesEvaluationScenarioScenarioExpectations {
   /**
   * agent_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
   */
   readonly agentResponse?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse;
   /**
   * tool_expectation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#tool_expectation GoogleCesEvaluation#tool_expectation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#tool_expectation GoogleCesEvaluation#tool_expectation}
   */
   readonly toolExpectation?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation;
 }
@@ -6988,13 +6988,13 @@ export interface GoogleCesEvaluationScenarioUserFacts {
   /**
   * The name of the user fact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#name GoogleCesEvaluation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#name GoogleCesEvaluation#name}
   */
   readonly name: string;
   /**
   * The value of the user fact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#value GoogleCesEvaluation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#value GoogleCesEvaluation#value}
   */
   readonly value: string;
 }
@@ -7135,55 +7135,55 @@ export interface GoogleCesEvaluationScenario {
   /**
   * Evaluation expectations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
   */
   readonly evaluationExpectations?: string[];
   /**
   * Max turns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#max_turns GoogleCesEvaluation#max_turns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#max_turns GoogleCesEvaluation#max_turns}
   */
   readonly maxTurns?: number;
   /**
   * Rubrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#rubrics GoogleCesEvaluation#rubrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#rubrics GoogleCesEvaluation#rubrics}
   */
   readonly rubrics: string[];
   /**
   * The task to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#task GoogleCesEvaluation#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#task GoogleCesEvaluation#task}
   */
   readonly task: string;
   /**
   * Task completion behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#task_completion_behavior GoogleCesEvaluation#task_completion_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#task_completion_behavior GoogleCesEvaluation#task_completion_behavior}
   */
   readonly taskCompletionBehavior?: string;
   /**
   * User goal behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#user_goal_behavior GoogleCesEvaluation#user_goal_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#user_goal_behavior GoogleCesEvaluation#user_goal_behavior}
   */
   readonly userGoalBehavior?: string;
   /**
   * Variables / Session Parameters as context for the session, keyed by variable names. Members of this struct will override any default values set by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#variable_overrides GoogleCesEvaluation#variable_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#variable_overrides GoogleCesEvaluation#variable_overrides}
   */
   readonly variableOverrides?: { [key: string]: string };
   /**
   * scenario_expectations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#scenario_expectations GoogleCesEvaluation#scenario_expectations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#scenario_expectations GoogleCesEvaluation#scenario_expectations}
   */
   readonly scenarioExpectations: GoogleCesEvaluationScenarioScenarioExpectations[] | cdktn.IResolvable;
   /**
   * user_facts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#user_facts GoogleCesEvaluation#user_facts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#user_facts GoogleCesEvaluation#user_facts}
   */
   readonly userFacts?: GoogleCesEvaluationScenarioUserFacts[] | cdktn.IResolvable;
 }
@@ -7490,15 +7490,15 @@ export class GoogleCesEvaluationScenarioOutputReference extends cdktn.ComplexObj
 }
 export interface GoogleCesEvaluationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}
   */
   readonly update?: string;
 }
@@ -7650,7 +7650,7 @@ export class GoogleCesEvaluationTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation google_ces_evaluation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation google_ces_evaluation}
 */
 export class GoogleCesEvaluation extends cdktn.TerraformResource {
 
@@ -7666,7 +7666,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesEvaluation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesEvaluation to import
-  * @param importFromId The id of the existing GoogleCesEvaluation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesEvaluation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesEvaluation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -7678,7 +7678,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7689,7 +7689,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_evaluation',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

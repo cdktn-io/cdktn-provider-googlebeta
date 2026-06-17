@@ -4,7 +4,7 @@
 
 ### GoogleDataCatalogTaxonomyIamBinding <a name="GoogleDataCatalogTaxonomyIamBinding" id="@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding google_data_catalog_taxonomy_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding google_data_catalog_taxonomy_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer"></a>
 
@@ -40,13 +40,13 @@ GoogleDataCatalogTaxonomyIamBinding.Builder.create(Construct scope, java.lang.St
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.members">members</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.taxonomy">taxonomy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.members">members</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.taxonomy">taxonomy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition">GoogleDataCatalogTaxonomyIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBinding.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#condition GoogleDataCatalogTaxonomyIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#condition GoogleDataCatalogTaxonomyIamBinding#condition}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +159,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}.
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}.
 
 ---
 
@@ -657,7 +657,7 @@ The construct id used in the generated config for the GoogleDataCatalogTaxonomyI
 
 The id of the existing GoogleDataCatalogTaxonomyIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1035,9 +1035,9 @@ GoogleDataCatalogTaxonomyIamBindingCondition.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#expression GoogleDataCatalogTaxonomyIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#title GoogleDataCatalogTaxonomyIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#description GoogleDataCatalogTaxonomyIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#expression GoogleDataCatalogTaxonomyIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#title GoogleDataCatalogTaxonomyIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#description GoogleDataCatalogTaxonomyIamBinding#description}. |
 
 ---
 
@@ -1049,7 +1049,7 @@ public java.lang.String getExpression();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#expression GoogleDataCatalogTaxonomyIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#expression GoogleDataCatalogTaxonomyIamBinding#expression}.
 
 ---
 
@@ -1061,7 +1061,7 @@ public java.lang.String getTitle();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#title GoogleDataCatalogTaxonomyIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#title GoogleDataCatalogTaxonomyIamBinding#title}.
 
 ---
 
@@ -1073,7 +1073,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#description GoogleDataCatalogTaxonomyIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#description GoogleDataCatalogTaxonomyIamBinding#description}.
 
 ---
 
@@ -1113,13 +1113,13 @@ GoogleDataCatalogTaxonomyIamBindingConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.members">members</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.taxonomy">taxonomy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.members">members</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.taxonomy">taxonomy</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingCondition">GoogleDataCatalogTaxonomyIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTaxonomyIamBinding.GoogleDataCatalogTaxonomyIamBindingConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}. |
 
 ---
 
@@ -1201,7 +1201,7 @@ public java.util.List<java.lang.String> getMembers();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#members GoogleDataCatalogTaxonomyIamBinding#members}.
 
 ---
 
@@ -1213,7 +1213,7 @@ public java.lang.String getRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#role GoogleDataCatalogTaxonomyIamBinding#role}.
 
 ---
 
@@ -1225,7 +1225,7 @@ public java.lang.String getTaxonomy();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#taxonomy GoogleDataCatalogTaxonomyIamBinding#taxonomy}.
 
 ---
 
@@ -1239,7 +1239,7 @@ public GoogleDataCatalogTaxonomyIamBindingCondition getCondition();
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#condition GoogleDataCatalogTaxonomyIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#condition GoogleDataCatalogTaxonomyIamBinding#condition}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#id GoogleDataCatalogTaxonomyIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1266,7 +1266,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#project GoogleDataCatalogTaxonomyIamBinding#project}.
 
 ---
 
@@ -1278,7 +1278,7 @@ public java.lang.String getRegion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_taxonomy_iam_binding#region GoogleDataCatalogTaxonomyIamBinding#region}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleDataplexDataProductIamBinding <a name="GoogleDataplexDataProductIamBinding" id="@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer"></a>
 
@@ -42,13 +42,13 @@ googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding(
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.dataProductId">data_product_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.dataProductId">data_product_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition">GoogleDataplexDataProductIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}. |
 
 ---
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#condition GoogleDataplexDataProductIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#condition GoogleDataplexDataProductIamBinding#condition}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -161,7 +161,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}.
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}.
 
 ---
 
@@ -571,7 +571,7 @@ def put_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#expression GoogleDataplexDataProductIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#expression GoogleDataplexDataProductIamBinding#expression}.
 
 ---
 
@@ -579,7 +579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#title GoogleDataplexDataProductIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#title GoogleDataplexDataProductIamBinding#title}.
 
 ---
 
@@ -587,7 +587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#description GoogleDataplexDataProductIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#description GoogleDataplexDataProductIamBinding#description}.
 
 ---
 
@@ -729,7 +729,7 @@ The construct id used in the generated config for the GoogleDataplexDataProductI
 
 The id of the existing GoogleDataplexDataProductIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,9 +1107,9 @@ googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#expression GoogleDataplexDataProductIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#title GoogleDataplexDataProductIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#description GoogleDataplexDataProductIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#expression GoogleDataplexDataProductIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#title GoogleDataplexDataProductIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#description GoogleDataplexDataProductIamBinding#description}. |
 
 ---
 
@@ -1121,7 +1121,7 @@ expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#expression GoogleDataplexDataProductIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#expression GoogleDataplexDataProductIamBinding#expression}.
 
 ---
 
@@ -1133,7 +1133,7 @@ title: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#title GoogleDataplexDataProductIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#title GoogleDataplexDataProductIamBinding#title}.
 
 ---
 
@@ -1145,7 +1145,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#description GoogleDataplexDataProductIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#description GoogleDataplexDataProductIamBinding#description}.
 
 ---
 
@@ -1185,13 +1185,13 @@ googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.dataProductId">data_product_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.dataProductId">data_product_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingCondition">GoogleDataplexDataProductIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexDataProductIamBinding.GoogleDataplexDataProductIamBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}. |
 
 ---
 
@@ -1273,7 +1273,7 @@ data_product_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#data_product_id GoogleDataplexDataProductIamBinding#data_product_id}.
 
 ---
 
@@ -1285,7 +1285,7 @@ members: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#members GoogleDataplexDataProductIamBinding#members}.
 
 ---
 
@@ -1297,7 +1297,7 @@ role: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#role GoogleDataplexDataProductIamBinding#role}.
 
 ---
 
@@ -1311,7 +1311,7 @@ condition: GoogleDataplexDataProductIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#condition GoogleDataplexDataProductIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#condition GoogleDataplexDataProductIamBinding#condition}
 
 ---
 
@@ -1323,7 +1323,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#id GoogleDataplexDataProductIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1338,7 +1338,7 @@ location: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#location GoogleDataplexDataProductIamBinding#location}.
 
 ---
 
@@ -1350,7 +1350,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_data_product_iam_binding#project GoogleDataplexDataProductIamBinding#project}.
 
 ---
 

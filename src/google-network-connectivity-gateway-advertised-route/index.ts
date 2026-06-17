@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleNetworkConnectivityGatewayAdvertisedRouteConfig extends c
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#deletion_policy GoogleNetworkConnectivityGatewayAdvertisedRoute#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#deletion_policy GoogleNetworkConnectivityGatewayAdvertisedRoute#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of the gateway advertised route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#description GoogleNetworkConnectivityGatewayAdvertisedRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#description GoogleNetworkConnectivityGatewayAdvertisedRoute#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#id GoogleNetworkConnectivityGatewayAdvertisedRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#id GoogleNetworkConnectivityGatewayAdvertisedRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface GoogleNetworkConnectivityGatewayAdvertisedRouteConfig extends c
   * This route's advertised IP address range. Must be a valid CIDR-formatted prefix.
   * If an IP address is provided without a subnet mask, it is interpreted as, for IPv4, a /32 singular IP address range, and, for IPv6, /128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#ip_range GoogleNetworkConnectivityGatewayAdvertisedRoute#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#ip_range GoogleNetworkConnectivityGatewayAdvertisedRoute#ip_range}
   */
   readonly ipRange?: string;
   /**
@@ -50,62 +50,62 @@ export interface GoogleNetworkConnectivityGatewayAdvertisedRouteConfig extends c
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#labels GoogleNetworkConnectivityGatewayAdvertisedRoute#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#labels GoogleNetworkConnectivityGatewayAdvertisedRoute#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#location GoogleNetworkConnectivityGatewayAdvertisedRoute#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#location GoogleNetworkConnectivityGatewayAdvertisedRoute#location}
   */
   readonly location: string;
   /**
   * The name of the gateway advertised route. Route names must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#name GoogleNetworkConnectivityGatewayAdvertisedRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#name GoogleNetworkConnectivityGatewayAdvertisedRoute#name}
   */
   readonly name: string;
   /**
   * The priority of this advertised route. You can choose a value from 0 to 65335.
   * If you don't provide a value, Google Cloud assigns a priority of 100 to the ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#priority GoogleNetworkConnectivityGatewayAdvertisedRoute#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#priority GoogleNetworkConnectivityGatewayAdvertisedRoute#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#project GoogleNetworkConnectivityGatewayAdvertisedRoute#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#project GoogleNetworkConnectivityGatewayAdvertisedRoute#project}
   */
   readonly project?: string;
   /**
   * the recipient of this advertised route Possible values: ["RECIPIENT_UNSPECIFIED", "ADVERTISE_TO_HUB"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#recipient GoogleNetworkConnectivityGatewayAdvertisedRoute#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#recipient GoogleNetworkConnectivityGatewayAdvertisedRoute#recipient}
   */
   readonly recipient?: string;
   /**
   * The name of the spoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#spoke GoogleNetworkConnectivityGatewayAdvertisedRoute#spoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#spoke GoogleNetworkConnectivityGatewayAdvertisedRoute#spoke}
   */
   readonly spoke: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#timeouts GoogleNetworkConnectivityGatewayAdvertisedRoute#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#timeouts GoogleNetworkConnectivityGatewayAdvertisedRoute#timeouts}
   */
   readonly timeouts?: GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts;
 }
 export interface GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#create GoogleNetworkConnectivityGatewayAdvertisedRoute#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#create GoogleNetworkConnectivityGatewayAdvertisedRoute#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#delete GoogleNetworkConnectivityGatewayAdvertisedRoute#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#delete GoogleNetworkConnectivityGatewayAdvertisedRoute#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#update GoogleNetworkConnectivityGatewayAdvertisedRoute#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#update GoogleNetworkConnectivityGatewayAdvertisedRoute#update}
   */
   readonly update?: string;
 }
@@ -257,7 +257,7 @@ export class GoogleNetworkConnectivityGatewayAdvertisedRouteTimeoutsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}
 */
 export class GoogleNetworkConnectivityGatewayAdvertisedRoute extends cdktn.TerraformResource {
 
@@ -273,7 +273,7 @@ export class GoogleNetworkConnectivityGatewayAdvertisedRoute extends cdktn.Terra
   * Generates CDKTN code for importing a GoogleNetworkConnectivityGatewayAdvertisedRoute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkConnectivityGatewayAdvertisedRoute to import
-  * @param importFromId The id of the existing GoogleNetworkConnectivityGatewayAdvertisedRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkConnectivityGatewayAdvertisedRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkConnectivityGatewayAdvertisedRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -285,7 +285,7 @@ export class GoogleNetworkConnectivityGatewayAdvertisedRoute extends cdktn.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,7 +296,7 @@ export class GoogleNetworkConnectivityGatewayAdvertisedRoute extends cdktn.Terra
       terraformResourceType: 'google_network_connectivity_gateway_advertised_route',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

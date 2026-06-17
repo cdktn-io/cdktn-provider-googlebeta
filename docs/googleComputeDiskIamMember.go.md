@@ -4,7 +4,7 @@
 
 ### GoogleComputeDiskIamMember <a name="GoogleComputeDiskIamMember" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeDiskIamMember
 
 The id of the existing GoogleComputeDiskIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#expression GoogleComputeDiskIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#title GoogleComputeDiskIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#description GoogleComputeDiskIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#expression GoogleComputeDiskIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#title GoogleComputeDiskIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#description GoogleComputeDiskIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#expression GoogleComputeDiskIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#expression GoogleComputeDiskIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#title GoogleComputeDiskIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#title GoogleComputeDiskIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#description GoogleComputeDiskIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#description GoogleComputeDiskIamMember#description}.
 
 ---
 
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#member GoogleComputeDiskIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#name GoogleComputeDiskIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#role GoogleComputeDiskIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#member GoogleComputeDiskIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#name GoogleComputeDiskIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#role GoogleComputeDiskIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberCondition">GoogleComputeDiskIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#id GoogleComputeDiskIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#project GoogleComputeDiskIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.zone">Zone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#zone GoogleComputeDiskIamMember#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#id GoogleComputeDiskIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#project GoogleComputeDiskIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMemberConfig.property.zone">Zone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#zone GoogleComputeDiskIamMember#zone}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ Member *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#member GoogleComputeDiskIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#member GoogleComputeDiskIamMember#member}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#name GoogleComputeDiskIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#name GoogleComputeDiskIamMember#name}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#role GoogleComputeDiskIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#role GoogleComputeDiskIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleComputeDiskIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#condition GoogleComputeDiskIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#condition GoogleComputeDiskIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#id GoogleComputeDiskIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#id GoogleComputeDiskIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#project GoogleComputeDiskIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#project GoogleComputeDiskIamMember#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Zone *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_disk_iam_member#zone GoogleComputeDiskIamMember#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_disk_iam_member#zone GoogleComputeDiskIamMember#zone}.
 
 ---
 

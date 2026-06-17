@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,25 +21,25 @@ export interface GoogleMonitoringGroupConfig extends cdktn.TerraformMetaArgument
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#deletion_policy GoogleMonitoringGroup#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#deletion_policy GoogleMonitoringGroup#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A user-assigned name for this group, used only for display
   * purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#display_name GoogleMonitoringGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#display_name GoogleMonitoringGroup#display_name}
   */
   readonly displayName: string;
   /**
   * The filter used to determine which monitored resources
   * belong to this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#filter GoogleMonitoringGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#filter GoogleMonitoringGroup#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#id GoogleMonitoringGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#id GoogleMonitoringGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ export interface GoogleMonitoringGroupConfig extends cdktn.TerraformMetaArgument
   * cluster. The system can perform additional analysis on
   * groups that are clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#is_cluster GoogleMonitoringGroup#is_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#is_cluster GoogleMonitoringGroup#is_cluster}
   */
   readonly isCluster?: boolean | cdktn.IResolvable;
   /**
@@ -58,31 +58,31 @@ export interface GoogleMonitoringGroupConfig extends cdktn.TerraformMetaArgument
   * "projects/{project_id_or_number}/groups/{group_id}". For
   * groups with no parent, parentName is the empty string, "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#parent_name GoogleMonitoringGroup#parent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#parent_name GoogleMonitoringGroup#parent_name}
   */
   readonly parentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#project GoogleMonitoringGroup#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#project GoogleMonitoringGroup#project}
   */
   readonly project?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#timeouts GoogleMonitoringGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#timeouts GoogleMonitoringGroup#timeouts}
   */
   readonly timeouts?: GoogleMonitoringGroupTimeouts;
 }
 export interface GoogleMonitoringGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#create GoogleMonitoringGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#create GoogleMonitoringGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#delete GoogleMonitoringGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#delete GoogleMonitoringGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#update GoogleMonitoringGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#update GoogleMonitoringGroup#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class GoogleMonitoringGroupTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group google_monitoring_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group google_monitoring_group}
 */
 export class GoogleMonitoringGroup extends cdktn.TerraformResource {
 
@@ -250,7 +250,7 @@ export class GoogleMonitoringGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleMonitoringGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMonitoringGroup to import
-  * @param importFromId The id of the existing GoogleMonitoringGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleMonitoringGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMonitoringGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -262,7 +262,7 @@ export class GoogleMonitoringGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_group google_monitoring_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_group google_monitoring_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,7 +273,7 @@ export class GoogleMonitoringGroup extends cdktn.TerraformResource {
       terraformResourceType: 'google_monitoring_group',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### GoogleCloudbuildTrigger <a name="GoogleCloudbuildTrigger" id="@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer"></a>
 
@@ -73,13 +73,13 @@ googleCloudbuildTrigger.GoogleCloudbuildTrigger(
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.filter">filter</a></code> | <code>str</code> | A Common Expression Language string. Used only with Pub/Sub and Webhook. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.gitFileSource">git_file_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerGitFileSource">GoogleCloudbuildTriggerGitFileSource</a></code> | git_file_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.github">github</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerGithub">GoogleCloudbuildTriggerGithub</a></code> | github block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.ignoredFiles">ignored_files</a></code> | <code>typing.List[str]</code> | ignoredFiles and includedFiles are file glob matches using https://golang.org/pkg/path/filepath/#Match extended with support for '**'. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.includeBuildLogs">include_build_logs</a></code> | <code>str</code> | Build logs will be sent back to GitHub as part of the checkrun result. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.includedFiles">included_files</a></code> | <code>typing.List[str]</code> | ignoredFiles and includedFiles are file glob matches using https://golang.org/pkg/path/filepath/#Match extended with support for '**'. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.location">location</a></code> | <code>str</code> | The [Cloud Build location](https://cloud.google.com/build/docs/locations) for the trigger. If not specified, "global" is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.name">name</a></code> | <code>str</code> | Name of the trigger. Must be unique within the project. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.pubsubConfig">pubsub_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerPubsubConfig">GoogleCloudbuildTriggerPubsubConfig</a></code> | pubsub_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.repositoryEventConfig">repository_event_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerRepositoryEventConfig">GoogleCloudbuildTriggerRepositoryEventConfig</a></code> | repository_event_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTrigger.Initializer.parameter.serviceAccount">service_account</a></code> | <code>str</code> | The service account used for all user-controlled operations including triggers.patch, triggers.run, builds.create, and builds.cancel. |
@@ -158,7 +158,7 @@ Must be unique amongst siblings in the same scope
 
 approval_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#approval_config GoogleCloudbuildTrigger#approval_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#approval_config GoogleCloudbuildTrigger#approval_config}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 bitbucket_server_trigger_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_trigger_config GoogleCloudbuildTrigger#bitbucket_server_trigger_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_trigger_config GoogleCloudbuildTrigger#bitbucket_server_trigger_config}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 build block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#build GoogleCloudbuildTrigger#build}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#build GoogleCloudbuildTrigger#build}
 
 ---
 
@@ -195,7 +195,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#deletion_policy GoogleCloudbuildTrigger#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#deletion_policy GoogleCloudbuildTrigger#deletion_policy}
 
 ---
 
@@ -205,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Human-readable description of the trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#description GoogleCloudbuildTrigger#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#description GoogleCloudbuildTrigger#description}
 
 ---
 
@@ -215,7 +215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 developer_connect_event_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#developer_connect_event_config GoogleCloudbuildTrigger#developer_connect_event_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#developer_connect_event_config GoogleCloudbuildTrigger#developer_connect_event_config}
 
 ---
 
@@ -225,7 +225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the trigger is disabled or not. If true, the trigger will never result in a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#disabled GoogleCloudbuildTrigger#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#disabled GoogleCloudbuildTrigger#disabled}
 
 ---
 
@@ -238,7 +238,7 @@ Path, from the source root, to a file whose contents is used for the template.
 Either a filename or build template must be provided. Set this only when using trigger_template or github.
 When using Pub/Sub, Webhook or Manual set the file name using git_file_source instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#filename GoogleCloudbuildTrigger#filename}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#filename GoogleCloudbuildTrigger#filename}
 
 ---
 
@@ -248,7 +248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A Common Expression Language string. Used only with Pub/Sub and Webhook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#filter GoogleCloudbuildTrigger#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#filter GoogleCloudbuildTrigger#filter}
 
 ---
 
@@ -258,7 +258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 git_file_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#git_file_source GoogleCloudbuildTrigger#git_file_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#git_file_source GoogleCloudbuildTrigger#git_file_source}
 
 ---
 
@@ -268,7 +268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 github block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#github GoogleCloudbuildTrigger#github}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#github GoogleCloudbuildTrigger#github}
 
 ---
 
@@ -276,7 +276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -296,7 +296,7 @@ If ignoredFiles is not empty, then we ignore any files that match any
 of the ignored_file globs. If the change has no files that are outside
 of the ignoredFiles globs, then we do not trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#ignored_files GoogleCloudbuildTrigger#ignored_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#ignored_files GoogleCloudbuildTrigger#ignored_files}
 
 ---
 
@@ -309,7 +309,7 @@ Build logs will be sent back to GitHub as part of the checkrun result.
 Values can be INCLUDE_BUILD_LOGS_UNSPECIFIED or
 INCLUDE_BUILD_LOGS_WITH_STATUS Possible values: ["INCLUDE_BUILD_LOGS_UNSPECIFIED", "INCLUDE_BUILD_LOGS_WITH_STATUS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#include_build_logs GoogleCloudbuildTrigger#include_build_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#include_build_logs GoogleCloudbuildTrigger#include_build_logs}
 
 ---
 
@@ -328,7 +328,7 @@ and includedFiles is not empty, then we make sure that at least one of
 those files matches a includedFiles glob. If not, then we do not trigger
 a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#included_files GoogleCloudbuildTrigger#included_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#included_files GoogleCloudbuildTrigger#included_files}
 
 ---
 
@@ -338,7 +338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The [Cloud Build location](https://cloud.google.com/build/docs/locations) for the trigger. If not specified, "global" is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
 
 ---
 
@@ -348,7 +348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the trigger. Must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
 
 ---
 
@@ -356,7 +356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}.
 
 ---
 
@@ -366,7 +366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 pubsub_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pubsub_config GoogleCloudbuildTrigger#pubsub_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pubsub_config GoogleCloudbuildTrigger#pubsub_config}
 
 ---
 
@@ -376,7 +376,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 repository_event_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository_event_config GoogleCloudbuildTrigger#repository_event_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository_event_config GoogleCloudbuildTrigger#repository_event_config}
 
 ---
 
@@ -391,7 +391,7 @@ If no service account is set, then the standard Cloud Build service account
 
 Format: projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT_ID_OR_EMAIL}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#service_account GoogleCloudbuildTrigger#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#service_account GoogleCloudbuildTrigger#service_account}
 
 ---
 
@@ -401,7 +401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 source_to_build block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#source_to_build GoogleCloudbuildTrigger#source_to_build}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#source_to_build GoogleCloudbuildTrigger#source_to_build}
 
 ---
 
@@ -411,7 +411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Substitutions data for Build resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
 
 ---
 
@@ -421,7 +421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags for annotation of a BuildTrigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
 
 ---
 
@@ -431,7 +431,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#timeouts GoogleCloudbuildTrigger#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#timeouts GoogleCloudbuildTrigger#timeouts}
 
 ---
 
@@ -441,7 +441,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 trigger_template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#trigger_template GoogleCloudbuildTrigger#trigger_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#trigger_template GoogleCloudbuildTrigger#trigger_template}
 
 ---
 
@@ -451,7 +451,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 webhook_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#webhook_config GoogleCloudbuildTrigger#webhook_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#webhook_config GoogleCloudbuildTrigger#webhook_config}
 
 ---
 
@@ -890,7 +890,7 @@ Whether or not approval is needed.
 If this is set on a build, it will become pending when run,
 and will need to be explicitly approved to start.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#approval_required GoogleCloudbuildTrigger#approval_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#approval_required GoogleCloudbuildTrigger#approval_required}
 
 ---
 
@@ -912,7 +912,7 @@ def put_bitbucket_server_trigger_config(
 
 The Bitbucket server config resource that this trigger config maps to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config_resource GoogleCloudbuildTrigger#bitbucket_server_config_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config_resource GoogleCloudbuildTrigger#bitbucket_server_config_resource}
 
 ---
 
@@ -922,7 +922,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key of the project that the repo is in. For example: The key for https://mybitbucket.server/projects/TEST/repos/test-repo is "TEST".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project_key GoogleCloudbuildTrigger#project_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project_key GoogleCloudbuildTrigger#project_key}
 
 ---
 
@@ -935,7 +935,7 @@ Slug of the repository.
 A repository slug is a URL-friendly version of a repository name, automatically generated by Bitbucket for use in the URL.
 For example, if the repository name is 'test repo', in the URL it would become 'test-repo' as in https://mybitbucket.server/projects/TEST/repos/test-repo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_slug GoogleCloudbuildTrigger#repo_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_slug GoogleCloudbuildTrigger#repo_slug}
 
 ---
 
@@ -945,7 +945,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -984,7 +984,7 @@ def put_build_attribute(
 
 step block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#step GoogleCloudbuildTrigger#step}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#step GoogleCloudbuildTrigger#step}
 
 ---
 
@@ -994,7 +994,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 artifacts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#artifacts GoogleCloudbuildTrigger#artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#artifacts GoogleCloudbuildTrigger#artifacts}
 
 ---
 
@@ -1004,7 +1004,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 available_secrets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#available_secrets GoogleCloudbuildTrigger#available_secrets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#available_secrets GoogleCloudbuildTrigger#available_secrets}
 
 ---
 
@@ -1018,7 +1018,7 @@ The images are pushed using the builder service account's credentials.
 The digests of the pushed images will be stored in the Build resource's results field.
 If any of the images fail to be pushed, the build status is marked FAILURE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
 
 ---
 
@@ -1028,7 +1028,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Google Cloud Storage bucket where logs should be written. Logs file names will be of the format ${logsBucket}/log-${build_id}.txt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#logs_bucket GoogleCloudbuildTrigger#logs_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#logs_bucket GoogleCloudbuildTrigger#logs_bucket}
 
 ---
 
@@ -1038,7 +1038,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#options GoogleCloudbuildTrigger#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#options GoogleCloudbuildTrigger#options}
 
 ---
 
@@ -1053,7 +1053,7 @@ the build will expire and the build status will be EXPIRED.
 The TTL starts ticking from createTime.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#queue_ttl GoogleCloudbuildTrigger#queue_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#queue_ttl GoogleCloudbuildTrigger#queue_ttl}
 
 ---
 
@@ -1063,7 +1063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
 
 ---
 
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#source GoogleCloudbuildTrigger#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#source GoogleCloudbuildTrigger#source}
 
 ---
 
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Substitutions data for Build resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
 
 ---
 
@@ -1093,7 +1093,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags for annotation of a Build. These are not docker tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
 
 ---
 
@@ -1108,7 +1108,7 @@ This timeout must be equal to or greater than the sum of the timeouts for build 
 The expected format is the number of seconds followed by s.
 Default time is ten minutes (600s).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#timeout GoogleCloudbuildTrigger#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#timeout GoogleCloudbuildTrigger#timeout}
 
 ---
 
@@ -1128,7 +1128,7 @@ def put_developer_connect_event_config(
 
 The Developer Connect Git repository link, formatted as 'projects/* /locations/* /connections/* /gitRepositoryLink/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#git_repository_link GoogleCloudbuildTrigger#git_repository_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#git_repository_link GoogleCloudbuildTrigger#git_repository_link}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1140,7 +1140,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -1150,7 +1150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -1174,7 +1174,7 @@ def put_git_file_source(
 
 The path of the file, with the repo root as the root of the path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
 
 ---
 
@@ -1184,7 +1184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the repo, since it may not be explicit from the repo field (e.g from a URL). Values can be UNKNOWN, CLOUD_SOURCE_REPOSITORIES, GITHUB, BITBUCKET_SERVER Possible values: ["UNKNOWN", "CLOUD_SOURCE_REPOSITORIES", "GITHUB", "BITBUCKET_SERVER"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
 
 ---
 
@@ -1194,7 +1194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The full resource name of the bitbucket server config. Format: projects/{project}/locations/{location}/bitbucketServerConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
 
 ---
 
@@ -1204,7 +1204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The full resource name of the github enterprise config. Format: projects/{project}/locations/{location}/githubEnterpriseConfigs/{id}. projects/{project}/githubEnterpriseConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
 
 ---
 
@@ -1217,7 +1217,7 @@ The fully qualified resource name of the Repo API repository.
 The fully qualified resource name of the Repo API repository.
 If unspecified, the repo from which the trigger invocation originated is assumed to be the repo from which to read the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -1230,7 +1230,7 @@ The branch, tag, arbitrary ref, or SHA version of the repo to use when resolving
 This field respects the same syntax/resolution as described here: https://git-scm.com/docs/gitrevisions
 If unspecified, the revision from which the trigger invocation originated is assumed to be the revision from which to read the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#revision GoogleCloudbuildTrigger#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#revision GoogleCloudbuildTrigger#revision}
 
 ---
 
@@ -1243,7 +1243,7 @@ The URI of the repo (optional).
 If unspecified, the repo from which the trigger
 invocation originated is assumed to be the repo from which to read the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
 
 ---
 
@@ -1265,7 +1265,7 @@ def put_github(
 
 The resource name of the github enterprise config that should be applied to this installation. For example: "projects/{$projectId}/locations/{$locationId}/githubEnterpriseConfigs/{$configId}".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#enterprise_config_resource_name GoogleCloudbuildTrigger#enterprise_config_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#enterprise_config_resource_name GoogleCloudbuildTrigger#enterprise_config_resource_name}
 
 ---
 
@@ -1275,7 +1275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the repository. For example: The name for https://github.com/googlecloudplatform/cloud-builders is "cloud-builders".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
 
 ---
 
@@ -1285,7 +1285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Owner of the repository. For example: The owner for https://github.com/googlecloudplatform/cloud-builders is "googlecloudplatform".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#owner GoogleCloudbuildTrigger#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#owner GoogleCloudbuildTrigger#owner}
 
 ---
 
@@ -1295,7 +1295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -1305,7 +1305,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -1324,7 +1324,7 @@ def put_pubsub_config(
 
 The name of the topic from which this subscription is receiving messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#topic GoogleCloudbuildTrigger#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#topic GoogleCloudbuildTrigger#topic}
 
 ---
 
@@ -1334,7 +1334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Service account that will make the push request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#service_account_email GoogleCloudbuildTrigger#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#service_account_email GoogleCloudbuildTrigger#service_account_email}
 
 ---
 
@@ -1354,7 +1354,7 @@ def put_repository_event_config(
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -1364,7 +1364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -1374,7 +1374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the Repo API resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -1397,7 +1397,7 @@ def put_source_to_build(
 
 The branch or tag to use. Must start with "refs/" (required).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#ref GoogleCloudbuildTrigger#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#ref GoogleCloudbuildTrigger#ref}
 
 ---
 
@@ -1407,7 +1407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the repo, since it may not be explicit from the repo field (e.g from a URL). Values can be UNKNOWN, CLOUD_SOURCE_REPOSITORIES, GITHUB, BITBUCKET_SERVER Possible values: ["UNKNOWN", "CLOUD_SOURCE_REPOSITORIES", "GITHUB", "BITBUCKET_SERVER"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
 
 ---
 
@@ -1417,7 +1417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The full resource name of the bitbucket server config. Format: projects/{project}/locations/{location}/bitbucketServerConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
 
 ---
 
@@ -1427,7 +1427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The full resource name of the github enterprise config. Format: projects/{project}/locations/{location}/githubEnterpriseConfigs/{id}. projects/{project}/githubEnterpriseConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
 
 ---
 
@@ -1437,7 +1437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The qualified resource name of the Repo API repository. Either uri or repository can be specified and is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -1447,7 +1447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URI of the repo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
 
 ---
 
@@ -1465,7 +1465,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#create GoogleCloudbuildTrigger#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#create GoogleCloudbuildTrigger#create}.
 
 ---
 
@@ -1473,7 +1473,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#delete GoogleCloudbuildTrigger#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#delete GoogleCloudbuildTrigger#delete}.
 
 ---
 
@@ -1481,7 +1481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#update GoogleCloudbuildTrigger#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#update GoogleCloudbuildTrigger#update}.
 
 ---
 
@@ -1508,7 +1508,7 @@ Name of the branch to build.
 Exactly one a of branch name, tag, or commit SHA must be provided.
 This field is a regular expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
 
 ---
 
@@ -1518,7 +1518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Explicit commit SHA to build. Exactly one of a branch name, tag, or commit SHA must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
 
 ---
 
@@ -1532,7 +1532,7 @@ This must be a relative path. If a step's dir is specified and
 is an absolute path, this value is ignored for that step's
 execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
 
 ---
 
@@ -1542,7 +1542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Only trigger a build if the revision regex does NOT match the revision regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -1552,7 +1552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ID of the project that owns the Cloud Source Repository. If omitted, the project ID requesting the build is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
 
 ---
 
@@ -1562,7 +1562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the Cloud Source Repository. If omitted, the name "default" is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
 
 ---
 
@@ -1575,7 +1575,7 @@ Name of the tag to build.
 Exactly one of a branch name, tag, or commit SHA must be provided.
 This field is a regular expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
 
 ---
 
@@ -1593,7 +1593,7 @@ def put_webhook_config(
 
 Resource name for the secret required as a URL parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
 
 ---
 
@@ -1873,7 +1873,7 @@ The construct id used in the generated config for the GoogleCloudbuildTrigger to
 
 The id of the existing GoogleCloudbuildTrigger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2717,7 +2717,7 @@ Whether or not approval is needed.
 If this is set on a build, it will become pending when run,
 and will need to be explicitly approved to start.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#approval_required GoogleCloudbuildTrigger#approval_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#approval_required GoogleCloudbuildTrigger#approval_required}
 
 ---
 
@@ -2759,7 +2759,7 @@ bitbucket_server_config_resource: str
 
 The Bitbucket server config resource that this trigger config maps to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config_resource GoogleCloudbuildTrigger#bitbucket_server_config_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config_resource GoogleCloudbuildTrigger#bitbucket_server_config_resource}
 
 ---
 
@@ -2773,7 +2773,7 @@ project_key: str
 
 Key of the project that the repo is in. For example: The key for https://mybitbucket.server/projects/TEST/repos/test-repo is "TEST".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project_key GoogleCloudbuildTrigger#project_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project_key GoogleCloudbuildTrigger#project_key}
 
 ---
 
@@ -2790,7 +2790,7 @@ Slug of the repository.
 A repository slug is a URL-friendly version of a repository name, automatically generated by Bitbucket for use in the URL.
 For example, if the repository name is 'test repo', in the URL it would become 'test-repo' as in https://mybitbucket.server/projects/TEST/repos/test-repo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_slug GoogleCloudbuildTrigger#repo_slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_slug GoogleCloudbuildTrigger#repo_slug}
 
 ---
 
@@ -2804,7 +2804,7 @@ pull_request: GoogleCloudbuildTriggerBitbucketServerTriggerConfigPullRequest
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -2818,7 +2818,7 @@ push: GoogleCloudbuildTriggerBitbucketServerTriggerConfigPush
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -2858,7 +2858,7 @@ Regex of branches to match.
 
 The syntax of the regular expressions accepted is the syntax accepted by RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -2872,7 +2872,7 @@ comment_control: str
 
 Configure builds to run whether a repository owner or collaborator need to comment /gcbrun. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -2886,7 +2886,7 @@ invert_regex: bool | IResolvable
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -2924,7 +2924,7 @@ branch: str
 
 Regex of branches to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -2938,7 +2938,7 @@ invert_regex: bool | IResolvable
 
 When true, only trigger a build if the revision regex does NOT match the gitRef regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -2952,7 +2952,7 @@ tag: str
 
 Regex of tags to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 
@@ -3008,7 +3008,7 @@ step: IResolvable | typing.List[GoogleCloudbuildTriggerBuildStep]
 
 step block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#step GoogleCloudbuildTrigger#step}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#step GoogleCloudbuildTrigger#step}
 
 ---
 
@@ -3022,7 +3022,7 @@ artifacts: GoogleCloudbuildTriggerBuildArtifacts
 
 artifacts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#artifacts GoogleCloudbuildTrigger#artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#artifacts GoogleCloudbuildTrigger#artifacts}
 
 ---
 
@@ -3036,7 +3036,7 @@ available_secrets: GoogleCloudbuildTriggerBuildAvailableSecrets
 
 available_secrets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#available_secrets GoogleCloudbuildTrigger#available_secrets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#available_secrets GoogleCloudbuildTrigger#available_secrets}
 
 ---
 
@@ -3054,7 +3054,7 @@ The images are pushed using the builder service account's credentials.
 The digests of the pushed images will be stored in the Build resource's results field.
 If any of the images fail to be pushed, the build status is marked FAILURE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
 
 ---
 
@@ -3068,7 +3068,7 @@ logs_bucket: str
 
 Google Cloud Storage bucket where logs should be written. Logs file names will be of the format ${logsBucket}/log-${build_id}.txt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#logs_bucket GoogleCloudbuildTrigger#logs_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#logs_bucket GoogleCloudbuildTrigger#logs_bucket}
 
 ---
 
@@ -3082,7 +3082,7 @@ options: GoogleCloudbuildTriggerBuildOptions
 
 options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#options GoogleCloudbuildTrigger#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#options GoogleCloudbuildTrigger#options}
 
 ---
 
@@ -3101,7 +3101,7 @@ the build will expire and the build status will be EXPIRED.
 The TTL starts ticking from createTime.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#queue_ttl GoogleCloudbuildTrigger#queue_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#queue_ttl GoogleCloudbuildTrigger#queue_ttl}
 
 ---
 
@@ -3115,7 +3115,7 @@ secret: IResolvable | typing.List[GoogleCloudbuildTriggerBuildSecret]
 
 secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
 
 ---
 
@@ -3129,7 +3129,7 @@ source: GoogleCloudbuildTriggerBuildSource
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#source GoogleCloudbuildTrigger#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#source GoogleCloudbuildTrigger#source}
 
 ---
 
@@ -3143,7 +3143,7 @@ substitutions: typing.Mapping[str]
 
 Substitutions data for Build resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
 
 ---
 
@@ -3157,7 +3157,7 @@ tags: typing.List[str]
 
 Tags for annotation of a Build. These are not docker tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
 
 ---
 
@@ -3176,7 +3176,7 @@ This timeout must be equal to or greater than the sum of the timeouts for build 
 The expected format is the number of seconds followed by s.
 Default time is ten minutes (600s).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#timeout GoogleCloudbuildTrigger#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#timeout GoogleCloudbuildTrigger#timeout}
 
 ---
 
@@ -3224,7 +3224,7 @@ The digests of the pushed images will be stored in the Build resource's results 
 
 If any of the images fail to be pushed, the build is marked FAILURE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
 
 ---
 
@@ -3238,7 +3238,7 @@ maven_artifacts: IResolvable | typing.List[GoogleCloudbuildTriggerBuildArtifacts
 
 maven_artifacts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#maven_artifacts GoogleCloudbuildTrigger#maven_artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#maven_artifacts GoogleCloudbuildTrigger#maven_artifacts}
 
 ---
 
@@ -3252,7 +3252,7 @@ npm_packages: IResolvable | typing.List[GoogleCloudbuildTriggerBuildArtifactsNpm
 
 npm_packages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#npm_packages GoogleCloudbuildTrigger#npm_packages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#npm_packages GoogleCloudbuildTrigger#npm_packages}
 
 ---
 
@@ -3266,7 +3266,7 @@ objects: GoogleCloudbuildTriggerBuildArtifactsObjects
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#objects GoogleCloudbuildTrigger#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#objects GoogleCloudbuildTrigger#objects}
 
 ---
 
@@ -3280,7 +3280,7 @@ python_packages: IResolvable | typing.List[GoogleCloudbuildTriggerBuildArtifacts
 
 python_packages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#python_packages GoogleCloudbuildTrigger#python_packages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#python_packages GoogleCloudbuildTrigger#python_packages}
 
 ---
 
@@ -3322,7 +3322,7 @@ artifact_id: str
 
 Maven artifactId value used when uploading the artifact to Artifact Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#artifact_id GoogleCloudbuildTrigger#artifact_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#artifact_id GoogleCloudbuildTrigger#artifact_id}
 
 ---
 
@@ -3336,7 +3336,7 @@ group_id: str
 
 Maven groupId value used when uploading the artifact to Artifact Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#group_id GoogleCloudbuildTrigger#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#group_id GoogleCloudbuildTrigger#group_id}
 
 ---
 
@@ -3352,7 +3352,7 @@ Path to an artifact in the build's workspace to be uploaded to Artifact Registry
 
 This can be either an absolute path, e.g. /workspace/my-app/target/my-app-1.0.SNAPSHOT.jar or a relative path from /workspace, e.g. my-app/target/my-app-1.0.SNAPSHOT.jar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
 
 ---
 
@@ -3368,7 +3368,7 @@ Artifact Registry repository, in the form "https://$REGION-maven.pkg.dev/$PROJEC
 
 Artifact in the workspace specified by path will be uploaded to Artifact Registry with this location as a prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -3382,7 +3382,7 @@ version: str
 
 Maven version value used when uploading the artifact to Artifact Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#version GoogleCloudbuildTrigger#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#version GoogleCloudbuildTrigger#version}
 
 ---
 
@@ -3418,7 +3418,7 @@ package_path: str
 
 Path to the package.json. e.g. workspace/path/to/package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#package_path GoogleCloudbuildTrigger#package_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#package_path GoogleCloudbuildTrigger#package_path}
 
 ---
 
@@ -3434,7 +3434,7 @@ Artifact Registry repository, in the form "https://$REGION-npm.pkg.dev/$PROJECT/
 
 Npm package in the workspace specified by path will be zipped and uploaded to Artifact Registry with this location as a prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -3473,7 +3473,7 @@ Cloud Storage bucket and optional object path, in the form "gs://bucket/path/to/
 Files in the workspace matching any path pattern will be uploaded to Cloud Storage with
 this location as a prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
 
 ---
 
@@ -3487,7 +3487,7 @@ paths: typing.List[str]
 
 Path globs used to match files in the build's workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#paths GoogleCloudbuildTrigger#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#paths GoogleCloudbuildTrigger#paths}
 
 ---
 
@@ -3536,7 +3536,7 @@ Path globs used to match files in the build's workspace.
 
 For Python/ Twine, this is usually dist/*, and sometimes additionally an .asc file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#paths GoogleCloudbuildTrigger#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#paths GoogleCloudbuildTrigger#paths}
 
 ---
 
@@ -3552,7 +3552,7 @@ Artifact Registry repository, in the form "https://$REGION-python.pkg.dev/$PROJE
 
 Files in the workspace matching any path pattern will be uploaded to Artifact Registry with this location as a prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -3586,7 +3586,7 @@ secret_manager: IResolvable | typing.List[GoogleCloudbuildTriggerBuildAvailableS
 
 secret_manager block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret_manager GoogleCloudbuildTrigger#secret_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret_manager GoogleCloudbuildTrigger#secret_manager}
 
 ---
 
@@ -3626,7 +3626,7 @@ Secret environment
 variables must be unique across all of a build's secrets, and must be used
 by at least one build step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
 
 ---
 
@@ -3640,7 +3640,7 @@ version_name: str
 
 Resource name of the SecretVersion. In format: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#version_name GoogleCloudbuildTrigger#version_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#version_name GoogleCloudbuildTrigger#version_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3704,7 +3704,7 @@ Also note that this is the minimum disk size that will be allocated for the buil
 the build may run with a larger disk than requested. At present, the maximum disk size
 is 1000GB; builds that request more than the maximum are rejected with an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#disk_size_gb GoogleCloudbuildTrigger#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#disk_size_gb GoogleCloudbuildTrigger#disk_size_gb}
 
 ---
 
@@ -3720,7 +3720,7 @@ Option to specify whether or not to apply bash style string operations to the su
 
 NOTE this is always enabled for triggered builds and cannot be overridden in the build configuration file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#dynamic_substitutions GoogleCloudbuildTrigger#dynamic_substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#dynamic_substitutions GoogleCloudbuildTrigger#dynamic_substitutions}
 
 ---
 
@@ -3739,7 +3739,7 @@ the variable will use the build step value.
 
 The elements are of the form "KEY=VALUE" for the environment variable "KEY" being given the value "VALUE".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
 
 ---
 
@@ -3755,7 +3755,7 @@ Option to specify the logging mode, which determines if and where build logs are
 
 Possible values: ["LOGGING_UNSPECIFIED", "LEGACY", "GCS_ONLY", "STACKDRIVER_ONLY", "CLOUD_LOGGING_ONLY", "NONE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#logging GoogleCloudbuildTrigger#logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#logging GoogleCloudbuildTrigger#logging}
 
 ---
 
@@ -3769,7 +3769,7 @@ log_streaming_option: str
 
 Option to define build log streaming behavior to Google Cloud Storage. Possible values: ["STREAM_DEFAULT", "STREAM_ON", "STREAM_OFF"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#log_streaming_option GoogleCloudbuildTrigger#log_streaming_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#log_streaming_option GoogleCloudbuildTrigger#log_streaming_option}
 
 ---
 
@@ -3783,7 +3783,7 @@ machine_type: str
 
 Compute Engine machine type on which to run the build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#machine_type GoogleCloudbuildTrigger#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#machine_type GoogleCloudbuildTrigger#machine_type}
 
 ---
 
@@ -3797,7 +3797,7 @@ requested_verify_option: str
 
 Requested verifiability options. Possible values: ["NOT_VERIFIED", "VERIFIED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#requested_verify_option GoogleCloudbuildTrigger#requested_verify_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#requested_verify_option GoogleCloudbuildTrigger#requested_verify_option}
 
 ---
 
@@ -3814,7 +3814,7 @@ A list of global environment variables, which are encrypted using a Cloud Key Ma
 These values must be specified in the build's Secret. These variables
 will be available to all build steps in this build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
 
 ---
 
@@ -3828,7 +3828,7 @@ source_provenance_hash: typing.List[str]
 
 Requested hash for SourceProvenance. Possible values: ["NONE", "SHA256", "MD5"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#source_provenance_hash GoogleCloudbuildTrigger#source_provenance_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#source_provenance_hash GoogleCloudbuildTrigger#source_provenance_hash}
 
 ---
 
@@ -3845,7 +3845,7 @@ Option to specify behavior when there is an error in the substitution checks.
 NOTE this is always set to ALLOW_LOOSE for triggered builds and cannot be overridden
 in the build configuration file. Possible values: ["MUST_MATCH", "ALLOW_LOOSE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitution_option GoogleCloudbuildTrigger#substitution_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitution_option GoogleCloudbuildTrigger#substitution_option}
 
 ---
 
@@ -3859,7 +3859,7 @@ volumes: IResolvable | typing.List[GoogleCloudbuildTriggerBuildOptionsVolumes]
 
 volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#volumes GoogleCloudbuildTrigger#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#volumes GoogleCloudbuildTrigger#volumes}
 
 ---
 
@@ -3875,7 +3875,7 @@ Option to specify a WorkerPool for the build. Format projects/{project}/workerPo
 
 This field is experimental.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#worker_pool GoogleCloudbuildTrigger#worker_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#worker_pool GoogleCloudbuildTrigger#worker_pool}
 
 ---
 
@@ -3914,7 +3914,7 @@ Name of the volume to mount.
 Volume names must be unique per build step and must be valid names for Docker volumes.
 Each named volume must be used by at least two build steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
 
 ---
 
@@ -3931,7 +3931,7 @@ Path at which to mount the volume.
 Paths must be absolute and cannot conflict with other volume paths on the same
 build step or with certain reserved volume paths.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
 
 ---
 
@@ -3967,7 +3967,7 @@ kms_key_name: str
 
 Cloud KMS key name to use to decrypt these envs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#kms_key_name GoogleCloudbuildTrigger#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#kms_key_name GoogleCloudbuildTrigger#kms_key_name}
 
 ---
 
@@ -3985,7 +3985,7 @@ Secret environment variables must be unique across all of a build's secrets,
 and must be used by at least one build step. Values can be at most 64 KB in size.
 There can be at most 100 secret values across all of a build's secrets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
 
 ---
 
@@ -4021,7 +4021,7 @@ repo_source: GoogleCloudbuildTriggerBuildSourceRepoSource
 
 repo_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_source GoogleCloudbuildTrigger#repo_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_source GoogleCloudbuildTrigger#repo_source}
 
 ---
 
@@ -4035,7 +4035,7 @@ storage_source: GoogleCloudbuildTriggerBuildSourceStorageSource
 
 storage_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#storage_source GoogleCloudbuildTrigger#storage_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#storage_source GoogleCloudbuildTrigger#storage_source}
 
 ---
 
@@ -4083,7 +4083,7 @@ repo_name: str
 
 Name of the Cloud Source Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
 
 ---
 
@@ -4101,7 +4101,7 @@ Exactly one a of branch name, tag, or commit SHA must be provided.
 The syntax of the regular expressions accepted is the syntax accepted by RE2 and
 described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
 
 ---
 
@@ -4115,7 +4115,7 @@ commit_sha: str
 
 Explicit commit SHA to build. Exactly one a of branch name, tag, or commit SHA must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
 
 ---
 
@@ -4132,7 +4132,7 @@ Directory, relative to the source root, in which to run the build.
 This must be a relative path. If a step's dir is specified and is an absolute path,
 this value is ignored for that step's execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
 
 ---
 
@@ -4146,7 +4146,7 @@ invert_regex: bool | IResolvable
 
 Only trigger a build if the revision regex does NOT match the revision regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -4160,7 +4160,7 @@ project_id: str
 
 ID of the project that owns the Cloud Source Repository. If omitted, the project ID requesting the build is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
 
 ---
 
@@ -4174,7 +4174,7 @@ substitutions: typing.Mapping[str]
 
 Substitutions to use in a triggered build. Should only be used with triggers.run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
 
 ---
 
@@ -4192,7 +4192,7 @@ Exactly one a of branch name, tag, or commit SHA must be provided.
 The syntax of the regular expressions accepted is the syntax accepted by RE2 and
 described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
 
 ---
 
@@ -4230,7 +4230,7 @@ bucket: str
 
 Google Cloud Storage bucket containing the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bucket GoogleCloudbuildTrigger#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bucket GoogleCloudbuildTrigger#bucket}
 
 ---
 
@@ -4244,7 +4244,7 @@ object: str
 
 Google Cloud Storage object containing the source. This object must be a gzipped archive file (.tar.gz) containing source to build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#object GoogleCloudbuildTrigger#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#object GoogleCloudbuildTrigger#object}
 
 ---
 
@@ -4258,7 +4258,7 @@ generation: str
 
 Google Cloud Storage generation for the object. If the generation is omitted, the latest generation will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#generation GoogleCloudbuildTrigger#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#generation GoogleCloudbuildTrigger#generation}
 
 ---
 
@@ -4333,7 +4333,7 @@ If you built an image in a previous build step, it will be stored in the
 host's Docker daemon's cache and is available to use as the name for a
 later build step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
 
 ---
 
@@ -4349,7 +4349,7 @@ Allow this build step to fail without failing the entire build if and only if th
 
 If 'allowFailure' is also specified, this field will take precedence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#allow_exit_codes GoogleCloudbuildTrigger#allow_exit_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#allow_exit_codes GoogleCloudbuildTrigger#allow_exit_codes}
 
 ---
 
@@ -4369,7 +4369,7 @@ Error information will be reported in the 'failureDetail' field.
 
 'allowExitCodes' takes precedence over this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#allow_failure GoogleCloudbuildTrigger#allow_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#allow_failure GoogleCloudbuildTrigger#allow_failure}
 
 ---
 
@@ -4388,7 +4388,7 @@ are used as arguments to that entrypoint. If the image does not define an
 entrypoint, the first element in args is used as the entrypoint, and the
 remainder will be used as arguments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#args GoogleCloudbuildTrigger#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#args GoogleCloudbuildTrigger#args}
 
 ---
 
@@ -4412,7 +4412,7 @@ If the build specifies a 'RepoSource' with 'dir' and a step with a
 which specifies an absolute path, the 'RepoSource' 'dir' is ignored
 for the step's execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
 
 ---
 
@@ -4426,7 +4426,7 @@ entrypoint: str
 
 Entrypoint to be used instead of the build step image's default entrypoint. If unset, the image's default entrypoint is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#entrypoint GoogleCloudbuildTrigger#entrypoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#entrypoint GoogleCloudbuildTrigger#entrypoint}
 
 ---
 
@@ -4443,7 +4443,7 @@ A list of environment variable definitions to be used when running a step.
 The elements are of the form "KEY=VALUE" for the environment variable
 "KEY" being given the value "VALUE".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
 
 ---
 
@@ -4457,7 +4457,7 @@ id: str
 
 Unique identifier for this build step, used in 'wait_for' to reference this build step as a dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4476,7 +4476,7 @@ A shell script to be executed in the step.
 
 When script is provided, the user cannot specify the entrypoint or args.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#script GoogleCloudbuildTrigger#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#script GoogleCloudbuildTrigger#script}
 
 ---
 
@@ -4493,7 +4493,7 @@ A list of environment variables which are encrypted using a Cloud Key Management
 These values must be specified in
 the build's 'Secret'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
 
 ---
 
@@ -4512,7 +4512,7 @@ the step has no
 time limit and will be allowed to continue to run until either it
 completes or the build itself times out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#timeout GoogleCloudbuildTrigger#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#timeout GoogleCloudbuildTrigger#timeout}
 
 ---
 
@@ -4526,7 +4526,7 @@ timing: str
 
 Output only. Stores timing information for executing this build step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#timing GoogleCloudbuildTrigger#timing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#timing GoogleCloudbuildTrigger#timing}
 
 ---
 
@@ -4540,7 +4540,7 @@ volumes: IResolvable | typing.List[GoogleCloudbuildTriggerBuildStepVolumes]
 
 volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#volumes GoogleCloudbuildTrigger#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#volumes GoogleCloudbuildTrigger#volumes}
 
 ---
 
@@ -4559,7 +4559,7 @@ have completed successfully. If 'wait_for' is empty, this build step
 will start when all previous build steps in the 'Build.Steps' list
 have completed successfully.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#wait_for GoogleCloudbuildTrigger#wait_for}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#wait_for GoogleCloudbuildTrigger#wait_for}
 
 ---
 
@@ -4598,7 +4598,7 @@ Name of the volume to mount.
 Volume names must be unique per build step and must be valid names for
 Docker volumes. Each named volume must be used by at least two build steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
 
 ---
 
@@ -4615,7 +4615,7 @@ Path at which to mount the volume.
 Paths must be absolute and cannot conflict with other volume paths on
 the same build step or with certain reserved volume paths.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
 
 ---
 
@@ -4686,13 +4686,13 @@ googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.filter">filter</a></code> | <code>str</code> | A Common Expression Language string. Used only with Pub/Sub and Webhook. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.gitFileSource">git_file_source</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerGitFileSource">GoogleCloudbuildTriggerGitFileSource</a></code> | git_file_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.github">github</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerGithub">GoogleCloudbuildTriggerGithub</a></code> | github block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.ignoredFiles">ignored_files</a></code> | <code>typing.List[str]</code> | ignoredFiles and includedFiles are file glob matches using https://golang.org/pkg/path/filepath/#Match extended with support for '**'. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.includeBuildLogs">include_build_logs</a></code> | <code>str</code> | Build logs will be sent back to GitHub as part of the checkrun result. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.includedFiles">included_files</a></code> | <code>typing.List[str]</code> | ignoredFiles and includedFiles are file glob matches using https://golang.org/pkg/path/filepath/#Match extended with support for '**'. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.location">location</a></code> | <code>str</code> | The [Cloud Build location](https://cloud.google.com/build/docs/locations) for the trigger. If not specified, "global" is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.name">name</a></code> | <code>str</code> | Name of the trigger. Must be unique within the project. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.pubsubConfig">pubsub_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerPubsubConfig">GoogleCloudbuildTriggerPubsubConfig</a></code> | pubsub_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.repositoryEventConfig">repository_event_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerRepositoryEventConfig">GoogleCloudbuildTriggerRepositoryEventConfig</a></code> | repository_event_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerConfig.property.serviceAccount">service_account</a></code> | <code>str</code> | The service account used for all user-controlled operations including triggers.patch, triggers.run, builds.create, and builds.cancel. |
@@ -4785,7 +4785,7 @@ approval_config: GoogleCloudbuildTriggerApprovalConfig
 
 approval_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#approval_config GoogleCloudbuildTrigger#approval_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#approval_config GoogleCloudbuildTrigger#approval_config}
 
 ---
 
@@ -4799,7 +4799,7 @@ bitbucket_server_trigger_config: GoogleCloudbuildTriggerBitbucketServerTriggerCo
 
 bitbucket_server_trigger_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_trigger_config GoogleCloudbuildTrigger#bitbucket_server_trigger_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_trigger_config GoogleCloudbuildTrigger#bitbucket_server_trigger_config}
 
 ---
 
@@ -4813,7 +4813,7 @@ build_attribute: GoogleCloudbuildTriggerBuild
 
 build block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#build GoogleCloudbuildTrigger#build}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#build GoogleCloudbuildTrigger#build}
 
 ---
 
@@ -4834,7 +4834,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#deletion_policy GoogleCloudbuildTrigger#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#deletion_policy GoogleCloudbuildTrigger#deletion_policy}
 
 ---
 
@@ -4848,7 +4848,7 @@ description: str
 
 Human-readable description of the trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#description GoogleCloudbuildTrigger#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#description GoogleCloudbuildTrigger#description}
 
 ---
 
@@ -4862,7 +4862,7 @@ developer_connect_event_config: GoogleCloudbuildTriggerDeveloperConnectEventConf
 
 developer_connect_event_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#developer_connect_event_config GoogleCloudbuildTrigger#developer_connect_event_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#developer_connect_event_config GoogleCloudbuildTrigger#developer_connect_event_config}
 
 ---
 
@@ -4876,7 +4876,7 @@ disabled: bool | IResolvable
 
 Whether the trigger is disabled or not. If true, the trigger will never result in a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#disabled GoogleCloudbuildTrigger#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#disabled GoogleCloudbuildTrigger#disabled}
 
 ---
 
@@ -4893,7 +4893,7 @@ Path, from the source root, to a file whose contents is used for the template.
 Either a filename or build template must be provided. Set this only when using trigger_template or github.
 When using Pub/Sub, Webhook or Manual set the file name using git_file_source instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#filename GoogleCloudbuildTrigger#filename}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#filename GoogleCloudbuildTrigger#filename}
 
 ---
 
@@ -4907,7 +4907,7 @@ filter: str
 
 A Common Expression Language string. Used only with Pub/Sub and Webhook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#filter GoogleCloudbuildTrigger#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#filter GoogleCloudbuildTrigger#filter}
 
 ---
 
@@ -4921,7 +4921,7 @@ git_file_source: GoogleCloudbuildTriggerGitFileSource
 
 git_file_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#git_file_source GoogleCloudbuildTrigger#git_file_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#git_file_source GoogleCloudbuildTrigger#git_file_source}
 
 ---
 
@@ -4935,7 +4935,7 @@ github: GoogleCloudbuildTriggerGithub
 
 github block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#github GoogleCloudbuildTrigger#github}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#github GoogleCloudbuildTrigger#github}
 
 ---
 
@@ -4947,7 +4947,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#id GoogleCloudbuildTrigger#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4971,7 +4971,7 @@ If ignoredFiles is not empty, then we ignore any files that match any
 of the ignored_file globs. If the change has no files that are outside
 of the ignoredFiles globs, then we do not trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#ignored_files GoogleCloudbuildTrigger#ignored_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#ignored_files GoogleCloudbuildTrigger#ignored_files}
 
 ---
 
@@ -4988,7 +4988,7 @@ Build logs will be sent back to GitHub as part of the checkrun result.
 Values can be INCLUDE_BUILD_LOGS_UNSPECIFIED or
 INCLUDE_BUILD_LOGS_WITH_STATUS Possible values: ["INCLUDE_BUILD_LOGS_UNSPECIFIED", "INCLUDE_BUILD_LOGS_WITH_STATUS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#include_build_logs GoogleCloudbuildTrigger#include_build_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#include_build_logs GoogleCloudbuildTrigger#include_build_logs}
 
 ---
 
@@ -5011,7 +5011,7 @@ and includedFiles is not empty, then we make sure that at least one of
 those files matches a includedFiles glob. If not, then we do not trigger
 a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#included_files GoogleCloudbuildTrigger#included_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#included_files GoogleCloudbuildTrigger#included_files}
 
 ---
 
@@ -5025,7 +5025,7 @@ location: str
 
 The [Cloud Build location](https://cloud.google.com/build/docs/locations) for the trigger. If not specified, "global" is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
 
 ---
 
@@ -5039,7 +5039,7 @@ name: str
 
 Name of the trigger. Must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
 
 ---
 
@@ -5051,7 +5051,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project GoogleCloudbuildTrigger#project}.
 
 ---
 
@@ -5065,7 +5065,7 @@ pubsub_config: GoogleCloudbuildTriggerPubsubConfig
 
 pubsub_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pubsub_config GoogleCloudbuildTrigger#pubsub_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pubsub_config GoogleCloudbuildTrigger#pubsub_config}
 
 ---
 
@@ -5079,7 +5079,7 @@ repository_event_config: GoogleCloudbuildTriggerRepositoryEventConfig
 
 repository_event_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository_event_config GoogleCloudbuildTrigger#repository_event_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository_event_config GoogleCloudbuildTrigger#repository_event_config}
 
 ---
 
@@ -5098,7 +5098,7 @@ If no service account is set, then the standard Cloud Build service account
 
 Format: projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT_ID_OR_EMAIL}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#service_account GoogleCloudbuildTrigger#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#service_account GoogleCloudbuildTrigger#service_account}
 
 ---
 
@@ -5112,7 +5112,7 @@ source_to_build: GoogleCloudbuildTriggerSourceToBuild
 
 source_to_build block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#source_to_build GoogleCloudbuildTrigger#source_to_build}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#source_to_build GoogleCloudbuildTrigger#source_to_build}
 
 ---
 
@@ -5126,7 +5126,7 @@ substitutions: typing.Mapping[str]
 
 Substitutions data for Build resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
 
 ---
 
@@ -5140,7 +5140,7 @@ tags: typing.List[str]
 
 Tags for annotation of a BuildTrigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tags GoogleCloudbuildTrigger#tags}
 
 ---
 
@@ -5154,7 +5154,7 @@ timeouts: GoogleCloudbuildTriggerTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#timeouts GoogleCloudbuildTrigger#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#timeouts GoogleCloudbuildTrigger#timeouts}
 
 ---
 
@@ -5168,7 +5168,7 @@ trigger_template: GoogleCloudbuildTriggerTriggerTemplate
 
 trigger_template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#trigger_template GoogleCloudbuildTrigger#trigger_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#trigger_template GoogleCloudbuildTrigger#trigger_template}
 
 ---
 
@@ -5182,7 +5182,7 @@ webhook_config: GoogleCloudbuildTriggerWebhookConfig
 
 webhook_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#webhook_config GoogleCloudbuildTrigger#webhook_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#webhook_config GoogleCloudbuildTrigger#webhook_config}
 
 ---
 
@@ -5220,7 +5220,7 @@ git_repository_link: str
 
 The Developer Connect Git repository link, formatted as 'projects/* /locations/* /connections/* /gitRepositoryLink/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#git_repository_link GoogleCloudbuildTrigger#git_repository_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#git_repository_link GoogleCloudbuildTrigger#git_repository_link}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -5236,7 +5236,7 @@ pull_request: GoogleCloudbuildTriggerDeveloperConnectEventConfigPullRequest
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -5250,7 +5250,7 @@ push: GoogleCloudbuildTriggerDeveloperConnectEventConfigPush
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -5288,7 +5288,7 @@ branch: str
 
 Regex of branches to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -5302,7 +5302,7 @@ comment_control: str
 
 Configure builds to run whether a repository owner or collaborator need to comment '/gcbrun'. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -5316,7 +5316,7 @@ invert_regex: bool | IResolvable
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -5354,7 +5354,7 @@ branch: str
 
 Regex of branches to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -5368,7 +5368,7 @@ invert_regex: bool | IResolvable
 
 If true, only trigger a build if the revision regex does NOT match the git_ref regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -5382,7 +5382,7 @@ tag: str
 
 Regex of tags to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 
@@ -5428,7 +5428,7 @@ path: str
 
 The path of the file, with the repo root as the root of the path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#path GoogleCloudbuildTrigger#path}
 
 ---
 
@@ -5442,7 +5442,7 @@ repo_type: str
 
 The type of the repo, since it may not be explicit from the repo field (e.g from a URL). Values can be UNKNOWN, CLOUD_SOURCE_REPOSITORIES, GITHUB, BITBUCKET_SERVER Possible values: ["UNKNOWN", "CLOUD_SOURCE_REPOSITORIES", "GITHUB", "BITBUCKET_SERVER"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
 
 ---
 
@@ -5456,7 +5456,7 @@ bitbucket_server_config: str
 
 The full resource name of the bitbucket server config. Format: projects/{project}/locations/{location}/bitbucketServerConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
 
 ---
 
@@ -5470,7 +5470,7 @@ github_enterprise_config: str
 
 The full resource name of the github enterprise config. Format: projects/{project}/locations/{location}/githubEnterpriseConfigs/{id}. projects/{project}/githubEnterpriseConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
 
 ---
 
@@ -5487,7 +5487,7 @@ The fully qualified resource name of the Repo API repository.
 The fully qualified resource name of the Repo API repository.
 If unspecified, the repo from which the trigger invocation originated is assumed to be the repo from which to read the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -5504,7 +5504,7 @@ The branch, tag, arbitrary ref, or SHA version of the repo to use when resolving
 This field respects the same syntax/resolution as described here: https://git-scm.com/docs/gitrevisions
 If unspecified, the revision from which the trigger invocation originated is assumed to be the revision from which to read the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#revision GoogleCloudbuildTrigger#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#revision GoogleCloudbuildTrigger#revision}
 
 ---
 
@@ -5521,7 +5521,7 @@ The URI of the repo (optional).
 If unspecified, the repo from which the trigger
 invocation originated is assumed to be the repo from which to read the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
 
 ---
 
@@ -5563,7 +5563,7 @@ enterprise_config_resource_name: str
 
 The resource name of the github enterprise config that should be applied to this installation. For example: "projects/{$projectId}/locations/{$locationId}/githubEnterpriseConfigs/{$configId}".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#enterprise_config_resource_name GoogleCloudbuildTrigger#enterprise_config_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#enterprise_config_resource_name GoogleCloudbuildTrigger#enterprise_config_resource_name}
 
 ---
 
@@ -5577,7 +5577,7 @@ name: str
 
 Name of the repository. For example: The name for https://github.com/googlecloudplatform/cloud-builders is "cloud-builders".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#name GoogleCloudbuildTrigger#name}
 
 ---
 
@@ -5591,7 +5591,7 @@ owner: str
 
 Owner of the repository. For example: The owner for https://github.com/googlecloudplatform/cloud-builders is "googlecloudplatform".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#owner GoogleCloudbuildTrigger#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#owner GoogleCloudbuildTrigger#owner}
 
 ---
 
@@ -5605,7 +5605,7 @@ pull_request: GoogleCloudbuildTriggerGithubPullRequest
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -5619,7 +5619,7 @@ push: GoogleCloudbuildTriggerGithubPush
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -5657,7 +5657,7 @@ branch: str
 
 Regex of branches to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -5671,7 +5671,7 @@ comment_control: str
 
 Whether to block builds on a "/gcbrun" comment from a repository owner or collaborator. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -5685,7 +5685,7 @@ invert_regex: bool | IResolvable
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -5723,7 +5723,7 @@ branch: str
 
 Regex of branches to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -5737,7 +5737,7 @@ invert_regex: bool | IResolvable
 
 When true, only trigger a build if the revision regex does NOT match the git_ref regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -5751,7 +5751,7 @@ tag: str
 
 Regex of tags to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 
@@ -5787,7 +5787,7 @@ topic: str
 
 The name of the topic from which this subscription is receiving messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#topic GoogleCloudbuildTrigger#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#topic GoogleCloudbuildTrigger#topic}
 
 ---
 
@@ -5801,7 +5801,7 @@ service_account_email: str
 
 Service account that will make the push request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#service_account_email GoogleCloudbuildTrigger#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#service_account_email GoogleCloudbuildTrigger#service_account_email}
 
 ---
 
@@ -5839,7 +5839,7 @@ pull_request: GoogleCloudbuildTriggerRepositoryEventConfigPullRequest
 
 pull_request block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#pull_request GoogleCloudbuildTrigger#pull_request}
 
 ---
 
@@ -5853,7 +5853,7 @@ push: GoogleCloudbuildTriggerRepositoryEventConfigPush
 
 push block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#push GoogleCloudbuildTrigger#push}
 
 ---
 
@@ -5867,7 +5867,7 @@ repository: str
 
 The resource name of the Repo API resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -5908,7 +5908,7 @@ Regex of branches to match.
 The syntax of the regular expressions accepted is the syntax accepted by
 RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -5922,7 +5922,7 @@ comment_control: str
 
 Configure builds to run whether a repository owner or collaborator need to comment '/gcbrun'. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -5936,7 +5936,7 @@ invert_regex: bool | IResolvable
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -5977,7 +5977,7 @@ Regex of branches to match.
 The syntax of the regular expressions accepted is the syntax accepted by
 RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -5991,7 +5991,7 @@ invert_regex: bool | IResolvable
 
 If true, only trigger a build if the revision regex does NOT match the git_ref regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -6008,7 +6008,7 @@ Regex of tags to match.
 The syntax of the regular expressions accepted is the syntax accepted by
 RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 
@@ -6052,7 +6052,7 @@ ref: str
 
 The branch or tag to use. Must start with "refs/" (required).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#ref GoogleCloudbuildTrigger#ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#ref GoogleCloudbuildTrigger#ref}
 
 ---
 
@@ -6066,7 +6066,7 @@ repo_type: str
 
 The type of the repo, since it may not be explicit from the repo field (e.g from a URL). Values can be UNKNOWN, CLOUD_SOURCE_REPOSITORIES, GITHUB, BITBUCKET_SERVER Possible values: ["UNKNOWN", "CLOUD_SOURCE_REPOSITORIES", "GITHUB", "BITBUCKET_SERVER"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_type GoogleCloudbuildTrigger#repo_type}
 
 ---
 
@@ -6080,7 +6080,7 @@ bitbucket_server_config: str
 
 The full resource name of the bitbucket server config. Format: projects/{project}/locations/{location}/bitbucketServerConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bitbucket_server_config GoogleCloudbuildTrigger#bitbucket_server_config}
 
 ---
 
@@ -6094,7 +6094,7 @@ github_enterprise_config: str
 
 The full resource name of the github enterprise config. Format: projects/{project}/locations/{location}/githubEnterpriseConfigs/{id}. projects/{project}/githubEnterpriseConfigs/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#github_enterprise_config GoogleCloudbuildTrigger#github_enterprise_config}
 
 ---
 
@@ -6108,7 +6108,7 @@ repository: str
 
 The qualified resource name of the Repo API repository. Either uri or repository can be specified and is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repository GoogleCloudbuildTrigger#repository}
 
 ---
 
@@ -6122,7 +6122,7 @@ uri: str
 
 The URI of the repo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#uri GoogleCloudbuildTrigger#uri}
 
 ---
 
@@ -6144,9 +6144,9 @@ googleCloudbuildTrigger.GoogleCloudbuildTriggerTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#create GoogleCloudbuildTrigger#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#delete GoogleCloudbuildTrigger#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#update GoogleCloudbuildTrigger#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#create GoogleCloudbuildTrigger#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#delete GoogleCloudbuildTrigger#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildTrigger.GoogleCloudbuildTriggerTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#update GoogleCloudbuildTrigger#update}. |
 
 ---
 
@@ -6158,7 +6158,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#create GoogleCloudbuildTrigger#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#create GoogleCloudbuildTrigger#create}.
 
 ---
 
@@ -6170,7 +6170,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#delete GoogleCloudbuildTrigger#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#delete GoogleCloudbuildTrigger#delete}.
 
 ---
 
@@ -6182,7 +6182,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#update GoogleCloudbuildTrigger#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#update GoogleCloudbuildTrigger#update}.
 
 ---
 
@@ -6231,7 +6231,7 @@ Name of the branch to build.
 Exactly one a of branch name, tag, or commit SHA must be provided.
 This field is a regular expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
 
 ---
 
@@ -6245,7 +6245,7 @@ commit_sha: str
 
 Explicit commit SHA to build. Exactly one of a branch name, tag, or commit SHA must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
 
 ---
 
@@ -6263,7 +6263,7 @@ This must be a relative path. If a step's dir is specified and
 is an absolute path, this value is ignored for that step's
 execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
 
 ---
 
@@ -6277,7 +6277,7 @@ invert_regex: bool | IResolvable
 
 Only trigger a build if the revision regex does NOT match the revision regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -6291,7 +6291,7 @@ project_id: str
 
 ID of the project that owns the Cloud Source Repository. If omitted, the project ID requesting the build is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
 
 ---
 
@@ -6305,7 +6305,7 @@ repo_name: str
 
 Name of the Cloud Source Repository. If omitted, the name "default" is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
 
 ---
 
@@ -6322,7 +6322,7 @@ Name of the tag to build.
 Exactly one of a branch name, tag, or commit SHA must be provided.
 This field is a regular expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
 
 ---
 
@@ -6356,7 +6356,7 @@ secret: str
 
 Resource name for the secret required as a URL parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret GoogleCloudbuildTrigger#secret}
 
 ---
 
@@ -6915,7 +6915,7 @@ Regex of branches to match.
 
 The syntax of the regular expressions accepted is the syntax accepted by RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -6925,7 +6925,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configure builds to run whether a repository owner or collaborator need to comment /gcbrun. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -6935,7 +6935,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -6955,7 +6955,7 @@ def put_push(
 
 Regex of branches to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -6965,7 +6965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When true, only trigger a build if the revision regex does NOT match the gitRef regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -6975,7 +6975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Regex of tags to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 
@@ -10094,7 +10094,7 @@ Cloud Storage bucket and optional object path, in the form "gs://bucket/path/to/
 Files in the workspace matching any path pattern will be uploaded to Cloud Storage with
 this location as a prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#location GoogleCloudbuildTrigger#location}
 
 ---
 
@@ -10104,7 +10104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Path globs used to match files in the build's workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#paths GoogleCloudbuildTrigger#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#paths GoogleCloudbuildTrigger#paths}
 
 ---
 
@@ -13077,7 +13077,7 @@ The digests of the pushed images will be stored in the Build resource's results 
 
 If any of the images fail to be pushed, the build is marked FAILURE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#images GoogleCloudbuildTrigger#images}
 
 ---
 
@@ -13087,7 +13087,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 maven_artifacts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#maven_artifacts GoogleCloudbuildTrigger#maven_artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#maven_artifacts GoogleCloudbuildTrigger#maven_artifacts}
 
 ---
 
@@ -13097,7 +13097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 npm_packages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#npm_packages GoogleCloudbuildTrigger#npm_packages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#npm_packages GoogleCloudbuildTrigger#npm_packages}
 
 ---
 
@@ -13107,7 +13107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#objects GoogleCloudbuildTrigger#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#objects GoogleCloudbuildTrigger#objects}
 
 ---
 
@@ -13117,7 +13117,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 python_packages block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#python_packages GoogleCloudbuildTrigger#python_packages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#python_packages GoogleCloudbuildTrigger#python_packages}
 
 ---
 
@@ -13135,7 +13135,7 @@ def put_available_secrets(
 
 secret_manager block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret_manager GoogleCloudbuildTrigger#secret_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret_manager GoogleCloudbuildTrigger#secret_manager}
 
 ---
 
@@ -13170,7 +13170,7 @@ Also note that this is the minimum disk size that will be allocated for the buil
 the build may run with a larger disk than requested. At present, the maximum disk size
 is 1000GB; builds that request more than the maximum are rejected with an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#disk_size_gb GoogleCloudbuildTrigger#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#disk_size_gb GoogleCloudbuildTrigger#disk_size_gb}
 
 ---
 
@@ -13182,7 +13182,7 @@ Option to specify whether or not to apply bash style string operations to the su
 
 NOTE this is always enabled for triggered builds and cannot be overridden in the build configuration file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#dynamic_substitutions GoogleCloudbuildTrigger#dynamic_substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#dynamic_substitutions GoogleCloudbuildTrigger#dynamic_substitutions}
 
 ---
 
@@ -13197,7 +13197,7 @@ the variable will use the build step value.
 
 The elements are of the form "KEY=VALUE" for the environment variable "KEY" being given the value "VALUE".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#env GoogleCloudbuildTrigger#env}
 
 ---
 
@@ -13209,7 +13209,7 @@ Option to specify the logging mode, which determines if and where build logs are
 
 Possible values: ["LOGGING_UNSPECIFIED", "LEGACY", "GCS_ONLY", "STACKDRIVER_ONLY", "CLOUD_LOGGING_ONLY", "NONE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#logging GoogleCloudbuildTrigger#logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#logging GoogleCloudbuildTrigger#logging}
 
 ---
 
@@ -13219,7 +13219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Option to define build log streaming behavior to Google Cloud Storage. Possible values: ["STREAM_DEFAULT", "STREAM_ON", "STREAM_OFF"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#log_streaming_option GoogleCloudbuildTrigger#log_streaming_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#log_streaming_option GoogleCloudbuildTrigger#log_streaming_option}
 
 ---
 
@@ -13229,7 +13229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Compute Engine machine type on which to run the build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#machine_type GoogleCloudbuildTrigger#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#machine_type GoogleCloudbuildTrigger#machine_type}
 
 ---
 
@@ -13239,7 +13239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Requested verifiability options. Possible values: ["NOT_VERIFIED", "VERIFIED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#requested_verify_option GoogleCloudbuildTrigger#requested_verify_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#requested_verify_option GoogleCloudbuildTrigger#requested_verify_option}
 
 ---
 
@@ -13252,7 +13252,7 @@ A list of global environment variables, which are encrypted using a Cloud Key Ma
 These values must be specified in the build's Secret. These variables
 will be available to all build steps in this build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#secret_env GoogleCloudbuildTrigger#secret_env}
 
 ---
 
@@ -13262,7 +13262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Requested hash for SourceProvenance. Possible values: ["NONE", "SHA256", "MD5"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#source_provenance_hash GoogleCloudbuildTrigger#source_provenance_hash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#source_provenance_hash GoogleCloudbuildTrigger#source_provenance_hash}
 
 ---
 
@@ -13275,7 +13275,7 @@ Option to specify behavior when there is an error in the substitution checks.
 NOTE this is always set to ALLOW_LOOSE for triggered builds and cannot be overridden
 in the build configuration file. Possible values: ["MUST_MATCH", "ALLOW_LOOSE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitution_option GoogleCloudbuildTrigger#substitution_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitution_option GoogleCloudbuildTrigger#substitution_option}
 
 ---
 
@@ -13285,7 +13285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#volumes GoogleCloudbuildTrigger#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#volumes GoogleCloudbuildTrigger#volumes}
 
 ---
 
@@ -13297,7 +13297,7 @@ Option to specify a WorkerPool for the build. Format projects/{project}/workerPo
 
 This field is experimental.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#worker_pool GoogleCloudbuildTrigger#worker_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#worker_pool GoogleCloudbuildTrigger#worker_pool}
 
 ---
 
@@ -13330,7 +13330,7 @@ def put_source(
 
 repo_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_source GoogleCloudbuildTrigger#repo_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_source GoogleCloudbuildTrigger#repo_source}
 
 ---
 
@@ -13340,7 +13340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 storage_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#storage_source GoogleCloudbuildTrigger#storage_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#storage_source GoogleCloudbuildTrigger#storage_source}
 
 ---
 
@@ -14502,7 +14502,7 @@ def put_repo_source(
 
 Name of the Cloud Source Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#repo_name GoogleCloudbuildTrigger#repo_name}
 
 ---
 
@@ -14516,7 +14516,7 @@ Exactly one a of branch name, tag, or commit SHA must be provided.
 The syntax of the regular expressions accepted is the syntax accepted by RE2 and
 described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch_name GoogleCloudbuildTrigger#branch_name}
 
 ---
 
@@ -14526,7 +14526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Explicit commit SHA to build. Exactly one a of branch name, tag, or commit SHA must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#commit_sha GoogleCloudbuildTrigger#commit_sha}
 
 ---
 
@@ -14539,7 +14539,7 @@ Directory, relative to the source root, in which to run the build.
 This must be a relative path. If a step's dir is specified and is an absolute path,
 this value is ignored for that step's execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#dir GoogleCloudbuildTrigger#dir}
 
 ---
 
@@ -14549,7 +14549,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Only trigger a build if the revision regex does NOT match the revision regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -14559,7 +14559,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ID of the project that owns the Cloud Source Repository. If omitted, the project ID requesting the build is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#project_id GoogleCloudbuildTrigger#project_id}
 
 ---
 
@@ -14569,7 +14569,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Substitutions to use in a triggered build. Should only be used with triggers.run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#substitutions GoogleCloudbuildTrigger#substitutions}
 
 ---
 
@@ -14583,7 +14583,7 @@ Exactly one a of branch name, tag, or commit SHA must be provided.
 The syntax of the regular expressions accepted is the syntax accepted by RE2 and
 described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag_name GoogleCloudbuildTrigger#tag_name}
 
 ---
 
@@ -14603,7 +14603,7 @@ def put_storage_source(
 
 Google Cloud Storage bucket containing the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#bucket GoogleCloudbuildTrigger#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#bucket GoogleCloudbuildTrigger#bucket}
 
 ---
 
@@ -14613,7 +14613,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Google Cloud Storage object containing the source. This object must be a gzipped archive file (.tar.gz) containing source to build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#object GoogleCloudbuildTrigger#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#object GoogleCloudbuildTrigger#object}
 
 ---
 
@@ -14623,7 +14623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Google Cloud Storage generation for the object. If the generation is omitted, the latest generation will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#generation GoogleCloudbuildTrigger#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#generation GoogleCloudbuildTrigger#generation}
 
 ---
 
@@ -17209,7 +17209,7 @@ def put_pull_request(
 
 Regex of branches to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -17219,7 +17219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configure builds to run whether a repository owner or collaborator need to comment '/gcbrun'. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -17229,7 +17229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -17249,7 +17249,7 @@ def put_push(
 
 Regex of branches to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -17259,7 +17259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, only trigger a build if the revision regex does NOT match the git_ref regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -17269,7 +17269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Regex of tags to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 
@@ -18844,7 +18844,7 @@ def put_pull_request(
 
 Regex of branches to match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -18854,7 +18854,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to block builds on a "/gcbrun" comment from a repository owner or collaborator. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -18864,7 +18864,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -18884,7 +18884,7 @@ def put_push(
 
 Regex of branches to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -18894,7 +18894,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When true, only trigger a build if the revision regex does NOT match the git_ref regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -18904,7 +18904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Regex of tags to match.  Specify only one of branch or tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 
@@ -20408,7 +20408,7 @@ Regex of branches to match.
 The syntax of the regular expressions accepted is the syntax accepted by
 RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -20418,7 +20418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configure builds to run whether a repository owner or collaborator need to comment '/gcbrun'. Possible values: ["COMMENTS_DISABLED", "COMMENTS_ENABLED", "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#comment_control GoogleCloudbuildTrigger#comment_control}
 
 ---
 
@@ -20428,7 +20428,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, branches that do NOT match the git_ref will trigger a build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -20451,7 +20451,7 @@ Regex of branches to match.
 The syntax of the regular expressions accepted is the syntax accepted by
 RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#branch GoogleCloudbuildTrigger#branch}
 
 ---
 
@@ -20461,7 +20461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If true, only trigger a build if the revision regex does NOT match the git_ref regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#invert_regex GoogleCloudbuildTrigger#invert_regex}
 
 ---
 
@@ -20474,7 +20474,7 @@ Regex of tags to match.
 The syntax of the regular expressions accepted is the syntax accepted by
 RE2 and described at https://github.com/google/re2/wiki/Syntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudbuild_trigger#tag GoogleCloudbuildTrigger#tag}
 
 ---
 

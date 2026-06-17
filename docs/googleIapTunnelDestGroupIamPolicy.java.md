@@ -4,7 +4,7 @@
 
 ### GoogleIapTunnelDestGroupIamPolicy <a name="GoogleIapTunnelDestGroupIamPolicy" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy google_iap_tunnel_dest_group_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer"></a>
 
@@ -38,11 +38,11 @@ GoogleIapTunnelDestGroupIamPolicy.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.destGroup">destGroup</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.destGroup">destGroup</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicy.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}.
 
 ---
 
@@ -145,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}.
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the GoogleIapTunnelDestGroupIa
 
 The id of the existing GoogleIapTunnelDestGroupIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,11 +965,11 @@ GoogleIapTunnelDestGroupIamPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.destGroup">destGroup</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.destGroup">destGroup</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapTunnelDestGroupIamPolicy.GoogleIapTunnelDestGroupIamPolicyConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}. |
 
 ---
 
@@ -1051,7 +1051,7 @@ public java.lang.String getDestGroup();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#dest_group GoogleIapTunnelDestGroupIamPolicy#dest_group}.
 
 ---
 
@@ -1063,7 +1063,7 @@ public java.lang.String getPolicyData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#policy_data GoogleIapTunnelDestGroupIamPolicy#policy_data}.
 
 ---
 
@@ -1075,7 +1075,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#id GoogleIapTunnelDestGroupIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#project GoogleIapTunnelDestGroupIamPolicy#project}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public java.lang.String getRegion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iap_tunnel_dest_group_iam_policy#region GoogleIapTunnelDestGroupIamPolicy#region}.
 
 ---
 

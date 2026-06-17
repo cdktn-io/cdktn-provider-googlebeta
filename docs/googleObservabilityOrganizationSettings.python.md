@@ -4,7 +4,7 @@
 
 ### GoogleObservabilityOrganizationSettings <a name="GoogleObservabilityOrganizationSettings" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings google_observability_organization_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings google_observability_organization_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer"></a>
 
@@ -44,7 +44,7 @@ googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings(
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer.parameter.location">location</a></code> | <code>str</code> | The location of the settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer.parameter.organization">organization</a></code> | <code>str</code> | The organization ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer.parameter.defaultStorageLocation">default_storage_location</a></code> | <code>str</code> | The default storage location for new resources, e.g. buckets. Only valid for global location. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer.parameter.kmsKeyName">kms_key_name</a></code> | <code>str</code> | The default Cloud KMS key to use for new resources. Only valid for regional locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts">GoogleObservabilityOrganizationSettingsTimeouts</a></code> | timeouts block. |
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The location of the settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#location GoogleObservabilityOrganizationSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#location GoogleObservabilityOrganizationSettings#location}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The organization ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#organization GoogleObservabilityOrganizationSettings#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#organization GoogleObservabilityOrganizationSettings#organization}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The default storage location for new resources, e.g. buckets. Only valid for global location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#default_storage_location GoogleObservabilityOrganizationSettings#default_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#default_storage_location GoogleObservabilityOrganizationSettings#default_storage_location}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -157,7 +157,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The default Cloud KMS key to use for new resources. Only valid for regional locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#kms_key_name GoogleObservabilityOrganizationSettings#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#kms_key_name GoogleObservabilityOrganizationSettings#kms_key_name}
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#timeouts GoogleObservabilityOrganizationSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#timeouts GoogleObservabilityOrganizationSettings#timeouts}
 
 ---
 
@@ -569,7 +569,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#create GoogleObservabilityOrganizationSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#create GoogleObservabilityOrganizationSettings#create}.
 
 ---
 
@@ -577,7 +577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#delete GoogleObservabilityOrganizationSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#delete GoogleObservabilityOrganizationSettings#delete}.
 
 ---
 
@@ -585,7 +585,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#update GoogleObservabilityOrganizationSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#update GoogleObservabilityOrganizationSettings#update}.
 
 ---
 
@@ -727,7 +727,7 @@ The construct id used in the generated config for the GoogleObservabilityOrganiz
 
 The id of the existing GoogleObservabilityOrganizationSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1114,7 +1114,7 @@ googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsC
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.property.location">location</a></code> | <code>str</code> | The location of the settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.property.organization">organization</a></code> | <code>str</code> | The organization ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.property.defaultStorageLocation">default_storage_location</a></code> | <code>str</code> | The default storage location for new resources, e.g. buckets. Only valid for global location. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.property.kmsKeyName">kms_key_name</a></code> | <code>str</code> | The default Cloud KMS key to use for new resources. Only valid for regional locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts">GoogleObservabilityOrganizationSettingsTimeouts</a></code> | timeouts block. |
 
@@ -1200,7 +1200,7 @@ location: str
 
 The location of the settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#location GoogleObservabilityOrganizationSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#location GoogleObservabilityOrganizationSettings#location}
 
 ---
 
@@ -1214,7 +1214,7 @@ organization: str
 
 The organization ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#organization GoogleObservabilityOrganizationSettings#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#organization GoogleObservabilityOrganizationSettings#organization}
 
 ---
 
@@ -1228,7 +1228,7 @@ default_storage_location: str
 
 The default storage location for new resources, e.g. buckets. Only valid for global location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#default_storage_location GoogleObservabilityOrganizationSettings#default_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#default_storage_location GoogleObservabilityOrganizationSettings#default_storage_location}
 
 ---
 
@@ -1240,7 +1240,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#id GoogleObservabilityOrganizationSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1257,7 +1257,7 @@ kms_key_name: str
 
 The default Cloud KMS key to use for new resources. Only valid for regional locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#kms_key_name GoogleObservabilityOrganizationSettings#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#kms_key_name GoogleObservabilityOrganizationSettings#kms_key_name}
 
 ---
 
@@ -1271,7 +1271,7 @@ timeouts: GoogleObservabilityOrganizationSettingsTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#timeouts GoogleObservabilityOrganizationSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#timeouts GoogleObservabilityOrganizationSettings#timeouts}
 
 ---
 
@@ -1293,9 +1293,9 @@ googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#create GoogleObservabilityOrganizationSettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#delete GoogleObservabilityOrganizationSettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#update GoogleObservabilityOrganizationSettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#create GoogleObservabilityOrganizationSettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#delete GoogleObservabilityOrganizationSettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#update GoogleObservabilityOrganizationSettings#update}. |
 
 ---
 
@@ -1307,7 +1307,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#create GoogleObservabilityOrganizationSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#create GoogleObservabilityOrganizationSettings#create}.
 
 ---
 
@@ -1319,7 +1319,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#delete GoogleObservabilityOrganizationSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#delete GoogleObservabilityOrganizationSettings#delete}.
 
 ---
 
@@ -1331,7 +1331,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_observability_organization_settings#update GoogleObservabilityOrganizationSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_organization_settings#update GoogleObservabilityOrganizationSettings#update}.
 
 ---
 

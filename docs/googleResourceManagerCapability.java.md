@@ -4,7 +4,7 @@
 
 ### GoogleResourceManagerCapability <a name="GoogleResourceManagerCapability" id="@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability google_resource_manager_capability}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability google_resource_manager_capability}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability.Initializer"></a>
 
@@ -41,7 +41,7 @@ GoogleResourceManagerCapability.Builder.create(Construct scope, java.lang.String
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability.Initializer.parameter.capabilityName">capabilityName</a></code> | <code>java.lang.String</code> | Capability name that should be updated on the folder. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability.Initializer.parameter.parent">parent</a></code> | <code>java.lang.String</code> | Folder on which Capability needs to be updated in the format folders/folder_id. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability.Initializer.parameter.value">value</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Capability Value. |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts">GoogleResourceManagerCapabilityTimeouts</a></code> | timeouts block. |
 
 ---
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Capability name that should be updated on the folder.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#capability_name GoogleResourceManagerCapability#capability_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#capability_name GoogleResourceManagerCapability#capability_name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Folder on which Capability needs to be updated in the format folders/folder_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#parent GoogleResourceManagerCapability#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#parent GoogleResourceManagerCapability#parent}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Capability Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#value GoogleResourceManagerCapability#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#value GoogleResourceManagerCapability#value}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -153,7 +153,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#timeouts GoogleResourceManagerCapability#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#timeouts GoogleResourceManagerCapability#timeouts}
 
 ---
 
@@ -629,7 +629,7 @@ The construct id used in the generated config for the GoogleResourceManagerCapab
 
 The id of the existing GoogleResourceManagerCapability that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -971,7 +971,7 @@ GoogleResourceManagerCapabilityConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig.property.capabilityName">capabilityName</a></code> | <code>java.lang.String</code> | Capability name that should be updated on the folder. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig.property.parent">parent</a></code> | <code>java.lang.String</code> | Folder on which Capability needs to be updated in the format folders/folder_id. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig.property.value">value</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Capability Value. |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts">GoogleResourceManagerCapabilityTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1056,7 +1056,7 @@ public java.lang.String getCapabilityName();
 
 Capability name that should be updated on the folder.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#capability_name GoogleResourceManagerCapability#capability_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#capability_name GoogleResourceManagerCapability#capability_name}
 
 ---
 
@@ -1070,7 +1070,7 @@ public java.lang.String getParent();
 
 Folder on which Capability needs to be updated in the format folders/folder_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#parent GoogleResourceManagerCapability#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#parent GoogleResourceManagerCapability#parent}
 
 ---
 
@@ -1084,7 +1084,7 @@ public java.lang.Boolean|IResolvable getValue();
 
 Capability Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#value GoogleResourceManagerCapability#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#value GoogleResourceManagerCapability#value}
 
 ---
 
@@ -1096,7 +1096,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#id GoogleResourceManagerCapability#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1113,7 +1113,7 @@ public GoogleResourceManagerCapabilityTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#timeouts GoogleResourceManagerCapability#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#timeouts GoogleResourceManagerCapability#timeouts}
 
 ---
 
@@ -1135,9 +1135,9 @@ GoogleResourceManagerCapabilityTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#create GoogleResourceManagerCapability#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#delete GoogleResourceManagerCapability#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#update GoogleResourceManagerCapability#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#create GoogleResourceManagerCapability#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#delete GoogleResourceManagerCapability#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#update GoogleResourceManagerCapability#update}. |
 
 ---
 
@@ -1149,7 +1149,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#create GoogleResourceManagerCapability#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#create GoogleResourceManagerCapability#create}.
 
 ---
 
@@ -1161,7 +1161,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#delete GoogleResourceManagerCapability#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#delete GoogleResourceManagerCapability#delete}.
 
 ---
 
@@ -1173,7 +1173,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_resource_manager_capability#update GoogleResourceManagerCapability#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_resource_manager_capability#update GoogleResourceManagerCapability#update}.
 
 ---
 
