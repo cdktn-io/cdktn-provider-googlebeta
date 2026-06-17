@@ -4,7 +4,7 @@
 
 ### GoogleApihubCuration <a name="GoogleApihubCuration" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation google_apihub_curation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation google_apihub_curation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer"></a>
 
@@ -50,8 +50,8 @@ googleApihubCuration.GoogleApihubCuration(
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the curation. |
-| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts">GoogleApihubCurationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -132,7 +132,7 @@ This field is optional.
 This value should be 4-500 characters, and valid characters
 are /a-z[0-9]-_/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#curation_id GoogleApihubCuration#curation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#curation_id GoogleApihubCuration#curation_id}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The display name of the curation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#display_name GoogleApihubCuration#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#display_name GoogleApihubCuration#display_name}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 endpoint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#endpoint GoogleApihubCuration#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#endpoint GoogleApihubCuration#endpoint}
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#location GoogleApihubCuration#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#location GoogleApihubCuration#location}
 
 ---
 
@@ -179,7 +179,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#deletion_policy GoogleApihubCuration#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#deletion_policy GoogleApihubCuration#deletion_policy}
 
 ---
 
@@ -189,7 +189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the curation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#description GoogleApihubCuration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#description GoogleApihubCuration#description}
 
 ---
 
@@ -197,7 +197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -208,7 +208,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}.
 
 ---
 
@@ -218,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#timeouts GoogleApihubCuration#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#timeouts GoogleApihubCuration#timeouts}
 
 ---
 
@@ -622,7 +622,7 @@ def put_endpoint(
 
 application_integration_endpoint_details block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#application_integration_endpoint_details GoogleApihubCuration#application_integration_endpoint_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#application_integration_endpoint_details GoogleApihubCuration#application_integration_endpoint_details}
 
 ---
 
@@ -640,7 +640,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#create GoogleApihubCuration#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#create GoogleApihubCuration#create}.
 
 ---
 
@@ -648,7 +648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#delete GoogleApihubCuration#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#delete GoogleApihubCuration#delete}.
 
 ---
 
@@ -656,7 +656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#update GoogleApihubCuration#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#update GoogleApihubCuration#update}.
 
 ---
 
@@ -804,7 +804,7 @@ The construct id used in the generated config for the GoogleApihubCuration to im
 
 The id of the existing GoogleApihubCuration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1318,8 +1318,8 @@ googleApihubCuration.GoogleApihubCurationConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.description">description</a></code> | <code>str</code> | The description of the curation. |
-| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts">GoogleApihubCurationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1414,7 +1414,7 @@ This field is optional.
 This value should be 4-500 characters, and valid characters
 are /a-z[0-9]-_/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#curation_id GoogleApihubCuration#curation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#curation_id GoogleApihubCuration#curation_id}
 
 ---
 
@@ -1428,7 +1428,7 @@ display_name: str
 
 The display name of the curation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#display_name GoogleApihubCuration#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#display_name GoogleApihubCuration#display_name}
 
 ---
 
@@ -1442,7 +1442,7 @@ endpoint: GoogleApihubCurationEndpoint
 
 endpoint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#endpoint GoogleApihubCuration#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#endpoint GoogleApihubCuration#endpoint}
 
 ---
 
@@ -1456,7 +1456,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#location GoogleApihubCuration#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#location GoogleApihubCuration#location}
 
 ---
 
@@ -1477,7 +1477,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#deletion_policy GoogleApihubCuration#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#deletion_policy GoogleApihubCuration#deletion_policy}
 
 ---
 
@@ -1491,7 +1491,7 @@ description: str
 
 The description of the curation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#description GoogleApihubCuration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#description GoogleApihubCuration#description}
 
 ---
 
@@ -1503,7 +1503,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#id GoogleApihubCuration#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1518,7 +1518,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#project GoogleApihubCuration#project}.
 
 ---
 
@@ -1532,7 +1532,7 @@ timeouts: GoogleApihubCurationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#timeouts GoogleApihubCuration#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#timeouts GoogleApihubCuration#timeouts}
 
 ---
 
@@ -1566,7 +1566,7 @@ application_integration_endpoint_details: GoogleApihubCurationEndpointApplicatio
 
 application_integration_endpoint_details block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#application_integration_endpoint_details GoogleApihubCuration#application_integration_endpoint_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#application_integration_endpoint_details GoogleApihubCuration#application_integration_endpoint_details}
 
 ---
 
@@ -1602,7 +1602,7 @@ trigger_id: str
 
 The API trigger ID of the Application Integration workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#trigger_id GoogleApihubCuration#trigger_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#trigger_id GoogleApihubCuration#trigger_id}
 
 ---
 
@@ -1616,7 +1616,7 @@ uri: str
 
 The endpoint URI should be a valid REST URI for triggering an Application Integration. Format: 'https://integrations.googleapis.com/v1/{name=projects/* /locations/* /integrations/*}:execute' or 'https://{location}-integrations.googleapis.com/v1/{name=projects/* /locations/* /integrations/*}:execute'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#uri GoogleApihubCuration#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#uri GoogleApihubCuration#uri}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1651,9 +1651,9 @@ googleApihubCuration.GoogleApihubCurationTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#create GoogleApihubCuration#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#delete GoogleApihubCuration#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#update GoogleApihubCuration#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#create GoogleApihubCuration#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#delete GoogleApihubCuration#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#update GoogleApihubCuration#update}. |
 
 ---
 
@@ -1665,7 +1665,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#create GoogleApihubCuration#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#create GoogleApihubCuration#create}.
 
 ---
 
@@ -1677,7 +1677,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#delete GoogleApihubCuration#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#delete GoogleApihubCuration#delete}.
 
 ---
 
@@ -1689,7 +1689,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#update GoogleApihubCuration#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#update GoogleApihubCuration#update}.
 
 ---
 
@@ -2257,7 +2257,7 @@ def put_application_integration_endpoint_details(
 
 The API trigger ID of the Application Integration workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#trigger_id GoogleApihubCuration#trigger_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#trigger_id GoogleApihubCuration#trigger_id}
 
 ---
 
@@ -2267,7 +2267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The endpoint URI should be a valid REST URI for triggering an Application Integration. Format: 'https://integrations.googleapis.com/v1/{name=projects/* /locations/* /integrations/*}:execute' or 'https://{location}-integrations.googleapis.com/v1/{name=projects/* /locations/* /integrations/*}:execute'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apihub_curation#uri GoogleApihubCuration#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apihub_curation#uri GoogleApihubCuration#uri}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 

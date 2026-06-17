@@ -4,7 +4,7 @@
 
 ### GoogleMigrationCenterSource <a name="GoogleMigrationCenterSource" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source google_migration_center_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source google_migration_center_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSource.Initializer"></a>
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the GoogleMigrationCenterSourc
 
 The id of the existing GoogleMigrationCenterSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1113,10 +1113,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemi
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.description">Description</a></code> | <code>*string</code> | Free-text description. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User-friendly display name. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#id GoogleMigrationCenterSource#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#id GoogleMigrationCenterSource#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.managed">Managed</a></code> | <code>interface{}</code> | If 'true', the source is managed by other service(s). |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.priority">Priority</a></code> | <code>*f64</code> | The information confidence of the source. The higher the value, the higher the confidence. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#project GoogleMigrationCenterSource#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#project GoogleMigrationCenterSource#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts">GoogleMigrationCenterSourceTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.property.type">Type</a></code> | <code>*string</code> | Data source type. Possible values: SOURCE_TYPE_UNKNOWN SOURCE_TYPE_UPLOAD SOURCE_TYPE_GUEST_OS_SCAN SOURCE_TYPE_INVENTORY_SCAN SOURCE_TYPE_CUSTOM SOURCE_TYPE_DISCOVERY_CLIENT. |
 
@@ -1202,7 +1202,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#location GoogleMigrationCenterSource#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#location GoogleMigrationCenterSource#location}
 
 ---
 
@@ -1222,7 +1222,7 @@ RFC-1034, is restricted to lower-cased letters, and has a maximum
 length of 63 characters. The ID must match the
 regular expression: '[a-z](%5Ba-z0-9-%5D%7B0,61%7D%5Ba-z0-9%5D)?'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#source_id GoogleMigrationCenterSource#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#source_id GoogleMigrationCenterSource#source_id}
 
 ---
 
@@ -1243,7 +1243,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#deletion_policy GoogleMigrationCenterSource#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#deletion_policy GoogleMigrationCenterSource#deletion_policy}
 
 ---
 
@@ -1257,7 +1257,7 @@ Description *string
 
 Free-text description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#description GoogleMigrationCenterSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#description GoogleMigrationCenterSource#description}
 
 ---
 
@@ -1271,7 +1271,7 @@ DisplayName *string
 
 User-friendly display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#display_name GoogleMigrationCenterSource#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#display_name GoogleMigrationCenterSource#display_name}
 
 ---
 
@@ -1283,7 +1283,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#id GoogleMigrationCenterSource#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#id GoogleMigrationCenterSource#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1300,7 +1300,7 @@ Managed interface{}
 
 If 'true', the source is managed by other service(s).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#managed GoogleMigrationCenterSource#managed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#managed GoogleMigrationCenterSource#managed}
 
 ---
 
@@ -1314,7 +1314,7 @@ Priority *f64
 
 The information confidence of the source. The higher the value, the higher the confidence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#priority GoogleMigrationCenterSource#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#priority GoogleMigrationCenterSource#priority}
 
 ---
 
@@ -1326,7 +1326,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#project GoogleMigrationCenterSource#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#project GoogleMigrationCenterSource#project}.
 
 ---
 
@@ -1340,7 +1340,7 @@ Timeouts GoogleMigrationCenterSourceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#timeouts GoogleMigrationCenterSource#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#timeouts GoogleMigrationCenterSource#timeouts}
 
 ---
 
@@ -1354,7 +1354,7 @@ Type *string
 
 Data source type. Possible values: SOURCE_TYPE_UNKNOWN SOURCE_TYPE_UPLOAD SOURCE_TYPE_GUEST_OS_SCAN SOURCE_TYPE_INVENTORY_SCAN SOURCE_TYPE_CUSTOM SOURCE_TYPE_DISCOVERY_CLIENT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#type GoogleMigrationCenterSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#type GoogleMigrationCenterSource#type}
 
 ---
 
@@ -1376,9 +1376,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#create GoogleMigrationCenterSource#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#delete GoogleMigrationCenterSource#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#update GoogleMigrationCenterSource#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#create GoogleMigrationCenterSource#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#delete GoogleMigrationCenterSource#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#update GoogleMigrationCenterSource#update}. |
 
 ---
 
@@ -1390,7 +1390,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#create GoogleMigrationCenterSource#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#create GoogleMigrationCenterSource#create}.
 
 ---
 
@@ -1402,7 +1402,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#delete GoogleMigrationCenterSource#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#delete GoogleMigrationCenterSource#delete}.
 
 ---
 
@@ -1414,7 +1414,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_source#update GoogleMigrationCenterSource#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_source#update GoogleMigrationCenterSource#update}.
 
 ---
 

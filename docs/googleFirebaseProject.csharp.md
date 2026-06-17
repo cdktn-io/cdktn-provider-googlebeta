@@ -4,7 +4,7 @@
 
 ### GoogleFirebaseProject <a name="GoogleFirebaseProject" id="@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project google_firebase_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project google_firebase_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProject.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleFirebaseProject to i
 
 The id of the existing GoogleFirebaseProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -838,8 +838,8 @@ new GoogleFirebaseProjectConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#id GoogleFirebaseProject#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#project GoogleFirebaseProject#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#id GoogleFirebaseProject#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#project GoogleFirebaseProject#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeouts">GoogleFirebaseProjectTimeouts</a></code> | timeouts block. |
 
 ---
@@ -922,7 +922,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#id GoogleFirebaseProject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#id GoogleFirebaseProject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -937,7 +937,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#project GoogleFirebaseProject#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#project GoogleFirebaseProject#project}.
 
 ---
 
@@ -951,7 +951,7 @@ public GoogleFirebaseProjectTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#timeouts GoogleFirebaseProject#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#timeouts GoogleFirebaseProject#timeouts}
 
 ---
 
@@ -972,8 +972,8 @@ new GoogleFirebaseProjectTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#create GoogleFirebaseProject#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#delete GoogleFirebaseProject#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#create GoogleFirebaseProject#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#delete GoogleFirebaseProject#delete}. |
 
 ---
 
@@ -985,7 +985,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#create GoogleFirebaseProject#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#create GoogleFirebaseProject#create}.
 
 ---
 
@@ -997,7 +997,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_project#delete GoogleFirebaseProject#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_project#delete GoogleFirebaseProject#delete}.
 
 ---
 

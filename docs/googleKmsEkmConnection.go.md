@@ -4,7 +4,7 @@
 
 ### GoogleKmsEkmConnection <a name="GoogleKmsEkmConnection" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnection.Initializer"></a>
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleKmsEkmConnection to 
 
 The id of the existing GoogleKmsEkmConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1004,9 +1004,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekm
 | <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.serviceResolvers">ServiceResolvers</a></code> | <code>interface{}</code> | service_resolvers block. |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.cryptoSpacePath">CryptoSpacePath</a></code> | <code>*string</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.etag">Etag</a></code> | <code>*string</code> | Optional. Etag of the currently stored EkmConnection. |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#id GoogleKmsEkmConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#id GoogleKmsEkmConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.keyManagementMode">KeyManagementMode</a></code> | <code>*string</code> | Optional. |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#project GoogleKmsEkmConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#project GoogleKmsEkmConnection#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts">GoogleKmsEkmConnectionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1091,7 +1091,7 @@ Location *string
 
 The location for the EkmConnection. A full list of valid locations can be found by running 'gcloud kms locations list'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#location GoogleKmsEkmConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#location GoogleKmsEkmConnection#location}
 
 ---
 
@@ -1105,7 +1105,7 @@ Name *string
 
 The resource name for the EkmConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#name GoogleKmsEkmConnection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#name GoogleKmsEkmConnection#name}
 
 ---
 
@@ -1119,7 +1119,7 @@ ServiceResolvers interface{}
 
 service_resolvers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#service_resolvers GoogleKmsEkmConnection#service_resolvers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#service_resolvers GoogleKmsEkmConnection#service_resolvers}
 
 ---
 
@@ -1135,7 +1135,7 @@ Optional.
 
 Identifies the EKM Crypto Space that this EkmConnection maps to. Note: This field is required if KeyManagementMode is CLOUD_KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#crypto_space_path GoogleKmsEkmConnection#crypto_space_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#crypto_space_path GoogleKmsEkmConnection#crypto_space_path}
 
 ---
 
@@ -1149,7 +1149,7 @@ Etag *string
 
 Optional. Etag of the currently stored EkmConnection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#etag GoogleKmsEkmConnection#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#etag GoogleKmsEkmConnection#etag}
 
 ---
 
@@ -1161,7 +1161,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#id GoogleKmsEkmConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#id GoogleKmsEkmConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1180,7 +1180,7 @@ Optional.
 
 Describes who can perform control plane operations on the EKM. If unset, this defaults to MANUAL Default value: "MANUAL" Possible values: ["MANUAL", "CLOUD_KMS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#key_management_mode GoogleKmsEkmConnection#key_management_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#key_management_mode GoogleKmsEkmConnection#key_management_mode}
 
 ---
 
@@ -1192,7 +1192,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#project GoogleKmsEkmConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#project GoogleKmsEkmConnection#project}.
 
 ---
 
@@ -1206,7 +1206,7 @@ Timeouts GoogleKmsEkmConnectionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#timeouts GoogleKmsEkmConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#timeouts GoogleKmsEkmConnection#timeouts}
 
 ---
 
@@ -1246,7 +1246,7 @@ Hostname *string
 
 Required. The hostname of the EKM replica used at TLS and HTTP layers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#hostname GoogleKmsEkmConnection#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#hostname GoogleKmsEkmConnection#hostname}
 
 ---
 
@@ -1260,7 +1260,7 @@ ServerCertificates interface{}
 
 server_certificates block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#server_certificates GoogleKmsEkmConnection#server_certificates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#server_certificates GoogleKmsEkmConnection#server_certificates}
 
 ---
 
@@ -1276,7 +1276,7 @@ Required.
 
 The resource name of the Service Directory service pointing to an EKM replica, in the format projects/* /locations/* /namespaces/* /services/*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#service_directory_service GoogleKmsEkmConnection#service_directory_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#service_directory_service GoogleKmsEkmConnection#service_directory_service}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1294,7 +1294,7 @@ Optional.
 
 The filter applied to the endpoints of the resolved service. If no filter is specified, all endpoints will be considered. An endpoint will be chosen arbitrarily from the filtered list for each request. For endpoint filter syntax and examples, see https://cloud.google.com/service-directory/docs/reference/rpc/google.cloud.servicedirectory.v1#resolveservicerequest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#endpoint_filter GoogleKmsEkmConnection#endpoint_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#endpoint_filter GoogleKmsEkmConnection#endpoint_filter}
 
 ---
 
@@ -1330,7 +1330,7 @@ RawDer *string
 
 Required. The raw certificate bytes in DER format. A base64-encoded string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#raw_der GoogleKmsEkmConnection#raw_der}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#raw_der GoogleKmsEkmConnection#raw_der}
 
 ---
 
@@ -1344,7 +1344,7 @@ SubjectAlternativeDnsNames *[]*string
 
 Output only. The subject Alternative DNS names. Only present if parsed is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#subject_alternative_dns_names GoogleKmsEkmConnection#subject_alternative_dns_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#subject_alternative_dns_names GoogleKmsEkmConnection#subject_alternative_dns_names}
 
 ---
 
@@ -1366,9 +1366,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekm
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#create GoogleKmsEkmConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#delete GoogleKmsEkmConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#update GoogleKmsEkmConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#create GoogleKmsEkmConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#delete GoogleKmsEkmConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsEkmConnection.GoogleKmsEkmConnectionTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#update GoogleKmsEkmConnection#update}. |
 
 ---
 
@@ -1380,7 +1380,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#create GoogleKmsEkmConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#create GoogleKmsEkmConnection#create}.
 
 ---
 
@@ -1392,7 +1392,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#delete GoogleKmsEkmConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#delete GoogleKmsEkmConnection#delete}.
 
 ---
 
@@ -1404,7 +1404,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_kms_ekm_connection#update GoogleKmsEkmConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_kms_ekm_connection#update GoogleKmsEkmConnection#update}.
 
 ---
 

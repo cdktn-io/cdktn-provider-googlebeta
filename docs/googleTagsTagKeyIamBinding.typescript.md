@@ -4,7 +4,7 @@
 
 ### GoogleTagsTagKeyIamBinding <a name="GoogleTagsTagKeyIamBinding" id="@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding google_tags_tag_key_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding google_tags_tag_key_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBinding.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleTagsTagKeyIamBinding
 
 The id of the existing GoogleTagsTagKeyIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,9 +846,9 @@ const googleTagsTagKeyIamBindingCondition: googleTagsTagKeyIamBinding.GoogleTags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#expression GoogleTagsTagKeyIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#title GoogleTagsTagKeyIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#description GoogleTagsTagKeyIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#expression GoogleTagsTagKeyIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#title GoogleTagsTagKeyIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#description GoogleTagsTagKeyIamBinding#description}. |
 
 ---
 
@@ -860,7 +860,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#expression GoogleTagsTagKeyIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#expression GoogleTagsTagKeyIamBinding#expression}.
 
 ---
 
@@ -872,7 +872,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#title GoogleTagsTagKeyIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#title GoogleTagsTagKeyIamBinding#title}.
 
 ---
 
@@ -884,7 +884,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#description GoogleTagsTagKeyIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#description GoogleTagsTagKeyIamBinding#description}.
 
 ---
 
@@ -909,11 +909,11 @@ const googleTagsTagKeyIamBindingConfig: googleTagsTagKeyIamBinding.GoogleTagsTag
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#members GoogleTagsTagKeyIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#role GoogleTagsTagKeyIamBinding#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.tagKey">tagKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#tag_key GoogleTagsTagKeyIamBinding#tag_key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#members GoogleTagsTagKeyIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#role GoogleTagsTagKeyIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.tagKey">tagKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#tag_key GoogleTagsTagKeyIamBinding#tag_key}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingCondition">GoogleTagsTagKeyIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#id GoogleTagsTagKeyIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagKeyIamBinding.GoogleTagsTagKeyIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#id GoogleTagsTagKeyIamBinding#id}. |
 
 ---
 
@@ -995,7 +995,7 @@ public readonly members: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#members GoogleTagsTagKeyIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#members GoogleTagsTagKeyIamBinding#members}.
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#role GoogleTagsTagKeyIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#role GoogleTagsTagKeyIamBinding#role}.
 
 ---
 
@@ -1019,7 +1019,7 @@ public readonly tagKey: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#tag_key GoogleTagsTagKeyIamBinding#tag_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#tag_key GoogleTagsTagKeyIamBinding#tag_key}.
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly condition: GoogleTagsTagKeyIamBindingCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#condition GoogleTagsTagKeyIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#condition GoogleTagsTagKeyIamBinding#condition}
 
 ---
 
@@ -1045,7 +1045,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_tags_tag_key_iam_binding#id GoogleTagsTagKeyIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_tags_tag_key_iam_binding#id GoogleTagsTagKeyIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

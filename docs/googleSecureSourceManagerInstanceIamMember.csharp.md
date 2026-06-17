@@ -4,7 +4,7 @@
 
 ### GoogleSecureSourceManagerInstanceIamMember <a name="GoogleSecureSourceManagerInstanceIamMember" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleSecureSourceManagerI
 
 The id of the existing GoogleSecureSourceManagerInstanceIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ new GoogleSecureSourceManagerInstanceIamMemberCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#expression GoogleSecureSourceManagerInstanceIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#title GoogleSecureSourceManagerInstanceIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#description GoogleSecureSourceManagerInstanceIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#expression GoogleSecureSourceManagerInstanceIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#title GoogleSecureSourceManagerInstanceIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#description GoogleSecureSourceManagerInstanceIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#expression GoogleSecureSourceManagerInstanceIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#expression GoogleSecureSourceManagerInstanceIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#title GoogleSecureSourceManagerInstanceIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#title GoogleSecureSourceManagerInstanceIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#description GoogleSecureSourceManagerInstanceIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#description GoogleSecureSourceManagerInstanceIamMember#description}.
 
 ---
 
@@ -986,13 +986,13 @@ new GoogleSecureSourceManagerInstanceIamMemberConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.instanceId">InstanceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#instance_id GoogleSecureSourceManagerInstanceIamMember#instance_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#member GoogleSecureSourceManagerInstanceIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#role GoogleSecureSourceManagerInstanceIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.instanceId">InstanceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#instance_id GoogleSecureSourceManagerInstanceIamMember#instance_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#member GoogleSecureSourceManagerInstanceIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#role GoogleSecureSourceManagerInstanceIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberCondition">GoogleSecureSourceManagerInstanceIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#id GoogleSecureSourceManagerInstanceIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#location GoogleSecureSourceManagerInstanceIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#project GoogleSecureSourceManagerInstanceIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#id GoogleSecureSourceManagerInstanceIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#location GoogleSecureSourceManagerInstanceIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerInstanceIamMember.GoogleSecureSourceManagerInstanceIamMemberConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#project GoogleSecureSourceManagerInstanceIamMember#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public string InstanceId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#instance_id GoogleSecureSourceManagerInstanceIamMember#instance_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#instance_id GoogleSecureSourceManagerInstanceIamMember#instance_id}.
 
 ---
 
@@ -1086,7 +1086,7 @@ public string Member { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#member GoogleSecureSourceManagerInstanceIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#member GoogleSecureSourceManagerInstanceIamMember#member}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#role GoogleSecureSourceManagerInstanceIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#role GoogleSecureSourceManagerInstanceIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ public GoogleSecureSourceManagerInstanceIamMemberCondition Condition { get; set;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#condition GoogleSecureSourceManagerInstanceIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#condition GoogleSecureSourceManagerInstanceIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#id GoogleSecureSourceManagerInstanceIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#id GoogleSecureSourceManagerInstanceIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ public string Location { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#location GoogleSecureSourceManagerInstanceIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#location GoogleSecureSourceManagerInstanceIamMember#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_secure_source_manager_instance_iam_member#project GoogleSecureSourceManagerInstanceIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_secure_source_manager_instance_iam_member#project GoogleSecureSourceManagerInstanceIamMember#project}.
 
 ---
 

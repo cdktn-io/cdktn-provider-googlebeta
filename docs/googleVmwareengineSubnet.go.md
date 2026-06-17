@@ -4,7 +4,7 @@
 
 ### GoogleVmwareengineSubnet <a name="GoogleVmwareengineSubnet" id="@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleVmwareengineSubnet t
 
 The id of the existing GoogleVmwareengineSubnet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevm
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetConfig.property.ipCidrRange">IpCidrRange</a></code> | <code>*string</code> | The IP address range of the subnet in CIDR format. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetConfig.property.name">Name</a></code> | <code>*string</code> | The ID of the subnet. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetConfig.property.parent">Parent</a></code> | <code>*string</code> | The resource name of the private cloud to create a new subnet in. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#id GoogleVmwareengineSubnet#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#id GoogleVmwareengineSubnet#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetTimeouts">GoogleVmwareengineSubnetTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1053,7 +1053,7 @@ IpCidrRange *string
 
 The IP address range of the subnet in CIDR format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#ip_cidr_range GoogleVmwareengineSubnet#ip_cidr_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#ip_cidr_range GoogleVmwareengineSubnet#ip_cidr_range}
 
 ---
 
@@ -1070,7 +1070,7 @@ The ID of the subnet.
 For userDefined subnets, this name should be in the format of "service-n",
 where n ranges from 1 to 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#name GoogleVmwareengineSubnet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#name GoogleVmwareengineSubnet#name}
 
 ---
 
@@ -1087,7 +1087,7 @@ The resource name of the private cloud to create a new subnet in.
 Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names.
 For example: projects/my-project/locations/us-west1-a/privateClouds/my-cloud
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#parent GoogleVmwareengineSubnet#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#parent GoogleVmwareengineSubnet#parent}
 
 ---
 
@@ -1099,7 +1099,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#id GoogleVmwareengineSubnet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#id GoogleVmwareengineSubnet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1116,7 +1116,7 @@ Timeouts GoogleVmwareengineSubnetTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#timeouts GoogleVmwareengineSubnet#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#timeouts GoogleVmwareengineSubnet#timeouts}
 
 ---
 
@@ -1151,9 +1151,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevm
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#create GoogleVmwareengineSubnet#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#delete GoogleVmwareengineSubnet#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#update GoogleVmwareengineSubnet#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#create GoogleVmwareengineSubnet#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#delete GoogleVmwareengineSubnet#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnetTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#update GoogleVmwareengineSubnet#update}. |
 
 ---
 
@@ -1165,7 +1165,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#create GoogleVmwareengineSubnet#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#create GoogleVmwareengineSubnet#create}.
 
 ---
 
@@ -1177,7 +1177,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#delete GoogleVmwareengineSubnet#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#delete GoogleVmwareengineSubnet#delete}.
 
 ---
 
@@ -1189,7 +1189,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vmwareengine_subnet#update GoogleVmwareengineSubnet#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_subnet#update GoogleVmwareengineSubnet#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleApigeeDatastore <a name="GoogleApigeeDatastore" id="@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore google_apigee_datastore}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore google_apigee_datastore}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastore.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GoogleApigeeDatastore to i
 
 The id of the existing GoogleApigeeDatastore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -966,7 +966,7 @@ const googleApigeeDatastoreConfig: googleApigeeDatastore.GoogleApigeeDatastoreCo
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreConfig.property.orgId">orgId</a></code> | <code>string</code> | The Apigee Organization associated with the Apigee datastore, in the format 'organizations/{{org_name}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreConfig.property.targetType">targetType</a></code> | <code>string</code> | The type of target for the datastore. Must be 'gcs' for Google Cloud Storage or 'bigquery' for BigQuery. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#id GoogleApigeeDatastore#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#id GoogleApigeeDatastore#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreTimeouts">GoogleApigeeDatastoreTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1051,7 +1051,7 @@ public readonly datastoreConfig: GoogleApigeeDatastoreDatastoreConfig;
 
 datastore_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#datastore_config GoogleApigeeDatastore#datastore_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#datastore_config GoogleApigeeDatastore#datastore_config}
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly displayName: string;
 
 The display name for the datastore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#display_name GoogleApigeeDatastore#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#display_name GoogleApigeeDatastore#display_name}
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly orgId: string;
 
 The Apigee Organization associated with the Apigee datastore, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#org_id GoogleApigeeDatastore#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#org_id GoogleApigeeDatastore#org_id}
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly targetType: string;
 
 The type of target for the datastore. Must be 'gcs' for Google Cloud Storage or 'bigquery' for BigQuery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#target_type GoogleApigeeDatastore#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#target_type GoogleApigeeDatastore#target_type}
 
 ---
 
@@ -1115,7 +1115,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#deletion_policy GoogleApigeeDatastore#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#deletion_policy GoogleApigeeDatastore#deletion_policy}
 
 ---
 
@@ -1127,7 +1127,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#id GoogleApigeeDatastore#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#id GoogleApigeeDatastore#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1144,7 +1144,7 @@ public readonly timeouts: GoogleApigeeDatastoreTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#timeouts GoogleApigeeDatastore#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#timeouts GoogleApigeeDatastore#timeouts}
 
 ---
 
@@ -1180,7 +1180,7 @@ public readonly projectId: string;
 
 The GCP project ID that the datastore target resides in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#project_id GoogleApigeeDatastore#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#project_id GoogleApigeeDatastore#project_id}
 
 ---
 
@@ -1194,7 +1194,7 @@ public readonly bucketName: string;
 
 The name of the Cloud Storage bucket. Required for 'gcs' target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#bucket_name GoogleApigeeDatastore#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#bucket_name GoogleApigeeDatastore#bucket_name}
 
 ---
 
@@ -1208,7 +1208,7 @@ public readonly datasetName: string;
 
 The name of the BigQuery dataset. Required for 'bigquery' target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#dataset_name GoogleApigeeDatastore#dataset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#dataset_name GoogleApigeeDatastore#dataset_name}
 
 ---
 
@@ -1222,7 +1222,7 @@ public readonly path: string;
 
 The path within the Cloud Storage bucket. Used for 'gcs' target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#path GoogleApigeeDatastore#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#path GoogleApigeeDatastore#path}
 
 ---
 
@@ -1236,7 +1236,7 @@ public readonly tablePrefix: string;
 
 The prefix for BigQuery table names. Used for 'bigquery' target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#table_prefix GoogleApigeeDatastore#table_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#table_prefix GoogleApigeeDatastore#table_prefix}
 
 ---
 
@@ -1254,9 +1254,9 @@ const googleApigeeDatastoreTimeouts: googleApigeeDatastore.GoogleApigeeDatastore
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#create GoogleApigeeDatastore#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#delete GoogleApigeeDatastore#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#update GoogleApigeeDatastore#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#create GoogleApigeeDatastore#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#delete GoogleApigeeDatastore#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDatastore.GoogleApigeeDatastoreTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#update GoogleApigeeDatastore#update}. |
 
 ---
 
@@ -1268,7 +1268,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#create GoogleApigeeDatastore#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#create GoogleApigeeDatastore#create}.
 
 ---
 
@@ -1280,7 +1280,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#delete GoogleApigeeDatastore#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#delete GoogleApigeeDatastore#delete}.
 
 ---
 
@@ -1292,7 +1292,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_datastore#update GoogleApigeeDatastore#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_datastore#update GoogleApigeeDatastore#update}.
 
 ---
 

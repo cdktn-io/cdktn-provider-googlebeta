@@ -4,7 +4,7 @@
 
 ### GoogleDnsRecordSet <a name="GoogleDnsRecordSet" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set google_dns_record_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set google_dns_record_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer"></a>
 
@@ -46,7 +46,7 @@ GoogleDnsRecordSet.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The DNS name this record set will apply to. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.type">type</a></code> | <code>java.lang.String</code> | The DNS record set type. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.routingPolicy">routingPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicy">GoogleDnsRecordSetRoutingPolicy</a></code> | routing_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSet.Initializer.parameter.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | The string data for the records in this record set whose meaning depends on the DNS type. |
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the zone in which this record set will reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#managed_zone GoogleDnsRecordSet#managed_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#managed_zone GoogleDnsRecordSet#managed_zone}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The DNS name this record set will apply to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#name GoogleDnsRecordSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#name GoogleDnsRecordSet#name}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The DNS record set type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#type GoogleDnsRecordSet#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#type GoogleDnsRecordSet#type}
 
 ---
 
@@ -157,7 +157,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#deletion_policy GoogleDnsRecordSet#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#deletion_policy GoogleDnsRecordSet#deletion_policy}
 
 ---
 
@@ -165,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,7 +180,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 routing_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#routing_policy GoogleDnsRecordSet#routing_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#routing_policy GoogleDnsRecordSet#routing_policy}
 
 ---
 
@@ -202,7 +202,7 @@ The string data for the records in this record set whose meaning depends on the 
 
 For TXT record, if the string data contains spaces, add surrounding " if you don't want your string to get split on spaces. To specify a single record value longer than 255 characters such as a TXT record for DKIM, add "" inside the Terraform configuration string (e.g. "first255characters""morecharacters").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}
 
 ---
 
@@ -212,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The time-to-live of this record set (seconds).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ttl GoogleDnsRecordSet#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ttl GoogleDnsRecordSet#ttl}
 
 ---
 
@@ -716,7 +716,7 @@ The construct id used in the generated config for the GoogleDnsRecordSet to impo
 
 The id of the existing GoogleDnsRecordSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1151,7 +1151,7 @@ GoogleDnsRecordSetConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.name">name</a></code> | <code>java.lang.String</code> | The DNS name this record set will apply to. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.type">type</a></code> | <code>java.lang.String</code> | The DNS record set type. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.routingPolicy">routingPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicy">GoogleDnsRecordSetRoutingPolicy</a></code> | routing_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetConfig.property.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | The string data for the records in this record set whose meaning depends on the DNS type. |
@@ -1239,7 +1239,7 @@ public java.lang.String getManagedZone();
 
 The name of the zone in which this record set will reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#managed_zone GoogleDnsRecordSet#managed_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#managed_zone GoogleDnsRecordSet#managed_zone}
 
 ---
 
@@ -1253,7 +1253,7 @@ public java.lang.String getName();
 
 The DNS name this record set will apply to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#name GoogleDnsRecordSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#name GoogleDnsRecordSet#name}
 
 ---
 
@@ -1267,7 +1267,7 @@ public java.lang.String getType();
 
 The DNS record set type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#type GoogleDnsRecordSet#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#type GoogleDnsRecordSet#type}
 
 ---
 
@@ -1288,7 +1288,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#deletion_policy GoogleDnsRecordSet#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#deletion_policy GoogleDnsRecordSet#deletion_policy}
 
 ---
 
@@ -1300,7 +1300,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#id GoogleDnsRecordSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1319,7 +1319,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -1333,7 +1333,7 @@ public GoogleDnsRecordSetRoutingPolicy getRoutingPolicy();
 
 routing_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#routing_policy GoogleDnsRecordSet#routing_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#routing_policy GoogleDnsRecordSet#routing_policy}
 
 ---
 
@@ -1349,7 +1349,7 @@ The string data for the records in this record set whose meaning depends on the 
 
 For TXT record, if the string data contains spaces, add surrounding " if you don't want your string to get split on spaces. To specify a single record value longer than 255 characters such as a TXT record for DKIM, add "" inside the Terraform configuration string (e.g. "first255characters""morecharacters").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}
 
 ---
 
@@ -1363,7 +1363,7 @@ public java.lang.Number getTtl();
 
 The time-to-live of this record set (seconds).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ttl GoogleDnsRecordSet#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ttl GoogleDnsRecordSet#ttl}
 
 ---
 
@@ -1405,7 +1405,7 @@ public java.lang.Boolean|IResolvable getEnableGeoFencing();
 
 Specifies whether to enable fencing for geo queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#enable_geo_fencing GoogleDnsRecordSet#enable_geo_fencing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#enable_geo_fencing GoogleDnsRecordSet#enable_geo_fencing}
 
 ---
 
@@ -1419,7 +1419,7 @@ public IResolvable|java.util.List<GoogleDnsRecordSetRoutingPolicyGeo> getGeo();
 
 geo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#geo GoogleDnsRecordSet#geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#geo GoogleDnsRecordSet#geo}
 
 ---
 
@@ -1433,7 +1433,7 @@ public java.lang.String getHealthCheck();
 
 Specifies the health check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#health_check GoogleDnsRecordSet#health_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#health_check GoogleDnsRecordSet#health_check}
 
 ---
 
@@ -1447,7 +1447,7 @@ public GoogleDnsRecordSetRoutingPolicyPrimaryBackup getPrimaryBackup();
 
 primary_backup block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#primary_backup GoogleDnsRecordSet#primary_backup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#primary_backup GoogleDnsRecordSet#primary_backup}
 
 ---
 
@@ -1461,7 +1461,7 @@ public IResolvable|java.util.List<GoogleDnsRecordSetRoutingPolicyWrr> getWrr();
 
 wrr block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#wrr GoogleDnsRecordSet#wrr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#wrr GoogleDnsRecordSet#wrr}
 
 ---
 
@@ -1485,7 +1485,7 @@ GoogleDnsRecordSetRoutingPolicyGeo.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.location">location</a></code> | <code>java.lang.String</code> | The location name defined in Google Cloud. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.healthCheckedTargets">healthCheckedTargets</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets">GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets</a></code> | health_checked_targets block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyGeo.property.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
 
 ---
 
@@ -1499,7 +1499,7 @@ public java.lang.String getLocation();
 
 The location name defined in Google Cloud.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
 
 ---
 
@@ -1513,7 +1513,7 @@ public GoogleDnsRecordSetRoutingPolicyGeoHealthCheckedTargets getHealthCheckedTa
 
 health_checked_targets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
 
 ---
 
@@ -1525,7 +1525,7 @@ public java.util.List<java.lang.String> getRrdatas();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
 
 ---
 
@@ -1561,7 +1561,7 @@ public java.util.List<java.lang.String> getExternalEndpoints();
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -1575,7 +1575,7 @@ public IResolvable|java.util.List<GoogleDnsRecordSetRoutingPolicyGeoHealthChecke
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -1621,7 +1621,7 @@ public java.lang.String getIpAddress();
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -1635,7 +1635,7 @@ public java.lang.String getIpProtocol();
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -1649,7 +1649,7 @@ public java.lang.String getNetworkUrl();
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -1663,7 +1663,7 @@ public java.lang.String getPort();
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -1677,7 +1677,7 @@ public java.lang.String getProject();
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -1691,7 +1691,7 @@ public java.lang.String getLoadBalancerType();
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -1705,7 +1705,7 @@ public java.lang.String getRegion();
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 
@@ -1745,7 +1745,7 @@ public IResolvable|java.util.List<GoogleDnsRecordSetRoutingPolicyPrimaryBackupBa
 
 backup_geo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#backup_geo GoogleDnsRecordSet#backup_geo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#backup_geo GoogleDnsRecordSet#backup_geo}
 
 ---
 
@@ -1759,7 +1759,7 @@ public GoogleDnsRecordSetRoutingPolicyPrimaryBackupPrimary getPrimary();
 
 primary block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#primary GoogleDnsRecordSet#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#primary GoogleDnsRecordSet#primary}
 
 ---
 
@@ -1773,7 +1773,7 @@ public java.lang.Boolean|IResolvable getEnableGeoFencingForBackups();
 
 Specifies whether to enable fencing for backup geo queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#enable_geo_fencing_for_backups GoogleDnsRecordSet#enable_geo_fencing_for_backups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#enable_geo_fencing_for_backups GoogleDnsRecordSet#enable_geo_fencing_for_backups}
 
 ---
 
@@ -1787,7 +1787,7 @@ public java.lang.Number getTrickleRatio();
 
 Specifies the percentage of traffic to send to the backup targets even when the primary targets are healthy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#trickle_ratio GoogleDnsRecordSet#trickle_ratio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#trickle_ratio GoogleDnsRecordSet#trickle_ratio}
 
 ---
 
@@ -1811,7 +1811,7 @@ GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.location">location</a></code> | <code>java.lang.String</code> | The location name defined in Google Cloud. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.healthCheckedTargets">healthCheckedTargets</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets">GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets</a></code> | health_checked_targets block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeo.property.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
 
 ---
 
@@ -1825,7 +1825,7 @@ public java.lang.String getLocation();
 
 The location name defined in Google Cloud.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#location GoogleDnsRecordSet#location}
 
 ---
 
@@ -1839,7 +1839,7 @@ public GoogleDnsRecordSetRoutingPolicyPrimaryBackupBackupGeoHealthCheckedTargets
 
 health_checked_targets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
 
 ---
 
@@ -1851,7 +1851,7 @@ public java.util.List<java.lang.String> getRrdatas();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
 
 ---
 
@@ -1887,7 +1887,7 @@ public java.util.List<java.lang.String> getExternalEndpoints();
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -1901,7 +1901,7 @@ public IResolvable|java.util.List<GoogleDnsRecordSetRoutingPolicyPrimaryBackupBa
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -1947,7 +1947,7 @@ public java.lang.String getIpAddress();
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -1961,7 +1961,7 @@ public java.lang.String getIpProtocol();
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -1975,7 +1975,7 @@ public java.lang.String getNetworkUrl();
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -1989,7 +1989,7 @@ public java.lang.String getPort();
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -2003,7 +2003,7 @@ public java.lang.String getProject();
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -2017,7 +2017,7 @@ public java.lang.String getLoadBalancerType();
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -2031,7 +2031,7 @@ public java.lang.String getRegion();
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 
@@ -2067,7 +2067,7 @@ public java.util.List<java.lang.String> getExternalEndpoints();
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -2081,7 +2081,7 @@ public IResolvable|java.util.List<GoogleDnsRecordSetRoutingPolicyPrimaryBackupPr
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -2127,7 +2127,7 @@ public java.lang.String getIpAddress();
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -2141,7 +2141,7 @@ public java.lang.String getIpProtocol();
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -2155,7 +2155,7 @@ public java.lang.String getNetworkUrl();
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -2169,7 +2169,7 @@ public java.lang.String getPort();
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -2183,7 +2183,7 @@ public java.lang.String getProject();
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -2197,7 +2197,7 @@ public java.lang.String getLoadBalancerType();
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -2211,7 +2211,7 @@ public java.lang.String getRegion();
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 
@@ -2235,7 +2235,7 @@ GoogleDnsRecordSetRoutingPolicyWrr.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.weight">weight</a></code> | <code>java.lang.Number</code> | The ratio of traffic routed to the target. |
 | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.healthCheckedTargets">healthCheckedTargets</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets">GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets</a></code> | health_checked_targets block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDnsRecordSet.GoogleDnsRecordSetRoutingPolicyWrr.property.rrdatas">rrdatas</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}. |
 
 ---
 
@@ -2249,7 +2249,7 @@ public java.lang.Number getWeight();
 
 The ratio of traffic routed to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#weight GoogleDnsRecordSet#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#weight GoogleDnsRecordSet#weight}
 
 ---
 
@@ -2263,7 +2263,7 @@ public GoogleDnsRecordSetRoutingPolicyWrrHealthCheckedTargets getHealthCheckedTa
 
 health_checked_targets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#health_checked_targets GoogleDnsRecordSet#health_checked_targets}
 
 ---
 
@@ -2275,7 +2275,7 @@ public java.util.List<java.lang.String> getRrdatas();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#rrdatas GoogleDnsRecordSet#rrdatas}.
 
 ---
 
@@ -2311,7 +2311,7 @@ public java.util.List<java.lang.String> getExternalEndpoints();
 
 The Internet IP addresses to be health checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#external_endpoints GoogleDnsRecordSet#external_endpoints}
 
 ---
 
@@ -2325,7 +2325,7 @@ public IResolvable|java.util.List<GoogleDnsRecordSetRoutingPolicyWrrHealthChecke
 
 internal_load_balancers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#internal_load_balancers GoogleDnsRecordSet#internal_load_balancers}
 
 ---
 
@@ -2371,7 +2371,7 @@ public java.lang.String getIpAddress();
 
 The frontend IP address of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_address GoogleDnsRecordSet#ip_address}
 
 ---
 
@@ -2385,7 +2385,7 @@ public java.lang.String getIpProtocol();
 
 The configured IP protocol of the load balancer. This value is case-sensitive. Possible values: ["tcp", "udp"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#ip_protocol GoogleDnsRecordSet#ip_protocol}
 
 ---
 
@@ -2399,7 +2399,7 @@ public java.lang.String getNetworkUrl();
 
 The fully qualified url of the network in which the load balancer belongs. This should be formatted like `https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#network_url GoogleDnsRecordSet#network_url}
 
 ---
 
@@ -2413,7 +2413,7 @@ public java.lang.String getPort();
 
 The configured port of the load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#port GoogleDnsRecordSet#port}
 
 ---
 
@@ -2427,7 +2427,7 @@ public java.lang.String getProject();
 
 The ID of the project in which the load balancer belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#project GoogleDnsRecordSet#project}
 
 ---
 
@@ -2441,7 +2441,7 @@ public java.lang.String getLoadBalancerType();
 
 The type of load balancer. This value is case-sensitive. Possible values: ["regionalL4ilb", "regionalL7ilb", "globalL7ilb"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#load_balancer_type GoogleDnsRecordSet#load_balancer_type}
 
 ---
 
@@ -2455,7 +2455,7 @@ public java.lang.String getRegion();
 
 The region of the load balancer. Only needed for regional load balancers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dns_record_set#region GoogleDnsRecordSet#region}
 
 ---
 

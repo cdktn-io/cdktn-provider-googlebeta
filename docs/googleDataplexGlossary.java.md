@@ -4,7 +4,7 @@
 
 ### GoogleDataplexGlossary <a name="GoogleDataplexGlossary" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary google_dataplex_glossary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary google_dataplex_glossary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer"></a>
 
@@ -47,9 +47,9 @@ GoogleDataplexGlossary.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The user-mutable description of the glossary. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | User friendly display name of the glossary. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | User-defined labels for the Glossary. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossary.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts">GoogleDataplexGlossaryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The glossary id for creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#glossary_id GoogleDataplexGlossary#glossary_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#glossary_id GoogleDataplexGlossary#glossary_id}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location where the glossary should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#location GoogleDataplexGlossary#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#location GoogleDataplexGlossary#location}
 
 ---
 
@@ -147,7 +147,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#deletion_policy GoogleDataplexGlossary#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#deletion_policy GoogleDataplexGlossary#deletion_policy}
 
 ---
 
@@ -157,7 +157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The user-mutable description of the glossary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#description GoogleDataplexGlossary#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#description GoogleDataplexGlossary#description}
 
 ---
 
@@ -169,7 +169,7 @@ User friendly display name of the glossary.
 
 This is user-mutable. This will be same as the glossaryId, if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#display_name GoogleDataplexGlossary#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#display_name GoogleDataplexGlossary#display_name}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -193,7 +193,7 @@ User-defined labels for the Glossary.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#labels GoogleDataplexGlossary#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#labels GoogleDataplexGlossary#labels}
 
 ---
 
@@ -201,7 +201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}.
 
 ---
 
@@ -211,7 +211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#timeouts GoogleDataplexGlossary#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#timeouts GoogleDataplexGlossary#timeouts}
 
 ---
 
@@ -722,7 +722,7 @@ The construct id used in the generated config for the GoogleDataplexGlossary to 
 
 The id of the existing GoogleDataplexGlossary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1246,9 +1246,9 @@ GoogleDataplexGlossaryConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.description">description</a></code> | <code>java.lang.String</code> | The user-mutable description of the glossary. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | User friendly display name of the glossary. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | User-defined labels for the Glossary. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts">GoogleDataplexGlossaryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1333,7 +1333,7 @@ public java.lang.String getGlossaryId();
 
 The glossary id for creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#glossary_id GoogleDataplexGlossary#glossary_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#glossary_id GoogleDataplexGlossary#glossary_id}
 
 ---
 
@@ -1347,7 +1347,7 @@ public java.lang.String getLocation();
 
 The location where the glossary should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#location GoogleDataplexGlossary#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#location GoogleDataplexGlossary#location}
 
 ---
 
@@ -1368,7 +1368,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#deletion_policy GoogleDataplexGlossary#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#deletion_policy GoogleDataplexGlossary#deletion_policy}
 
 ---
 
@@ -1382,7 +1382,7 @@ public java.lang.String getDescription();
 
 The user-mutable description of the glossary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#description GoogleDataplexGlossary#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#description GoogleDataplexGlossary#description}
 
 ---
 
@@ -1398,7 +1398,7 @@ User friendly display name of the glossary.
 
 This is user-mutable. This will be same as the glossaryId, if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#display_name GoogleDataplexGlossary#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#display_name GoogleDataplexGlossary#display_name}
 
 ---
 
@@ -1410,7 +1410,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#id GoogleDataplexGlossary#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1430,7 +1430,7 @@ User-defined labels for the Glossary.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#labels GoogleDataplexGlossary#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#labels GoogleDataplexGlossary#labels}
 
 ---
 
@@ -1442,7 +1442,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#project GoogleDataplexGlossary#project}.
 
 ---
 
@@ -1456,7 +1456,7 @@ public GoogleDataplexGlossaryTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#timeouts GoogleDataplexGlossary#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#timeouts GoogleDataplexGlossary#timeouts}
 
 ---
 
@@ -1478,9 +1478,9 @@ GoogleDataplexGlossaryTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexGlossary.GoogleDataplexGlossaryTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}. |
 
 ---
 
@@ -1492,7 +1492,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#create GoogleDataplexGlossary#create}.
 
 ---
 
@@ -1504,7 +1504,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#delete GoogleDataplexGlossary#delete}.
 
 ---
 
@@ -1516,7 +1516,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_glossary#update GoogleDataplexGlossary#update}.
 
 ---
 

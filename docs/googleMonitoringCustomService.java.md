@@ -4,7 +4,7 @@
 
 ### GoogleMonitoringCustomService <a name="GoogleMonitoringCustomService" id="@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer"></a>
 
@@ -43,8 +43,8 @@ GoogleMonitoringCustomService.Builder.create(Construct scope, java.lang.String i
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | Name used for UI elements listing this Service. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.serviceId">serviceId</a></code> | <code>java.lang.String</code> | An optional service ID to use. If not given, the server will generate a service ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.telemetry">telemetry</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTelemetry">GoogleMonitoringCustomServiceTelemetry</a></code> | telemetry block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts">GoogleMonitoringCustomServiceTimeouts</a></code> | timeouts block. |
@@ -125,7 +125,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#deletion_policy GoogleMonitoringCustomService#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#deletion_policy GoogleMonitoringCustomService#deletion_policy}
 
 ---
 
@@ -135,7 +135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name used for UI elements listing this Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#display_name GoogleMonitoringCustomService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#display_name GoogleMonitoringCustomService#display_name}
 
 ---
 
@@ -143,7 +143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -154,7 +154,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}.
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional service ID to use. If not given, the server will generate a service ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#service_id GoogleMonitoringCustomService#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#service_id GoogleMonitoringCustomService#service_id}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 telemetry block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#telemetry GoogleMonitoringCustomService#telemetry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#telemetry GoogleMonitoringCustomService#telemetry}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#timeouts GoogleMonitoringCustomService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#timeouts GoogleMonitoringCustomService#timeouts}
 
 ---
 
@@ -201,7 +201,7 @@ length of 63 characters, and must be less than 128 bytes in size. Up to 64
 label entries may be stored. For labels which do not have a semantic value,
 the empty string may be supplied for the label value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#user_labels GoogleMonitoringCustomService#user_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#user_labels GoogleMonitoringCustomService#user_labels}
 
 ---
 
@@ -732,7 +732,7 @@ The construct id used in the generated config for the GoogleMonitoringCustomServ
 
 The id of the existing GoogleMonitoringCustomService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1153,8 +1153,8 @@ GoogleMonitoringCustomServiceConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | Name used for UI elements listing this Service. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.serviceId">serviceId</a></code> | <code>java.lang.String</code> | An optional service ID to use. If not given, the server will generate a service ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.telemetry">telemetry</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTelemetry">GoogleMonitoringCustomServiceTelemetry</a></code> | telemetry block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts">GoogleMonitoringCustomServiceTimeouts</a></code> | timeouts block. |
@@ -1249,7 +1249,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#deletion_policy GoogleMonitoringCustomService#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#deletion_policy GoogleMonitoringCustomService#deletion_policy}
 
 ---
 
@@ -1263,7 +1263,7 @@ public java.lang.String getDisplayName();
 
 Name used for UI elements listing this Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#display_name GoogleMonitoringCustomService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#display_name GoogleMonitoringCustomService#display_name}
 
 ---
 
@@ -1275,7 +1275,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#id GoogleMonitoringCustomService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1290,7 +1290,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#project GoogleMonitoringCustomService#project}.
 
 ---
 
@@ -1304,7 +1304,7 @@ public java.lang.String getServiceId();
 
 An optional service ID to use. If not given, the server will generate a service ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#service_id GoogleMonitoringCustomService#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#service_id GoogleMonitoringCustomService#service_id}
 
 ---
 
@@ -1318,7 +1318,7 @@ public GoogleMonitoringCustomServiceTelemetry getTelemetry();
 
 telemetry block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#telemetry GoogleMonitoringCustomService#telemetry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#telemetry GoogleMonitoringCustomService#telemetry}
 
 ---
 
@@ -1332,7 +1332,7 @@ public GoogleMonitoringCustomServiceTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#timeouts GoogleMonitoringCustomService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#timeouts GoogleMonitoringCustomService#timeouts}
 
 ---
 
@@ -1353,7 +1353,7 @@ length of 63 characters, and must be less than 128 bytes in size. Up to 64
 label entries may be stored. For labels which do not have a semantic value,
 the empty string may be supplied for the label value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#user_labels GoogleMonitoringCustomService#user_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#user_labels GoogleMonitoringCustomService#user_labels}
 
 ---
 
@@ -1387,7 +1387,7 @@ public java.lang.String getResourceName();
 
 The full name of the resource that defines this service. Formatted as described in https://cloud.google.com/apis/design/resource_names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#resource_name GoogleMonitoringCustomService#resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#resource_name GoogleMonitoringCustomService#resource_name}
 
 ---
 
@@ -1409,9 +1409,9 @@ GoogleMonitoringCustomServiceTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#create GoogleMonitoringCustomService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#delete GoogleMonitoringCustomService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#update GoogleMonitoringCustomService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#create GoogleMonitoringCustomService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#delete GoogleMonitoringCustomService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomServiceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#update GoogleMonitoringCustomService#update}. |
 
 ---
 
@@ -1423,7 +1423,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#create GoogleMonitoringCustomService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#create GoogleMonitoringCustomService#create}.
 
 ---
 
@@ -1435,7 +1435,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#delete GoogleMonitoringCustomService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#delete GoogleMonitoringCustomService#delete}.
 
 ---
 
@@ -1447,7 +1447,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_monitoring_custom_service#update GoogleMonitoringCustomService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_monitoring_custom_service#update GoogleMonitoringCustomService#update}.
 
 ---
 

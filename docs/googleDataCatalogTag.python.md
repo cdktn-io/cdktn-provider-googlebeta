@@ -4,7 +4,7 @@
 
 ### GoogleDataCatalogTag <a name="GoogleDataCatalogTag" id="@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag google_data_catalog_tag}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag google_data_catalog_tag}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer"></a>
 
@@ -46,7 +46,7 @@ googleDataCatalogTag.GoogleDataCatalogTag(
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer.parameter.template">template</a></code> | <code>str</code> | The resource name of the tag template that this tag uses. Example: projects/{project_id}/locations/{location}/tagTemplates/{tagTemplateId} This field cannot be modified after creation. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer.parameter.column">column</a></code> | <code>str</code> | Resources like Entry can have schemas associated with them. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer.parameter.parent">parent</a></code> | <code>str</code> | The name of the parent this tag is attached to. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTag.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts">GoogleDataCatalogTagTimeouts</a></code> | timeouts block. |
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#fields GoogleDataCatalogTag#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#fields GoogleDataCatalogTag#fields}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the tag template that this tag uses. Example: projects/{project_id}/locations/{location}/tagTemplates/{tagTemplateId} This field cannot be modified after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#template GoogleDataCatalogTag#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#template GoogleDataCatalogTag#template}
 
 ---
 
@@ -144,7 +144,7 @@ individual column based on that schema.
 For attaching a tag to a nested column, use '.' to separate the column names. Example:
 'outer_column.inner_column'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#column GoogleDataCatalogTag#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#column GoogleDataCatalogTag#column}
 
 ---
 
@@ -161,7 +161,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#deletion_policy GoogleDataCatalogTag#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#deletion_policy GoogleDataCatalogTag#deletion_policy}
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,7 +185,7 @@ The name of the parent this tag is attached to.
 This can be the name of an entry or an entry group. If an entry group, the tag will be attached to
 all entries in that group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#parent GoogleDataCatalogTag#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#parent GoogleDataCatalogTag#parent}
 
 ---
 
@@ -195,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#timeouts GoogleDataCatalogTag#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#timeouts GoogleDataCatalogTag#timeouts}
 
 ---
 
@@ -613,7 +613,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}.
 
 ---
 
@@ -621,7 +621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}.
 
 ---
 
@@ -629,7 +629,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}.
 
 ---
 
@@ -777,7 +777,7 @@ The construct id used in the generated config for the GoogleDataCatalogTag to im
 
 The id of the existing GoogleDataCatalogTag that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1188,7 +1188,7 @@ googleDataCatalogTag.GoogleDataCatalogTagConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagConfig.property.template">template</a></code> | <code>str</code> | The resource name of the tag template that this tag uses. Example: projects/{project_id}/locations/{location}/tagTemplates/{tagTemplateId} This field cannot be modified after creation. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagConfig.property.column">column</a></code> | <code>str</code> | Resources like Entry can have schemas associated with them. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagConfig.property.parent">parent</a></code> | <code>str</code> | The name of the parent this tag is attached to. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts">GoogleDataCatalogTagTimeouts</a></code> | timeouts block. |
 
@@ -1274,7 +1274,7 @@ fields: IResolvable | typing.List[GoogleDataCatalogTagFields]
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#fields GoogleDataCatalogTag#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#fields GoogleDataCatalogTag#fields}
 
 ---
 
@@ -1288,7 +1288,7 @@ template: str
 
 The resource name of the tag template that this tag uses. Example: projects/{project_id}/locations/{location}/tagTemplates/{tagTemplateId} This field cannot be modified after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#template GoogleDataCatalogTag#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#template GoogleDataCatalogTag#template}
 
 ---
 
@@ -1308,7 +1308,7 @@ individual column based on that schema.
 For attaching a tag to a nested column, use '.' to separate the column names. Example:
 'outer_column.inner_column'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#column GoogleDataCatalogTag#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#column GoogleDataCatalogTag#column}
 
 ---
 
@@ -1329,7 +1329,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#deletion_policy GoogleDataCatalogTag#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#deletion_policy GoogleDataCatalogTag#deletion_policy}
 
 ---
 
@@ -1341,7 +1341,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#id GoogleDataCatalogTag#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1361,7 +1361,7 @@ The name of the parent this tag is attached to.
 This can be the name of an entry or an entry group. If an entry group, the tag will be attached to
 all entries in that group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#parent GoogleDataCatalogTag#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#parent GoogleDataCatalogTag#parent}
 
 ---
 
@@ -1375,7 +1375,7 @@ timeouts: GoogleDataCatalogTagTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#timeouts GoogleDataCatalogTag#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#timeouts GoogleDataCatalogTag#timeouts}
 
 ---
 
@@ -1400,7 +1400,7 @@ googleDataCatalogTag.GoogleDataCatalogTagFields(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagFields.property.fieldName">field_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#field_name GoogleDataCatalogTag#field_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagFields.property.fieldName">field_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#field_name GoogleDataCatalogTag#field_name}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagFields.property.boolValue">bool_value</a></code> | <code>bool \| cdktn.IResolvable</code> | Holds the value for a tag field with boolean type. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagFields.property.doubleValue">double_value</a></code> | <code>typing.Union[int, float]</code> | Holds the value for a tag field with double type. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagFields.property.enumValue">enum_value</a></code> | <code>str</code> | The display name of the enum value. |
@@ -1417,7 +1417,7 @@ field_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#field_name GoogleDataCatalogTag#field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#field_name GoogleDataCatalogTag#field_name}.
 
 ---
 
@@ -1431,7 +1431,7 @@ bool_value: bool | IResolvable
 
 Holds the value for a tag field with boolean type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#bool_value GoogleDataCatalogTag#bool_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#bool_value GoogleDataCatalogTag#bool_value}
 
 ---
 
@@ -1445,7 +1445,7 @@ double_value: typing.Union[int, float]
 
 Holds the value for a tag field with double type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#double_value GoogleDataCatalogTag#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#double_value GoogleDataCatalogTag#double_value}
 
 ---
 
@@ -1459,7 +1459,7 @@ enum_value: str
 
 The display name of the enum value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#enum_value GoogleDataCatalogTag#enum_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#enum_value GoogleDataCatalogTag#enum_value}
 
 ---
 
@@ -1473,7 +1473,7 @@ string_value: str
 
 Holds the value for a tag field with string type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#string_value GoogleDataCatalogTag#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#string_value GoogleDataCatalogTag#string_value}
 
 ---
 
@@ -1487,7 +1487,7 @@ timestamp_value: str
 
 Holds the value for a tag field with timestamp type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#timestamp_value GoogleDataCatalogTag#timestamp_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#timestamp_value GoogleDataCatalogTag#timestamp_value}
 
 ---
 
@@ -1509,9 +1509,9 @@ googleDataCatalogTag.GoogleDataCatalogTagTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTag.GoogleDataCatalogTagTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}. |
 
 ---
 
@@ -1523,7 +1523,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#create GoogleDataCatalogTag#create}.
 
 ---
 
@@ -1535,7 +1535,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#delete GoogleDataCatalogTag#delete}.
 
 ---
 
@@ -1547,7 +1547,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag#update GoogleDataCatalogTag#update}.
 
 ---
 

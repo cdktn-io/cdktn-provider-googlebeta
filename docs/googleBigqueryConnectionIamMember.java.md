@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryConnectionIamMember <a name="GoogleBigqueryConnectionIamMember" id="@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member google_bigquery_connection_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member google_bigquery_connection_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer"></a>
 
@@ -40,13 +40,13 @@ GoogleBigqueryConnectionIamMember.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.connectionId">connectionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.connectionId">connectionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition">GoogleBigqueryConnectionIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMember.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#condition GoogleBigqueryConnectionIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#condition GoogleBigqueryConnectionIamMember#condition}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +159,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}.
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}.
 
 ---
 
@@ -657,7 +657,7 @@ The construct id used in the generated config for the GoogleBigqueryConnectionIa
 
 The id of the existing GoogleBigqueryConnectionIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1035,9 +1035,9 @@ GoogleBigqueryConnectionIamMemberCondition.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#expression GoogleBigqueryConnectionIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#title GoogleBigqueryConnectionIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#description GoogleBigqueryConnectionIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#expression GoogleBigqueryConnectionIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#title GoogleBigqueryConnectionIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#description GoogleBigqueryConnectionIamMember#description}. |
 
 ---
 
@@ -1049,7 +1049,7 @@ public java.lang.String getExpression();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#expression GoogleBigqueryConnectionIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#expression GoogleBigqueryConnectionIamMember#expression}.
 
 ---
 
@@ -1061,7 +1061,7 @@ public java.lang.String getTitle();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#title GoogleBigqueryConnectionIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#title GoogleBigqueryConnectionIamMember#title}.
 
 ---
 
@@ -1073,7 +1073,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#description GoogleBigqueryConnectionIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#description GoogleBigqueryConnectionIamMember#description}.
 
 ---
 
@@ -1113,13 +1113,13 @@ GoogleBigqueryConnectionIamMemberConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.connectionId">connectionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.connectionId">connectionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberCondition">GoogleBigqueryConnectionIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryConnectionIamMember.GoogleBigqueryConnectionIamMemberConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}. |
 
 ---
 
@@ -1201,7 +1201,7 @@ public java.lang.String getConnectionId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#connection_id GoogleBigqueryConnectionIamMember#connection_id}.
 
 ---
 
@@ -1213,7 +1213,7 @@ public java.lang.String getMember();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#member GoogleBigqueryConnectionIamMember#member}.
 
 ---
 
@@ -1225,7 +1225,7 @@ public java.lang.String getRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#role GoogleBigqueryConnectionIamMember#role}.
 
 ---
 
@@ -1239,7 +1239,7 @@ public GoogleBigqueryConnectionIamMemberCondition getCondition();
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#condition GoogleBigqueryConnectionIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#condition GoogleBigqueryConnectionIamMember#condition}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#id GoogleBigqueryConnectionIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1266,7 +1266,7 @@ public java.lang.String getLocation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#location GoogleBigqueryConnectionIamMember#location}.
 
 ---
 
@@ -1278,7 +1278,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_connection_iam_member#project GoogleBigqueryConnectionIamMember#project}.
 
 ---
 

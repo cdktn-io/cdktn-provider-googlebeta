@@ -4,7 +4,7 @@
 
 ### GoogleFirebaseAiLogicPromptTemplate <a name="GoogleFirebaseAiLogicPromptTemplate" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplate.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleFirebaseAiLogicPromp
 
 The id of the existing GoogleFirebaseAiLogicPromptTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1029,8 +1029,8 @@ const googleFirebaseAiLogicPromptTemplateConfig: googleFirebaseAiLogicPromptTemp
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.templateString">templateString</a></code> | <code>string</code> | The [Dotprompt](https://google.github.io/dotprompt/getting-started) raw template string. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.displayName">displayName</a></code> | <code>string</code> | The display name of the PromptTemplate. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#id GoogleFirebaseAiLogicPromptTemplate#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#project GoogleFirebaseAiLogicPromptTemplate#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#id GoogleFirebaseAiLogicPromptTemplate#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#project GoogleFirebaseAiLogicPromptTemplate#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.regionalPropagationDisabled">regionalPropagationDisabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | For the 'global' location only. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts">GoogleFirebaseAiLogicPromptTemplateTimeouts</a></code> | timeouts block. |
 
@@ -1116,7 +1116,7 @@ public readonly location: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#location GoogleFirebaseAiLogicPromptTemplate#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#location GoogleFirebaseAiLogicPromptTemplate#location}
 
 ---
 
@@ -1130,7 +1130,7 @@ public readonly templateId: string;
 
 The unique ID of the PromptTemplate, which is the final component of the PromptTemplate's resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#template_id GoogleFirebaseAiLogicPromptTemplate#template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#template_id GoogleFirebaseAiLogicPromptTemplate#template_id}
 
 ---
 
@@ -1144,7 +1144,7 @@ public readonly templateString: string;
 
 The [Dotprompt](https://google.github.io/dotprompt/getting-started) raw template string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#template_string GoogleFirebaseAiLogicPromptTemplate#template_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#template_string GoogleFirebaseAiLogicPromptTemplate#template_string}
 
 ---
 
@@ -1166,7 +1166,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#deletion_policy GoogleFirebaseAiLogicPromptTemplate#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#deletion_policy GoogleFirebaseAiLogicPromptTemplate#deletion_policy}
 
 ---
 
@@ -1180,7 +1180,7 @@ public readonly displayName: string;
 
 The display name of the PromptTemplate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#display_name GoogleFirebaseAiLogicPromptTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#display_name GoogleFirebaseAiLogicPromptTemplate#display_name}
 
 ---
 
@@ -1192,7 +1192,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#id GoogleFirebaseAiLogicPromptTemplate#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#id GoogleFirebaseAiLogicPromptTemplate#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1207,7 +1207,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#project GoogleFirebaseAiLogicPromptTemplate#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#project GoogleFirebaseAiLogicPromptTemplate#project}.
 
 ---
 
@@ -1225,7 +1225,7 @@ If true, the write operation (create,
 update, or delete) will apply to the global region only. Otherwise, the
 operation will also propagate to all applicable regions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#regional_propagation_disabled GoogleFirebaseAiLogicPromptTemplate#regional_propagation_disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#regional_propagation_disabled GoogleFirebaseAiLogicPromptTemplate#regional_propagation_disabled}
 
 ---
 
@@ -1239,7 +1239,7 @@ public readonly timeouts: GoogleFirebaseAiLogicPromptTemplateTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#timeouts GoogleFirebaseAiLogicPromptTemplate#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#timeouts GoogleFirebaseAiLogicPromptTemplate#timeouts}
 
 ---
 
@@ -1257,9 +1257,9 @@ const googleFirebaseAiLogicPromptTemplateTimeouts: googleFirebaseAiLogicPromptTe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#create GoogleFirebaseAiLogicPromptTemplate#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#delete GoogleFirebaseAiLogicPromptTemplate#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#update GoogleFirebaseAiLogicPromptTemplate#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#create GoogleFirebaseAiLogicPromptTemplate#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#delete GoogleFirebaseAiLogicPromptTemplate#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#update GoogleFirebaseAiLogicPromptTemplate#update}. |
 
 ---
 
@@ -1271,7 +1271,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#create GoogleFirebaseAiLogicPromptTemplate#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#create GoogleFirebaseAiLogicPromptTemplate#create}.
 
 ---
 
@@ -1283,7 +1283,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#delete GoogleFirebaseAiLogicPromptTemplate#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#delete GoogleFirebaseAiLogicPromptTemplate#delete}.
 
 ---
 
@@ -1295,7 +1295,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template#update GoogleFirebaseAiLogicPromptTemplate#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_firebase_ai_logic_prompt_template#update GoogleFirebaseAiLogicPromptTemplate#update}.
 
 ---
 

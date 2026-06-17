@@ -4,7 +4,7 @@
 
 ### GoogleNetworkSecurityAddressGroupIamBinding <a name="GoogleNetworkSecurityAddressGroupIamBinding" id="@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding google_network_security_address_group_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding google_network_security_address_group_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleNetworkSecurityAddre
 
 The id of the existing GoogleNetworkSecurityAddressGroupIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#expression GoogleNetworkSecurityAddressGroupIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#title GoogleNetworkSecurityAddressGroupIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#description GoogleNetworkSecurityAddressGroupIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#expression GoogleNetworkSecurityAddressGroupIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#title GoogleNetworkSecurityAddressGroupIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#description GoogleNetworkSecurityAddressGroupIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#expression GoogleNetworkSecurityAddressGroupIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#expression GoogleNetworkSecurityAddressGroupIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#title GoogleNetworkSecurityAddressGroupIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#title GoogleNetworkSecurityAddressGroupIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#description GoogleNetworkSecurityAddressGroupIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#description GoogleNetworkSecurityAddressGroupIamBinding#description}.
 
 ---
 
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#members GoogleNetworkSecurityAddressGroupIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#name GoogleNetworkSecurityAddressGroupIamBinding#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#role GoogleNetworkSecurityAddressGroupIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#members GoogleNetworkSecurityAddressGroupIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#name GoogleNetworkSecurityAddressGroupIamBinding#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#role GoogleNetworkSecurityAddressGroupIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingCondition">GoogleNetworkSecurityAddressGroupIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#id GoogleNetworkSecurityAddressGroupIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#location GoogleNetworkSecurityAddressGroupIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#project GoogleNetworkSecurityAddressGroupIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#id GoogleNetworkSecurityAddressGroupIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#location GoogleNetworkSecurityAddressGroupIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityAddressGroupIamBinding.GoogleNetworkSecurityAddressGroupIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#project GoogleNetworkSecurityAddressGroupIamBinding#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#members GoogleNetworkSecurityAddressGroupIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#members GoogleNetworkSecurityAddressGroupIamBinding#members}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#name GoogleNetworkSecurityAddressGroupIamBinding#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#name GoogleNetworkSecurityAddressGroupIamBinding#name}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#role GoogleNetworkSecurityAddressGroupIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#role GoogleNetworkSecurityAddressGroupIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleNetworkSecurityAddressGroupIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#condition GoogleNetworkSecurityAddressGroupIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#condition GoogleNetworkSecurityAddressGroupIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#id GoogleNetworkSecurityAddressGroupIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#id GoogleNetworkSecurityAddressGroupIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#location GoogleNetworkSecurityAddressGroupIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#location GoogleNetworkSecurityAddressGroupIamBinding#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_address_group_iam_binding#project GoogleNetworkSecurityAddressGroupIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_address_group_iam_binding#project GoogleNetworkSecurityAddressGroupIamBinding#project}.
 
 ---
 

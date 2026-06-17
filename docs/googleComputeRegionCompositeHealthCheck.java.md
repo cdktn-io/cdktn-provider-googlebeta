@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionCompositeHealthCheck <a name="GoogleComputeRegionCompositeHealthCheck" id="@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck.Initializer"></a>
 
@@ -47,7 +47,7 @@ GoogleComputeRegionCompositeHealthCheck.Builder.create(Construct scope, java.lan
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck.Initializer.parameter.healthSources">healthSources</a></code> | <code>java.util.List<java.lang.String></code> | URLs to the HealthSource resources whose results are AND'ed. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheck.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts">GoogleComputeRegionCompositeHealthCheckTimeouts</a></code> | timeouts block. |
 
 ---
@@ -125,7 +125,7 @@ INTERNAL_MANAGED and must be regional and in the same region
 as the CompositeHealthCheck (cross-region deployment for
 INTERNAL_MANAGED is not supported). Can be mutated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#health_destination GoogleComputeRegionCompositeHealthCheck#health_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#health_destination GoogleComputeRegionCompositeHealthCheck#health_destination}
 
 ---
 
@@ -143,7 +143,7 @@ character must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit, except the last character, which
 cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#name GoogleComputeRegionCompositeHealthCheck#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#name GoogleComputeRegionCompositeHealthCheck#name}
 
 ---
 
@@ -153,7 +153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of the region where the composite health check resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#region GoogleComputeRegionCompositeHealthCheck#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#region GoogleComputeRegionCompositeHealthCheck#region}
 
 ---
 
@@ -170,7 +170,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#deletion_policy GoogleComputeRegionCompositeHealthCheck#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#deletion_policy GoogleComputeRegionCompositeHealthCheck#deletion_policy}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#description GoogleComputeRegionCompositeHealthCheck#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#description GoogleComputeRegionCompositeHealthCheck#description}
 
 ---
 
@@ -195,7 +195,7 @@ are HEALTHY. Must have at least 1. Must not have more than 10.
 Must be regional and in the same region as the
 CompositeHealthCheck. Can be mutated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#health_sources GoogleComputeRegionCompositeHealthCheck#health_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#health_sources GoogleComputeRegionCompositeHealthCheck#health_sources}
 
 ---
 
@@ -203,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}.
 
 ---
 
@@ -213,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#timeouts GoogleComputeRegionCompositeHealthCheck#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#timeouts GoogleComputeRegionCompositeHealthCheck#timeouts}
 
 ---
 
@@ -710,7 +710,7 @@ The construct id used in the generated config for the GoogleComputeRegionComposi
 
 The id of the existing GoogleComputeRegionCompositeHealthCheck that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1168,7 +1168,7 @@ GoogleComputeRegionCompositeHealthCheckConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckConfig.property.healthSources">healthSources</a></code> | <code>java.util.List<java.lang.String></code> | URLs to the HealthSource resources whose results are AND'ed. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts">GoogleComputeRegionCompositeHealthCheckTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1260,7 +1260,7 @@ INTERNAL_MANAGED and must be regional and in the same region
 as the CompositeHealthCheck (cross-region deployment for
 INTERNAL_MANAGED is not supported). Can be mutated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#health_destination GoogleComputeRegionCompositeHealthCheck#health_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#health_destination GoogleComputeRegionCompositeHealthCheck#health_destination}
 
 ---
 
@@ -1282,7 +1282,7 @@ character must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit, except the last character, which
 cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#name GoogleComputeRegionCompositeHealthCheck#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#name GoogleComputeRegionCompositeHealthCheck#name}
 
 ---
 
@@ -1296,7 +1296,7 @@ public java.lang.String getRegion();
 
 URL of the region where the composite health check resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#region GoogleComputeRegionCompositeHealthCheck#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#region GoogleComputeRegionCompositeHealthCheck#region}
 
 ---
 
@@ -1317,7 +1317,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#deletion_policy GoogleComputeRegionCompositeHealthCheck#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#deletion_policy GoogleComputeRegionCompositeHealthCheck#deletion_policy}
 
 ---
 
@@ -1331,7 +1331,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#description GoogleComputeRegionCompositeHealthCheck#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#description GoogleComputeRegionCompositeHealthCheck#description}
 
 ---
 
@@ -1350,7 +1350,7 @@ are HEALTHY. Must have at least 1. Must not have more than 10.
 Must be regional and in the same region as the
 CompositeHealthCheck. Can be mutated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#health_sources GoogleComputeRegionCompositeHealthCheck#health_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#health_sources GoogleComputeRegionCompositeHealthCheck#health_sources}
 
 ---
 
@@ -1362,7 +1362,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#project GoogleComputeRegionCompositeHealthCheck#project}.
 
 ---
 
@@ -1376,7 +1376,7 @@ public GoogleComputeRegionCompositeHealthCheckTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#timeouts GoogleComputeRegionCompositeHealthCheck#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#timeouts GoogleComputeRegionCompositeHealthCheck#timeouts}
 
 ---
 
@@ -1398,9 +1398,9 @@ GoogleComputeRegionCompositeHealthCheckTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#create GoogleComputeRegionCompositeHealthCheck#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#delete GoogleComputeRegionCompositeHealthCheck#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#update GoogleComputeRegionCompositeHealthCheck#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#create GoogleComputeRegionCompositeHealthCheck#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#delete GoogleComputeRegionCompositeHealthCheck#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionCompositeHealthCheck.GoogleComputeRegionCompositeHealthCheckTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#update GoogleComputeRegionCompositeHealthCheck#update}. |
 
 ---
 
@@ -1412,7 +1412,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#create GoogleComputeRegionCompositeHealthCheck#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#create GoogleComputeRegionCompositeHealthCheck#create}.
 
 ---
 
@@ -1424,7 +1424,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#delete GoogleComputeRegionCompositeHealthCheck#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#delete GoogleComputeRegionCompositeHealthCheck#delete}.
 
 ---
 
@@ -1436,7 +1436,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_composite_health_check#update GoogleComputeRegionCompositeHealthCheck#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_composite_health_check#update GoogleComputeRegionCompositeHealthCheck#update}.
 
 ---
 

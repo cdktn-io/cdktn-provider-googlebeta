@@ -4,7 +4,7 @@
 
 ### GoogleNetworkServicesMulticastGroupRangeActivation <a name="GoogleNetworkServicesMulticastGroupRangeActivation" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivation.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleNetworkServicesMulti
 
 The id of the existing GoogleNetworkServicesMulticastGroupRangeActivation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1146,10 +1146,10 @@ new GoogleNetworkServicesMulticastGroupRangeActivationConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.multicastGroupRangeActivationId">MulticastGroupRangeActivationId</a></code> | <code>string</code> | A unique name for the multicast group range activation. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.description">Description</a></code> | <code>string</code> | An optional text description of the multicast group range activation. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#id GoogleNetworkServicesMulticastGroupRangeActivation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#id GoogleNetworkServicesMulticastGroupRangeActivation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels as key-value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.logConfig">LogConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationLogConfig">GoogleNetworkServicesMulticastGroupRangeActivationLogConfig</a></code> | log_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#project GoogleNetworkServicesMulticastGroupRangeActivation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#project GoogleNetworkServicesMulticastGroupRangeActivation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationTimeouts">GoogleNetworkServicesMulticastGroupRangeActivationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1234,7 +1234,7 @@ public string Location { get; set; }
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#location GoogleNetworkServicesMulticastGroupRangeActivation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#location GoogleNetworkServicesMulticastGroupRangeActivation#location}
 
 ---
 
@@ -1251,7 +1251,7 @@ The resource name of a multicast domain activation that is in the same zone as t
 Use the following format:
 'projects/* /locations/* /multicastDomainActivations/*'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#multicast_domain_activation GoogleNetworkServicesMulticastGroupRangeActivation#multicast_domain_activation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#multicast_domain_activation GoogleNetworkServicesMulticastGroupRangeActivation#multicast_domain_activation}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1267,7 +1267,7 @@ public string MulticastGroupRange { get; set; }
 
 The resource name of the global multicast group range for the group. Use the following format: 'projects/* /locations/global/multicastGroupRanges/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#multicast_group_range GoogleNetworkServicesMulticastGroupRangeActivation#multicast_group_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#multicast_group_range GoogleNetworkServicesMulticastGroupRangeActivation#multicast_group_range}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1287,7 +1287,7 @@ The name is restricted to letters, numbers, and hyphen, with the first
 character a letter, and the last a letter or a number. The name must not
 exceed 48 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#multicast_group_range_activation_id GoogleNetworkServicesMulticastGroupRangeActivation#multicast_group_range_activation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#multicast_group_range_activation_id GoogleNetworkServicesMulticastGroupRangeActivation#multicast_group_range_activation_id}
 
 ---
 
@@ -1308,7 +1308,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#deletion_policy GoogleNetworkServicesMulticastGroupRangeActivation#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#deletion_policy GoogleNetworkServicesMulticastGroupRangeActivation#deletion_policy}
 
 ---
 
@@ -1322,7 +1322,7 @@ public string Description { get; set; }
 
 An optional text description of the multicast group range activation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#description GoogleNetworkServicesMulticastGroupRangeActivation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#description GoogleNetworkServicesMulticastGroupRangeActivation#description}
 
 ---
 
@@ -1334,7 +1334,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#id GoogleNetworkServicesMulticastGroupRangeActivation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#id GoogleNetworkServicesMulticastGroupRangeActivation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1354,7 +1354,7 @@ Labels as key-value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#labels GoogleNetworkServicesMulticastGroupRangeActivation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#labels GoogleNetworkServicesMulticastGroupRangeActivation#labels}
 
 ---
 
@@ -1368,7 +1368,7 @@ public GoogleNetworkServicesMulticastGroupRangeActivationLogConfig LogConfig { g
 
 log_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#log_config GoogleNetworkServicesMulticastGroupRangeActivation#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#log_config GoogleNetworkServicesMulticastGroupRangeActivation#log_config}
 
 ---
 
@@ -1380,7 +1380,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#project GoogleNetworkServicesMulticastGroupRangeActivation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#project GoogleNetworkServicesMulticastGroupRangeActivation#project}.
 
 ---
 
@@ -1394,7 +1394,7 @@ public GoogleNetworkServicesMulticastGroupRangeActivationTimeouts Timeouts { get
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#timeouts GoogleNetworkServicesMulticastGroupRangeActivation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#timeouts GoogleNetworkServicesMulticastGroupRangeActivation#timeouts}
 
 ---
 
@@ -1428,7 +1428,7 @@ public bool|IResolvable Enabled { get; set; }
 
 Whether to enable logging or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#enabled GoogleNetworkServicesMulticastGroupRangeActivation#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#enabled GoogleNetworkServicesMulticastGroupRangeActivation#enabled}
 
 ---
 
@@ -1463,9 +1463,9 @@ new GoogleNetworkServicesMulticastGroupRangeActivationTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#create GoogleNetworkServicesMulticastGroupRangeActivation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#delete GoogleNetworkServicesMulticastGroupRangeActivation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#update GoogleNetworkServicesMulticastGroupRangeActivation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#create GoogleNetworkServicesMulticastGroupRangeActivation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#delete GoogleNetworkServicesMulticastGroupRangeActivation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupRangeActivation.GoogleNetworkServicesMulticastGroupRangeActivationTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#update GoogleNetworkServicesMulticastGroupRangeActivation#update}. |
 
 ---
 
@@ -1477,7 +1477,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#create GoogleNetworkServicesMulticastGroupRangeActivation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#create GoogleNetworkServicesMulticastGroupRangeActivation#create}.
 
 ---
 
@@ -1489,7 +1489,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#delete GoogleNetworkServicesMulticastGroupRangeActivation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#delete GoogleNetworkServicesMulticastGroupRangeActivation#delete}.
 
 ---
 
@@ -1501,7 +1501,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_group_range_activation#update GoogleNetworkServicesMulticastGroupRangeActivation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_services_multicast_group_range_activation#update GoogleNetworkServicesMulticastGroupRangeActivation#update}.
 
 ---
 
