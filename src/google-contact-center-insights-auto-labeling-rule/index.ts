@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleContactCenterInsightsAutoLabelingRuleConfig extends cdktn
   /**
   * Whether the rule is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#active GoogleContactCenterInsightsAutoLabelingRule#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#active GoogleContactCenterInsightsAutoLabelingRule#active}
   */
   readonly active?: boolean | cdktn.IResolvable;
   /**
@@ -26,7 +26,7 @@ export interface GoogleContactCenterInsightsAutoLabelingRuleConfig extends cdktn
   * This value should be 4-64 characters and must match the regular
   * expression '^[A-Za-z0-9]{4,64}$'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#auto_labeling_rule_id GoogleContactCenterInsightsAutoLabelingRule#auto_labeling_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#auto_labeling_rule_id GoogleContactCenterInsightsAutoLabelingRule#auto_labeling_rule_id}
   */
   readonly autoLabelingRuleId?: string;
   /**
@@ -38,23 +38,23 @@ export interface GoogleContactCenterInsightsAutoLabelingRuleConfig extends cdktn
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#deletion_policy GoogleContactCenterInsightsAutoLabelingRule#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#deletion_policy GoogleContactCenterInsightsAutoLabelingRule#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#description GoogleContactCenterInsightsAutoLabelingRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#description GoogleContactCenterInsightsAutoLabelingRule#description}
   */
   readonly description?: string;
   /**
   * Display Name of the auto labeling rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#display_name GoogleContactCenterInsightsAutoLabelingRule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#display_name GoogleContactCenterInsightsAutoLabelingRule#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#id GoogleContactCenterInsightsAutoLabelingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#id GoogleContactCenterInsightsAutoLabelingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,35 +63,35 @@ export interface GoogleContactCenterInsightsAutoLabelingRuleConfig extends cdktn
   /**
   * The label key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#label_key GoogleContactCenterInsightsAutoLabelingRule#label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#label_key GoogleContactCenterInsightsAutoLabelingRule#label_key}
   */
   readonly labelKey?: string;
   /**
   * The type of the label key. Possible values: ["LABEL_KEY_TYPE_UNSPECIFIED", "LABEL_KEY_TYPE_CUSTOM"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#label_key_type GoogleContactCenterInsightsAutoLabelingRule#label_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#label_key_type GoogleContactCenterInsightsAutoLabelingRule#label_key_type}
   */
   readonly labelKeyType?: string;
   /**
   * Location of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#location GoogleContactCenterInsightsAutoLabelingRule#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#location GoogleContactCenterInsightsAutoLabelingRule#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#project GoogleContactCenterInsightsAutoLabelingRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#project GoogleContactCenterInsightsAutoLabelingRule#project}
   */
   readonly project?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#conditions GoogleContactCenterInsightsAutoLabelingRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#conditions GoogleContactCenterInsightsAutoLabelingRule#conditions}
   */
   readonly conditions?: GoogleContactCenterInsightsAutoLabelingRuleConditions[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#timeouts GoogleContactCenterInsightsAutoLabelingRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#timeouts GoogleContactCenterInsightsAutoLabelingRule#timeouts}
   */
   readonly timeouts?: GoogleContactCenterInsightsAutoLabelingRuleTimeouts;
 }
@@ -101,13 +101,13 @@ export interface GoogleContactCenterInsightsAutoLabelingRuleConditions {
   * Once evaluated as true, then we will proceed with the value evaluation.
   * An empty condition will be auto evaluated as true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#condition GoogleContactCenterInsightsAutoLabelingRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#condition GoogleContactCenterInsightsAutoLabelingRule#condition}
   */
   readonly condition?: string;
   /**
   * CEL expression to be evaluated as the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#value GoogleContactCenterInsightsAutoLabelingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#value GoogleContactCenterInsightsAutoLabelingRule#value}
   */
   readonly value?: string;
 }
@@ -252,15 +252,15 @@ export class GoogleContactCenterInsightsAutoLabelingRuleConditionsList extends c
 }
 export interface GoogleContactCenterInsightsAutoLabelingRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#create GoogleContactCenterInsightsAutoLabelingRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#create GoogleContactCenterInsightsAutoLabelingRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#delete GoogleContactCenterInsightsAutoLabelingRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#delete GoogleContactCenterInsightsAutoLabelingRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#update GoogleContactCenterInsightsAutoLabelingRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#update GoogleContactCenterInsightsAutoLabelingRule#update}
   */
   readonly update?: string;
 }
@@ -412,7 +412,7 @@ export class GoogleContactCenterInsightsAutoLabelingRuleTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}
 */
 export class GoogleContactCenterInsightsAutoLabelingRule extends cdktn.TerraformResource {
 
@@ -428,7 +428,7 @@ export class GoogleContactCenterInsightsAutoLabelingRule extends cdktn.Terraform
   * Generates CDKTN code for importing a GoogleContactCenterInsightsAutoLabelingRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleContactCenterInsightsAutoLabelingRule to import
-  * @param importFromId The id of the existing GoogleContactCenterInsightsAutoLabelingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleContactCenterInsightsAutoLabelingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleContactCenterInsightsAutoLabelingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -440,7 +440,7 @@ export class GoogleContactCenterInsightsAutoLabelingRule extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -451,7 +451,7 @@ export class GoogleContactCenterInsightsAutoLabelingRule extends cdktn.Terraform
       terraformResourceType: 'google_contact_center_insights_auto_labeling_rule',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

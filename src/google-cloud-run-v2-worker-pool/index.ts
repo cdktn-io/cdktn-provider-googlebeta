@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -23,26 +23,26 @@ export interface GoogleCloudRunV2WorkerPoolConfig extends cdktn.TerraformMetaArg
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Arbitrary identifier for the API client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#client GoogleCloudRunV2WorkerPool#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#client GoogleCloudRunV2WorkerPool#client}
   */
   readonly client?: string;
   /**
   * Arbitrary version identifier for the API client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#client_version GoogleCloudRunV2WorkerPool#client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#client_version GoogleCloudRunV2WorkerPool#client_version}
   */
   readonly clientVersion?: string;
   /**
   * One or more custom audiences that you want this worker pool to support. Specify each custom audience as the full URL in a string. The custom audiences are encoded in the token and used to authenticate requests.
   * For more information, see https://cloud.google.com/run/docs/configuring/custom-audiences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#custom_audiences GoogleCloudRunV2WorkerPool#custom_audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#custom_audiences GoogleCloudRunV2WorkerPool#custom_audiences}
   */
   readonly customAudiences?: string[];
   /**
@@ -54,7 +54,7 @@ export interface GoogleCloudRunV2WorkerPoolConfig extends cdktn.TerraformMetaArg
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#deletion_policy GoogleCloudRunV2WorkerPool#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#deletion_policy GoogleCloudRunV2WorkerPool#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -65,17 +65,17 @@ export interface GoogleCloudRunV2WorkerPoolConfig extends cdktn.TerraformMetaArg
   * or 'terraform destroy' that would delete the WorkerPool will fail.
   * When the field is set to false, deleting the WorkerPool is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#deletion_protection GoogleCloudRunV2WorkerPool#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#deletion_protection GoogleCloudRunV2WorkerPool#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * User-provided description of the WorkerPool. This field currently has a 512-character limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#description GoogleCloudRunV2WorkerPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#description GoogleCloudRunV2WorkerPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#id GoogleCloudRunV2WorkerPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#id GoogleCloudRunV2WorkerPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ export interface GoogleCloudRunV2WorkerPoolConfig extends cdktn.TerraformMetaArg
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -100,53 +100,53 @@ export interface GoogleCloudRunV2WorkerPoolConfig extends cdktn.TerraformMetaArg
   * 
   * For example, if ALPHA is provided as input, but only BETA and GA-level features are used, this field will be BETA on output. Possible values: ["UNIMPLEMENTED", "PRELAUNCH", "EARLY_ACCESS", "ALPHA", "BETA", "GA", "DEPRECATED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#launch_stage GoogleCloudRunV2WorkerPool#launch_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#launch_stage GoogleCloudRunV2WorkerPool#launch_stage}
   */
   readonly launchStage?: string;
   /**
   * The location of the cloud run worker pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#location GoogleCloudRunV2WorkerPool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#location GoogleCloudRunV2WorkerPool#location}
   */
   readonly location: string;
   /**
   * Name of the WorkerPool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#project GoogleCloudRunV2WorkerPool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#project GoogleCloudRunV2WorkerPool#project}
   */
   readonly project?: string;
   /**
   * binary_authorization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#binary_authorization GoogleCloudRunV2WorkerPool#binary_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#binary_authorization GoogleCloudRunV2WorkerPool#binary_authorization}
   */
   readonly binaryAuthorization?: GoogleCloudRunV2WorkerPoolBinaryAuthorization;
   /**
   * instance_splits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#instance_splits GoogleCloudRunV2WorkerPool#instance_splits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#instance_splits GoogleCloudRunV2WorkerPool#instance_splits}
   */
   readonly instanceSplits?: GoogleCloudRunV2WorkerPoolInstanceSplits[] | cdktn.IResolvable;
   /**
   * scaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#scaling GoogleCloudRunV2WorkerPool#scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#scaling GoogleCloudRunV2WorkerPool#scaling}
   */
   readonly scaling?: GoogleCloudRunV2WorkerPoolScaling;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#template GoogleCloudRunV2WorkerPool#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#template GoogleCloudRunV2WorkerPool#template}
   */
   readonly template: GoogleCloudRunV2WorkerPoolTemplate;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#timeouts GoogleCloudRunV2WorkerPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#timeouts GoogleCloudRunV2WorkerPool#timeouts}
   */
   readonly timeouts?: GoogleCloudRunV2WorkerPoolTimeouts;
 }
@@ -459,19 +459,19 @@ export interface GoogleCloudRunV2WorkerPoolBinaryAuthorization {
   /**
   * If present, indicates to use Breakglass using this justification. If useDefault is False, then it must be empty. For more information on breakglass, see https://cloud.google.com/binary-authorization/docs/using-breakglass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#breakglass_justification GoogleCloudRunV2WorkerPool#breakglass_justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#breakglass_justification GoogleCloudRunV2WorkerPool#breakglass_justification}
   */
   readonly breakglassJustification?: string;
   /**
   * The path to a binary authorization policy. Format: projects/{project}/platforms/cloudRun/{policy-name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#policy GoogleCloudRunV2WorkerPool#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#policy GoogleCloudRunV2WorkerPool#policy}
   */
   readonly policy?: string;
   /**
   * If True, indicates to use the default project's binary authorization policy. If False, binary authorization will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#use_default GoogleCloudRunV2WorkerPool#use_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#use_default GoogleCloudRunV2WorkerPool#use_default}
   */
   readonly useDefault?: boolean | cdktn.IResolvable;
 }
@@ -615,19 +615,19 @@ export interface GoogleCloudRunV2WorkerPoolInstanceSplits {
   /**
   * Specifies percent of the instance split to this Revision. This defaults to zero if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#percent GoogleCloudRunV2WorkerPool#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#percent GoogleCloudRunV2WorkerPool#percent}
   */
   readonly percent?: number;
   /**
   * Revision to which to assign this portion of instances, if split allocation is by revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
   */
   readonly revision?: string;
   /**
   * The allocation type for this instance split. Possible values: ["INSTANCE_SPLIT_ALLOCATION_TYPE_LATEST", "INSTANCE_SPLIT_ALLOCATION_TYPE_REVISION"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#type GoogleCloudRunV2WorkerPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#type GoogleCloudRunV2WorkerPool#type}
   */
   readonly type?: string;
 }
@@ -803,25 +803,25 @@ export interface GoogleCloudRunV2WorkerPoolScaling {
   /**
   * The total number of instances in manual scaling mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#manual_instance_count GoogleCloudRunV2WorkerPool#manual_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#manual_instance_count GoogleCloudRunV2WorkerPool#manual_instance_count}
   */
   readonly manualInstanceCount?: number;
   /**
   * The maximum count of instances distributed among revisions based on the specified instance split percentages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#max_instance_count GoogleCloudRunV2WorkerPool#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#max_instance_count GoogleCloudRunV2WorkerPool#max_instance_count}
   */
   readonly maxInstanceCount?: number;
   /**
   * The minimum count of instances distributed among revisions based on the specified instance split percentages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#min_instance_count GoogleCloudRunV2WorkerPool#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#min_instance_count GoogleCloudRunV2WorkerPool#min_instance_count}
   */
   readonly minInstanceCount?: number;
   /**
   * The scaling mode for the worker pool. It defaults to MANUAL. Possible values: ["AUTOMATIC", "MANUAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#scaling_mode GoogleCloudRunV2WorkerPool#scaling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#scaling_mode GoogleCloudRunV2WorkerPool#scaling_mode}
   */
   readonly scalingMode?: string;
 }
@@ -994,13 +994,13 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecre
   /**
   * The name of the secret in Cloud Secret Manager. Format: {secretName} if the secret is in the same project. projects/{project}/secrets/{secretName} if the secret is in a different project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
   */
   readonly secret: string;
   /**
   * The Cloud Secret Manager secret version. Can be 'latest' for the latest value or an integer for a specific version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
   */
   readonly version?: string;
 }
@@ -1112,7 +1112,7 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource {
   /**
   * secret_key_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#secret_key_ref GoogleCloudRunV2WorkerPool#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#secret_key_ref GoogleCloudRunV2WorkerPool#secret_key_ref}
   */
   readonly secretKeyRef?: GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSourceSecretKeyRef;
 }
@@ -1198,19 +1198,19 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER, and may not exceed 32768 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
   */
   readonly name: string;
   /**
   * Literal value of the environment variable. Defaults to "" and the maximum allowed length is 32768 characters. Variable references are not supported in Cloud Run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
   */
   readonly value?: string;
   /**
   * value_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#value_source GoogleCloudRunV2WorkerPool#value_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#value_source GoogleCloudRunV2WorkerPool#value_source}
   */
   readonly valueSource?: GoogleCloudRunV2WorkerPoolTemplateContainersEnvValueSource;
 }
@@ -1383,13 +1383,13 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpc {
   /**
   * Optional. Port number of the gRPC service. Number must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
   */
   readonly port?: number;
   /**
   * Optional. Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md ). If this is not specified, the default behavior is defined by gRPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
   */
   readonly service?: string;
 }
@@ -1504,35 +1504,48 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGe
   /**
   * Required. The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
   */
-  readonly port: number;
+  readonly name?: string;
+  /**
+  * Required. The header field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  */
+  readonly port?: number;
   /**
   * Optional. The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
   */
   readonly value?: string;
 }
 
-export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference | GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders): any {
+export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    name: cdktn.stringToTerraform(struct!.name),
     port: cdktn.numberToTerraform(struct!.port),
     value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference | GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders): any {
+export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     port: {
       value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
@@ -1553,18 +1566,28 @@ export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet
 
 export class GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders | undefined {
+  public get internalValue(): GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
     if (this._port !== undefined) {
       hasAnyValues = true;
       internalValueResult.port = this._port;
@@ -1576,26 +1599,53 @@ export class GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHtt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders | undefined) {
+  public set internalValue(value: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
       this._port = undefined;
       this._value = undefined;
     }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
       this._port = value.port;
       this._value = value.value;
     }
   }
 
-  // port - computed: false, optional: false, required: true
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // port - computed: false, optional: true, required: false
   private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
   public set port(value: number) {
     this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get portInput() {
@@ -1618,25 +1668,45 @@ export class GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHtt
     return this._value;
   }
 }
+
+export class GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference {
+    return new GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet {
   /**
   * Optional. Path to access on the HTTP server. Defaults to '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
   */
   readonly path?: string;
   /**
   * Optional. Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
   */
   readonly port?: number;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
   */
-  readonly httpHeaders?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders;
+  readonly httpHeaders?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders[] | cdktn.IResolvable;
 }
 
 export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetToTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference | GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet): any {
@@ -1647,7 +1717,7 @@ export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet
   return {
     path: cdktn.stringToTerraform(struct!.path),
     port: cdktn.numberToTerraform(struct!.port),
-    http_headers: googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToTerraform(struct!.httpHeaders),
+    http_headers: cdktn.listMapper(googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToTerraform, true)(struct!.httpHeaders),
   }
 }
 
@@ -1671,7 +1741,7 @@ export function googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet
       storageClassType: "number",
     },
     http_headers: {
-      value: googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToHclTerraform(struct!.httpHeaders),
+      value: cdktn.listMapperHcl(googleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersToHclTerraform, true)(struct!.httpHeaders),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersList",
@@ -1759,11 +1829,11 @@ export class GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOut
   }
 
   // http_headers - computed: false, optional: true, required: false
-  private _httpHeaders = new GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference(this, "http_headers");
+  private _httpHeaders = new GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersList(this, "http_headers", false);
   public get httpHeaders() {
     return this._httpHeaders;
   }
-  public putHttpHeaders(value: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders) {
+  public putHttpHeaders(value: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders[] | cdktn.IResolvable) {
     this._httpHeaders.internalValue = value;
   }
   public resetHttpHeaders() {
@@ -1778,7 +1848,7 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSoc
   /**
   * Optional. Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
   */
   readonly port?: number;
 }
@@ -1864,43 +1934,43 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe {
   /**
   * Optional. Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Optional. Number of seconds after the container has started before the probe is initiated. Defaults to 0 seconds. Minimum value is 0. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * Optional. How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240. Must be greater or equal than timeout_seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Optional. Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. Maximum value is 3600. Must be smaller than period_seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
   */
   readonly grpc?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeGrpc;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
   */
   readonly httpGet?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGet;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
   */
   readonly tcpSocket?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeTcpSocket;
 }
@@ -2160,7 +2230,7 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersResources {
   /**
   * Only memory, CPU, and nvidia.com/gpu are supported. Use key 'cpu' for CPU limit, 'memory' for memory limit, 'nvidia.com/gpu' for gpu limit. Note: The only supported values for CPU are '1', '2', '4', '6', and '8'. Setting 4 CPU requires at least 2Gi of memory, setting 6 or more CPU requires at least 4Gi of memory. The values of the map is string form of the 'quantity' k8s type: https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/apimachinery/pkg/api/resource/quantity.go
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#limits GoogleCloudRunV2WorkerPool#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#limits GoogleCloudRunV2WorkerPool#limits}
   */
   readonly limits?: { [key: string]: string };
 }
@@ -2246,13 +2316,13 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpc {
   /**
   * Optional. Port number of the gRPC service. Number must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
   */
   readonly port?: number;
   /**
   * Optional. Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md ). If this is not specified, the default behavior is defined by gRPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#service GoogleCloudRunV2WorkerPool#service}
   */
   readonly service?: string;
 }
@@ -2367,35 +2437,48 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet
   /**
   * Required. The header field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
   */
-  readonly port: number;
+  readonly name?: string;
+  /**
+  * Required. The header field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  */
+  readonly port?: number;
   /**
   * Optional. The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#value GoogleCloudRunV2WorkerPool#value}
   */
   readonly value?: string;
 }
 
-export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference | GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders): any {
+export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    name: cdktn.stringToTerraform(struct!.name),
     port: cdktn.numberToTerraform(struct!.port),
     value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference | GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders): any {
+export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     port: {
       value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
@@ -2416,18 +2499,28 @@ export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetH
 
 export class GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders | undefined {
+  public get internalValue(): GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
     if (this._port !== undefined) {
       hasAnyValues = true;
       internalValueResult.port = this._port;
@@ -2439,26 +2532,53 @@ export class GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders | undefined) {
+  public set internalValue(value: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
       this._port = undefined;
       this._value = undefined;
     }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
       this._port = value.port;
       this._value = value.value;
     }
   }
 
-  // port - computed: false, optional: false, required: true
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // port - computed: false, optional: true, required: false
   private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
   public set port(value: number) {
     this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get portInput() {
@@ -2481,25 +2601,45 @@ export class GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
     return this._value;
   }
 }
+
+export class GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference {
+    return new GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet {
   /**
   * Optional. Path to access on the HTTP server. Defaults to '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
   */
   readonly path?: string;
   /**
   * Optional. Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
   */
   readonly port?: number;
   /**
   * http_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#http_headers GoogleCloudRunV2WorkerPool#http_headers}
   */
-  readonly httpHeaders?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders;
+  readonly httpHeaders?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable;
 }
 
 export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetToTerraform(struct?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference | GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet): any {
@@ -2510,7 +2650,7 @@ export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetT
   return {
     path: cdktn.stringToTerraform(struct!.path),
     port: cdktn.numberToTerraform(struct!.port),
-    http_headers: googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform(struct!.httpHeaders),
+    http_headers: cdktn.listMapper(googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform, true)(struct!.httpHeaders),
   }
 }
 
@@ -2534,7 +2674,7 @@ export function googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetT
       storageClassType: "number",
     },
     http_headers: {
-      value: googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform(struct!.httpHeaders),
+      value: cdktn.listMapperHcl(googleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform, true)(struct!.httpHeaders),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList",
@@ -2622,11 +2762,11 @@ export class GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutp
   }
 
   // http_headers - computed: false, optional: true, required: false
-  private _httpHeaders = new GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference(this, "http_headers");
+  private _httpHeaders = new GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersList(this, "http_headers", false);
   public get httpHeaders() {
     return this._httpHeaders;
   }
-  public putHttpHeaders(value: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders) {
+  public putHttpHeaders(value: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable) {
     this._httpHeaders.internalValue = value;
   }
   public resetHttpHeaders() {
@@ -2641,7 +2781,7 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSock
   /**
   * Optional. Port number to access on the container. Must be in the range 1 to 65535. If not specified, defaults to the exposed port of the container, which is the value of container.ports[0].containerPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#port GoogleCloudRunV2WorkerPool#port}
   */
   readonly port?: number;
 }
@@ -2727,43 +2867,43 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe {
   /**
   * Optional. Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#failure_threshold GoogleCloudRunV2WorkerPool#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Optional. Number of seconds after the container has started before the probe is initiated. Defaults to 0 seconds. Minimum value is 0. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#initial_delay_seconds GoogleCloudRunV2WorkerPool#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * Optional. How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1. Maximum value for liveness probe is 3600. Maximum value for startup probe is 240. Must be greater or equal than timeout_seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#period_seconds GoogleCloudRunV2WorkerPool#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Optional. Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. Maximum value is 3600. Must be smaller than period_seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#timeout_seconds GoogleCloudRunV2WorkerPool#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * grpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#grpc GoogleCloudRunV2WorkerPool#grpc}
   */
   readonly grpc?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeGrpc;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#http_get GoogleCloudRunV2WorkerPool#http_get}
   */
   readonly httpGet?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGet;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#tcp_socket GoogleCloudRunV2WorkerPool#tcp_socket}
   */
   readonly tcpSocket?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeTcpSocket;
 }
@@ -3023,19 +3163,19 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'. For Cloud SQL volumes, it can be left empty, or must otherwise be /cloudsql. All instances defined in the Volume will be available as /cloudsql/[instance]. For more information on Cloud SQL volumes, visit https://cloud.google.com/sql/docs/mysql/connect-run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#mount_path GoogleCloudRunV2WorkerPool#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#mount_path GoogleCloudRunV2WorkerPool#mount_path}
   */
   readonly mountPath: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
   */
   readonly name: string;
   /**
   * Path within the volume from which the container's volume should be mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#sub_path GoogleCloudRunV2WorkerPool#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#sub_path GoogleCloudRunV2WorkerPool#sub_path}
   */
   readonly subPath?: string;
 }
@@ -3205,67 +3345,67 @@ export interface GoogleCloudRunV2WorkerPoolTemplateContainers {
   /**
   * Arguments to the entrypoint. The docker image's CMD is used if this is not provided. Variable references are not supported in Cloud Run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#args GoogleCloudRunV2WorkerPool#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#args GoogleCloudRunV2WorkerPool#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The docker image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#command GoogleCloudRunV2WorkerPool#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#command GoogleCloudRunV2WorkerPool#command}
   */
   readonly command?: string[];
   /**
   * Names of the containers that must start before this container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#depends_on GoogleCloudRunV2WorkerPool#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#depends_on GoogleCloudRunV2WorkerPool#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * URL of the Container image in Google Container Registry or Google Artifact Registry. More info: https://kubernetes.io/docs/concepts/containers/images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#image GoogleCloudRunV2WorkerPool#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#image GoogleCloudRunV2WorkerPool#image}
   */
   readonly image: string;
   /**
   * Name of the container specified as a DNS_LABEL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
   */
   readonly name?: string;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#working_dir GoogleCloudRunV2WorkerPool#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#working_dir GoogleCloudRunV2WorkerPool#working_dir}
   */
   readonly workingDir?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#env GoogleCloudRunV2WorkerPool#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#env GoogleCloudRunV2WorkerPool#env}
   */
   readonly env?: GoogleCloudRunV2WorkerPoolTemplateContainersEnv[] | cdktn.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#liveness_probe GoogleCloudRunV2WorkerPool#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#liveness_probe GoogleCloudRunV2WorkerPool#liveness_probe}
   */
   readonly livenessProbe?: GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#resources GoogleCloudRunV2WorkerPool#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#resources GoogleCloudRunV2WorkerPool#resources}
   */
   readonly resources?: GoogleCloudRunV2WorkerPoolTemplateContainersResources;
   /**
   * startup_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#startup_probe GoogleCloudRunV2WorkerPool#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#startup_probe GoogleCloudRunV2WorkerPool#startup_probe}
   */
   readonly startupProbe?: GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbe;
   /**
   * volume_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#volume_mounts GoogleCloudRunV2WorkerPool#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#volume_mounts GoogleCloudRunV2WorkerPool#volume_mounts}
   */
   readonly volumeMounts?: GoogleCloudRunV2WorkerPoolTemplateContainersVolumeMounts[] | cdktn.IResolvable;
 }
@@ -3670,7 +3810,7 @@ export interface GoogleCloudRunV2WorkerPoolTemplateNodeSelector {
   /**
   * The GPU to attach to an instance. See https://cloud.google.com/run/docs/configuring/services/gpu for configuring GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#accelerator GoogleCloudRunV2WorkerPool#accelerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#accelerator GoogleCloudRunV2WorkerPool#accelerator}
   */
   readonly accelerator: string;
 }
@@ -3753,7 +3893,7 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance {
   /**
   * The Cloud SQL instance connection names, as can be found in https://console.cloud.google.com/sql/instances. Visit https://cloud.google.com/sql/docs/mysql/connect-run for more information on how to connect Cloud SQL and Cloud Run. Format: {project}:{location}:{instance}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#instances GoogleCloudRunV2WorkerPool#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#instances GoogleCloudRunV2WorkerPool#instances}
   */
   readonly instances?: string[];
 }
@@ -3839,13 +3979,13 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir {
   /**
   * The different types of medium supported for EmptyDir. Default value: "MEMORY" Possible values: ["MEMORY", "DISK"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#medium GoogleCloudRunV2WorkerPool#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#medium GoogleCloudRunV2WorkerPool#medium}
   */
   readonly medium?: string;
   /**
   * Limit on the storage usable by this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. This field's values are of the 'Quantity' k8s type: https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#size_limit GoogleCloudRunV2WorkerPool#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#size_limit GoogleCloudRunV2WorkerPool#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -3960,20 +4100,20 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVolumesGcs {
   /**
   * GCS Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#bucket GoogleCloudRunV2WorkerPool#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#bucket GoogleCloudRunV2WorkerPool#bucket}
   */
   readonly bucket: string;
   /**
   * A list of flags to pass to the gcsfuse command for configuring this volume.
   * Flags should be passed without leading dashes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#mount_options GoogleCloudRunV2WorkerPool#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#mount_options GoogleCloudRunV2WorkerPool#mount_options}
   */
   readonly mountOptions?: string[];
   /**
   * If true, mount the GCS bucket as read-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
 }
@@ -4114,19 +4254,19 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVolumesNfs {
   /**
   * Path that is exported by the NFS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
   */
   readonly path: string;
   /**
   * If true, mount the NFS volume as read only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#read_only GoogleCloudRunV2WorkerPool#read_only}
   */
   readonly readOnly?: boolean | cdktn.IResolvable;
   /**
   * Hostname or IP address of the NFS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#server GoogleCloudRunV2WorkerPool#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#server GoogleCloudRunV2WorkerPool#server}
   */
   readonly server: string;
 }
@@ -4264,19 +4404,19 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItems {
   /**
   * Integer octal mode bits to use on this file, must be a value between 01 and 0777 (octal). If 0 or not set, the Volume's default mode will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#mode GoogleCloudRunV2WorkerPool#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#mode GoogleCloudRunV2WorkerPool#mode}
   */
   readonly mode?: number;
   /**
   * The relative path of the secret in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#path GoogleCloudRunV2WorkerPool#path}
   */
   readonly path: string;
   /**
   * The Cloud Secret Manager secret version. Can be 'latest' for the latest value or an integer for a specific version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#version GoogleCloudRunV2WorkerPool#version}
   */
   readonly version?: string;
 }
@@ -4449,19 +4589,19 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVolumesSecret {
   /**
   * Integer representation of mode bits to use on created files by default. Must be a value between 0000 and 0777 (octal), defaulting to 0444. Directories within the path are not affected by this setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#default_mode GoogleCloudRunV2WorkerPool#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#default_mode GoogleCloudRunV2WorkerPool#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * The name of the secret in Cloud Secret Manager. Format: {secret} if the secret is in the same project. projects/{project}/secrets/{secret} if the secret is in a different project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
   */
   readonly secret: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#items GoogleCloudRunV2WorkerPool#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#items GoogleCloudRunV2WorkerPool#items}
   */
   readonly items?: GoogleCloudRunV2WorkerPoolTemplateVolumesSecretItems[] | cdktn.IResolvable;
 }
@@ -4602,37 +4742,37 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVolumes {
   /**
   * Volume's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#name GoogleCloudRunV2WorkerPool#name}
   */
   readonly name: string;
   /**
   * cloud_sql_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#cloud_sql_instance GoogleCloudRunV2WorkerPool#cloud_sql_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#cloud_sql_instance GoogleCloudRunV2WorkerPool#cloud_sql_instance}
   */
   readonly cloudSqlInstance?: GoogleCloudRunV2WorkerPoolTemplateVolumesCloudSqlInstance;
   /**
   * empty_dir block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#empty_dir GoogleCloudRunV2WorkerPool#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#empty_dir GoogleCloudRunV2WorkerPool#empty_dir}
   */
   readonly emptyDir?: GoogleCloudRunV2WorkerPoolTemplateVolumesEmptyDir;
   /**
   * gcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#gcs GoogleCloudRunV2WorkerPool#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#gcs GoogleCloudRunV2WorkerPool#gcs}
   */
   readonly gcs?: GoogleCloudRunV2WorkerPoolTemplateVolumesGcs;
   /**
   * nfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#nfs GoogleCloudRunV2WorkerPool#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#nfs GoogleCloudRunV2WorkerPool#nfs}
   */
   readonly nfs?: GoogleCloudRunV2WorkerPoolTemplateVolumesNfs;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#secret GoogleCloudRunV2WorkerPool#secret}
   */
   readonly secret?: GoogleCloudRunV2WorkerPoolTemplateVolumesSecret;
 }
@@ -4894,7 +5034,7 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfaces {
   * network and subnetwork are specified, the given VPC subnetwork must belong to the given VPC network. If network is not specified, it will be
   * looked up from the subnetwork.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#network GoogleCloudRunV2WorkerPool#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#network GoogleCloudRunV2WorkerPool#network}
   */
   readonly network?: string;
   /**
@@ -4902,13 +5042,13 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfaces {
   * network and subnetwork are specified, the given VPC subnetwork must belong to the given VPC network. If subnetwork is not specified, the
   * subnetwork with the same name with the network will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#subnetwork GoogleCloudRunV2WorkerPool#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#subnetwork GoogleCloudRunV2WorkerPool#subnetwork}
   */
   readonly subnetwork?: string;
   /**
   * Network tags applied to this Cloud Run WorkerPool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#tags GoogleCloudRunV2WorkerPool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#tags GoogleCloudRunV2WorkerPool#tags}
   */
   readonly tags?: string[];
 }
@@ -5084,19 +5224,19 @@ export interface GoogleCloudRunV2WorkerPoolTemplateVpcAccess {
   /**
   * VPC Access connector name. Format: projects/{project}/locations/{location}/connectors/{connector}, where {project} can be project id or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#connector GoogleCloudRunV2WorkerPool#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#connector GoogleCloudRunV2WorkerPool#connector}
   */
   readonly connector?: string;
   /**
   * Traffic VPC egress settings. Possible values: ["ALL_TRAFFIC", "PRIVATE_RANGES_ONLY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#egress GoogleCloudRunV2WorkerPool#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#egress GoogleCloudRunV2WorkerPool#egress}
   */
   readonly egress?: string;
   /**
   * network_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#network_interfaces GoogleCloudRunV2WorkerPool#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#network_interfaces GoogleCloudRunV2WorkerPool#network_interfaces}
   */
   readonly networkInterfaces?: GoogleCloudRunV2WorkerPoolTemplateVpcAccessNetworkInterfaces[] | cdktn.IResolvable;
 }
@@ -5245,19 +5385,31 @@ export interface GoogleCloudRunV2WorkerPoolTemplate {
   * 
   * This field follows Kubernetes annotations' namespacing, limits, and rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#annotations GoogleCloudRunV2WorkerPool#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
+  * Arbitrary identifier for the API client.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#client GoogleCloudRunV2WorkerPool#client}
+  */
+  readonly client?: string;
+  /**
+  * Arbitrary version identifier for the API client.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#client_version GoogleCloudRunV2WorkerPool#client_version}
+  */
+  readonly clientVersion?: string;
+  /**
   * A reference to a customer managed encryption key (CMEK) to use to encrypt this container image. For more information, go to https://cloud.google.com/run/docs/securing/using-cmek
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key GoogleCloudRunV2WorkerPool#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key GoogleCloudRunV2WorkerPool#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
   * The action to take if the encryption key is revoked. Possible values: ["PREVENT_NEW", "SHUTDOWN"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_revocation_action GoogleCloudRunV2WorkerPool#encryption_key_revocation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_revocation_action GoogleCloudRunV2WorkerPool#encryption_key_revocation_action}
   */
   readonly encryptionKeyRevocationAction?: string;
   /**
@@ -5265,13 +5417,13 @@ export interface GoogleCloudRunV2WorkerPoolTemplate {
   * 
   * A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_shutdown_duration GoogleCloudRunV2WorkerPool#encryption_key_shutdown_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#encryption_key_shutdown_duration GoogleCloudRunV2WorkerPool#encryption_key_shutdown_duration}
   */
   readonly encryptionKeyShutdownDuration?: string;
   /**
   * True if GPU zonal redundancy is disabled on this revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#gpu_zonal_redundancy_disabled GoogleCloudRunV2WorkerPool#gpu_zonal_redundancy_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#gpu_zonal_redundancy_disabled GoogleCloudRunV2WorkerPool#gpu_zonal_redundancy_disabled}
   */
   readonly gpuZonalRedundancyDisabled?: boolean | cdktn.IResolvable;
   /**
@@ -5281,43 +5433,43 @@ export interface GoogleCloudRunV2WorkerPoolTemplate {
   * Cloud Run API v2 does not support labels with 'run.googleapis.com', 'cloud.googleapis.com', 'serving.knative.dev', or 'autoscaling.knative.dev' namespaces, and they will be rejected.
   * All system labels in v1 now have a corresponding field in v2 WorkerPoolRevisionTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#labels GoogleCloudRunV2WorkerPool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The unique name for the revision. If this field is omitted, it will be automatically generated based on the WorkerPool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#revision GoogleCloudRunV2WorkerPool#revision}
   */
   readonly revision?: string;
   /**
   * Email address of the IAM service account associated with the revision of the WorkerPool. The service account represents the identity of the running revision, and determines what permissions the revision has. If not provided, the revision will use the project's default service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#service_account GoogleCloudRunV2WorkerPool#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#service_account GoogleCloudRunV2WorkerPool#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#containers GoogleCloudRunV2WorkerPool#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#containers GoogleCloudRunV2WorkerPool#containers}
   */
   readonly containers?: GoogleCloudRunV2WorkerPoolTemplateContainers[] | cdktn.IResolvable;
   /**
   * node_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#node_selector GoogleCloudRunV2WorkerPool#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#node_selector GoogleCloudRunV2WorkerPool#node_selector}
   */
   readonly nodeSelector?: GoogleCloudRunV2WorkerPoolTemplateNodeSelector;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#volumes GoogleCloudRunV2WorkerPool#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#volumes GoogleCloudRunV2WorkerPool#volumes}
   */
   readonly volumes?: GoogleCloudRunV2WorkerPoolTemplateVolumes[] | cdktn.IResolvable;
   /**
   * vpc_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#vpc_access GoogleCloudRunV2WorkerPool#vpc_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#vpc_access GoogleCloudRunV2WorkerPool#vpc_access}
   */
   readonly vpcAccess?: GoogleCloudRunV2WorkerPoolTemplateVpcAccess;
 }
@@ -5329,6 +5481,8 @@ export function googleCloudRunV2WorkerPoolTemplateToTerraform(struct?: GoogleClo
   }
   return {
     annotations: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.annotations),
+    client: cdktn.stringToTerraform(struct!.client),
+    client_version: cdktn.stringToTerraform(struct!.clientVersion),
     encryption_key: cdktn.stringToTerraform(struct!.encryptionKey),
     encryption_key_revocation_action: cdktn.stringToTerraform(struct!.encryptionKeyRevocationAction),
     encryption_key_shutdown_duration: cdktn.stringToTerraform(struct!.encryptionKeyShutdownDuration),
@@ -5355,6 +5509,18 @@ export function googleCloudRunV2WorkerPoolTemplateToHclTerraform(struct?: Google
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
+    },
+    client: {
+      value: cdktn.stringToHclTerraform(struct!.client),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    client_version: {
+      value: cdktn.stringToHclTerraform(struct!.clientVersion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     encryption_key: {
       value: cdktn.stringToHclTerraform(struct!.encryptionKey),
@@ -5446,6 +5612,14 @@ export class GoogleCloudRunV2WorkerPoolTemplateOutputReference extends cdktn.Com
       hasAnyValues = true;
       internalValueResult.annotations = this._annotations;
     }
+    if (this._client !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.client = this._client;
+    }
+    if (this._clientVersion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientVersion = this._clientVersion;
+    }
     if (this._encryptionKey !== undefined) {
       hasAnyValues = true;
       internalValueResult.encryptionKey = this._encryptionKey;
@@ -5497,6 +5671,8 @@ export class GoogleCloudRunV2WorkerPoolTemplateOutputReference extends cdktn.Com
     if (value === undefined) {
       this.isEmptyObject = false;
       this._annotations = undefined;
+      this._client = undefined;
+      this._clientVersion = undefined;
       this._encryptionKey = undefined;
       this._encryptionKeyRevocationAction = undefined;
       this._encryptionKeyShutdownDuration = undefined;
@@ -5512,6 +5688,8 @@ export class GoogleCloudRunV2WorkerPoolTemplateOutputReference extends cdktn.Com
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._annotations = value.annotations;
+      this._client = value.client;
+      this._clientVersion = value.clientVersion;
       this._encryptionKey = value.encryptionKey;
       this._encryptionKeyRevocationAction = value.encryptionKeyRevocationAction;
       this._encryptionKeyShutdownDuration = value.encryptionKeyShutdownDuration;
@@ -5540,6 +5718,38 @@ export class GoogleCloudRunV2WorkerPoolTemplateOutputReference extends cdktn.Com
   // Temporarily expose input value. Use with caution.
   public get annotationsInput() {
     return this._annotations;
+  }
+
+  // client - computed: false, optional: true, required: false
+  private _client?: string; 
+  public get client() {
+    return this.getStringAttribute('client');
+  }
+  public set client(value: string) {
+    this._client = value;
+  }
+  public resetClient() {
+    this._client = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientInput() {
+    return this._client;
+  }
+
+  // client_version - computed: false, optional: true, required: false
+  private _clientVersion?: string; 
+  public get clientVersion() {
+    return this.getStringAttribute('client_version');
+  }
+  public set clientVersion(value: string) {
+    this._clientVersion = value;
+  }
+  public resetClientVersion() {
+    this._clientVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientVersionInput() {
+    return this._clientVersion;
   }
 
   // encryption_key - computed: false, optional: true, required: false
@@ -5720,15 +5930,15 @@ export class GoogleCloudRunV2WorkerPoolTemplateOutputReference extends cdktn.Com
 }
 export interface GoogleCloudRunV2WorkerPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#create GoogleCloudRunV2WorkerPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#create GoogleCloudRunV2WorkerPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#delete GoogleCloudRunV2WorkerPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#delete GoogleCloudRunV2WorkerPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#update GoogleCloudRunV2WorkerPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#update GoogleCloudRunV2WorkerPool#update}
   */
   readonly update?: string;
 }
@@ -5880,7 +6090,7 @@ export class GoogleCloudRunV2WorkerPoolTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}
 */
 export class GoogleCloudRunV2WorkerPool extends cdktn.TerraformResource {
 
@@ -5896,7 +6106,7 @@ export class GoogleCloudRunV2WorkerPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCloudRunV2WorkerPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCloudRunV2WorkerPool to import
-  * @param importFromId The id of the existing GoogleCloudRunV2WorkerPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCloudRunV2WorkerPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCloudRunV2WorkerPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5908,7 +6118,7 @@ export class GoogleCloudRunV2WorkerPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5919,7 +6129,7 @@ export class GoogleCloudRunV2WorkerPool extends cdktn.TerraformResource {
       terraformResourceType: 'google_cloud_run_v2_worker_pool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

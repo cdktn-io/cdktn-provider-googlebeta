@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface GoogleSqlProvisionScriptConfig extends cdktn.TerraformMetaArgum
   * 				a database. You can create and use a database in the script or explicitly reference a
   * 				google_sql_database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#database GoogleSqlProvisionScript#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#database GoogleSqlProvisionScript#database}
   */
   readonly database?: string;
   /**
@@ -27,17 +27,17 @@ export interface GoogleSqlProvisionScriptConfig extends cdktn.TerraformMetaArgum
   * 				It must be "ABANDON" to allow Terraform to abandon the resources. If you want to delete resources, add statements
   * 				in the script such as "drop … if exists".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#deletion_policy GoogleSqlProvisionScript#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#deletion_policy GoogleSqlProvisionScript#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The description of the provision script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#description GoogleSqlProvisionScript#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#description GoogleSqlProvisionScript#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#id GoogleSqlProvisionScript#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#id GoogleSqlProvisionScript#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface GoogleSqlProvisionScriptConfig extends cdktn.TerraformMetaArgum
   /**
   * The name of the Cloud SQL instance. Changing this forces the script to be run on the new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#instance GoogleSqlProvisionScript#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#instance GoogleSqlProvisionScript#instance}
   */
   readonly instance: string;
   /**
   * The ID of the project in which the resource belongs. If it is not provided, the provider project is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#project GoogleSqlProvisionScript#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#project GoogleSqlProvisionScript#project}
   */
   readonly project?: string;
   /**
@@ -62,13 +62,13 @@ export interface GoogleSqlProvisionScriptConfig extends cdktn.TerraformMetaArgum
   * 				"if not exists (select …) then … end if" to prevent existence-related errors. If it's not
   * 				possible to make a statement idempotent, you can run it once and then remove it from this script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#script GoogleSqlProvisionScript#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#script GoogleSqlProvisionScript#script}
   */
   readonly script: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script google_sql_provision_script}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script google_sql_provision_script}
 */
 export class GoogleSqlProvisionScript extends cdktn.TerraformResource {
 
@@ -84,7 +84,7 @@ export class GoogleSqlProvisionScript extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSqlProvisionScript resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSqlProvisionScript to import
-  * @param importFromId The id of the existing GoogleSqlProvisionScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSqlProvisionScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSqlProvisionScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -96,7 +96,7 @@ export class GoogleSqlProvisionScript extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_sql_provision_script google_sql_provision_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_sql_provision_script google_sql_provision_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -107,7 +107,7 @@ export class GoogleSqlProvisionScript extends cdktn.TerraformResource {
       terraformResourceType: 'google_sql_provision_script',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.36.0',
+        providerVersion: '7.37.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
