@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,42 +13,42 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleHealthcareDatasetIamMemberConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#dataset_id GoogleHealthcareDatasetIamMember#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#dataset_id GoogleHealthcareDatasetIamMember#dataset_id}
   */
   readonly datasetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#id GoogleHealthcareDatasetIamMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#id GoogleHealthcareDatasetIamMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#member GoogleHealthcareDatasetIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#member GoogleHealthcareDatasetIamMember#member}
   */
   readonly member: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#role GoogleHealthcareDatasetIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#role GoogleHealthcareDatasetIamMember#role}
   */
   readonly role: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#condition GoogleHealthcareDatasetIamMember#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#condition GoogleHealthcareDatasetIamMember#condition}
   */
   readonly condition?: GoogleHealthcareDatasetIamMemberCondition;
 }
 export interface GoogleHealthcareDatasetIamMemberCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#description GoogleHealthcareDatasetIamMember#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#description GoogleHealthcareDatasetIamMember#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#expression GoogleHealthcareDatasetIamMember#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#expression GoogleHealthcareDatasetIamMember#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#title GoogleHealthcareDatasetIamMember#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#title GoogleHealthcareDatasetIamMember#title}
   */
   readonly title: string;
 }
@@ -184,7 +184,7 @@ export class GoogleHealthcareDatasetIamMemberConditionOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member google_healthcare_dataset_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member google_healthcare_dataset_iam_member}
 */
 export class GoogleHealthcareDatasetIamMember extends cdktn.TerraformResource {
 
@@ -200,7 +200,7 @@ export class GoogleHealthcareDatasetIamMember extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleHealthcareDatasetIamMember resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleHealthcareDatasetIamMember to import
-  * @param importFromId The id of the existing GoogleHealthcareDatasetIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleHealthcareDatasetIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleHealthcareDatasetIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -212,7 +212,7 @@ export class GoogleHealthcareDatasetIamMember extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_healthcare_dataset_iam_member google_healthcare_dataset_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_healthcare_dataset_iam_member google_healthcare_dataset_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,7 +223,7 @@ export class GoogleHealthcareDatasetIamMember extends cdktn.TerraformResource {
       terraformResourceType: 'google_healthcare_dataset_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.37.0',
+        providerVersion: '7.38.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

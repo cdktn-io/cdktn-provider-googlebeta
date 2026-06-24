@@ -129,6 +129,10 @@ export * as googleBeyondcorpSecurityGatewayIamMember from './google-beyondcorp-s
 export * as googleBeyondcorpSecurityGatewayIamPolicy from './google-beyondcorp-security-gateway-iam-policy/index';
 export * as googleBiglakeCatalog from './google-biglake-catalog/index';
 export * as googleBiglakeDatabase from './google-biglake-database/index';
+export * as googleBiglakeHiveCatalog from './google-biglake-hive-catalog/index';
+export * as googleBiglakeHiveCatalogIamBinding from './google-biglake-hive-catalog-iam-binding/index';
+export * as googleBiglakeHiveCatalogIamMember from './google-biglake-hive-catalog-iam-member/index';
+export * as googleBiglakeHiveCatalogIamPolicy from './google-biglake-hive-catalog-iam-policy/index';
 export * as googleBiglakeIcebergCatalog from './google-biglake-iceberg-catalog/index';
 export * as googleBiglakeIcebergCatalogIamBinding from './google-biglake-iceberg-catalog-iam-binding/index';
 export * as googleBiglakeIcebergCatalogIamMember from './google-biglake-iceberg-catalog-iam-member/index';
@@ -237,8 +241,10 @@ export * as googleChronicleDataTableRow from './google-chronicle-data-table-row/
 export * as googleChronicleEnvironment from './google-chronicle-environment/index';
 export * as googleChronicleFeed from './google-chronicle-feed/index';
 export * as googleChronicleFindingsRefinement from './google-chronicle-findings-refinement/index';
+export * as googleChronicleFindingsRefinementDeployment from './google-chronicle-findings-refinement-deployment/index';
 export * as googleChronicleNativeDashboard from './google-chronicle-native-dashboard/index';
 export * as googleChronicleParser from './google-chronicle-parser/index';
+export * as googleChronicleParserExtension from './google-chronicle-parser-extension/index';
 export * as googleChronicleReferenceList from './google-chronicle-reference-list/index';
 export * as googleChronicleRetrohunt from './google-chronicle-retrohunt/index';
 export * as googleChronicleRule from './google-chronicle-rule/index';
@@ -604,6 +610,7 @@ export * as googleDataplexLake from './google-dataplex-lake/index';
 export * as googleDataplexLakeIamBinding from './google-dataplex-lake-iam-binding/index';
 export * as googleDataplexLakeIamMember from './google-dataplex-lake-iam-member/index';
 export * as googleDataplexLakeIamPolicy from './google-dataplex-lake-iam-policy/index';
+export * as googleDataplexMetadataFeed from './google-dataplex-metadata-feed/index';
 export * as googleDataplexTask from './google-dataplex-task/index';
 export * as googleDataplexTaskIamBinding from './google-dataplex-task-iam-binding/index';
 export * as googleDataplexTaskIamMember from './google-dataplex-task-iam-member/index';
@@ -1388,8 +1395,10 @@ export * as googleVertexAiReasoningEngine from './google-vertex-ai-reasoning-eng
 export * as googleVertexAiReasoningEngineIamBinding from './google-vertex-ai-reasoning-engine-iam-binding/index';
 export * as googleVertexAiReasoningEngineIamMember from './google-vertex-ai-reasoning-engine-iam-member/index';
 export * as googleVertexAiReasoningEngineIamPolicy from './google-vertex-ai-reasoning-engine-iam-policy/index';
+export * as googleVertexAiSchedule from './google-vertex-ai-schedule/index';
 export * as googleVertexAiTensorboard from './google-vertex-ai-tensorboard/index';
 export * as googleVertexAiTensorboardExperiment from './google-vertex-ai-tensorboard-experiment/index';
+export * as googleVertexAiTensorboardRun from './google-vertex-ai-tensorboard-run/index';
 export * as googleVmwareengineCluster from './google-vmwareengine-cluster/index';
 export * as googleVmwareengineDatastore from './google-vmwareengine-datastore/index';
 export * as googleVmwareengineExternalAccessRule from './google-vmwareengine-external-access-rule/index';
@@ -1471,6 +1480,7 @@ export * as dataGoogleBeyondcorpAppGateway from './data-google-beyondcorp-app-ga
 export * as dataGoogleBeyondcorpSecurityGateway from './data-google-beyondcorp-security-gateway/index';
 export * as dataGoogleBeyondcorpSecurityGatewayApplicationIamPolicy from './data-google-beyondcorp-security-gateway-application-iam-policy/index';
 export * as dataGoogleBeyondcorpSecurityGatewayIamPolicy from './data-google-beyondcorp-security-gateway-iam-policy/index';
+export * as dataGoogleBiglakeHiveCatalogIamPolicy from './data-google-biglake-hive-catalog-iam-policy/index';
 export * as dataGoogleBiglakeIcebergCatalogIamPolicy from './data-google-biglake-iceberg-catalog-iam-policy/index';
 export * as dataGoogleBiglakeIcebergNamespaceIamPolicy from './data-google-biglake-iceberg-namespace-iam-policy/index';
 export * as dataGoogleBiglakeIcebergTableIamPolicy from './data-google-biglake-iceberg-table-iam-policy/index';
@@ -1850,6 +1860,8 @@ export * as dataGoogleStorageControlFolderIntelligenceConfig from './data-google
 export * as dataGoogleStorageControlOrganizationIntelligenceConfig from './data-google-storage-control-organization-intelligence-config/index';
 export * as dataGoogleStorageControlProjectIntelligenceConfig from './data-google-storage-control-project-intelligence-config/index';
 export * as dataGoogleStorageControlProjectIntelligenceFinding from './data-google-storage-control-project-intelligence-finding/index';
+export * as dataGoogleStorageControlProjectIntelligenceFindingRevision from './data-google-storage-control-project-intelligence-finding-revision/index';
+export * as dataGoogleStorageControlProjectIntelligenceFindingRevisions from './data-google-storage-control-project-intelligence-finding-revisions/index';
 export * as dataGoogleStorageControlProjectIntelligenceFindings from './data-google-storage-control-project-intelligence-findings/index';
 export * as dataGoogleStorageInsightsDatasetConfig from './data-google-storage-insights-dataset-config/index';
 export * as dataGoogleStorageManagedFolderIamPolicy from './data-google-storage-managed-folder-iam-policy/index';

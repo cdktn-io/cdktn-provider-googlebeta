@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleVmwareengineDatastoreConfig extends cdktn.TerraformMetaAr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#deletion_policy GoogleVmwareengineDatastore#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#deletion_policy GoogleVmwareengineDatastore#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * User-provided description for this datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#description GoogleVmwareengineDatastore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#description GoogleVmwareengineDatastore#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#id GoogleVmwareengineDatastore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#id GoogleVmwareengineDatastore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ export interface GoogleVmwareengineDatastoreConfig extends cdktn.TerraformMetaAr
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#location GoogleVmwareengineDatastore#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#location GoogleVmwareengineDatastore#location}
   */
   readonly location: string;
   /**
@@ -56,23 +56,23 @@ export interface GoogleVmwareengineDatastoreConfig extends cdktn.TerraformMetaAr
   * * Complies with [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034)
   * (section 3.5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#name GoogleVmwareengineDatastore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#name GoogleVmwareengineDatastore#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#project GoogleVmwareengineDatastore#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#project GoogleVmwareengineDatastore#project}
   */
   readonly project?: string;
   /**
   * nfs_datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#nfs_datastore GoogleVmwareengineDatastore#nfs_datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#nfs_datastore GoogleVmwareengineDatastore#nfs_datastore}
   */
   readonly nfsDatastore: GoogleVmwareengineDatastoreNfsDatastore;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#timeouts GoogleVmwareengineDatastore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#timeouts GoogleVmwareengineDatastore#timeouts}
   */
   readonly timeouts?: GoogleVmwareengineDatastoreTimeouts;
 }
@@ -81,14 +81,14 @@ export interface GoogleVmwareengineDatastoreNfsDatastoreGoogleFileService {
   * Google filestore instance resource name
   * e.g. projects/my-project/locations/me-west1-b/instances/my-instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#filestore_instance GoogleVmwareengineDatastore#filestore_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#filestore_instance GoogleVmwareengineDatastore#filestore_instance}
   */
   readonly filestoreInstance?: string;
   /**
   * Google netapp volume resource name
   * e.g. projects/my-project/locations/me-west1-b/volumes/my-volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#netapp_volume GoogleVmwareengineDatastore#netapp_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#netapp_volume GoogleVmwareengineDatastore#netapp_volume}
   */
   readonly netappVolume?: string;
 }
@@ -204,7 +204,7 @@ export interface GoogleVmwareengineDatastoreNfsDatastoreThirdPartyFileService {
   * Required
   * Mount Folder name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#file_share GoogleVmwareengineDatastore#file_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#file_share GoogleVmwareengineDatastore#file_share}
   */
   readonly fileShare: string;
   /**
@@ -212,7 +212,7 @@ export interface GoogleVmwareengineDatastoreNfsDatastoreThirdPartyFileService {
   * network name of NFS's vpc
   * e.g. projects/project-id/global/networks/my-network_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#network GoogleVmwareengineDatastore#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#network GoogleVmwareengineDatastore#network}
   */
   readonly network: string;
   /**
@@ -221,7 +221,7 @@ export interface GoogleVmwareengineDatastoreNfsDatastoreThirdPartyFileService {
   * Multiple servers can be supported in future when NFS 4.1 protocol support
   * is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#servers GoogleVmwareengineDatastore#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#servers GoogleVmwareengineDatastore#servers}
   */
   readonly servers: string[];
 }
@@ -356,13 +356,13 @@ export interface GoogleVmwareengineDatastoreNfsDatastore {
   /**
   * google_file_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#google_file_service GoogleVmwareengineDatastore#google_file_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#google_file_service GoogleVmwareengineDatastore#google_file_service}
   */
   readonly googleFileService?: GoogleVmwareengineDatastoreNfsDatastoreGoogleFileService;
   /**
   * third_party_file_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#third_party_file_service GoogleVmwareengineDatastore#third_party_file_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#third_party_file_service GoogleVmwareengineDatastore#third_party_file_service}
   */
   readonly thirdPartyFileService?: GoogleVmwareengineDatastoreNfsDatastoreThirdPartyFileService;
 }
@@ -475,15 +475,15 @@ export class GoogleVmwareengineDatastoreNfsDatastoreOutputReference extends cdkt
 }
 export interface GoogleVmwareengineDatastoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#create GoogleVmwareengineDatastore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#create GoogleVmwareengineDatastore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#delete GoogleVmwareengineDatastore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#delete GoogleVmwareengineDatastore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#update GoogleVmwareengineDatastore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#update GoogleVmwareengineDatastore#update}
   */
   readonly update?: string;
 }
@@ -635,7 +635,7 @@ export class GoogleVmwareengineDatastoreTimeoutsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore}
 */
 export class GoogleVmwareengineDatastore extends cdktn.TerraformResource {
 
@@ -651,7 +651,7 @@ export class GoogleVmwareengineDatastore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVmwareengineDatastore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVmwareengineDatastore to import
-  * @param importFromId The id of the existing GoogleVmwareengineDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVmwareengineDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVmwareengineDatastore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -663,7 +663,7 @@ export class GoogleVmwareengineDatastore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -674,7 +674,7 @@ export class GoogleVmwareengineDatastore extends cdktn.TerraformResource {
       terraformResourceType: 'google_vmwareengine_datastore',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.37.0',
+        providerVersion: '7.38.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
