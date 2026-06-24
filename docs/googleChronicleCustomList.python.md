@@ -4,7 +4,7 @@
 
 ### GoogleChronicleCustomList <a name="GoogleChronicleCustomList" id="@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list google_chronicle_custom_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list google_chronicle_custom_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer"></a>
 
@@ -50,8 +50,8 @@ googleChronicleCustomList.GoogleChronicleCustomList(
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.instance">instance</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomList.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts">GoogleChronicleCustomListTimeouts</a></code> | timeouts block. |
 
 ---
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The value of the custom list. Maximum length: 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#category GoogleChronicleCustomList#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#category GoogleChronicleCustomList#category}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The key of the custom list. Maximum length: 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#entity_identifier GoogleChronicleCustomList#entity_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#entity_identifier GoogleChronicleCustomList#entity_identifier}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The environments to which the custom list is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#environments GoogleChronicleCustomList#environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#environments GoogleChronicleCustomList#environments}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#instance GoogleChronicleCustomList#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#instance GoogleChronicleCustomList#instance}
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#location GoogleChronicleCustomList#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#location GoogleChronicleCustomList#location}
 
 ---
 
@@ -179,7 +179,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#deletion_policy GoogleChronicleCustomList#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#deletion_policy GoogleChronicleCustomList#deletion_policy}
 
 ---
 
@@ -187,7 +187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -198,7 +198,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}.
 
 ---
 
@@ -208,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#timeouts GoogleChronicleCustomList#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#timeouts GoogleChronicleCustomList#timeouts}
 
 ---
 
@@ -610,7 +610,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}.
 
 ---
 
@@ -618,7 +618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}.
 
 ---
 
@@ -626,7 +626,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}.
 
 ---
 
@@ -768,7 +768,7 @@ The construct id used in the generated config for the GoogleChronicleCustomList 
 
 The id of the existing GoogleChronicleCustomList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1227,8 +1227,8 @@ googleChronicleCustomList.GoogleChronicleCustomListConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.instance">instance</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts">GoogleChronicleCustomListTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1313,7 +1313,7 @@ category: str
 
 The value of the custom list. Maximum length: 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#category GoogleChronicleCustomList#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#category GoogleChronicleCustomList#category}
 
 ---
 
@@ -1327,7 +1327,7 @@ entity_identifier: str
 
 The key of the custom list. Maximum length: 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#entity_identifier GoogleChronicleCustomList#entity_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#entity_identifier GoogleChronicleCustomList#entity_identifier}
 
 ---
 
@@ -1341,7 +1341,7 @@ environments: str
 
 The environments to which the custom list is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#environments GoogleChronicleCustomList#environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#environments GoogleChronicleCustomList#environments}
 
 ---
 
@@ -1355,7 +1355,7 @@ instance: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#instance GoogleChronicleCustomList#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#instance GoogleChronicleCustomList#instance}
 
 ---
 
@@ -1369,7 +1369,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#location GoogleChronicleCustomList#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#location GoogleChronicleCustomList#location}
 
 ---
 
@@ -1390,7 +1390,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#deletion_policy GoogleChronicleCustomList#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#deletion_policy GoogleChronicleCustomList#deletion_policy}
 
 ---
 
@@ -1402,7 +1402,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#id GoogleChronicleCustomList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1417,7 +1417,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#project GoogleChronicleCustomList#project}.
 
 ---
 
@@ -1431,7 +1431,7 @@ timeouts: GoogleChronicleCustomListTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#timeouts GoogleChronicleCustomList#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#timeouts GoogleChronicleCustomList#timeouts}
 
 ---
 
@@ -1453,9 +1453,9 @@ googleChronicleCustomList.GoogleChronicleCustomListTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleCustomList.GoogleChronicleCustomListTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}. |
 
 ---
 
@@ -1467,7 +1467,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}.
 
 ---
 
@@ -1479,7 +1479,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}.
 
 ---
 
@@ -1491,7 +1491,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}.
 
 ---
 

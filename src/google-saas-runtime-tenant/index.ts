@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -22,7 +22,7 @@ export interface GoogleSaasRuntimeTenantConfig extends cdktn.TerraformMetaArgume
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#annotations GoogleSaasRuntimeTenant#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#annotations GoogleSaasRuntimeTenant#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -32,7 +32,7 @@ export interface GoogleSaasRuntimeTenantConfig extends cdktn.TerraformMetaArgume
   * retrieving consumer-defined settings and policies such as maintenance
   * policies (using Unified Maintenance Policy API).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#consumer_resource GoogleSaasRuntimeTenant#consumer_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#consumer_resource GoogleSaasRuntimeTenant#consumer_resource}
   */
   readonly consumerResource?: string;
   /**
@@ -44,11 +44,11 @@ export interface GoogleSaasRuntimeTenantConfig extends cdktn.TerraformMetaArgume
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#deletion_policy GoogleSaasRuntimeTenant#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#deletion_policy GoogleSaasRuntimeTenant#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#id GoogleSaasRuntimeTenant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#id GoogleSaasRuntimeTenant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,17 +61,17 @@ export interface GoogleSaasRuntimeTenantConfig extends cdktn.TerraformMetaArgume
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#labels GoogleSaasRuntimeTenant#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#labels GoogleSaasRuntimeTenant#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#location GoogleSaasRuntimeTenant#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#location GoogleSaasRuntimeTenant#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#project GoogleSaasRuntimeTenant#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#project GoogleSaasRuntimeTenant#project}
   */
   readonly project?: string;
   /**
@@ -79,33 +79,33 @@ export interface GoogleSaasRuntimeTenantConfig extends cdktn.TerraformMetaArgume
   * the producer wants to manage with App Lifecycle Manager. Part of the
   * App Lifecycle Manager common data model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#saas GoogleSaasRuntimeTenant#saas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#saas GoogleSaasRuntimeTenant#saas}
   */
   readonly saas: string;
   /**
   * The ID value for the new tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#tenant_id GoogleSaasRuntimeTenant#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#tenant_id GoogleSaasRuntimeTenant#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#timeouts GoogleSaasRuntimeTenant#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#timeouts GoogleSaasRuntimeTenant#timeouts}
   */
   readonly timeouts?: GoogleSaasRuntimeTenantTimeouts;
 }
 export interface GoogleSaasRuntimeTenantTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#create GoogleSaasRuntimeTenant#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#create GoogleSaasRuntimeTenant#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#delete GoogleSaasRuntimeTenant#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#delete GoogleSaasRuntimeTenant#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#update GoogleSaasRuntimeTenant#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#update GoogleSaasRuntimeTenant#update}
   */
   readonly update?: string;
 }
@@ -257,7 +257,7 @@ export class GoogleSaasRuntimeTenantTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant google_saas_runtime_tenant}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant google_saas_runtime_tenant}
 */
 export class GoogleSaasRuntimeTenant extends cdktn.TerraformResource {
 
@@ -273,7 +273,7 @@ export class GoogleSaasRuntimeTenant extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSaasRuntimeTenant resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSaasRuntimeTenant to import
-  * @param importFromId The id of the existing GoogleSaasRuntimeTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSaasRuntimeTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSaasRuntimeTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -285,7 +285,7 @@ export class GoogleSaasRuntimeTenant extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_saas_runtime_tenant google_saas_runtime_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_saas_runtime_tenant google_saas_runtime_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,7 +296,7 @@ export class GoogleSaasRuntimeTenant extends cdktn.TerraformResource {
       terraformResourceType: 'google_saas_runtime_tenant',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.37.0',
+        providerVersion: '7.38.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

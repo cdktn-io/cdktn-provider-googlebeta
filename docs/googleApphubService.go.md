@@ -4,7 +4,7 @@
 
 ### GoogleApphubService <a name="GoogleApphubService" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service google_apphub_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service google_apphub_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubService.GoogleApphubService.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleApphubService to imp
 
 The id of the existing GoogleApphubService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1116,7 +1116,7 @@ BusinessOwners interface{}
 
 business_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#business_owners GoogleApphubService#business_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#business_owners GoogleApphubService#business_owners}
 
 ---
 
@@ -1130,7 +1130,7 @@ Criticality GoogleApphubServiceAttributesCriticality
 
 criticality block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#criticality GoogleApphubService#criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#criticality GoogleApphubService#criticality}
 
 ---
 
@@ -1144,7 +1144,7 @@ DeveloperOwners interface{}
 
 developer_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#developer_owners GoogleApphubService#developer_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#developer_owners GoogleApphubService#developer_owners}
 
 ---
 
@@ -1158,7 +1158,7 @@ Environment GoogleApphubServiceAttributesEnvironment
 
 environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#environment GoogleApphubService#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#environment GoogleApphubService#environment}
 
 ---
 
@@ -1172,7 +1172,7 @@ OperatorOwners interface{}
 
 operator_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#operator_owners GoogleApphubService#operator_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#operator_owners GoogleApphubService#operator_owners}
 
 ---
 
@@ -1208,7 +1208,7 @@ Email *string
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
 
 ---
 
@@ -1222,7 +1222,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1256,7 +1256,7 @@ Type *string
 
 Criticality type. Possible values: ["MISSION_CRITICAL", "HIGH", "MEDIUM", "LOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
 
 ---
 
@@ -1292,7 +1292,7 @@ Email *string
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
 
 ---
 
@@ -1306,7 +1306,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1340,7 +1340,7 @@ Type *string
 
 Environment type. Possible values: ["PRODUCTION", "STAGING", "TEST", "DEVELOPMENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#type GoogleApphubService#type}
 
 ---
 
@@ -1376,7 +1376,7 @@ Email *string
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#email GoogleApphubService#email}
 
 ---
 
@@ -1390,7 +1390,7 @@ DisplayName *string
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1442,8 +1442,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.description">Description</a></code> | <code>*string</code> | User-defined description of a Service. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User-defined name for the Service. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#id GoogleApphubService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#project GoogleApphubService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#id GoogleApphubService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#project GoogleApphubService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts">GoogleApphubServiceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1528,7 +1528,7 @@ ApplicationId *string
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#application_id GoogleApphubService#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#application_id GoogleApphubService#application_id}
 
 ---
 
@@ -1542,7 +1542,7 @@ DiscoveredService *string
 
 Immutable. The resource name of the original discovered service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#discovered_service GoogleApphubService#discovered_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#discovered_service GoogleApphubService#discovered_service}
 
 ---
 
@@ -1556,7 +1556,7 @@ Location *string
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#location GoogleApphubService#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#location GoogleApphubService#location}
 
 ---
 
@@ -1570,7 +1570,7 @@ ServiceId *string
 
 The Service identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#service_id GoogleApphubService#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#service_id GoogleApphubService#service_id}
 
 ---
 
@@ -1584,7 +1584,7 @@ Attributes GoogleApphubServiceAttributes
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#attributes GoogleApphubService#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#attributes GoogleApphubService#attributes}
 
 ---
 
@@ -1605,7 +1605,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#deletion_policy GoogleApphubService#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#deletion_policy GoogleApphubService#deletion_policy}
 
 ---
 
@@ -1619,7 +1619,7 @@ Description *string
 
 User-defined description of a Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#description GoogleApphubService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#description GoogleApphubService#description}
 
 ---
 
@@ -1633,7 +1633,7 @@ DisplayName *string
 
 User-defined name for the Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#display_name GoogleApphubService#display_name}
 
 ---
 
@@ -1645,7 +1645,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#id GoogleApphubService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#id GoogleApphubService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1660,7 +1660,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#project GoogleApphubService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#project GoogleApphubService#project}.
 
 ---
 
@@ -1674,7 +1674,7 @@ Timeouts GoogleApphubServiceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#timeouts GoogleApphubService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#timeouts GoogleApphubService#timeouts}
 
 ---
 
@@ -1787,9 +1787,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#create GoogleApphubService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#update GoogleApphubService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#create GoogleApphubService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#update GoogleApphubService#update}. |
 
 ---
 
@@ -1801,7 +1801,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#create GoogleApphubService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#create GoogleApphubService#create}.
 
 ---
 
@@ -1813,7 +1813,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#delete GoogleApphubService#delete}.
 
 ---
 
@@ -1825,7 +1825,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apphub_service#update GoogleApphubService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apphub_service#update GoogleApphubService#update}.
 
 ---
 

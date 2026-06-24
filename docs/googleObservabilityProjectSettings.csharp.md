@@ -4,7 +4,7 @@
 
 ### GoogleObservabilityProjectSettings <a name="GoogleObservabilityProjectSettings" id="@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings google_observability_project_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings google_observability_project_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettings.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleObservabilityProject
 
 The id of the existing GoogleObservabilityProjectSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,9 +923,9 @@ new GoogleObservabilityProjectSettingsConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.location">Location</a></code> | <code>string</code> | The location of the settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.defaultStorageLocation">DefaultStorageLocation</a></code> | <code>string</code> | The default storage location for new resources, e.g. buckets. Only valid for global location. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#id GoogleObservabilityProjectSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#id GoogleObservabilityProjectSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.kmsKeyName">KmsKeyName</a></code> | <code>string</code> | The default Cloud KMS key to use for new resources. Only valid for regional locations. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#project GoogleObservabilityProjectSettings#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#project GoogleObservabilityProjectSettings#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsTimeouts">GoogleObservabilityProjectSettingsTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1010,7 +1010,7 @@ public string Location { get; set; }
 
 The location of the settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#location GoogleObservabilityProjectSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#location GoogleObservabilityProjectSettings#location}
 
 ---
 
@@ -1024,7 +1024,7 @@ public string DefaultStorageLocation { get; set; }
 
 The default storage location for new resources, e.g. buckets. Only valid for global location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#default_storage_location GoogleObservabilityProjectSettings#default_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#default_storage_location GoogleObservabilityProjectSettings#default_storage_location}
 
 ---
 
@@ -1036,7 +1036,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#id GoogleObservabilityProjectSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#id GoogleObservabilityProjectSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1053,7 +1053,7 @@ public string KmsKeyName { get; set; }
 
 The default Cloud KMS key to use for new resources. Only valid for regional locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#kms_key_name GoogleObservabilityProjectSettings#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#kms_key_name GoogleObservabilityProjectSettings#kms_key_name}
 
 ---
 
@@ -1065,7 +1065,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#project GoogleObservabilityProjectSettings#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#project GoogleObservabilityProjectSettings#project}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public GoogleObservabilityProjectSettingsTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#timeouts GoogleObservabilityProjectSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#timeouts GoogleObservabilityProjectSettings#timeouts}
 
 ---
 
@@ -1101,9 +1101,9 @@ new GoogleObservabilityProjectSettingsTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#create GoogleObservabilityProjectSettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#delete GoogleObservabilityProjectSettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#update GoogleObservabilityProjectSettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#create GoogleObservabilityProjectSettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#delete GoogleObservabilityProjectSettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityProjectSettings.GoogleObservabilityProjectSettingsTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#update GoogleObservabilityProjectSettings#update}. |
 
 ---
 
@@ -1115,7 +1115,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#create GoogleObservabilityProjectSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#create GoogleObservabilityProjectSettings#create}.
 
 ---
 
@@ -1127,7 +1127,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#delete GoogleObservabilityProjectSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#delete GoogleObservabilityProjectSettings#delete}.
 
 ---
 
@@ -1139,7 +1139,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_observability_project_settings#update GoogleObservabilityProjectSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_observability_project_settings#update GoogleObservabilityProjectSettings#update}.
 
 ---
 

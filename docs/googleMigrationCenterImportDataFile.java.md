@@ -4,7 +4,7 @@
 
 ### GoogleMigrationCenterImportDataFile <a name="GoogleMigrationCenterImportDataFile" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer"></a>
 
@@ -48,8 +48,8 @@ GoogleMigrationCenterImportDataFile.Builder.create(Construct scope, java.lang.St
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | User-friendly display name. Maximum length is 63 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFile.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts">GoogleMigrationCenterImportDataFileTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Possible values: IMPORT_JOB_FORMAT_RVTOOLS_XLSX IMPORT_JOB_FORMAT_RVTOOLS_CSV IMPORT_JOB_FORMAT_EXPORTED_AWS_CSV IMPORT_JOB_FORMAT_EXPORTED_AZURE_CSV IMPORT_JOB_FORMAT_STRATOZONE_CSV IMPORT_JOB_FORMAT_DATABASE_ZIP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#format GoogleMigrationCenterImportDataFile#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#format GoogleMigrationCenterImportDataFile#format}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the new data file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#import_data_file_id GoogleMigrationCenterImportDataFile#import_data_file_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#import_data_file_id GoogleMigrationCenterImportDataFile#import_data_file_id}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#import_job GoogleMigrationCenterImportDataFile#import_job}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#import_job GoogleMigrationCenterImportDataFile#import_job}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#location GoogleMigrationCenterImportDataFile#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#location GoogleMigrationCenterImportDataFile#location}
 
 ---
 
@@ -167,7 +167,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#deletion_policy GoogleMigrationCenterImportDataFile#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#deletion_policy GoogleMigrationCenterImportDataFile#deletion_policy}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-friendly display name. Maximum length is 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#display_name GoogleMigrationCenterImportDataFile#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#display_name GoogleMigrationCenterImportDataFile#display_name}
 
 ---
 
@@ -185,7 +185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -196,7 +196,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}.
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#timeouts GoogleMigrationCenterImportDataFile#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#timeouts GoogleMigrationCenterImportDataFile#timeouts}
 
 ---
 
@@ -703,7 +703,7 @@ The construct id used in the generated config for the GoogleMigrationCenterImpor
 
 The id of the existing GoogleMigrationCenterImportDataFile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1184,8 +1184,8 @@ GoogleMigrationCenterImportDataFileConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.location">location</a></code> | <code>java.lang.String</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | User-friendly display name. Maximum length is 63 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts">GoogleMigrationCenterImportDataFileTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1270,7 +1270,7 @@ public java.lang.String getFormat();
 
 Possible values: IMPORT_JOB_FORMAT_RVTOOLS_XLSX IMPORT_JOB_FORMAT_RVTOOLS_CSV IMPORT_JOB_FORMAT_EXPORTED_AWS_CSV IMPORT_JOB_FORMAT_EXPORTED_AZURE_CSV IMPORT_JOB_FORMAT_STRATOZONE_CSV IMPORT_JOB_FORMAT_DATABASE_ZIP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#format GoogleMigrationCenterImportDataFile#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#format GoogleMigrationCenterImportDataFile#format}
 
 ---
 
@@ -1284,7 +1284,7 @@ public java.lang.String getImportDataFileId();
 
 The ID of the new data file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#import_data_file_id GoogleMigrationCenterImportDataFile#import_data_file_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#import_data_file_id GoogleMigrationCenterImportDataFile#import_data_file_id}
 
 ---
 
@@ -1298,7 +1298,7 @@ public java.lang.String getImportJob();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#import_job GoogleMigrationCenterImportDataFile#import_job}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#import_job GoogleMigrationCenterImportDataFile#import_job}
 
 ---
 
@@ -1312,7 +1312,7 @@ public java.lang.String getLocation();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#location GoogleMigrationCenterImportDataFile#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#location GoogleMigrationCenterImportDataFile#location}
 
 ---
 
@@ -1333,7 +1333,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#deletion_policy GoogleMigrationCenterImportDataFile#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#deletion_policy GoogleMigrationCenterImportDataFile#deletion_policy}
 
 ---
 
@@ -1347,7 +1347,7 @@ public java.lang.String getDisplayName();
 
 User-friendly display name. Maximum length is 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#display_name GoogleMigrationCenterImportDataFile#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#display_name GoogleMigrationCenterImportDataFile#display_name}
 
 ---
 
@@ -1359,7 +1359,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#id GoogleMigrationCenterImportDataFile#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1374,7 +1374,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#project GoogleMigrationCenterImportDataFile#project}.
 
 ---
 
@@ -1388,7 +1388,7 @@ public GoogleMigrationCenterImportDataFileTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#timeouts GoogleMigrationCenterImportDataFile#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#timeouts GoogleMigrationCenterImportDataFile#timeouts}
 
 ---
 
@@ -1409,8 +1409,8 @@ GoogleMigrationCenterImportDataFileTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterImportDataFile.GoogleMigrationCenterImportDataFileTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}. |
 
 ---
 
@@ -1422,7 +1422,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#create GoogleMigrationCenterImportDataFile#create}.
 
 ---
 
@@ -1434,7 +1434,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_import_data_file#delete GoogleMigrationCenterImportDataFile#delete}.
 
 ---
 

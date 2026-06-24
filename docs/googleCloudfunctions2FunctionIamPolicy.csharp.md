@@ -4,7 +4,7 @@
 
 ### GoogleCloudfunctions2FunctionIamPolicy <a name="GoogleCloudfunctions2FunctionIamPolicy" id="@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy google_cloudfunctions2_function_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy google_cloudfunctions2_function_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicy.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleCloudfunctions2Funct
 
 The id of the existing GoogleCloudfunctions2FunctionIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -860,11 +860,11 @@ new GoogleCloudfunctions2FunctionIamPolicyConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.cloudFunction">CloudFunction</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#cloud_function GoogleCloudfunctions2FunctionIamPolicy#cloud_function}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#policy_data GoogleCloudfunctions2FunctionIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#id GoogleCloudfunctions2FunctionIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#location GoogleCloudfunctions2FunctionIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#project GoogleCloudfunctions2FunctionIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.cloudFunction">CloudFunction</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#cloud_function GoogleCloudfunctions2FunctionIamPolicy#cloud_function}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#policy_data GoogleCloudfunctions2FunctionIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#id GoogleCloudfunctions2FunctionIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#location GoogleCloudfunctions2FunctionIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamPolicy.GoogleCloudfunctions2FunctionIamPolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#project GoogleCloudfunctions2FunctionIamPolicy#project}. |
 
 ---
 
@@ -946,7 +946,7 @@ public string CloudFunction { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#cloud_function GoogleCloudfunctions2FunctionIamPolicy#cloud_function}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#cloud_function GoogleCloudfunctions2FunctionIamPolicy#cloud_function}.
 
 ---
 
@@ -958,7 +958,7 @@ public string PolicyData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#policy_data GoogleCloudfunctions2FunctionIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#policy_data GoogleCloudfunctions2FunctionIamPolicy#policy_data}.
 
 ---
 
@@ -970,7 +970,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#id GoogleCloudfunctions2FunctionIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#id GoogleCloudfunctions2FunctionIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ public string Location { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#location GoogleCloudfunctions2FunctionIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#location GoogleCloudfunctions2FunctionIamPolicy#location}.
 
 ---
 
@@ -997,7 +997,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloudfunctions2_function_iam_policy#project GoogleCloudfunctions2FunctionIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_cloudfunctions2_function_iam_policy#project GoogleCloudfunctions2FunctionIamPolicy#project}.
 
 ---
 

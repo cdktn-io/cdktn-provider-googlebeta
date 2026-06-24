@@ -4,7 +4,7 @@
 
 ### GoogleComputeStoragePool <a name="GoogleComputeStoragePool" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePool.Initializer"></a>
 
@@ -592,7 +592,7 @@ The construct id used in the generated config for the GoogleComputeStoragePool t
 
 The id of the existing GoogleComputeStoragePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1261,7 +1261,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolParams">GoogleComputeStoragePoolParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.performanceProvisioningType">PerformanceProvisioningType</a></code> | <code>*string</code> | Provisioning type of the performance-related parameters of the pool, such as throughput and IOPS. Possible values: ["STANDARD", "ADVANCED"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.poolProvisionedIops">PoolProvisionedIops</a></code> | <code>*string</code> | Provisioned IOPS of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced'. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts">GoogleComputeStoragePoolTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolConfig.property.zone">Zone</a></code> | <code>*string</code> | A reference to the zone where the storage pool resides. |
 
@@ -1355,7 +1355,7 @@ which means the first character must be a lowercase letter,
 and all following characters must be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#name GoogleComputeStoragePool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#name GoogleComputeStoragePool#name}
 
 ---
 
@@ -1369,7 +1369,7 @@ PoolProvisionedCapacityGb *string
 
 Size, in GiB, of the storage pool. For more information about the size limits, see https://cloud.google.com/compute/docs/disks/storage-pools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#pool_provisioned_capacity_gb GoogleComputeStoragePool#pool_provisioned_capacity_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#pool_provisioned_capacity_gb GoogleComputeStoragePool#pool_provisioned_capacity_gb}
 
 ---
 
@@ -1383,7 +1383,7 @@ PoolProvisionedThroughput *string
 
 Provisioned throughput, in MB/s, of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced' or 'hyperdisk-throughput'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#pool_provisioned_throughput GoogleComputeStoragePool#pool_provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#pool_provisioned_throughput GoogleComputeStoragePool#pool_provisioned_throughput}
 
 ---
 
@@ -1400,7 +1400,7 @@ Type of the storage pool. For example, the following are valid values:.
 * 'https://www.googleapis.com/compute/v1/projects/{project_id}/zones/{zone}/storagePoolTypes/hyperdisk-balanced'
 * 'hyperdisk-throughput'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#storage_pool_type GoogleComputeStoragePool#storage_pool_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#storage_pool_type GoogleComputeStoragePool#storage_pool_type}
 
 ---
 
@@ -1414,7 +1414,7 @@ CapacityProvisioningType *string
 
 Provisioning type of the byte capacity of the pool. Possible values: ["STANDARD", "ADVANCED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#capacity_provisioning_type GoogleComputeStoragePool#capacity_provisioning_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#capacity_provisioning_type GoogleComputeStoragePool#capacity_provisioning_type}
 
 ---
 
@@ -1435,7 +1435,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#deletion_policy GoogleComputeStoragePool#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#deletion_policy GoogleComputeStoragePool#deletion_policy}
 
 ---
 
@@ -1453,7 +1453,7 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the StoragePool will fail.
 When the field is set to false, deleting the StoragePool is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#deletion_protection GoogleComputeStoragePool#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#deletion_protection GoogleComputeStoragePool#deletion_protection}
 
 ---
 
@@ -1467,7 +1467,7 @@ Description *string
 
 A description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#description GoogleComputeStoragePool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#description GoogleComputeStoragePool#description}
 
 ---
 
@@ -1484,7 +1484,7 @@ Labels to apply to this storage pool. These can be later modified by the setLabe
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#labels GoogleComputeStoragePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#labels GoogleComputeStoragePool#labels}
 
 ---
 
@@ -1498,7 +1498,7 @@ Params GoogleComputeStoragePoolParams
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#params GoogleComputeStoragePool#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#params GoogleComputeStoragePool#params}
 
 ---
 
@@ -1512,7 +1512,7 @@ PerformanceProvisioningType *string
 
 Provisioning type of the performance-related parameters of the pool, such as throughput and IOPS. Possible values: ["STANDARD", "ADVANCED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#performance_provisioning_type GoogleComputeStoragePool#performance_provisioning_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#performance_provisioning_type GoogleComputeStoragePool#performance_provisioning_type}
 
 ---
 
@@ -1526,7 +1526,7 @@ PoolProvisionedIops *string
 
 Provisioned IOPS of the storage pool. Only relevant if the storage pool type is 'hyperdisk-balanced'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#pool_provisioned_iops GoogleComputeStoragePool#pool_provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#pool_provisioned_iops GoogleComputeStoragePool#pool_provisioned_iops}
 
 ---
 
@@ -1538,7 +1538,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#project GoogleComputeStoragePool#project}.
 
 ---
 
@@ -1552,7 +1552,7 @@ Timeouts GoogleComputeStoragePoolTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#timeouts GoogleComputeStoragePool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#timeouts GoogleComputeStoragePool#timeouts}
 
 ---
 
@@ -1566,7 +1566,7 @@ Zone *string
 
 A reference to the zone where the storage pool resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#zone GoogleComputeStoragePool#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#zone GoogleComputeStoragePool#zone}
 
 ---
 
@@ -1608,7 +1608,7 @@ The field is immutable and causes resource replacement when mutated. This field 
 set at create time and modifying this field after creation will trigger recreation.
 To apply tags to an existing resource, see the google_tags_tag_binding resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#resource_manager_tags GoogleComputeStoragePool#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#resource_manager_tags GoogleComputeStoragePool#resource_manager_tags}
 
 ---
 
@@ -1656,9 +1656,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePool.GoogleComputeStoragePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}. |
 
 ---
 
@@ -1670,7 +1670,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#create GoogleComputeStoragePool#create}.
 
 ---
 
@@ -1682,7 +1682,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#delete GoogleComputeStoragePool#delete}.
 
 ---
 
@@ -1694,7 +1694,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool#update GoogleComputeStoragePool#update}.
 
 ---
 

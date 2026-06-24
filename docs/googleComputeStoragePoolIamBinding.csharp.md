@@ -4,7 +4,7 @@
 
 ### GoogleComputeStoragePoolIamBinding <a name="GoogleComputeStoragePoolIamBinding" id="@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeStoragePoolIa
 
 The id of the existing GoogleComputeStoragePoolIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ new GoogleComputeStoragePoolIamBindingCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#expression GoogleComputeStoragePoolIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#title GoogleComputeStoragePoolIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#description GoogleComputeStoragePoolIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#expression GoogleComputeStoragePoolIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#title GoogleComputeStoragePoolIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#description GoogleComputeStoragePoolIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#expression GoogleComputeStoragePoolIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#expression GoogleComputeStoragePoolIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#title GoogleComputeStoragePoolIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#title GoogleComputeStoragePoolIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#description GoogleComputeStoragePoolIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#description GoogleComputeStoragePoolIamBinding#description}.
 
 ---
 
@@ -986,13 +986,13 @@ new GoogleComputeStoragePoolIamBindingConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#members GoogleComputeStoragePoolIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#name GoogleComputeStoragePoolIamBinding#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#role GoogleComputeStoragePoolIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#members GoogleComputeStoragePoolIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#name GoogleComputeStoragePoolIamBinding#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#role GoogleComputeStoragePoolIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingCondition">GoogleComputeStoragePoolIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#id GoogleComputeStoragePoolIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#project GoogleComputeStoragePoolIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.zone">Zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#zone GoogleComputeStoragePoolIamBinding#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#id GoogleComputeStoragePoolIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#project GoogleComputeStoragePoolIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeStoragePoolIamBinding.GoogleComputeStoragePoolIamBindingConfig.property.zone">Zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#zone GoogleComputeStoragePoolIamBinding#zone}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public string[] Members { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#members GoogleComputeStoragePoolIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#members GoogleComputeStoragePoolIamBinding#members}.
 
 ---
 
@@ -1086,7 +1086,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#name GoogleComputeStoragePoolIamBinding#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#name GoogleComputeStoragePoolIamBinding#name}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#role GoogleComputeStoragePoolIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#role GoogleComputeStoragePoolIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ public GoogleComputeStoragePoolIamBindingCondition Condition { get; set; }
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#condition GoogleComputeStoragePoolIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#condition GoogleComputeStoragePoolIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#id GoogleComputeStoragePoolIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#id GoogleComputeStoragePoolIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#project GoogleComputeStoragePoolIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#project GoogleComputeStoragePoolIamBinding#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public string Zone { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_storage_pool_iam_binding#zone GoogleComputeStoragePoolIamBinding#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_storage_pool_iam_binding#zone GoogleComputeStoragePoolIamBinding#zone}.
 
 ---
 

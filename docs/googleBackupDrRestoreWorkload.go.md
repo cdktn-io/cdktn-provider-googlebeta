@@ -4,7 +4,7 @@
 
 ### GoogleBackupDrRestoreWorkload <a name="GoogleBackupDrRestoreWorkload" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkload"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkload.Initializer"></a>
 
@@ -651,7 +651,7 @@ The construct id used in the generated config for the GoogleBackupDrRestoreWorkl
 
 The id of the existing GoogleBackupDrRestoreWorkload that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1289,7 +1289,7 @@ Name *string
 
 Required. Name of the compute instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
 
 ---
 
@@ -1303,7 +1303,7 @@ AdvancedMachineFeatures GoogleBackupDrRestoreWorkloadComputeInstanceRestorePrope
 
 advanced_machine_features block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#advanced_machine_features GoogleBackupDrRestoreWorkload#advanced_machine_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#advanced_machine_features GoogleBackupDrRestoreWorkload#advanced_machine_features}
 
 ---
 
@@ -1317,7 +1317,7 @@ AllocationAffinity GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperties
 
 allocation_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#allocation_affinity GoogleBackupDrRestoreWorkload#allocation_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#allocation_affinity GoogleBackupDrRestoreWorkload#allocation_affinity}
 
 ---
 
@@ -1331,7 +1331,7 @@ CanIpForward interface{}
 
 Optional. Allows this instance to send and receive packets with non-matching destination or source IPs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#can_ip_forward GoogleBackupDrRestoreWorkload#can_ip_forward}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#can_ip_forward GoogleBackupDrRestoreWorkload#can_ip_forward}
 
 ---
 
@@ -1345,7 +1345,7 @@ ConfidentialInstanceConfig GoogleBackupDrRestoreWorkloadComputeInstanceRestorePr
 
 confidential_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#confidential_instance_config GoogleBackupDrRestoreWorkload#confidential_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#confidential_instance_config GoogleBackupDrRestoreWorkload#confidential_instance_config}
 
 ---
 
@@ -1359,7 +1359,7 @@ DeletionProtection interface{}
 
 Optional. Whether the resource should be protected against deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#deletion_protection GoogleBackupDrRestoreWorkload#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#deletion_protection GoogleBackupDrRestoreWorkload#deletion_protection}
 
 ---
 
@@ -1373,7 +1373,7 @@ Description *string
 
 Optional. An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#description GoogleBackupDrRestoreWorkload#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#description GoogleBackupDrRestoreWorkload#description}
 
 ---
 
@@ -1387,7 +1387,7 @@ Disks interface{}
 
 disks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disks GoogleBackupDrRestoreWorkload#disks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disks GoogleBackupDrRestoreWorkload#disks}
 
 ---
 
@@ -1401,7 +1401,7 @@ DisplayDevice GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDispl
 
 display_device block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#display_device GoogleBackupDrRestoreWorkload#display_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#display_device GoogleBackupDrRestoreWorkload#display_device}
 
 ---
 
@@ -1415,7 +1415,7 @@ GuestAccelerators interface{}
 
 guest_accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#guest_accelerators GoogleBackupDrRestoreWorkload#guest_accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#guest_accelerators GoogleBackupDrRestoreWorkload#guest_accelerators}
 
 ---
 
@@ -1429,7 +1429,7 @@ Hostname *string
 
 Optional. Specifies the hostname of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#hostname GoogleBackupDrRestoreWorkload#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#hostname GoogleBackupDrRestoreWorkload#hostname}
 
 ---
 
@@ -1443,7 +1443,7 @@ InstanceEncryptionKey GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropert
 
 instance_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#instance_encryption_key GoogleBackupDrRestoreWorkload#instance_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#instance_encryption_key GoogleBackupDrRestoreWorkload#instance_encryption_key}
 
 ---
 
@@ -1457,7 +1457,7 @@ KeyRevocationActionType *string
 
 Optional. KeyRevocationActionType of the instance. Possible values: ["KEY_REVOCATION_ACTION_TYPE_UNSPECIFIED", "NONE", "STOP"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key_revocation_action_type GoogleBackupDrRestoreWorkload#key_revocation_action_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key_revocation_action_type GoogleBackupDrRestoreWorkload#key_revocation_action_type}
 
 ---
 
@@ -1471,7 +1471,7 @@ Labels interface{}
 
 labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#labels GoogleBackupDrRestoreWorkload#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#labels GoogleBackupDrRestoreWorkload#labels}
 
 ---
 
@@ -1485,7 +1485,7 @@ MachineType *string
 
 Optional. Full or partial URL of the machine type resource to use for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#machine_type GoogleBackupDrRestoreWorkload#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#machine_type GoogleBackupDrRestoreWorkload#machine_type}
 
 ---
 
@@ -1499,7 +1499,7 @@ Metadata GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadata
 
 metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#metadata GoogleBackupDrRestoreWorkload#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#metadata GoogleBackupDrRestoreWorkload#metadata}
 
 ---
 
@@ -1513,7 +1513,7 @@ MinCpuPlatform *string
 
 Optional. Minimum CPU platform to use for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#min_cpu_platform GoogleBackupDrRestoreWorkload#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#min_cpu_platform GoogleBackupDrRestoreWorkload#min_cpu_platform}
 
 ---
 
@@ -1527,7 +1527,7 @@ NetworkInterfaces interface{}
 
 network_interfaces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#network_interfaces GoogleBackupDrRestoreWorkload#network_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#network_interfaces GoogleBackupDrRestoreWorkload#network_interfaces}
 
 ---
 
@@ -1541,7 +1541,7 @@ NetworkPerformanceConfig GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProp
 
 network_performance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#network_performance_config GoogleBackupDrRestoreWorkload#network_performance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#network_performance_config GoogleBackupDrRestoreWorkload#network_performance_config}
 
 ---
 
@@ -1555,7 +1555,7 @@ Params GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParams
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#params GoogleBackupDrRestoreWorkload#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#params GoogleBackupDrRestoreWorkload#params}
 
 ---
 
@@ -1569,7 +1569,7 @@ PrivateIpv6GoogleAccess *string
 
 Optional. The private IPv6 google access type for the VM. Possible values: ["INSTANCE_PRIVATE_IPV6_GOOGLE_ACCESS_UNSPECIFIED", "INHERIT_FROM_SUBNETWORK", "ENABLE_OUTBOUND_VM_ACCESS_TO_GOOGLE", "ENABLE_BIDIRECTIONAL_ACCESS_TO_GOOGLE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#private_ipv6_google_access GoogleBackupDrRestoreWorkload#private_ipv6_google_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#private_ipv6_google_access GoogleBackupDrRestoreWorkload#private_ipv6_google_access}
 
 ---
 
@@ -1583,7 +1583,7 @@ ResourcePolicies *[]*string
 
 Optional. Resource policies applied to this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#resource_policies GoogleBackupDrRestoreWorkload#resource_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#resource_policies GoogleBackupDrRestoreWorkload#resource_policies}
 
 ---
 
@@ -1597,7 +1597,7 @@ Scheduling GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduli
 
 scheduling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#scheduling GoogleBackupDrRestoreWorkload#scheduling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#scheduling GoogleBackupDrRestoreWorkload#scheduling}
 
 ---
 
@@ -1611,7 +1611,7 @@ ServiceAccounts interface{}
 
 service_accounts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#service_accounts GoogleBackupDrRestoreWorkload#service_accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#service_accounts GoogleBackupDrRestoreWorkload#service_accounts}
 
 ---
 
@@ -1625,7 +1625,7 @@ ShieldedInstanceConfig GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProper
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#shielded_instance_config GoogleBackupDrRestoreWorkload#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#shielded_instance_config GoogleBackupDrRestoreWorkload#shielded_instance_config}
 
 ---
 
@@ -1639,7 +1639,7 @@ Tags GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags
 
 tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#tags GoogleBackupDrRestoreWorkload#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#tags GoogleBackupDrRestoreWorkload#tags}
 
 ---
 
@@ -1679,7 +1679,7 @@ EnableNestedVirtualization interface{}
 
 Optional. Whether to enable nested virtualization or not (default is false).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_nested_virtualization GoogleBackupDrRestoreWorkload#enable_nested_virtualization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_nested_virtualization GoogleBackupDrRestoreWorkload#enable_nested_virtualization}
 
 ---
 
@@ -1693,7 +1693,7 @@ EnableUefiNetworking interface{}
 
 Optional. Whether to enable UEFI networking for instance creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_uefi_networking GoogleBackupDrRestoreWorkload#enable_uefi_networking}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_uefi_networking GoogleBackupDrRestoreWorkload#enable_uefi_networking}
 
 ---
 
@@ -1707,7 +1707,7 @@ ThreadsPerCore *f64
 
 Optional. The number of threads per physical core.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#threads_per_core GoogleBackupDrRestoreWorkload#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#threads_per_core GoogleBackupDrRestoreWorkload#threads_per_core}
 
 ---
 
@@ -1721,7 +1721,7 @@ VisibleCoreCount *f64
 
 Optional. The number of physical cores to expose to an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#visible_core_count GoogleBackupDrRestoreWorkload#visible_core_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#visible_core_count GoogleBackupDrRestoreWorkload#visible_core_count}
 
 ---
 
@@ -1744,8 +1744,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity.property.consumeAllocationType">ConsumeAllocationType</a></code> | <code>*string</code> | Possible values: ["TYPE_UNSPECIFIED", "NO_RESERVATION", "ANY_RESERVATION", "SPECIFIC_RESERVATION"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}. |
 
 ---
 
@@ -1759,7 +1759,7 @@ ConsumeAllocationType *string
 
 Possible values: ["TYPE_UNSPECIFIED", "NO_RESERVATION", "ANY_RESERVATION", "SPECIFIC_RESERVATION"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#consume_allocation_type GoogleBackupDrRestoreWorkload#consume_allocation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#consume_allocation_type GoogleBackupDrRestoreWorkload#consume_allocation_type}
 
 ---
 
@@ -1771,7 +1771,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
 
 ---
 
@@ -1783,7 +1783,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}.
 
 ---
 
@@ -1817,7 +1817,7 @@ EnableConfidentialCompute interface{}
 
 Optional. Defines whether the instance should have confidential compute enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_confidential_compute GoogleBackupDrRestoreWorkload#enable_confidential_compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_confidential_compute GoogleBackupDrRestoreWorkload#enable_confidential_compute}
 
 ---
 
@@ -1881,7 +1881,7 @@ AutoDelete interface{}
 
 Optional. Specifies whether the disk will be auto-deleted when the instance is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#auto_delete GoogleBackupDrRestoreWorkload#auto_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#auto_delete GoogleBackupDrRestoreWorkload#auto_delete}
 
 ---
 
@@ -1895,7 +1895,7 @@ Boot interface{}
 
 Optional. Indicates that this is a boot disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#boot GoogleBackupDrRestoreWorkload#boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#boot GoogleBackupDrRestoreWorkload#boot}
 
 ---
 
@@ -1909,7 +1909,7 @@ DeviceName *string
 
 Optional. This is used as an identifier for the disks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#device_name GoogleBackupDrRestoreWorkload#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#device_name GoogleBackupDrRestoreWorkload#device_name}
 
 ---
 
@@ -1923,7 +1923,7 @@ DiskEncryptionKey GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesD
 
 disk_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_encryption_key GoogleBackupDrRestoreWorkload#disk_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_encryption_key GoogleBackupDrRestoreWorkload#disk_encryption_key}
 
 ---
 
@@ -1937,7 +1937,7 @@ DiskInterface *string
 
 Optional. Specifies the disk interface to use for attaching this disk. Possible values: ["DISK_INTERFACE_UNSPECIFIED", "SCSI", "NVME", "NVDIMM", "ISCSI"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_interface GoogleBackupDrRestoreWorkload#disk_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_interface GoogleBackupDrRestoreWorkload#disk_interface}
 
 ---
 
@@ -1951,7 +1951,7 @@ DiskSizeGb *f64
 
 Optional. The size of the disk in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_size_gb GoogleBackupDrRestoreWorkload#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_size_gb GoogleBackupDrRestoreWorkload#disk_size_gb}
 
 ---
 
@@ -1965,7 +1965,7 @@ DiskType *string
 
 Output only. The URI of the disk type resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_type GoogleBackupDrRestoreWorkload#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_type GoogleBackupDrRestoreWorkload#disk_type}
 
 ---
 
@@ -1979,7 +1979,7 @@ GuestOsFeature interface{}
 
 guest_os_feature block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#guest_os_feature GoogleBackupDrRestoreWorkload#guest_os_feature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#guest_os_feature GoogleBackupDrRestoreWorkload#guest_os_feature}
 
 ---
 
@@ -1993,7 +1993,7 @@ Index *f64
 
 Optional. A zero-based index to this disk, where 0 is reserved for the boot disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#index GoogleBackupDrRestoreWorkload#index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#index GoogleBackupDrRestoreWorkload#index}
 
 ---
 
@@ -2007,7 +2007,7 @@ InitializeParams GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDi
 
 initialize_params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#initialize_params GoogleBackupDrRestoreWorkload#initialize_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#initialize_params GoogleBackupDrRestoreWorkload#initialize_params}
 
 ---
 
@@ -2021,7 +2021,7 @@ Kind *string
 
 Optional. Type of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kind GoogleBackupDrRestoreWorkload#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kind GoogleBackupDrRestoreWorkload#kind}
 
 ---
 
@@ -2035,7 +2035,7 @@ License *[]*string
 
 Optional. Any valid publicly visible licenses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#license GoogleBackupDrRestoreWorkload#license}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#license GoogleBackupDrRestoreWorkload#license}
 
 ---
 
@@ -2049,7 +2049,7 @@ Mode *string
 
 Optional. The mode in which to attach this disk. Possible values: ["DISK_MODE_UNSPECIFIED", "READ_WRITE", "READ_ONLY", "LOCKED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#mode GoogleBackupDrRestoreWorkload#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#mode GoogleBackupDrRestoreWorkload#mode}
 
 ---
 
@@ -2063,7 +2063,7 @@ SavedState *string
 
 Optional. Specifies the saved state of the disk. Possible values: ["DISK_SAVED_STATE_UNSPECIFIED", "PRESERVED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#saved_state GoogleBackupDrRestoreWorkload#saved_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#saved_state GoogleBackupDrRestoreWorkload#saved_state}
 
 ---
 
@@ -2077,7 +2077,7 @@ Source *string
 
 Optional. Specifies a valid partial or full URL to an existing Persistent Disk resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#source GoogleBackupDrRestoreWorkload#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#source GoogleBackupDrRestoreWorkload#source}
 
 ---
 
@@ -2091,7 +2091,7 @@ Type *string
 
 Optional. Specifies the type of the disk. Possible values: ["DISK_TYPE_UNSPECIFIED", "SCRATCH", "PERSISTENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
 
 ---
 
@@ -2131,7 +2131,7 @@ KmsKeyName *string
 
 Optional. The name of the encryption key that is stored in Google Cloud KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}
 
 ---
 
@@ -2145,7 +2145,7 @@ KmsKeyServiceAccount *string
 
 Optional. The service account being used for the encryption request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}
 
 ---
 
@@ -2159,7 +2159,7 @@ RawKey *string
 
 Optional. Specifies a 256-bit customer-supplied encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}
 
 ---
 
@@ -2173,7 +2173,7 @@ RsaEncryptedKey *string
 
 Optional. RSA-wrapped 2048-bit customer-supplied encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}
 
 ---
 
@@ -2209,7 +2209,7 @@ Optional.
 
 The ID of a supported feature. Possible values: ["FEATURE_TYPE_UNSPECIFIED", "VIRTIO_SCSI_MULTIQUEUE", "WINDOWS", "MULTI_IP_SUBNET", "UEFI_COMPATIBLE", "SECURE_BOOT", "GVNIC", "SEV_CAPABLE", "BARE_METAL_LINUX_COMPATIBLE", "SUSPEND_RESUME_COMPATIBLE", "SEV_LIVE_MIGRATABLE", "SEV_SNP_CAPABLE", "TDX_CAPABLE", "IDPF", "SEV_LIVE_MIGRATABLE_V2"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
 
 ---
 
@@ -2245,7 +2245,7 @@ DiskName *string
 
 Optional. Specifies the disk name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_name GoogleBackupDrRestoreWorkload#disk_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_name GoogleBackupDrRestoreWorkload#disk_name}
 
 ---
 
@@ -2259,7 +2259,7 @@ ReplicaZones *[]*string
 
 Optional. URL of the zone where the disk should be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#replica_zones GoogleBackupDrRestoreWorkload#replica_zones}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#replica_zones GoogleBackupDrRestoreWorkload#replica_zones}
 
 ---
 
@@ -2293,7 +2293,7 @@ EnableDisplay interface{}
 
 Optional. Enables display for the Compute Engine VM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_display GoogleBackupDrRestoreWorkload#enable_display}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_display GoogleBackupDrRestoreWorkload#enable_display}
 
 ---
 
@@ -2329,7 +2329,7 @@ AcceleratorCount *f64
 
 Optional. The number of the guest accelerator cards exposed to this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#accelerator_count GoogleBackupDrRestoreWorkload#accelerator_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#accelerator_count GoogleBackupDrRestoreWorkload#accelerator_count}
 
 ---
 
@@ -2343,7 +2343,7 @@ AcceleratorType *string
 
 Optional. Full or partial URL of the accelerator type resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#accelerator_type GoogleBackupDrRestoreWorkload#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#accelerator_type GoogleBackupDrRestoreWorkload#accelerator_type}
 
 ---
 
@@ -2366,10 +2366,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.kmsKeyName">KmsKeyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.kmsKeyServiceAccount">KmsKeyServiceAccount</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.rawKey">RawKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.rsaEncryptedKey">RsaEncryptedKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.kmsKeyName">KmsKeyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.kmsKeyServiceAccount">KmsKeyServiceAccount</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.rawKey">RawKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.property.rsaEncryptedKey">RsaEncryptedKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}. |
 
 ---
 
@@ -2381,7 +2381,7 @@ KmsKeyName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}.
 
 ---
 
@@ -2393,7 +2393,7 @@ KmsKeyServiceAccount *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}.
 
 ---
 
@@ -2405,7 +2405,7 @@ RawKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}.
 
 ---
 
@@ -2417,7 +2417,7 @@ RsaEncryptedKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}.
 
 ---
 
@@ -2438,8 +2438,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
 
 ---
 
@@ -2451,7 +2451,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
 
 ---
 
@@ -2463,7 +2463,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
 
 ---
 
@@ -2497,7 +2497,7 @@ Items interface{}
 
 items block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#items GoogleBackupDrRestoreWorkload#items}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#items GoogleBackupDrRestoreWorkload#items}
 
 ---
 
@@ -2518,8 +2518,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItems.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItems.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItems.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItems.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
 
 ---
 
@@ -2531,7 +2531,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
 
 ---
 
@@ -2543,7 +2543,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
 
 ---
 
@@ -2583,9 +2583,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.ipv6AccessType">Ipv6AccessType</a></code> | <code>*string</code> | Possible values: ["UNSPECIFIED_IPV6_ACCESS_TYPE", "INTERNAL", "EXTERNAL"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.ipv6Address">Ipv6Address</a></code> | <code>*string</code> | Optional. An IPv6 internal network address for this network interface. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.network">Network</a></code> | <code>*string</code> | Optional. URL of the VPC network resource for this instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.networkAttachment">NetworkAttachment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#network_attachment GoogleBackupDrRestoreWorkload#network_attachment}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.networkAttachment">NetworkAttachment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#network_attachment GoogleBackupDrRestoreWorkload#network_attachment}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.nicType">NicType</a></code> | <code>*string</code> | Possible values: ["NIC_TYPE_UNSPECIFIED", "VIRTIO_NET", "GVNIC"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.queueCount">QueueCount</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#queue_count GoogleBackupDrRestoreWorkload#queue_count}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.queueCount">QueueCount</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#queue_count GoogleBackupDrRestoreWorkload#queue_count}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.stackType">StackType</a></code> | <code>*string</code> | Possible values: ["STACK_TYPE_UNSPECIFIED", "IPV4_ONLY", "IPV4_IPV6"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.property.subnetwork">Subnetwork</a></code> | <code>*string</code> | Optional. The URL of the Subnetwork resource for this instance. |
 
@@ -2601,7 +2601,7 @@ AccessConfigs interface{}
 
 access_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#access_configs GoogleBackupDrRestoreWorkload#access_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#access_configs GoogleBackupDrRestoreWorkload#access_configs}
 
 ---
 
@@ -2615,7 +2615,7 @@ AliasIpRanges interface{}
 
 alias_ip_ranges block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#alias_ip_ranges GoogleBackupDrRestoreWorkload#alias_ip_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#alias_ip_ranges GoogleBackupDrRestoreWorkload#alias_ip_ranges}
 
 ---
 
@@ -2629,7 +2629,7 @@ InternalIpv6PrefixLength *f64
 
 Optional. The prefix length of the primary internal IPv6 range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#internal_ipv6_prefix_length GoogleBackupDrRestoreWorkload#internal_ipv6_prefix_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#internal_ipv6_prefix_length GoogleBackupDrRestoreWorkload#internal_ipv6_prefix_length}
 
 ---
 
@@ -2643,7 +2643,7 @@ IpAddress *string
 
 Optional. An IPv4 internal IP address to assign to the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#ip_address GoogleBackupDrRestoreWorkload#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#ip_address GoogleBackupDrRestoreWorkload#ip_address}
 
 ---
 
@@ -2657,7 +2657,7 @@ Ipv6AccessConfigs interface{}
 
 ipv6_access_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#ipv6_access_configs GoogleBackupDrRestoreWorkload#ipv6_access_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#ipv6_access_configs GoogleBackupDrRestoreWorkload#ipv6_access_configs}
 
 ---
 
@@ -2671,7 +2671,7 @@ Ipv6AccessType *string
 
 Possible values: ["UNSPECIFIED_IPV6_ACCESS_TYPE", "INTERNAL", "EXTERNAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#ipv6_access_type GoogleBackupDrRestoreWorkload#ipv6_access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#ipv6_access_type GoogleBackupDrRestoreWorkload#ipv6_access_type}
 
 ---
 
@@ -2685,7 +2685,7 @@ Ipv6Address *string
 
 Optional. An IPv6 internal network address for this network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#ipv6_address GoogleBackupDrRestoreWorkload#ipv6_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#ipv6_address GoogleBackupDrRestoreWorkload#ipv6_address}
 
 ---
 
@@ -2699,7 +2699,7 @@ Network *string
 
 Optional. URL of the VPC network resource for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#network GoogleBackupDrRestoreWorkload#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#network GoogleBackupDrRestoreWorkload#network}
 
 ---
 
@@ -2711,7 +2711,7 @@ NetworkAttachment *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#network_attachment GoogleBackupDrRestoreWorkload#network_attachment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#network_attachment GoogleBackupDrRestoreWorkload#network_attachment}.
 
 ---
 
@@ -2725,7 +2725,7 @@ NicType *string
 
 Possible values: ["NIC_TYPE_UNSPECIFIED", "VIRTIO_NET", "GVNIC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#nic_type GoogleBackupDrRestoreWorkload#nic_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#nic_type GoogleBackupDrRestoreWorkload#nic_type}
 
 ---
 
@@ -2737,7 +2737,7 @@ QueueCount *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#queue_count GoogleBackupDrRestoreWorkload#queue_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#queue_count GoogleBackupDrRestoreWorkload#queue_count}.
 
 ---
 
@@ -2751,7 +2751,7 @@ StackType *string
 
 Possible values: ["STACK_TYPE_UNSPECIFIED", "IPV4_ONLY", "IPV4_IPV6"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#stack_type GoogleBackupDrRestoreWorkload#stack_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#stack_type GoogleBackupDrRestoreWorkload#stack_type}
 
 ---
 
@@ -2765,7 +2765,7 @@ Subnetwork *string
 
 Optional. The URL of the Subnetwork resource for this instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#subnetwork GoogleBackupDrRestoreWorkload#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#subnetwork GoogleBackupDrRestoreWorkload#subnetwork}
 
 ---
 
@@ -2792,13 +2792,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.externalIp">ExternalIp</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.externalIpv6">ExternalIpv6</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.externalIpv6PrefixLength">ExternalIpv6PrefixLength</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.externalIp">ExternalIp</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.externalIpv6">ExternalIpv6</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.externalIpv6PrefixLength">ExternalIpv6PrefixLength</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.name">Name</a></code> | <code>*string</code> | Optional. The name of this access configuration. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.networkTier">NetworkTier</a></code> | <code>*string</code> | Possible values: ["NETWORK_TIER_UNSPECIFIED", "PREMIUM", "STANDARD"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.publicPtrDomainName">PublicPtrDomainName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.setPublicPtr">SetPublicPtr</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.publicPtrDomainName">PublicPtrDomainName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.setPublicPtr">SetPublicPtr</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.property.type">Type</a></code> | <code>*string</code> | Optional. The type of configuration. Possible values: ["ACCESS_TYPE_UNSPECIFIED", "ONE_TO_ONE_NAT", "DIRECT_IPV6"]. |
 
 ---
@@ -2811,7 +2811,7 @@ ExternalIp *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}.
 
 ---
 
@@ -2823,7 +2823,7 @@ ExternalIpv6 *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}.
 
 ---
 
@@ -2835,7 +2835,7 @@ ExternalIpv6PrefixLength *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}.
 
 ---
 
@@ -2849,7 +2849,7 @@ Name *string
 
 Optional. The name of this access configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
 
 ---
 
@@ -2863,7 +2863,7 @@ NetworkTier *string
 
 Possible values: ["NETWORK_TIER_UNSPECIFIED", "PREMIUM", "STANDARD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#network_tier GoogleBackupDrRestoreWorkload#network_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#network_tier GoogleBackupDrRestoreWorkload#network_tier}
 
 ---
 
@@ -2875,7 +2875,7 @@ PublicPtrDomainName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}.
 
 ---
 
@@ -2887,7 +2887,7 @@ SetPublicPtr interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}.
 
 ---
 
@@ -2901,7 +2901,7 @@ Type *string
 
 Optional. The type of configuration. Possible values: ["ACCESS_TYPE_UNSPECIFIED", "ONE_TO_ONE_NAT", "DIRECT_IPV6"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
 
 ---
 
@@ -2922,8 +2922,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRanges.property.ipCidrRange">IpCidrRange</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#ip_cidr_range GoogleBackupDrRestoreWorkload#ip_cidr_range}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRanges.property.subnetworkRangeName">SubnetworkRangeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#subnetwork_range_name GoogleBackupDrRestoreWorkload#subnetwork_range_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRanges.property.ipCidrRange">IpCidrRange</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#ip_cidr_range GoogleBackupDrRestoreWorkload#ip_cidr_range}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRanges.property.subnetworkRangeName">SubnetworkRangeName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#subnetwork_range_name GoogleBackupDrRestoreWorkload#subnetwork_range_name}. |
 
 ---
 
@@ -2935,7 +2935,7 @@ IpCidrRange *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#ip_cidr_range GoogleBackupDrRestoreWorkload#ip_cidr_range}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#ip_cidr_range GoogleBackupDrRestoreWorkload#ip_cidr_range}.
 
 ---
 
@@ -2947,7 +2947,7 @@ SubnetworkRangeName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#subnetwork_range_name GoogleBackupDrRestoreWorkload#subnetwork_range_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#subnetwork_range_name GoogleBackupDrRestoreWorkload#subnetwork_range_name}.
 
 ---
 
@@ -2974,13 +2974,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.externalIp">ExternalIp</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.externalIpv6">ExternalIpv6</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.externalIpv6PrefixLength">ExternalIpv6PrefixLength</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.externalIp">ExternalIp</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.externalIpv6">ExternalIpv6</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.externalIpv6PrefixLength">ExternalIpv6PrefixLength</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.name">Name</a></code> | <code>*string</code> | Optional. The name of this access configuration. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.networkTier">NetworkTier</a></code> | <code>*string</code> | Possible values: ["NETWORK_TIER_UNSPECIFIED", "PREMIUM", "STANDARD"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.publicPtrDomainName">PublicPtrDomainName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.setPublicPtr">SetPublicPtr</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.publicPtrDomainName">PublicPtrDomainName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.setPublicPtr">SetPublicPtr</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.property.type">Type</a></code> | <code>*string</code> | Optional. The type of configuration. Possible values: ["ACCESS_TYPE_UNSPECIFIED", "ONE_TO_ONE_NAT", "DIRECT_IPV6"]. |
 
 ---
@@ -2993,7 +2993,7 @@ ExternalIp *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ip GoogleBackupDrRestoreWorkload#external_ip}.
 
 ---
 
@@ -3005,7 +3005,7 @@ ExternalIpv6 *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6 GoogleBackupDrRestoreWorkload#external_ipv6}.
 
 ---
 
@@ -3017,7 +3017,7 @@ ExternalIpv6PrefixLength *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#external_ipv6_prefix_length GoogleBackupDrRestoreWorkload#external_ipv6_prefix_length}.
 
 ---
 
@@ -3031,7 +3031,7 @@ Name *string
 
 Optional. The name of this access configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
 
 ---
 
@@ -3045,7 +3045,7 @@ NetworkTier *string
 
 Possible values: ["NETWORK_TIER_UNSPECIFIED", "PREMIUM", "STANDARD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#network_tier GoogleBackupDrRestoreWorkload#network_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#network_tier GoogleBackupDrRestoreWorkload#network_tier}
 
 ---
 
@@ -3057,7 +3057,7 @@ PublicPtrDomainName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#public_ptr_domain_name GoogleBackupDrRestoreWorkload#public_ptr_domain_name}.
 
 ---
 
@@ -3069,7 +3069,7 @@ SetPublicPtr interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#set_public_ptr GoogleBackupDrRestoreWorkload#set_public_ptr}.
 
 ---
 
@@ -3083,7 +3083,7 @@ Type *string
 
 Optional. The type of configuration. Possible values: ["ACCESS_TYPE_UNSPECIFIED", "ONE_TO_ONE_NAT", "DIRECT_IPV6"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
 
 ---
 
@@ -3117,7 +3117,7 @@ TotalEgressBandwidthTier *string
 
 Possible values: ["TIER_UNSPECIFIED", "DEFAULT", "TIER_1"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#total_egress_bandwidth_tier GoogleBackupDrRestoreWorkload#total_egress_bandwidth_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#total_egress_bandwidth_tier GoogleBackupDrRestoreWorkload#total_egress_bandwidth_tier}
 
 ---
 
@@ -3151,7 +3151,7 @@ ResourceManagerTags interface{}
 
 resource_manager_tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#resource_manager_tags GoogleBackupDrRestoreWorkload#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#resource_manager_tags GoogleBackupDrRestoreWorkload#resource_manager_tags}
 
 ---
 
@@ -3172,8 +3172,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
 
 ---
 
@@ -3185,7 +3185,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
 
 ---
 
@@ -3197,7 +3197,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
 
 ---
 
@@ -3226,16 +3226,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.automaticRestart">AutomaticRestart</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#automatic_restart GoogleBackupDrRestoreWorkload#automatic_restart}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.automaticRestart">AutomaticRestart</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#automatic_restart GoogleBackupDrRestoreWorkload#automatic_restart}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.instanceTerminationAction">InstanceTerminationAction</a></code> | <code>*string</code> | Possible values: ["INSTANCE_TERMINATION_ACTION_UNSPECIFIED", "DELETE", "STOP"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.localSsdRecoveryTimeout">LocalSsdRecoveryTimeout</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout">GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout</a></code> | local_ssd_recovery_timeout block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.maxRunDuration">MaxRunDuration</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration">GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration</a></code> | max_run_duration block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.minNodeCpus">MinNodeCpus</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#min_node_cpus GoogleBackupDrRestoreWorkload#min_node_cpus}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.minNodeCpus">MinNodeCpus</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#min_node_cpus GoogleBackupDrRestoreWorkload#min_node_cpus}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.nodeAffinities">NodeAffinities</a></code> | <code>interface{}</code> | node_affinities block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.onHostMaintenance">OnHostMaintenance</a></code> | <code>*string</code> | Possible values: ["ON_HOST_MAINTENANCE_UNSPECIFIED", "TERMINATE", "MIGRATE"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.preemptible">Preemptible</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#preemptible GoogleBackupDrRestoreWorkload#preemptible}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.preemptible">Preemptible</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#preemptible GoogleBackupDrRestoreWorkload#preemptible}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.provisioningModel">ProvisioningModel</a></code> | <code>*string</code> | Possible values: ["PROVISIONING_MODEL_UNSPECIFIED", "STANDARD", "SPOT"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.terminationTime">TerminationTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#termination_time GoogleBackupDrRestoreWorkload#termination_time}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.property.terminationTime">TerminationTime</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#termination_time GoogleBackupDrRestoreWorkload#termination_time}. |
 
 ---
 
@@ -3247,7 +3247,7 @@ AutomaticRestart interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#automatic_restart GoogleBackupDrRestoreWorkload#automatic_restart}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#automatic_restart GoogleBackupDrRestoreWorkload#automatic_restart}.
 
 ---
 
@@ -3261,7 +3261,7 @@ InstanceTerminationAction *string
 
 Possible values: ["INSTANCE_TERMINATION_ACTION_UNSPECIFIED", "DELETE", "STOP"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#instance_termination_action GoogleBackupDrRestoreWorkload#instance_termination_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#instance_termination_action GoogleBackupDrRestoreWorkload#instance_termination_action}
 
 ---
 
@@ -3275,7 +3275,7 @@ LocalSsdRecoveryTimeout GoogleBackupDrRestoreWorkloadComputeInstanceRestorePrope
 
 local_ssd_recovery_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#local_ssd_recovery_timeout GoogleBackupDrRestoreWorkload#local_ssd_recovery_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#local_ssd_recovery_timeout GoogleBackupDrRestoreWorkload#local_ssd_recovery_timeout}
 
 ---
 
@@ -3289,7 +3289,7 @@ MaxRunDuration GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSche
 
 max_run_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#max_run_duration GoogleBackupDrRestoreWorkload#max_run_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#max_run_duration GoogleBackupDrRestoreWorkload#max_run_duration}
 
 ---
 
@@ -3301,7 +3301,7 @@ MinNodeCpus *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#min_node_cpus GoogleBackupDrRestoreWorkload#min_node_cpus}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#min_node_cpus GoogleBackupDrRestoreWorkload#min_node_cpus}.
 
 ---
 
@@ -3315,7 +3315,7 @@ NodeAffinities interface{}
 
 node_affinities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#node_affinities GoogleBackupDrRestoreWorkload#node_affinities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#node_affinities GoogleBackupDrRestoreWorkload#node_affinities}
 
 ---
 
@@ -3329,7 +3329,7 @@ OnHostMaintenance *string
 
 Possible values: ["ON_HOST_MAINTENANCE_UNSPECIFIED", "TERMINATE", "MIGRATE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#on_host_maintenance GoogleBackupDrRestoreWorkload#on_host_maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#on_host_maintenance GoogleBackupDrRestoreWorkload#on_host_maintenance}
 
 ---
 
@@ -3341,7 +3341,7 @@ Preemptible interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#preemptible GoogleBackupDrRestoreWorkload#preemptible}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#preemptible GoogleBackupDrRestoreWorkload#preemptible}.
 
 ---
 
@@ -3355,7 +3355,7 @@ ProvisioningModel *string
 
 Possible values: ["PROVISIONING_MODEL_UNSPECIFIED", "STANDARD", "SPOT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#provisioning_model GoogleBackupDrRestoreWorkload#provisioning_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#provisioning_model GoogleBackupDrRestoreWorkload#provisioning_model}
 
 ---
 
@@ -3367,7 +3367,7 @@ TerminationTime *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#termination_time GoogleBackupDrRestoreWorkload#termination_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#termination_time GoogleBackupDrRestoreWorkload#termination_time}.
 
 ---
 
@@ -3388,8 +3388,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout.property.nanos">Nanos</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout.property.seconds">Seconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout.property.nanos">Nanos</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout.property.seconds">Seconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}. |
 
 ---
 
@@ -3401,7 +3401,7 @@ Nanos *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}.
 
 ---
 
@@ -3413,7 +3413,7 @@ Seconds *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}.
 
 ---
 
@@ -3434,8 +3434,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration.property.nanos">Nanos</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration.property.seconds">Seconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration.property.nanos">Nanos</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration.property.seconds">Seconds</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}. |
 
 ---
 
@@ -3447,7 +3447,7 @@ Nanos *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#nanos GoogleBackupDrRestoreWorkload#nanos}.
 
 ---
 
@@ -3459,7 +3459,7 @@ Seconds *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#seconds GoogleBackupDrRestoreWorkload#seconds}.
 
 ---
 
@@ -3481,9 +3481,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinities.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinities.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinities.property.operator">Operator</a></code> | <code>*string</code> | Possible values: ["OPERATOR_UNSPECIFIED", "IN", "NOT_IN"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinities.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinities.property.values">Values</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}. |
 
 ---
 
@@ -3495,7 +3495,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
 
 ---
 
@@ -3509,7 +3509,7 @@ Operator *string
 
 Possible values: ["OPERATOR_UNSPECIFIED", "IN", "NOT_IN"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#operator GoogleBackupDrRestoreWorkload#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#operator GoogleBackupDrRestoreWorkload#operator}
 
 ---
 
@@ -3521,7 +3521,7 @@ Values *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#values GoogleBackupDrRestoreWorkload#values}.
 
 ---
 
@@ -3542,8 +3542,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccounts.property.email">Email</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#email GoogleBackupDrRestoreWorkload#email}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccounts.property.scopes">Scopes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#scopes GoogleBackupDrRestoreWorkload#scopes}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccounts.property.email">Email</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#email GoogleBackupDrRestoreWorkload#email}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccounts.property.scopes">Scopes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#scopes GoogleBackupDrRestoreWorkload#scopes}. |
 
 ---
 
@@ -3555,7 +3555,7 @@ Email *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#email GoogleBackupDrRestoreWorkload#email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#email GoogleBackupDrRestoreWorkload#email}.
 
 ---
 
@@ -3567,7 +3567,7 @@ Scopes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#scopes GoogleBackupDrRestoreWorkload#scopes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#scopes GoogleBackupDrRestoreWorkload#scopes}.
 
 ---
 
@@ -3589,9 +3589,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig.property.enableIntegrityMonitoring">EnableIntegrityMonitoring</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_integrity_monitoring GoogleBackupDrRestoreWorkload#enable_integrity_monitoring}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig.property.enableSecureBoot">EnableSecureBoot</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_secure_boot GoogleBackupDrRestoreWorkload#enable_secure_boot}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig.property.enableVtpm">EnableVtpm</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_vtpm GoogleBackupDrRestoreWorkload#enable_vtpm}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig.property.enableIntegrityMonitoring">EnableIntegrityMonitoring</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_integrity_monitoring GoogleBackupDrRestoreWorkload#enable_integrity_monitoring}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig.property.enableSecureBoot">EnableSecureBoot</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_secure_boot GoogleBackupDrRestoreWorkload#enable_secure_boot}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig.property.enableVtpm">EnableVtpm</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_vtpm GoogleBackupDrRestoreWorkload#enable_vtpm}. |
 
 ---
 
@@ -3603,7 +3603,7 @@ EnableIntegrityMonitoring interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_integrity_monitoring GoogleBackupDrRestoreWorkload#enable_integrity_monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_integrity_monitoring GoogleBackupDrRestoreWorkload#enable_integrity_monitoring}.
 
 ---
 
@@ -3615,7 +3615,7 @@ EnableSecureBoot interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_secure_boot GoogleBackupDrRestoreWorkload#enable_secure_boot}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_secure_boot GoogleBackupDrRestoreWorkload#enable_secure_boot}.
 
 ---
 
@@ -3627,7 +3627,7 @@ EnableVtpm interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_vtpm GoogleBackupDrRestoreWorkload#enable_vtpm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_vtpm GoogleBackupDrRestoreWorkload#enable_vtpm}.
 
 ---
 
@@ -3647,7 +3647,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags.property.items">Items</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#items GoogleBackupDrRestoreWorkload#items}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags.property.items">Items</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#items GoogleBackupDrRestoreWorkload#items}. |
 
 ---
 
@@ -3659,7 +3659,7 @@ Items *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#items GoogleBackupDrRestoreWorkload#items}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#items GoogleBackupDrRestoreWorkload#items}.
 
 ---
 
@@ -3697,7 +3697,7 @@ Project *string
 
 Required. Target project for the Compute Engine instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
 
 ---
 
@@ -3711,7 +3711,7 @@ Zone *string
 
 Required. The zone of the Compute Engine instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#zone GoogleBackupDrRestoreWorkload#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#zone GoogleBackupDrRestoreWorkload#zone}
 
 ---
 
@@ -3725,7 +3725,7 @@ UseProjectServiceAccount interface{}
 
 If true, use the BackupDR P4SA credentials for same-project restores. Default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
 
 ---
 
@@ -3785,7 +3785,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.diskRestoreProperties">DiskRestoreProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestoreProperties">GoogleBackupDrRestoreWorkloadDiskRestoreProperties</a></code> | disk_restore_properties block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.diskTargetEnvironment">DiskTargetEnvironment</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskTargetEnvironment">GoogleBackupDrRestoreWorkloadDiskTargetEnvironment</a></code> | disk_target_environment block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#id GoogleBackupDrRestoreWorkload#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#id GoogleBackupDrRestoreWorkload#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.name">Name</a></code> | <code>*string</code> | The resource name of the backup instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.regionDiskTargetEnvironment">RegionDiskTargetEnvironment</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironment">GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironment</a></code> | region_disk_target_environment block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.property.requestId">RequestId</a></code> | <code>*string</code> | Optional. |
@@ -3873,7 +3873,7 @@ BackupId *string
 
 Required. The ID of the backup to restore from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#backup_id GoogleBackupDrRestoreWorkload#backup_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#backup_id GoogleBackupDrRestoreWorkload#backup_id}
 
 ---
 
@@ -3887,7 +3887,7 @@ BackupVaultId *string
 
 Required. The ID of the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#backup_vault_id GoogleBackupDrRestoreWorkload#backup_vault_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#backup_vault_id GoogleBackupDrRestoreWorkload#backup_vault_id}
 
 ---
 
@@ -3901,7 +3901,7 @@ DataSourceId *string
 
 Required. The ID of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#data_source_id GoogleBackupDrRestoreWorkload#data_source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#data_source_id GoogleBackupDrRestoreWorkload#data_source_id}
 
 ---
 
@@ -3915,7 +3915,7 @@ Location *string
 
 Required. The location for the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#location GoogleBackupDrRestoreWorkload#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#location GoogleBackupDrRestoreWorkload#location}
 
 ---
 
@@ -3929,7 +3929,7 @@ ClearOverridesFieldMask *string
 
 Optional. A field mask used to clear server-side default values during restore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#clear_overrides_field_mask GoogleBackupDrRestoreWorkload#clear_overrides_field_mask}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#clear_overrides_field_mask GoogleBackupDrRestoreWorkload#clear_overrides_field_mask}
 
 ---
 
@@ -3943,7 +3943,7 @@ ComputeInstanceRestoreProperties GoogleBackupDrRestoreWorkloadComputeInstanceRes
 
 compute_instance_restore_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#compute_instance_restore_properties GoogleBackupDrRestoreWorkload#compute_instance_restore_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#compute_instance_restore_properties GoogleBackupDrRestoreWorkload#compute_instance_restore_properties}
 
 ---
 
@@ -3957,7 +3957,7 @@ ComputeInstanceTargetEnvironment GoogleBackupDrRestoreWorkloadComputeInstanceTar
 
 compute_instance_target_environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#compute_instance_target_environment GoogleBackupDrRestoreWorkload#compute_instance_target_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#compute_instance_target_environment GoogleBackupDrRestoreWorkload#compute_instance_target_environment}
 
 ---
 
@@ -3974,7 +3974,7 @@ Optional.
 If true (default), running terraform destroy will delete the live resource in GCP.
 If false, only the restore record is removed from the state, leaving the resource active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#delete_restored_instance GoogleBackupDrRestoreWorkload#delete_restored_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#delete_restored_instance GoogleBackupDrRestoreWorkload#delete_restored_instance}
 
 ---
 
@@ -3995,7 +3995,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#deletion_policy GoogleBackupDrRestoreWorkload#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#deletion_policy GoogleBackupDrRestoreWorkload#deletion_policy}
 
 ---
 
@@ -4009,7 +4009,7 @@ DiskRestoreProperties GoogleBackupDrRestoreWorkloadDiskRestoreProperties
 
 disk_restore_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_restore_properties GoogleBackupDrRestoreWorkload#disk_restore_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_restore_properties GoogleBackupDrRestoreWorkload#disk_restore_properties}
 
 ---
 
@@ -4023,7 +4023,7 @@ DiskTargetEnvironment GoogleBackupDrRestoreWorkloadDiskTargetEnvironment
 
 disk_target_environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_target_environment GoogleBackupDrRestoreWorkload#disk_target_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_target_environment GoogleBackupDrRestoreWorkload#disk_target_environment}
 
 ---
 
@@ -4035,7 +4035,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#id GoogleBackupDrRestoreWorkload#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#id GoogleBackupDrRestoreWorkload#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4052,7 +4052,7 @@ Name *string
 
 The resource name of the backup instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
 
 ---
 
@@ -4066,7 +4066,7 @@ RegionDiskTargetEnvironment GoogleBackupDrRestoreWorkloadRegionDiskTargetEnviron
 
 region_disk_target_environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#region_disk_target_environment GoogleBackupDrRestoreWorkload#region_disk_target_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#region_disk_target_environment GoogleBackupDrRestoreWorkload#region_disk_target_environment}
 
 ---
 
@@ -4084,7 +4084,7 @@ An optional request ID to identify requests. Specify a unique request ID
 so that if you must retry your request, the server will know to ignore
 the request if it has already been completed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#request_id GoogleBackupDrRestoreWorkload#request_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#request_id GoogleBackupDrRestoreWorkload#request_id}
 
 ---
 
@@ -4098,7 +4098,7 @@ Timeouts GoogleBackupDrRestoreWorkloadTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#timeouts GoogleBackupDrRestoreWorkload#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#timeouts GoogleBackupDrRestoreWorkload#timeouts}
 
 ---
 
@@ -4164,7 +4164,7 @@ Name *string
 
 Required. Name of the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#name GoogleBackupDrRestoreWorkload#name}
 
 ---
 
@@ -4178,7 +4178,7 @@ SizeGb *f64
 
 Required. The size of the disk in GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#size_gb GoogleBackupDrRestoreWorkload#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#size_gb GoogleBackupDrRestoreWorkload#size_gb}
 
 ---
 
@@ -4192,7 +4192,7 @@ Type *string
 
 Required. URL of the disk type resource describing which disk type to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
 
 ---
 
@@ -4206,7 +4206,7 @@ AccessMode *string
 
 Optional. The access mode of the disk. Possible values: ["READ_WRITE_SINGLE", "READ_WRITE_MANY", "READ_ONLY_MANY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#access_mode GoogleBackupDrRestoreWorkload#access_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#access_mode GoogleBackupDrRestoreWorkload#access_mode}
 
 ---
 
@@ -4220,7 +4220,7 @@ Architecture *string
 
 Optional. The architecture of the source disk. Possible values: ["ARCHITECTURE_UNSPECIFIED", "X86_64", "ARM64"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#architecture GoogleBackupDrRestoreWorkload#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#architecture GoogleBackupDrRestoreWorkload#architecture}
 
 ---
 
@@ -4234,7 +4234,7 @@ Description *string
 
 Optional. An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#description GoogleBackupDrRestoreWorkload#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#description GoogleBackupDrRestoreWorkload#description}
 
 ---
 
@@ -4248,7 +4248,7 @@ DiskEncryptionKey GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncrypti
 
 disk_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#disk_encryption_key GoogleBackupDrRestoreWorkload#disk_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#disk_encryption_key GoogleBackupDrRestoreWorkload#disk_encryption_key}
 
 ---
 
@@ -4262,7 +4262,7 @@ EnableConfidentialCompute interface{}
 
 Optional. Indicates whether this disk is using confidential compute mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#enable_confidential_compute GoogleBackupDrRestoreWorkload#enable_confidential_compute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#enable_confidential_compute GoogleBackupDrRestoreWorkload#enable_confidential_compute}
 
 ---
 
@@ -4276,7 +4276,7 @@ GuestOsFeature interface{}
 
 guest_os_feature block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#guest_os_feature GoogleBackupDrRestoreWorkload#guest_os_feature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#guest_os_feature GoogleBackupDrRestoreWorkload#guest_os_feature}
 
 ---
 
@@ -4290,7 +4290,7 @@ Labels interface{}
 
 labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#labels GoogleBackupDrRestoreWorkload#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#labels GoogleBackupDrRestoreWorkload#labels}
 
 ---
 
@@ -4304,7 +4304,7 @@ Licenses *[]*string
 
 Optional. A list of publicly available licenses that are applicable to this backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#licenses GoogleBackupDrRestoreWorkload#licenses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#licenses GoogleBackupDrRestoreWorkload#licenses}
 
 ---
 
@@ -4318,7 +4318,7 @@ PhysicalBlockSizeBytes *f64
 
 Optional. Physical block size of the persistent disk, in bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#physical_block_size_bytes GoogleBackupDrRestoreWorkload#physical_block_size_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#physical_block_size_bytes GoogleBackupDrRestoreWorkload#physical_block_size_bytes}
 
 ---
 
@@ -4332,7 +4332,7 @@ ProvisionedIops *f64
 
 Optional. Indicates how many IOPS to provision for the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#provisioned_iops GoogleBackupDrRestoreWorkload#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#provisioned_iops GoogleBackupDrRestoreWorkload#provisioned_iops}
 
 ---
 
@@ -4346,7 +4346,7 @@ ProvisionedThroughput *f64
 
 Optional. Indicates how much throughput to provision for the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#provisioned_throughput GoogleBackupDrRestoreWorkload#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#provisioned_throughput GoogleBackupDrRestoreWorkload#provisioned_throughput}
 
 ---
 
@@ -4360,7 +4360,7 @@ ResourceManagerTags interface{}
 
 resource_manager_tags block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#resource_manager_tags GoogleBackupDrRestoreWorkload#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#resource_manager_tags GoogleBackupDrRestoreWorkload#resource_manager_tags}
 
 ---
 
@@ -4374,7 +4374,7 @@ ResourcePolicy *[]*string
 
 Optional. Resource policies applied to this disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#resource_policy GoogleBackupDrRestoreWorkload#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#resource_policy GoogleBackupDrRestoreWorkload#resource_policy}
 
 ---
 
@@ -4388,7 +4388,7 @@ StoragePool *string
 
 Optional. The storage pool in which the new disk is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#storage_pool GoogleBackupDrRestoreWorkload#storage_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#storage_pool GoogleBackupDrRestoreWorkload#storage_pool}
 
 ---
 
@@ -4411,10 +4411,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.kmsKeyName">KmsKeyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.kmsKeyServiceAccount">KmsKeyServiceAccount</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.rawKey">RawKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.rsaEncryptedKey">RsaEncryptedKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.kmsKeyName">KmsKeyName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.kmsKeyServiceAccount">KmsKeyServiceAccount</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.rawKey">RawKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.property.rsaEncryptedKey">RsaEncryptedKey</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}. |
 
 ---
 
@@ -4426,7 +4426,7 @@ KmsKeyName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_name GoogleBackupDrRestoreWorkload#kms_key_name}.
 
 ---
 
@@ -4438,7 +4438,7 @@ KmsKeyServiceAccount *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#kms_key_service_account GoogleBackupDrRestoreWorkload#kms_key_service_account}.
 
 ---
 
@@ -4450,7 +4450,7 @@ RawKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#raw_key GoogleBackupDrRestoreWorkload#raw_key}.
 
 ---
 
@@ -4462,7 +4462,7 @@ RsaEncryptedKey *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#rsa_encrypted_key GoogleBackupDrRestoreWorkload#rsa_encrypted_key}.
 
 ---
 
@@ -4496,7 +4496,7 @@ Type *string
 
 Possible values: ["FEATURE_TYPE_UNSPECIFIED", "VIRTIO_SCSI_MULTIQUEUE", "WINDOWS", "MULTI_IP_SUBNET", "UEFI_COMPATIBLE", "SECURE_BOOT", "GVNIC", "SEV_CAPABLE", "BARE_METAL_LINUX_COMPATIBLE", "SUSPEND_RESUME_COMPATIBLE", "SEV_LIVE_MIGRATABLE", "SEV_SNP_CAPABLE", "TDX_CAPABLE", "IDPF", "SEV_LIVE_MIGRATABLE_V2"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#type GoogleBackupDrRestoreWorkload#type}
 
 ---
 
@@ -4517,8 +4517,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabels.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabels.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
 
 ---
 
@@ -4530,7 +4530,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
 
 ---
 
@@ -4542,7 +4542,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
 
 ---
 
@@ -4563,8 +4563,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}. |
 
 ---
 
@@ -4576,7 +4576,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#key GoogleBackupDrRestoreWorkload#key}.
 
 ---
 
@@ -4588,7 +4588,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#value GoogleBackupDrRestoreWorkload#value}.
 
 ---
 
@@ -4626,7 +4626,7 @@ Project *string
 
 Required. Target project for the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
 
 ---
 
@@ -4640,7 +4640,7 @@ Zone *string
 
 Required. Target zone for the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#zone GoogleBackupDrRestoreWorkload#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#zone GoogleBackupDrRestoreWorkload#zone}
 
 ---
 
@@ -4654,7 +4654,7 @@ UseProjectServiceAccount interface{}
 
 If true, use the BackupDR P4SA credentials for same-project restores. Default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
 
 ---
 
@@ -4694,7 +4694,7 @@ Project *string
 
 Required. Target project for the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
 
 ---
 
@@ -4708,7 +4708,7 @@ Region *string
 
 Required. Target region for the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#region GoogleBackupDrRestoreWorkload#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#region GoogleBackupDrRestoreWorkload#region}
 
 ---
 
@@ -4722,7 +4722,7 @@ ReplicaZones *[]*string
 
 Required. Target URLs of the replica zones for the disk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#replica_zones GoogleBackupDrRestoreWorkload#replica_zones}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#replica_zones GoogleBackupDrRestoreWorkload#replica_zones}
 
 ---
 
@@ -4736,7 +4736,7 @@ UseProjectServiceAccount interface{}
 
 If true, use the BackupDR P4SA credentials for same-project restores. Default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
 
 ---
 
@@ -4783,8 +4783,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#create GoogleBackupDrRestoreWorkload#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#delete GoogleBackupDrRestoreWorkload#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#create GoogleBackupDrRestoreWorkload#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#delete GoogleBackupDrRestoreWorkload#delete}. |
 
 ---
 
@@ -4796,7 +4796,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#create GoogleBackupDrRestoreWorkload#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#create GoogleBackupDrRestoreWorkload#create}.
 
 ---
 
@@ -4808,7 +4808,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_backup_dr_restore_workload#delete GoogleBackupDrRestoreWorkload#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_backup_dr_restore_workload#delete GoogleBackupDrRestoreWorkload#delete}.
 
 ---
 

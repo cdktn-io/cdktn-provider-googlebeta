@@ -4,7 +4,7 @@
 
 ### GoogleApigeeDeveloperApp <a name="GoogleApigeeDeveloperApp" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app google_apigee_developer_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app google_apigee_developer_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer"></a>
 
@@ -28,6 +28,8 @@ googleApigeeDeveloperApp.GoogleApigeeDeveloperApp(
   api_products: typing.List[str] = None,
   app_family: str = None,
   attributes: IResolvable | typing.List[GoogleApigeeDeveloperAppAttributes] = None,
+  consumer_key: str = None,
+  consumer_secret: str = None,
   deletion_policy: str = None,
   id: str = None,
   key_expires_in: str = None,
@@ -55,8 +57,10 @@ googleApigeeDeveloperApp.GoogleApigeeDeveloperApp(
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.apiProducts">api_products</a></code> | <code>typing.List[str]</code> | List of API products associated with the developer app. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.appFamily">app_family</a></code> | <code>str</code> | Developer app family. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.attributes">attributes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppAttributes">GoogleApigeeDeveloperAppAttributes</a>]</code> | attributes block. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.consumerKey">consumer_key</a></code> | <code>str</code> | Optionally specify a static consumer key for the developer app's credential. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.consumerSecret">consumer_secret</a></code> | <code>str</code> | Optionally specify a static consumer secret for the developer app's credential. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.keyExpiresIn">key_expires_in</a></code> | <code>str</code> | Expiration time, in milliseconds, for the consumer key that is generated for the developer app. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.scopes">scopes</a></code> | <code>typing.List[str]</code> | Scopes to apply to the developer app. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.status">status</a></code> | <code>str</code> | Status of the credential. Valid values include approved or revoked. |
@@ -130,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 Callback URL used by OAuth 2.0 authorization servers to communicate authorization codes back to developer apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#callback_url GoogleApigeeDeveloperApp#callback_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#callback_url GoogleApigeeDeveloperApp#callback_url}
 
 ---
 
@@ -143,7 +147,7 @@ Email address of the developer.
 This value is used to uniquely identify the developer in Apigee hybrid.
 Note that the email address has to be in lowercase only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#developer_email GoogleApigeeDeveloperApp#developer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#developer_email GoogleApigeeDeveloperApp#developer_email}
 
 ---
 
@@ -153,7 +157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the developer app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
 
 ---
 
@@ -163,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Apigee Organization associated with the Apigee instance, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#org_id GoogleApigeeDeveloperApp#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#org_id GoogleApigeeDeveloperApp#org_id}
 
 ---
 
@@ -173,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of API products associated with the developer app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#api_products GoogleApigeeDeveloperApp#api_products}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#api_products GoogleApigeeDeveloperApp#api_products}
 
 ---
 
@@ -183,7 +187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Developer app family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#app_family GoogleApigeeDeveloperApp#app_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#app_family GoogleApigeeDeveloperApp#app_family}
 
 ---
 
@@ -193,7 +197,42 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#attributes GoogleApigeeDeveloperApp#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#attributes GoogleApigeeDeveloperApp#attributes}
+
+---
+
+##### `consumer_key`<sup>Optional</sup> <a name="consumer_key" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.consumerKey"></a>
+
+- *Type:* str
+
+Optionally specify a static consumer key for the developer app's credential.
+
+If not set, the API auto-generates a key. The consumer key must be unique
+across all developer apps in an organization. Changing this field forces the
+resource to be recreated.
+
+This is a write-only input used at create time: the provider creates the
+credential with this key via the keys API and removes the auto-generated
+one. The effective key is exposed in the 'credentials' output.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#consumer_key GoogleApigeeDeveloperApp#consumer_key}
+
+---
+
+##### `consumer_secret`<sup>Optional</sup> <a name="consumer_secret" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.Initializer.parameter.consumerSecret"></a>
+
+- *Type:* str
+
+Optionally specify a static consumer secret for the developer app's credential.
+
+Required if 'consumer_key' is specified. If not set, the API
+auto-generates a secret. Changing this field forces the resource to be
+recreated.
+
+This is a write-only input used at create time; the effective secret is
+exposed in the 'credentials' output.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#consumer_secret GoogleApigeeDeveloperApp#consumer_secret}
 
 ---
 
@@ -210,7 +249,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#deletion_policy GoogleApigeeDeveloperApp#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#deletion_policy GoogleApigeeDeveloperApp#deletion_policy}
 
 ---
 
@@ -218,7 +257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -234,7 +273,7 @@ Expiration time, in milliseconds, for the consumer key that is generated for the
 If not set or left to the default value of -1,
 the API key never expires. The expiration time can't be updated after it is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#key_expires_in GoogleApigeeDeveloperApp#key_expires_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#key_expires_in GoogleApigeeDeveloperApp#key_expires_in}
 
 ---
 
@@ -247,7 +286,7 @@ Scopes to apply to the developer app.
 The specified scopes must already exist for the API product that
 you associate with the developer app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#scopes GoogleApigeeDeveloperApp#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#scopes GoogleApigeeDeveloperApp#scopes}
 
 ---
 
@@ -257,7 +296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Status of the credential. Valid values include approved or revoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#status GoogleApigeeDeveloperApp#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#status GoogleApigeeDeveloperApp#status}
 
 ---
 
@@ -267,7 +306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#timeouts GoogleApigeeDeveloperApp#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#timeouts GoogleApigeeDeveloperApp#timeouts}
 
 ---
 
@@ -304,6 +343,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetApiProducts">reset_api_products</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetAppFamily">reset_app_family</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetAttributes">reset_attributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetConsumerKey">reset_consumer_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetConsumerSecret">reset_consumer_secret</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetKeyExpiresIn">reset_key_expires_in</a></code> | *No description.* |
@@ -689,7 +730,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#create GoogleApigeeDeveloperApp#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#create GoogleApigeeDeveloperApp#create}.
 
 ---
 
@@ -697,7 +738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#delete GoogleApigeeDeveloperApp#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#delete GoogleApigeeDeveloperApp#delete}.
 
 ---
 
@@ -705,7 +746,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#update GoogleApigeeDeveloperApp#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#update GoogleApigeeDeveloperApp#update}.
 
 ---
 
@@ -725,6 +766,18 @@ def reset_app_family() -> None
 
 ```python
 def reset_attributes() -> None
+```
+
+##### `reset_consumer_key` <a name="reset_consumer_key" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetConsumerKey"></a>
+
+```python
+def reset_consumer_key() -> None
+```
+
+##### `reset_consumer_secret` <a name="reset_consumer_secret" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetConsumerSecret"></a>
+
+```python
+def reset_consumer_secret() -> None
 ```
 
 ##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.resetDeletionPolicy"></a>
@@ -877,7 +930,7 @@ The construct id used in the generated config for the GoogleApigeeDeveloperApp t
 
 The id of the existing GoogleApigeeDeveloperApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -918,6 +971,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.appFamilyInput">app_family_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.attributesInput">attributes_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppAttributes">GoogleApigeeDeveloperAppAttributes</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.callbackUrlInput">callback_url_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerKeyInput">consumer_key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerSecretInput">consumer_secret_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.developerEmailInput">developer_email_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
@@ -930,6 +985,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.apiProducts">api_products</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.appFamily">app_family</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.callbackUrl">callback_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerKey">consumer_key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerSecret">consumer_secret</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.developerEmail">developer_email</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -1193,6 +1250,26 @@ callback_url_input: str
 
 ---
 
+##### `consumer_key_input`<sup>Optional</sup> <a name="consumer_key_input" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerKeyInput"></a>
+
+```python
+consumer_key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `consumer_secret_input`<sup>Optional</sup> <a name="consumer_secret_input" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerSecretInput"></a>
+
+```python
+consumer_secret_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.deletionPolicyInput"></a>
 
 ```python
@@ -1307,6 +1384,26 @@ app_family: str
 
 ```python
 callback_url: str
+```
+
+- *Type:* str
+
+---
+
+##### `consumer_key`<sup>Required</sup> <a name="consumer_key" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerKey"></a>
+
+```python
+consumer_key: str
+```
+
+- *Type:* str
+
+---
+
+##### `consumer_secret`<sup>Required</sup> <a name="consumer_secret" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperApp.property.consumerSecret"></a>
+
+```python
+consumer_secret: str
 ```
 
 - *Type:* str
@@ -1445,7 +1542,7 @@ name: str
 
 Key of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
 
 ---
 
@@ -1459,7 +1556,7 @@ value: str
 
 Value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#value GoogleApigeeDeveloperApp#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#value GoogleApigeeDeveloperApp#value}
 
 ---
 
@@ -1485,6 +1582,8 @@ googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig(
   api_products: typing.List[str] = None,
   app_family: str = None,
   attributes: IResolvable | typing.List[GoogleApigeeDeveloperAppAttributes] = None,
+  consumer_key: str = None,
+  consumer_secret: str = None,
   deletion_policy: str = None,
   id: str = None,
   key_expires_in: str = None,
@@ -1512,8 +1611,10 @@ googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.apiProducts">api_products</a></code> | <code>typing.List[str]</code> | List of API products associated with the developer app. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.appFamily">app_family</a></code> | <code>str</code> | Developer app family. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.attributes">attributes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppAttributes">GoogleApigeeDeveloperAppAttributes</a>]</code> | attributes block. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.consumerKey">consumer_key</a></code> | <code>str</code> | Optionally specify a static consumer key for the developer app's credential. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.consumerSecret">consumer_secret</a></code> | <code>str</code> | Optionally specify a static consumer secret for the developer app's credential. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.keyExpiresIn">key_expires_in</a></code> | <code>str</code> | Expiration time, in milliseconds, for the consumer key that is generated for the developer app. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.scopes">scopes</a></code> | <code>typing.List[str]</code> | Scopes to apply to the developer app. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.status">status</a></code> | <code>str</code> | Status of the credential. Valid values include approved or revoked. |
@@ -1601,7 +1702,7 @@ callback_url: str
 
 Callback URL used by OAuth 2.0 authorization servers to communicate authorization codes back to developer apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#callback_url GoogleApigeeDeveloperApp#callback_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#callback_url GoogleApigeeDeveloperApp#callback_url}
 
 ---
 
@@ -1618,7 +1719,7 @@ Email address of the developer.
 This value is used to uniquely identify the developer in Apigee hybrid.
 Note that the email address has to be in lowercase only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#developer_email GoogleApigeeDeveloperApp#developer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#developer_email GoogleApigeeDeveloperApp#developer_email}
 
 ---
 
@@ -1632,7 +1733,7 @@ name: str
 
 Name of the developer app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
 
 ---
 
@@ -1646,7 +1747,7 @@ org_id: str
 
 The Apigee Organization associated with the Apigee instance, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#org_id GoogleApigeeDeveloperApp#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#org_id GoogleApigeeDeveloperApp#org_id}
 
 ---
 
@@ -1660,7 +1761,7 @@ api_products: typing.List[str]
 
 List of API products associated with the developer app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#api_products GoogleApigeeDeveloperApp#api_products}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#api_products GoogleApigeeDeveloperApp#api_products}
 
 ---
 
@@ -1674,7 +1775,7 @@ app_family: str
 
 Developer app family.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#app_family GoogleApigeeDeveloperApp#app_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#app_family GoogleApigeeDeveloperApp#app_family}
 
 ---
 
@@ -1688,7 +1789,50 @@ attributes: IResolvable | typing.List[GoogleApigeeDeveloperAppAttributes]
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#attributes GoogleApigeeDeveloperApp#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#attributes GoogleApigeeDeveloperApp#attributes}
+
+---
+
+##### `consumer_key`<sup>Optional</sup> <a name="consumer_key" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.consumerKey"></a>
+
+```python
+consumer_key: str
+```
+
+- *Type:* str
+
+Optionally specify a static consumer key for the developer app's credential.
+
+If not set, the API auto-generates a key. The consumer key must be unique
+across all developer apps in an organization. Changing this field forces the
+resource to be recreated.
+
+This is a write-only input used at create time: the provider creates the
+credential with this key via the keys API and removes the auto-generated
+one. The effective key is exposed in the 'credentials' output.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#consumer_key GoogleApigeeDeveloperApp#consumer_key}
+
+---
+
+##### `consumer_secret`<sup>Optional</sup> <a name="consumer_secret" id="@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppConfig.property.consumerSecret"></a>
+
+```python
+consumer_secret: str
+```
+
+- *Type:* str
+
+Optionally specify a static consumer secret for the developer app's credential.
+
+Required if 'consumer_key' is specified. If not set, the API
+auto-generates a secret. Changing this field forces the resource to be
+recreated.
+
+This is a write-only input used at create time; the effective secret is
+exposed in the 'credentials' output.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#consumer_secret GoogleApigeeDeveloperApp#consumer_secret}
 
 ---
 
@@ -1709,7 +1853,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#deletion_policy GoogleApigeeDeveloperApp#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#deletion_policy GoogleApigeeDeveloperApp#deletion_policy}
 
 ---
 
@@ -1721,7 +1865,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1741,7 +1885,7 @@ Expiration time, in milliseconds, for the consumer key that is generated for the
 If not set or left to the default value of -1,
 the API key never expires. The expiration time can't be updated after it is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#key_expires_in GoogleApigeeDeveloperApp#key_expires_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#key_expires_in GoogleApigeeDeveloperApp#key_expires_in}
 
 ---
 
@@ -1758,7 +1902,7 @@ Scopes to apply to the developer app.
 The specified scopes must already exist for the API product that
 you associate with the developer app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#scopes GoogleApigeeDeveloperApp#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#scopes GoogleApigeeDeveloperApp#scopes}
 
 ---
 
@@ -1772,7 +1916,7 @@ status: str
 
 Status of the credential. Valid values include approved or revoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#status GoogleApigeeDeveloperApp#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#status GoogleApigeeDeveloperApp#status}
 
 ---
 
@@ -1786,7 +1930,7 @@ timeouts: GoogleApigeeDeveloperAppTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#timeouts GoogleApigeeDeveloperApp#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#timeouts GoogleApigeeDeveloperApp#timeouts}
 
 ---
 
@@ -1841,9 +1985,9 @@ googleApigeeDeveloperApp.GoogleApigeeDeveloperAppTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#create GoogleApigeeDeveloperApp#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#delete GoogleApigeeDeveloperApp#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#update GoogleApigeeDeveloperApp#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#create GoogleApigeeDeveloperApp#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#delete GoogleApigeeDeveloperApp#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDeveloperApp.GoogleApigeeDeveloperAppTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#update GoogleApigeeDeveloperApp#update}. |
 
 ---
 
@@ -1855,7 +1999,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#create GoogleApigeeDeveloperApp#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#create GoogleApigeeDeveloperApp#create}.
 
 ---
 
@@ -1867,7 +2011,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#delete GoogleApigeeDeveloperApp#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#delete GoogleApigeeDeveloperApp#delete}.
 
 ---
 
@@ -1879,7 +2023,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#update GoogleApigeeDeveloperApp#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#update GoogleApigeeDeveloperApp#update}.
 
 ---
 

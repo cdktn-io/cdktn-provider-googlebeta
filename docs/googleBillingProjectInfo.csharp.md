@@ -4,7 +4,7 @@
 
 ### GoogleBillingProjectInfo <a name="GoogleBillingProjectInfo" id="@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfo"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info google_billing_project_info}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info google_billing_project_info}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfo.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleBillingProjectInfo t
 
 The id of the existing GoogleBillingProjectInfo that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -871,8 +871,8 @@ new GoogleBillingProjectInfoConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.billingAccount">BillingAccount</a></code> | <code>string</code> | The ID of the billing account associated with the project, if any. |
 | <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#id GoogleBillingProjectInfo#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#project GoogleBillingProjectInfo#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#id GoogleBillingProjectInfo#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#project GoogleBillingProjectInfo#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts">GoogleBillingProjectInfoTimeouts</a></code> | timeouts block. |
 
 ---
@@ -960,7 +960,7 @@ The ID of the billing account associated with the project, if any.
 Set to empty string to disable billing for the project.
 For example, '"012345-567890-ABCDEF"' or '""'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#billing_account GoogleBillingProjectInfo#billing_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#billing_account GoogleBillingProjectInfo#billing_account}
 
 ---
 
@@ -981,7 +981,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#deletion_policy GoogleBillingProjectInfo#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#deletion_policy GoogleBillingProjectInfo#deletion_policy}
 
 ---
 
@@ -993,7 +993,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#id GoogleBillingProjectInfo#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#id GoogleBillingProjectInfo#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1008,7 +1008,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#project GoogleBillingProjectInfo#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#project GoogleBillingProjectInfo#project}.
 
 ---
 
@@ -1022,7 +1022,7 @@ public GoogleBillingProjectInfoTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#timeouts GoogleBillingProjectInfo#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#timeouts GoogleBillingProjectInfo#timeouts}
 
 ---
 
@@ -1044,9 +1044,9 @@ new GoogleBillingProjectInfoTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#create GoogleBillingProjectInfo#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#delete GoogleBillingProjectInfo#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#update GoogleBillingProjectInfo#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#create GoogleBillingProjectInfo#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#delete GoogleBillingProjectInfo#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#update GoogleBillingProjectInfo#update}. |
 
 ---
 
@@ -1058,7 +1058,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#create GoogleBillingProjectInfo#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#create GoogleBillingProjectInfo#create}.
 
 ---
 
@@ -1070,7 +1070,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#delete GoogleBillingProjectInfo#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#delete GoogleBillingProjectInfo#delete}.
 
 ---
 
@@ -1082,7 +1082,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_billing_project_info#update GoogleBillingProjectInfo#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_billing_project_info#update GoogleBillingProjectInfo#update}.
 
 ---
 

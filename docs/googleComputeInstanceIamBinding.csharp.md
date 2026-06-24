@@ -4,7 +4,7 @@
 
 ### GoogleComputeInstanceIamBinding <a name="GoogleComputeInstanceIamBinding" id="@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeInstanceIamBi
 
 The id of the existing GoogleComputeInstanceIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ new GoogleComputeInstanceIamBindingCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#expression GoogleComputeInstanceIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#title GoogleComputeInstanceIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#description GoogleComputeInstanceIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#expression GoogleComputeInstanceIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#title GoogleComputeInstanceIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#description GoogleComputeInstanceIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#expression GoogleComputeInstanceIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#expression GoogleComputeInstanceIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#title GoogleComputeInstanceIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#title GoogleComputeInstanceIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#description GoogleComputeInstanceIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#description GoogleComputeInstanceIamBinding#description}.
 
 ---
 
@@ -986,13 +986,13 @@ new GoogleComputeInstanceIamBindingConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.instanceName">InstanceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#instance_name GoogleComputeInstanceIamBinding#instance_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#members GoogleComputeInstanceIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#role GoogleComputeInstanceIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.instanceName">InstanceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#instance_name GoogleComputeInstanceIamBinding#instance_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#members GoogleComputeInstanceIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#role GoogleComputeInstanceIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingCondition">GoogleComputeInstanceIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#id GoogleComputeInstanceIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#project GoogleComputeInstanceIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.zone">Zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#zone GoogleComputeInstanceIamBinding#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#id GoogleComputeInstanceIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#project GoogleComputeInstanceIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstanceIamBinding.GoogleComputeInstanceIamBindingConfig.property.zone">Zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#zone GoogleComputeInstanceIamBinding#zone}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public string InstanceName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#instance_name GoogleComputeInstanceIamBinding#instance_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#instance_name GoogleComputeInstanceIamBinding#instance_name}.
 
 ---
 
@@ -1086,7 +1086,7 @@ public string[] Members { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#members GoogleComputeInstanceIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#members GoogleComputeInstanceIamBinding#members}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#role GoogleComputeInstanceIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#role GoogleComputeInstanceIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ public GoogleComputeInstanceIamBindingCondition Condition { get; set; }
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#condition GoogleComputeInstanceIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#condition GoogleComputeInstanceIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#id GoogleComputeInstanceIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#id GoogleComputeInstanceIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#project GoogleComputeInstanceIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#project GoogleComputeInstanceIamBinding#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public string Zone { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_instance_iam_binding#zone GoogleComputeInstanceIamBinding#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_instance_iam_binding#zone GoogleComputeInstanceIamBinding#zone}.
 
 ---
 

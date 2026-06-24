@@ -4,7 +4,7 @@
 
 ### GoogleIamWorkforcePoolProvider <a name="GoogleIamWorkforcePoolProvider" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer"></a>
 
@@ -64,7 +64,7 @@ googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider(
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | A user-specified display name for the provider. Cannot exceed 32 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.extendedAttributesOauth2Client">extended_attributes_oauth2_client</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client">GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client</a></code> | extended_attributes_oauth2_client block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.extraAttributesOauth2Client">extra_attributes_oauth2_client</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client">GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client</a></code> | extra_attributes_oauth2_client block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.oidc">oidc</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidc">GoogleIamWorkforcePoolProviderOidc</a></code> | oidc block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.saml">saml</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderSaml">GoogleIamWorkforcePoolProviderSaml</a></code> | saml block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProvider.Initializer.parameter.scimUsage">scim_usage</a></code> | <code>str</code> | Agentspace only. Specifies whether the workforce identity pool provider uses SCIM-managed groups instead of the 'google.groups' attribute mapping for authorization checks. |
@@ -138,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#location GoogleIamWorkforcePoolProvider#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#location GoogleIamWorkforcePoolProvider#location}
 
 ---
 
@@ -151,7 +151,7 @@ The ID for the provider, which becomes the final component of the resource name.
 This value must be 4-32 characters, and may contain the characters [a-z0-9-].
 The prefix 'gcp-' is reserved for use by Google, and may not be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#provider_id GoogleIamWorkforcePoolProvider#provider_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#provider_id GoogleIamWorkforcePoolProvider#provider_id}
 
 ---
 
@@ -165,7 +165,7 @@ The IDs must be a globally unique string of 6 to 63 lowercase letters, digits, o
 It must start with a letter, and cannot have a trailing hyphen.
 The prefix 'gcp-' is reserved for use by Google, and may not be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#workforce_pool_id GoogleIamWorkforcePoolProvider#workforce_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#workforce_pool_id GoogleIamWorkforcePoolProvider#workforce_pool_id}
 
 ---
 
@@ -193,7 +193,7 @@ The following example shows how to only allow credentials with a mapped 'google.
 "'admins' in google.groups"
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attribute_condition GoogleIamWorkforcePoolProvider#attribute_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attribute_condition GoogleIamWorkforcePoolProvider#attribute_condition}
 
 ---
 
@@ -255,7 +255,7 @@ on a Google token:
 An object containing a list of '"key": value' pairs.
 Example: '{ "name": "wrench", "mass": "1.3kg", "count": "3" }'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attribute_mapping GoogleIamWorkforcePoolProvider#attribute_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attribute_mapping GoogleIamWorkforcePoolProvider#attribute_mapping}
 
 ---
 
@@ -272,7 +272,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#deletion_policy GoogleIamWorkforcePoolProvider#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#deletion_policy GoogleIamWorkforcePoolProvider#deletion_policy}
 
 ---
 
@@ -282,7 +282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A user-specified description of the provider. Cannot exceed 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#description GoogleIamWorkforcePoolProvider#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#description GoogleIamWorkforcePoolProvider#description}
 
 ---
 
@@ -294,7 +294,7 @@ If true, populates additional debug information in Cloud Audit Logs for this pro
 
 Logged attribute mappings and values can be found in 'sts.googleapis.com' data access logs. Default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#detailed_audit_logging GoogleIamWorkforcePoolProvider#detailed_audit_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#detailed_audit_logging GoogleIamWorkforcePoolProvider#detailed_audit_logging}
 
 ---
 
@@ -304,7 +304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the provider is disabled. You cannot use a disabled provider to exchange tokens. However, existing tokens still grant access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#disabled GoogleIamWorkforcePoolProvider#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#disabled GoogleIamWorkforcePoolProvider#disabled}
 
 ---
 
@@ -314,7 +314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A user-specified display name for the provider. Cannot exceed 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#display_name GoogleIamWorkforcePoolProvider#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#display_name GoogleIamWorkforcePoolProvider#display_name}
 
 ---
 
@@ -324,7 +324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 extended_attributes_oauth2_client block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#extended_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extended_attributes_oauth2_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#extended_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extended_attributes_oauth2_client}
 
 ---
 
@@ -334,7 +334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 extra_attributes_oauth2_client block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#extra_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extra_attributes_oauth2_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#extra_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extra_attributes_oauth2_client}
 
 ---
 
@@ -342,7 +342,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -355,7 +355,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 oidc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#oidc GoogleIamWorkforcePoolProvider#oidc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#oidc GoogleIamWorkforcePoolProvider#oidc}
 
 ---
 
@@ -365,7 +365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 saml block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#saml GoogleIamWorkforcePoolProvider#saml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#saml GoogleIamWorkforcePoolProvider#saml}
 
 ---
 
@@ -383,7 +383,7 @@ workforce identity pool provider will produce an error.
 * ENABLED_FOR_GROUPS: Use SCIM-managed groups instead of the 'google.groups'
   attribute mapping for authorization checks Possible values: ["SCIM_USAGE_UNSPECIFIED", "ENABLED_FOR_GROUPS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#scim_usage GoogleIamWorkforcePoolProvider#scim_usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#scim_usage GoogleIamWorkforcePoolProvider#scim_usage}
 
 ---
 
@@ -393,7 +393,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#timeouts GoogleIamWorkforcePoolProvider#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#timeouts GoogleIamWorkforcePoolProvider#timeouts}
 
 ---
 
@@ -822,7 +822,7 @@ Represents the IdP and type of claims that should be fetched.
   OIDC providers and 'assertion.attributes.groups' for SAML providers for
   attribute mapping. Possible values: ["AZURE_AD_GROUPS_ID"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
 
 ---
 
@@ -832,7 +832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OAuth 2.0 client ID for retrieving extended attributes from the identity provider. Required to get the Access Token using client credentials grant flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
 
 ---
 
@@ -842,7 +842,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
 
 ---
 
@@ -854,7 +854,7 @@ The OIDC identity provider's issuer URI.
 
 Must be a valid URI using the 'https' scheme. Required to get the OIDC discovery document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
 
 ---
 
@@ -864,7 +864,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 query_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
 
 ---
 
@@ -907,7 +907,7 @@ Represents the IdP and type of claims that should be fetched.
   OIDC providers and 'assertion.attributes.groups' for SAML providers for
   attribute mapping. Possible values: ["AZURE_AD_GROUPS_MAIL", "AZURE_AD_GROUPS_ID", "AZURE_AD_GROUPS_DISPLAY_NAME"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
 
 ---
 
@@ -917,7 +917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OAuth 2.0 client ID for retrieving extra attributes from the identity provider. Required to get the Access Token using client credentials grant flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
 
 ---
 
@@ -927,7 +927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
 
 ---
 
@@ -939,7 +939,7 @@ The OIDC identity provider's issuer URI.
 
 Must be a valid URI using the 'https' scheme. Required to get the OIDC discovery document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
 
 ---
 
@@ -949,7 +949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 query_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
 
 ---
 
@@ -971,7 +971,7 @@ def put_oidc(
 
 The client ID. Must match the audience claim of the JWT issued by the identity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
 
 ---
 
@@ -981,7 +981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC issuer URI. Must be a valid URI using the 'https' scheme.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
 
 ---
 
@@ -991,7 +991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
 
 ---
 
@@ -1026,7 +1026,7 @@ the following fields:
 }
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#jwks_json GoogleIamWorkforcePoolProvider#jwks_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#jwks_json GoogleIamWorkforcePoolProvider#jwks_json}
 
 ---
 
@@ -1036,7 +1036,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 web_sso_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#web_sso_config GoogleIamWorkforcePoolProvider#web_sso_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#web_sso_config GoogleIamWorkforcePoolProvider#web_sso_config}
 
 ---
 
@@ -1070,7 +1070,7 @@ When updating the provider's metadata xml, at least one non-expired signing key
 must overlap with the existing metadata. This requirement is skipped if there are
 no non-expired signing keys present in the existing metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#idp_metadata_xml GoogleIamWorkforcePoolProvider#idp_metadata_xml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#idp_metadata_xml GoogleIamWorkforcePoolProvider#idp_metadata_xml}
 
 ---
 
@@ -1088,7 +1088,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#create GoogleIamWorkforcePoolProvider#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#create GoogleIamWorkforcePoolProvider#create}.
 
 ---
 
@@ -1096,7 +1096,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#delete GoogleIamWorkforcePoolProvider#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#delete GoogleIamWorkforcePoolProvider#delete}.
 
 ---
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#update GoogleIamWorkforcePoolProvider#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#update GoogleIamWorkforcePoolProvider#update}.
 
 ---
 
@@ -1306,7 +1306,7 @@ The construct id used in the generated config for the GoogleIamWorkforcePoolProv
 
 The id of the existing GoogleIamWorkforcePoolProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1955,7 +1955,7 @@ googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.displayName">display_name</a></code> | <code>str</code> | A user-specified display name for the provider. Cannot exceed 32 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.extendedAttributesOauth2Client">extended_attributes_oauth2_client</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client">GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client</a></code> | extended_attributes_oauth2_client block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.extraAttributesOauth2Client">extra_attributes_oauth2_client</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client">GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client</a></code> | extra_attributes_oauth2_client block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.oidc">oidc</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidc">GoogleIamWorkforcePoolProviderOidc</a></code> | oidc block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.saml">saml</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderSaml">GoogleIamWorkforcePoolProviderSaml</a></code> | saml block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderConfig.property.scimUsage">scim_usage</a></code> | <code>str</code> | Agentspace only. Specifies whether the workforce identity pool provider uses SCIM-managed groups instead of the 'google.groups' attribute mapping for authorization checks. |
@@ -2043,7 +2043,7 @@ location: str
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#location GoogleIamWorkforcePoolProvider#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#location GoogleIamWorkforcePoolProvider#location}
 
 ---
 
@@ -2060,7 +2060,7 @@ The ID for the provider, which becomes the final component of the resource name.
 This value must be 4-32 characters, and may contain the characters [a-z0-9-].
 The prefix 'gcp-' is reserved for use by Google, and may not be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#provider_id GoogleIamWorkforcePoolProvider#provider_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#provider_id GoogleIamWorkforcePoolProvider#provider_id}
 
 ---
 
@@ -2078,7 +2078,7 @@ The IDs must be a globally unique string of 6 to 63 lowercase letters, digits, o
 It must start with a letter, and cannot have a trailing hyphen.
 The prefix 'gcp-' is reserved for use by Google, and may not be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#workforce_pool_id GoogleIamWorkforcePoolProvider#workforce_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#workforce_pool_id GoogleIamWorkforcePoolProvider#workforce_pool_id}
 
 ---
 
@@ -2110,7 +2110,7 @@ The following example shows how to only allow credentials with a mapped 'google.
 "'admins' in google.groups"
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attribute_condition GoogleIamWorkforcePoolProvider#attribute_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attribute_condition GoogleIamWorkforcePoolProvider#attribute_condition}
 
 ---
 
@@ -2176,7 +2176,7 @@ on a Google token:
 An object containing a list of '"key": value' pairs.
 Example: '{ "name": "wrench", "mass": "1.3kg", "count": "3" }'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attribute_mapping GoogleIamWorkforcePoolProvider#attribute_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attribute_mapping GoogleIamWorkforcePoolProvider#attribute_mapping}
 
 ---
 
@@ -2197,7 +2197,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#deletion_policy GoogleIamWorkforcePoolProvider#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#deletion_policy GoogleIamWorkforcePoolProvider#deletion_policy}
 
 ---
 
@@ -2211,7 +2211,7 @@ description: str
 
 A user-specified description of the provider. Cannot exceed 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#description GoogleIamWorkforcePoolProvider#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#description GoogleIamWorkforcePoolProvider#description}
 
 ---
 
@@ -2227,7 +2227,7 @@ If true, populates additional debug information in Cloud Audit Logs for this pro
 
 Logged attribute mappings and values can be found in 'sts.googleapis.com' data access logs. Default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#detailed_audit_logging GoogleIamWorkforcePoolProvider#detailed_audit_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#detailed_audit_logging GoogleIamWorkforcePoolProvider#detailed_audit_logging}
 
 ---
 
@@ -2241,7 +2241,7 @@ disabled: bool | IResolvable
 
 Whether the provider is disabled. You cannot use a disabled provider to exchange tokens. However, existing tokens still grant access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#disabled GoogleIamWorkforcePoolProvider#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#disabled GoogleIamWorkforcePoolProvider#disabled}
 
 ---
 
@@ -2255,7 +2255,7 @@ display_name: str
 
 A user-specified display name for the provider. Cannot exceed 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#display_name GoogleIamWorkforcePoolProvider#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#display_name GoogleIamWorkforcePoolProvider#display_name}
 
 ---
 
@@ -2269,7 +2269,7 @@ extended_attributes_oauth2_client: GoogleIamWorkforcePoolProviderExtendedAttribu
 
 extended_attributes_oauth2_client block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#extended_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extended_attributes_oauth2_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#extended_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extended_attributes_oauth2_client}
 
 ---
 
@@ -2283,7 +2283,7 @@ extra_attributes_oauth2_client: GoogleIamWorkforcePoolProviderExtraAttributesOau
 
 extra_attributes_oauth2_client block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#extra_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extra_attributes_oauth2_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#extra_attributes_oauth2_client GoogleIamWorkforcePoolProvider#extra_attributes_oauth2_client}
 
 ---
 
@@ -2295,7 +2295,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#id GoogleIamWorkforcePoolProvider#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2312,7 +2312,7 @@ oidc: GoogleIamWorkforcePoolProviderOidc
 
 oidc block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#oidc GoogleIamWorkforcePoolProvider#oidc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#oidc GoogleIamWorkforcePoolProvider#oidc}
 
 ---
 
@@ -2326,7 +2326,7 @@ saml: GoogleIamWorkforcePoolProviderSaml
 
 saml block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#saml GoogleIamWorkforcePoolProvider#saml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#saml GoogleIamWorkforcePoolProvider#saml}
 
 ---
 
@@ -2348,7 +2348,7 @@ workforce identity pool provider will produce an error.
 * ENABLED_FOR_GROUPS: Use SCIM-managed groups instead of the 'google.groups'
   attribute mapping for authorization checks Possible values: ["SCIM_USAGE_UNSPECIFIED", "ENABLED_FOR_GROUPS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#scim_usage GoogleIamWorkforcePoolProvider#scim_usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#scim_usage GoogleIamWorkforcePoolProvider#scim_usage}
 
 ---
 
@@ -2362,7 +2362,7 @@ timeouts: GoogleIamWorkforcePoolProviderTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#timeouts GoogleIamWorkforcePoolProvider#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#timeouts GoogleIamWorkforcePoolProvider#timeouts}
 
 ---
 
@@ -2413,7 +2413,7 @@ Represents the IdP and type of claims that should be fetched.
   OIDC providers and 'assertion.attributes.groups' for SAML providers for
   attribute mapping. Possible values: ["AZURE_AD_GROUPS_ID"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
 
 ---
 
@@ -2427,7 +2427,7 @@ client_id: str
 
 The OAuth 2.0 client ID for retrieving extended attributes from the identity provider. Required to get the Access Token using client credentials grant flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
 
 ---
 
@@ -2441,7 +2441,7 @@ client_secret: GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClien
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
 
 ---
 
@@ -2457,7 +2457,7 @@ The OIDC identity provider's issuer URI.
 
 Must be a valid URI using the 'https' scheme. Required to get the OIDC discovery document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
 
 ---
 
@@ -2471,7 +2471,7 @@ query_parameters: GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientQu
 
 query_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
 
 ---
 
@@ -2505,7 +2505,7 @@ value: GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretV
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
 
 ---
 
@@ -2517,7 +2517,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_google_beta import google_iam_workforce_pool_provider
 
 googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue(
-  plain_text: str
+  plain_text: str = None,
+  plain_text_wo: str = None,
+  plain_text_wo_version: str = None
 )
 ```
 
@@ -2526,10 +2528,12 @@ googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesO
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue.property.plainText">plain_text</a></code> | <code>str</code> | The plain text of the client secret value. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue.property.plainTextWo">plain_text_wo</a></code> | <code>str</code> | The plain text of the client secret value. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue.property.plainTextWoVersion">plain_text_wo_version</a></code> | <code>str</code> | Triggers update of 'plain_text_wo' write-only. |
 
 ---
 
-##### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue.property.plainText"></a>
+##### `plain_text`<sup>Optional</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue.property.plainText"></a>
 
 ```python
 plain_text: str
@@ -2539,7 +2543,37 @@ plain_text: str
 
 The plain text of the client secret value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+
+---
+
+##### `plain_text_wo`<sup>Optional</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue.property.plainTextWo"></a>
+
+```python
+plain_text_wo: str
+```
+
+- *Type:* str
+
+The plain text of the client secret value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo GoogleIamWorkforcePoolProvider#plain_text_wo}
+
+---
+
+##### `plain_text_wo_version`<sup>Optional</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue.property.plainTextWoVersion"></a>
+
+```python
+plain_text_wo_version: str
+```
+
+- *Type:* str
+
+Triggers update of 'plain_text_wo' write-only.
+
+Increment this value when an update to 'plain_text_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo_version GoogleIamWorkforcePoolProvider#plain_text_wo_version}
 
 ---
 
@@ -2577,7 +2611,7 @@ In case of attributes type as AZURE_AD_GROUPS_ID, it represents the
 filter used to request specific groups for users from IdP. By default, all of the groups associated with the user are fetched. The
 groups should be security enabled. See https://learn.microsoft.com/en-us/graph/search-query-parameter for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
 
 ---
 
@@ -2640,7 +2674,7 @@ Represents the IdP and type of claims that should be fetched.
   OIDC providers and 'assertion.attributes.groups' for SAML providers for
   attribute mapping. Possible values: ["AZURE_AD_GROUPS_MAIL", "AZURE_AD_GROUPS_ID", "AZURE_AD_GROUPS_DISPLAY_NAME"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#attributes_type GoogleIamWorkforcePoolProvider#attributes_type}
 
 ---
 
@@ -2654,7 +2688,7 @@ client_id: str
 
 The OAuth 2.0 client ID for retrieving extra attributes from the identity provider. Required to get the Access Token using client credentials grant flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
 
 ---
 
@@ -2668,7 +2702,7 @@ client_secret: GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSe
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
 
 ---
 
@@ -2684,7 +2718,7 @@ The OIDC identity provider's issuer URI.
 
 Must be a valid URI using the 'https' scheme. Required to get the OIDC discovery document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
 
 ---
 
@@ -2698,7 +2732,7 @@ query_parameters: GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientQuery
 
 query_parameters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#query_parameters GoogleIamWorkforcePoolProvider#query_parameters}
 
 ---
 
@@ -2732,7 +2766,7 @@ value: GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValu
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
 
 ---
 
@@ -2744,7 +2778,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_google_beta import google_iam_workforce_pool_provider
 
 googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue(
-  plain_text: str
+  plain_text: str = None,
+  plain_text_wo: str = None,
+  plain_text_wo_version: str = None
 )
 ```
 
@@ -2753,10 +2789,12 @@ googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOaut
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue.property.plainText">plain_text</a></code> | <code>str</code> | The plain text of the client secret value. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue.property.plainTextWo">plain_text_wo</a></code> | <code>str</code> | The plain text of the client secret value. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue.property.plainTextWoVersion">plain_text_wo_version</a></code> | <code>str</code> | Triggers update of 'plain_text_wo' write-only. |
 
 ---
 
-##### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue.property.plainText"></a>
+##### `plain_text`<sup>Optional</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue.property.plainText"></a>
 
 ```python
 plain_text: str
@@ -2766,7 +2804,37 @@ plain_text: str
 
 The plain text of the client secret value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+
+---
+
+##### `plain_text_wo`<sup>Optional</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue.property.plainTextWo"></a>
+
+```python
+plain_text_wo: str
+```
+
+- *Type:* str
+
+The plain text of the client secret value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo GoogleIamWorkforcePoolProvider#plain_text_wo}
+
+---
+
+##### `plain_text_wo_version`<sup>Optional</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue.property.plainTextWoVersion"></a>
+
+```python
+plain_text_wo_version: str
+```
+
+- *Type:* str
+
+Triggers update of 'plain_text_wo' write-only.
+
+Increment this value when an update to 'plain_text_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo_version GoogleIamWorkforcePoolProvider#plain_text_wo_version}
 
 ---
 
@@ -2806,7 +2874,7 @@ groups for users from IdP. By default, all of the groups associated with the use
 should be security enabled. See https://learn.microsoft.com/en-us/graph/search-query-parameter for more
 details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
 
 ---
 
@@ -2848,7 +2916,7 @@ client_id: str
 
 The client ID. Must match the audience claim of the JWT issued by the identity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_id GoogleIamWorkforcePoolProvider#client_id}
 
 ---
 
@@ -2862,7 +2930,7 @@ issuer_uri: str
 
 The OIDC issuer URI. Must be a valid URI using the 'https' scheme.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#issuer_uri GoogleIamWorkforcePoolProvider#issuer_uri}
 
 ---
 
@@ -2876,7 +2944,7 @@ client_secret: GoogleIamWorkforcePoolProviderOidcClientSecret
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#client_secret GoogleIamWorkforcePoolProvider#client_secret}
 
 ---
 
@@ -2915,7 +2983,7 @@ the following fields:
 }
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#jwks_json GoogleIamWorkforcePoolProvider#jwks_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#jwks_json GoogleIamWorkforcePoolProvider#jwks_json}
 
 ---
 
@@ -2929,7 +2997,7 @@ web_sso_config: GoogleIamWorkforcePoolProviderOidcWebSsoConfig
 
 web_sso_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#web_sso_config GoogleIamWorkforcePoolProvider#web_sso_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#web_sso_config GoogleIamWorkforcePoolProvider#web_sso_config}
 
 ---
 
@@ -2963,7 +3031,7 @@ value: GoogleIamWorkforcePoolProviderOidcClientSecretValue
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
 
 ---
 
@@ -2975,7 +3043,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_google_beta import google_iam_workforce_pool_provider
 
 googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue(
-  plain_text: str
+  plain_text: str = None,
+  plain_text_wo: str = None,
+  plain_text_wo_version: str = None
 )
 ```
 
@@ -2984,10 +3054,12 @@ googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretVal
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue.property.plainText">plain_text</a></code> | <code>str</code> | The plain text of the client secret value. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue.property.plainTextWo">plain_text_wo</a></code> | <code>str</code> | The plain text of the client secret value. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue.property.plainTextWoVersion">plain_text_wo_version</a></code> | <code>str</code> | Triggers update of 'plain_text_wo' write-only. |
 
 ---
 
-##### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue.property.plainText"></a>
+##### `plain_text`<sup>Optional</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue.property.plainText"></a>
 
 ```python
 plain_text: str
@@ -2997,7 +3069,37 @@ plain_text: str
 
 The plain text of the client secret value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+
+---
+
+##### `plain_text_wo`<sup>Optional</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue.property.plainTextWo"></a>
+
+```python
+plain_text_wo: str
+```
+
+- *Type:* str
+
+The plain text of the client secret value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo GoogleIamWorkforcePoolProvider#plain_text_wo}
+
+---
+
+##### `plain_text_wo_version`<sup>Optional</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue.property.plainTextWoVersion"></a>
+
+```python
+plain_text_wo_version: str
+```
+
+- *Type:* str
+
+Triggers update of 'plain_text_wo' write-only.
+
+Increment this value when an update to 'plain_text_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo_version GoogleIamWorkforcePoolProvider#plain_text_wo_version}
 
 ---
 
@@ -3038,7 +3140,7 @@ The behavior for how OIDC Claims are included in the 'assertion' object used for
 * MERGE_USER_INFO_OVER_ID_TOKEN_CLAIMS: Merge the UserInfo Endpoint Claims with ID Token Claims, preferring UserInfo Claim Values for the same Claim Name. This option is available only for the Authorization Code Flow.
 * ONLY_ID_TOKEN_CLAIMS: Only include ID Token Claims. Possible values: ["MERGE_USER_INFO_OVER_ID_TOKEN_CLAIMS", "ONLY_ID_TOKEN_CLAIMS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#assertion_claims_behavior GoogleIamWorkforcePoolProvider#assertion_claims_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#assertion_claims_behavior GoogleIamWorkforcePoolProvider#assertion_claims_behavior}
 
 ---
 
@@ -3057,7 +3159,7 @@ The 'CODE' Response Type is recommended to avoid the Implicit Flow, for security
 * CODE: The 'response_type=code' selection uses the Authorization Code Flow for web sign-in. Requires a configured client secret.
 * ID_TOKEN: The 'response_type=id_token' selection uses the Implicit Flow for web sign-in. Possible values: ["CODE", "ID_TOKEN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#response_type GoogleIamWorkforcePoolProvider#response_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#response_type GoogleIamWorkforcePoolProvider#response_type}
 
 ---
 
@@ -3074,7 +3176,7 @@ Additional scopes to request for in the OIDC authentication request on top of sc
 By default, the 'openid', 'profile' and 'email' scopes that are supported by the identity provider are requested.
 Each additional scope may be at most 256 characters. A maximum of 10 additional scopes may be configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#additional_scopes GoogleIamWorkforcePoolProvider#additional_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#additional_scopes GoogleIamWorkforcePoolProvider#additional_scopes}
 
 ---
 
@@ -3124,7 +3226,7 @@ When updating the provider's metadata xml, at least one non-expired signing key
 must overlap with the existing metadata. This requirement is skipped if there are
 no non-expired signing keys present in the existing metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#idp_metadata_xml GoogleIamWorkforcePoolProvider#idp_metadata_xml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#idp_metadata_xml GoogleIamWorkforcePoolProvider#idp_metadata_xml}
 
 ---
 
@@ -3146,9 +3248,9 @@ googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#create GoogleIamWorkforcePoolProvider#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#delete GoogleIamWorkforcePoolProvider#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#update GoogleIamWorkforcePoolProvider#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#create GoogleIamWorkforcePoolProvider#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#delete GoogleIamWorkforcePoolProvider#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#update GoogleIamWorkforcePoolProvider#update}. |
 
 ---
 
@@ -3160,7 +3262,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#create GoogleIamWorkforcePoolProvider#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#create GoogleIamWorkforcePoolProvider#create}.
 
 ---
 
@@ -3172,7 +3274,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#delete GoogleIamWorkforcePoolProvider#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#delete GoogleIamWorkforcePoolProvider#delete}.
 
 ---
 
@@ -3184,7 +3286,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#update GoogleIamWorkforcePoolProvider#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#update GoogleIamWorkforcePoolProvider#update}.
 
 ---
 
@@ -3424,17 +3526,41 @@ Returns a reversible string representation.
 
 ```python
 def put_value(
-  plain_text: str
+  plain_text: str = None,
+  plain_text_wo: str = None,
+  plain_text_wo_version: str = None
 ) -> None
 ```
 
-###### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainText"></a>
+###### `plain_text`<sup>Optional</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainText"></a>
 
 - *Type:* str
 
 The plain text of the client secret value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+
+---
+
+###### `plain_text_wo`<sup>Optional</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainTextWo"></a>
+
+- *Type:* str
+
+The plain text of the client secret value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo GoogleIamWorkforcePoolProvider#plain_text_wo}
+
+---
+
+###### `plain_text_wo_version`<sup>Optional</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainTextWoVersion"></a>
+
+- *Type:* str
+
+Triggers update of 'plain_text_wo' write-only.
+
+Increment this value when an update to 'plain_text_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo_version GoogleIamWorkforcePoolProvider#plain_text_wo_version}
 
 ---
 
@@ -3565,6 +3691,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.resetPlainText">reset_plain_text</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWo">reset_plain_text_wo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWoVersion">reset_plain_text_wo_version</a></code> | *No description.* |
 
 ---
 
@@ -3740,6 +3869,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_plain_text` <a name="reset_plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.resetPlainText"></a>
+
+```python
+def reset_plain_text() -> None
+```
+
+##### `reset_plain_text_wo` <a name="reset_plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWo"></a>
+
+```python
+def reset_plain_text_wo() -> None
+```
+
+##### `reset_plain_text_wo_version` <a name="reset_plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWoVersion"></a>
+
+```python
+def reset_plain_text_wo_version() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -3749,7 +3896,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.thumbprint">thumbprint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextInput">plain_text_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoInput">plain_text_wo_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersionInput">plain_text_wo_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainText">plain_text</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWo">plain_text_wo</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersion">plain_text_wo_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue">GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValue</a></code> | *No description.* |
 
 ---
@@ -3798,10 +3949,50 @@ plain_text_input: str
 
 ---
 
+##### `plain_text_wo_input`<sup>Optional</sup> <a name="plain_text_wo_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoInput"></a>
+
+```python
+plain_text_wo_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo_version_input`<sup>Optional</sup> <a name="plain_text_wo_version_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersionInput"></a>
+
+```python
+plain_text_wo_version_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainText"></a>
 
 ```python
 plain_text: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo`<sup>Required</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWo"></a>
+
+```python
+plain_text_wo: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo_version`<sup>Required</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersion"></a>
+
+```python
+plain_text_wo_version: str
 ```
 
 - *Type:* str
@@ -4064,7 +4255,7 @@ def put_client_secret(
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
 
 ---
 
@@ -4086,7 +4277,7 @@ In case of attributes type as AZURE_AD_GROUPS_ID, it represents the
 filter used to request specific groups for users from IdP. By default, all of the groups associated with the user are fetched. The
 groups should be security enabled. See https://learn.microsoft.com/en-us/graph/search-query-parameter for more details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
 
 ---
 
@@ -4789,17 +4980,41 @@ Returns a reversible string representation.
 
 ```python
 def put_value(
-  plain_text: str
+  plain_text: str = None,
+  plain_text_wo: str = None,
+  plain_text_wo_version: str = None
 ) -> None
 ```
 
-###### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainText"></a>
+###### `plain_text`<sup>Optional</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainText"></a>
 
 - *Type:* str
 
 The plain text of the client secret value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+
+---
+
+###### `plain_text_wo`<sup>Optional</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainTextWo"></a>
+
+- *Type:* str
+
+The plain text of the client secret value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo GoogleIamWorkforcePoolProvider#plain_text_wo}
+
+---
+
+###### `plain_text_wo_version`<sup>Optional</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretOutputReference.putValue.parameter.plainTextWoVersion"></a>
+
+- *Type:* str
+
+Triggers update of 'plain_text_wo' write-only.
+
+Increment this value when an update to 'plain_text_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo_version GoogleIamWorkforcePoolProvider#plain_text_wo_version}
 
 ---
 
@@ -4930,6 +5145,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.resetPlainText">reset_plain_text</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWo">reset_plain_text_wo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWoVersion">reset_plain_text_wo_version</a></code> | *No description.* |
 
 ---
 
@@ -5105,6 +5323,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_plain_text` <a name="reset_plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.resetPlainText"></a>
+
+```python
+def reset_plain_text() -> None
+```
+
+##### `reset_plain_text_wo` <a name="reset_plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWo"></a>
+
+```python
+def reset_plain_text_wo() -> None
+```
+
+##### `reset_plain_text_wo_version` <a name="reset_plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.resetPlainTextWoVersion"></a>
+
+```python
+def reset_plain_text_wo_version() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5114,7 +5350,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.thumbprint">thumbprint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextInput">plain_text_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoInput">plain_text_wo_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersionInput">plain_text_wo_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainText">plain_text</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWo">plain_text_wo</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersion">plain_text_wo_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue">GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValue</a></code> | *No description.* |
 
 ---
@@ -5163,10 +5403,50 @@ plain_text_input: str
 
 ---
 
+##### `plain_text_wo_input`<sup>Optional</sup> <a name="plain_text_wo_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoInput"></a>
+
+```python
+plain_text_wo_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo_version_input`<sup>Optional</sup> <a name="plain_text_wo_version_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersionInput"></a>
+
+```python
+plain_text_wo_version_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainText"></a>
 
 ```python
 plain_text: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo`<sup>Required</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWo"></a>
+
+```python
+plain_text_wo: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo_version`<sup>Required</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientClientSecretValueOutputReference.property.plainTextWoVersion"></a>
+
+```python
+plain_text_wo_version: str
 ```
 
 - *Type:* str
@@ -5429,7 +5709,7 @@ def put_client_secret(
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
 
 ---
 
@@ -5453,7 +5733,7 @@ groups for users from IdP. By default, all of the groups associated with the use
 should be security enabled. See https://learn.microsoft.com/en-us/graph/search-query-parameter for more
 details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#filter GoogleIamWorkforcePoolProvider#filter}
 
 ---
 
@@ -6156,17 +6436,41 @@ Returns a reversible string representation.
 
 ```python
 def put_value(
-  plain_text: str
+  plain_text: str = None,
+  plain_text_wo: str = None,
+  plain_text_wo_version: str = None
 ) -> None
 ```
 
-###### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretOutputReference.putValue.parameter.plainText"></a>
+###### `plain_text`<sup>Optional</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretOutputReference.putValue.parameter.plainText"></a>
 
 - *Type:* str
 
 The plain text of the client secret value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text GoogleIamWorkforcePoolProvider#plain_text}
+
+---
+
+###### `plain_text_wo`<sup>Optional</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretOutputReference.putValue.parameter.plainTextWo"></a>
+
+- *Type:* str
+
+The plain text of the client secret value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo GoogleIamWorkforcePoolProvider#plain_text_wo}
+
+---
+
+###### `plain_text_wo_version`<sup>Optional</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretOutputReference.putValue.parameter.plainTextWoVersion"></a>
+
+- *Type:* str
+
+Triggers update of 'plain_text_wo' write-only.
+
+Increment this value when an update to 'plain_text_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#plain_text_wo_version GoogleIamWorkforcePoolProvider#plain_text_wo_version}
 
 ---
 
@@ -6297,6 +6601,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.resetPlainText">reset_plain_text</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.resetPlainTextWo">reset_plain_text_wo</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.resetPlainTextWoVersion">reset_plain_text_wo_version</a></code> | *No description.* |
 
 ---
 
@@ -6472,6 +6779,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_plain_text` <a name="reset_plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.resetPlainText"></a>
+
+```python
+def reset_plain_text() -> None
+```
+
+##### `reset_plain_text_wo` <a name="reset_plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.resetPlainTextWo"></a>
+
+```python
+def reset_plain_text_wo() -> None
+```
+
+##### `reset_plain_text_wo_version` <a name="reset_plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.resetPlainTextWoVersion"></a>
+
+```python
+def reset_plain_text_wo_version() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -6481,7 +6806,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.thumbprint">thumbprint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextInput">plain_text_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWoInput">plain_text_wo_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWoVersionInput">plain_text_wo_version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainText">plain_text</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWo">plain_text_wo</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWoVersion">plain_text_wo_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValue">GoogleIamWorkforcePoolProviderOidcClientSecretValue</a></code> | *No description.* |
 
 ---
@@ -6530,10 +6859,50 @@ plain_text_input: str
 
 ---
 
+##### `plain_text_wo_input`<sup>Optional</sup> <a name="plain_text_wo_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWoInput"></a>
+
+```python
+plain_text_wo_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo_version_input`<sup>Optional</sup> <a name="plain_text_wo_version_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWoVersionInput"></a>
+
+```python
+plain_text_wo_version_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `plain_text`<sup>Required</sup> <a name="plain_text" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainText"></a>
 
 ```python
 plain_text: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo`<sup>Required</sup> <a name="plain_text_wo" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWo"></a>
+
+```python
+plain_text_wo: str
+```
+
+- *Type:* str
+
+---
+
+##### `plain_text_wo_version`<sup>Required</sup> <a name="plain_text_wo_version" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProvider.GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference.property.plainTextWoVersion"></a>
+
+```python
+plain_text_wo_version: str
 ```
 
 - *Type:* str
@@ -6798,7 +7167,7 @@ def put_client_secret(
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#value GoogleIamWorkforcePoolProvider#value}
 
 ---
 
@@ -6821,7 +7190,7 @@ The behavior for how OIDC Claims are included in the 'assertion' object used for
 * MERGE_USER_INFO_OVER_ID_TOKEN_CLAIMS: Merge the UserInfo Endpoint Claims with ID Token Claims, preferring UserInfo Claim Values for the same Claim Name. This option is available only for the Authorization Code Flow.
 * ONLY_ID_TOKEN_CLAIMS: Only include ID Token Claims. Possible values: ["MERGE_USER_INFO_OVER_ID_TOKEN_CLAIMS", "ONLY_ID_TOKEN_CLAIMS"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#assertion_claims_behavior GoogleIamWorkforcePoolProvider#assertion_claims_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#assertion_claims_behavior GoogleIamWorkforcePoolProvider#assertion_claims_behavior}
 
 ---
 
@@ -6836,7 +7205,7 @@ The 'CODE' Response Type is recommended to avoid the Implicit Flow, for security
 * CODE: The 'response_type=code' selection uses the Authorization Code Flow for web sign-in. Requires a configured client secret.
 * ID_TOKEN: The 'response_type=id_token' selection uses the Implicit Flow for web sign-in. Possible values: ["CODE", "ID_TOKEN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#response_type GoogleIamWorkforcePoolProvider#response_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#response_type GoogleIamWorkforcePoolProvider#response_type}
 
 ---
 
@@ -6849,7 +7218,7 @@ Additional scopes to request for in the OIDC authentication request on top of sc
 By default, the 'openid', 'profile' and 'email' scopes that are supported by the identity provider are requested.
 Each additional scope may be at most 256 characters. A maximum of 10 additional scopes may be configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider#additional_scopes GoogleIamWorkforcePoolProvider#additional_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_workforce_pool_provider#additional_scopes GoogleIamWorkforcePoolProvider#additional_scopes}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryRoutineIamMember <a name="GoogleBigqueryRoutineIamMember" id="@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member google_bigquery_routine_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member google_bigquery_routine_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMember.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleBigqueryRoutineIamMe
 
 The id of the existing GoogleBigqueryRoutineIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -897,9 +897,9 @@ const googleBigqueryRoutineIamMemberCondition: googleBigqueryRoutineIamMember.Go
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#expression GoogleBigqueryRoutineIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#title GoogleBigqueryRoutineIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#description GoogleBigqueryRoutineIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#expression GoogleBigqueryRoutineIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#title GoogleBigqueryRoutineIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#description GoogleBigqueryRoutineIamMember#description}. |
 
 ---
 
@@ -911,7 +911,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#expression GoogleBigqueryRoutineIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#expression GoogleBigqueryRoutineIamMember#expression}.
 
 ---
 
@@ -923,7 +923,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#title GoogleBigqueryRoutineIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#title GoogleBigqueryRoutineIamMember#title}.
 
 ---
 
@@ -935,7 +935,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#description GoogleBigqueryRoutineIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#description GoogleBigqueryRoutineIamMember#description}.
 
 ---
 
@@ -960,13 +960,13 @@ const googleBigqueryRoutineIamMemberConfig: googleBigqueryRoutineIamMember.Googl
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.datasetId">datasetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#dataset_id GoogleBigqueryRoutineIamMember#dataset_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#member GoogleBigqueryRoutineIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#role GoogleBigqueryRoutineIamMember#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.routineId">routineId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#routine_id GoogleBigqueryRoutineIamMember#routine_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.datasetId">datasetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#dataset_id GoogleBigqueryRoutineIamMember#dataset_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#member GoogleBigqueryRoutineIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#role GoogleBigqueryRoutineIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.routineId">routineId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#routine_id GoogleBigqueryRoutineIamMember#routine_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberCondition">GoogleBigqueryRoutineIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#id GoogleBigqueryRoutineIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#project GoogleBigqueryRoutineIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#id GoogleBigqueryRoutineIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamMember.GoogleBigqueryRoutineIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#project GoogleBigqueryRoutineIamMember#project}. |
 
 ---
 
@@ -1048,7 +1048,7 @@ public readonly datasetId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#dataset_id GoogleBigqueryRoutineIamMember#dataset_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#dataset_id GoogleBigqueryRoutineIamMember#dataset_id}.
 
 ---
 
@@ -1060,7 +1060,7 @@ public readonly member: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#member GoogleBigqueryRoutineIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#member GoogleBigqueryRoutineIamMember#member}.
 
 ---
 
@@ -1072,7 +1072,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#role GoogleBigqueryRoutineIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#role GoogleBigqueryRoutineIamMember#role}.
 
 ---
 
@@ -1084,7 +1084,7 @@ public readonly routineId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#routine_id GoogleBigqueryRoutineIamMember#routine_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#routine_id GoogleBigqueryRoutineIamMember#routine_id}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public readonly condition: GoogleBigqueryRoutineIamMemberCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#condition GoogleBigqueryRoutineIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#condition GoogleBigqueryRoutineIamMember#condition}
 
 ---
 
@@ -1110,7 +1110,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#id GoogleBigqueryRoutineIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#id GoogleBigqueryRoutineIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1125,7 +1125,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_member#project GoogleBigqueryRoutineIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_member#project GoogleBigqueryRoutineIamMember#project}.
 
 ---
 

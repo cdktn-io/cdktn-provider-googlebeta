@@ -4,7 +4,7 @@
 
 ### GoogleDataplexLakeIamBinding <a name="GoogleDataplexLakeIamBinding" id="@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDataplexLakeIamBindi
 
 The id of the existing GoogleDataplexLakeIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#expression GoogleDataplexLakeIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#title GoogleDataplexLakeIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#description GoogleDataplexLakeIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#expression GoogleDataplexLakeIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#title GoogleDataplexLakeIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#description GoogleDataplexLakeIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#expression GoogleDataplexLakeIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#expression GoogleDataplexLakeIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#title GoogleDataplexLakeIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#title GoogleDataplexLakeIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#description GoogleDataplexLakeIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#description GoogleDataplexLakeIamBinding#description}.
 
 ---
 
@@ -986,13 +986,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.lake">Lake</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#lake GoogleDataplexLakeIamBinding#lake}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#members GoogleDataplexLakeIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#role GoogleDataplexLakeIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.lake">Lake</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#lake GoogleDataplexLakeIamBinding#lake}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#members GoogleDataplexLakeIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#role GoogleDataplexLakeIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingCondition">GoogleDataplexLakeIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#id GoogleDataplexLakeIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#location GoogleDataplexLakeIamBinding#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#project GoogleDataplexLakeIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#id GoogleDataplexLakeIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#location GoogleDataplexLakeIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexLakeIamBinding.GoogleDataplexLakeIamBindingConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#project GoogleDataplexLakeIamBinding#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ Lake *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#lake GoogleDataplexLakeIamBinding#lake}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#lake GoogleDataplexLakeIamBinding#lake}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#members GoogleDataplexLakeIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#members GoogleDataplexLakeIamBinding#members}.
 
 ---
 
@@ -1098,7 +1098,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#role GoogleDataplexLakeIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#role GoogleDataplexLakeIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ Condition GoogleDataplexLakeIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#condition GoogleDataplexLakeIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#condition GoogleDataplexLakeIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#id GoogleDataplexLakeIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#id GoogleDataplexLakeIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#location GoogleDataplexLakeIamBinding#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#location GoogleDataplexLakeIamBinding#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataplex_lake_iam_binding#project GoogleDataplexLakeIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_lake_iam_binding#project GoogleDataplexLakeIamBinding#project}.
 
 ---
 

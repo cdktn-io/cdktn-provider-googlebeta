@@ -4,7 +4,7 @@
 
 ### GoogleDataCatalogTagTemplateIamPolicy <a name="GoogleDataCatalogTagTemplateIamPolicy" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy google_data_catalog_tag_template_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy google_data_catalog_tag_template_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer"></a>
 
@@ -38,11 +38,11 @@ GoogleDataCatalogTagTemplateIamPolicy.Builder.create(Construct scope, java.lang.
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.tagTemplate">tagTemplate</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.tagTemplate">tagTemplate</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicy.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}.
 
 ---
 
@@ -145,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}.
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the GoogleDataCatalogTagTempla
 
 The id of the existing GoogleDataCatalogTagTemplateIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,11 +965,11 @@ GoogleDataCatalogTagTemplateIamPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.tagTemplate">tagTemplate</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.tagTemplate">tagTemplate</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataCatalogTagTemplateIamPolicy.GoogleDataCatalogTagTemplateIamPolicyConfig.property.region">region</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}. |
 
 ---
 
@@ -1051,7 +1051,7 @@ public java.lang.String getPolicyData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#policy_data GoogleDataCatalogTagTemplateIamPolicy#policy_data}.
 
 ---
 
@@ -1063,7 +1063,7 @@ public java.lang.String getTagTemplate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#tag_template GoogleDataCatalogTagTemplateIamPolicy#tag_template}.
 
 ---
 
@@ -1075,7 +1075,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#id GoogleDataCatalogTagTemplateIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#project GoogleDataCatalogTagTemplateIamPolicy#project}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public java.lang.String getRegion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_catalog_tag_template_iam_policy#region GoogleDataCatalogTagTemplateIamPolicy#region}.
 
 ---
 
