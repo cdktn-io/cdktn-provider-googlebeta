@@ -4,7 +4,7 @@
 
 ### GoogleStorageManagedFolderIamPolicy <a name="GoogleStorageManagedFolderIamPolicy" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy google_storage_managed_folder_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicy.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the GoogleStorageManagedFolder
 
 The id of the existing GoogleStorageManagedFolderIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -811,10 +811,10 @@ const googleStorageManagedFolderIamPolicyConfig: googleStorageManagedFolderIamPo
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#bucket GoogleStorageManagedFolderIamPolicy#bucket}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.managedFolder">managedFolder</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#managed_folder GoogleStorageManagedFolderIamPolicy#managed_folder}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#policy_data GoogleStorageManagedFolderIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#id GoogleStorageManagedFolderIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.bucket">bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#bucket GoogleStorageManagedFolderIamPolicy#bucket}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.managedFolder">managedFolder</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#managed_folder GoogleStorageManagedFolderIamPolicy#managed_folder}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#policy_data GoogleStorageManagedFolderIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageManagedFolderIamPolicy.GoogleStorageManagedFolderIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#id GoogleStorageManagedFolderIamPolicy#id}. |
 
 ---
 
@@ -896,7 +896,7 @@ public readonly bucket: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#bucket GoogleStorageManagedFolderIamPolicy#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#bucket GoogleStorageManagedFolderIamPolicy#bucket}.
 
 ---
 
@@ -908,7 +908,7 @@ public readonly managedFolder: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#managed_folder GoogleStorageManagedFolderIamPolicy#managed_folder}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#managed_folder GoogleStorageManagedFolderIamPolicy#managed_folder}.
 
 ---
 
@@ -920,7 +920,7 @@ public readonly policyData: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#policy_data GoogleStorageManagedFolderIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#policy_data GoogleStorageManagedFolderIamPolicy#policy_data}.
 
 ---
 
@@ -932,7 +932,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_storage_managed_folder_iam_policy#id GoogleStorageManagedFolderIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_storage_managed_folder_iam_policy#id GoogleStorageManagedFolderIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

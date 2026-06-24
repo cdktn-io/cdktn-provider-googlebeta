@@ -4,7 +4,7 @@
 
 ### GoogleComputeSnapshotIamMember <a name="GoogleComputeSnapshotIamMember" id="@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer"></a>
 
@@ -41,12 +41,12 @@ googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition">GoogleComputeSnapshotIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMember.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#condition GoogleComputeSnapshotIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#condition GoogleComputeSnapshotIamMember#condition}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +159,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}.
 
 ---
 
@@ -560,7 +560,7 @@ def put_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#expression GoogleComputeSnapshotIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#expression GoogleComputeSnapshotIamMember#expression}.
 
 ---
 
@@ -568,7 +568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#title GoogleComputeSnapshotIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#title GoogleComputeSnapshotIamMember#title}.
 
 ---
 
@@ -576,7 +576,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#description GoogleComputeSnapshotIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#description GoogleComputeSnapshotIamMember#description}.
 
 ---
 
@@ -712,7 +712,7 @@ The construct id used in the generated config for the GoogleComputeSnapshotIamMe
 
 The id of the existing GoogleComputeSnapshotIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1068,9 +1068,9 @@ googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#expression GoogleComputeSnapshotIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#title GoogleComputeSnapshotIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#description GoogleComputeSnapshotIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#expression GoogleComputeSnapshotIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#title GoogleComputeSnapshotIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#description GoogleComputeSnapshotIamMember#description}. |
 
 ---
 
@@ -1082,7 +1082,7 @@ expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#expression GoogleComputeSnapshotIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#expression GoogleComputeSnapshotIamMember#expression}.
 
 ---
 
@@ -1094,7 +1094,7 @@ title: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#title GoogleComputeSnapshotIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#title GoogleComputeSnapshotIamMember#title}.
 
 ---
 
@@ -1106,7 +1106,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#description GoogleComputeSnapshotIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#description GoogleComputeSnapshotIamMember#description}.
 
 ---
 
@@ -1145,12 +1145,12 @@ googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberCondition">GoogleComputeSnapshotIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshotIamMember.GoogleComputeSnapshotIamMemberConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}. |
 
 ---
 
@@ -1232,7 +1232,7 @@ member: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#member GoogleComputeSnapshotIamMember#member}.
 
 ---
 
@@ -1244,7 +1244,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#name GoogleComputeSnapshotIamMember#name}.
 
 ---
 
@@ -1256,7 +1256,7 @@ role: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#role GoogleComputeSnapshotIamMember#role}.
 
 ---
 
@@ -1270,7 +1270,7 @@ condition: GoogleComputeSnapshotIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#condition GoogleComputeSnapshotIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#condition GoogleComputeSnapshotIamMember#condition}
 
 ---
 
@@ -1282,7 +1282,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#id GoogleComputeSnapshotIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1297,7 +1297,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot_iam_member#project GoogleComputeSnapshotIamMember#project}.
 
 ---
 

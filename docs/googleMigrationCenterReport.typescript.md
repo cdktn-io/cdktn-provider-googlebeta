@@ -4,7 +4,7 @@
 
 ### GoogleMigrationCenterReport <a name="GoogleMigrationCenterReport" id="@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report google_migration_center_report}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report google_migration_center_report}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReport.Initializer"></a>
 
@@ -551,7 +551,7 @@ The construct id used in the generated config for the GoogleMigrationCenterRepor
 
 The id of the existing GoogleMigrationCenterReport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1048,8 +1048,8 @@ const googleMigrationCenterReportConfig: googleMigrationCenterReport.GoogleMigra
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.description">description</a></code> | <code>string</code> | Free-text description. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.displayName">displayName</a></code> | <code>string</code> | User-friendly display name. Maximum length is 63 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#id GoogleMigrationCenterReport#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#project GoogleMigrationCenterReport#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#id GoogleMigrationCenterReport#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#project GoogleMigrationCenterReport#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportTimeouts">GoogleMigrationCenterReportTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportConfig.property.type">type</a></code> | <code>string</code> | Report type. Possible values: TOTAL_COST_OF_OWNERSHIP. |
 
@@ -1135,7 +1135,7 @@ public readonly location: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#location GoogleMigrationCenterReport#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#location GoogleMigrationCenterReport#location}
 
 ---
 
@@ -1149,7 +1149,7 @@ public readonly reportConfig: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#report_config GoogleMigrationCenterReport#report_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#report_config GoogleMigrationCenterReport#report_config}
 
 ---
 
@@ -1169,7 +1169,7 @@ conform with RFC-1034, is restricted to lower-cased letters, and has a
 maximum length of 63 characters. The id must match the regular expression:
 [a-z]([a-z0-9-]{0,61}[a-z0-9])?.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#report_id GoogleMigrationCenterReport#report_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#report_id GoogleMigrationCenterReport#report_id}
 
 ---
 
@@ -1191,7 +1191,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#deletion_policy GoogleMigrationCenterReport#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#deletion_policy GoogleMigrationCenterReport#deletion_policy}
 
 ---
 
@@ -1205,7 +1205,7 @@ public readonly description: string;
 
 Free-text description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#description GoogleMigrationCenterReport#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#description GoogleMigrationCenterReport#description}
 
 ---
 
@@ -1219,7 +1219,7 @@ public readonly displayName: string;
 
 User-friendly display name. Maximum length is 63 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#display_name GoogleMigrationCenterReport#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#display_name GoogleMigrationCenterReport#display_name}
 
 ---
 
@@ -1231,7 +1231,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#id GoogleMigrationCenterReport#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#id GoogleMigrationCenterReport#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1246,7 +1246,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#project GoogleMigrationCenterReport#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#project GoogleMigrationCenterReport#project}.
 
 ---
 
@@ -1260,7 +1260,7 @@ public readonly timeouts: GoogleMigrationCenterReportTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#timeouts GoogleMigrationCenterReport#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#timeouts GoogleMigrationCenterReport#timeouts}
 
 ---
 
@@ -1274,7 +1274,7 @@ public readonly type: string;
 
 Report type. Possible values: TOTAL_COST_OF_OWNERSHIP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#type GoogleMigrationCenterReport#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#type GoogleMigrationCenterReport#type}
 
 ---
 
@@ -1864,8 +1864,8 @@ const googleMigrationCenterReportTimeouts: googleMigrationCenterReport.GoogleMig
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#create GoogleMigrationCenterReport#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#delete GoogleMigrationCenterReport#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#create GoogleMigrationCenterReport#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMigrationCenterReport.GoogleMigrationCenterReportTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#delete GoogleMigrationCenterReport#delete}. |
 
 ---
 
@@ -1877,7 +1877,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#create GoogleMigrationCenterReport#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#create GoogleMigrationCenterReport#create}.
 
 ---
 
@@ -1889,7 +1889,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report#delete GoogleMigrationCenterReport#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_report#delete GoogleMigrationCenterReport#delete}.
 
 ---
 

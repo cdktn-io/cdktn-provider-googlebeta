@@ -4,7 +4,7 @@
 
 ### GoogleDiscoveryEngineUserStore <a name="GoogleDiscoveryEngineUserStore" id="@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store google_discovery_engine_user_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store google_discovery_engine_user_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStore.Initializer"></a>
 
@@ -551,7 +551,7 @@ The construct id used in the generated config for the GoogleDiscoveryEngineUserS
 
 The id of the existing GoogleDiscoveryEngineUserStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -974,8 +974,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledi
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.defaultLicenseConfig">DefaultLicenseConfig</a></code> | <code>*string</code> | The resource name of the default license config assigned to users created in this user store. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.enableExpiredLicenseAutoUpdate">EnableExpiredLicenseAutoUpdate</a></code> | <code>interface{}</code> | Whether to enable automatic license update for users with expired licenses in this user store. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.enableLicenseAutoRegister">EnableLicenseAutoRegister</a></code> | <code>interface{}</code> | Whether to enable automatic license registration for new users created in this user store. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreTimeouts">GoogleDiscoveryEngineUserStoreTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreConfig.property.userStoreId">UserStoreId</a></code> | <code>*string</code> | The ID of the user store. Currently only accepts "default_user_store". |
 
@@ -1061,7 +1061,7 @@ Location *string
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#location GoogleDiscoveryEngineUserStore#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#location GoogleDiscoveryEngineUserStore#location}
 
 ---
 
@@ -1082,7 +1082,7 @@ register under the default subscription.
 If the default license config doesn't have remaining license seats left,
 new users will not be assigned with license.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#default_license_config GoogleDiscoveryEngineUserStore#default_license_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#default_license_config GoogleDiscoveryEngineUserStore#default_license_config}
 
 ---
 
@@ -1100,7 +1100,7 @@ If enabled, users with expired licenses will
 automatically be updated to the default subscription if there are
 remaining license seats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#enable_expired_license_auto_update GoogleDiscoveryEngineUserStore#enable_expired_license_auto_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#enable_expired_license_auto_update GoogleDiscoveryEngineUserStore#enable_expired_license_auto_update}
 
 ---
 
@@ -1117,7 +1117,7 @@ Whether to enable automatic license registration for new users created in this u
 If enabled, new users will automatically register under
 the default subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#enable_license_auto_register GoogleDiscoveryEngineUserStore#enable_license_auto_register}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#enable_license_auto_register GoogleDiscoveryEngineUserStore#enable_license_auto_register}
 
 ---
 
@@ -1129,7 +1129,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1144,7 +1144,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}.
 
 ---
 
@@ -1158,7 +1158,7 @@ Timeouts GoogleDiscoveryEngineUserStoreTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#timeouts GoogleDiscoveryEngineUserStore#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#timeouts GoogleDiscoveryEngineUserStore#timeouts}
 
 ---
 
@@ -1172,7 +1172,7 @@ UserStoreId *string
 
 The ID of the user store. Currently only accepts "default_user_store".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#user_store_id GoogleDiscoveryEngineUserStore#user_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#user_store_id GoogleDiscoveryEngineUserStore#user_store_id}
 
 ---
 
@@ -1194,9 +1194,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#create GoogleDiscoveryEngineUserStore#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#delete GoogleDiscoveryEngineUserStore#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#update GoogleDiscoveryEngineUserStore#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#create GoogleDiscoveryEngineUserStore#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#delete GoogleDiscoveryEngineUserStore#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineUserStore.GoogleDiscoveryEngineUserStoreTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#update GoogleDiscoveryEngineUserStore#update}. |
 
 ---
 
@@ -1208,7 +1208,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#create GoogleDiscoveryEngineUserStore#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#create GoogleDiscoveryEngineUserStore#create}.
 
 ---
 
@@ -1220,7 +1220,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#delete GoogleDiscoveryEngineUserStore#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#delete GoogleDiscoveryEngineUserStore#delete}.
 
 ---
 
@@ -1232,7 +1232,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_user_store#update GoogleDiscoveryEngineUserStore#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_user_store#update GoogleDiscoveryEngineUserStore#update}.
 
 ---
 

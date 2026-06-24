@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryRoutineIamPolicy <a name="GoogleBigqueryRoutineIamPolicy" id="@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy google_bigquery_routine_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicy.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the GoogleBigqueryRoutineIamPo
 
 The id of the existing GoogleBigqueryRoutineIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -853,11 +853,11 @@ new GoogleBigqueryRoutineIamPolicyConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.datasetId">DatasetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#dataset_id GoogleBigqueryRoutineIamPolicy#dataset_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#policy_data GoogleBigqueryRoutineIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.routineId">RoutineId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#routine_id GoogleBigqueryRoutineIamPolicy#routine_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#id GoogleBigqueryRoutineIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#project GoogleBigqueryRoutineIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.datasetId">DatasetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#dataset_id GoogleBigqueryRoutineIamPolicy#dataset_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#policy_data GoogleBigqueryRoutineIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.routineId">RoutineId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#routine_id GoogleBigqueryRoutineIamPolicy#routine_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#id GoogleBigqueryRoutineIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryRoutineIamPolicy.GoogleBigqueryRoutineIamPolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#project GoogleBigqueryRoutineIamPolicy#project}. |
 
 ---
 
@@ -939,7 +939,7 @@ public string DatasetId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#dataset_id GoogleBigqueryRoutineIamPolicy#dataset_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#dataset_id GoogleBigqueryRoutineIamPolicy#dataset_id}.
 
 ---
 
@@ -951,7 +951,7 @@ public string PolicyData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#policy_data GoogleBigqueryRoutineIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#policy_data GoogleBigqueryRoutineIamPolicy#policy_data}.
 
 ---
 
@@ -963,7 +963,7 @@ public string RoutineId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#routine_id GoogleBigqueryRoutineIamPolicy#routine_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#routine_id GoogleBigqueryRoutineIamPolicy#routine_id}.
 
 ---
 
@@ -975,7 +975,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#id GoogleBigqueryRoutineIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#id GoogleBigqueryRoutineIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -990,7 +990,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_bigquery_routine_iam_policy#project GoogleBigqueryRoutineIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_bigquery_routine_iam_policy#project GoogleBigqueryRoutineIamPolicy#project}.
 
 ---
 

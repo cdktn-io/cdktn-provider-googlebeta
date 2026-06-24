@@ -4,7 +4,7 @@
 
 ### GoogleEndpointsServiceIamPolicy <a name="GoogleEndpointsServiceIamPolicy" id="@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy google_endpoints_service_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy google_endpoints_service_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer"></a>
 
@@ -36,9 +36,9 @@ GoogleEndpointsServiceIamPolicy.Builder.create(Construct scope, java.lang.String
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.serviceName">serviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.serviceName">serviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -581,7 +581,7 @@ The construct id used in the generated config for the GoogleEndpointsServiceIamP
 
 The id of the existing GoogleEndpointsServiceIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -885,9 +885,9 @@ GoogleEndpointsServiceIamPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.serviceName">serviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.serviceName">serviceName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}. |
 
 ---
 
@@ -969,7 +969,7 @@ public java.lang.String getPolicyData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#policy_data GoogleEndpointsServiceIamPolicy#policy_data}.
 
 ---
 
@@ -981,7 +981,7 @@ public java.lang.String getServiceName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#service_name GoogleEndpointsServiceIamPolicy#service_name}.
 
 ---
 
@@ -993,7 +993,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_endpoints_service_iam_policy#id GoogleEndpointsServiceIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

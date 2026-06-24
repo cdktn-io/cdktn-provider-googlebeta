@@ -4,7 +4,7 @@
 
 ### GoogleChronicleSoarNetwork <a name="GoogleChronicleSoarNetwork" id="@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer"></a>
 
@@ -51,9 +51,9 @@ googleChronicleSoarNetwork.GoogleChronicleSoarNetwork(
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.instance">instance</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.priority">priority</a></code> | <code>typing.Union[int, float]</code> | SoarNetwork priority. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetwork.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts">GoogleChronicleSoarNetworkTimeouts</a></code> | timeouts block. |
 
 ---
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 Subnet in CIDR format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#address GoogleChronicleSoarNetwork#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#address GoogleChronicleSoarNetwork#address}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SoarNetwork name, limited to 4096 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#display_name GoogleChronicleSoarNetwork#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#display_name GoogleChronicleSoarNetwork#display_name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SoarNetwork associated logical environments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#environments_json GoogleChronicleSoarNetwork#environments_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#environments_json GoogleChronicleSoarNetwork#environments_json}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#instance GoogleChronicleSoarNetwork#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#instance GoogleChronicleSoarNetwork#instance}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#location GoogleChronicleSoarNetwork#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#location GoogleChronicleSoarNetwork#location}
 
 ---
 
@@ -181,7 +181,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#deletion_policy GoogleChronicleSoarNetwork#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#deletion_policy GoogleChronicleSoarNetwork#deletion_policy}
 
 ---
 
@@ -189,7 +189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -202,7 +202,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 SoarNetwork priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#priority GoogleChronicleSoarNetwork#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#priority GoogleChronicleSoarNetwork#priority}
 
 ---
 
@@ -210,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}.
 
 ---
 
@@ -220,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#timeouts GoogleChronicleSoarNetwork#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#timeouts GoogleChronicleSoarNetwork#timeouts}
 
 ---
 
@@ -623,7 +623,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}.
 
 ---
 
@@ -631,7 +631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}.
 
 ---
 
@@ -639,7 +639,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}.
 
 ---
 
@@ -787,7 +787,7 @@ The construct id used in the generated config for the GoogleChronicleSoarNetwork
 
 The id of the existing GoogleChronicleSoarNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1269,9 +1269,9 @@ googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.instance">instance</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.priority">priority</a></code> | <code>typing.Union[int, float]</code> | SoarNetwork priority. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts">GoogleChronicleSoarNetworkTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1356,7 +1356,7 @@ address: str
 
 Subnet in CIDR format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#address GoogleChronicleSoarNetwork#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#address GoogleChronicleSoarNetwork#address}
 
 ---
 
@@ -1370,7 +1370,7 @@ display_name: str
 
 SoarNetwork name, limited to 4096 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#display_name GoogleChronicleSoarNetwork#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#display_name GoogleChronicleSoarNetwork#display_name}
 
 ---
 
@@ -1384,7 +1384,7 @@ environments_json: str
 
 SoarNetwork associated logical environments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#environments_json GoogleChronicleSoarNetwork#environments_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#environments_json GoogleChronicleSoarNetwork#environments_json}
 
 ---
 
@@ -1398,7 +1398,7 @@ instance: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#instance GoogleChronicleSoarNetwork#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#instance GoogleChronicleSoarNetwork#instance}
 
 ---
 
@@ -1412,7 +1412,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#location GoogleChronicleSoarNetwork#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#location GoogleChronicleSoarNetwork#location}
 
 ---
 
@@ -1433,7 +1433,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#deletion_policy GoogleChronicleSoarNetwork#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#deletion_policy GoogleChronicleSoarNetwork#deletion_policy}
 
 ---
 
@@ -1445,7 +1445,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#id GoogleChronicleSoarNetwork#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1462,7 +1462,7 @@ priority: typing.Union[int, float]
 
 SoarNetwork priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#priority GoogleChronicleSoarNetwork#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#priority GoogleChronicleSoarNetwork#priority}
 
 ---
 
@@ -1474,7 +1474,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#project GoogleChronicleSoarNetwork#project}.
 
 ---
 
@@ -1488,7 +1488,7 @@ timeouts: GoogleChronicleSoarNetworkTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#timeouts GoogleChronicleSoarNetwork#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#timeouts GoogleChronicleSoarNetwork#timeouts}
 
 ---
 
@@ -1510,9 +1510,9 @@ googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarNetwork.GoogleChronicleSoarNetworkTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}. |
 
 ---
 
@@ -1524,7 +1524,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}.
 
 ---
 
@@ -1536,7 +1536,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}.
 
 ---
 
@@ -1548,7 +1548,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}.
 
 ---
 
