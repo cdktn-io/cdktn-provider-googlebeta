@@ -845,6 +845,16 @@ export class DataGoogleContainerClusterNodeConfigKubeletConfigOutputReference ex
     return this.getNumberAttribute('pod_pids_limit');
   }
 
+  // shutdown_grace_period_critical_pods_seconds - computed: true, optional: false, required: false
+  public get shutdownGracePeriodCriticalPodsSeconds() {
+    return this.getNumberAttribute('shutdown_grace_period_critical_pods_seconds');
+  }
+
+  // shutdown_grace_period_seconds - computed: true, optional: false, required: false
+  public get shutdownGracePeriodSeconds() {
+    return this.getNumberAttribute('shutdown_grace_period_seconds');
+  }
+
   // single_process_oom_kill - computed: true, optional: false, required: false
   public get singleProcessOomKill() {
     return this.getBooleanAttribute('single_process_oom_kill');
@@ -6320,6 +6330,16 @@ export class DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutputRefe
   // pod_pids_limit - computed: true, optional: false, required: false
   public get podPidsLimit() {
     return this.getNumberAttribute('pod_pids_limit');
+  }
+
+  // shutdown_grace_period_critical_pods_seconds - computed: true, optional: false, required: false
+  public get shutdownGracePeriodCriticalPodsSeconds() {
+    return this.getNumberAttribute('shutdown_grace_period_critical_pods_seconds');
+  }
+
+  // shutdown_grace_period_seconds - computed: true, optional: false, required: false
+  public get shutdownGracePeriodSeconds() {
+    return this.getNumberAttribute('shutdown_grace_period_seconds');
   }
 
   // single_process_oom_kill - computed: true, optional: false, required: false

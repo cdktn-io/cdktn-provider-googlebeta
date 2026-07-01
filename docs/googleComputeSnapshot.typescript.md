@@ -4,7 +4,7 @@
 
 ### GoogleComputeSnapshot <a name="GoogleComputeSnapshot" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot google_compute_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot google_compute_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshot.Initializer"></a>
 
@@ -653,7 +653,7 @@ The construct id used in the generated config for the GoogleComputeSnapshot to i
 
 The id of the existing GoogleComputeSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1347,10 +1347,10 @@ const googleComputeSnapshotConfig: googleComputeSnapshot.GoogleComputeSnapshotCo
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.description">description</a></code> | <code>string</code> | An optional description of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.guestFlush">guestFlush</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether to attempt an application consistent snapshot by informing the OS to prepare for the snapshot process. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#id GoogleComputeSnapshot#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#id GoogleComputeSnapshot#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels to apply to this Snapshot. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotParams">GoogleComputeSnapshotParams</a></code> | params block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#project GoogleComputeSnapshot#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#project GoogleComputeSnapshot#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.snapshotEncryptionKey">snapshotEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotSnapshotEncryptionKey">GoogleComputeSnapshotSnapshotEncryptionKey</a></code> | snapshot_encryption_key block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.snapshotType">snapshotType</a></code> | <code>string</code> | Indicates the type of the snapshot. Possible values: ["ARCHIVE", "STANDARD"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.property.sourceDisk">sourceDisk</a></code> | <code>string</code> | A reference to the disk used to create this snapshot. |
@@ -1450,7 +1450,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#name GoogleComputeSnapshot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#name GoogleComputeSnapshot#name}
 
 ---
 
@@ -1470,7 +1470,7 @@ service owners who needs to create separate snapshot chains, for
 example, for chargeback tracking.  When you describe your snapshot
 resource, this field is visible only if it has a non-empty value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#chain_name GoogleComputeSnapshot#chain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#chain_name GoogleComputeSnapshot#chain_name}
 
 ---
 
@@ -1492,7 +1492,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#deletion_policy GoogleComputeSnapshot#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#deletion_policy GoogleComputeSnapshot#deletion_policy}
 
 ---
 
@@ -1506,7 +1506,7 @@ public readonly description: string;
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#description GoogleComputeSnapshot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#description GoogleComputeSnapshot#description}
 
 ---
 
@@ -1520,7 +1520,7 @@ public readonly guestFlush: boolean | IResolvable;
 
 Whether to attempt an application consistent snapshot by informing the OS to prepare for the snapshot process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#guest_flush GoogleComputeSnapshot#guest_flush}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#guest_flush GoogleComputeSnapshot#guest_flush}
 
 ---
 
@@ -1532,7 +1532,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#id GoogleComputeSnapshot#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#id GoogleComputeSnapshot#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1552,7 +1552,7 @@ Labels to apply to this Snapshot.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#labels GoogleComputeSnapshot#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#labels GoogleComputeSnapshot#labels}
 
 ---
 
@@ -1566,7 +1566,7 @@ public readonly params: GoogleComputeSnapshotParams;
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#params GoogleComputeSnapshot#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#params GoogleComputeSnapshot#params}
 
 ---
 
@@ -1578,7 +1578,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#project GoogleComputeSnapshot#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#project GoogleComputeSnapshot#project}.
 
 ---
 
@@ -1592,7 +1592,7 @@ public readonly snapshotEncryptionKey: GoogleComputeSnapshotSnapshotEncryptionKe
 
 snapshot_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#snapshot_encryption_key GoogleComputeSnapshot#snapshot_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#snapshot_encryption_key GoogleComputeSnapshot#snapshot_encryption_key}
 
 ---
 
@@ -1606,7 +1606,7 @@ public readonly snapshotType: string;
 
 Indicates the type of the snapshot. Possible values: ["ARCHIVE", "STANDARD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#snapshot_type GoogleComputeSnapshot#snapshot_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#snapshot_type GoogleComputeSnapshot#snapshot_type}
 
 ---
 
@@ -1620,7 +1620,7 @@ public readonly sourceDisk: string;
 
 A reference to the disk used to create this snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#source_disk GoogleComputeSnapshot#source_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#source_disk GoogleComputeSnapshot#source_disk}
 
 ---
 
@@ -1634,7 +1634,7 @@ public readonly sourceDiskEncryptionKey: GoogleComputeSnapshotSourceDiskEncrypti
 
 source_disk_encryption_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#source_disk_encryption_key GoogleComputeSnapshot#source_disk_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#source_disk_encryption_key GoogleComputeSnapshot#source_disk_encryption_key}
 
 ---
 
@@ -1648,7 +1648,7 @@ public readonly sourceInstantSnapshot: string;
 
 A reference to the instant snapshot used to create this snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#source_instant_snapshot GoogleComputeSnapshot#source_instant_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#source_instant_snapshot GoogleComputeSnapshot#source_instant_snapshot}
 
 ---
 
@@ -1662,7 +1662,7 @@ public readonly storageLocations: string[];
 
 Cloud Storage bucket storage location of the snapshot (regional or multi-regional).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#storage_locations GoogleComputeSnapshot#storage_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#storage_locations GoogleComputeSnapshot#storage_locations}
 
 ---
 
@@ -1676,7 +1676,7 @@ public readonly timeouts: GoogleComputeSnapshotTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#timeouts GoogleComputeSnapshot#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#timeouts GoogleComputeSnapshot#timeouts}
 
 ---
 
@@ -1690,7 +1690,7 @@ public readonly zone: string;
 
 A reference to the zone where the disk is hosted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#zone GoogleComputeSnapshot#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#zone GoogleComputeSnapshot#zone}
 
 ---
 
@@ -1726,7 +1726,7 @@ Tag keys and values have the
 same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
 and values are in the format tagValues/456.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#resource_manager_tags GoogleComputeSnapshot#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#resource_manager_tags GoogleComputeSnapshot#resource_manager_tags}
 
 ---
 
@@ -1761,7 +1761,7 @@ public readonly kmsKeySelfLink: string;
 
 The name of the encryption key that is stored in Google Cloud KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#kms_key_self_link GoogleComputeSnapshot#kms_key_self_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#kms_key_self_link GoogleComputeSnapshot#kms_key_self_link}
 
 ---
 
@@ -1777,7 +1777,7 @@ The service account used for the encryption request for the given KMS key.
 
 If absent, the Compute Engine Service Agent service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#kms_key_service_account GoogleComputeSnapshot#kms_key_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#kms_key_service_account GoogleComputeSnapshot#kms_key_service_account}
 
 ---
 
@@ -1791,7 +1791,7 @@ public readonly rawKey: string;
 
 Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64 to either encrypt or decrypt this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#raw_key GoogleComputeSnapshot#raw_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#raw_key GoogleComputeSnapshot#raw_key}
 
 ---
 
@@ -1805,7 +1805,7 @@ public readonly rsaEncryptedKey: string;
 
 Specifies an encryption key stored in Google Cloud KMS, encoded in RFC 4648 base64 to either encrypt or decrypt this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#rsa_encrypted_key GoogleComputeSnapshot#rsa_encrypted_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#rsa_encrypted_key GoogleComputeSnapshot#rsa_encrypted_key}
 
 ---
 
@@ -1840,7 +1840,7 @@ public readonly kmsKeySelfLink: string;
 
 The name of the encryption key that is stored in Google Cloud KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#kms_key_self_link GoogleComputeSnapshot#kms_key_self_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#kms_key_self_link GoogleComputeSnapshot#kms_key_self_link}
 
 ---
 
@@ -1856,7 +1856,7 @@ The service account used for the encryption request for the given KMS key.
 
 If absent, the Compute Engine Service Agent service account is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#kms_key_service_account GoogleComputeSnapshot#kms_key_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#kms_key_service_account GoogleComputeSnapshot#kms_key_service_account}
 
 ---
 
@@ -1870,7 +1870,7 @@ public readonly rawKey: string;
 
 Specifies a 256-bit customer-supplied encryption key, encoded in RFC 4648 base64 to either encrypt or decrypt this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#raw_key GoogleComputeSnapshot#raw_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#raw_key GoogleComputeSnapshot#raw_key}
 
 ---
 
@@ -1884,7 +1884,7 @@ public readonly rsaEncryptedKey: string;
 
 Specifies an encryption key stored in Google Cloud KMS, encoded in RFC 4648 base64 to either encrypt or decrypt this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#rsa_encrypted_key GoogleComputeSnapshot#rsa_encrypted_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#rsa_encrypted_key GoogleComputeSnapshot#rsa_encrypted_key}
 
 ---
 
@@ -1902,9 +1902,9 @@ const googleComputeSnapshotTimeouts: googleComputeSnapshot.GoogleComputeSnapshot
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#create GoogleComputeSnapshot#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#delete GoogleComputeSnapshot#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#update GoogleComputeSnapshot#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#create GoogleComputeSnapshot#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#delete GoogleComputeSnapshot#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#update GoogleComputeSnapshot#update}. |
 
 ---
 
@@ -1916,7 +1916,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#create GoogleComputeSnapshot#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#create GoogleComputeSnapshot#create}.
 
 ---
 
@@ -1928,7 +1928,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#delete GoogleComputeSnapshot#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#delete GoogleComputeSnapshot#delete}.
 
 ---
 
@@ -1940,7 +1940,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot#update GoogleComputeSnapshot#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_snapshot#update GoogleComputeSnapshot#update}.
 
 ---
 
