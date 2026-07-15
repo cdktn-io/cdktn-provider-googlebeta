@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface GoogleVertexAiReasoningEngineConfig extends cdktn.TerraformMeta
   /**
   * This field uses a custom implementation please refer to documentation under /hashicorp/terraform-provider-google-beta/website/docs/r/vertex_ai_reasoning_engine.html.markdown for specifics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#deletion_policy GoogleVertexAiReasoningEngine#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#deletion_policy GoogleVertexAiReasoningEngine#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The description of the ReasoningEngine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#description GoogleVertexAiReasoningEngine#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#description GoogleVertexAiReasoningEngine#description}
   */
   readonly description?: string;
   /**
   * The display name of the ReasoningEngine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#display_name GoogleVertexAiReasoningEngine#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#display_name GoogleVertexAiReasoningEngine#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,49 +45,893 @@ export interface GoogleVertexAiReasoningEngineConfig extends cdktn.TerraformMeta
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#labels GoogleVertexAiReasoningEngine#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#labels GoogleVertexAiReasoningEngine#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#project GoogleVertexAiReasoningEngine#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#project GoogleVertexAiReasoningEngine#project}
   */
   readonly project?: string;
   /**
   * The region of the reasoning engine. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#region GoogleVertexAiReasoningEngine#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#region GoogleVertexAiReasoningEngine#region}
   */
   readonly region?: string;
   /**
   * context_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#context_spec GoogleVertexAiReasoningEngine#context_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#context_spec GoogleVertexAiReasoningEngine#context_spec}
   */
   readonly contextSpec?: GoogleVertexAiReasoningEngineContextSpec;
   /**
   * encryption_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#encryption_spec GoogleVertexAiReasoningEngine#encryption_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#encryption_spec GoogleVertexAiReasoningEngine#encryption_spec}
   */
   readonly encryptionSpec?: GoogleVertexAiReasoningEngineEncryptionSpec;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#spec GoogleVertexAiReasoningEngine#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#spec GoogleVertexAiReasoningEngine#spec}
   */
   readonly spec?: GoogleVertexAiReasoningEngineSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#timeouts GoogleVertexAiReasoningEngine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#timeouts GoogleVertexAiReasoningEngine#timeouts}
   */
   readonly timeouts?: GoogleVertexAiReasoningEngineTimeouts;
+  /**
+  * traffic_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#traffic_config GoogleVertexAiReasoningEngine#traffic_config}
+  */
+  readonly trafficConfig?: GoogleVertexAiReasoningEngineTrafficConfig;
+}
+export interface GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig {
+  /**
+  * Required. The Gemini model used to generate embeddings to lookup similar examples.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
+  */
+  readonly embeddingModel: string;
+}
+
+export function googleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigOutputReference | GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    embedding_model: cdktn.stringToTerraform(struct!.embeddingModel),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigOutputReference | GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    embedding_model: {
+      value: cdktn.stringToHclTerraform(struct!.embeddingModel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._embeddingModel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.embeddingModel = this._embeddingModel;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._embeddingModel = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._embeddingModel = value.embeddingModel;
+    }
+  }
+
+  // embedding_model - computed: false, optional: false, required: true
+  private _embeddingModel?: string; 
+  public get embeddingModel() {
+    return this.getStringAttribute('embedding_model');
+  }
+  public set embeddingModel(value: string) {
+    this._embeddingModel = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get embeddingModelInput() {
+    return this._embeddingModel;
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig {
+  /**
+  * similarity_search_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
+  */
+  readonly similaritySearchConfig?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig;
+}
+
+export function googleVertexAiReasoningEngineContextSpecExampleStoreConfigToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigOutputReference | GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    similarity_search_config: googleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigToTerraform(struct!.similaritySearchConfig),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecExampleStoreConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigOutputReference | GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    similarity_search_config: {
+      value: googleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigToHclTerraform(struct!.similaritySearchConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._similaritySearchConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.similaritySearchConfig = this._similaritySearchConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._similaritySearchConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._similaritySearchConfig.internalValue = value.similaritySearchConfig;
+    }
+  }
+
+  // similarity_search_config - computed: false, optional: true, required: false
+  private _similaritySearchConfig = new GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfigOutputReference(this, "similarity_search_config");
+  public get similaritySearchConfig() {
+    return this._similaritySearchConfig;
+  }
+  public putSimilaritySearchConfig(value: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig) {
+    this._similaritySearchConfig.internalValue = value;
+  }
+  public resetSimilaritySearchConfig() {
+    this._similaritySearchConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get similaritySearchConfigInput() {
+    return this._similaritySearchConfig.internalValue;
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig {
+  /**
+  * Number of revisions to consider per candidate count.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#revisions_per_candidate_count GoogleVertexAiReasoningEngine#revisions_per_candidate_count}
+  */
+  readonly revisionsPerCandidateCount?: number;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    revisions_per_candidate_count: cdktn.numberToTerraform(struct!.revisionsPerCandidateCount),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    revisions_per_candidate_count: {
+      value: cdktn.numberToHclTerraform(struct!.revisionsPerCandidateCount),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._revisionsPerCandidateCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.revisionsPerCandidateCount = this._revisionsPerCandidateCount;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._revisionsPerCandidateCount = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._revisionsPerCandidateCount = value.revisionsPerCandidateCount;
+    }
+  }
+
+  // revisions_per_candidate_count - computed: false, optional: true, required: false
+  private _revisionsPerCandidateCount?: number; 
+  public get revisionsPerCandidateCount() {
+    return this.getNumberAttribute('revisions_per_candidate_count');
+  }
+  public set revisionsPerCandidateCount(value: number) {
+    this._revisionsPerCandidateCount = value;
+  }
+  public resetRevisionsPerCandidateCount() {
+    this._revisionsPerCandidateCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get revisionsPerCandidateCountInput() {
+    return this._revisionsPerCandidateCount;
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic {
+  /**
+  * Description of custom memory topic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#description GoogleVertexAiReasoningEngine#description}
+  */
+  readonly description?: string;
+  /**
+  * Label of custom memory topic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#label GoogleVertexAiReasoningEngine#label}
+  */
+  readonly label?: string;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    description: cdktn.stringToTerraform(struct!.description),
+    label: cdktn.stringToTerraform(struct!.label),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    description: {
+      value: cdktn.stringToHclTerraform(struct!.description),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    label: {
+      value: cdktn.stringToHclTerraform(struct!.label),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._description !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.description = this._description;
+    }
+    if (this._label !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.label = this._label;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._description = undefined;
+      this._label = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._description = value.description;
+      this._label = value.label;
+    }
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // label - computed: false, optional: true, required: false
+  private _label?: string; 
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+  public set label(value: string) {
+    this._label = value;
+  }
+  public resetLabel() {
+    this._label = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelInput() {
+    return this._label;
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic {
+  /**
+  * Managed topic enum (e.g. USER_PREFERENCES, EXPLICIT_INSTRUCTIONS).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#managed_topic_enum GoogleVertexAiReasoningEngine#managed_topic_enum}
+  */
+  readonly managedTopicEnum?: string;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    managed_topic_enum: cdktn.stringToTerraform(struct!.managedTopicEnum),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicOutputReference | GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    managed_topic_enum: {
+      value: cdktn.stringToHclTerraform(struct!.managedTopicEnum),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._managedTopicEnum !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managedTopicEnum = this._managedTopicEnum;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._managedTopicEnum = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._managedTopicEnum = value.managedTopicEnum;
+    }
+  }
+
+  // managed_topic_enum - computed: false, optional: true, required: false
+  private _managedTopicEnum?: string; 
+  public get managedTopicEnum() {
+    return this.getStringAttribute('managed_topic_enum');
+  }
+  public set managedTopicEnum(value: string) {
+    this._managedTopicEnum = value;
+  }
+  public resetManagedTopicEnum() {
+    this._managedTopicEnum = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedTopicEnumInput() {
+    return this._managedTopicEnum;
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics {
+  /**
+  * custom_memory_topic block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#custom_memory_topic GoogleVertexAiReasoningEngine#custom_memory_topic}
+  */
+  readonly customMemoryTopic?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic;
+  /**
+  * managed_memory_topic block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#managed_memory_topic GoogleVertexAiReasoningEngine#managed_memory_topic}
+  */
+  readonly managedMemoryTopic?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    custom_memory_topic: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicToTerraform(struct!.customMemoryTopic),
+    managed_memory_topic: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicToTerraform(struct!.managedMemoryTopic),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    custom_memory_topic: {
+      value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicToHclTerraform(struct!.customMemoryTopic),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicList",
+    },
+    managed_memory_topic: {
+      value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicToHclTerraform(struct!.managedMemoryTopic),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._customMemoryTopic?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customMemoryTopic = this._customMemoryTopic?.internalValue;
+    }
+    if (this._managedMemoryTopic?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managedMemoryTopic = this._managedMemoryTopic?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._customMemoryTopic.internalValue = undefined;
+      this._managedMemoryTopic.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._customMemoryTopic.internalValue = value.customMemoryTopic;
+      this._managedMemoryTopic.internalValue = value.managedMemoryTopic;
+    }
+  }
+
+  // custom_memory_topic - computed: false, optional: true, required: false
+  private _customMemoryTopic = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopicOutputReference(this, "custom_memory_topic");
+  public get customMemoryTopic() {
+    return this._customMemoryTopic;
+  }
+  public putCustomMemoryTopic(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic) {
+    this._customMemoryTopic.internalValue = value;
+  }
+  public resetCustomMemoryTopic() {
+    this._customMemoryTopic.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customMemoryTopicInput() {
+    return this._customMemoryTopic.internalValue;
+  }
+
+  // managed_memory_topic - computed: false, optional: true, required: false
+  private _managedMemoryTopic = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopicOutputReference(this, "managed_memory_topic");
+  public get managedMemoryTopic() {
+    return this._managedMemoryTopic;
+  }
+  public putManagedMemoryTopic(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic) {
+    this._managedMemoryTopic.internalValue = value;
+  }
+  public resetManagedMemoryTopic() {
+    this._managedMemoryTopic.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedMemoryTopicInput() {
+    return this._managedMemoryTopic.internalValue;
+  }
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsList extends cdktn.ComplexList {
+  public internalValue? : GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsOutputReference {
+    return new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs {
+  /**
+  * Optional. Generate memories in the third person if set to true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#enable_third_person_memories GoogleVertexAiReasoningEngine#enable_third_person_memories}
+  */
+  readonly enableThirdPersonMemories?: boolean | cdktn.IResolvable;
+  /**
+  * Optional. List of scope keys that this customization config applies to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#scope_keys GoogleVertexAiReasoningEngine#scope_keys}
+  */
+  readonly scopeKeys?: string[];
+  /**
+  * consolidation_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#consolidation_config GoogleVertexAiReasoningEngine#consolidation_config}
+  */
+  readonly consolidationConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig;
+  /**
+  * memory_topics block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#memory_topics GoogleVertexAiReasoningEngine#memory_topics}
+  */
+  readonly memoryTopics?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics[] | cdktn.IResolvable;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    enable_third_person_memories: cdktn.booleanToTerraform(struct!.enableThirdPersonMemories),
+    scope_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopeKeys),
+    consolidation_config: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigToTerraform(struct!.consolidationConfig),
+    memory_topics: cdktn.listMapper(googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsToTerraform, true)(struct!.memoryTopics),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    enable_third_person_memories: {
+      value: cdktn.booleanToHclTerraform(struct!.enableThirdPersonMemories),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    scope_keys: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopeKeys),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    consolidation_config: {
+      value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigToHclTerraform(struct!.consolidationConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigList",
+    },
+    memory_topics: {
+      value: cdktn.listMapperHcl(googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsToHclTerraform, true)(struct!.memoryTopics),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enableThirdPersonMemories !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableThirdPersonMemories = this._enableThirdPersonMemories;
+    }
+    if (this._scopeKeys !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeKeys = this._scopeKeys;
+    }
+    if (this._consolidationConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.consolidationConfig = this._consolidationConfig?.internalValue;
+    }
+    if (this._memoryTopics?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memoryTopics = this._memoryTopics?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._enableThirdPersonMemories = undefined;
+      this._scopeKeys = undefined;
+      this._consolidationConfig.internalValue = undefined;
+      this._memoryTopics.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._enableThirdPersonMemories = value.enableThirdPersonMemories;
+      this._scopeKeys = value.scopeKeys;
+      this._consolidationConfig.internalValue = value.consolidationConfig;
+      this._memoryTopics.internalValue = value.memoryTopics;
+    }
+  }
+
+  // enable_third_person_memories - computed: false, optional: true, required: false
+  private _enableThirdPersonMemories?: boolean | cdktn.IResolvable; 
+  public get enableThirdPersonMemories() {
+    return this.getBooleanAttribute('enable_third_person_memories');
+  }
+  public set enableThirdPersonMemories(value: boolean | cdktn.IResolvable) {
+    this._enableThirdPersonMemories = value;
+  }
+  public resetEnableThirdPersonMemories() {
+    this._enableThirdPersonMemories = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableThirdPersonMemoriesInput() {
+    return this._enableThirdPersonMemories;
+  }
+
+  // scope_keys - computed: false, optional: true, required: false
+  private _scopeKeys?: string[]; 
+  public get scopeKeys() {
+    return this.getListAttribute('scope_keys');
+  }
+  public set scopeKeys(value: string[]) {
+    this._scopeKeys = value;
+  }
+  public resetScopeKeys() {
+    this._scopeKeys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeKeysInput() {
+    return this._scopeKeys;
+  }
+
+  // consolidation_config - computed: false, optional: true, required: false
+  private _consolidationConfig = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfigOutputReference(this, "consolidation_config");
+  public get consolidationConfig() {
+    return this._consolidationConfig;
+  }
+  public putConsolidationConfig(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig) {
+    this._consolidationConfig.internalValue = value;
+  }
+  public resetConsolidationConfig() {
+    this._consolidationConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get consolidationConfigInput() {
+    return this._consolidationConfig.internalValue;
+  }
+
+  // memory_topics - computed: false, optional: true, required: false
+  private _memoryTopics = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsList(this, "memory_topics", false);
+  public get memoryTopics() {
+    return this._memoryTopics;
+  }
+  public putMemoryTopics(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopics[] | cdktn.IResolvable) {
+    this._memoryTopics.internalValue = value;
+  }
+  public resetMemoryTopics() {
+    this._memoryTopics.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memoryTopicsInput() {
+    return this._memoryTopics.internalValue;
+  }
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference {
+    return new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig {
   /**
   * The model used to generate memories. Format: projects/{project}/locations/{location}/publishers/google/models/{model}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#model GoogleVertexAiReasoningEngine#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#model GoogleVertexAiReasoningEngine#model}
   */
   readonly model: string;
 }
@@ -170,7 +1014,7 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilar
   /**
   * The model used to generate embeddings to lookup similar memories. Format: projects/{project}/locations/{location}/publishers/google/models/{model}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
   */
   readonly embeddingModel: string;
 }
@@ -249,23 +1093,329 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilarityS
     return this._embeddingModel;
   }
 }
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs {
+  /**
+  * Required. Unique ID identifying the memory schema.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#id GoogleVertexAiReasoningEngine#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id: string;
+  /**
+  * Optional. The memory schema defined as an OpenAPI Schema Object JSON string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#memory_schema GoogleVertexAiReasoningEngine#memory_schema}
+  */
+  readonly memorySchema?: string;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    id: cdktn.stringToTerraform(struct!.id),
+    memory_schema: cdktn.stringToTerraform(struct!.memorySchema),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    id: {
+      value: cdktn.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    memory_schema: {
+      value: cdktn.stringToHclTerraform(struct!.memorySchema),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._memorySchema !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.memorySchema = this._memorySchema;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._id = undefined;
+      this._memorySchema = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._id = value.id;
+      this._memorySchema = value.memorySchema;
+    }
+  }
+
+  // id - computed: false, optional: false, required: true
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // memory_schema - computed: false, optional: true, required: false
+  private _memorySchema?: string; 
+  public get memorySchema() {
+    return this.getStringAttribute('memory_schema');
+  }
+  public set memorySchema(value: string) {
+    this._memorySchema = value;
+  }
+  public resetMemorySchema() {
+    this._memorySchema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get memorySchemaInput() {
+    return this._memorySchema;
+  }
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsOutputReference {
+    return new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs {
+  /**
+  * Optional. List of scope keys that this structured memory config applies to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#scope_keys GoogleVertexAiReasoningEngine#scope_keys}
+  */
+  readonly scopeKeys?: string[];
+  /**
+  * schema_configs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#schema_configs GoogleVertexAiReasoningEngine#schema_configs}
+  */
+  readonly schemaConfigs?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs[] | cdktn.IResolvable;
+}
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsToTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    scope_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopeKeys),
+    schema_configs: cdktn.listMapper(googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsToTerraform, true)(struct!.schemaConfigs),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsToHclTerraform(struct?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    scope_keys: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopeKeys),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    schema_configs: {
+      value: cdktn.listMapperHcl(googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsToHclTerraform, true)(struct!.schemaConfigs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scopeKeys !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeKeys = this._scopeKeys;
+    }
+    if (this._schemaConfigs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.schemaConfigs = this._schemaConfigs?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scopeKeys = undefined;
+      this._schemaConfigs.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scopeKeys = value.scopeKeys;
+      this._schemaConfigs.internalValue = value.schemaConfigs;
+    }
+  }
+
+  // scope_keys - computed: false, optional: true, required: false
+  private _scopeKeys?: string[]; 
+  public get scopeKeys() {
+    return this.getListAttribute('scope_keys');
+  }
+  public set scopeKeys(value: string[]) {
+    this._scopeKeys = value;
+  }
+  public resetScopeKeys() {
+    this._scopeKeys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeKeysInput() {
+    return this._scopeKeys;
+  }
+
+  // schema_configs - computed: false, optional: true, required: false
+  private _schemaConfigs = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigsList(this, "schema_configs", false);
+  public get schemaConfigs() {
+    return this._schemaConfigs;
+  }
+  public putSchemaConfigs(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsSchemaConfigs[] | cdktn.IResolvable) {
+    this._schemaConfigs.internalValue = value;
+  }
+  public resetSchemaConfigs() {
+    this._schemaConfigs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get schemaConfigsInput() {
+    return this._schemaConfigs.internalValue;
+  }
+}
+
+export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsOutputReference {
+    return new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfigGranularTtlConfig {
   /**
   * The TTL duration for memories uploaded via CreateMemory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#create_ttl GoogleVertexAiReasoningEngine#create_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#create_ttl GoogleVertexAiReasoningEngine#create_ttl}
   */
   readonly createTtl?: string;
   /**
   * The TTL duration for memories newly generated via GenerateMemories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#generate_created_ttl GoogleVertexAiReasoningEngine#generate_created_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#generate_created_ttl GoogleVertexAiReasoningEngine#generate_created_ttl}
   */
   readonly generateCreatedTtl?: string;
   /**
   * The TTL duration for memories updated via GenerateMemories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#generate_updated_ttl GoogleVertexAiReasoningEngine#generate_updated_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#generate_updated_ttl GoogleVertexAiReasoningEngine#generate_updated_ttl}
   */
   readonly generateUpdatedTtl?: string;
 }
@@ -409,19 +1559,19 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConf
   /**
   * The default TTL duration of the memories in the Memory Bank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#default_ttl GoogleVertexAiReasoningEngine#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#default_ttl GoogleVertexAiReasoningEngine#default_ttl}
   */
   readonly defaultTtl?: string;
   /**
   * The default TTL duration of the memory revisions in the Memory Bank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#memory_revision_default_ttl GoogleVertexAiReasoningEngine#memory_revision_default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#memory_revision_default_ttl GoogleVertexAiReasoningEngine#memory_revision_default_ttl}
   */
   readonly memoryRevisionDefaultTtl?: string;
   /**
   * granular_ttl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#granular_ttl_config GoogleVertexAiReasoningEngine#granular_ttl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#granular_ttl_config GoogleVertexAiReasoningEngine#granular_ttl_config}
   */
   readonly granularTtlConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfigGranularTtlConfig;
 }
@@ -565,25 +1715,37 @@ export interface GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig {
   /**
   * If true, no memory revisions will be created for any requests to the Memory Bank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#disable_memory_revisions GoogleVertexAiReasoningEngine#disable_memory_revisions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#disable_memory_revisions GoogleVertexAiReasoningEngine#disable_memory_revisions}
   */
   readonly disableMemoryRevisions?: boolean | cdktn.IResolvable;
   /**
+  * customization_configs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#customization_configs GoogleVertexAiReasoningEngine#customization_configs}
+  */
+  readonly customizationConfigs?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs[] | cdktn.IResolvable;
+  /**
   * generation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#generation_config GoogleVertexAiReasoningEngine#generation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#generation_config GoogleVertexAiReasoningEngine#generation_config}
   */
   readonly generationConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig;
   /**
   * similarity_search_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
   */
   readonly similaritySearchConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfig;
   /**
+  * structured_memory_configs block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#structured_memory_configs GoogleVertexAiReasoningEngine#structured_memory_configs}
+  */
+  readonly structuredMemoryConfigs?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs[] | cdktn.IResolvable;
+  /**
   * ttl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#ttl_config GoogleVertexAiReasoningEngine#ttl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#ttl_config GoogleVertexAiReasoningEngine#ttl_config}
   */
   readonly ttlConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfig;
 }
@@ -595,8 +1757,10 @@ export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigToTerraf
   }
   return {
     disable_memory_revisions: cdktn.booleanToTerraform(struct!.disableMemoryRevisions),
+    customization_configs: cdktn.listMapper(googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsToTerraform, true)(struct!.customizationConfigs),
     generation_config: googleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigToTerraform(struct!.generationConfig),
     similarity_search_config: googleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfigToTerraform(struct!.similaritySearchConfig),
+    structured_memory_configs: cdktn.listMapper(googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsToTerraform, true)(struct!.structuredMemoryConfigs),
     ttl_config: googleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfigToTerraform(struct!.ttlConfig),
   }
 }
@@ -614,6 +1778,12 @@ export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigToHclTer
       type: "simple",
       storageClassType: "boolean",
     },
+    customization_configs: {
+      value: cdktn.listMapperHcl(googleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsToHclTerraform, true)(struct!.customizationConfigs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsList",
+    },
     generation_config: {
       value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigToHclTerraform(struct!.generationConfig),
       isBlock: true,
@@ -625,6 +1795,12 @@ export function googleVertexAiReasoningEngineContextSpecMemoryBankConfigToHclTer
       isBlock: true,
       type: "list",
       storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfigList",
+    },
+    structured_memory_configs: {
+      value: cdktn.listMapperHcl(googleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsToHclTerraform, true)(struct!.structuredMemoryConfigs),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsList",
     },
     ttl_config: {
       value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfigToHclTerraform(struct!.ttlConfig),
@@ -656,6 +1832,10 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputRefer
       hasAnyValues = true;
       internalValueResult.disableMemoryRevisions = this._disableMemoryRevisions;
     }
+    if (this._customizationConfigs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customizationConfigs = this._customizationConfigs?.internalValue;
+    }
     if (this._generationConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.generationConfig = this._generationConfig?.internalValue;
@@ -663,6 +1843,10 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputRefer
     if (this._similaritySearchConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.similaritySearchConfig = this._similaritySearchConfig?.internalValue;
+    }
+    if (this._structuredMemoryConfigs?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.structuredMemoryConfigs = this._structuredMemoryConfigs?.internalValue;
     }
     if (this._ttlConfig?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -675,15 +1859,19 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputRefer
     if (value === undefined) {
       this.isEmptyObject = false;
       this._disableMemoryRevisions = undefined;
+      this._customizationConfigs.internalValue = undefined;
       this._generationConfig.internalValue = undefined;
       this._similaritySearchConfig.internalValue = undefined;
+      this._structuredMemoryConfigs.internalValue = undefined;
       this._ttlConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._disableMemoryRevisions = value.disableMemoryRevisions;
+      this._customizationConfigs.internalValue = value.customizationConfigs;
       this._generationConfig.internalValue = value.generationConfig;
       this._similaritySearchConfig.internalValue = value.similaritySearchConfig;
+      this._structuredMemoryConfigs.internalValue = value.structuredMemoryConfigs;
       this._ttlConfig.internalValue = value.ttlConfig;
     }
   }
@@ -702,6 +1890,22 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputRefer
   // Temporarily expose input value. Use with caution.
   public get disableMemoryRevisionsInput() {
     return this._disableMemoryRevisions;
+  }
+
+  // customization_configs - computed: false, optional: true, required: false
+  private _customizationConfigs = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsList(this, "customization_configs", false);
+  public get customizationConfigs() {
+    return this._customizationConfigs;
+  }
+  public putCustomizationConfigs(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigs[] | cdktn.IResolvable) {
+    this._customizationConfigs.internalValue = value;
+  }
+  public resetCustomizationConfigs() {
+    this._customizationConfigs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customizationConfigsInput() {
+    return this._customizationConfigs.internalValue;
   }
 
   // generation_config - computed: false, optional: true, required: false
@@ -736,6 +1940,22 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputRefer
     return this._similaritySearchConfig.internalValue;
   }
 
+  // structured_memory_configs - computed: false, optional: true, required: false
+  private _structuredMemoryConfigs = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsList(this, "structured_memory_configs", false);
+  public get structuredMemoryConfigs() {
+    return this._structuredMemoryConfigs;
+  }
+  public putStructuredMemoryConfigs(value: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigs[] | cdktn.IResolvable) {
+    this._structuredMemoryConfigs.internalValue = value;
+  }
+  public resetStructuredMemoryConfigs() {
+    this._structuredMemoryConfigs.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get structuredMemoryConfigsInput() {
+    return this._structuredMemoryConfigs.internalValue;
+  }
+
   // ttl_config - computed: false, optional: true, required: false
   private _ttlConfig = new GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfigOutputReference(this, "ttl_config");
   public get ttlConfig() {
@@ -754,9 +1974,15 @@ export class GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputRefer
 }
 export interface GoogleVertexAiReasoningEngineContextSpec {
   /**
+  * example_store_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#example_store_config GoogleVertexAiReasoningEngine#example_store_config}
+  */
+  readonly exampleStoreConfig?: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig;
+  /**
   * memory_bank_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#memory_bank_config GoogleVertexAiReasoningEngine#memory_bank_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#memory_bank_config GoogleVertexAiReasoningEngine#memory_bank_config}
   */
   readonly memoryBankConfig?: GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig;
 }
@@ -767,6 +1993,7 @@ export function googleVertexAiReasoningEngineContextSpecToTerraform(struct?: Goo
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    example_store_config: googleVertexAiReasoningEngineContextSpecExampleStoreConfigToTerraform(struct!.exampleStoreConfig),
     memory_bank_config: googleVertexAiReasoningEngineContextSpecMemoryBankConfigToTerraform(struct!.memoryBankConfig),
   }
 }
@@ -778,6 +2005,12 @@ export function googleVertexAiReasoningEngineContextSpecToHclTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    example_store_config: {
+      value: googleVertexAiReasoningEngineContextSpecExampleStoreConfigToHclTerraform(struct!.exampleStoreConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigList",
+    },
     memory_bank_config: {
       value: googleVertexAiReasoningEngineContextSpecMemoryBankConfigToHclTerraform(struct!.memoryBankConfig),
       isBlock: true,
@@ -804,6 +2037,10 @@ export class GoogleVertexAiReasoningEngineContextSpecOutputReference extends cdk
   public get internalValue(): GoogleVertexAiReasoningEngineContextSpec | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._exampleStoreConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exampleStoreConfig = this._exampleStoreConfig?.internalValue;
+    }
     if (this._memoryBankConfig?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.memoryBankConfig = this._memoryBankConfig?.internalValue;
@@ -814,12 +2051,30 @@ export class GoogleVertexAiReasoningEngineContextSpecOutputReference extends cdk
   public set internalValue(value: GoogleVertexAiReasoningEngineContextSpec | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._exampleStoreConfig.internalValue = undefined;
       this._memoryBankConfig.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._exampleStoreConfig.internalValue = value.exampleStoreConfig;
       this._memoryBankConfig.internalValue = value.memoryBankConfig;
     }
+  }
+
+  // example_store_config - computed: false, optional: true, required: false
+  private _exampleStoreConfig = new GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigOutputReference(this, "example_store_config");
+  public get exampleStoreConfig() {
+    return this._exampleStoreConfig;
+  }
+  public putExampleStoreConfig(value: GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig) {
+    this._exampleStoreConfig.internalValue = value;
+  }
+  public resetExampleStoreConfig() {
+    this._exampleStoreConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exampleStoreConfigInput() {
+    return this._exampleStoreConfig.internalValue;
   }
 
   // memory_bank_config - computed: false, optional: true, required: false
@@ -846,7 +2101,7 @@ export interface GoogleVertexAiReasoningEngineEncryptionSpec {
   * The key needs to be in the same region as where the compute resource
   * is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#kms_key_name GoogleVertexAiReasoningEngine#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#kms_key_name GoogleVertexAiReasoningEngine#kms_key_name}
   */
   readonly kmsKeyName: string;
 }
@@ -925,13 +2180,99 @@ export class GoogleVertexAiReasoningEngineEncryptionSpecOutputReference extends 
     return this._kmsKeyName;
   }
 }
+export interface GoogleVertexAiReasoningEngineSpecBuildSpec {
+  /**
+  * Optional. The resource name of the Cloud Build WorkerPool to use for the build.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#worker_pool GoogleVertexAiReasoningEngine#worker_pool}
+  */
+  readonly workerPool?: string;
+}
+
+export function googleVertexAiReasoningEngineSpecBuildSpecToTerraform(struct?: GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference | GoogleVertexAiReasoningEngineSpecBuildSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    worker_pool: cdktn.stringToTerraform(struct!.workerPool),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecBuildSpecToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference | GoogleVertexAiReasoningEngineSpecBuildSpec): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    worker_pool: {
+      value: cdktn.stringToHclTerraform(struct!.workerPool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecBuildSpec | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._workerPool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.workerPool = this._workerPool;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecBuildSpec | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._workerPool = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._workerPool = value.workerPool;
+    }
+  }
+
+  // worker_pool - computed: false, optional: true, required: false
+  private _workerPool?: string; 
+  public get workerPool() {
+    return this.getStringAttribute('worker_pool');
+  }
+  public set workerPool(value: string) {
+    this._workerPool = value;
+  }
+  public resetWorkerPool() {
+    this._workerPool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workerPoolInput() {
+    return this._workerPool;
+  }
+}
 export interface GoogleVertexAiReasoningEngineSpecContainerSpec {
   /**
   * The Artifact Registry Docker image URI (e.g.,
   * 'us-central1-docker.pkg.dev/my-project/my-repo/my-image:tag') of the
   * container image that is to be run on each worker replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#image_uri GoogleVertexAiReasoningEngine#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#image_uri GoogleVertexAiReasoningEngine#image_uri}
   */
   readonly imageUri: string;
 }
@@ -1010,12 +2351,299 @@ export class GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference exten
     return this._imageUri;
   }
 }
+export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig {
+  /**
+  * Required. The resource name of the Agent Gateway for outbound traffic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway GoogleVertexAiReasoningEngine#agent_gateway}
+  */
+  readonly agentGateway: string;
+}
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigToTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    agent_gateway: cdktn.stringToTerraform(struct!.agentGateway),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    agent_gateway: {
+      value: cdktn.stringToHclTerraform(struct!.agentGateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentGateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentGateway = this._agentGateway;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._agentGateway = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._agentGateway = value.agentGateway;
+    }
+  }
+
+  // agent_gateway - computed: false, optional: false, required: true
+  private _agentGateway?: string; 
+  public get agentGateway() {
+    return this.getStringAttribute('agent_gateway');
+  }
+  public set agentGateway(value: string) {
+    this._agentGateway = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentGatewayInput() {
+    return this._agentGateway;
+  }
+}
+export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig {
+  /**
+  * Required. The resource name of the Agent Gateway to use for inbound traffic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway GoogleVertexAiReasoningEngine#agent_gateway}
+  */
+  readonly agentGateway: string;
+}
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigToTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    agent_gateway: cdktn.stringToTerraform(struct!.agentGateway),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    agent_gateway: {
+      value: cdktn.stringToHclTerraform(struct!.agentGateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentGateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentGateway = this._agentGateway;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._agentGateway = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._agentGateway = value.agentGateway;
+    }
+  }
+
+  // agent_gateway - computed: false, optional: false, required: true
+  private _agentGateway?: string; 
+  public get agentGateway() {
+    return this.getStringAttribute('agent_gateway');
+  }
+  public set agentGateway(value: string) {
+    this._agentGateway = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentGatewayInput() {
+    return this._agentGateway;
+  }
+}
+export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig {
+  /**
+  * agent_to_anywhere_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_to_anywhere_config GoogleVertexAiReasoningEngine#agent_to_anywhere_config}
+  */
+  readonly agentToAnywhereConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig;
+  /**
+  * client_to_agent_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#client_to_agent_config GoogleVertexAiReasoningEngine#client_to_agent_config}
+  */
+  readonly clientToAgentConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig;
+}
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigToTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    agent_to_anywhere_config: googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigToTerraform(struct!.agentToAnywhereConfig),
+    client_to_agent_config: googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigToTerraform(struct!.clientToAgentConfig),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    agent_to_anywhere_config: {
+      value: googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigToHclTerraform(struct!.agentToAnywhereConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigList",
+    },
+    client_to_agent_config: {
+      value: googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigToHclTerraform(struct!.clientToAgentConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentToAnywhereConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentToAnywhereConfig = this._agentToAnywhereConfig?.internalValue;
+    }
+    if (this._clientToAgentConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientToAgentConfig = this._clientToAgentConfig?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._agentToAnywhereConfig.internalValue = undefined;
+      this._clientToAgentConfig.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._agentToAnywhereConfig.internalValue = value.agentToAnywhereConfig;
+      this._clientToAgentConfig.internalValue = value.clientToAgentConfig;
+    }
+  }
+
+  // agent_to_anywhere_config - computed: false, optional: true, required: false
+  private _agentToAnywhereConfig = new GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfigOutputReference(this, "agent_to_anywhere_config");
+  public get agentToAnywhereConfig() {
+    return this._agentToAnywhereConfig;
+  }
+  public putAgentToAnywhereConfig(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigAgentToAnywhereConfig) {
+    this._agentToAnywhereConfig.internalValue = value;
+  }
+  public resetAgentToAnywhereConfig() {
+    this._agentToAnywhereConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentToAnywhereConfigInput() {
+    return this._agentToAnywhereConfig.internalValue;
+  }
+
+  // client_to_agent_config - computed: false, optional: true, required: false
+  private _clientToAgentConfig = new GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfigOutputReference(this, "client_to_agent_config");
+  public get clientToAgentConfig() {
+    return this._clientToAgentConfig;
+  }
+  public putClientToAgentConfig(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigClientToAgentConfig) {
+    this._clientToAgentConfig.internalValue = value;
+  }
+  public resetClientToAgentConfig() {
+    this._clientToAgentConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientToAgentConfigInput() {
+    return this._clientToAgentConfig.internalValue;
+  }
+}
 export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecEnv {
   /**
   * The name of the environment variable. Must be a valid
   * C identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
   */
   readonly name: string;
   /**
@@ -1028,7 +2656,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecEnv {
   * be expanded, regardless of whether the variable exists
   * or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#value GoogleVertexAiReasoningEngine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#value GoogleVertexAiReasoningEngine#value}
   */
   readonly value: string;
 }
@@ -1165,20 +2793,259 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecEnvList extends cdkt
     return new GoogleVertexAiReasoningEngineSpecDeploymentSpecEnvOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet {
+  /**
+  * Required. Specifies the path of the HTTP GET request (e.g., '"/is_busy"').
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#path GoogleVertexAiReasoningEngine#path}
+  */
+  readonly path: string;
+  /**
+  * Optional. Specifies the port number on the container to which the request is sent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#port GoogleVertexAiReasoningEngine#port}
+  */
+  readonly port?: number;
+}
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetToTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    path: cdktn.stringToTerraform(struct!.path),
+    port: cdktn.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    path: {
+      value: cdktn.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port: {
+      value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._path = undefined;
+      this._port = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._path = value.path;
+      this._port = value.port;
+    }
+  }
+
+  // path - computed: false, optional: false, required: true
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
+  // port - computed: false, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
+export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe {
+  /**
+  * Optional. Specifies the maximum duration (in seconds) to keep the instance alive via this probe. Can be a maximum of 3600 seconds (1 hour).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#max_seconds GoogleVertexAiReasoningEngine#max_seconds}
+  */
+  readonly maxSeconds?: number;
+  /**
+  * http_get block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#http_get GoogleVertexAiReasoningEngine#http_get}
+  */
+  readonly httpGet?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet;
+}
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeToTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    max_seconds: cdktn.numberToTerraform(struct!.maxSeconds),
+    http_get: googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetToTerraform(struct!.httpGet),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeOutputReference | GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    max_seconds: {
+      value: cdktn.numberToHclTerraform(struct!.maxSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    http_get: {
+      value: googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetToHclTerraform(struct!.httpGet),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxSeconds = this._maxSeconds;
+    }
+    if (this._httpGet?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpGet = this._httpGet?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxSeconds = undefined;
+      this._httpGet.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxSeconds = value.maxSeconds;
+      this._httpGet.internalValue = value.httpGet;
+    }
+  }
+
+  // max_seconds - computed: false, optional: true, required: false
+  private _maxSeconds?: number; 
+  public get maxSeconds() {
+    return this.getNumberAttribute('max_seconds');
+  }
+  public set maxSeconds(value: number) {
+    this._maxSeconds = value;
+  }
+  public resetMaxSeconds() {
+    this._maxSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxSecondsInput() {
+    return this._maxSeconds;
+  }
+
+  // http_get - computed: false, optional: true, required: false
+  private _httpGet = new GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGetOutputReference(this, "http_get");
+  public get httpGet() {
+    return this._httpGet;
+  }
+  public putHttpGet(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeHttpGet) {
+    this._httpGet.internalValue = value;
+  }
+  public resetHttpGet() {
+    this._httpGet.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpGetInput() {
+    return this._httpGet.internalValue;
+  }
+}
 export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfigDnsPeeringConfigs {
   /**
   * Required. The DNS name suffix of the zone being peered
   * to, e.g., "my-internal-domain.corp.".
   * Must end with a dot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#domain GoogleVertexAiReasoningEngine#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#domain GoogleVertexAiReasoningEngine#domain}
   */
   readonly domain: string;
   /**
   * Required. The VPC network name in the targetProject
   * where the DNS zone specified by 'domain' is visible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#target_network GoogleVertexAiReasoningEngine#target_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#target_network GoogleVertexAiReasoningEngine#target_network}
   */
   readonly targetNetwork: string;
   /**
@@ -1187,7 +3054,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConf
   * The Vertex AI service Agent requires the dns.peer role
   * on this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#target_project GoogleVertexAiReasoningEngine#target_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#target_project GoogleVertexAiReasoningEngine#target_project}
   */
   readonly targetProject: string;
 }
@@ -1357,13 +3224,13 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConf
   * To specify this field, you must have already created a network attachment.
   * This field is only used for resources using PSC-Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#network_attachment GoogleVertexAiReasoningEngine#network_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#network_attachment GoogleVertexAiReasoningEngine#network_attachment}
   */
   readonly networkAttachment?: string;
   /**
   * dns_peering_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#dns_peering_configs GoogleVertexAiReasoningEngine#dns_peering_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#dns_peering_configs GoogleVertexAiReasoningEngine#dns_peering_configs}
   */
   readonly dnsPeeringConfigs?: GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfigDnsPeeringConfigs[] | cdktn.IResolvable;
 }
@@ -1479,7 +3346,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretR
   * The name of the secret in Cloud Secret Manager.
   * Format: {secret_name}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#secret GoogleVertexAiReasoningEngine#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#secret GoogleVertexAiReasoningEngine#secret}
   */
   readonly secret: string;
   /**
@@ -1487,7 +3354,7 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretR
   * for the latest version, an integer for a specific
   * version, or a version alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
   */
   readonly version?: string;
 }
@@ -1600,13 +3467,13 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnv {
   * The name of the environment variable. Must be a valid C
   * identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#name GoogleVertexAiReasoningEngine#name}
   */
   readonly name: string;
   /**
   * secret_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#secret_ref GoogleVertexAiReasoningEngine#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#secret_ref GoogleVertexAiReasoningEngine#secret_ref}
   */
   readonly secretRef: GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRef;
 }
@@ -1745,26 +3612,41 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvList extend
 }
 export interface GoogleVertexAiReasoningEngineSpecDeploymentSpec {
   /**
+  * Optional. The agent server mode specifies what features are used when deploy the agent to agent engine.
+  * Possible values:
+  * * 'STABLE': Stable agent server mode.
+  * * 'EXPERIMENTAL': Experimental agent server mode. Possible values: ["STABLE", "EXPERIMENTAL"]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_server_mode GoogleVertexAiReasoningEngine#agent_server_mode}
+  */
+  readonly agentServerMode?: string;
+  /**
   * Optional. Concurrency for each container and agent server.
   * Recommended value: 2 * cpu + 1. Defaults to 9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#container_concurrency GoogleVertexAiReasoningEngine#container_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#container_concurrency GoogleVertexAiReasoningEngine#container_concurrency}
   */
   readonly containerConcurrency?: number;
+  /**
+  * Optional. Whether to enable dedicated ingress endpoint for the deployment. If true, the deployment will be accessible via a dedicated endpoint. This is required to enable GKE V2 runtime.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#dedicated_ingress_endpoint_enabled GoogleVertexAiReasoningEngine#dedicated_ingress_endpoint_enabled}
+  */
+  readonly dedicatedIngressEndpointEnabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. The maximum number of application instances that can be
   * launched to handle increased traffic. Defaults to 100.
   * Range: [1, 1000]. If VPC-SC or PSC-I is enabled, the acceptable
   * range is [1, 100].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#max_instances GoogleVertexAiReasoningEngine#max_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#max_instances GoogleVertexAiReasoningEngine#max_instances}
   */
   readonly maxInstances?: number;
   /**
   * Optional. The minimum number of application instances that will be
   * kept running at all times. Defaults to 1. Range: [0, 10].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#min_instances GoogleVertexAiReasoningEngine#min_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#min_instances GoogleVertexAiReasoningEngine#min_instances}
   */
   readonly minInstances?: number;
   /**
@@ -1781,25 +3663,37 @@ export interface GoogleVertexAiReasoningEngineSpecDeploymentSpec {
   * For more information, go to
   * https://cloud.google.com/run/docs/configuring/memory-limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#resource_limits GoogleVertexAiReasoningEngine#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#resource_limits GoogleVertexAiReasoningEngine#resource_limits}
   */
   readonly resourceLimits?: { [key: string]: string };
   /**
+  * agent_gateway_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_gateway_config GoogleVertexAiReasoningEngine#agent_gateway_config}
+  */
+  readonly agentGatewayConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig;
+  /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#env GoogleVertexAiReasoningEngine#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#env GoogleVertexAiReasoningEngine#env}
   */
   readonly env?: GoogleVertexAiReasoningEngineSpecDeploymentSpecEnv[] | cdktn.IResolvable;
   /**
+  * keep_alive_probe block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#keep_alive_probe GoogleVertexAiReasoningEngine#keep_alive_probe}
+  */
+  readonly keepAliveProbe?: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe;
+  /**
   * psc_interface_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#psc_interface_config GoogleVertexAiReasoningEngine#psc_interface_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#psc_interface_config GoogleVertexAiReasoningEngine#psc_interface_config}
   */
   readonly pscInterfaceConfig?: GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfig;
   /**
   * secret_env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#secret_env GoogleVertexAiReasoningEngine#secret_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#secret_env GoogleVertexAiReasoningEngine#secret_env}
   */
   readonly secretEnv?: GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnv[] | cdktn.IResolvable;
 }
@@ -1810,11 +3704,15 @@ export function googleVertexAiReasoningEngineSpecDeploymentSpecToTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    agent_server_mode: cdktn.stringToTerraform(struct!.agentServerMode),
     container_concurrency: cdktn.numberToTerraform(struct!.containerConcurrency),
+    dedicated_ingress_endpoint_enabled: cdktn.booleanToTerraform(struct!.dedicatedIngressEndpointEnabled),
     max_instances: cdktn.numberToTerraform(struct!.maxInstances),
     min_instances: cdktn.numberToTerraform(struct!.minInstances),
     resource_limits: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceLimits),
+    agent_gateway_config: googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigToTerraform(struct!.agentGatewayConfig),
     env: cdktn.listMapper(googleVertexAiReasoningEngineSpecDeploymentSpecEnvToTerraform, true)(struct!.env),
+    keep_alive_probe: googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeToTerraform(struct!.keepAliveProbe),
     psc_interface_config: googleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfigToTerraform(struct!.pscInterfaceConfig),
     secret_env: cdktn.listMapper(googleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvToTerraform, true)(struct!.secretEnv),
   }
@@ -1827,11 +3725,23 @@ export function googleVertexAiReasoningEngineSpecDeploymentSpecToHclTerraform(st
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    agent_server_mode: {
+      value: cdktn.stringToHclTerraform(struct!.agentServerMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     container_concurrency: {
       value: cdktn.numberToHclTerraform(struct!.containerConcurrency),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    dedicated_ingress_endpoint_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.dedicatedIngressEndpointEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     max_instances: {
       value: cdktn.numberToHclTerraform(struct!.maxInstances),
@@ -1851,11 +3761,23 @@ export function googleVertexAiReasoningEngineSpecDeploymentSpecToHclTerraform(st
       type: "map",
       storageClassType: "stringMap",
     },
+    agent_gateway_config: {
+      value: googleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigToHclTerraform(struct!.agentGatewayConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigList",
+    },
     env: {
       value: cdktn.listMapperHcl(googleVertexAiReasoningEngineSpecDeploymentSpecEnvToHclTerraform, true)(struct!.env),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleVertexAiReasoningEngineSpecDeploymentSpecEnvList",
+    },
+    keep_alive_probe: {
+      value: googleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeToHclTerraform(struct!.keepAliveProbe),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeList",
     },
     psc_interface_config: {
       value: googleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfigToHclTerraform(struct!.pscInterfaceConfig),
@@ -1889,9 +3811,17 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference exte
   public get internalValue(): GoogleVertexAiReasoningEngineSpecDeploymentSpec | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._agentServerMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentServerMode = this._agentServerMode;
+    }
     if (this._containerConcurrency !== undefined) {
       hasAnyValues = true;
       internalValueResult.containerConcurrency = this._containerConcurrency;
+    }
+    if (this._dedicatedIngressEndpointEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dedicatedIngressEndpointEnabled = this._dedicatedIngressEndpointEnabled;
     }
     if (this._maxInstances !== undefined) {
       hasAnyValues = true;
@@ -1905,9 +3835,17 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference exte
       hasAnyValues = true;
       internalValueResult.resourceLimits = this._resourceLimits;
     }
+    if (this._agentGatewayConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentGatewayConfig = this._agentGatewayConfig?.internalValue;
+    }
     if (this._env?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.env = this._env?.internalValue;
+    }
+    if (this._keepAliveProbe?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keepAliveProbe = this._keepAliveProbe?.internalValue;
     }
     if (this._pscInterfaceConfig?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -1923,24 +3861,48 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference exte
   public set internalValue(value: GoogleVertexAiReasoningEngineSpecDeploymentSpec | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._agentServerMode = undefined;
       this._containerConcurrency = undefined;
+      this._dedicatedIngressEndpointEnabled = undefined;
       this._maxInstances = undefined;
       this._minInstances = undefined;
       this._resourceLimits = undefined;
+      this._agentGatewayConfig.internalValue = undefined;
       this._env.internalValue = undefined;
+      this._keepAliveProbe.internalValue = undefined;
       this._pscInterfaceConfig.internalValue = undefined;
       this._secretEnv.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._agentServerMode = value.agentServerMode;
       this._containerConcurrency = value.containerConcurrency;
+      this._dedicatedIngressEndpointEnabled = value.dedicatedIngressEndpointEnabled;
       this._maxInstances = value.maxInstances;
       this._minInstances = value.minInstances;
       this._resourceLimits = value.resourceLimits;
+      this._agentGatewayConfig.internalValue = value.agentGatewayConfig;
       this._env.internalValue = value.env;
+      this._keepAliveProbe.internalValue = value.keepAliveProbe;
       this._pscInterfaceConfig.internalValue = value.pscInterfaceConfig;
       this._secretEnv.internalValue = value.secretEnv;
     }
+  }
+
+  // agent_server_mode - computed: false, optional: true, required: false
+  private _agentServerMode?: string; 
+  public get agentServerMode() {
+    return this.getStringAttribute('agent_server_mode');
+  }
+  public set agentServerMode(value: string) {
+    this._agentServerMode = value;
+  }
+  public resetAgentServerMode() {
+    this._agentServerMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentServerModeInput() {
+    return this._agentServerMode;
   }
 
   // container_concurrency - computed: true, optional: true, required: false
@@ -1957,6 +3919,22 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference exte
   // Temporarily expose input value. Use with caution.
   public get containerConcurrencyInput() {
     return this._containerConcurrency;
+  }
+
+  // dedicated_ingress_endpoint_enabled - computed: false, optional: true, required: false
+  private _dedicatedIngressEndpointEnabled?: boolean | cdktn.IResolvable; 
+  public get dedicatedIngressEndpointEnabled() {
+    return this.getBooleanAttribute('dedicated_ingress_endpoint_enabled');
+  }
+  public set dedicatedIngressEndpointEnabled(value: boolean | cdktn.IResolvable) {
+    this._dedicatedIngressEndpointEnabled = value;
+  }
+  public resetDedicatedIngressEndpointEnabled() {
+    this._dedicatedIngressEndpointEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dedicatedIngressEndpointEnabledInput() {
+    return this._dedicatedIngressEndpointEnabled;
   }
 
   // max_instances - computed: true, optional: true, required: false
@@ -2007,6 +3985,22 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference exte
     return this._resourceLimits;
   }
 
+  // agent_gateway_config - computed: false, optional: true, required: false
+  private _agentGatewayConfig = new GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference(this, "agent_gateway_config");
+  public get agentGatewayConfig() {
+    return this._agentGatewayConfig;
+  }
+  public putAgentGatewayConfig(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig) {
+    this._agentGatewayConfig.internalValue = value;
+  }
+  public resetAgentGatewayConfig() {
+    this._agentGatewayConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentGatewayConfigInput() {
+    return this._agentGatewayConfig.internalValue;
+  }
+
   // env - computed: false, optional: true, required: false
   private _env = new GoogleVertexAiReasoningEngineSpecDeploymentSpecEnvList(this, "env", true);
   public get env() {
@@ -2021,6 +4015,22 @@ export class GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference exte
   // Temporarily expose input value. Use with caution.
   public get envInput() {
     return this._env.internalValue;
+  }
+
+  // keep_alive_probe - computed: false, optional: true, required: false
+  private _keepAliveProbe = new GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeOutputReference(this, "keep_alive_probe");
+  public get keepAliveProbe() {
+    return this._keepAliveProbe;
+  }
+  public putKeepAliveProbe(value: GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe) {
+    this._keepAliveProbe.internalValue = value;
+  }
+  public resetKeepAliveProbe() {
+    this._keepAliveProbe.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keepAliveProbeInput() {
+    return this._keepAliveProbe.internalValue;
   }
 
   // psc_interface_config - computed: false, optional: true, required: false
@@ -2060,26 +4070,26 @@ export interface GoogleVertexAiReasoningEngineSpecPackageSpec {
   * Optional. The Cloud Storage URI of the dependency files in tar.gz
   * format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#dependency_files_gcs_uri GoogleVertexAiReasoningEngine#dependency_files_gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#dependency_files_gcs_uri GoogleVertexAiReasoningEngine#dependency_files_gcs_uri}
   */
   readonly dependencyFilesGcsUri?: string;
   /**
   * Optional. The Cloud Storage URI of the pickled python object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#pickle_object_gcs_uri GoogleVertexAiReasoningEngine#pickle_object_gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#pickle_object_gcs_uri GoogleVertexAiReasoningEngine#pickle_object_gcs_uri}
   */
   readonly pickleObjectGcsUri?: string;
   /**
   * Optional. The Python version. Currently support 3.8, 3.9, 3.10,
   * 3.11, 3.12, 3.13. If not specified, default value is 3.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#python_version GoogleVertexAiReasoningEngine#python_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#python_version GoogleVertexAiReasoningEngine#python_version}
   */
   readonly pythonVersion?: string;
   /**
   * Optional. The Cloud Storage URI of the requirements.txtfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#requirements_gcs_uri GoogleVertexAiReasoningEngine#requirements_gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#requirements_gcs_uri GoogleVertexAiReasoningEngine#requirements_gcs_uri}
   */
   readonly requirementsGcsUri?: string;
 }
@@ -2248,17 +4258,304 @@ export class GoogleVertexAiReasoningEngineSpecPackageSpecOutputReference extends
     return this._requirementsGcsUri;
   }
 }
+export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig {
+  /**
+  * Required. The value of the ADK config in JSON format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#json_config GoogleVertexAiReasoningEngine#json_config}
+  */
+  readonly jsonConfig: string;
+}
+
+export function googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigToTerraform(struct?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigOutputReference | GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    json_config: cdktn.stringToTerraform(struct!.jsonConfig),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigOutputReference | GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    json_config: {
+      value: cdktn.stringToHclTerraform(struct!.jsonConfig),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._jsonConfig !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jsonConfig = this._jsonConfig;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._jsonConfig = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._jsonConfig = value.jsonConfig;
+    }
+  }
+
+  // json_config - computed: false, optional: false, required: true
+  private _jsonConfig?: string; 
+  public get jsonConfig() {
+    return this.getStringAttribute('json_config');
+  }
+  public set jsonConfig(value: string) {
+    this._jsonConfig = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jsonConfigInput() {
+    return this._jsonConfig;
+  }
+}
+export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource {
+  /**
+  * Required. Input only. The application source code archive, provided as a compressed tarball (.tar.gz) file.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#source_archive GoogleVertexAiReasoningEngine#source_archive}
+  */
+  readonly sourceArchive: string;
+}
+
+export function googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceToTerraform(struct?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceOutputReference | GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    source_archive: cdktn.stringToTerraform(struct!.sourceArchive),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceOutputReference | GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    source_archive: {
+      value: cdktn.stringToHclTerraform(struct!.sourceArchive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sourceArchive !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceArchive = this._sourceArchive;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._sourceArchive = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._sourceArchive = value.sourceArchive;
+    }
+  }
+
+  // source_archive - computed: false, optional: false, required: true
+  private _sourceArchive?: string; 
+  public get sourceArchive() {
+    return this.getStringAttribute('source_archive');
+  }
+  public set sourceArchive(value: string) {
+    this._sourceArchive = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceArchiveInput() {
+    return this._sourceArchive;
+  }
+}
+export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource {
+  /**
+  * adk_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#adk_config GoogleVertexAiReasoningEngine#adk_config}
+  */
+  readonly adkConfig?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig;
+  /**
+  * inline_source block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#inline_source GoogleVertexAiReasoningEngine#inline_source}
+  */
+  readonly inlineSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource;
+}
+
+export function googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceToTerraform(struct?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceOutputReference | GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    adk_config: googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigToTerraform(struct!.adkConfig),
+    inline_source: googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceToTerraform(struct!.inlineSource),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceToHclTerraform(struct?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceOutputReference | GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    adk_config: {
+      value: googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigToHclTerraform(struct!.adkConfig),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigList",
+    },
+    inline_source: {
+      value: googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceToHclTerraform(struct!.inlineSource),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._adkConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.adkConfig = this._adkConfig?.internalValue;
+    }
+    if (this._inlineSource?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.inlineSource = this._inlineSource?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._adkConfig.internalValue = undefined;
+      this._inlineSource.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._adkConfig.internalValue = value.adkConfig;
+      this._inlineSource.internalValue = value.inlineSource;
+    }
+  }
+
+  // adk_config - computed: false, optional: true, required: false
+  private _adkConfig = new GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfigOutputReference(this, "adk_config");
+  public get adkConfig() {
+    return this._adkConfig;
+  }
+  public putAdkConfig(value: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceAdkConfig) {
+    this._adkConfig.internalValue = value;
+  }
+  public resetAdkConfig() {
+    this._adkConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adkConfigInput() {
+    return this._adkConfig.internalValue;
+  }
+
+  // inline_source - computed: false, optional: true, required: false
+  private _inlineSource = new GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSourceOutputReference(this, "inline_source");
+  public get inlineSource() {
+    return this._inlineSource;
+  }
+  public putInlineSource(value: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource) {
+    this._inlineSource.internalValue = value;
+  }
+  public resetInlineSource() {
+    this._inlineSource.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get inlineSourceInput() {
+    return this._inlineSource.internalValue;
+  }
+}
 export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSourceConfig {
   /**
   * Directory, relative to the source root, in which to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#dir GoogleVertexAiReasoningEngine#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#dir GoogleVertexAiReasoningEngine#dir}
   */
   readonly dir: string;
   /**
   * The Developer Connect Git repository link, formatted as projects/* /locations/* /connections/* /gitRepositoryLink/*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#git_repository_link GoogleVertexAiReasoningEngine#git_repository_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#git_repository_link GoogleVertexAiReasoningEngine#git_repository_link}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2266,7 +4563,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnect
   /**
   * The revision to fetch from the Git repository such as a branch, a tag, a commit SHA, or any Git ref.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#revision GoogleVertexAiReasoningEngine#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#revision GoogleVertexAiReasoningEngine#revision}
   */
   readonly revision: string;
 }
@@ -2401,7 +4698,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnect
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#config GoogleVertexAiReasoningEngine#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#config GoogleVertexAiReasoningEngine#config}
   */
   readonly config: GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSourceConfig;
 }
@@ -2484,7 +4781,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecImageSpec {
   /**
   * Build arguments to be used. They will be passed through --build-arg flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#build_args GoogleVertexAiReasoningEngine#build_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#build_args GoogleVertexAiReasoningEngine#build_args}
   */
   readonly buildArgs?: { [key: string]: string };
 }
@@ -2572,7 +4869,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecInlineSource {
   * The application source code archive, provided as a compressed
   * tarball (.tar.gz) file. A base64-encoded string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#source_archive GoogleVertexAiReasoningEngine#source_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#source_archive GoogleVertexAiReasoningEngine#source_archive}
   */
   readonly sourceArchive?: string;
 }
@@ -2662,7 +4959,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec {
   * The project root will be added to Python sys.path, allowing
   * imports to be specified relative to the root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_module GoogleVertexAiReasoningEngine#entrypoint_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_module GoogleVertexAiReasoningEngine#entrypoint_module}
   */
   readonly entrypointModule?: string;
   /**
@@ -2670,14 +4967,14 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec {
   * entrypointModule to use as the application If not specified,
   * defaults to "root_agent".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_object GoogleVertexAiReasoningEngine#entrypoint_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#entrypoint_object GoogleVertexAiReasoningEngine#entrypoint_object}
   */
   readonly entrypointObject?: string;
   /**
   * Optional. The path to the requirements file, relative to the
   * source root. If not specified, defaults to "requirements.txt".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#requirements_file GoogleVertexAiReasoningEngine#requirements_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#requirements_file GoogleVertexAiReasoningEngine#requirements_file}
   */
   readonly requirementsFile?: string;
   /**
@@ -2685,7 +4982,7 @@ export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec {
   * includes 3.9, 3.10, 3.11, 3.12, 3.13. If not specified,
   * default value is 3.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#version GoogleVertexAiReasoningEngine#version}
   */
   readonly version?: string;
 }
@@ -2856,27 +5153,33 @@ export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpecOutputRefe
 }
 export interface GoogleVertexAiReasoningEngineSpecSourceCodeSpec {
   /**
+  * agent_config_source block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_config_source GoogleVertexAiReasoningEngine#agent_config_source}
+  */
+  readonly agentConfigSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource;
+  /**
   * developer_connect_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#developer_connect_source GoogleVertexAiReasoningEngine#developer_connect_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#developer_connect_source GoogleVertexAiReasoningEngine#developer_connect_source}
   */
   readonly developerConnectSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSource;
   /**
   * image_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#image_spec GoogleVertexAiReasoningEngine#image_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#image_spec GoogleVertexAiReasoningEngine#image_spec}
   */
   readonly imageSpec?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecImageSpec;
   /**
   * inline_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#inline_source GoogleVertexAiReasoningEngine#inline_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#inline_source GoogleVertexAiReasoningEngine#inline_source}
   */
   readonly inlineSource?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecInlineSource;
   /**
   * python_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#python_spec GoogleVertexAiReasoningEngine#python_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#python_spec GoogleVertexAiReasoningEngine#python_spec}
   */
   readonly pythonSpec?: GoogleVertexAiReasoningEngineSpecSourceCodeSpecPythonSpec;
 }
@@ -2887,6 +5190,7 @@ export function googleVertexAiReasoningEngineSpecSourceCodeSpecToTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    agent_config_source: googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceToTerraform(struct!.agentConfigSource),
     developer_connect_source: googleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSourceToTerraform(struct!.developerConnectSource),
     image_spec: googleVertexAiReasoningEngineSpecSourceCodeSpecImageSpecToTerraform(struct!.imageSpec),
     inline_source: googleVertexAiReasoningEngineSpecSourceCodeSpecInlineSourceToTerraform(struct!.inlineSource),
@@ -2901,6 +5205,12 @@ export function googleVertexAiReasoningEngineSpecSourceCodeSpecToHclTerraform(st
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    agent_config_source: {
+      value: googleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceToHclTerraform(struct!.agentConfigSource),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceList",
+    },
     developer_connect_source: {
       value: googleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSourceToHclTerraform(struct!.developerConnectSource),
       isBlock: true,
@@ -2945,6 +5255,10 @@ export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecOutputReference exte
   public get internalValue(): GoogleVertexAiReasoningEngineSpecSourceCodeSpec | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._agentConfigSource?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentConfigSource = this._agentConfigSource?.internalValue;
+    }
     if (this._developerConnectSource?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.developerConnectSource = this._developerConnectSource?.internalValue;
@@ -2967,6 +5281,7 @@ export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecOutputReference exte
   public set internalValue(value: GoogleVertexAiReasoningEngineSpecSourceCodeSpec | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._agentConfigSource.internalValue = undefined;
       this._developerConnectSource.internalValue = undefined;
       this._imageSpec.internalValue = undefined;
       this._inlineSource.internalValue = undefined;
@@ -2974,11 +5289,28 @@ export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecOutputReference exte
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._agentConfigSource.internalValue = value.agentConfigSource;
       this._developerConnectSource.internalValue = value.developerConnectSource;
       this._imageSpec.internalValue = value.imageSpec;
       this._inlineSource.internalValue = value.inlineSource;
       this._pythonSpec.internalValue = value.pythonSpec;
     }
+  }
+
+  // agent_config_source - computed: false, optional: true, required: false
+  private _agentConfigSource = new GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceOutputReference(this, "agent_config_source");
+  public get agentConfigSource() {
+    return this._agentConfigSource;
+  }
+  public putAgentConfigSource(value: GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource) {
+    this._agentConfigSource.internalValue = value;
+  }
+  public resetAgentConfigSource() {
+    this._agentConfigSource.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentConfigSourceInput() {
+    return this._agentConfigSource.internalValue;
   }
 
   // developer_connect_source - computed: false, optional: true, required: false
@@ -3047,18 +5379,276 @@ export class GoogleVertexAiReasoningEngineSpecSourceCodeSpecOutputReference exte
 }
 export interface GoogleVertexAiReasoningEngineSpec {
   /**
+  * Optional. The A2A Agent Card for the agent (if available).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_card GoogleVertexAiReasoningEngine#agent_card}
+  */
+  readonly agentCard?: string;
+  /**
   * Optional. The OSS agent framework used to develop the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#agent_framework GoogleVertexAiReasoningEngine#agent_framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#agent_framework GoogleVertexAiReasoningEngine#agent_framework}
   */
   readonly agentFramework?: string;
   /**
   * Optional. Declarations for object class methods in OpenAPI
   * specification format.
+  * 
+  * **Note**: When deploying via Terraform, this field must be populated manually.
+  * Otherwise, client SDKs (like 'agent_engines.get()') will not be able to discover the methods, and calls to the engine (or A2A integrations) will fail.
+  * 
+  * Depending on the template/framework used ('agent_framework'), the required class methods and their parameters differ:
+  * 
+  * **Warning**: The configuration snippets below are illustrative, may not be exhaustive, and could stop working over time. For the most up-to-date method lists and schemas, please consult the respective SDK source code:
+  * * For Google ADK: See [ADK Python SDK cli_deploy.py](https://github.com/google/adk-python/blob/68a780306e3bdd648a882ef34c0abf8e5148353e/src/google/adk/cli/cli_deploy.py#L109).
+  * * For Langchain: See [Vertex AI Python SDK langchain.py](https://github.com/googleapis/python-aiplatform/blob/c8a38a085931b01f4d6071f0ab7a64cb42851829/agentplatform/agent_engines/templates/langchain.py#L642-L717).
+  * 
+  * ### 1. Langchain Template
+  * * 'query' (api_mode = "sync" or empty)
+  * * 'stream_query' (api_mode = "stream")
+  * 
+  * Example for Langchain:
+  * ```hcl
+  * class_methods = jsonencode([
+  *   {
+  *     name        = "query"
+  *     api_mode    = "sync"
+  *     description = "Queries the reasoning engine"
+  *     parameters  = {
+  *       type       = "object"
+  *       required   = ["input"]
+  *       properties = {
+  *         input = {
+  *           type        = "string"
+  *           description = "The input prompt"
+  *         }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "stream_query"
+  *     api_mode    = "stream"
+  *     description = "Streams queries from the reasoning engine"
+  *     parameters  = {
+  *       type       = "object"
+  *       required   = ["input"]
+  *       properties = {
+  *         input = {
+  *           type        = "string"
+  *           description = "The input prompt"
+  *         }
+  *       }
+  *     }
+  *   }
+  * ])
+  * ```
+  * 
+  * ### 2. Google ADK Template (Standard - No A2A)
+  * For standard Google ADK (Agent Development Kit) deployments, you must define the following 11 methods:
+  * 
+  * Example for Standard ADK:
+  * ```hcl
+  * class_methods = jsonencode([
+  *   {
+  *     name        = "get_session"
+  *     api_mode    = ""
+  *     description = "Retrieve session by ID"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id", "session_id"]
+  *       properties = {
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "async_get_session"
+  *     api_mode    = "async"
+  *     description = "Retrieve session asynchronously by ID"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id", "session_id"]
+  *       properties = {
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "list_sessions"
+  *     api_mode    = ""
+  *     description = "List all sessions for a user"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id"]
+  *       properties = {
+  *         user_id = { type = "string" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "async_list_sessions"
+  *     api_mode    = "async"
+  *     description = "List all sessions for a user asynchronously"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id"]
+  *       properties = {
+  *         user_id = { type = "string" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "create_session"
+  *     api_mode    = ""
+  *     description = "Create a new session"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id"]
+  *       properties = {
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *         state      = { type = "object" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "async_create_session"
+  *     api_mode    = "async"
+  *     description = "Create a new session asynchronously"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id"]
+  *       properties = {
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *         state      = { type = "object" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "delete_session"
+  *     api_mode    = ""
+  *     description = "Delete session by ID"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id", "session_id"]
+  *       properties = {
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "async_delete_session"
+  *     api_mode    = "async"
+  *     description = "Delete session asynchronously by ID"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id", "session_id"]
+  *       properties = {
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "stream_query"
+  *     api_mode    = "stream"
+  *     description = "Stream queries from the agent"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["message", "user_id"]
+  *       properties = {
+  *         message    = { description = "Message string or object" }
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *         run_config = { type = "object" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "async_stream_query"
+  *     api_mode    = "async_stream"
+  *     description = "Stream queries asynchronously from the agent"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["message", "user_id"]
+  *       properties = {
+  *         message        = { description = "Message string or object" }
+  *         user_id        = { type = "string" }
+  *         session_id     = { type = "string" }
+  *         session_events = { type = "array", items = { type = "object" } }
+  *         run_config     = { type = "object" }
+  *       }
+  *     }
+  *   },
+  *   {
+  *     name        = "streaming_agent_run_with_events"
+  *     api_mode    = "async_stream"
+  *     description = "Stream agent run with events asynchronously"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["request_json"]
+  *       properties = {
+  *         request_json = { type = "string" }
+  *       }
+  *     }
+  *   }
+  * ])
+  * ```
+  * 
+  * ### 3. Google ADK Template (A2A-Enabled)
+  * If the agent integrates with the Gemini Enterprise Agent Registry (A2A), you must inject the 'a2a_agent_card' JSON metadata as a string **specifically inside the 'async_create_session' method definition**:
+  * 
+  * Example for A2A-Enabled ADK:
+  * ```hcl
+  * locals {
+  *   # Construct the A2A endpoint URL
+  *   a2a_url = "https://us-central1-aiplatform.googleapis.com/v1/projects/my-project/locations/us-central1/reasoningEngines/my-agent/a2a"
+  * 
+  *   agent_card = {
+  *     name                 = "my-agent"
+  *     description          = "A2A Agent"
+  *     version              = "1.0.0"
+  *     preferred_transport  = "HTTP_JSON"
+  *     supported_interfaces = [{ url = local.a2a_url, protocol_binding = "HTTP_JSON" }]
+  *     capabilities         = { streaming = true }
+  *   }
+  * }
+  * 
+  * # In class_methods, append "a2a_agent_card" key ONLY to the "async_create_session" method:
+  * class_methods = jsonencode([
+  *   # ... other 10 standard methods (same as Standard ADK) ...
+  *   {
+  *     name        = "async_create_session"
+  *     api_mode    = "async"
+  *     description = "Create a new session asynchronously"
+  *     parameters  = {
+  *       type     = "object"
+  *       required = ["user_id"]
+  *       properties = {
+  *         user_id    = { type = "string" }
+  *         session_id = { type = "string" }
+  *         state      = { type = "object" }
+  *       }
+  *     }
+  *     # Inject the serialized Agent Card here
+  *     a2a_agent_card = jsonencode(local.agent_card)
+  *   }
+  * ])
+  * ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#class_methods GoogleVertexAiReasoningEngine#class_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#class_methods GoogleVertexAiReasoningEngine#class_methods}
   */
   readonly classMethods?: string;
+  /**
+  * Optional. The resource name of the linked ExampleStore.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#example_store GoogleVertexAiReasoningEngine#example_store}
+  */
+  readonly exampleStore?: string;
   /**
   * Optional. The identity type to use for the Reasoning Engine.
   * If not specified, the 'service_account' field will be used if set,
@@ -3067,7 +5657,7 @@ export interface GoogleVertexAiReasoningEngineSpec {
   * * 'SERVICE_ACCOUNT': Use a custom service account if the 'service_account' field is set, otherwise use the default Vertex AI Reasoning Engine Service Agent in the project.
   * * 'AGENT_IDENTITY': Use Agent Identity. The 'service_account' field must not be set. Possible values: ["SERVICE_ACCOUNT", "AGENT_IDENTITY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#identity_type GoogleVertexAiReasoningEngine#identity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#identity_type GoogleVertexAiReasoningEngine#identity_type}
   */
   readonly identityType?: string;
   /**
@@ -3077,31 +5667,37 @@ export interface GoogleVertexAiReasoningEngineSpec {
   * extensions. If not specified, the Vertex AI Reasoning Engine service
   * Agent in the project will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#service_account GoogleVertexAiReasoningEngine#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#service_account GoogleVertexAiReasoningEngine#service_account}
   */
   readonly serviceAccount?: string;
   /**
+  * build_spec block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#build_spec GoogleVertexAiReasoningEngine#build_spec}
+  */
+  readonly buildSpec?: GoogleVertexAiReasoningEngineSpecBuildSpec;
+  /**
   * container_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#container_spec GoogleVertexAiReasoningEngine#container_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#container_spec GoogleVertexAiReasoningEngine#container_spec}
   */
   readonly containerSpec?: GoogleVertexAiReasoningEngineSpecContainerSpec;
   /**
   * deployment_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#deployment_spec GoogleVertexAiReasoningEngine#deployment_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#deployment_spec GoogleVertexAiReasoningEngine#deployment_spec}
   */
   readonly deploymentSpec?: GoogleVertexAiReasoningEngineSpecDeploymentSpec;
   /**
   * package_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#package_spec GoogleVertexAiReasoningEngine#package_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#package_spec GoogleVertexAiReasoningEngine#package_spec}
   */
   readonly packageSpec?: GoogleVertexAiReasoningEngineSpecPackageSpec;
   /**
   * source_code_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#source_code_spec GoogleVertexAiReasoningEngine#source_code_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#source_code_spec GoogleVertexAiReasoningEngine#source_code_spec}
   */
   readonly sourceCodeSpec?: GoogleVertexAiReasoningEngineSpecSourceCodeSpec;
 }
@@ -3112,10 +5708,13 @@ export function googleVertexAiReasoningEngineSpecToTerraform(struct?: GoogleVert
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    agent_card: cdktn.stringToTerraform(struct!.agentCard),
     agent_framework: cdktn.stringToTerraform(struct!.agentFramework),
     class_methods: cdktn.stringToTerraform(struct!.classMethods),
+    example_store: cdktn.stringToTerraform(struct!.exampleStore),
     identity_type: cdktn.stringToTerraform(struct!.identityType),
     service_account: cdktn.stringToTerraform(struct!.serviceAccount),
+    build_spec: googleVertexAiReasoningEngineSpecBuildSpecToTerraform(struct!.buildSpec),
     container_spec: googleVertexAiReasoningEngineSpecContainerSpecToTerraform(struct!.containerSpec),
     deployment_spec: googleVertexAiReasoningEngineSpecDeploymentSpecToTerraform(struct!.deploymentSpec),
     package_spec: googleVertexAiReasoningEngineSpecPackageSpecToTerraform(struct!.packageSpec),
@@ -3130,6 +5729,12 @@ export function googleVertexAiReasoningEngineSpecToHclTerraform(struct?: GoogleV
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    agent_card: {
+      value: cdktn.stringToHclTerraform(struct!.agentCard),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     agent_framework: {
       value: cdktn.stringToHclTerraform(struct!.agentFramework),
       isBlock: false,
@@ -3138,6 +5743,12 @@ export function googleVertexAiReasoningEngineSpecToHclTerraform(struct?: GoogleV
     },
     class_methods: {
       value: cdktn.stringToHclTerraform(struct!.classMethods),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    example_store: {
+      value: cdktn.stringToHclTerraform(struct!.exampleStore),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3153,6 +5764,12 @@ export function googleVertexAiReasoningEngineSpecToHclTerraform(struct?: GoogleV
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    build_spec: {
+      value: googleVertexAiReasoningEngineSpecBuildSpecToHclTerraform(struct!.buildSpec),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineSpecBuildSpecList",
     },
     container_spec: {
       value: googleVertexAiReasoningEngineSpecContainerSpecToHclTerraform(struct!.containerSpec),
@@ -3198,6 +5815,10 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
   public get internalValue(): GoogleVertexAiReasoningEngineSpec | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._agentCard !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentCard = this._agentCard;
+    }
     if (this._agentFramework !== undefined) {
       hasAnyValues = true;
       internalValueResult.agentFramework = this._agentFramework;
@@ -3206,6 +5827,10 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
       hasAnyValues = true;
       internalValueResult.classMethods = this._classMethods;
     }
+    if (this._exampleStore !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exampleStore = this._exampleStore;
+    }
     if (this._identityType !== undefined) {
       hasAnyValues = true;
       internalValueResult.identityType = this._identityType;
@@ -3213,6 +5838,10 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
     if (this._serviceAccount !== undefined) {
       hasAnyValues = true;
       internalValueResult.serviceAccount = this._serviceAccount;
+    }
+    if (this._buildSpec?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.buildSpec = this._buildSpec?.internalValue;
     }
     if (this._containerSpec?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -3236,10 +5865,13 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
   public set internalValue(value: GoogleVertexAiReasoningEngineSpec | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._agentCard = undefined;
       this._agentFramework = undefined;
       this._classMethods = undefined;
+      this._exampleStore = undefined;
       this._identityType = undefined;
       this._serviceAccount = undefined;
+      this._buildSpec.internalValue = undefined;
       this._containerSpec.internalValue = undefined;
       this._deploymentSpec.internalValue = undefined;
       this._packageSpec.internalValue = undefined;
@@ -3247,15 +5879,34 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._agentCard = value.agentCard;
       this._agentFramework = value.agentFramework;
       this._classMethods = value.classMethods;
+      this._exampleStore = value.exampleStore;
       this._identityType = value.identityType;
       this._serviceAccount = value.serviceAccount;
+      this._buildSpec.internalValue = value.buildSpec;
       this._containerSpec.internalValue = value.containerSpec;
       this._deploymentSpec.internalValue = value.deploymentSpec;
       this._packageSpec.internalValue = value.packageSpec;
       this._sourceCodeSpec.internalValue = value.sourceCodeSpec;
     }
+  }
+
+  // agent_card - computed: false, optional: true, required: false
+  private _agentCard?: string; 
+  public get agentCard() {
+    return this.getStringAttribute('agent_card');
+  }
+  public set agentCard(value: string) {
+    this._agentCard = value;
+  }
+  public resetAgentCard() {
+    this._agentCard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentCardInput() {
+    return this._agentCard;
   }
 
   // agent_framework - computed: false, optional: true, required: false
@@ -3295,6 +5946,22 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
     return this.getStringAttribute('effective_identity');
   }
 
+  // example_store - computed: false, optional: true, required: false
+  private _exampleStore?: string; 
+  public get exampleStore() {
+    return this.getStringAttribute('example_store');
+  }
+  public set exampleStore(value: string) {
+    this._exampleStore = value;
+  }
+  public resetExampleStore() {
+    this._exampleStore = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get exampleStoreInput() {
+    return this._exampleStore;
+  }
+
   // identity_type - computed: false, optional: true, required: false
   private _identityType?: string; 
   public get identityType() {
@@ -3325,6 +5992,22 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
   // Temporarily expose input value. Use with caution.
   public get serviceAccountInput() {
     return this._serviceAccount;
+  }
+
+  // build_spec - computed: false, optional: true, required: false
+  private _buildSpec = new GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference(this, "build_spec");
+  public get buildSpec() {
+    return this._buildSpec;
+  }
+  public putBuildSpec(value: GoogleVertexAiReasoningEngineSpecBuildSpec) {
+    this._buildSpec.internalValue = value;
+  }
+  public resetBuildSpec() {
+    this._buildSpec.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get buildSpecInput() {
+    return this._buildSpec.internalValue;
   }
 
   // container_spec - computed: false, optional: true, required: false
@@ -3393,15 +6076,15 @@ export class GoogleVertexAiReasoningEngineSpecOutputReference extends cdktn.Comp
 }
 export interface GoogleVertexAiReasoningEngineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#create GoogleVertexAiReasoningEngine#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#create GoogleVertexAiReasoningEngine#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#delete GoogleVertexAiReasoningEngine#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#delete GoogleVertexAiReasoningEngine#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#update GoogleVertexAiReasoningEngine#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#update GoogleVertexAiReasoningEngine#update}
   */
   readonly update?: string;
 }
@@ -3551,9 +6234,412 @@ export class GoogleVertexAiReasoningEngineTimeoutsOutputReference extends cdktn.
     return this._update;
   }
 }
+export interface GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest {
+}
+
+export function googleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestToTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestOutputReference | GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function googleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestToHclTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestOutputReference | GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets {
+  /**
+  * Required. Specifies percent of the traffic to this Runtime Revision.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#percent GoogleVertexAiReasoningEngine#percent}
+  */
+  readonly percent: number;
+  /**
+  * Required. The Runtime Revision name to which to send this portion of traffic.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#runtime_revision_name GoogleVertexAiReasoningEngine#runtime_revision_name}
+  */
+  readonly runtimeRevisionName: string;
+}
+
+export function googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsToTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    percent: cdktn.numberToTerraform(struct!.percent),
+    runtime_revision_name: cdktn.stringToTerraform(struct!.runtimeRevisionName),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsToHclTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    percent: {
+      value: cdktn.numberToHclTerraform(struct!.percent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    runtime_revision_name: {
+      value: cdktn.stringToHclTerraform(struct!.runtimeRevisionName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._percent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.percent = this._percent;
+    }
+    if (this._runtimeRevisionName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.runtimeRevisionName = this._runtimeRevisionName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._percent = undefined;
+      this._runtimeRevisionName = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._percent = value.percent;
+      this._runtimeRevisionName = value.runtimeRevisionName;
+    }
+  }
+
+  // percent - computed: false, optional: false, required: true
+  private _percent?: number; 
+  public get percent() {
+    return this.getNumberAttribute('percent');
+  }
+  public set percent(value: number) {
+    this._percent = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get percentInput() {
+    return this._percent;
+  }
+
+  // runtime_revision_name - computed: false, optional: false, required: true
+  private _runtimeRevisionName?: string; 
+  public get runtimeRevisionName() {
+    return this.getStringAttribute('runtime_revision_name');
+  }
+  public set runtimeRevisionName(value: string) {
+    this._runtimeRevisionName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get runtimeRevisionNameInput() {
+    return this._runtimeRevisionName;
+  }
+}
+
+export class GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsList extends cdktn.ComplexList {
+  public internalValue? : GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsOutputReference {
+    return new GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual {
+  /**
+  * targets block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#targets GoogleVertexAiReasoningEngine#targets}
+  */
+  readonly targets?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets[] | cdktn.IResolvable;
+}
+
+export function googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualToTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualOutputReference | GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    targets: cdktn.listMapper(googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsToTerraform, true)(struct!.targets),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualToHclTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualOutputReference | GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    targets: {
+      value: cdktn.listMapperHcl(googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsToHclTerraform, true)(struct!.targets),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._targets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targets = this._targets?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._targets.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._targets.internalValue = value.targets;
+    }
+  }
+
+  // targets - computed: false, optional: true, required: false
+  private _targets = new GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargetsList(this, "targets", false);
+  public get targets() {
+    return this._targets;
+  }
+  public putTargets(value: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualTargets[] | cdktn.IResolvable) {
+    this._targets.internalValue = value;
+  }
+  public resetTargets() {
+    this._targets.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetsInput() {
+    return this._targets.internalValue;
+  }
+}
+export interface GoogleVertexAiReasoningEngineTrafficConfig {
+  /**
+  * traffic_split_always_latest block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#traffic_split_always_latest GoogleVertexAiReasoningEngine#traffic_split_always_latest}
+  */
+  readonly trafficSplitAlwaysLatest?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest;
+  /**
+  * traffic_split_manual block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#traffic_split_manual GoogleVertexAiReasoningEngine#traffic_split_manual}
+  */
+  readonly trafficSplitManual?: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual;
+}
+
+export function googleVertexAiReasoningEngineTrafficConfigToTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigOutputReference | GoogleVertexAiReasoningEngineTrafficConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    traffic_split_always_latest: googleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestToTerraform(struct!.trafficSplitAlwaysLatest),
+    traffic_split_manual: googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualToTerraform(struct!.trafficSplitManual),
+  }
+}
+
+
+export function googleVertexAiReasoningEngineTrafficConfigToHclTerraform(struct?: GoogleVertexAiReasoningEngineTrafficConfigOutputReference | GoogleVertexAiReasoningEngineTrafficConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    traffic_split_always_latest: {
+      value: googleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestToHclTerraform(struct!.trafficSplitAlwaysLatest),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestList",
+    },
+    traffic_split_manual: {
+      value: googleVertexAiReasoningEngineTrafficConfigTrafficSplitManualToHclTerraform(struct!.trafficSplitManual),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleVertexAiReasoningEngineTrafficConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleVertexAiReasoningEngineTrafficConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._trafficSplitAlwaysLatest?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trafficSplitAlwaysLatest = this._trafficSplitAlwaysLatest?.internalValue;
+    }
+    if (this._trafficSplitManual?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.trafficSplitManual = this._trafficSplitManual?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleVertexAiReasoningEngineTrafficConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._trafficSplitAlwaysLatest.internalValue = undefined;
+      this._trafficSplitManual.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._trafficSplitAlwaysLatest.internalValue = value.trafficSplitAlwaysLatest;
+      this._trafficSplitManual.internalValue = value.trafficSplitManual;
+    }
+  }
+
+  // traffic_split_always_latest - computed: false, optional: true, required: false
+  private _trafficSplitAlwaysLatest = new GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatestOutputReference(this, "traffic_split_always_latest");
+  public get trafficSplitAlwaysLatest() {
+    return this._trafficSplitAlwaysLatest;
+  }
+  public putTrafficSplitAlwaysLatest(value: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitAlwaysLatest) {
+    this._trafficSplitAlwaysLatest.internalValue = value;
+  }
+  public resetTrafficSplitAlwaysLatest() {
+    this._trafficSplitAlwaysLatest.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trafficSplitAlwaysLatestInput() {
+    return this._trafficSplitAlwaysLatest.internalValue;
+  }
+
+  // traffic_split_manual - computed: false, optional: true, required: false
+  private _trafficSplitManual = new GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManualOutputReference(this, "traffic_split_manual");
+  public get trafficSplitManual() {
+    return this._trafficSplitManual;
+  }
+  public putTrafficSplitManual(value: GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual) {
+    this._trafficSplitManual.internalValue = value;
+  }
+  public resetTrafficSplitManual() {
+    this._trafficSplitManual.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trafficSplitManualInput() {
+    return this._trafficSplitManual.internalValue;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}
 */
 export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
 
@@ -3569,7 +6655,7 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVertexAiReasoningEngine resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiReasoningEngine to import
-  * @param importFromId The id of the existing GoogleVertexAiReasoningEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiReasoningEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiReasoningEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3581,7 +6667,7 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3592,7 +6678,7 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
       terraformResourceType: 'google_vertex_ai_reasoning_engine',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.39.0',
+        providerVersion: '7.40.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -3614,6 +6700,7 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
     this._encryptionSpec.internalValue = config.encryptionSpec;
     this._spec.internalValue = config.spec;
     this._timeouts.internalValue = config.timeouts;
+    this._trafficConfig.internalValue = config.trafficConfig;
   }
 
   // ==========
@@ -3756,6 +6843,11 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
     return this.getStringAttribute('update_time');
   }
 
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+
   // context_spec - computed: false, optional: true, required: false
   private _contextSpec = new GoogleVertexAiReasoningEngineContextSpecOutputReference(this, "context_spec");
   public get contextSpec() {
@@ -3820,6 +6912,22 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
     return this._timeouts.internalValue;
   }
 
+  // traffic_config - computed: false, optional: true, required: false
+  private _trafficConfig = new GoogleVertexAiReasoningEngineTrafficConfigOutputReference(this, "traffic_config");
+  public get trafficConfig() {
+    return this._trafficConfig;
+  }
+  public putTrafficConfig(value: GoogleVertexAiReasoningEngineTrafficConfig) {
+    this._trafficConfig.internalValue = value;
+  }
+  public resetTrafficConfig() {
+    this._trafficConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trafficConfigInput() {
+    return this._trafficConfig.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -3837,6 +6945,7 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
       encryption_spec: googleVertexAiReasoningEngineEncryptionSpecToTerraform(this._encryptionSpec.internalValue),
       spec: googleVertexAiReasoningEngineSpecToTerraform(this._spec.internalValue),
       timeouts: googleVertexAiReasoningEngineTimeoutsToTerraform(this._timeouts.internalValue),
+      traffic_config: googleVertexAiReasoningEngineTrafficConfigToTerraform(this._trafficConfig.internalValue),
     };
   }
 
@@ -3907,6 +7016,12 @@ export class GoogleVertexAiReasoningEngine extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "GoogleVertexAiReasoningEngineTimeouts",
+      },
+      traffic_config: {
+        value: googleVertexAiReasoningEngineTrafficConfigToHclTerraform(this._trafficConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleVertexAiReasoningEngineTrafficConfigList",
       },
     };
 

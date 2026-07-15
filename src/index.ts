@@ -163,6 +163,7 @@ export * as googleBigqueryAnalyticsHubListingIamBinding from './google-bigquery-
 export * as googleBigqueryAnalyticsHubListingIamMember from './google-bigquery-analytics-hub-listing-iam-member/index';
 export * as googleBigqueryAnalyticsHubListingIamPolicy from './google-bigquery-analytics-hub-listing-iam-policy/index';
 export * as googleBigqueryAnalyticsHubListingSubscription from './google-bigquery-analytics-hub-listing-subscription/index';
+export * as googleBigqueryAnalyticsHubQueryTemplate from './google-bigquery-analytics-hub-query-template/index';
 export * as googleBigqueryBiReservation from './google-bigquery-bi-reservation/index';
 export * as googleBigqueryCapacityCommitment from './google-bigquery-capacity-commitment/index';
 export * as googleBigqueryConnection from './google-bigquery-connection/index';
@@ -243,9 +244,11 @@ export * as googleChronicleCustomList from './google-chronicle-custom-list/index
 export * as googleChronicleDashboardChart from './google-chronicle-dashboard-chart/index';
 export * as googleChronicleDataAccessLabel from './google-chronicle-data-access-label/index';
 export * as googleChronicleDataAccessScope from './google-chronicle-data-access-scope/index';
+export * as googleChronicleDataExport from './google-chronicle-data-export/index';
 export * as googleChronicleDataTable from './google-chronicle-data-table/index';
 export * as googleChronicleDataTableRow from './google-chronicle-data-table-row/index';
 export * as googleChronicleEnvironment from './google-chronicle-environment/index';
+export * as googleChronicleEnvironmentGroup from './google-chronicle-environment-group/index';
 export * as googleChronicleFeed from './google-chronicle-feed/index';
 export * as googleChronicleFindingsRefinement from './google-chronicle-findings-refinement/index';
 export * as googleChronicleFindingsRefinementDeployment from './google-chronicle-findings-refinement-deployment/index';
@@ -256,6 +259,7 @@ export * as googleChronicleReferenceList from './google-chronicle-reference-list
 export * as googleChronicleRetrohunt from './google-chronicle-retrohunt/index';
 export * as googleChronicleRule from './google-chronicle-rule/index';
 export * as googleChronicleRuleDeployment from './google-chronicle-rule-deployment/index';
+export * as googleChronicleSoarDomain from './google-chronicle-soar-domain/index';
 export * as googleChronicleSoarNetwork from './google-chronicle-soar-network/index';
 export * as googleChronicleWatchlist from './google-chronicle-watchlist/index';
 export * as googleCloudAssetFolderFeed from './google-cloud-asset-folder-feed/index';
@@ -905,9 +909,18 @@ export * as googleIamWorkloadIdentityPoolIamPolicy from './google-iam-workload-i
 export * as googleIamWorkloadIdentityPoolManagedIdentity from './google-iam-workload-identity-pool-managed-identity/index';
 export * as googleIamWorkloadIdentityPoolNamespace from './google-iam-workload-identity-pool-namespace/index';
 export * as googleIamWorkloadIdentityPoolProvider from './google-iam-workload-identity-pool-provider/index';
+export * as googleIapAgentRegistryAgentIamBinding from './google-iap-agent-registry-agent-iam-binding/index';
+export * as googleIapAgentRegistryAgentIamMember from './google-iap-agent-registry-agent-iam-member/index';
+export * as googleIapAgentRegistryAgentIamPolicy from './google-iap-agent-registry-agent-iam-policy/index';
+export * as googleIapAgentRegistryEndpointIamBinding from './google-iap-agent-registry-endpoint-iam-binding/index';
+export * as googleIapAgentRegistryEndpointIamMember from './google-iap-agent-registry-endpoint-iam-member/index';
+export * as googleIapAgentRegistryEndpointIamPolicy from './google-iap-agent-registry-endpoint-iam-policy/index';
 export * as googleIapAgentRegistryIamBinding from './google-iap-agent-registry-iam-binding/index';
 export * as googleIapAgentRegistryIamMember from './google-iap-agent-registry-iam-member/index';
 export * as googleIapAgentRegistryIamPolicy from './google-iap-agent-registry-iam-policy/index';
+export * as googleIapAgentRegistryMcpServerIamBinding from './google-iap-agent-registry-mcp-server-iam-binding/index';
+export * as googleIapAgentRegistryMcpServerIamMember from './google-iap-agent-registry-mcp-server-iam-member/index';
+export * as googleIapAgentRegistryMcpServerIamPolicy from './google-iap-agent-registry-mcp-server-iam-policy/index';
 export * as googleIapAppEngineServiceIamBinding from './google-iap-app-engine-service-iam-binding/index';
 export * as googleIapAppEngineServiceIamMember from './google-iap-app-engine-service-iam-member/index';
 export * as googleIapAppEngineServiceIamPolicy from './google-iap-app-engine-service-iam-policy/index';
@@ -1363,6 +1376,7 @@ export * as googleStorageTransferAgentPool from './google-storage-transfer-agent
 export * as googleStorageTransferJob from './google-storage-transfer-job/index';
 export * as googleTagsLocationTagBinding from './google-tags-location-tag-binding/index';
 export * as googleTagsTagBinding from './google-tags-tag-binding/index';
+export * as googleTagsTagBindingCollection from './google-tags-tag-binding-collection/index';
 export * as googleTagsTagKey from './google-tags-tag-key/index';
 export * as googleTagsTagKeyIamBinding from './google-tags-tag-key-iam-binding/index';
 export * as googleTagsTagKeyIamMember from './google-tags-tag-key-iam-member/index';
@@ -1376,6 +1390,7 @@ export * as googleTpuV2Vm from './google-tpu-v2-vm/index';
 export * as googleTranscoderJob from './google-transcoder-job/index';
 export * as googleTranscoderJobTemplate from './google-transcoder-job-template/index';
 export * as googleVectorSearchCollection from './google-vector-search-collection/index';
+export * as googleVectorSearchIndex from './google-vector-search-index/index';
 export * as googleVertexAiCacheConfig from './google-vertex-ai-cache-config/index';
 export * as googleVertexAiDataset from './google-vertex-ai-dataset/index';
 export * as googleVertexAiDeploymentResourcePool from './google-vertex-ai-deployment-resource-pool/index';
@@ -1417,6 +1432,7 @@ export * as googleVertexAiReasoningEngineIamBinding from './google-vertex-ai-rea
 export * as googleVertexAiReasoningEngineIamMember from './google-vertex-ai-reasoning-engine-iam-member/index';
 export * as googleVertexAiReasoningEngineIamPolicy from './google-vertex-ai-reasoning-engine-iam-policy/index';
 export * as googleVertexAiSchedule from './google-vertex-ai-schedule/index';
+export * as googleVertexAiSemanticGovernancePolicyEngine from './google-vertex-ai-semantic-governance-policy-engine/index';
 export * as googleVertexAiTensorboard from './google-vertex-ai-tensorboard/index';
 export * as googleVertexAiTensorboardExperiment from './google-vertex-ai-tensorboard-experiment/index';
 export * as googleVertexAiTensorboardRun from './google-vertex-ai-tensorboard-run/index';
@@ -1661,6 +1677,7 @@ export * as dataGoogleContainerRegistryRepository from './data-google-container-
 export * as dataGoogleDataCatalogEntryGroupIamPolicy from './data-google-data-catalog-entry-group-iam-policy/index';
 export * as dataGoogleDataCatalogPolicyTagIamPolicy from './data-google-data-catalog-policy-tag-iam-policy/index';
 export * as dataGoogleDataCatalogTagTemplateIamPolicy from './data-google-data-catalog-tag-template-iam-policy/index';
+export * as dataGoogleDataCatalogTaxonomy from './data-google-data-catalog-taxonomy/index';
 export * as dataGoogleDataCatalogTaxonomyIamPolicy from './data-google-data-catalog-taxonomy-iam-policy/index';
 export * as dataGoogleDataFusionInstanceIamPolicy from './data-google-data-fusion-instance-iam-policy/index';
 export * as dataGoogleDataLineageConfig from './data-google-data-lineage-config/index';
@@ -1731,7 +1748,10 @@ export * as dataGoogleIamWorkforcePoolIamPolicy from './data-google-iam-workforc
 export * as dataGoogleIamWorkloadIdentityPool from './data-google-iam-workload-identity-pool/index';
 export * as dataGoogleIamWorkloadIdentityPoolIamPolicy from './data-google-iam-workload-identity-pool-iam-policy/index';
 export * as dataGoogleIamWorkloadIdentityPoolProvider from './data-google-iam-workload-identity-pool-provider/index';
+export * as dataGoogleIapAgentRegistryAgentIamPolicy from './data-google-iap-agent-registry-agent-iam-policy/index';
+export * as dataGoogleIapAgentRegistryEndpointIamPolicy from './data-google-iap-agent-registry-endpoint-iam-policy/index';
 export * as dataGoogleIapAgentRegistryIamPolicy from './data-google-iap-agent-registry-iam-policy/index';
+export * as dataGoogleIapAgentRegistryMcpServerIamPolicy from './data-google-iap-agent-registry-mcp-server-iam-policy/index';
 export * as dataGoogleIapAppEngineServiceIamPolicy from './data-google-iap-app-engine-service-iam-policy/index';
 export * as dataGoogleIapAppEngineVersionIamPolicy from './data-google-iap-app-engine-version-iam-policy/index';
 export * as dataGoogleIapClient from './data-google-iap-client/index';
@@ -1798,6 +1818,8 @@ export * as dataGoogleOracleDatabaseCloudVmCluster from './data-google-oracle-da
 export * as dataGoogleOracleDatabaseCloudVmClusters from './data-google-oracle-database-cloud-vm-clusters/index';
 export * as dataGoogleOracleDatabaseDbNodes from './data-google-oracle-database-db-nodes/index';
 export * as dataGoogleOracleDatabaseDbServers from './data-google-oracle-database-db-servers/index';
+export * as dataGoogleOracleDatabaseExascaleDbStorageVault from './data-google-oracle-database-exascale-db-storage-vault/index';
+export * as dataGoogleOracleDatabaseExascaleDbStorageVaults from './data-google-oracle-database-exascale-db-storage-vaults/index';
 export * as dataGoogleOracleDatabaseGoldengateConnectionTypes from './data-google-oracle-database-goldengate-connection-types/index';
 export * as dataGoogleOracleDatabaseGoldengateDeploymentEnvironments from './data-google-oracle-database-goldengate-deployment-environments/index';
 export * as dataGoogleOracleDatabaseGoldengateDeploymentTypes from './data-google-oracle-database-goldengate-deployment-types/index';
