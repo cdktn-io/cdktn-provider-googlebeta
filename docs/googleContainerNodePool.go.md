@@ -4,7 +4,7 @@
 
 ### GoogleContainerNodePool <a name="GoogleContainerNodePool" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool google_container_node_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool google_container_node_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putAutoscaling">PutAutoscaling</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putMaintenancePolicy">PutMaintenancePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putManagement">PutManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putNetworkConfig">PutNetworkConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putNodeConfig">PutNodeConfig</a></code> | *No description.* |
@@ -89,6 +90,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetIgnoreNodeCountChanges">ResetIgnoreNodeCountChanges</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetInitialNodeCount">ResetInitialNodeCount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetLocation">ResetLocation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetMaintenancePolicy">ResetMaintenancePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetManagement">ResetManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetMaxPodsPerNode">ResetMaxPodsPerNode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetName">ResetName</a></code> | *No description.* |
@@ -428,6 +430,18 @@ func PutAutoscaling(value GoogleContainerNodePoolAutoscaling)
 
 ---
 
+##### `PutMaintenancePolicy` <a name="PutMaintenancePolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putMaintenancePolicy"></a>
+
+```go
+func PutMaintenancePolicy(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putMaintenancePolicy.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
 ##### `PutManagement` <a name="PutManagement" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.putManagement"></a>
 
 ```go
@@ -558,6 +572,12 @@ func ResetInitialNodeCount()
 
 ```go
 func ResetLocation()
+```
+
+##### `ResetMaintenancePolicy` <a name="ResetMaintenancePolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetMaintenancePolicy"></a>
+
+```go
+func ResetMaintenancePolicy()
 ```
 
 ##### `ResetManagement` <a name="ResetManagement" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.resetManagement"></a>
@@ -753,7 +773,7 @@ The construct id used in the generated config for the GoogleContainerNodePool to
 
 The id of the existing GoogleContainerNodePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -785,6 +805,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.autoscaling">Autoscaling</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolAutoscalingOutputReference">GoogleContainerNodePoolAutoscalingOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.instanceGroupUrls">InstanceGroupUrls</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.maintenancePolicy">MaintenancePolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList">GoogleContainerNodePoolMaintenancePolicyList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.managedInstanceGroupUrls">ManagedInstanceGroupUrls</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.management">Management</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolManagementOutputReference">GoogleContainerNodePoolManagementOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.networkConfig">NetworkConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigOutputReference">GoogleContainerNodePoolNetworkConfigOutputReference</a></code> | *No description.* |
@@ -802,6 +823,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.ignoreNodeCountChangesInput">IgnoreNodeCountChangesInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.initialNodeCountInput">InitialNodeCountInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.maintenancePolicyInput">MaintenancePolicyInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.managementInput">ManagementInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolManagement">GoogleContainerNodePoolManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.maxPodsPerNodeInput">MaxPodsPerNodeInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
@@ -995,6 +1017,16 @@ func InstanceGroupUrls() *[]*string
 
 ---
 
+##### `MaintenancePolicy`<sup>Required</sup> <a name="MaintenancePolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.maintenancePolicy"></a>
+
+```go
+func MaintenancePolicy() GoogleContainerNodePoolMaintenancePolicyList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList">GoogleContainerNodePoolMaintenancePolicyList</a>
+
+---
+
 ##### `ManagedInstanceGroupUrls`<sup>Required</sup> <a name="ManagedInstanceGroupUrls" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.managedInstanceGroupUrls"></a>
 
 ```go
@@ -1162,6 +1194,16 @@ func LocationInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `MaintenancePolicyInput`<sup>Optional</sup> <a name="MaintenancePolicyInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePool.property.maintenancePolicyInput"></a>
+
+```go
+func MaintenancePolicyInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -1505,7 +1547,7 @@ Location policy specifies the algorithm used when scaling-up the node pool.
 
 "BALANCED" - Is a best effort policy that aims to balance the sizes of available zones. "ANY" - Instructs the cluster autoscaler to prioritize utilization of unused reservations, and reduces preemption risk for Spot VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#location_policy GoogleContainerNodePool#location_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#location_policy GoogleContainerNodePool#location_policy}
 
 ---
 
@@ -1521,7 +1563,7 @@ Maximum number of nodes per zone in the node pool.
 
 Must be >= min_node_count. Cannot be used with total limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_node_count GoogleContainerNodePool#max_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_node_count GoogleContainerNodePool#max_node_count}
 
 ---
 
@@ -1537,7 +1579,7 @@ Minimum number of nodes per zone in the node pool.
 
 Must be >=0 and <= max_node_count. Cannot be used with total limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#min_node_count GoogleContainerNodePool#min_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#min_node_count GoogleContainerNodePool#min_node_count}
 
 ---
 
@@ -1553,7 +1595,7 @@ Maximum number of all nodes in the node pool.
 
 Must be >= total_min_node_count. Cannot be used with per zone limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#total_max_node_count GoogleContainerNodePool#total_max_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#total_max_node_count GoogleContainerNodePool#total_max_node_count}
 
 ---
 
@@ -1569,7 +1611,7 @@ Minimum number of all nodes in the node pool.
 
 Must be >=0 and <= total_max_node_count. Cannot be used with per zone limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#total_min_node_count GoogleContainerNodePool#total_min_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#total_min_node_count GoogleContainerNodePool#total_min_node_count}
 
 ---
 
@@ -1595,6 +1637,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	IgnoreNodeCountChanges: interface{},
 	InitialNodeCount: *f64,
 	Location: *string,
+	MaintenancePolicy: interface{},
 	Management: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerNodePool.GoogleContainerNodePoolManagement,
 	MaxPodsPerNode: *f64,
 	Name: *string,
@@ -1627,10 +1670,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.cluster">Cluster</a></code> | <code>*string</code> | The cluster to create the node pool for. Cluster must be present in location provided for zonal clusters. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.autoscaling">Autoscaling</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolAutoscaling">GoogleContainerNodePoolAutoscaling</a></code> | autoscaling block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.ignoreNodeCountChanges">IgnoreNodeCountChanges</a></code> | <code>interface{}</code> | When true, the provider ignores external changes (drift) to the node count by skipping GCE API queries to the Instance Group Managers. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.initialNodeCount">InitialNodeCount</a></code> | <code>*f64</code> | The initial number of nodes for the pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.location">Location</a></code> | <code>*string</code> | The location (region or zone) of the cluster. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.maintenancePolicy">MaintenancePolicy</a></code> | <code>interface{}</code> | maintenance_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.management">Management</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolManagement">GoogleContainerNodePoolManagement</a></code> | management block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.maxPodsPerNode">MaxPodsPerNode</a></code> | <code>*f64</code> | The maximum number of pods per node in this node pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.name">Name</a></code> | <code>*string</code> | The name of the node pool. If left blank, Terraform will auto-generate a unique name. |
@@ -1729,7 +1773,7 @@ Cluster *string
 
 The cluster to create the node pool for. Cluster must be present in location provided for zonal clusters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#cluster GoogleContainerNodePool#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#cluster GoogleContainerNodePool#cluster}
 
 ---
 
@@ -1743,7 +1787,7 @@ Autoscaling GoogleContainerNodePoolAutoscaling
 
 autoscaling block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#autoscaling GoogleContainerNodePool#autoscaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#autoscaling GoogleContainerNodePool#autoscaling}
 
 ---
 
@@ -1764,7 +1808,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#deletion_policy GoogleContainerNodePool#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#deletion_policy GoogleContainerNodePool#deletion_policy}
 
 ---
 
@@ -1776,7 +1820,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1795,7 +1839,7 @@ When true, the provider ignores external changes (drift) to the node count by sk
 
 This is a performance optimization for large clusters that saves API quota. Setting this to true will result in missing managed_instance_group_urls in the state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#ignore_node_count_changes GoogleContainerNodePool#ignore_node_count_changes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#ignore_node_count_changes GoogleContainerNodePool#ignore_node_count_changes}
 
 ---
 
@@ -1811,7 +1855,7 @@ The initial number of nodes for the pool.
 
 In regional or multi-zonal clusters, this is the number of nodes per zone. Changing this will force recreation of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#initial_node_count GoogleContainerNodePool#initial_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#initial_node_count GoogleContainerNodePool#initial_node_count}
 
 ---
 
@@ -1825,7 +1869,21 @@ Location *string
 
 The location (region or zone) of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#location GoogleContainerNodePool#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#location GoogleContainerNodePool#location}
+
+---
+
+##### `MaintenancePolicy`<sup>Optional</sup> <a name="MaintenancePolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolConfig.property.maintenancePolicy"></a>
+
+```go
+MaintenancePolicy interface{}
+```
+
+- *Type:* interface{}
+
+maintenance_policy block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#maintenance_policy GoogleContainerNodePool#maintenance_policy}
 
 ---
 
@@ -1839,7 +1897,7 @@ Management GoogleContainerNodePoolManagement
 
 management block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#management GoogleContainerNodePool#management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#management GoogleContainerNodePool#management}
 
 ---
 
@@ -1855,7 +1913,7 @@ The maximum number of pods per node in this node pool.
 
 Note that this does not work on node pools which are "route-based" - that is, node pools belonging to clusters that do not have IP Aliasing enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
 
 ---
 
@@ -1869,7 +1927,7 @@ Name *string
 
 The name of the node pool. If left blank, Terraform will auto-generate a unique name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#name GoogleContainerNodePool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#name GoogleContainerNodePool#name}
 
 ---
 
@@ -1883,7 +1941,7 @@ NamePrefix *string
 
 Creates a unique name for the node pool beginning with the specified prefix. Conflicts with name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#name_prefix GoogleContainerNodePool#name_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#name_prefix GoogleContainerNodePool#name_prefix}
 
 ---
 
@@ -1897,7 +1955,7 @@ NetworkConfig GoogleContainerNodePoolNetworkConfig
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#network_config GoogleContainerNodePool#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#network_config GoogleContainerNodePool#network_config}
 
 ---
 
@@ -1911,7 +1969,7 @@ NodeConfig GoogleContainerNodePoolNodeConfig
 
 node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_config GoogleContainerNodePool#node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_config GoogleContainerNodePool#node_config}
 
 ---
 
@@ -1927,7 +1985,7 @@ The number of nodes per instance group.
 
 This field can be used to update the number of nodes per instance group but should not be used alongside autoscaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_count GoogleContainerNodePool#node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_count GoogleContainerNodePool#node_count}
 
 ---
 
@@ -1941,7 +1999,7 @@ NodeDrainConfig interface{}
 
 node_drain_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_drain_config GoogleContainerNodePool#node_drain_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_drain_config GoogleContainerNodePool#node_drain_config}
 
 ---
 
@@ -1957,7 +2015,7 @@ The list of zones in which the node pool's nodes should be located.
 
 Nodes must be in the region of their regional cluster or in the same region as their cluster's zone for zonal clusters. If unspecified, the cluster-level node_locations will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_locations GoogleContainerNodePool#node_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_locations GoogleContainerNodePool#node_locations}
 
 ---
 
@@ -1971,7 +2029,7 @@ PlacementPolicy GoogleContainerNodePoolPlacementPolicy
 
 placement_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#placement_policy GoogleContainerNodePool#placement_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#placement_policy GoogleContainerNodePool#placement_policy}
 
 ---
 
@@ -1987,7 +2045,7 @@ The ID of the project in which to create the node pool.
 
 If blank, the provider-configured project will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#project GoogleContainerNodePool#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#project GoogleContainerNodePool#project}
 
 ---
 
@@ -2001,7 +2059,7 @@ QueuedProvisioning GoogleContainerNodePoolQueuedProvisioning
 
 queued_provisioning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#queued_provisioning GoogleContainerNodePool#queued_provisioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#queued_provisioning GoogleContainerNodePool#queued_provisioning}
 
 ---
 
@@ -2015,7 +2073,7 @@ Timeouts GoogleContainerNodePoolTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#timeouts GoogleContainerNodePool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#timeouts GoogleContainerNodePool#timeouts}
 
 ---
 
@@ -2029,7 +2087,7 @@ UpgradeSettings GoogleContainerNodePoolUpgradeSettings
 
 upgrade_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#upgrade_settings GoogleContainerNodePool#upgrade_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#upgrade_settings GoogleContainerNodePool#upgrade_settings}
 
 ---
 
@@ -2045,7 +2103,75 @@ The Kubernetes version for the nodes in this pool.
 
 Note that if this field and auto_upgrade are both specified, they will fight each other for what the node version should be, so setting both is highly discouraged. While a fuzzy version can be specified, it's recommended that you specify explicit versions as Terraform will see spurious diffs when fuzzy versions are used. See the google_container_engine_versions data source's version_prefix field to approximate fuzzy versions in a Terraform-compatible way.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#version GoogleContainerNodePool#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#version GoogleContainerNodePool#version}
+
+---
+
+### GoogleContainerNodePoolMaintenancePolicy <a name="GoogleContainerNodePoolMaintenancePolicy" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicy.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+&googlecontainernodepool.GoogleContainerNodePoolMaintenancePolicy {
+	ExclusionUntilEndOfSupport: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicy.property.exclusionUntilEndOfSupport">ExclusionUntilEndOfSupport</a></code> | <code>interface{}</code> | exclusion_until_end_of_support block. |
+
+---
+
+##### `ExclusionUntilEndOfSupport`<sup>Optional</sup> <a name="ExclusionUntilEndOfSupport" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicy.property.exclusionUntilEndOfSupport"></a>
+
+```go
+ExclusionUntilEndOfSupport interface{}
+```
+
+- *Type:* interface{}
+
+exclusion_until_end_of_support block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#exclusion_until_end_of_support GoogleContainerNodePool#exclusion_until_end_of_support}
+
+---
+
+### GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport <a name="GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+&googlecontainernodepool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport {
+	Enabled: interface{},
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport.property.enabled">Enabled</a></code> | <code>interface{}</code> | Whether to enable the maintenance exclusion until the end of support for this NodePool. |
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport.property.enabled"></a>
+
+```go
+Enabled interface{}
+```
+
+- *Type:* interface{}
+
+Whether to enable the maintenance exclusion until the end of support for this NodePool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -2081,7 +2207,7 @@ AutoRepair interface{}
 
 Whether the nodes will be automatically repaired. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#auto_repair GoogleContainerNodePool#auto_repair}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#auto_repair GoogleContainerNodePool#auto_repair}
 
 ---
 
@@ -2095,7 +2221,7 @@ AutoUpgrade interface{}
 
 Whether the nodes will be automatically upgraded. Enabled by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#auto_upgrade GoogleContainerNodePool#auto_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#auto_upgrade GoogleContainerNodePool#auto_upgrade}
 
 ---
 
@@ -2147,7 +2273,7 @@ AcceleratorNetworkProfile *string
 
 The accelerator network profile to use for this node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#accelerator_network_profile GoogleContainerNodePool#accelerator_network_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#accelerator_network_profile GoogleContainerNodePool#accelerator_network_profile}
 
 ---
 
@@ -2161,7 +2287,7 @@ AdditionalNodeNetworkConfigs interface{}
 
 additional_node_network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#additional_node_network_configs GoogleContainerNodePool#additional_node_network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#additional_node_network_configs GoogleContainerNodePool#additional_node_network_configs}
 
 ---
 
@@ -2175,7 +2301,7 @@ AdditionalPodNetworkConfigs interface{}
 
 additional_pod_network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#additional_pod_network_configs GoogleContainerNodePool#additional_pod_network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#additional_pod_network_configs GoogleContainerNodePool#additional_pod_network_configs}
 
 ---
 
@@ -2191,7 +2317,7 @@ Whether to create a new range for pod IPs in this node pool.
 
 Defaults are provided for pod_range and pod_ipv4_cidr_block if they are not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#create_pod_range GoogleContainerNodePool#create_pod_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#create_pod_range GoogleContainerNodePool#create_pod_range}
 
 ---
 
@@ -2205,7 +2331,7 @@ EnablePrivateNodes interface{}
 
 Whether nodes have internal IP addresses only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enable_private_nodes GoogleContainerNodePool#enable_private_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enable_private_nodes GoogleContainerNodePool#enable_private_nodes}
 
 ---
 
@@ -2219,7 +2345,7 @@ NetworkPerformanceConfig GoogleContainerNodePoolNetworkConfigNetworkPerformanceC
 
 network_performance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#network_performance_config GoogleContainerNodePool#network_performance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#network_performance_config GoogleContainerNodePool#network_performance_config}
 
 ---
 
@@ -2233,7 +2359,7 @@ PodCidrOverprovisionConfig GoogleContainerNodePoolNetworkConfigPodCidrOverprovis
 
 pod_cidr_overprovision_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pod_cidr_overprovision_config GoogleContainerNodePool#pod_cidr_overprovision_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pod_cidr_overprovision_config GoogleContainerNodePool#pod_cidr_overprovision_config}
 
 ---
 
@@ -2249,7 +2375,7 @@ The IP address range for pod IPs in this node pool.
 
 Only applicable if create_pod_range is true. Set to blank to have a range chosen with the default size. Set to /netmask (e.g. /14) to have a range chosen with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) to pick a specific range to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pod_ipv4_cidr_block GoogleContainerNodePool#pod_ipv4_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pod_ipv4_cidr_block GoogleContainerNodePool#pod_ipv4_cidr_block}
 
 ---
 
@@ -2265,7 +2391,7 @@ The ID of the secondary range for pod IPs.
 
 If create_pod_range is true, this ID is used for the new range. If create_pod_range is false, uses an existing secondary range with this ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pod_range GoogleContainerNodePool#pod_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pod_range GoogleContainerNodePool#pod_range}
 
 ---
 
@@ -2281,7 +2407,7 @@ The subnetwork name/path for the node pool.
 
 Format: subnetwork or projects/{project}/regions/{region}/subnetworks/{subnetwork}. This value may be specified via the nested network_config block (setting this attribute directly is supported for backward compatibility). Once created the node pool's subnetwork is immutable. If not set, the provider/API will choose the subnetwork (e.g. based on IP utilization) and report it here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
 
 ---
 
@@ -2317,7 +2443,7 @@ Network *string
 
 Name of the VPC where the additional interface belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#network GoogleContainerNodePool#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#network GoogleContainerNodePool#network}
 
 ---
 
@@ -2331,7 +2457,7 @@ Subnetwork *string
 
 Name of the subnetwork where the additional interface belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
 
 ---
 
@@ -2369,7 +2495,7 @@ MaxPodsPerNode *f64
 
 The maximum number of pods per node which use this pod network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
 
 ---
 
@@ -2383,7 +2509,7 @@ SecondaryPodRange *string
 
 The name of the secondary range on the subnet which provides IP address for this pod range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#secondary_pod_range GoogleContainerNodePool#secondary_pod_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#secondary_pod_range GoogleContainerNodePool#secondary_pod_range}
 
 ---
 
@@ -2397,7 +2523,7 @@ Subnetwork *string
 
 Name of the subnetwork where the additional pod network belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
 
 ---
 
@@ -2431,7 +2557,7 @@ TotalEgressBandwidthTier *string
 
 Specifies the total network bandwidth tier for the NodePool. [Valid values](https://cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools#NodePool.Tier) include: "TIER_1" and "TIER_UNSPECIFIED".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#total_egress_bandwidth_tier GoogleContainerNodePool#total_egress_bandwidth_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#total_egress_bandwidth_tier GoogleContainerNodePool#total_egress_bandwidth_tier}
 
 ---
 
@@ -2451,7 +2577,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig.property.disabled">Disabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig.property.disabled">Disabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}. |
 
 ---
 
@@ -2463,7 +2589,7 @@ Disabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}.
 
 ---
 
@@ -2591,7 +2717,7 @@ AdvancedMachineFeatures GoogleContainerNodePoolNodeConfigAdvancedMachineFeatures
 
 advanced_machine_features block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#advanced_machine_features GoogleContainerNodePool#advanced_machine_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#advanced_machine_features GoogleContainerNodePool#advanced_machine_features}
 
 ---
 
@@ -2605,7 +2731,7 @@ BootDisk GoogleContainerNodePoolNodeConfigBootDisk
 
 boot_disk block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#boot_disk GoogleContainerNodePool#boot_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#boot_disk GoogleContainerNodePool#boot_disk}
 
 ---
 
@@ -2619,7 +2745,7 @@ BootDiskKmsKey *string
 
 The Customer Managed Encryption Key used to encrypt the boot disk attached to each node in the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#boot_disk_kms_key GoogleContainerNodePool#boot_disk_kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#boot_disk_kms_key GoogleContainerNodePool#boot_disk_kms_key}
 
 ---
 
@@ -2633,7 +2759,7 @@ ConfidentialNodes GoogleContainerNodePoolNodeConfigConfidentialNodes
 
 confidential_nodes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#confidential_nodes GoogleContainerNodePool#confidential_nodes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#confidential_nodes GoogleContainerNodePool#confidential_nodes}
 
 ---
 
@@ -2647,7 +2773,7 @@ ContainerdConfig GoogleContainerNodePoolNodeConfigContainerdConfig
 
 containerd_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#containerd_config GoogleContainerNodePool#containerd_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#containerd_config GoogleContainerNodePool#containerd_config}
 
 ---
 
@@ -2661,7 +2787,7 @@ DiskSizeGb *f64
 
 Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disk_size_gb GoogleContainerNodePool#disk_size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disk_size_gb GoogleContainerNodePool#disk_size_gb}
 
 ---
 
@@ -2675,7 +2801,7 @@ DiskType *string
 
 Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
 
 ---
 
@@ -2689,7 +2815,7 @@ EnableConfidentialStorage interface{}
 
 If enabled boot disks are configured with confidential mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enable_confidential_storage GoogleContainerNodePool#enable_confidential_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enable_confidential_storage GoogleContainerNodePool#enable_confidential_storage}
 
 ---
 
@@ -2703,7 +2829,7 @@ EphemeralStorageConfig GoogleContainerNodePoolNodeConfigEphemeralStorageConfig
 
 ephemeral_storage_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#ephemeral_storage_config GoogleContainerNodePool#ephemeral_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#ephemeral_storage_config GoogleContainerNodePool#ephemeral_storage_config}
 
 ---
 
@@ -2717,7 +2843,7 @@ EphemeralStorageLocalSsdConfig GoogleContainerNodePoolNodeConfigEphemeralStorage
 
 ephemeral_storage_local_ssd_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#ephemeral_storage_local_ssd_config GoogleContainerNodePool#ephemeral_storage_local_ssd_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#ephemeral_storage_local_ssd_config GoogleContainerNodePool#ephemeral_storage_local_ssd_config}
 
 ---
 
@@ -2731,7 +2857,7 @@ FastSocket GoogleContainerNodePoolNodeConfigFastSocket
 
 fast_socket block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#fast_socket GoogleContainerNodePool#fast_socket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#fast_socket GoogleContainerNodePool#fast_socket}
 
 ---
 
@@ -2745,7 +2871,7 @@ FlexStart interface{}
 
 Enables Flex Start provisioning model for the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#flex_start GoogleContainerNodePool#flex_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#flex_start GoogleContainerNodePool#flex_start}
 
 ---
 
@@ -2759,7 +2885,7 @@ GcfsConfig GoogleContainerNodePoolNodeConfigGcfsConfig
 
 gcfs_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gcfs_config GoogleContainerNodePool#gcfs_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcfs_config GoogleContainerNodePool#gcfs_config}
 
 ---
 
@@ -2773,7 +2899,7 @@ GpudirectStrategy *string
 
 The type of GPUDirect strategy to enable on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gpudirect_strategy GoogleContainerNodePool#gpudirect_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gpudirect_strategy GoogleContainerNodePool#gpudirect_strategy}
 
 ---
 
@@ -2787,7 +2913,7 @@ GuestAccelerator interface{}
 
 guest_accelerator block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#guest_accelerator GoogleContainerNodePool#guest_accelerator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#guest_accelerator GoogleContainerNodePool#guest_accelerator}
 
 ---
 
@@ -2801,7 +2927,7 @@ Gvnic GoogleContainerNodePoolNodeConfigGvnic
 
 gvnic block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gvnic GoogleContainerNodePool#gvnic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gvnic GoogleContainerNodePool#gvnic}
 
 ---
 
@@ -2815,7 +2941,7 @@ HostMaintenancePolicy GoogleContainerNodePoolNodeConfigHostMaintenancePolicy
 
 host_maintenance_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#host_maintenance_policy GoogleContainerNodePool#host_maintenance_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#host_maintenance_policy GoogleContainerNodePool#host_maintenance_policy}
 
 ---
 
@@ -2831,7 +2957,7 @@ The image type to use for this node.
 
 Note that for a given image type, the latest version of it will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#image_type GoogleContainerNodePool#image_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#image_type GoogleContainerNodePool#image_type}
 
 ---
 
@@ -2845,7 +2971,7 @@ KubeletConfig GoogleContainerNodePoolNodeConfigKubeletConfig
 
 kubelet_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#kubelet_config GoogleContainerNodePool#kubelet_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#kubelet_config GoogleContainerNodePool#kubelet_config}
 
 ---
 
@@ -2861,7 +2987,7 @@ The map of Kubernetes labels (key/value pairs) to be applied to each node.
 
 These will added in addition to any default label(s) that Kubernetes may apply to the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#labels GoogleContainerNodePool#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#labels GoogleContainerNodePool#labels}
 
 ---
 
@@ -2875,7 +3001,7 @@ LinuxNodeConfig GoogleContainerNodePoolNodeConfigLinuxNodeConfig
 
 linux_node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#linux_node_config GoogleContainerNodePool#linux_node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#linux_node_config GoogleContainerNodePool#linux_node_config}
 
 ---
 
@@ -2889,7 +3015,7 @@ LocalNvmeSsdBlockConfig GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig
 
 local_nvme_ssd_block_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#local_nvme_ssd_block_config GoogleContainerNodePool#local_nvme_ssd_block_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#local_nvme_ssd_block_config GoogleContainerNodePool#local_nvme_ssd_block_config}
 
 ---
 
@@ -2903,7 +3029,7 @@ LocalSsdCount *f64
 
 The number of local SSD disks to be attached to the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -2917,7 +3043,7 @@ LocalSsdEncryptionMode *string
 
 LocalSsdEncryptionMode specified the method used for encrypting the local SSDs attached to the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#local_ssd_encryption_mode GoogleContainerNodePool#local_ssd_encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#local_ssd_encryption_mode GoogleContainerNodePool#local_ssd_encryption_mode}
 
 ---
 
@@ -2933,7 +3059,7 @@ Type of logging agent that is used as the default value for node pools in the cl
 
 Valid values include DEFAULT and MAX_THROUGHPUT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#logging_variant GoogleContainerNodePool#logging_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#logging_variant GoogleContainerNodePool#logging_variant}
 
 ---
 
@@ -2947,7 +3073,7 @@ MachineType *string
 
 The name of a Google Compute Engine machine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#machine_type GoogleContainerNodePool#machine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#machine_type GoogleContainerNodePool#machine_type}
 
 ---
 
@@ -2961,7 +3087,7 @@ MaxRunDuration *string
 
 The runtime of each node in the node pool in seconds, terminated by 's'. Example: "3600s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_run_duration GoogleContainerNodePool#max_run_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_run_duration GoogleContainerNodePool#max_run_duration}
 
 ---
 
@@ -2975,7 +3101,7 @@ Metadata *map[string]*string
 
 The metadata key/value pairs assigned to instances in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#metadata GoogleContainerNodePool#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#metadata GoogleContainerNodePool#metadata}
 
 ---
 
@@ -2991,7 +3117,7 @@ Minimum CPU platform to be used by this instance.
 
 The instance may be scheduled on the specified or newer CPU platform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#min_cpu_platform GoogleContainerNodePool#min_cpu_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#min_cpu_platform GoogleContainerNodePool#min_cpu_platform}
 
 ---
 
@@ -3007,7 +3133,7 @@ Setting this field will assign instances of this pool to run on the specified no
 
 This is useful for running workloads on sole tenant nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_group GoogleContainerNodePool#node_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_group GoogleContainerNodePool#node_group}
 
 ---
 
@@ -3021,7 +3147,7 @@ NodeImageConfig interface{}
 
 node_image_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_image_config GoogleContainerNodePool#node_image_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_image_config GoogleContainerNodePool#node_image_config}
 
 ---
 
@@ -3035,7 +3161,7 @@ OauthScopes *[]*string
 
 The set of Google API scopes to be made available on all of the node VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#oauth_scopes GoogleContainerNodePool#oauth_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#oauth_scopes GoogleContainerNodePool#oauth_scopes}
 
 ---
 
@@ -3049,7 +3175,7 @@ Preemptible interface{}
 
 Whether the nodes are created as preemptible VM instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#preemptible GoogleContainerNodePool#preemptible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#preemptible GoogleContainerNodePool#preemptible}
 
 ---
 
@@ -3063,7 +3189,7 @@ ReservationAffinity GoogleContainerNodePoolNodeConfigReservationAffinity
 
 reservation_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#reservation_affinity GoogleContainerNodePool#reservation_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#reservation_affinity GoogleContainerNodePool#reservation_affinity}
 
 ---
 
@@ -3077,7 +3203,7 @@ ResourceLabels *map[string]*string
 
 The GCE resource labels (a map of key/value pairs) to be applied to the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#resource_labels GoogleContainerNodePool#resource_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#resource_labels GoogleContainerNodePool#resource_labels}
 
 ---
 
@@ -3093,7 +3219,7 @@ A map of resource manager tags.
 
 Resource manager tag keys and values have the same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/456. The field is ignored (both PUT & PATCH) when empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#resource_manager_tags GoogleContainerNodePool#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#resource_manager_tags GoogleContainerNodePool#resource_manager_tags}
 
 ---
 
@@ -3107,7 +3233,7 @@ SandboxConfig GoogleContainerNodePoolNodeConfigSandboxConfig
 
 sandbox_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#sandbox_config GoogleContainerNodePool#sandbox_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#sandbox_config GoogleContainerNodePool#sandbox_config}
 
 ---
 
@@ -3121,7 +3247,7 @@ SecondaryBootDisks interface{}
 
 secondary_boot_disks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#secondary_boot_disks GoogleContainerNodePool#secondary_boot_disks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#secondary_boot_disks GoogleContainerNodePool#secondary_boot_disks}
 
 ---
 
@@ -3135,7 +3261,7 @@ ServiceAccount *string
 
 The Google Cloud Platform Service Account to be used by the node VMs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#service_account GoogleContainerNodePool#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#service_account GoogleContainerNodePool#service_account}
 
 ---
 
@@ -3149,7 +3275,7 @@ ShieldedInstanceConfig GoogleContainerNodePoolNodeConfigShieldedInstanceConfig
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#shielded_instance_config GoogleContainerNodePool#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#shielded_instance_config GoogleContainerNodePool#shielded_instance_config}
 
 ---
 
@@ -3163,7 +3289,7 @@ SoleTenantConfig GoogleContainerNodePoolNodeConfigSoleTenantConfig
 
 sole_tenant_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#sole_tenant_config GoogleContainerNodePool#sole_tenant_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#sole_tenant_config GoogleContainerNodePool#sole_tenant_config}
 
 ---
 
@@ -3177,7 +3303,7 @@ Spot interface{}
 
 Whether the nodes are created as spot VM instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#spot GoogleContainerNodePool#spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#spot GoogleContainerNodePool#spot}
 
 ---
 
@@ -3191,7 +3317,7 @@ StoragePools *[]*string
 
 The list of Storage Pools where boot disks are provisioned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#storage_pools GoogleContainerNodePool#storage_pools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#storage_pools GoogleContainerNodePool#storage_pools}
 
 ---
 
@@ -3205,7 +3331,7 @@ Tags *[]*string
 
 The list of instance tags applied to all nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#tags GoogleContainerNodePool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#tags GoogleContainerNodePool#tags}
 
 ---
 
@@ -3219,7 +3345,7 @@ Taint interface{}
 
 taint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#taint GoogleContainerNodePool#taint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#taint GoogleContainerNodePool#taint}
 
 ---
 
@@ -3233,7 +3359,7 @@ TaintConfig GoogleContainerNodePoolNodeConfigTaintConfig
 
 taint_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#taint_config GoogleContainerNodePool#taint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#taint_config GoogleContainerNodePool#taint_config}
 
 ---
 
@@ -3247,7 +3373,7 @@ WindowsNodeConfig GoogleContainerNodePoolNodeConfigWindowsNodeConfig
 
 windows_node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#windows_node_config GoogleContainerNodePool#windows_node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#windows_node_config GoogleContainerNodePool#windows_node_config}
 
 ---
 
@@ -3261,7 +3387,7 @@ WorkloadMetadataConfig GoogleContainerNodePoolNodeConfigWorkloadMetadataConfig
 
 workload_metadata_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#workload_metadata_config GoogleContainerNodePool#workload_metadata_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#workload_metadata_config GoogleContainerNodePool#workload_metadata_config}
 
 ---
 
@@ -3301,7 +3427,7 @@ The number of threads per physical core.
 
 To disable simultaneous multithreading (SMT) set this to 1. If unset, the maximum number of threads supported per core by the underlying processor is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#threads_per_core GoogleContainerNodePool#threads_per_core}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#threads_per_core GoogleContainerNodePool#threads_per_core}
 
 ---
 
@@ -3315,7 +3441,7 @@ EnableNestedVirtualization interface{}
 
 Whether the node should have nested virtualization enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enable_nested_virtualization GoogleContainerNodePool#enable_nested_virtualization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enable_nested_virtualization GoogleContainerNodePool#enable_nested_virtualization}
 
 ---
 
@@ -3329,7 +3455,7 @@ PerformanceMonitoringUnit *string
 
 Level of Performance Monitoring Unit (PMU) requested. If unset, no access to the PMU is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#performance_monitoring_unit GoogleContainerNodePool#performance_monitoring_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#performance_monitoring_unit GoogleContainerNodePool#performance_monitoring_unit}
 
 ---
 
@@ -3369,7 +3495,7 @@ DiskType *string
 
 Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
 
 ---
 
@@ -3383,7 +3509,7 @@ ProvisionedIops *f64
 
 Configured IOPs provisioning. Only valid with disk type hyperdisk-balanced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#provisioned_iops GoogleContainerNodePool#provisioned_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#provisioned_iops GoogleContainerNodePool#provisioned_iops}
 
 ---
 
@@ -3397,7 +3523,7 @@ ProvisionedThroughput *f64
 
 Configured throughput provisioning. Only valid with disk type hyperdisk-balanced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#provisioned_throughput GoogleContainerNodePool#provisioned_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#provisioned_throughput GoogleContainerNodePool#provisioned_throughput}
 
 ---
 
@@ -3411,7 +3537,7 @@ SizeGb *f64
 
 Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#size_gb GoogleContainerNodePool#size_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#size_gb GoogleContainerNodePool#size_gb}
 
 ---
 
@@ -3447,7 +3573,7 @@ Enabled interface{}
 
 Whether Confidential Nodes feature is enabled for all nodes in this pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3461,7 +3587,7 @@ ConfidentialInstanceType *string
 
 Defines the type of technology used by the confidential node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#confidential_instance_type GoogleContainerNodePool#confidential_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#confidential_instance_type GoogleContainerNodePool#confidential_instance_type}
 
 ---
 
@@ -3499,7 +3625,7 @@ PrivateRegistryAccessConfig GoogleContainerNodePoolNodeConfigContainerdConfigPri
 
 private_registry_access_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#private_registry_access_config GoogleContainerNodePool#private_registry_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#private_registry_access_config GoogleContainerNodePool#private_registry_access_config}
 
 ---
 
@@ -3513,7 +3639,7 @@ RegistryHosts interface{}
 
 registry_hosts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#registry_hosts GoogleContainerNodePool#registry_hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#registry_hosts GoogleContainerNodePool#registry_hosts}
 
 ---
 
@@ -3527,7 +3653,7 @@ WritableCgroups GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups
 
 writable_cgroups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#writable_cgroups GoogleContainerNodePool#writable_cgroups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#writable_cgroups GoogleContainerNodePool#writable_cgroups}
 
 ---
 
@@ -3563,7 +3689,7 @@ Enabled interface{}
 
 Whether or not private registries are configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -3577,7 +3703,7 @@ CertificateAuthorityDomainConfig interface{}
 
 certificate_authority_domain_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#certificate_authority_domain_config GoogleContainerNodePool#certificate_authority_domain_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#certificate_authority_domain_config GoogleContainerNodePool#certificate_authority_domain_config}
 
 ---
 
@@ -3613,7 +3739,7 @@ Fqdns *[]*string
 
 List of fully-qualified-domain-names. IPv4s and port specification are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#fqdns GoogleContainerNodePool#fqdns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#fqdns GoogleContainerNodePool#fqdns}
 
 ---
 
@@ -3627,7 +3753,7 @@ GcpSecretManagerCertificateConfig GoogleContainerNodePoolNodeConfigContainerdCon
 
 gcp_secret_manager_certificate_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gcp_secret_manager_certificate_config GoogleContainerNodePool#gcp_secret_manager_certificate_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcp_secret_manager_certificate_config GoogleContainerNodePool#gcp_secret_manager_certificate_config}
 
 ---
 
@@ -3661,7 +3787,7 @@ SecretUri *string
 
 URI for the secret that hosts a certificate. Must be in the format 'projects/PROJECT_NUM/secrets/SECRET_NAME/versions/VERSION_OR_LATEST'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#secret_uri GoogleContainerNodePool#secret_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#secret_uri GoogleContainerNodePool#secret_uri}
 
 ---
 
@@ -3697,7 +3823,7 @@ Server *string
 
 Defines the host name of the registry server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#server GoogleContainerNodePool#server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#server GoogleContainerNodePool#server}
 
 ---
 
@@ -3711,7 +3837,7 @@ Hosts interface{}
 
 hosts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#hosts GoogleContainerNodePool#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#hosts GoogleContainerNodePool#hosts}
 
 ---
 
@@ -3757,7 +3883,7 @@ Host *string
 
 Configures the registry host/mirror.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#host GoogleContainerNodePool#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#host GoogleContainerNodePool#host}
 
 ---
 
@@ -3771,7 +3897,7 @@ Ca interface{}
 
 ca block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#ca GoogleContainerNodePool#ca}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#ca GoogleContainerNodePool#ca}
 
 ---
 
@@ -3785,7 +3911,7 @@ Capabilities *[]*string
 
 Represent the capabilities of the registry host, specifying what operations a host is capable of performing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#capabilities GoogleContainerNodePool#capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#capabilities GoogleContainerNodePool#capabilities}
 
 ---
 
@@ -3799,7 +3925,7 @@ Client interface{}
 
 client block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#client GoogleContainerNodePool#client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#client GoogleContainerNodePool#client}
 
 ---
 
@@ -3813,7 +3939,7 @@ DialTimeout *string
 
 Specifies the maximum duration allowed for a connection attempt to complete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#dial_timeout GoogleContainerNodePool#dial_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#dial_timeout GoogleContainerNodePool#dial_timeout}
 
 ---
 
@@ -3827,7 +3953,7 @@ Header interface{}
 
 header block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#header GoogleContainerNodePool#header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#header GoogleContainerNodePool#header}
 
 ---
 
@@ -3841,7 +3967,7 @@ OverridePath interface{}
 
 Indicate the host's API root endpoint is defined in the URL path rather than by the API specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#override_path GoogleContainerNodePool#override_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#override_path GoogleContainerNodePool#override_path}
 
 ---
 
@@ -3875,7 +4001,7 @@ GcpSecretManagerSecretUri *string
 
 URI for the Secret Manager secret that hosts the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
 
 ---
 
@@ -3911,7 +4037,7 @@ Cert GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCe
 
 cert block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#cert GoogleContainerNodePool#cert}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#cert GoogleContainerNodePool#cert}
 
 ---
 
@@ -3925,7 +4051,7 @@ Key GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey
 
 key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -3959,7 +4085,7 @@ GcpSecretManagerSecretUri *string
 
 URI for the Secret Manager secret that hosts the client certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
 
 ---
 
@@ -3993,7 +4119,7 @@ GcpSecretManagerSecretUri *string
 
 URI for the Secret Manager secret that hosts the private key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
 
 ---
 
@@ -4029,7 +4155,7 @@ Key *string
 
 Configures the header key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -4043,7 +4169,7 @@ Value *[]*string
 
 Configures the header value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
 
 ---
 
@@ -4077,7 +4203,7 @@ Enabled interface{}
 
 Whether writable cgroups are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -4126,7 +4252,7 @@ Number of local SSDs to use to back ephemeral storage.
 
 Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -4164,7 +4290,7 @@ Number of local SSDs to use to back ephemeral storage.
 
 Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -4178,7 +4304,7 @@ DataCacheCount *f64
 
 Number of local SSDs to be utilized for GKE Data Cache. Uses NVMe interfaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#data_cache_count GoogleContainerNodePool#data_cache_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#data_cache_count GoogleContainerNodePool#data_cache_count}
 
 ---
 
@@ -4212,7 +4338,7 @@ Enabled interface{}
 
 Whether or not NCCL Fast Socket is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -4246,7 +4372,7 @@ Enabled interface{}
 
 Whether or not GCFS is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -4288,7 +4414,7 @@ Count *f64
 
 The number of the accelerator cards exposed to an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#count GoogleContainerNodePool#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#count GoogleContainerNodePool#count}
 
 ---
 
@@ -4302,7 +4428,7 @@ Type *string
 
 The accelerator type resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
 
 ---
 
@@ -4316,7 +4442,7 @@ GpuDriverInstallationConfig GoogleContainerNodePoolNodeConfigGuestAcceleratorGpu
 
 gpu_driver_installation_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gpu_driver_installation_config GoogleContainerNodePool#gpu_driver_installation_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gpu_driver_installation_config GoogleContainerNodePool#gpu_driver_installation_config}
 
 ---
 
@@ -4330,7 +4456,7 @@ GpuPartitionSize *string
 
 Size of partitions to create on the GPU. Valid values are described in the NVIDIA mig user guide (https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#partitioning).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gpu_partition_size GoogleContainerNodePool#gpu_partition_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gpu_partition_size GoogleContainerNodePool#gpu_partition_size}
 
 ---
 
@@ -4344,7 +4470,7 @@ GpuSharingConfig GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConf
 
 gpu_sharing_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gpu_sharing_config GoogleContainerNodePool#gpu_sharing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gpu_sharing_config GoogleContainerNodePool#gpu_sharing_config}
 
 ---
 
@@ -4378,7 +4504,7 @@ GpuDriverVersion *string
 
 Mode for how the GPU driver is installed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gpu_driver_version GoogleContainerNodePool#gpu_driver_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gpu_driver_version GoogleContainerNodePool#gpu_driver_version}
 
 ---
 
@@ -4416,7 +4542,7 @@ The type of GPU sharing strategy to enable on the GPU node.
 
 Possible values are described in the API package (https://pkg.go.dev/google.golang.org/api/container/v1#GPUSharingConfig)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#gpu_sharing_strategy GoogleContainerNodePool#gpu_sharing_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gpu_sharing_strategy GoogleContainerNodePool#gpu_sharing_strategy}
 
 ---
 
@@ -4430,7 +4556,7 @@ MaxSharedClientsPerGpu *f64
 
 The maximum number of containers that can share a GPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_shared_clients_per_gpu GoogleContainerNodePool#max_shared_clients_per_gpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_shared_clients_per_gpu GoogleContainerNodePool#max_shared_clients_per_gpu}
 
 ---
 
@@ -4464,7 +4590,7 @@ Enabled interface{}
 
 Whether or not gvnic is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -4498,7 +4624,7 @@ MaintenanceInterval *string
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#maintenance_interval GoogleContainerNodePool#maintenance_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#maintenance_interval GoogleContainerNodePool#maintenance_interval}
 
 ---
 
@@ -4576,7 +4702,7 @@ AllowedUnsafeSysctls *[]*string
 
 Defines a comma-separated allowlist of unsafe sysctls or sysctl patterns which can be set on the Pods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#allowed_unsafe_sysctls GoogleContainerNodePool#allowed_unsafe_sysctls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#allowed_unsafe_sysctls GoogleContainerNodePool#allowed_unsafe_sysctls}
 
 ---
 
@@ -4590,7 +4716,7 @@ ContainerLogMaxFiles *f64
 
 Defines the maximum number of container log files that can be present for a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#container_log_max_files GoogleContainerNodePool#container_log_max_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#container_log_max_files GoogleContainerNodePool#container_log_max_files}
 
 ---
 
@@ -4604,7 +4730,7 @@ ContainerLogMaxSize *string
 
 Defines the maximum size of the container log file before it is rotated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#container_log_max_size GoogleContainerNodePool#container_log_max_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#container_log_max_size GoogleContainerNodePool#container_log_max_size}
 
 ---
 
@@ -4618,7 +4744,7 @@ CpuCfsQuota interface{}
 
 Enable CPU CFS quota enforcement for containers that specify CPU limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#cpu_cfs_quota GoogleContainerNodePool#cpu_cfs_quota}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#cpu_cfs_quota GoogleContainerNodePool#cpu_cfs_quota}
 
 ---
 
@@ -4632,7 +4758,7 @@ CpuCfsQuotaPeriod *string
 
 Set the CPU CFS quota period value 'cpu.cfs_period_us'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#cpu_cfs_quota_period GoogleContainerNodePool#cpu_cfs_quota_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#cpu_cfs_quota_period GoogleContainerNodePool#cpu_cfs_quota_period}
 
 ---
 
@@ -4646,7 +4772,7 @@ CpuManagerPolicy *string
 
 Control the CPU management policy on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#cpu_manager_policy GoogleContainerNodePool#cpu_manager_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#cpu_manager_policy GoogleContainerNodePool#cpu_manager_policy}
 
 ---
 
@@ -4660,7 +4786,7 @@ CrashLoopBackOff GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff
 
 crash_loop_back_off block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#crash_loop_back_off GoogleContainerNodePool#crash_loop_back_off}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#crash_loop_back_off GoogleContainerNodePool#crash_loop_back_off}
 
 ---
 
@@ -4674,7 +4800,7 @@ EvictionMaxPodGracePeriodSeconds *f64
 
 Defines the maximum allowed grace period (in seconds) to use when terminating pods in response to a soft eviction threshold being met.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#eviction_max_pod_grace_period_seconds GoogleContainerNodePool#eviction_max_pod_grace_period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#eviction_max_pod_grace_period_seconds GoogleContainerNodePool#eviction_max_pod_grace_period_seconds}
 
 ---
 
@@ -4688,7 +4814,7 @@ EvictionMinimumReclaim GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMin
 
 eviction_minimum_reclaim block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#eviction_minimum_reclaim GoogleContainerNodePool#eviction_minimum_reclaim}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#eviction_minimum_reclaim GoogleContainerNodePool#eviction_minimum_reclaim}
 
 ---
 
@@ -4702,7 +4828,7 @@ EvictionSoft GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoft
 
 eviction_soft block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#eviction_soft GoogleContainerNodePool#eviction_soft}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#eviction_soft GoogleContainerNodePool#eviction_soft}
 
 ---
 
@@ -4716,7 +4842,7 @@ EvictionSoftGracePeriod GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSo
 
 eviction_soft_grace_period block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#eviction_soft_grace_period GoogleContainerNodePool#eviction_soft_grace_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#eviction_soft_grace_period GoogleContainerNodePool#eviction_soft_grace_period}
 
 ---
 
@@ -4730,7 +4856,7 @@ ImageGcHighThresholdPercent *f64
 
 Defines the percent of disk usage after which image garbage collection is always run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#image_gc_high_threshold_percent GoogleContainerNodePool#image_gc_high_threshold_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#image_gc_high_threshold_percent GoogleContainerNodePool#image_gc_high_threshold_percent}
 
 ---
 
@@ -4746,7 +4872,7 @@ Defines the percent of disk usage before which image garbage collection is never
 
 Lowest disk usage to garbage collect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#image_gc_low_threshold_percent GoogleContainerNodePool#image_gc_low_threshold_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#image_gc_low_threshold_percent GoogleContainerNodePool#image_gc_low_threshold_percent}
 
 ---
 
@@ -4760,7 +4886,7 @@ ImageMaximumGcAge *string
 
 Defines the maximum age an image can be unused before it is garbage collected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#image_maximum_gc_age GoogleContainerNodePool#image_maximum_gc_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#image_maximum_gc_age GoogleContainerNodePool#image_maximum_gc_age}
 
 ---
 
@@ -4774,7 +4900,7 @@ ImageMinimumGcAge *string
 
 Defines the minimum age for an unused image before it is garbage collected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#image_minimum_gc_age GoogleContainerNodePool#image_minimum_gc_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#image_minimum_gc_age GoogleContainerNodePool#image_minimum_gc_age}
 
 ---
 
@@ -4790,7 +4916,7 @@ Controls whether the kubelet read-only port is enabled.
 
 It is strongly recommended to set this to `FALSE`. Possible values: `TRUE`, `FALSE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#insecure_kubelet_readonly_port_enabled GoogleContainerNodePool#insecure_kubelet_readonly_port_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#insecure_kubelet_readonly_port_enabled GoogleContainerNodePool#insecure_kubelet_readonly_port_enabled}
 
 ---
 
@@ -4804,7 +4930,7 @@ MaxParallelImagePulls *f64
 
 Set the maximum number of image pulls in parallel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_parallel_image_pulls GoogleContainerNodePool#max_parallel_image_pulls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_parallel_image_pulls GoogleContainerNodePool#max_parallel_image_pulls}
 
 ---
 
@@ -4818,7 +4944,7 @@ MemoryManager GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager
 
 memory_manager block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#memory_manager GoogleContainerNodePool#memory_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#memory_manager GoogleContainerNodePool#memory_manager}
 
 ---
 
@@ -4832,7 +4958,7 @@ PodPidsLimit *f64
 
 Controls the maximum number of processes allowed to run in a pod.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pod_pids_limit GoogleContainerNodePool#pod_pids_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pod_pids_limit GoogleContainerNodePool#pod_pids_limit}
 
 ---
 
@@ -4846,7 +4972,7 @@ ShutdownGracePeriodCriticalPodsSeconds *f64
 
 Controls the portion of total grace period (in seconds) that is specifically reserved for terminating critical pods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#shutdown_grace_period_critical_pods_seconds GoogleContainerNodePool#shutdown_grace_period_critical_pods_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#shutdown_grace_period_critical_pods_seconds GoogleContainerNodePool#shutdown_grace_period_critical_pods_seconds}
 
 ---
 
@@ -4860,7 +4986,7 @@ ShutdownGracePeriodSeconds *f64
 
 Controls the total duration of time (in seconds) the node delays shutdown.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#shutdown_grace_period_seconds GoogleContainerNodePool#shutdown_grace_period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#shutdown_grace_period_seconds GoogleContainerNodePool#shutdown_grace_period_seconds}
 
 ---
 
@@ -4874,7 +5000,7 @@ SingleProcessOomKill interface{}
 
 Defines whether to enable single process OOM killer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#single_process_oom_kill GoogleContainerNodePool#single_process_oom_kill}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#single_process_oom_kill GoogleContainerNodePool#single_process_oom_kill}
 
 ---
 
@@ -4888,7 +5014,7 @@ TopologyManager GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager
 
 topology_manager block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#topology_manager GoogleContainerNodePool#topology_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#topology_manager GoogleContainerNodePool#topology_manager}
 
 ---
 
@@ -4922,7 +5048,7 @@ MaxContainerRestartPeriod *string
 
 The maximum duration the backoff delay can accrue to for container restarts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_container_restart_period GoogleContainerNodePool#max_container_restart_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_container_restart_period GoogleContainerNodePool#max_container_restart_period}
 
 ---
 
@@ -4966,7 +5092,7 @@ ImagefsAvailable *string
 
 Defines percentage of minimum reclaim for imagefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
 
 ---
 
@@ -4980,7 +5106,7 @@ ImagefsInodesFree *string
 
 Defines percentage of minimum reclaim for imagefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
 
 ---
 
@@ -4994,7 +5120,7 @@ MemoryAvailable *string
 
 Defines percentage of minimum reclaim for memory.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
 
 ---
 
@@ -5008,7 +5134,7 @@ NodefsAvailable *string
 
 Defines percentage of minimum reclaim for nodefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
 
 ---
 
@@ -5022,7 +5148,7 @@ NodefsInodesFree *string
 
 Defines percentage of minimum reclaim for nodefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
 
 ---
 
@@ -5036,7 +5162,7 @@ PidAvailable *string
 
 Defines percentage of minimum reclaim for pid.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
 
 ---
 
@@ -5080,7 +5206,7 @@ ImagefsAvailable *string
 
 Defines percentage of soft eviction threshold for imagefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
 
 ---
 
@@ -5094,7 +5220,7 @@ ImagefsInodesFree *string
 
 Defines percentage of soft eviction threshold for imagefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
 
 ---
 
@@ -5108,7 +5234,7 @@ MemoryAvailable *string
 
 Defines quantity of soft eviction threshold for memory.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
 
 ---
 
@@ -5122,7 +5248,7 @@ NodefsAvailable *string
 
 Defines percentage of soft eviction threshold for nodefs.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
 
 ---
 
@@ -5136,7 +5262,7 @@ NodefsInodesFree *string
 
 Defines percentage of soft eviction threshold for nodefs.inodesFree.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
 
 ---
 
@@ -5150,7 +5276,7 @@ PidAvailable *string
 
 Defines percentage of soft eviction threshold for pid.available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
 
 ---
 
@@ -5194,7 +5320,7 @@ ImagefsAvailable *string
 
 Defines grace period for the imagefs.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
 
 ---
 
@@ -5208,7 +5334,7 @@ ImagefsInodesFree *string
 
 Defines grace period for the imagefs.inodesFree soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
 
 ---
 
@@ -5222,7 +5348,7 @@ MemoryAvailable *string
 
 Defines grace period for the memory.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
 
 ---
 
@@ -5236,7 +5362,7 @@ NodefsAvailable *string
 
 Defines grace period for the nodefs.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
 
 ---
 
@@ -5250,7 +5376,7 @@ NodefsInodesFree *string
 
 Defines grace period for the nodefs.inodesFree soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
 
 ---
 
@@ -5264,7 +5390,7 @@ PidAvailable *string
 
 Defines grace period for the pid.available soft eviction threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
 
 ---
 
@@ -5300,7 +5426,7 @@ The Memory Manager policy to use.
 
 This policy guides how memory and hugepages are allocated and managed for pods on the node, influencing NUMA affinity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
 
 ---
 
@@ -5336,7 +5462,7 @@ Policy *string
 
 The Topology Manager policy to use. This policy dictates how resource alignment is handled on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
 
 ---
 
@@ -5352,7 +5478,7 @@ The Topology Manager scope, defining the granularity at which policy decisions a
 
 Valid values are "container" (resources are aligned per container within a pod) or "pod" (resources are aligned for the entire pod).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#scope GoogleContainerNodePool#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#scope GoogleContainerNodePool#scope}
 
 ---
 
@@ -5366,6 +5492,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 &googlecontainernodepool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig {
 	AccurateTimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig,
 	CgroupMode: *string,
+	CustomNodeInit: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit,
 	HugepagesConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig,
 	NodeKernelModuleLoading: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading,
 	SwapConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig,
@@ -5381,6 +5508,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.accurateTimeConfig">AccurateTimeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a></code> | accurate_time_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.cgroupMode">CgroupMode</a></code> | <code>*string</code> | cgroupMode specifies the cgroup mode to be used on the node. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.customNodeInit">CustomNodeInit</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit</a></code> | custom_node_init block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.hugepagesConfig">HugepagesConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig</a></code> | hugepages_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.nodeKernelModuleLoading">NodeKernelModuleLoading</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a></code> | node_kernel_module_loading block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.swapConfig">SwapConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a></code> | swap_config block. |
@@ -5400,7 +5528,7 @@ AccurateTimeConfig GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeC
 
 accurate_time_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#accurate_time_config GoogleContainerNodePool#accurate_time_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#accurate_time_config GoogleContainerNodePool#accurate_time_config}
 
 ---
 
@@ -5414,7 +5542,21 @@ CgroupMode *string
 
 cgroupMode specifies the cgroup mode to be used on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#cgroup_mode GoogleContainerNodePool#cgroup_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#cgroup_mode GoogleContainerNodePool#cgroup_mode}
+
+---
+
+##### `CustomNodeInit`<sup>Optional</sup> <a name="CustomNodeInit" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfig.property.customNodeInit"></a>
+
+```go
+CustomNodeInit GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit</a>
+
+custom_node_init block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#custom_node_init GoogleContainerNodePool#custom_node_init}
 
 ---
 
@@ -5428,7 +5570,7 @@ HugepagesConfig GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig
 
 hugepages_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#hugepages_config GoogleContainerNodePool#hugepages_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#hugepages_config GoogleContainerNodePool#hugepages_config}
 
 ---
 
@@ -5442,7 +5584,7 @@ NodeKernelModuleLoading GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKern
 
 node_kernel_module_loading block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_kernel_module_loading GoogleContainerNodePool#node_kernel_module_loading}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_kernel_module_loading GoogleContainerNodePool#node_kernel_module_loading}
 
 ---
 
@@ -5456,7 +5598,7 @@ SwapConfig GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig
 
 swap_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#swap_config GoogleContainerNodePool#swap_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#swap_config GoogleContainerNodePool#swap_config}
 
 ---
 
@@ -5470,7 +5612,7 @@ Sysctls *map[string]*string
 
 The Linux kernel parameters to be applied to the nodes and all pods running on the nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#sysctls GoogleContainerNodePool#sysctls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#sysctls GoogleContainerNodePool#sysctls}
 
 ---
 
@@ -5484,7 +5626,7 @@ TransparentHugepageDefrag *string
 
 The Linux kernel transparent hugepage defrag setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#transparent_hugepage_defrag GoogleContainerNodePool#transparent_hugepage_defrag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#transparent_hugepage_defrag GoogleContainerNodePool#transparent_hugepage_defrag}
 
 ---
 
@@ -5498,7 +5640,7 @@ TransparentHugepageEnabled *string
 
 The Linux kernel transparent hugepage setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#transparent_hugepage_enabled GoogleContainerNodePool#transparent_hugepage_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#transparent_hugepage_enabled GoogleContainerNodePool#transparent_hugepage_enabled}
 
 ---
 
@@ -5532,7 +5674,107 @@ EnablePtpKvmTimeSync interface{}
 
 Whether to enable accurate time synchronization with PTP-KVM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enable_ptp_kvm_time_sync GoogleContainerNodePool#enable_ptp_kvm_time_sync}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enable_ptp_kvm_time_sync GoogleContainerNodePool#enable_ptp_kvm_time_sync}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+&googlecontainernodepool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit {
+	InitScript: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit.property.initScript">InitScript</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript</a></code> | init_script block. |
+
+---
+
+##### `InitScript`<sup>Optional</sup> <a name="InitScript" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit.property.initScript"></a>
+
+```go
+InitScript GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript</a>
+
+init_script block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#init_script GoogleContainerNodePool#init_script}
+
+---
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+&googlecontainernodepool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript {
+	GcpSecretManagerSecretUri: *string,
+	GcsGeneration: *f64,
+	GcsUri: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript.property.gcpSecretManagerSecretUri">GcpSecretManagerSecretUri</a></code> | <code>*string</code> | The Secret Manager secret URI of the init script. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript.property.gcsGeneration">GcsGeneration</a></code> | <code>*f64</code> | The GCS generation of the init script. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript.property.gcsUri">GcsUri</a></code> | <code>*string</code> | The GCS URI of the init script. |
+
+---
+
+##### `GcpSecretManagerSecretUri`<sup>Optional</sup> <a name="GcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript.property.gcpSecretManagerSecretUri"></a>
+
+```go
+GcpSecretManagerSecretUri *string
+```
+
+- *Type:* *string
+
+The Secret Manager secret URI of the init script.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+
+---
+
+##### `GcsGeneration`<sup>Optional</sup> <a name="GcsGeneration" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript.property.gcsGeneration"></a>
+
+```go
+GcsGeneration *f64
+```
+
+- *Type:* *f64
+
+The GCS generation of the init script.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcs_generation GoogleContainerNodePool#gcs_generation}
+
+---
+
+##### `GcsUri`<sup>Optional</sup> <a name="GcsUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript.property.gcsUri"></a>
+
+```go
+GcsUri *string
+```
+
+- *Type:* *string
+
+The GCS URI of the init script.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#gcs_uri GoogleContainerNodePool#gcs_uri}
 
 ---
 
@@ -5568,7 +5810,7 @@ HugepageSize1G *f64
 
 Amount of 1G hugepages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#hugepage_size_1g GoogleContainerNodePool#hugepage_size_1g}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#hugepage_size_1g GoogleContainerNodePool#hugepage_size_1g}
 
 ---
 
@@ -5582,7 +5824,7 @@ HugepageSize2M *f64
 
 Amount of 2M hugepages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#hugepage_size_2m GoogleContainerNodePool#hugepage_size_2m}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#hugepage_size_2m GoogleContainerNodePool#hugepage_size_2m}
 
 ---
 
@@ -5616,7 +5858,7 @@ Policy *string
 
 The policy for kernel module loading.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
 
 ---
 
@@ -5658,7 +5900,7 @@ BootDiskProfile GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDi
 
 boot_disk_profile block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#boot_disk_profile GoogleContainerNodePool#boot_disk_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#boot_disk_profile GoogleContainerNodePool#boot_disk_profile}
 
 ---
 
@@ -5672,7 +5914,7 @@ DedicatedLocalSsdProfile GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapCon
 
 dedicated_local_ssd_profile block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#dedicated_local_ssd_profile GoogleContainerNodePool#dedicated_local_ssd_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#dedicated_local_ssd_profile GoogleContainerNodePool#dedicated_local_ssd_profile}
 
 ---
 
@@ -5686,7 +5928,7 @@ Enabled interface{}
 
 Enables or disables swap for the node pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -5700,7 +5942,7 @@ EncryptionConfig GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncry
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#encryption_config GoogleContainerNodePool#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#encryption_config GoogleContainerNodePool#encryption_config}
 
 ---
 
@@ -5714,7 +5956,7 @@ EphemeralLocalSsdProfile GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapCon
 
 ephemeral_local_ssd_profile block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#ephemeral_local_ssd_profile GoogleContainerNodePool#ephemeral_local_ssd_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#ephemeral_local_ssd_profile GoogleContainerNodePool#ephemeral_local_ssd_profile}
 
 ---
 
@@ -5750,7 +5992,7 @@ SwapSizeGib *f64
 
 Specifies the size of the swap space in gibibytes (GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
 
 ---
 
@@ -5764,7 +6006,7 @@ SwapSizePercent *f64
 
 Specifies the size of the swap space as a percentage of the boot disk size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
 
 ---
 
@@ -5798,7 +6040,7 @@ DiskCount *f64
 
 The number of physical local NVMe SSD disks to attach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disk_count GoogleContainerNodePool#disk_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disk_count GoogleContainerNodePool#disk_count}
 
 ---
 
@@ -5832,7 +6074,7 @@ Disabled interface{}
 
 If true, swap space will not be encrypted. Defaults to false (encrypted).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}
 
 ---
 
@@ -5868,7 +6110,7 @@ SwapSizeGib *f64
 
 Specifies the size of the swap space in gibibytes (GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
 
 ---
 
@@ -5882,7 +6124,7 @@ SwapSizePercent *f64
 
 Specifies the size of the swap space as a percentage of the ephemeral local SSD capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
 
 ---
 
@@ -5918,7 +6160,7 @@ Number of raw-block local NVMe SSD disks to be attached to the node.
 
 Each local SSD is 375 GB in size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
 
 ---
 
@@ -5954,7 +6196,7 @@ Image *string
 
 The name of the image to use for this node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#image GoogleContainerNodePool#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#image GoogleContainerNodePool#image}
 
 ---
 
@@ -5968,7 +6210,7 @@ ImageProject *string
 
 The project containing the image to use for this node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#image_project GoogleContainerNodePool#image_project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#image_project GoogleContainerNodePool#image_project}
 
 ---
 
@@ -6006,7 +6248,7 @@ ConsumeReservationType *string
 
 Corresponds to the type of reservation consumption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#consume_reservation_type GoogleContainerNodePool#consume_reservation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#consume_reservation_type GoogleContainerNodePool#consume_reservation_type}
 
 ---
 
@@ -6020,7 +6262,7 @@ Key *string
 
 The label key of a reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -6034,7 +6276,7 @@ Values *[]*string
 
 The label values of the reservation resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
 
 ---
 
@@ -6070,7 +6312,7 @@ SandboxType *string
 
 Type of the sandbox to use for the node (e.g. 'gvisor'). Deprecated in favor of type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#sandbox_type GoogleContainerNodePool#sandbox_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#sandbox_type GoogleContainerNodePool#sandbox_type}
 
 ---
 
@@ -6084,7 +6326,7 @@ Type *string
 
 Type of the sandbox to use for the node (e.g. 'GVISOR').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
 
 ---
 
@@ -6120,7 +6362,7 @@ DiskImage *string
 
 Disk image to create the secondary boot disk from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#disk_image GoogleContainerNodePool#disk_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#disk_image GoogleContainerNodePool#disk_image}
 
 ---
 
@@ -6134,7 +6376,7 @@ Mode *string
 
 Mode for how the secondary boot disk is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
 
 ---
 
@@ -6170,7 +6412,7 @@ EnableIntegrityMonitoring interface{}
 
 Defines whether the instance has integrity monitoring enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enable_integrity_monitoring GoogleContainerNodePool#enable_integrity_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enable_integrity_monitoring GoogleContainerNodePool#enable_integrity_monitoring}
 
 ---
 
@@ -6184,7 +6426,7 @@ EnableSecureBoot interface{}
 
 Defines whether the instance has Secure Boot enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enable_secure_boot GoogleContainerNodePool#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enable_secure_boot GoogleContainerNodePool#enable_secure_boot}
 
 ---
 
@@ -6220,7 +6462,7 @@ NodeAffinity interface{}
 
 node_affinity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_affinity GoogleContainerNodePool#node_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_affinity GoogleContainerNodePool#node_affinity}
 
 ---
 
@@ -6236,7 +6478,7 @@ Specifies the minimum number of vCPUs that each sole tenant node must have to us
 
 If not specified, the CPU overcommit feature is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#min_node_cpus GoogleContainerNodePool#min_node_cpus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#min_node_cpus GoogleContainerNodePool#min_node_cpus}
 
 ---
 
@@ -6274,7 +6516,7 @@ Key *string
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -6288,7 +6530,7 @@ Operator *string
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#operator GoogleContainerNodePool#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#operator GoogleContainerNodePool#operator}
 
 ---
 
@@ -6302,7 +6544,7 @@ Values *[]*string
 
 .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
 
 ---
 
@@ -6340,7 +6582,7 @@ Effect *string
 
 Effect for taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#effect GoogleContainerNodePool#effect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#effect GoogleContainerNodePool#effect}
 
 ---
 
@@ -6354,7 +6596,7 @@ Key *string
 
 Key for taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
 
 ---
 
@@ -6368,7 +6610,7 @@ Value *string
 
 Value for taint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
 
 ---
 
@@ -6402,7 +6644,7 @@ ArchitectureTaintBehavior *string
 
 Architecture taint behavior. Controls, how we apply taints based on the node architecture.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#architecture_taint_behavior GoogleContainerNodePool#architecture_taint_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#architecture_taint_behavior GoogleContainerNodePool#architecture_taint_behavior}
 
 ---
 
@@ -6436,7 +6678,7 @@ Osversion *string
 
 The OS Version of the windows nodepool.Values are OS_VERSION_UNSPECIFIED,OS_VERSION_LTSC2019 and OS_VERSION_LTSC2022.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#osversion GoogleContainerNodePool#osversion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#osversion GoogleContainerNodePool#osversion}
 
 ---
 
@@ -6470,7 +6712,7 @@ Mode *string
 
 Mode is the configuration for how to expose metadata to workloads running on the node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
 
 ---
 
@@ -6508,7 +6750,7 @@ GraceTerminationDuration *string
 
 The duration of the grace termination period for node drain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#grace_termination_duration GoogleContainerNodePool#grace_termination_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#grace_termination_duration GoogleContainerNodePool#grace_termination_duration}
 
 ---
 
@@ -6522,7 +6764,7 @@ PdbTimeoutDuration *string
 
 The duration of the PDB timeout period for node drain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pdb_timeout_duration GoogleContainerNodePool#pdb_timeout_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#pdb_timeout_duration GoogleContainerNodePool#pdb_timeout_duration}
 
 ---
 
@@ -6536,7 +6778,7 @@ RespectPdbDuringNodePoolDeletion interface{}
 
 Whether to respect PodDisruptionBudget policy during node pool deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#respect_pdb_during_node_pool_deletion GoogleContainerNodePool#respect_pdb_during_node_pool_deletion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#respect_pdb_during_node_pool_deletion GoogleContainerNodePool#respect_pdb_during_node_pool_deletion}
 
 ---
 
@@ -6574,7 +6816,7 @@ Type *string
 
 Type defines the type of placement policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
 
 ---
 
@@ -6590,7 +6832,7 @@ If set, refers to the name of a custom resource policy supplied by the user.
 
 The resource policy must be in the same project and region as the node pool. If not found, InvalidArgument error is returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#policy_name GoogleContainerNodePool#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#policy_name GoogleContainerNodePool#policy_name}
 
 ---
 
@@ -6604,7 +6846,7 @@ TpuTopology *string
 
 The TPU topology like "2x4" or "2x2x2". https://cloud.google.com/kubernetes-engine/docs/concepts/plan-tpus#topology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#tpu_topology GoogleContainerNodePool#tpu_topology}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#tpu_topology GoogleContainerNodePool#tpu_topology}
 
 ---
 
@@ -6638,7 +6880,7 @@ Enabled interface{}
 
 Whether nodes in this node pool are obtainable solely through the ProvisioningRequest API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 
 ---
 
@@ -6660,9 +6902,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}. |
 
 ---
 
@@ -6674,7 +6916,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}.
 
 ---
 
@@ -6686,7 +6928,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}.
 
 ---
 
@@ -6698,7 +6940,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}.
 
 ---
 
@@ -6738,7 +6980,7 @@ BlueGreenSettings GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings
 
 blue_green_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#blue_green_settings GoogleContainerNodePool#blue_green_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#blue_green_settings GoogleContainerNodePool#blue_green_settings}
 
 ---
 
@@ -6754,7 +6996,7 @@ The number of additional nodes that can be added to the node pool during an upgr
 
 Increasing max_surge raises the number of nodes that can be upgraded simultaneously. Can be set to 0 or greater.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_surge GoogleContainerNodePool#max_surge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_surge GoogleContainerNodePool#max_surge}
 
 ---
 
@@ -6770,7 +7012,7 @@ The number of nodes that can be simultaneously unavailable during an upgrade.
 
 Increasing max_unavailable raises the number of nodes that can be upgraded in parallel. Can be set to 0 or greater.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#max_unavailable GoogleContainerNodePool#max_unavailable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#max_unavailable GoogleContainerNodePool#max_unavailable}
 
 ---
 
@@ -6784,7 +7026,7 @@ Strategy *string
 
 Update strategy for the given nodepool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#strategy GoogleContainerNodePool#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#strategy GoogleContainerNodePool#strategy}
 
 ---
 
@@ -6822,7 +7064,7 @@ AutoscaledRolloutPolicy GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsA
 
 autoscaled_rollout_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#autoscaled_rollout_policy GoogleContainerNodePool#autoscaled_rollout_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#autoscaled_rollout_policy GoogleContainerNodePool#autoscaled_rollout_policy}
 
 ---
 
@@ -6836,7 +7078,7 @@ NodePoolSoakDuration *string
 
 Time needed after draining entire blue pool. After this period, blue pool will be cleaned up.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#node_pool_soak_duration GoogleContainerNodePool#node_pool_soak_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#node_pool_soak_duration GoogleContainerNodePool#node_pool_soak_duration}
 
 ---
 
@@ -6850,7 +7092,7 @@ StandardRolloutPolicy GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsSta
 
 standard_rollout_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#standard_rollout_policy GoogleContainerNodePool#standard_rollout_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#standard_rollout_policy GoogleContainerNodePool#standard_rollout_policy}
 
 ---
 
@@ -6884,7 +7126,7 @@ WaitForDrainDuration *string
 
 Time in seconds to wait after cordoning the blue pool before draining the nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#wait_for_drain_duration GoogleContainerNodePool#wait_for_drain_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#wait_for_drain_duration GoogleContainerNodePool#wait_for_drain_duration}
 
 ---
 
@@ -6922,7 +7164,7 @@ BatchNodeCount *f64
 
 Number of blue nodes to drain in a batch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#batch_node_count GoogleContainerNodePool#batch_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#batch_node_count GoogleContainerNodePool#batch_node_count}
 
 ---
 
@@ -6936,7 +7178,7 @@ BatchPercentage *f64
 
 Percentage of the blue pool nodes to drain in a batch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#batch_percentage GoogleContainerNodePool#batch_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#batch_percentage GoogleContainerNodePool#batch_percentage}
 
 ---
 
@@ -6950,7 +7192,7 @@ BatchSoakDuration *string
 
 Soak time after each batch gets drained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#batch_soak_duration GoogleContainerNodePool#batch_soak_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool#batch_soak_duration GoogleContainerNodePool#batch_soak_duration}
 
 ---
 
@@ -7346,6 +7588,953 @@ func InternalValue() GoogleContainerNodePoolAutoscaling
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolAutoscaling">GoogleContainerNodePoolAutoscaling</a>
+
+---
+
+
+### GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList <a name="GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+googlecontainernodepool.NewGoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.get"></a>
+
+```go
+func Get(index *f64) GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference <a name="GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+googlecontainernodepool.NewGoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEnabled` <a name="ResetEnabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.resetEnabled"></a>
+
+```go
+func ResetEnabled()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.endTime">EndTime</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.startTime">StartTime</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.enabledInput">EnabledInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.enabled">Enabled</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EndTime`<sup>Required</sup> <a name="EndTime" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.endTime"></a>
+
+```go
+func EndTime() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `StartTime`<sup>Required</sup> <a name="StartTime" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.startTime"></a>
+
+```go
+func StartTime() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.enabledInput"></a>
+
+```go
+func EnabledInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.enabled"></a>
+
+```go
+func Enabled() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleContainerNodePoolMaintenancePolicyList <a name="GoogleContainerNodePoolMaintenancePolicyList" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+googlecontainernodepool.NewGoogleContainerNodePoolMaintenancePolicyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleContainerNodePoolMaintenancePolicyList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.get"></a>
+
+```go
+func Get(index *f64) GoogleContainerNodePoolMaintenancePolicyOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleContainerNodePoolMaintenancePolicyOutputReference <a name="GoogleContainerNodePoolMaintenancePolicyOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+googlecontainernodepool.NewGoogleContainerNodePoolMaintenancePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleContainerNodePoolMaintenancePolicyOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.putExclusionUntilEndOfSupport">PutExclusionUntilEndOfSupport</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.resetExclusionUntilEndOfSupport">ResetExclusionUntilEndOfSupport</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutExclusionUntilEndOfSupport` <a name="PutExclusionUntilEndOfSupport" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.putExclusionUntilEndOfSupport"></a>
+
+```go
+func PutExclusionUntilEndOfSupport(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.putExclusionUntilEndOfSupport.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `ResetExclusionUntilEndOfSupport` <a name="ResetExclusionUntilEndOfSupport" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.resetExclusionUntilEndOfSupport"></a>
+
+```go
+func ResetExclusionUntilEndOfSupport()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.exclusionUntilEndOfSupport">ExclusionUntilEndOfSupport</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList">GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.exclusionUntilEndOfSupportInput">ExclusionUntilEndOfSupportInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExclusionUntilEndOfSupport`<sup>Required</sup> <a name="ExclusionUntilEndOfSupport" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.exclusionUntilEndOfSupport"></a>
+
+```go
+func ExclusionUntilEndOfSupport() GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList">GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupportList</a>
+
+---
+
+##### `ExclusionUntilEndOfSupportInput`<sup>Optional</sup> <a name="ExclusionUntilEndOfSupportInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.exclusionUntilEndOfSupportInput"></a>
+
+```go
+func ExclusionUntilEndOfSupportInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolMaintenancePolicyOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -22293,6 +23482,633 @@ func InternalValue() GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTim
 ---
 
 
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+googlecontainernodepool.NewGoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resetGcpSecretManagerSecretUri">ResetGcpSecretManagerSecretUri</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resetGcsGeneration">ResetGcsGeneration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resetGcsUri">ResetGcsUri</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetGcpSecretManagerSecretUri` <a name="ResetGcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resetGcpSecretManagerSecretUri"></a>
+
+```go
+func ResetGcpSecretManagerSecretUri()
+```
+
+##### `ResetGcsGeneration` <a name="ResetGcsGeneration" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resetGcsGeneration"></a>
+
+```go
+func ResetGcsGeneration()
+```
+
+##### `ResetGcsUri` <a name="ResetGcsUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.resetGcsUri"></a>
+
+```go
+func ResetGcsUri()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcpSecretManagerSecretUriInput">GcpSecretManagerSecretUriInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsGenerationInput">GcsGenerationInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsUriInput">GcsUriInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcpSecretManagerSecretUri">GcpSecretManagerSecretUri</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsGeneration">GcsGeneration</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsUri">GcsUri</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `GcpSecretManagerSecretUriInput`<sup>Optional</sup> <a name="GcpSecretManagerSecretUriInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcpSecretManagerSecretUriInput"></a>
+
+```go
+func GcpSecretManagerSecretUriInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `GcsGenerationInput`<sup>Optional</sup> <a name="GcsGenerationInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsGenerationInput"></a>
+
+```go
+func GcsGenerationInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `GcsUriInput`<sup>Optional</sup> <a name="GcsUriInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsUriInput"></a>
+
+```go
+func GcsUriInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `GcpSecretManagerSecretUri`<sup>Required</sup> <a name="GcpSecretManagerSecretUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcpSecretManagerSecretUri"></a>
+
+```go
+func GcpSecretManagerSecretUri() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `GcsGeneration`<sup>Required</sup> <a name="GcsGeneration" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsGeneration"></a>
+
+```go
+func GcsGeneration() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `GcsUri`<sup>Required</sup> <a name="GcsUri" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.gcsUri"></a>
+
+```go
+func GcsUri() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript</a>
+
+---
+
+
+### GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainernodepool"
+
+googlecontainernodepool.NewGoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.putInitScript">PutInitScript</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.resetInitScript">ResetInitScript</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutInitScript` <a name="PutInitScript" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.putInitScript"></a>
+
+```go
+func PutInitScript(value GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.putInitScript.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript</a>
+
+---
+
+##### `ResetInitScript` <a name="ResetInitScript" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.resetInitScript"></a>
+
+```go
+func ResetInitScript()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.initScript">InitScript</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.initScriptInput">InitScriptInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InitScript`<sup>Required</sup> <a name="InitScript" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.initScript"></a>
+
+```go
+func InitScript() GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference</a>
+
+---
+
+##### `InitScriptInput`<sup>Optional</sup> <a name="InitScriptInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.initScriptInput"></a>
+
+```go
+func InitScriptInput() GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit</a>
+
+---
+
+
 ### GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference <a name="GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference.Initializer"></a>
@@ -22929,11 +24745,13 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putAccurateTimeConfig">PutAccurateTimeConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putCustomNodeInit">PutCustomNodeInit</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putHugepagesConfig">PutHugepagesConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putNodeKernelModuleLoading">PutNodeKernelModuleLoading</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putSwapConfig">PutSwapConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetAccurateTimeConfig">ResetAccurateTimeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetCgroupMode">ResetCgroupMode</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetCustomNodeInit">ResetCustomNodeInit</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetHugepagesConfig">ResetHugepagesConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetNodeKernelModuleLoading">ResetNodeKernelModuleLoading</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetSwapConfig">ResetSwapConfig</a></code> | *No description.* |
@@ -23105,6 +24923,18 @@ func PutAccurateTimeConfig(value GoogleContainerNodePoolNodeConfigLinuxNodeConfi
 
 ---
 
+##### `PutCustomNodeInit` <a name="PutCustomNodeInit" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putCustomNodeInit"></a>
+
+```go
+func PutCustomNodeInit(value GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putCustomNodeInit.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit</a>
+
+---
+
 ##### `PutHugepagesConfig` <a name="PutHugepagesConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.putHugepagesConfig"></a>
 
 ```go
@@ -23153,6 +24983,12 @@ func ResetAccurateTimeConfig()
 func ResetCgroupMode()
 ```
 
+##### `ResetCustomNodeInit` <a name="ResetCustomNodeInit" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetCustomNodeInit"></a>
+
+```go
+func ResetCustomNodeInit()
+```
+
 ##### `ResetHugepagesConfig` <a name="ResetHugepagesConfig" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.resetHugepagesConfig"></a>
 
 ```go
@@ -23197,11 +25033,13 @@ func ResetTransparentHugepageEnabled()
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.accurateTimeConfig">AccurateTimeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.customNodeInit">CustomNodeInit</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.hugepagesConfig">HugepagesConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.nodeKernelModuleLoading">NodeKernelModuleLoading</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.swapConfig">SwapConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.accurateTimeConfigInput">AccurateTimeConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.cgroupModeInput">CgroupModeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.customNodeInitInput">CustomNodeInitInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.hugepagesConfigInput">HugepagesConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.nodeKernelModuleLoadingInput">NodeKernelModuleLoadingInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading">GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.swapConfigInput">SwapConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig">GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig</a></code> | *No description.* |
@@ -23247,6 +25085,16 @@ func AccurateTimeConfig() GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccura
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference</a>
+
+---
+
+##### `CustomNodeInit`<sup>Required</sup> <a name="CustomNodeInit" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.customNodeInit"></a>
+
+```go
+func CustomNodeInit() GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference</a>
 
 ---
 
@@ -23297,6 +25145,16 @@ func CgroupModeInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `CustomNodeInitInput`<sup>Optional</sup> <a name="CustomNodeInitInput" id="@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference.property.customNodeInitInput"></a>
+
+```go
+func CustomNodeInitInput() GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleContainerNodePool.GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit">GoogleContainerNodePoolNodeConfigLinuxNodeConfigCustomNodeInit</a>
 
 ---
 

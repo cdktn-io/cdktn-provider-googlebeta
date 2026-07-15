@@ -4,7 +4,7 @@
 
 ### GoogleComputeBulkPerInstanceConfig <a name="GoogleComputeBulkPerInstanceConfig" id="@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfig.Initializer"></a>
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GoogleComputeBulkPerInstan
 
 The id of the existing GoogleComputeBulkPerInstanceConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -929,9 +929,9 @@ const googleComputeBulkPerInstanceConfigConfig: googleComputeBulkPerInstanceConf
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.instanceGroupManager">instanceGroupManager</a></code> | <code>string</code> | The instance group manager this instance config is part of. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#id GoogleComputeBulkPerInstanceConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#id GoogleComputeBulkPerInstanceConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.instances">instances</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigInstances">GoogleComputeBulkPerInstanceConfigInstances</a>[]</code> | instances block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#project GoogleComputeBulkPerInstanceConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#project GoogleComputeBulkPerInstanceConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigTimeouts">GoogleComputeBulkPerInstanceConfigTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigConfig.property.zone">zone</a></code> | <code>string</code> | Zone where the containing instance group manager is located. |
 
@@ -1017,7 +1017,7 @@ public readonly instanceGroupManager: string;
 
 The instance group manager this instance config is part of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#instance_group_manager GoogleComputeBulkPerInstanceConfig#instance_group_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#instance_group_manager GoogleComputeBulkPerInstanceConfig#instance_group_manager}
 
 ---
 
@@ -1039,7 +1039,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#deletion_policy GoogleComputeBulkPerInstanceConfig#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#deletion_policy GoogleComputeBulkPerInstanceConfig#deletion_policy}
 
 ---
 
@@ -1051,7 +1051,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#id GoogleComputeBulkPerInstanceConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#id GoogleComputeBulkPerInstanceConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1068,7 +1068,7 @@ public readonly instances: IResolvable | GoogleComputeBulkPerInstanceConfigInsta
 
 instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#instances GoogleComputeBulkPerInstanceConfig#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#instances GoogleComputeBulkPerInstanceConfig#instances}
 
 ---
 
@@ -1080,7 +1080,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#project GoogleComputeBulkPerInstanceConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#project GoogleComputeBulkPerInstanceConfig#project}.
 
 ---
 
@@ -1094,7 +1094,7 @@ public readonly timeouts: GoogleComputeBulkPerInstanceConfigTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#timeouts GoogleComputeBulkPerInstanceConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#timeouts GoogleComputeBulkPerInstanceConfig#timeouts}
 
 ---
 
@@ -1108,7 +1108,7 @@ public readonly zone: string;
 
 Zone where the containing instance group manager is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#zone GoogleComputeBulkPerInstanceConfig#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#zone GoogleComputeBulkPerInstanceConfig#zone}
 
 ---
 
@@ -1140,7 +1140,7 @@ public readonly name: string;
 
 The name for this per-instance config and its corresponding instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#name GoogleComputeBulkPerInstanceConfig#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#name GoogleComputeBulkPerInstanceConfig#name}
 
 ---
 
@@ -1158,8 +1158,8 @@ const googleComputeBulkPerInstanceConfigTimeouts: googleComputeBulkPerInstanceCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#create GoogleComputeBulkPerInstanceConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#delete GoogleComputeBulkPerInstanceConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#create GoogleComputeBulkPerInstanceConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeBulkPerInstanceConfig.GoogleComputeBulkPerInstanceConfigTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#delete GoogleComputeBulkPerInstanceConfig#delete}. |
 
 ---
 
@@ -1171,7 +1171,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#create GoogleComputeBulkPerInstanceConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#create GoogleComputeBulkPerInstanceConfig#create}.
 
 ---
 
@@ -1183,7 +1183,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_bulk_per_instance_config#delete GoogleComputeBulkPerInstanceConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_bulk_per_instance_config#delete GoogleComputeBulkPerInstanceConfig#delete}.
 
 ---
 

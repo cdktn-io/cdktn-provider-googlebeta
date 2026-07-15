@@ -4,7 +4,7 @@
 
 ### GoogleFirestoreField <a name="GoogleFirestoreField" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field google_firestore_field}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field google_firestore_field}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.Initializer"></a>
 
@@ -82,6 +82,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetIndexConfig">resetIndexConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetSkipWait">resetSkipWait</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetTtlConfig">resetTtlConfig</a></code> | *No description.* |
 
@@ -462,6 +463,12 @@ public resetIndexConfig(): void
 public resetProject(): void
 ```
 
+##### `resetSkipWait` <a name="resetSkipWait" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetSkipWait"></a>
+
+```typescript
+public resetSkipWait(): void
+```
+
 ##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.resetTimeouts"></a>
 
 ```typescript
@@ -577,7 +584,7 @@ The construct id used in the generated config for the GoogleFirestoreField to im
 
 The id of the existing GoogleFirestoreField that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -618,6 +625,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.indexConfigInput">indexConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfig">GoogleFirestoreFieldIndexConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.skipWaitInput">skipWaitInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts">GoogleFirestoreFieldTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.ttlConfigInput">ttlConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTtlConfig">GoogleFirestoreFieldTtlConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.collection">collection</a></code> | <code>string</code> | *No description.* |
@@ -626,6 +634,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.field">field</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.project">project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.skipWait">skipWait</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -881,6 +890,16 @@ public readonly projectInput: string;
 
 ---
 
+##### `skipWaitInput`<sup>Optional</sup> <a name="skipWaitInput" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.skipWaitInput"></a>
+
+```typescript
+public readonly skipWaitInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
 ##### `timeoutsInput`<sup>Optional</sup> <a name="timeoutsInput" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.timeoutsInput"></a>
 
 ```typescript
@@ -961,6 +980,16 @@ public readonly project: string;
 
 ---
 
+##### `skipWait`<sup>Required</sup> <a name="skipWait" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField.property.skipWait"></a>
+
+```typescript
+public readonly skipWait: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
 #### Constants <a name="Constants" id="Constants"></a>
 
 | **Name** | **Type** | **Description** |
@@ -1006,9 +1035,10 @@ const googleFirestoreFieldConfig: googleFirestoreField.GoogleFirestoreFieldConfi
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.field">field</a></code> | <code>string</code> | The id of the field to configure. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.database">database</a></code> | <code>string</code> | The Firestore database id. Defaults to '"(default)"'. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#id GoogleFirestoreField#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#id GoogleFirestoreField#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.indexConfig">indexConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfig">GoogleFirestoreFieldIndexConfig</a></code> | index_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#project GoogleFirestoreField#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#project GoogleFirestoreField#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.skipWait">skipWait</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether to skip waiting for the field operation to complete. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts">GoogleFirestoreFieldTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.ttlConfig">ttlConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTtlConfig">GoogleFirestoreFieldTtlConfig</a></code> | ttl_config block. |
 
@@ -1094,7 +1124,7 @@ public readonly collection: string;
 
 The id of the collection group to configure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#collection GoogleFirestoreField#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#collection GoogleFirestoreField#collection}
 
 ---
 
@@ -1108,7 +1138,7 @@ public readonly field: string;
 
 The id of the field to configure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#field GoogleFirestoreField#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#field GoogleFirestoreField#field}
 
 ---
 
@@ -1122,7 +1152,7 @@ public readonly database: string;
 
 The Firestore database id. Defaults to '"(default)"'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#database GoogleFirestoreField#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#database GoogleFirestoreField#database}
 
 ---
 
@@ -1144,7 +1174,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#deletion_policy GoogleFirestoreField#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#deletion_policy GoogleFirestoreField#deletion_policy}
 
 ---
 
@@ -1156,7 +1186,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#id GoogleFirestoreField#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#id GoogleFirestoreField#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1173,7 +1203,7 @@ public readonly indexConfig: GoogleFirestoreFieldIndexConfig;
 
 index_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#index_config GoogleFirestoreField#index_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#index_config GoogleFirestoreField#index_config}
 
 ---
 
@@ -1185,7 +1215,21 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#project GoogleFirestoreField#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#project GoogleFirestoreField#project}.
+
+---
+
+##### `skipWait`<sup>Optional</sup> <a name="skipWait" id="@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig.property.skipWait"></a>
+
+```typescript
+public readonly skipWait: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Whether to skip waiting for the field operation to complete.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#skip_wait GoogleFirestoreField#skip_wait}
 
 ---
 
@@ -1199,7 +1243,7 @@ public readonly timeouts: GoogleFirestoreFieldTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#timeouts GoogleFirestoreField#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#timeouts GoogleFirestoreField#timeouts}
 
 ---
 
@@ -1213,7 +1257,7 @@ public readonly ttlConfig: GoogleFirestoreFieldTtlConfig;
 
 ttl_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#ttl_config GoogleFirestoreField#ttl_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#ttl_config GoogleFirestoreField#ttl_config}
 
 ---
 
@@ -1245,7 +1289,7 @@ public readonly indexes: IResolvable | GoogleFirestoreFieldIndexConfigIndexes[];
 
 indexes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#indexes GoogleFirestoreField#indexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#indexes GoogleFirestoreField#indexes}
 
 ---
 
@@ -1279,7 +1323,7 @@ public readonly arrayConfig: string;
 
 Indicates that this field supports operations on arrayValues. Only one of 'order' and 'arrayConfig' can be specified. Possible values: ["CONTAINS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#array_config GoogleFirestoreField#array_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#array_config GoogleFirestoreField#array_config}
 
 ---
 
@@ -1293,7 +1337,7 @@ public readonly order: string;
 
 Indicates that this field supports ordering by the specified order or comparing using =, <, <=, >, >=, !=. Only one of 'order' and 'arrayConfig' can be specified. Possible values: ["ASCENDING", "DESCENDING"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#order GoogleFirestoreField#order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#order GoogleFirestoreField#order}
 
 ---
 
@@ -1311,7 +1355,7 @@ Collection scoped queries require you specify
 the collection at query time. Collection group scope allows queries across all
 collections with the same id. Default value: "COLLECTION" Possible values: ["COLLECTION", "COLLECTION_GROUP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#query_scope GoogleFirestoreField#query_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#query_scope GoogleFirestoreField#query_scope}
 
 ---
 
@@ -1329,9 +1373,9 @@ const googleFirestoreFieldTimeouts: googleFirestoreField.GoogleFirestoreFieldTim
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#create GoogleFirestoreField#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#delete GoogleFirestoreField#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#update GoogleFirestoreField#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#create GoogleFirestoreField#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#delete GoogleFirestoreField#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#update GoogleFirestoreField#update}. |
 
 ---
 
@@ -1343,7 +1387,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#create GoogleFirestoreField#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#create GoogleFirestoreField#create}.
 
 ---
 
@@ -1355,7 +1399,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#delete GoogleFirestoreField#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#delete GoogleFirestoreField#delete}.
 
 ---
 
@@ -1367,7 +1411,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#update GoogleFirestoreField#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#update GoogleFirestoreField#update}.
 
 ---
 
@@ -1401,7 +1445,7 @@ The offset, relative to the timestamp value from the field, used to determine th
 
 Formatted as the number of seconds followed by 's'. For example, "60s" represents an offset of one minute. The number of seconds must be between 1 and 2147483647 inclusive. To configure no offset, omit this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_firestore_field#expiration_offset GoogleFirestoreField#expiration_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_firestore_field#expiration_offset GoogleFirestoreField#expiration_offset}
 
 ---
 
