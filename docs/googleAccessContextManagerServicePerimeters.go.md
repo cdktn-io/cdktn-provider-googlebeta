@@ -4,7 +4,7 @@
 
 ### GoogleAccessContextManagerServicePerimeters <a name="GoogleAccessContextManagerServicePerimeters" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimeters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters google_access_context_manager_service_perimeters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters google_access_context_manager_service_perimeters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimeters.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the GoogleAccessContextManager
 
 The id of the existing GoogleAccessContextManagerServicePerimeters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -884,7 +884,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersConfig.property.parent">Parent</a></code> | <code>*string</code> | The AccessPolicy this ServicePerimeter lives in. Format: accessPolicies/{policy_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#id GoogleAccessContextManagerServicePerimeters#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#id GoogleAccessContextManagerServicePerimeters#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersConfig.property.servicePerimeters">ServicePerimeters</a></code> | <code>interface{}</code> | service_perimeters block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersTimeouts">GoogleAccessContextManagerServicePerimetersTimeouts</a></code> | timeouts block. |
 
@@ -970,7 +970,7 @@ Parent *string
 
 The AccessPolicy this ServicePerimeter lives in. Format: accessPolicies/{policy_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#parent GoogleAccessContextManagerServicePerimeters#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#parent GoogleAccessContextManagerServicePerimeters#parent}
 
 ---
 
@@ -991,7 +991,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#deletion_policy GoogleAccessContextManagerServicePerimeters#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#deletion_policy GoogleAccessContextManagerServicePerimeters#deletion_policy}
 
 ---
 
@@ -1003,7 +1003,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#id GoogleAccessContextManagerServicePerimeters#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#id GoogleAccessContextManagerServicePerimeters#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1020,7 +1020,7 @@ ServicePerimeters interface{}
 
 service_perimeters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#service_perimeters GoogleAccessContextManagerServicePerimeters#service_perimeters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service_perimeters GoogleAccessContextManagerServicePerimeters#service_perimeters}
 
 ---
 
@@ -1034,7 +1034,7 @@ Timeouts GoogleAccessContextManagerServicePerimetersTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#timeouts GoogleAccessContextManagerServicePerimeters#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#timeouts GoogleAccessContextManagerServicePerimeters#timeouts}
 
 ---
 
@@ -1080,7 +1080,7 @@ Name *string
 
 Resource name for the ServicePerimeter. The short_name component must begin with a letter and only include alphanumeric and '_'. Format: accessPolicies/{policy_id}/servicePerimeters/{short_name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#name GoogleAccessContextManagerServicePerimeters#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#name GoogleAccessContextManagerServicePerimeters#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ Title *string
 
 Human readable title. Must be unique within the Policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
 
 ---
 
@@ -1108,7 +1108,7 @@ Description *string
 
 Description of the ServicePerimeter and its use. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#description GoogleAccessContextManagerServicePerimeters#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#description GoogleAccessContextManagerServicePerimeters#description}
 
 ---
 
@@ -1139,7 +1139,7 @@ topologies with many independent perimeters that need to share some data
 with a common perimeter, but should not be able to share data among
 themselves. Default value: "PERIMETER_TYPE_REGULAR" Possible values: ["PERIMETER_TYPE_REGULAR", "PERIMETER_TYPE_BRIDGE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#perimeter_type GoogleAccessContextManagerServicePerimeters#perimeter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#perimeter_type GoogleAccessContextManagerServicePerimeters#perimeter_type}
 
 ---
 
@@ -1153,7 +1153,7 @@ Spec GoogleAccessContextManagerServicePerimetersServicePerimetersSpec
 
 spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#spec GoogleAccessContextManagerServicePerimeters#spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#spec GoogleAccessContextManagerServicePerimeters#spec}
 
 ---
 
@@ -1167,7 +1167,7 @@ Status GoogleAccessContextManagerServicePerimetersServicePerimetersStatus
 
 status block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#status GoogleAccessContextManagerServicePerimeters#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#status GoogleAccessContextManagerServicePerimeters#status}
 
 ---
 
@@ -1191,7 +1191,7 @@ actually enforcing them. This testing is done through analyzing the differences
 between currently enforced and suggested restrictions. useExplicitDryRunSpec must
 bet set to True if any of the fields in the spec are set to non-default values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#use_explicit_dry_run_spec GoogleAccessContextManagerServicePerimeters#use_explicit_dry_run_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#use_explicit_dry_run_spec GoogleAccessContextManagerServicePerimeters#use_explicit_dry_run_spec}
 
 ---
 
@@ -1244,7 +1244,7 @@ be empty.
 
 Format: accessPolicies/{policy_id}/accessLevels/{access_level_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#access_levels GoogleAccessContextManagerServicePerimeters#access_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#access_levels GoogleAccessContextManagerServicePerimeters#access_levels}
 
 ---
 
@@ -1258,7 +1258,7 @@ EgressPolicies interface{}
 
 egress_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#egress_policies GoogleAccessContextManagerServicePerimeters#egress_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#egress_policies GoogleAccessContextManagerServicePerimeters#egress_policies}
 
 ---
 
@@ -1272,7 +1272,7 @@ IngressPolicies interface{}
 
 ingress_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#ingress_policies GoogleAccessContextManagerServicePerimeters#ingress_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#ingress_policies GoogleAccessContextManagerServicePerimeters#ingress_policies}
 
 ---
 
@@ -1286,7 +1286,7 @@ Resources *[]*string
 
 A list of GCP resources that are inside of the service perimeter. Currently only projects are allowed. Format: projects/{project_number}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
 
 ---
 
@@ -1305,7 +1305,7 @@ Must contain a list of services. For example, if
 buckets inside the perimeter must meet the perimeter's access
 restrictions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#restricted_services GoogleAccessContextManagerServicePerimeters#restricted_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#restricted_services GoogleAccessContextManagerServicePerimeters#restricted_services}
 
 ---
 
@@ -1319,7 +1319,7 @@ VpcAccessibleServices GoogleAccessContextManagerServicePerimetersServicePerimete
 
 vpc_accessible_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#vpc_accessible_services GoogleAccessContextManagerServicePerimeters#vpc_accessible_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#vpc_accessible_services GoogleAccessContextManagerServicePerimeters#vpc_accessible_services}
 
 ---
 
@@ -1357,7 +1357,7 @@ EgressFrom GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgres
 
 egress_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#egress_from GoogleAccessContextManagerServicePerimeters#egress_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#egress_from GoogleAccessContextManagerServicePerimeters#egress_from}
 
 ---
 
@@ -1371,7 +1371,7 @@ EgressTo GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressP
 
 egress_to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#egress_to GoogleAccessContextManagerServicePerimeters#egress_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#egress_to GoogleAccessContextManagerServicePerimeters#egress_to}
 
 ---
 
@@ -1385,7 +1385,7 @@ Title *string
 
 Human readable title. Must be unique within the perimeter. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
 
 ---
 
@@ -1430,7 +1430,7 @@ are supported and other identity types are not supported.The v1 identities
 that have the prefix user, group and serviceAccount in
 https://cloud.google.com/iam/docs/principal-identifiers#v1 are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
 
 ---
 
@@ -1447,7 +1447,7 @@ Specifies the type of identities that are allowed access to outside the perimete
 If left unspecified, then members of 'identities' field will
 be allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
 
 ---
 
@@ -1463,7 +1463,7 @@ Whether to enforce traffic restrictions based on 'sources' field.
 
 If the 'sources' field is non-empty, then this field must be set to 'SOURCE_RESTRICTION_ENABLED'. Possible values: ["SOURCE_RESTRICTION_UNSPECIFIED", "SOURCE_RESTRICTION_ENABLED", "SOURCE_RESTRICTION_DISABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#source_restriction GoogleAccessContextManagerServicePerimeters#source_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#source_restriction GoogleAccessContextManagerServicePerimeters#source_restriction}
 
 ---
 
@@ -1477,7 +1477,7 @@ Sources interface{}
 
 sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
 
 ---
 
@@ -1490,6 +1490,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 
 &googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSources {
 	AccessLevel: *string,
+	PscEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint,
 	Resource: *string,
 }
 ```
@@ -1499,6 +1500,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSources.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSources.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint</a></code> | psc_endpoint block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSources.property.resource">Resource</a></code> | <code>*string</code> | A Google Cloud resource that is allowed to egress the perimeter. |
 
 ---
@@ -1513,7 +1515,21 @@ AccessLevel *string
 
 An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+
+---
+
+##### `PscEndpoint`<sup>Optional</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSources.property.pscEndpoint"></a>
+
+```go
+PscEndpoint GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint</a>
+
+psc_endpoint block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#psc_endpoint GoogleAccessContextManagerServicePerimeters#psc_endpoint}
 
 ---
 
@@ -1533,7 +1549,41 @@ The resource may be in any Google Cloud organization, not just the
 organization that the perimeter is defined in. '*' is not allowed, the
 case of allowing all Google Cloud resources only is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint {
+	ForwardingRule: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'. |
+
+---
+
+##### `ForwardingRule`<sup>Optional</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint.property.forwardingRule"></a>
+
+```go
+ForwardingRule *string
+```
+
+- *Type:* *string
+
+The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#forwarding_rule GoogleAccessContextManagerServicePerimeters#forwarding_rule}
 
 ---
 
@@ -1577,7 +1627,7 @@ A request
 matches if it contains an external resource in this list (Example:
 s3://bucket/path). Currently '*' is not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#external_resources GoogleAccessContextManagerServicePerimeters#external_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#external_resources GoogleAccessContextManagerServicePerimeters#external_resources}
 
 ---
 
@@ -1591,7 +1641,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
 
 ---
 
@@ -1610,7 +1660,7 @@ if it contains a resource in this list. If * is specified for resources,
 then this 'EgressTo' rule will authorize access to all resources outside
 the perimeter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
 
 ---
 
@@ -1624,7 +1674,7 @@ Roles *[]*string
 
 A list of IAM roles that represent the set of operations that the sources specified in the corresponding 'EgressFrom' are allowed to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
 
 ---
 
@@ -1660,7 +1710,7 @@ MethodSelectors interface{}
 
 method_selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
 
 ---
 
@@ -1677,7 +1727,7 @@ The name of the API whose methods or permissions the 'IngressPolicy' or 'EgressP
 A single 'ApiOperation' with serviceName
 field set to '*' will allow all methods AND permissions for all services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
 
 ---
 
@@ -1716,7 +1766,7 @@ Value for 'method' should be a valid method name for the corresponding 'serviceN
 If '*' used as value for method,
 then ALL methods and permissions are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
 
 ---
 
@@ -1730,7 +1780,7 @@ Permission *string
 
 Value for permission should be a valid Cloud IAM permission for the corresponding 'serviceName' in 'ApiOperation'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
 
 ---
 
@@ -1768,7 +1818,7 @@ IngressFrom GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngr
 
 ingress_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#ingress_from GoogleAccessContextManagerServicePerimeters#ingress_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#ingress_from GoogleAccessContextManagerServicePerimeters#ingress_from}
 
 ---
 
@@ -1782,7 +1832,7 @@ IngressTo GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngres
 
 ingress_to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#ingress_to GoogleAccessContextManagerServicePerimeters#ingress_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#ingress_to GoogleAccessContextManagerServicePerimeters#ingress_to}
 
 ---
 
@@ -1796,7 +1846,7 @@ Title *string
 
 Human readable title. Must be unique within the perimeter. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
 
 ---
 
@@ -1837,7 +1887,7 @@ A list of identities that are allowed access through this ingress policy.
 Should be in the format of email address. The email address should represent
 individual user or service account only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
 
 ---
 
@@ -1854,7 +1904,7 @@ Specifies the type of identities that are allowed access from outside the perime
 If left unspecified, then members of 'identities' field will be
 allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
 
 ---
 
@@ -1868,7 +1918,7 @@ Sources interface{}
 
 sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
 
 ---
 
@@ -1881,6 +1931,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 
 &googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSources {
 	AccessLevel: *string,
+	PscEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint,
 	Resource: *string,
 }
 ```
@@ -1890,6 +1941,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSources.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | An 'AccessLevel' resource name that allow resources within the 'ServicePerimeters' to be accessed from the internet. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSources.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint</a></code> | psc_endpoint block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSources.property.resource">Resource</a></code> | <code>*string</code> | A Google Cloud resource that is allowed to ingress the perimeter. |
 
 ---
@@ -1912,7 +1964,21 @@ with request origins within the perimeter.
 Example 'accessPolicies/MY_POLICY/accessLevels/MY_LEVEL.'
 If * is specified, then all IngressSources will be allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+
+---
+
+##### `PscEndpoint`<sup>Optional</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSources.property.pscEndpoint"></a>
+
+```go
+PscEndpoint GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint</a>
+
+psc_endpoint block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#psc_endpoint GoogleAccessContextManagerServicePerimeters#psc_endpoint}
 
 ---
 
@@ -1932,7 +1998,41 @@ The project may be in any Google Cloud organization, not just the
 organization that the perimeter is defined in. '*' is not allowed, the case
 of allowing all Google Cloud resources only is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint {
+	ForwardingRule: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'. |
+
+---
+
+##### `ForwardingRule`<sup>Optional</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint.property.forwardingRule"></a>
+
+```go
+ForwardingRule *string
+```
+
+- *Type:* *string
+
+The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#forwarding_rule GoogleAccessContextManagerServicePerimeters#forwarding_rule}
 
 ---
 
@@ -1970,7 +2070,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
 
 ---
 
@@ -1990,7 +2090,7 @@ then this 'IngressTo' rule will authorize access to all
 resources inside the perimeter, provided that the request
 also matches the 'operations' field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
 
 ---
 
@@ -2004,7 +2104,7 @@ Roles *[]*string
 
 A list of IAM roles that represent the set of operations that the sources specified in the corresponding 'IngressFrom' are allowed to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
 
 ---
 
@@ -2040,7 +2140,7 @@ MethodSelectors interface{}
 
 method_selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
 
 ---
 
@@ -2057,7 +2157,7 @@ The name of the API whose methods or permissions the 'IngressPolicy' or 'EgressP
 A single 'ApiOperation' with 'serviceName'
 field set to '*' will allow all methods AND permissions for all services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
 
 ---
 
@@ -2096,7 +2196,7 @@ Value for method should be a valid method name for the corresponding serviceName
 If '*' used as value for 'method', then
 ALL methods and permissions are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
 
 ---
 
@@ -2110,7 +2210,7 @@ Permission *string
 
 Value for permission should be a valid Cloud IAM permission for the corresponding 'serviceName' in 'ApiOperation'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
 
 ---
 
@@ -2122,8 +2222,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
 
 &googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices {
+	AllowedServicePatterns: interface{},
 	AllowedServices: *[]*string,
 	EnableRestriction: interface{},
+	ServicePatternsEnforcementScopes: *[]*string,
 }
 ```
 
@@ -2131,8 +2233,24 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices.property.allowedServicePatterns">AllowedServicePatterns</a></code> | <code>interface{}</code> | allowed_service_patterns block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices.property.allowedServices">AllowedServices</a></code> | <code>*[]*string</code> | The list of APIs usable within the Service Perimeter. Must be empty unless 'enableRestriction' is True. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices.property.enableRestriction">EnableRestriction</a></code> | <code>interface{}</code> | Whether to restrict API calls within the Service Perimeter to the list of APIs specified in 'allowedServices'. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices.property.servicePatternsEnforcementScopes">ServicePatternsEnforcementScopes</a></code> | <code>*[]*string</code> | Defines the enforcement scopes of service patterns. Possible values: ["GOOGLE_APIS_VIA_PRIVATE_PATH"]. |
+
+---
+
+##### `AllowedServicePatterns`<sup>Optional</sup> <a name="AllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices.property.allowedServicePatterns"></a>
+
+```go
+AllowedServicePatterns interface{}
+```
+
+- *Type:* interface{}
+
+allowed_service_patterns block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#allowed_service_patterns GoogleAccessContextManagerServicePerimeters#allowed_service_patterns}
 
 ---
 
@@ -2146,7 +2264,7 @@ AllowedServices *[]*string
 
 The list of APIs usable within the Service Perimeter. Must be empty unless 'enableRestriction' is True.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#allowed_services GoogleAccessContextManagerServicePerimeters#allowed_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#allowed_services GoogleAccessContextManagerServicePerimeters#allowed_services}
 
 ---
 
@@ -2160,7 +2278,171 @@ EnableRestriction interface{}
 
 Whether to restrict API calls within the Service Perimeter to the list of APIs specified in 'allowedServices'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#enable_restriction GoogleAccessContextManagerServicePerimeters#enable_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#enable_restriction GoogleAccessContextManagerServicePerimeters#enable_restriction}
+
+---
+
+##### `ServicePatternsEnforcementScopes`<sup>Optional</sup> <a name="ServicePatternsEnforcementScopes" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices.property.servicePatternsEnforcementScopes"></a>
+
+```go
+ServicePatternsEnforcementScopes *[]*string
+```
+
+- *Type:* *[]*string
+
+Defines the enforcement scopes of service patterns. Possible values: ["GOOGLE_APIS_VIA_PRIVATE_PATH"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service_patterns_enforcement_scopes GoogleAccessContextManagerServicePerimeters#service_patterns_enforcement_scopes}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns {
+	Modifiers: interface{},
+	Pattern: *string,
+	Service: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns.property.modifiers">Modifiers</a></code> | <code>interface{}</code> | modifiers block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns.property.pattern">Pattern</a></code> | <code>*string</code> | URL pattern to allow. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns.property.service">Service</a></code> | <code>*string</code> | Supported service to allow. |
+
+---
+
+##### `Modifiers`<sup>Optional</sup> <a name="Modifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns.property.modifiers"></a>
+
+```go
+Modifiers interface{}
+```
+
+- *Type:* interface{}
+
+modifiers block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#modifiers GoogleAccessContextManagerServicePerimeters#modifiers}
+
+---
+
+##### `Pattern`<sup>Optional</sup> <a name="Pattern" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns.property.pattern"></a>
+
+```go
+Pattern *string
+```
+
+- *Type:* *string
+
+URL pattern to allow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#pattern GoogleAccessContextManagerServicePerimeters#pattern}
+
+---
+
+##### `Service`<sup>Optional</sup> <a name="Service" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatterns.property.service"></a>
+
+```go
+Service *string
+```
+
+- *Type:* *string
+
+Supported service to allow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service GoogleAccessContextManagerServicePerimeters#service}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiers <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiers"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiers.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiers {
+	AddRequestHeader: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiers.property.addRequestHeader">AddRequestHeader</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a></code> | add_request_header block. |
+
+---
+
+##### `AddRequestHeader`<sup>Optional</sup> <a name="AddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiers.property.addRequestHeader"></a>
+
+```go
+AddRequestHeader GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+add_request_header block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#add_request_header GoogleAccessContextManagerServicePerimeters#add_request_header}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader {
+	Key: *string,
+	Value: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.key">Key</a></code> | <code>*string</code> | HTTP header key. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.value">Value</a></code> | <code>*string</code> | HTTP header value. |
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.key"></a>
+
+```go
+Key *string
+```
+
+- *Type:* *string
+
+HTTP header key.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#key GoogleAccessContextManagerServicePerimeters#key}
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.value"></a>
+
+```go
+Value *string
+```
+
+- *Type:* *string
+
+HTTP header value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#value GoogleAccessContextManagerServicePerimeters#value}
 
 ---
 
@@ -2213,7 +2495,7 @@ be empty.
 
 Format: accessPolicies/{policy_id}/accessLevels/{access_level_name}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#access_levels GoogleAccessContextManagerServicePerimeters#access_levels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#access_levels GoogleAccessContextManagerServicePerimeters#access_levels}
 
 ---
 
@@ -2227,7 +2509,7 @@ EgressPolicies interface{}
 
 egress_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#egress_policies GoogleAccessContextManagerServicePerimeters#egress_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#egress_policies GoogleAccessContextManagerServicePerimeters#egress_policies}
 
 ---
 
@@ -2241,7 +2523,7 @@ IngressPolicies interface{}
 
 ingress_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#ingress_policies GoogleAccessContextManagerServicePerimeters#ingress_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#ingress_policies GoogleAccessContextManagerServicePerimeters#ingress_policies}
 
 ---
 
@@ -2255,7 +2537,7 @@ Resources *[]*string
 
 A list of GCP resources that are inside of the service perimeter. Currently only projects are allowed. Format: projects/{project_number}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
 
 ---
 
@@ -2274,7 +2556,7 @@ Must contain a list of services. For example, if
 buckets inside the perimeter must meet the perimeter's access
 restrictions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#restricted_services GoogleAccessContextManagerServicePerimeters#restricted_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#restricted_services GoogleAccessContextManagerServicePerimeters#restricted_services}
 
 ---
 
@@ -2288,7 +2570,7 @@ VpcAccessibleServices GoogleAccessContextManagerServicePerimetersServicePerimete
 
 vpc_accessible_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#vpc_accessible_services GoogleAccessContextManagerServicePerimeters#vpc_accessible_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#vpc_accessible_services GoogleAccessContextManagerServicePerimeters#vpc_accessible_services}
 
 ---
 
@@ -2326,7 +2608,7 @@ EgressFrom GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgr
 
 egress_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#egress_from GoogleAccessContextManagerServicePerimeters#egress_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#egress_from GoogleAccessContextManagerServicePerimeters#egress_from}
 
 ---
 
@@ -2340,7 +2622,7 @@ EgressTo GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgres
 
 egress_to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#egress_to GoogleAccessContextManagerServicePerimeters#egress_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#egress_to GoogleAccessContextManagerServicePerimeters#egress_to}
 
 ---
 
@@ -2354,7 +2636,7 @@ Title *string
 
 Human readable title. Must be unique within the perimeter. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
 
 ---
 
@@ -2397,7 +2679,7 @@ A list of identities that are allowed access through this 'EgressPolicy'.
 Should be in the format of email address. The email address should
 represent individual user or service account only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
 
 ---
 
@@ -2414,7 +2696,7 @@ Specifies the type of identities that are allowed access to outside the perimete
 If left unspecified, then members of 'identities' field will
 be allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
 
 ---
 
@@ -2430,7 +2712,7 @@ Whether to enforce traffic restrictions based on 'sources' field.
 
 If the 'sources' field is non-empty, then this field must be set to 'SOURCE_RESTRICTION_ENABLED'. Possible values: ["SOURCE_RESTRICTION_UNSPECIFIED", "SOURCE_RESTRICTION_ENABLED", "SOURCE_RESTRICTION_DISABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#source_restriction GoogleAccessContextManagerServicePerimeters#source_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#source_restriction GoogleAccessContextManagerServicePerimeters#source_restriction}
 
 ---
 
@@ -2444,7 +2726,7 @@ Sources interface{}
 
 sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
 
 ---
 
@@ -2457,6 +2739,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 
 &googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSources {
 	AccessLevel: *string,
+	PscEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint,
 	Resource: *string,
 }
 ```
@@ -2466,6 +2749,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSources.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSources.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint</a></code> | psc_endpoint block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSources.property.resource">Resource</a></code> | <code>*string</code> | A Google Cloud resource that is allowed to egress the perimeter. |
 
 ---
@@ -2480,7 +2764,21 @@ AccessLevel *string
 
 An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+
+---
+
+##### `PscEndpoint`<sup>Optional</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSources.property.pscEndpoint"></a>
+
+```go
+PscEndpoint GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint</a>
+
+psc_endpoint block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#psc_endpoint GoogleAccessContextManagerServicePerimeters#psc_endpoint}
 
 ---
 
@@ -2500,7 +2798,41 @@ The resource may be in any Google Cloud organization, not just the
 organization that the perimeter is defined in. '*' is not allowed, the
 case of allowing all Google Cloud resources only is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint {
+	ForwardingRule: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'. |
+
+---
+
+##### `ForwardingRule`<sup>Optional</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint.property.forwardingRule"></a>
+
+```go
+ForwardingRule *string
+```
+
+- *Type:* *string
+
+The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#forwarding_rule GoogleAccessContextManagerServicePerimeters#forwarding_rule}
 
 ---
 
@@ -2544,7 +2876,7 @@ A request
 matches if it contains an external resource in this list (Example:
 s3://bucket/path). Currently '*' is not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#external_resources GoogleAccessContextManagerServicePerimeters#external_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#external_resources GoogleAccessContextManagerServicePerimeters#external_resources}
 
 ---
 
@@ -2558,7 +2890,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
 
 ---
 
@@ -2577,7 +2909,7 @@ if it contains a resource in this list. If * is specified for resources,
 then this 'EgressTo' rule will authorize access to all resources outside
 the perimeter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
 
 ---
 
@@ -2591,7 +2923,7 @@ Roles *[]*string
 
 A list of IAM roles that represent the set of operations that the sources specified in the corresponding 'EgressFrom' are allowed to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
 
 ---
 
@@ -2627,7 +2959,7 @@ MethodSelectors interface{}
 
 method_selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
 
 ---
 
@@ -2644,7 +2976,7 @@ The name of the API whose methods or permissions the 'IngressPolicy' or 'EgressP
 A single 'ApiOperation' with serviceName
 field set to '*' will allow all methods AND permissions for all services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
 
 ---
 
@@ -2683,7 +3015,7 @@ Value for 'method' should be a valid method name for the corresponding 'serviceN
 If '*' used as value for method,
 then ALL methods and permissions are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
 
 ---
 
@@ -2697,7 +3029,7 @@ Permission *string
 
 Value for permission should be a valid Cloud IAM permission for the corresponding 'serviceName' in 'ApiOperation'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
 
 ---
 
@@ -2735,7 +3067,7 @@ IngressFrom GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIn
 
 ingress_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#ingress_from GoogleAccessContextManagerServicePerimeters#ingress_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#ingress_from GoogleAccessContextManagerServicePerimeters#ingress_from}
 
 ---
 
@@ -2749,7 +3081,7 @@ IngressTo GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngr
 
 ingress_to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#ingress_to GoogleAccessContextManagerServicePerimeters#ingress_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#ingress_to GoogleAccessContextManagerServicePerimeters#ingress_to}
 
 ---
 
@@ -2763,7 +3095,7 @@ Title *string
 
 Human readable title. Must be unique within the perimeter. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#title GoogleAccessContextManagerServicePerimeters#title}
 
 ---
 
@@ -2804,7 +3136,7 @@ A list of identities that are allowed access through this ingress policy.
 Should be in the format of email address. The email address should represent
 individual user or service account only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identities GoogleAccessContextManagerServicePerimeters#identities}
 
 ---
 
@@ -2821,7 +3153,7 @@ Specifies the type of identities that are allowed access from outside the perime
 If left unspecified, then members of 'identities' field will be
 allowed access. Possible values: ["IDENTITY_TYPE_UNSPECIFIED", "ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#identity_type GoogleAccessContextManagerServicePerimeters#identity_type}
 
 ---
 
@@ -2835,7 +3167,7 @@ Sources interface{}
 
 sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#sources GoogleAccessContextManagerServicePerimeters#sources}
 
 ---
 
@@ -2848,6 +3180,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 
 &googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSources {
 	AccessLevel: *string,
+	PscEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint,
 	Resource: *string,
 }
 ```
@@ -2857,6 +3190,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSources.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | An 'AccessLevel' resource name that allow resources within the 'ServicePerimeters' to be accessed from the internet. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSources.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint</a></code> | psc_endpoint block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSources.property.resource">Resource</a></code> | <code>*string</code> | A Google Cloud resource that is allowed to ingress the perimeter. |
 
 ---
@@ -2879,7 +3213,21 @@ with request origins within the perimeter.
 Example 'accessPolicies/MY_POLICY/accessLevels/MY_LEVEL.'
 If * is specified, then all IngressSources will be allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#access_level GoogleAccessContextManagerServicePerimeters#access_level}
+
+---
+
+##### `PscEndpoint`<sup>Optional</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSources.property.pscEndpoint"></a>
+
+```go
+PscEndpoint GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint</a>
+
+psc_endpoint block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#psc_endpoint GoogleAccessContextManagerServicePerimeters#psc_endpoint}
 
 ---
 
@@ -2899,7 +3247,41 @@ The project may be in any Google Cloud organization, not just the
 organization that the perimeter is defined in. '*' is not allowed, the case
 of allowing all Google Cloud resources only is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resource GoogleAccessContextManagerServicePerimeters#resource}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint {
+	ForwardingRule: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'. |
+
+---
+
+##### `ForwardingRule`<sup>Optional</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint.property.forwardingRule"></a>
+
+```go
+ForwardingRule *string
+```
+
+- *Type:* *string
+
+The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#forwarding_rule GoogleAccessContextManagerServicePerimeters#forwarding_rule}
 
 ---
 
@@ -2937,7 +3319,7 @@ Operations interface{}
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#operations GoogleAccessContextManagerServicePerimeters#operations}
 
 ---
 
@@ -2957,7 +3339,7 @@ then this 'IngressTo' rule will authorize access to all
 resources inside the perimeter, provided that the request
 also matches the 'operations' field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#resources GoogleAccessContextManagerServicePerimeters#resources}
 
 ---
 
@@ -2971,7 +3353,7 @@ Roles *[]*string
 
 A list of IAM roles that represent the set of operations that the sources specified in the corresponding 'IngressFrom' are allowed to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#roles GoogleAccessContextManagerServicePerimeters#roles}
 
 ---
 
@@ -3007,7 +3389,7 @@ MethodSelectors interface{}
 
 method_selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method_selectors GoogleAccessContextManagerServicePerimeters#method_selectors}
 
 ---
 
@@ -3024,7 +3406,7 @@ The name of the API whose methods or permissions the 'IngressPolicy' or 'EgressP
 A single 'ApiOperation' with 'serviceName'
 field set to '*' will allow all methods AND permissions for all services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service_name GoogleAccessContextManagerServicePerimeters#service_name}
 
 ---
 
@@ -3063,7 +3445,7 @@ Value for method should be a valid method name for the corresponding serviceName
 If '*' used as value for 'method', then
 ALL methods and permissions are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#method GoogleAccessContextManagerServicePerimeters#method}
 
 ---
 
@@ -3077,7 +3459,7 @@ Permission *string
 
 Value for permission should be a valid Cloud IAM permission for the corresponding 'serviceName' in 'ApiOperation'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#permission GoogleAccessContextManagerServicePerimeters#permission}
 
 ---
 
@@ -3089,8 +3471,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
 
 &googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices {
+	AllowedServicePatterns: interface{},
 	AllowedServices: *[]*string,
 	EnableRestriction: interface{},
+	ServicePatternsEnforcementScopes: *[]*string,
 }
 ```
 
@@ -3098,8 +3482,24 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices.property.allowedServicePatterns">AllowedServicePatterns</a></code> | <code>interface{}</code> | allowed_service_patterns block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices.property.allowedServices">AllowedServices</a></code> | <code>*[]*string</code> | The list of APIs usable within the Service Perimeter. Must be empty unless 'enableRestriction' is True. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices.property.enableRestriction">EnableRestriction</a></code> | <code>interface{}</code> | Whether to restrict API calls within the Service Perimeter to the list of APIs specified in 'allowedServices'. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices.property.servicePatternsEnforcementScopes">ServicePatternsEnforcementScopes</a></code> | <code>*[]*string</code> | Defines the enforcement scopes of service patterns. Possible values: ["GOOGLE_APIS_VIA_PRIVATE_PATH"]. |
+
+---
+
+##### `AllowedServicePatterns`<sup>Optional</sup> <a name="AllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices.property.allowedServicePatterns"></a>
+
+```go
+AllowedServicePatterns interface{}
+```
+
+- *Type:* interface{}
+
+allowed_service_patterns block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#allowed_service_patterns GoogleAccessContextManagerServicePerimeters#allowed_service_patterns}
 
 ---
 
@@ -3113,7 +3513,7 @@ AllowedServices *[]*string
 
 The list of APIs usable within the Service Perimeter. Must be empty unless 'enableRestriction' is True.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#allowed_services GoogleAccessContextManagerServicePerimeters#allowed_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#allowed_services GoogleAccessContextManagerServicePerimeters#allowed_services}
 
 ---
 
@@ -3127,7 +3527,171 @@ EnableRestriction interface{}
 
 Whether to restrict API calls within the Service Perimeter to the list of APIs specified in 'allowedServices'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#enable_restriction GoogleAccessContextManagerServicePerimeters#enable_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#enable_restriction GoogleAccessContextManagerServicePerimeters#enable_restriction}
+
+---
+
+##### `ServicePatternsEnforcementScopes`<sup>Optional</sup> <a name="ServicePatternsEnforcementScopes" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices.property.servicePatternsEnforcementScopes"></a>
+
+```go
+ServicePatternsEnforcementScopes *[]*string
+```
+
+- *Type:* *[]*string
+
+Defines the enforcement scopes of service patterns. Possible values: ["GOOGLE_APIS_VIA_PRIVATE_PATH"].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service_patterns_enforcement_scopes GoogleAccessContextManagerServicePerimeters#service_patterns_enforcement_scopes}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns {
+	Modifiers: interface{},
+	Pattern: *string,
+	Service: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns.property.modifiers">Modifiers</a></code> | <code>interface{}</code> | modifiers block. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns.property.pattern">Pattern</a></code> | <code>*string</code> | URL pattern to allow. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns.property.service">Service</a></code> | <code>*string</code> | Supported service to allow. |
+
+---
+
+##### `Modifiers`<sup>Optional</sup> <a name="Modifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns.property.modifiers"></a>
+
+```go
+Modifiers interface{}
+```
+
+- *Type:* interface{}
+
+modifiers block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#modifiers GoogleAccessContextManagerServicePerimeters#modifiers}
+
+---
+
+##### `Pattern`<sup>Optional</sup> <a name="Pattern" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns.property.pattern"></a>
+
+```go
+Pattern *string
+```
+
+- *Type:* *string
+
+URL pattern to allow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#pattern GoogleAccessContextManagerServicePerimeters#pattern}
+
+---
+
+##### `Service`<sup>Optional</sup> <a name="Service" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatterns.property.service"></a>
+
+```go
+Service *string
+```
+
+- *Type:* *string
+
+Supported service to allow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#service GoogleAccessContextManagerServicePerimeters#service}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiers <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiers"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiers.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiers {
+	AddRequestHeader: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiers.property.addRequestHeader">AddRequestHeader</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a></code> | add_request_header block. |
+
+---
+
+##### `AddRequestHeader`<sup>Optional</sup> <a name="AddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiers.property.addRequestHeader"></a>
+
+```go
+AddRequestHeader GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+add_request_header block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#add_request_header GoogleAccessContextManagerServicePerimeters#add_request_header}
+
+---
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+&googleaccesscontextmanagerserviceperimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader {
+	Key: *string,
+	Value: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.key">Key</a></code> | <code>*string</code> | HTTP header key. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.value">Value</a></code> | <code>*string</code> | HTTP header value. |
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.key"></a>
+
+```go
+Key *string
+```
+
+- *Type:* *string
+
+HTTP header key.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#key GoogleAccessContextManagerServicePerimeters#key}
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader.property.value"></a>
+
+```go
+Value *string
+```
+
+- *Type:* *string
+
+HTTP header value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#value GoogleAccessContextManagerServicePerimeters#value}
 
 ---
 
@@ -3149,9 +3713,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#create GoogleAccessContextManagerServicePerimeters#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#delete GoogleAccessContextManagerServicePerimeters#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#update GoogleAccessContextManagerServicePerimeters#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#create GoogleAccessContextManagerServicePerimeters#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#delete GoogleAccessContextManagerServicePerimeters#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#update GoogleAccessContextManagerServicePerimeters#update}. |
 
 ---
 
@@ -3163,7 +3727,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#create GoogleAccessContextManagerServicePerimeters#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#create GoogleAccessContextManagerServicePerimeters#create}.
 
 ---
 
@@ -3175,7 +3739,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#delete GoogleAccessContextManagerServicePerimeters#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#delete GoogleAccessContextManagerServicePerimeters#delete}.
 
 ---
 
@@ -3187,7 +3751,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeters#update GoogleAccessContextManagerServicePerimeters#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeters#update GoogleAccessContextManagerServicePerimeters#update}.
 
 ---
 
@@ -4463,7 +5027,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.putPscEndpoint">PutPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.resetAccessLevel">ResetAccessLevel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.resetPscEndpoint">ResetPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.resetResource">ResetResource</a></code> | *No description.* |
 
 ---
@@ -4618,10 +5184,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutPscEndpoint` <a name="PutPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.putPscEndpoint"></a>
+
+```go
+func PutPscEndpoint(value GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.putPscEndpoint.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint</a>
+
+---
+
 ##### `ResetAccessLevel` <a name="ResetAccessLevel" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.resetAccessLevel"></a>
 
 ```go
 func ResetAccessLevel()
+```
+
+##### `ResetPscEndpoint` <a name="ResetPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.resetPscEndpoint"></a>
+
+```go
+func ResetPscEndpoint()
 ```
 
 ##### `ResetResource` <a name="ResetResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.resetResource"></a>
@@ -4637,7 +5221,9 @@ func ResetResource()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.accessLevelInput">AccessLevelInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpointInput">PscEndpointInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.resourceInput">ResourceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.resource">Resource</a></code> | <code>*string</code> | *No description.* |
@@ -4669,6 +5255,16 @@ func Fqn() *string
 
 ---
 
+##### `PscEndpoint`<sup>Required</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpoint"></a>
+
+```go
+func PscEndpoint() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference</a>
+
+---
+
 ##### `AccessLevelInput`<sup>Optional</sup> <a name="AccessLevelInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.accessLevelInput"></a>
 
 ```go
@@ -4676,6 +5272,16 @@ func AccessLevelInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `PscEndpointInput`<sup>Optional</sup> <a name="PscEndpointInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpointInput"></a>
+
+```go
+func PscEndpointInput() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -4716,6 +5322,284 @@ func InternalValue() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resetForwardingRule">ResetForwardingRule</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetForwardingRule` <a name="ResetForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resetForwardingRule"></a>
+
+```go
+func ResetForwardingRule()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput">ForwardingRuleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRuleInput`<sup>Optional</sup> <a name="ForwardingRuleInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput"></a>
+
+```go
+func ForwardingRuleInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRule`<sup>Required</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRule"></a>
+
+```go
+func ForwardingRule() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecEgressPoliciesEgressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -7198,7 +8082,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.putPscEndpoint">PutPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.resetAccessLevel">ResetAccessLevel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.resetPscEndpoint">ResetPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.resetResource">ResetResource</a></code> | *No description.* |
 
 ---
@@ -7353,10 +8239,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutPscEndpoint` <a name="PutPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.putPscEndpoint"></a>
+
+```go
+func PutPscEndpoint(value GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.putPscEndpoint.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint</a>
+
+---
+
 ##### `ResetAccessLevel` <a name="ResetAccessLevel" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.resetAccessLevel"></a>
 
 ```go
 func ResetAccessLevel()
+```
+
+##### `ResetPscEndpoint` <a name="ResetPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.resetPscEndpoint"></a>
+
+```go
+func ResetPscEndpoint()
 ```
 
 ##### `ResetResource` <a name="ResetResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.resetResource"></a>
@@ -7372,7 +8276,9 @@ func ResetResource()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.accessLevelInput">AccessLevelInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpointInput">PscEndpointInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.resourceInput">ResourceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.resource">Resource</a></code> | <code>*string</code> | *No description.* |
@@ -7404,6 +8310,16 @@ func Fqn() *string
 
 ---
 
+##### `PscEndpoint`<sup>Required</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpoint"></a>
+
+```go
+func PscEndpoint() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference</a>
+
+---
+
 ##### `AccessLevelInput`<sup>Optional</sup> <a name="AccessLevelInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.accessLevelInput"></a>
 
 ```go
@@ -7411,6 +8327,16 @@ func AccessLevelInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `PscEndpointInput`<sup>Optional</sup> <a name="PscEndpointInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpointInput"></a>
+
+```go
+func PscEndpointInput() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -7451,6 +8377,284 @@ func InternalValue() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resetForwardingRule">ResetForwardingRule</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetForwardingRule` <a name="ResetForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resetForwardingRule"></a>
+
+```go
+func ResetForwardingRule()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput">ForwardingRuleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRuleInput`<sup>Optional</sup> <a name="ForwardingRuleInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput"></a>
+
+```go
+func ForwardingRuleInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRule`<sup>Required</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRule"></a>
+
+```go
+func ForwardingRule() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecIngressPoliciesIngressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -9789,6 +10993,1295 @@ func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimeter
 ---
 
 
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.get"></a>
+
+```go
+func Get(index *f64) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.keyInput">KeyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.valueInput">ValueInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.key">Key</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KeyInput`<sup>Optional</sup> <a name="KeyInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.keyInput"></a>
+
+```go
+func KeyInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ValueInput`<sup>Optional</sup> <a name="ValueInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.valueInput"></a>
+
+```go
+func ValueInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.key"></a>
+
+```go
+func Key() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.value"></a>
+
+```go
+func Value() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.get"></a>
+
+```go
+func Get(index *f64) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.putAddRequestHeader">PutAddRequestHeader</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resetAddRequestHeader">ResetAddRequestHeader</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutAddRequestHeader` <a name="PutAddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.putAddRequestHeader"></a>
+
+```go
+func PutAddRequestHeader(value GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.putAddRequestHeader.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+---
+
+##### `ResetAddRequestHeader` <a name="ResetAddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resetAddRequestHeader"></a>
+
+```go
+func ResetAddRequestHeader()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeader">AddRequestHeader</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeaderInput">AddRequestHeaderInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AddRequestHeader`<sup>Required</sup> <a name="AddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeader"></a>
+
+```go
+func AddRequestHeader() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference</a>
+
+---
+
+##### `AddRequestHeaderInput`<sup>Optional</sup> <a name="AddRequestHeaderInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeaderInput"></a>
+
+```go
+func AddRequestHeaderInput() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.putModifiers">PutModifiers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resetModifiers">ResetModifiers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resetPattern">ResetPattern</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resetService">ResetService</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutModifiers` <a name="PutModifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.putModifiers"></a>
+
+```go
+func PutModifiers(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.putModifiers.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `ResetModifiers` <a name="ResetModifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resetModifiers"></a>
+
+```go
+func ResetModifiers()
+```
+
+##### `ResetPattern` <a name="ResetPattern" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resetPattern"></a>
+
+```go
+func ResetPattern()
+```
+
+##### `ResetService` <a name="ResetService" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.resetService"></a>
+
+```go
+func ResetService()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiers">Modifiers</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiersInput">ModifiersInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.patternInput">PatternInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.serviceInput">ServiceInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.pattern">Pattern</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.service">Service</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Modifiers`<sup>Required</sup> <a name="Modifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiers"></a>
+
+```go
+func Modifiers() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsModifiersList</a>
+
+---
+
+##### `ModifiersInput`<sup>Optional</sup> <a name="ModifiersInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiersInput"></a>
+
+```go
+func ModifiersInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `PatternInput`<sup>Optional</sup> <a name="PatternInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.patternInput"></a>
+
+```go
+func PatternInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ServiceInput`<sup>Optional</sup> <a name="ServiceInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.serviceInput"></a>
+
+```go
+func ServiceInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Pattern`<sup>Required</sup> <a name="Pattern" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.pattern"></a>
+
+```go
+func Pattern() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Service`<sup>Required</sup> <a name="Service" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.service"></a>
+
+```go
+func Service() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
 ### GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.Initializer"></a>
@@ -9839,8 +12332,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.putAllowedServicePatterns">PutAllowedServicePatterns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resetAllowedServicePatterns">ResetAllowedServicePatterns</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resetAllowedServices">ResetAllowedServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resetEnableRestriction">ResetEnableRestriction</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resetServicePatternsEnforcementScopes">ResetServicePatternsEnforcementScopes</a></code> | *No description.* |
 
 ---
 
@@ -9994,6 +12490,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutAllowedServicePatterns` <a name="PutAllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.putAllowedServicePatterns"></a>
+
+```go
+func PutAllowedServicePatterns(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.putAllowedServicePatterns.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `ResetAllowedServicePatterns` <a name="ResetAllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resetAllowedServicePatterns"></a>
+
+```go
+func ResetAllowedServicePatterns()
+```
+
 ##### `ResetAllowedServices` <a name="ResetAllowedServices" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resetAllowedServices"></a>
 
 ```go
@@ -10006,6 +12520,12 @@ func ResetAllowedServices()
 func ResetEnableRestriction()
 ```
 
+##### `ResetServicePatternsEnforcementScopes` <a name="ResetServicePatternsEnforcementScopes" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.resetServicePatternsEnforcementScopes"></a>
+
+```go
+func ResetServicePatternsEnforcementScopes()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -10013,10 +12533,14 @@ func ResetEnableRestriction()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServicePatterns">AllowedServicePatterns</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServicePatternsInput">AllowedServicePatternsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServicesInput">AllowedServicesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.enableRestrictionInput">EnableRestrictionInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopesInput">ServicePatternsEnforcementScopesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServices">AllowedServices</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.enableRestriction">EnableRestriction</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopes">ServicePatternsEnforcementScopes</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServices</a></code> | *No description.* |
 
 ---
@@ -10045,6 +12569,26 @@ func Fqn() *string
 
 ---
 
+##### `AllowedServicePatterns`<sup>Required</sup> <a name="AllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServicePatterns"></a>
+
+```go
+func AllowedServicePatterns() GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList">GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesAllowedServicePatternsList</a>
+
+---
+
+##### `AllowedServicePatternsInput`<sup>Optional</sup> <a name="AllowedServicePatternsInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServicePatternsInput"></a>
+
+```go
+func AllowedServicePatternsInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `AllowedServicesInput`<sup>Optional</sup> <a name="AllowedServicesInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServicesInput"></a>
 
 ```go
@@ -10065,6 +12609,16 @@ func EnableRestrictionInput() interface{}
 
 ---
 
+##### `ServicePatternsEnforcementScopesInput`<sup>Optional</sup> <a name="ServicePatternsEnforcementScopesInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopesInput"></a>
+
+```go
+func ServicePatternsEnforcementScopesInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `AllowedServices`<sup>Required</sup> <a name="AllowedServices" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.allowedServices"></a>
 
 ```go
@@ -10082,6 +12636,16 @@ func EnableRestriction() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `ServicePatternsEnforcementScopes`<sup>Required</sup> <a name="ServicePatternsEnforcementScopes" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersSpecVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopes"></a>
+
+```go
+func ServicePatternsEnforcementScopes() *[]*string
+```
+
+- *Type:* *[]*string
 
 ---
 
@@ -10702,7 +13266,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.putPscEndpoint">PutPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.resetAccessLevel">ResetAccessLevel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.resetPscEndpoint">ResetPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.resetResource">ResetResource</a></code> | *No description.* |
 
 ---
@@ -10857,10 +13423,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutPscEndpoint` <a name="PutPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.putPscEndpoint"></a>
+
+```go
+func PutPscEndpoint(value GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.putPscEndpoint.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint</a>
+
+---
+
 ##### `ResetAccessLevel` <a name="ResetAccessLevel" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.resetAccessLevel"></a>
 
 ```go
 func ResetAccessLevel()
+```
+
+##### `ResetPscEndpoint` <a name="ResetPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.resetPscEndpoint"></a>
+
+```go
+func ResetPscEndpoint()
 ```
 
 ##### `ResetResource` <a name="ResetResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.resetResource"></a>
@@ -10876,7 +13460,9 @@ func ResetResource()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.accessLevelInput">AccessLevelInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpointInput">PscEndpointInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.resourceInput">ResourceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.resource">Resource</a></code> | <code>*string</code> | *No description.* |
@@ -10908,6 +13494,16 @@ func Fqn() *string
 
 ---
 
+##### `PscEndpoint`<sup>Required</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpoint"></a>
+
+```go
+func PscEndpoint() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference</a>
+
+---
+
 ##### `AccessLevelInput`<sup>Optional</sup> <a name="AccessLevelInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.accessLevelInput"></a>
 
 ```go
@@ -10915,6 +13511,16 @@ func AccessLevelInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `PscEndpointInput`<sup>Optional</sup> <a name="PscEndpointInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesOutputReference.property.pscEndpointInput"></a>
+
+```go
+func PscEndpointInput() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -10955,6 +13561,284 @@ func InternalValue() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resetForwardingRule">ResetForwardingRule</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetForwardingRule` <a name="ResetForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.resetForwardingRule"></a>
+
+```go
+func ResetForwardingRule()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput">ForwardingRuleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRuleInput`<sup>Optional</sup> <a name="ForwardingRuleInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput"></a>
+
+```go
+func ForwardingRuleInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRule`<sup>Required</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.forwardingRule"></a>
+
+```go
+func ForwardingRule() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpointOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusEgressPoliciesEgressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -13437,7 +16321,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.putPscEndpoint">PutPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.resetAccessLevel">ResetAccessLevel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.resetPscEndpoint">ResetPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.resetResource">ResetResource</a></code> | *No description.* |
 
 ---
@@ -13592,10 +16478,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutPscEndpoint` <a name="PutPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.putPscEndpoint"></a>
+
+```go
+func PutPscEndpoint(value GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.putPscEndpoint.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint</a>
+
+---
+
 ##### `ResetAccessLevel` <a name="ResetAccessLevel" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.resetAccessLevel"></a>
 
 ```go
 func ResetAccessLevel()
+```
+
+##### `ResetPscEndpoint` <a name="ResetPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.resetPscEndpoint"></a>
+
+```go
+func ResetPscEndpoint()
 ```
 
 ##### `ResetResource` <a name="ResetResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.resetResource"></a>
@@ -13611,7 +16515,9 @@ func ResetResource()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpoint">PscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.accessLevelInput">AccessLevelInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpointInput">PscEndpointInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.resourceInput">ResourceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.accessLevel">AccessLevel</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.resource">Resource</a></code> | <code>*string</code> | *No description.* |
@@ -13643,6 +16549,16 @@ func Fqn() *string
 
 ---
 
+##### `PscEndpoint`<sup>Required</sup> <a name="PscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpoint"></a>
+
+```go
+func PscEndpoint() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference</a>
+
+---
+
 ##### `AccessLevelInput`<sup>Optional</sup> <a name="AccessLevelInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.accessLevelInput"></a>
 
 ```go
@@ -13650,6 +16566,16 @@ func AccessLevelInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `PscEndpointInput`<sup>Optional</sup> <a name="PscEndpointInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesOutputReference.property.pscEndpointInput"></a>
+
+```go
+func PscEndpointInput() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -13690,6 +16616,284 @@ func InternalValue() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resetForwardingRule">ResetForwardingRule</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetForwardingRule` <a name="ResetForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.resetForwardingRule"></a>
+
+```go
+func ResetForwardingRule()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput">ForwardingRuleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRule">ForwardingRule</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRuleInput`<sup>Optional</sup> <a name="ForwardingRuleInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput"></a>
+
+```go
+func ForwardingRuleInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ForwardingRule`<sup>Required</sup> <a name="ForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.forwardingRule"></a>
+
+```go
+func ForwardingRule() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpointOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusIngressPoliciesIngressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -16028,6 +19232,1295 @@ func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimeter
 ---
 
 
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.get"></a>
+
+```go
+func Get(index *f64) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.keyInput">KeyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.valueInput">ValueInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.key">Key</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KeyInput`<sup>Optional</sup> <a name="KeyInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.keyInput"></a>
+
+```go
+func KeyInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ValueInput`<sup>Optional</sup> <a name="ValueInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.valueInput"></a>
+
+```go
+func ValueInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.key"></a>
+
+```go
+func Key() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.value"></a>
+
+```go
+func Value() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.get"></a>
+
+```go
+func Get(index *f64) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.putAddRequestHeader">PutAddRequestHeader</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resetAddRequestHeader">ResetAddRequestHeader</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutAddRequestHeader` <a name="PutAddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.putAddRequestHeader"></a>
+
+```go
+func PutAddRequestHeader(value GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.putAddRequestHeader.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+---
+
+##### `ResetAddRequestHeader` <a name="ResetAddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.resetAddRequestHeader"></a>
+
+```go
+func ResetAddRequestHeader()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeader">AddRequestHeader</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeaderInput">AddRequestHeaderInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AddRequestHeader`<sup>Required</sup> <a name="AddRequestHeader" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeader"></a>
+
+```go
+func AddRequestHeader() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeaderOutputReference</a>
+
+---
+
+##### `AddRequestHeaderInput`<sup>Optional</sup> <a name="AddRequestHeaderInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.addRequestHeaderInput"></a>
+
+```go
+func AddRequestHeaderInput() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersAddRequestHeader</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeters"
+
+googleaccesscontextmanagerserviceperimeters.NewGoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.putModifiers">PutModifiers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resetModifiers">ResetModifiers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resetPattern">ResetPattern</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resetService">ResetService</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutModifiers` <a name="PutModifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.putModifiers"></a>
+
+```go
+func PutModifiers(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.putModifiers.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `ResetModifiers` <a name="ResetModifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resetModifiers"></a>
+
+```go
+func ResetModifiers()
+```
+
+##### `ResetPattern` <a name="ResetPattern" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resetPattern"></a>
+
+```go
+func ResetPattern()
+```
+
+##### `ResetService` <a name="ResetService" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.resetService"></a>
+
+```go
+func ResetService()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiers">Modifiers</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiersInput">ModifiersInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.patternInput">PatternInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.serviceInput">ServiceInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.pattern">Pattern</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.service">Service</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Modifiers`<sup>Required</sup> <a name="Modifiers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiers"></a>
+
+```go
+func Modifiers() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsModifiersList</a>
+
+---
+
+##### `ModifiersInput`<sup>Optional</sup> <a name="ModifiersInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.modifiersInput"></a>
+
+```go
+func ModifiersInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `PatternInput`<sup>Optional</sup> <a name="PatternInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.patternInput"></a>
+
+```go
+func PatternInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ServiceInput`<sup>Optional</sup> <a name="ServiceInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.serviceInput"></a>
+
+```go
+func ServiceInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Pattern`<sup>Required</sup> <a name="Pattern" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.pattern"></a>
+
+```go
+func Pattern() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Service`<sup>Required</sup> <a name="Service" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.service"></a>
+
+```go
+func Service() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
 ### GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference <a name="GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.Initializer"></a>
@@ -16078,8 +20571,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.putAllowedServicePatterns">PutAllowedServicePatterns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resetAllowedServicePatterns">ResetAllowedServicePatterns</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resetAllowedServices">ResetAllowedServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resetEnableRestriction">ResetEnableRestriction</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resetServicePatternsEnforcementScopes">ResetServicePatternsEnforcementScopes</a></code> | *No description.* |
 
 ---
 
@@ -16233,6 +20729,24 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutAllowedServicePatterns` <a name="PutAllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.putAllowedServicePatterns"></a>
+
+```go
+func PutAllowedServicePatterns(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.putAllowedServicePatterns.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `ResetAllowedServicePatterns` <a name="ResetAllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resetAllowedServicePatterns"></a>
+
+```go
+func ResetAllowedServicePatterns()
+```
+
 ##### `ResetAllowedServices` <a name="ResetAllowedServices" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resetAllowedServices"></a>
 
 ```go
@@ -16245,6 +20759,12 @@ func ResetAllowedServices()
 func ResetEnableRestriction()
 ```
 
+##### `ResetServicePatternsEnforcementScopes` <a name="ResetServicePatternsEnforcementScopes" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.resetServicePatternsEnforcementScopes"></a>
+
+```go
+func ResetServicePatternsEnforcementScopes()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -16252,10 +20772,14 @@ func ResetEnableRestriction()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServicePatterns">AllowedServicePatterns</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServicePatternsInput">AllowedServicePatternsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServicesInput">AllowedServicesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.enableRestrictionInput">EnableRestrictionInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopesInput">ServicePatternsEnforcementScopesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServices">AllowedServices</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.enableRestriction">EnableRestriction</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopes">ServicePatternsEnforcementScopes</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServices</a></code> | *No description.* |
 
 ---
@@ -16284,6 +20808,26 @@ func Fqn() *string
 
 ---
 
+##### `AllowedServicePatterns`<sup>Required</sup> <a name="AllowedServicePatterns" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServicePatterns"></a>
+
+```go
+func AllowedServicePatterns() GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList">GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesAllowedServicePatternsList</a>
+
+---
+
+##### `AllowedServicePatternsInput`<sup>Optional</sup> <a name="AllowedServicePatternsInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServicePatternsInput"></a>
+
+```go
+func AllowedServicePatternsInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `AllowedServicesInput`<sup>Optional</sup> <a name="AllowedServicesInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServicesInput"></a>
 
 ```go
@@ -16304,6 +20848,16 @@ func EnableRestrictionInput() interface{}
 
 ---
 
+##### `ServicePatternsEnforcementScopesInput`<sup>Optional</sup> <a name="ServicePatternsEnforcementScopesInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopesInput"></a>
+
+```go
+func ServicePatternsEnforcementScopesInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `AllowedServices`<sup>Required</sup> <a name="AllowedServices" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.allowedServices"></a>
 
 ```go
@@ -16321,6 +20875,16 @@ func EnableRestriction() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `ServicePatternsEnforcementScopes`<sup>Required</sup> <a name="ServicePatternsEnforcementScopes" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeters.GoogleAccessContextManagerServicePerimetersServicePerimetersStatusVpcAccessibleServicesOutputReference.property.servicePatternsEnforcementScopes"></a>
+
+```go
+func ServicePatternsEnforcementScopes() *[]*string
+```
+
+- *Type:* *[]*string
 
 ---
 

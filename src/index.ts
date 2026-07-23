@@ -140,6 +140,10 @@ export * as googleBiglakeHiveDatabase from './google-biglake-hive-database/index
 export * as googleBiglakeHiveDatabaseIamBinding from './google-biglake-hive-database-iam-binding/index';
 export * as googleBiglakeHiveDatabaseIamMember from './google-biglake-hive-database-iam-member/index';
 export * as googleBiglakeHiveDatabaseIamPolicy from './google-biglake-hive-database-iam-policy/index';
+export * as googleBiglakeHiveTable from './google-biglake-hive-table/index';
+export * as googleBiglakeHiveTableIamBinding from './google-biglake-hive-table-iam-binding/index';
+export * as googleBiglakeHiveTableIamMember from './google-biglake-hive-table-iam-member/index';
+export * as googleBiglakeHiveTableIamPolicy from './google-biglake-hive-table-iam-policy/index';
 export * as googleBiglakeIcebergCatalog from './google-biglake-iceberg-catalog/index';
 export * as googleBiglakeIcebergCatalogIamBinding from './google-biglake-iceberg-catalog-iam-binding/index';
 export * as googleBiglakeIcebergCatalogIamMember from './google-biglake-iceberg-catalog-iam-member/index';
@@ -373,6 +377,7 @@ export * as googleComputeGlobalAddress from './google-compute-global-address/ind
 export * as googleComputeGlobalForwardingRule from './google-compute-global-forwarding-rule/index';
 export * as googleComputeGlobalNetworkEndpoint from './google-compute-global-network-endpoint/index';
 export * as googleComputeGlobalNetworkEndpointGroup from './google-compute-global-network-endpoint-group/index';
+export * as googleComputeGlobalVmExtensionPolicy from './google-compute-global-vm-extension-policy/index';
 export * as googleComputeHaVpnGateway from './google-compute-ha-vpn-gateway/index';
 export * as googleComputeHealthCheck from './google-compute-health-check/index';
 export * as googleComputeHttpHealthCheck from './google-compute-http-health-check/index';
@@ -1522,6 +1527,7 @@ export * as dataGoogleBeyondcorpSecurityGatewayApplicationIamPolicy from './data
 export * as dataGoogleBeyondcorpSecurityGatewayIamPolicy from './data-google-beyondcorp-security-gateway-iam-policy/index';
 export * as dataGoogleBiglakeHiveCatalogIamPolicy from './data-google-biglake-hive-catalog-iam-policy/index';
 export * as dataGoogleBiglakeHiveDatabaseIamPolicy from './data-google-biglake-hive-database-iam-policy/index';
+export * as dataGoogleBiglakeHiveTableIamPolicy from './data-google-biglake-hive-table-iam-policy/index';
 export * as dataGoogleBiglakeIcebergCatalogIamPolicy from './data-google-biglake-iceberg-catalog-iam-policy/index';
 export * as dataGoogleBiglakeIcebergNamespaceIamPolicy from './data-google-biglake-iceberg-namespace-iam-policy/index';
 export * as dataGoogleBiglakeIcebergTableIamPolicy from './data-google-biglake-iceberg-table-iam-policy/index';

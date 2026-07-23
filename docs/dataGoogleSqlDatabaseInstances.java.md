@@ -4,7 +4,7 @@
 
 ### DataGoogleSqlDatabaseInstances <a name="DataGoogleSqlDatabaseInstances" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances google_sql_database_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances google_sql_database_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer"></a>
 
@@ -41,7 +41,7 @@ DataGoogleSqlDatabaseInstances.Builder.create(Construct scope, java.lang.String 
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.databaseVersion">databaseVersion</a></code> | <code>java.lang.String</code> | To filter out the database instances which are of the specified database version. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Project ID of the project that contains the instances. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | To filter out the database instances which are located in this specified region. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstances.Initializer.parameter.state">state</a></code> | <code>java.lang.String</code> | To filter out the database instances based on the current state of the database instance, valid values include : "SQL_INSTANCE_STATE_UNSPECIFIED", "RUNNABLE", "SUSPENDED", "PENDING_DELETE", "PENDING_CREATE", "MAINTENANCE" and "FAILED". |
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 To filter out the database instances which are of the specified database version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#database_version DataGoogleSqlDatabaseInstances#database_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#database_version DataGoogleSqlDatabaseInstances#database_version}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Project ID of the project that contains the instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#project DataGoogleSqlDatabaseInstances#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#project DataGoogleSqlDatabaseInstances#project}
 
 ---
 
@@ -147,7 +147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 To filter out the database instances which are located in this specified region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#region DataGoogleSqlDatabaseInstances#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#region DataGoogleSqlDatabaseInstances#region}
 
 ---
 
@@ -157,7 +157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 To filter out the database instances based on the current state of the database instance, valid values include : "SQL_INSTANCE_STATE_UNSPECIFIED", "RUNNABLE", "SUSPENDED", "PENDING_DELETE", "PENDING_CREATE", "MAINTENANCE" and "FAILED".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#state DataGoogleSqlDatabaseInstances#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#state DataGoogleSqlDatabaseInstances#state}
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 To filter out the database instances based on the machine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#tier DataGoogleSqlDatabaseInstances#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#tier DataGoogleSqlDatabaseInstances#tier}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 To filter out the database instances which are located in this specified zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#zone DataGoogleSqlDatabaseInstances#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#zone DataGoogleSqlDatabaseInstances#zone}
 
 ---
 
@@ -571,7 +571,7 @@ The construct id used in the generated config for the DataGoogleSqlDatabaseInsta
 
 The id of the existing DataGoogleSqlDatabaseInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -946,7 +946,7 @@ DataGoogleSqlDatabaseInstancesConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.databaseVersion">databaseVersion</a></code> | <code>java.lang.String</code> | To filter out the database instances which are of the specified database version. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.project">project</a></code> | <code>java.lang.String</code> | Project ID of the project that contains the instances. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.region">region</a></code> | <code>java.lang.String</code> | To filter out the database instances which are located in this specified region. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesConfig.property.state">state</a></code> | <code>java.lang.String</code> | To filter out the database instances based on the current state of the database instance, valid values include : "SQL_INSTANCE_STATE_UNSPECIFIED", "RUNNABLE", "SUSPENDED", "PENDING_DELETE", "PENDING_CREATE", "MAINTENANCE" and "FAILED". |
@@ -1035,7 +1035,7 @@ public java.lang.String getDatabaseVersion();
 
 To filter out the database instances which are of the specified database version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#database_version DataGoogleSqlDatabaseInstances#database_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#database_version DataGoogleSqlDatabaseInstances#database_version}
 
 ---
 
@@ -1047,7 +1047,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#id DataGoogleSqlDatabaseInstances#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1064,7 +1064,7 @@ public java.lang.String getProject();
 
 Project ID of the project that contains the instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#project DataGoogleSqlDatabaseInstances#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#project DataGoogleSqlDatabaseInstances#project}
 
 ---
 
@@ -1078,7 +1078,7 @@ public java.lang.String getRegion();
 
 To filter out the database instances which are located in this specified region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#region DataGoogleSqlDatabaseInstances#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#region DataGoogleSqlDatabaseInstances#region}
 
 ---
 
@@ -1092,7 +1092,7 @@ public java.lang.String getState();
 
 To filter out the database instances based on the current state of the database instance, valid values include : "SQL_INSTANCE_STATE_UNSPECIFIED", "RUNNABLE", "SUSPENDED", "PENDING_DELETE", "PENDING_CREATE", "MAINTENANCE" and "FAILED".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#state DataGoogleSqlDatabaseInstances#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#state DataGoogleSqlDatabaseInstances#state}
 
 ---
 
@@ -1106,7 +1106,7 @@ public java.lang.String getTier();
 
 To filter out the database instances based on the machine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#tier DataGoogleSqlDatabaseInstances#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#tier DataGoogleSqlDatabaseInstances#tier}
 
 ---
 
@@ -1120,7 +1120,7 @@ public java.lang.String getZone();
 
 To filter out the database instances which are located in this specified zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_sql_database_instances#zone DataGoogleSqlDatabaseInstances#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_sql_database_instances#zone DataGoogleSqlDatabaseInstances#zone}
 
 ---
 
@@ -3303,6 +3303,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.enforceNewSqlNetworkArchitecture">enforceNewSqlNetworkArchitecture</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.finalBackupDescription">finalBackupDescription</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.firstIpAddress">firstIpAddress</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.includeReplicasForMajorVersionUpgrade">includeReplicasForMajorVersionUpgrade</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.instanceType">instanceType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.ipAddress">ipAddress</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesIpAddressList">DataGoogleSqlDatabaseInstancesInstancesIpAddressList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.maintenanceVersion">maintenanceVersion</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -3326,6 +3327,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.serverCaCert">serverCaCert</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesServerCaCertList">DataGoogleSqlDatabaseInstancesInstancesServerCaCertList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.serviceAccountEmailAddress">serviceAccountEmailAddress</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.settings">settings</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsList">DataGoogleSqlDatabaseInstancesInstancesSettingsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.switchTransactionLogsToCloudStorageEnabled">switchTransactionLogsToCloudStorageEnabled</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstances">DataGoogleSqlDatabaseInstancesInstances</a></code> | *No description.* |
 
 ---
@@ -3481,6 +3483,16 @@ public java.lang.String getFirstIpAddress();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `includeReplicasForMajorVersionUpgrade`<sup>Required</sup> <a name="includeReplicasForMajorVersionUpgrade" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.includeReplicasForMajorVersionUpgrade"></a>
+
+```java
+public IResolvable getIncludeReplicasForMajorVersionUpgrade();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable
 
 ---
 
@@ -3711,6 +3723,16 @@ public DataGoogleSqlDatabaseInstancesInstancesSettingsList getSettings();
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsList">DataGoogleSqlDatabaseInstancesInstancesSettingsList</a>
+
+---
+
+##### `switchTransactionLogsToCloudStorageEnabled`<sup>Required</sup> <a name="switchTransactionLogsToCloudStorageEnabled" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesOutputReference.property.switchTransactionLogsToCloudStorageEnabled"></a>
+
+```java
+public IResolvable getSwitchTransactionLogsToCloudStorageEnabled();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable
 
 ---
 
@@ -13371,10 +13393,12 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerNetwork">consumerNetwork</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerNetworkStatus">consumerNetworkStatus</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.consumerServiceProjectId">consumerServiceProjectId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.instanceAutoDnsStatus">instanceAutoDnsStatus</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.ipAddress">ipAddress</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.serviceConnectionPolicy">serviceConnectionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.serviceConnectionPolicyCreationResult">serviceConnectionPolicyCreationResult</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.status">status</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.writeEndpointAutoDnsStatus">writeEndpointAutoDnsStatus</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnections">DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnections</a></code> | *No description.* |
 
 ---
@@ -13433,6 +13457,16 @@ public java.lang.String getConsumerServiceProjectId();
 
 ---
 
+##### `instanceAutoDnsStatus`<sup>Required</sup> <a name="instanceAutoDnsStatus" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.instanceAutoDnsStatus"></a>
+
+```java
+public java.lang.String getInstanceAutoDnsStatus();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `ipAddress`<sup>Required</sup> <a name="ipAddress" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.ipAddress"></a>
 
 ```java
@@ -13467,6 +13501,16 @@ public java.lang.String getServiceConnectionPolicyCreationResult();
 
 ```java
 public java.lang.String getStatus();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `writeEndpointAutoDnsStatus`<sup>Required</sup> <a name="writeEndpointAutoDnsStatus" id="@cdktn/provider-google-beta.dataGoogleSqlDatabaseInstances.DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference.property.writeEndpointAutoDnsStatus"></a>
+
+```java
+public java.lang.String getWriteEndpointAutoDnsStatus();
 ```
 
 - *Type:* java.lang.String

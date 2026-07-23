@@ -4,7 +4,7 @@
 
 ### GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy <a name="GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy google_access_context_manager_service_perimeter_dry_run_egress_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy google_access_context_manager_service_perimeter_dry_run_egress_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer"></a>
 
@@ -44,7 +44,7 @@ GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Builder.create(Cons
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer.parameter.egressFrom">egressFrom</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFrom">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFrom</a></code> | egress_from block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer.parameter.egressTo">egressTo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressTo">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressTo</a></code> | egress_to block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy.Initializer.parameter.title">title</a></code> | <code>java.lang.String</code> | Human readable title. Must be unique within the perimeter. Does not affect behavior. |
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the Service Perimeter to add this resource to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#perimeter GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#perimeter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#perimeter GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#perimeter}
 
 ---
 
@@ -133,7 +133,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#deletion_policy GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#deletion_policy GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#deletion_policy}
 
 ---
 
@@ -143,7 +143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 egress_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_from GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_from GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_from}
 
 ---
 
@@ -153,7 +153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 egress_to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_to GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_to GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_to}
 
 ---
 
@@ -161,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -174,7 +174,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#timeouts GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#timeouts GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#timeouts}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Human readable title. Must be unique within the perimeter. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#title GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#title GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#title}
 
 ---
 
@@ -714,7 +714,7 @@ The construct id used in the generated config for the GoogleAccessContextManager
 
 The id of the existing GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1125,7 +1125,7 @@ GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.property.egressFrom">egressFrom</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFrom">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFrom</a></code> | egress_from block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.property.egressTo">egressTo</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressTo">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressTo</a></code> | egress_to block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyConfig.property.title">title</a></code> | <code>java.lang.String</code> | Human readable title. Must be unique within the perimeter. Does not affect behavior. |
 
@@ -1211,7 +1211,7 @@ public java.lang.String getPerimeter();
 
 The name of the Service Perimeter to add this resource to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#perimeter GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#perimeter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#perimeter GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#perimeter}
 
 ---
 
@@ -1232,7 +1232,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#deletion_policy GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#deletion_policy GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#deletion_policy}
 
 ---
 
@@ -1246,7 +1246,7 @@ public GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFrom ge
 
 egress_from block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_from GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_from GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_from}
 
 ---
 
@@ -1260,7 +1260,7 @@ public GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressTo getE
 
 egress_to block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_to GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#egress_to GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#egress_to}
 
 ---
 
@@ -1272,7 +1272,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#id GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1289,7 +1289,7 @@ public GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts getT
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#timeouts GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#timeouts GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#timeouts}
 
 ---
 
@@ -1303,7 +1303,7 @@ public java.lang.String getTitle();
 
 Human readable title. Must be unique within the perimeter. Does not affect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#title GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#title GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#title}
 
 ---
 
@@ -1348,7 +1348,7 @@ are supported and other identity types are not supported.The v1 identities
 that have the prefix user, group and serviceAccount in
 https://cloud.google.com/iam/docs/principal-identifiers#v1 are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#identities GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#identities GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#identities}
 
 ---
 
@@ -1365,7 +1365,7 @@ Specifies the type of identities that are allowed access to outside the perimete
 If left unspecified, then members of 'identities' field will
 be allowed access. Possible values: ["ANY_IDENTITY", "ANY_USER_ACCOUNT", "ANY_SERVICE_ACCOUNT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#identity_type GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#identity_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#identity_type GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#identity_type}
 
 ---
 
@@ -1381,7 +1381,7 @@ Whether to enforce traffic restrictions based on 'sources' field.
 
 If the 'sources' field is non-empty, then this field must be set to 'SOURCE_RESTRICTION_ENABLED'. Possible values: ["SOURCE_RESTRICTION_ENABLED", "SOURCE_RESTRICTION_DISABLED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#source_restriction GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#source_restriction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#source_restriction GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#source_restriction}
 
 ---
 
@@ -1395,7 +1395,7 @@ public IResolvable|java.util.List<GoogleAccessContextManagerServicePerimeterDryR
 
 sources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#sources GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#sources GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#sources}
 
 ---
 
@@ -1408,6 +1408,7 @@ import io.cdktn.providers.google_beta.google_access_context_manager_service_peri
 
 GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources.builder()
 //  .accessLevel(java.lang.String)
+//  .pscEndpoint(GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint)
 //  .resource(java.lang.String)
     .build();
 ```
@@ -1417,6 +1418,7 @@ GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources.bu
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources.property.accessLevel">accessLevel</a></code> | <code>java.lang.String</code> | An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources.property.pscEndpoint">pscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint</a></code> | psc_endpoint block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources.property.resource">resource</a></code> | <code>java.lang.String</code> | A Google Cloud resource that is allowed to egress the perimeter. |
 
 ---
@@ -1431,7 +1433,21 @@ public java.lang.String getAccessLevel();
 
 An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#access_level GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#access_level GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#access_level}
+
+---
+
+##### `pscEndpoint`<sup>Optional</sup> <a name="pscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources.property.pscEndpoint"></a>
+
+```java
+public GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint getPscEndpoint();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint</a>
+
+psc_endpoint block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#psc_endpoint GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#psc_endpoint}
 
 ---
 
@@ -1451,7 +1467,41 @@ The resource may be in any Google Cloud organization, not just the
 organization that the perimeter is defined in. '*' is not allowed, the
 case of allowing all Google Cloud resources only is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#resource GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#resource GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#resource}
+
+---
+
+### GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint <a name="GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_access_context_manager_service_perimeter_dry_run_egress_policy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint;
+
+GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint.builder()
+//  .forwardingRule(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint.property.forwardingRule">forwardingRule</a></code> | <code>java.lang.String</code> | The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'. |
+
+---
+
+##### `forwardingRule`<sup>Optional</sup> <a name="forwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint.property.forwardingRule"></a>
+
+```java
+public java.lang.String getForwardingRule();
+```
+
+- *Type:* java.lang.String
+
+The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#forwarding_rule GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#forwarding_rule}
 
 ---
 
@@ -1495,7 +1545,7 @@ A request
 matches if it contains an external resource in this list (Example:
 s3://bucket/path). Currently '*' is not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#external_resources GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#external_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#external_resources GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#external_resources}
 
 ---
 
@@ -1509,7 +1559,7 @@ public IResolvable|java.util.List<GoogleAccessContextManagerServicePerimeterDryR
 
 operations block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#operations GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#operations GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#operations}
 
 ---
 
@@ -1528,7 +1578,7 @@ if it contains a resource in this list. If * is specified for resources,
 then this 'EgressTo' rule will authorize access to all resources outside
 the perimeter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#resources GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#resources GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#resources}
 
 ---
 
@@ -1542,7 +1592,7 @@ public java.util.List<java.lang.String> getRoles();
 
 A list of IAM roles that represent the set of operations that the sources specified in the corresponding 'EgressFrom' are allowed to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#roles GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#roles GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#roles}
 
 ---
 
@@ -1578,7 +1628,7 @@ public IResolvable|java.util.List<GoogleAccessContextManagerServicePerimeterDryR
 
 method_selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#method_selectors GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#method_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#method_selectors GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#method_selectors}
 
 ---
 
@@ -1595,7 +1645,7 @@ The name of the API whose methods or permissions the 'IngressPolicy' or 'EgressP
 A single 'ApiOperation' with serviceName
 field set to '*' will allow all methods AND permissions for all services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#service_name GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#service_name GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#service_name}
 
 ---
 
@@ -1634,7 +1684,7 @@ Value for 'method' should be a valid method name for the corresponding 'serviceN
 If '*' used as value for method,
 then ALL methods and permissions are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#method GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#method GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#method}
 
 ---
 
@@ -1648,7 +1698,7 @@ public java.lang.String getPermission();
 
 Value for permission should be a valid Cloud IAM permission for the corresponding 'serviceName' in 'ApiOperation'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#permission GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#permission GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#permission}
 
 ---
 
@@ -1669,8 +1719,8 @@ GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#create GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#delete GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#create GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#delete GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#delete}. |
 
 ---
 
@@ -1682,7 +1732,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#create GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#create GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#create}.
 
 ---
 
@@ -1694,7 +1744,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#delete GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#delete GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#delete}.
 
 ---
 
@@ -2306,7 +2356,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.putPscEndpoint">putPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.resetAccessLevel">resetAccessLevel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.resetPscEndpoint">resetPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.resetResource">resetResource</a></code> | *No description.* |
 
 ---
@@ -2461,10 +2513,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putPscEndpoint` <a name="putPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.putPscEndpoint"></a>
+
+```java
+public void putPscEndpoint(GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.putPscEndpoint.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint</a>
+
+---
+
 ##### `resetAccessLevel` <a name="resetAccessLevel" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.resetAccessLevel"></a>
 
 ```java
 public void resetAccessLevel()
+```
+
+##### `resetPscEndpoint` <a name="resetPscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.resetPscEndpoint"></a>
+
+```java
+public void resetPscEndpoint()
 ```
 
 ##### `resetResource` <a name="resetResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.resetResource"></a>
@@ -2480,7 +2550,9 @@ public void resetResource()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.pscEndpoint">pscEndpoint</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.accessLevelInput">accessLevelInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.pscEndpointInput">pscEndpointInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.resourceInput">resourceInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.accessLevel">accessLevel</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.resource">resource</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -2512,6 +2584,16 @@ public java.lang.String getFqn();
 
 ---
 
+##### `pscEndpoint`<sup>Required</sup> <a name="pscEndpoint" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.pscEndpoint"></a>
+
+```java
+public GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference getPscEndpoint();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference</a>
+
+---
+
 ##### `accessLevelInput`<sup>Optional</sup> <a name="accessLevelInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.accessLevelInput"></a>
 
 ```java
@@ -2519,6 +2601,16 @@ public java.lang.String getAccessLevelInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `pscEndpointInput`<sup>Optional</sup> <a name="pscEndpointInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesOutputReference.property.pscEndpointInput"></a>
+
+```java
+public GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint getPscEndpointInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint</a>
 
 ---
 
@@ -2559,6 +2651,284 @@ public IResolvable|GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyE
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources</a>
+
+---
+
+
+### GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference <a name="GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_access_context_manager_service_perimeter_dry_run_egress_policy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference;
+
+new GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.resetForwardingRule">resetForwardingRule</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetForwardingRule` <a name="resetForwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.resetForwardingRule"></a>
+
+```java
+public void resetForwardingRule()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput">forwardingRuleInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.forwardingRule">forwardingRule</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `forwardingRuleInput`<sup>Optional</sup> <a name="forwardingRuleInput" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.forwardingRuleInput"></a>
+
+```java
+public java.lang.String getForwardingRuleInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `forwardingRule`<sup>Required</sup> <a name="forwardingRule" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.forwardingRule"></a>
+
+```java
+public java.lang.String getForwardingRule();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpointOutputReference.property.internalValue"></a>
+
+```java
+public GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunEgressPolicy.GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint">GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint</a>
 
 ---
 

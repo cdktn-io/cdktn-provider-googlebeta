@@ -4,7 +4,7 @@
 
 ### GoogleChronicleFeed <a name="GoogleChronicleFeed" id="@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeed"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed google_chronicle_feed}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed google_chronicle_feed}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeed.Initializer"></a>
 
@@ -591,7 +591,7 @@ The construct id used in the generated config for the GoogleChronicleFeed to imp
 
 The id of the existing GoogleChronicleFeed that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1156,8 +1156,8 @@ const googleChronicleFeedConfig: googleChronicleFeed.GoogleChronicleFeedConfig =
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether the feed is enabled. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.failureDetails">failureDetails</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedFailureDetails">GoogleChronicleFeedFailureDetails</a></code> | failure_details block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.feed">feed</a></code> | <code>string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#id GoogleChronicleFeed#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#project GoogleChronicleFeed#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#id GoogleChronicleFeed#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#project GoogleChronicleFeed#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedTimeouts">GoogleChronicleFeedTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1242,7 +1242,7 @@ public readonly instance: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#instance GoogleChronicleFeed#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#instance GoogleChronicleFeed#instance}
 
 ---
 
@@ -1256,7 +1256,7 @@ public readonly location: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#location GoogleChronicleFeed#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#location GoogleChronicleFeed#location}
 
 ---
 
@@ -1278,7 +1278,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#deletion_policy GoogleChronicleFeed#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#deletion_policy GoogleChronicleFeed#deletion_policy}
 
 ---
 
@@ -1292,7 +1292,7 @@ public readonly details: GoogleChronicleFeedDetails;
 
 details block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#details GoogleChronicleFeed#details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#details GoogleChronicleFeed#details}
 
 ---
 
@@ -1306,7 +1306,7 @@ public readonly displayName: string;
 
 Customer-provided feed name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#display_name GoogleChronicleFeed#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#display_name GoogleChronicleFeed#display_name}
 
 ---
 
@@ -1320,7 +1320,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether the feed is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#enabled GoogleChronicleFeed#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#enabled GoogleChronicleFeed#enabled}
 
 ---
 
@@ -1334,7 +1334,7 @@ public readonly failureDetails: GoogleChronicleFeedFailureDetails;
 
 failure_details block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#failure_details GoogleChronicleFeed#failure_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#failure_details GoogleChronicleFeed#failure_details}
 
 ---
 
@@ -1348,7 +1348,7 @@ public readonly feed: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#feed GoogleChronicleFeed#feed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#feed GoogleChronicleFeed#feed}
 
 ---
 
@@ -1360,7 +1360,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#id GoogleChronicleFeed#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#id GoogleChronicleFeed#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1375,7 +1375,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#project GoogleChronicleFeed#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#project GoogleChronicleFeed#project}.
 
 ---
 
@@ -1389,7 +1389,7 @@ public readonly timeouts: GoogleChronicleFeedTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#timeouts GoogleChronicleFeed#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#timeouts GoogleChronicleFeed#timeouts}
 
 ---
 
@@ -1499,7 +1499,7 @@ public readonly logType: string;
 
 LogType. Format: projects/{project}/locations/{location}/instances/{instance}/logTypes/{log_type}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#log_type GoogleChronicleFeed#log_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#log_type GoogleChronicleFeed#log_type}
 
 ---
 
@@ -1513,7 +1513,7 @@ public readonly amazonKinesisFirehoseSettings: GoogleChronicleFeedDetailsAmazonK
 
 amazon_kinesis_firehose_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#amazon_kinesis_firehose_settings GoogleChronicleFeed#amazon_kinesis_firehose_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#amazon_kinesis_firehose_settings GoogleChronicleFeed#amazon_kinesis_firehose_settings}
 
 ---
 
@@ -1527,7 +1527,7 @@ public readonly amazonS3Settings: GoogleChronicleFeedDetailsAmazonS3Settings;
 
 amazon_s3_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#amazon_s3_settings GoogleChronicleFeed#amazon_s3_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#amazon_s3_settings GoogleChronicleFeed#amazon_s3_settings}
 
 ---
 
@@ -1541,7 +1541,7 @@ public readonly amazonS3V2Settings: GoogleChronicleFeedDetailsAmazonS3V2Settings
 
 amazon_s3_v2_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#amazon_s3_v2_settings GoogleChronicleFeed#amazon_s3_v2_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#amazon_s3_v2_settings GoogleChronicleFeed#amazon_s3_v2_settings}
 
 ---
 
@@ -1555,7 +1555,7 @@ public readonly amazonSqsSettings: GoogleChronicleFeedDetailsAmazonSqsSettings;
 
 amazon_sqs_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#amazon_sqs_settings GoogleChronicleFeed#amazon_sqs_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#amazon_sqs_settings GoogleChronicleFeed#amazon_sqs_settings}
 
 ---
 
@@ -1569,7 +1569,7 @@ public readonly amazonSqsV2Settings: GoogleChronicleFeedDetailsAmazonSqsV2Settin
 
 amazon_sqs_v2_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#amazon_sqs_v2_settings GoogleChronicleFeed#amazon_sqs_v2_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#amazon_sqs_v2_settings GoogleChronicleFeed#amazon_sqs_v2_settings}
 
 ---
 
@@ -1583,7 +1583,7 @@ public readonly anomaliSettings: GoogleChronicleFeedDetailsAnomaliSettings;
 
 anomali_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#anomali_settings GoogleChronicleFeed#anomali_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#anomali_settings GoogleChronicleFeed#anomali_settings}
 
 ---
 
@@ -1597,7 +1597,7 @@ public readonly assetNamespace: string;
 
 The asset namespace to apply to all logs ingested through this feed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#asset_namespace GoogleChronicleFeed#asset_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#asset_namespace GoogleChronicleFeed#asset_namespace}
 
 ---
 
@@ -1611,7 +1611,7 @@ public readonly awsEc2HostsSettings: GoogleChronicleFeedDetailsAwsEc2HostsSettin
 
 aws_ec2_hosts_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_ec2_hosts_settings GoogleChronicleFeed#aws_ec2_hosts_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_ec2_hosts_settings GoogleChronicleFeed#aws_ec2_hosts_settings}
 
 ---
 
@@ -1625,7 +1625,7 @@ public readonly awsEc2InstancesSettings: GoogleChronicleFeedDetailsAwsEc2Instanc
 
 aws_ec2_instances_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_ec2_instances_settings GoogleChronicleFeed#aws_ec2_instances_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_ec2_instances_settings GoogleChronicleFeed#aws_ec2_instances_settings}
 
 ---
 
@@ -1639,7 +1639,7 @@ public readonly awsEc2VpcsSettings: GoogleChronicleFeedDetailsAwsEc2VpcsSettings
 
 aws_ec2_vpcs_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_ec2_vpcs_settings GoogleChronicleFeed#aws_ec2_vpcs_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_ec2_vpcs_settings GoogleChronicleFeed#aws_ec2_vpcs_settings}
 
 ---
 
@@ -1653,7 +1653,7 @@ public readonly awsIamSettings: GoogleChronicleFeedDetailsAwsIamSettings;
 
 aws_iam_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_iam_settings GoogleChronicleFeed#aws_iam_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_iam_settings GoogleChronicleFeed#aws_iam_settings}
 
 ---
 
@@ -1667,7 +1667,7 @@ public readonly azureAdAuditSettings: GoogleChronicleFeedDetailsAzureAdAuditSett
 
 azure_ad_audit_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_ad_audit_settings GoogleChronicleFeed#azure_ad_audit_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_ad_audit_settings GoogleChronicleFeed#azure_ad_audit_settings}
 
 ---
 
@@ -1681,7 +1681,7 @@ public readonly azureAdContextSettings: GoogleChronicleFeedDetailsAzureAdContext
 
 azure_ad_context_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_ad_context_settings GoogleChronicleFeed#azure_ad_context_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_ad_context_settings GoogleChronicleFeed#azure_ad_context_settings}
 
 ---
 
@@ -1695,7 +1695,7 @@ public readonly azureAdSettings: GoogleChronicleFeedDetailsAzureAdSettings;
 
 azure_ad_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_ad_settings GoogleChronicleFeed#azure_ad_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_ad_settings GoogleChronicleFeed#azure_ad_settings}
 
 ---
 
@@ -1709,7 +1709,7 @@ public readonly azureBlobStoreSettings: GoogleChronicleFeedDetailsAzureBlobStore
 
 azure_blob_store_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_blob_store_settings GoogleChronicleFeed#azure_blob_store_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_blob_store_settings GoogleChronicleFeed#azure_blob_store_settings}
 
 ---
 
@@ -1723,7 +1723,7 @@ public readonly azureBlobStoreV2Settings: GoogleChronicleFeedDetailsAzureBlobSto
 
 azure_blob_store_v2_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_blob_store_v2_settings GoogleChronicleFeed#azure_blob_store_v2_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_blob_store_v2_settings GoogleChronicleFeed#azure_blob_store_v2_settings}
 
 ---
 
@@ -1737,7 +1737,7 @@ public readonly azureEventHubSettings: GoogleChronicleFeedDetailsAzureEventHubSe
 
 azure_event_hub_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_event_hub_settings GoogleChronicleFeed#azure_event_hub_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_event_hub_settings GoogleChronicleFeed#azure_event_hub_settings}
 
 ---
 
@@ -1751,7 +1751,7 @@ public readonly azureMdmIntuneSettings: GoogleChronicleFeedDetailsAzureMdmIntune
 
 azure_mdm_intune_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_mdm_intune_settings GoogleChronicleFeed#azure_mdm_intune_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_mdm_intune_settings GoogleChronicleFeed#azure_mdm_intune_settings}
 
 ---
 
@@ -1765,7 +1765,7 @@ public readonly cloudPassageSettings: GoogleChronicleFeedDetailsCloudPassageSett
 
 cloud_passage_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#cloud_passage_settings GoogleChronicleFeed#cloud_passage_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#cloud_passage_settings GoogleChronicleFeed#cloud_passage_settings}
 
 ---
 
@@ -1779,7 +1779,7 @@ public readonly cortexXdrSettings: GoogleChronicleFeedDetailsCortexXdrSettings;
 
 cortex_xdr_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#cortex_xdr_settings GoogleChronicleFeed#cortex_xdr_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#cortex_xdr_settings GoogleChronicleFeed#cortex_xdr_settings}
 
 ---
 
@@ -1793,7 +1793,7 @@ public readonly crowdstrikeAlertsSettings: GoogleChronicleFeedDetailsCrowdstrike
 
 crowdstrike_alerts_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#crowdstrike_alerts_settings GoogleChronicleFeed#crowdstrike_alerts_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#crowdstrike_alerts_settings GoogleChronicleFeed#crowdstrike_alerts_settings}
 
 ---
 
@@ -1807,7 +1807,7 @@ public readonly crowdstrikeDetectsSettings: GoogleChronicleFeedDetailsCrowdstrik
 
 crowdstrike_detects_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#crowdstrike_detects_settings GoogleChronicleFeed#crowdstrike_detects_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#crowdstrike_detects_settings GoogleChronicleFeed#crowdstrike_detects_settings}
 
 ---
 
@@ -1821,7 +1821,7 @@ public readonly dummyLogTypeSettings: GoogleChronicleFeedDetailsDummyLogTypeSett
 
 dummy_log_type_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#dummy_log_type_settings GoogleChronicleFeed#dummy_log_type_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#dummy_log_type_settings GoogleChronicleFeed#dummy_log_type_settings}
 
 ---
 
@@ -1835,7 +1835,7 @@ public readonly duoAuthSettings: GoogleChronicleFeedDetailsDuoAuthSettings;
 
 duo_auth_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#duo_auth_settings GoogleChronicleFeed#duo_auth_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#duo_auth_settings GoogleChronicleFeed#duo_auth_settings}
 
 ---
 
@@ -1849,7 +1849,7 @@ public readonly duoUserContextSettings: GoogleChronicleFeedDetailsDuoUserContext
 
 duo_user_context_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#duo_user_context_settings GoogleChronicleFeed#duo_user_context_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#duo_user_context_settings GoogleChronicleFeed#duo_user_context_settings}
 
 ---
 
@@ -1884,7 +1884,7 @@ AMAZON_SQS_V2
 AZURE_BLOBSTORE_V2
 GOOGLE_CLOUD_STORAGE_EVENT_DRIVEN Possible values: ["GOOGLE_CLOUD_STORAGE", "HTTP", "SFTP", "AMAZON_S3", "AZURE_BLOBSTORE", "API", "AMAZON_SQS", "PUBSUB", "AMAZON_KINESIS_FIREHOSE", "WEBHOOK", "HTTPS_PUSH_GOOGLE_CLOUD_PUBSUB", "HTTPS_PUSH_AMAZON_KINESIS_FIREHOSE", "HTTPS_PUSH_WEBHOOK", "AZURE_EVENT_HUB", "GOOGLE_CLOUD_STORAGE_V2", "AMAZON_S3_V2", "AMAZON_SQS_V2", "AZURE_BLOBSTORE_V2", "GOOGLE_CLOUD_STORAGE_EVENT_DRIVEN"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#feed_source_type GoogleChronicleFeed#feed_source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#feed_source_type GoogleChronicleFeed#feed_source_type}
 
 ---
 
@@ -1898,7 +1898,7 @@ public readonly foxItStixSettings: GoogleChronicleFeedDetailsFoxItStixSettings;
 
 fox_it_stix_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#fox_it_stix_settings GoogleChronicleFeed#fox_it_stix_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#fox_it_stix_settings GoogleChronicleFeed#fox_it_stix_settings}
 
 ---
 
@@ -1912,7 +1912,7 @@ public readonly gcsSettings: GoogleChronicleFeedDetailsGcsSettings;
 
 gcs_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#gcs_settings GoogleChronicleFeed#gcs_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#gcs_settings GoogleChronicleFeed#gcs_settings}
 
 ---
 
@@ -1926,7 +1926,7 @@ public readonly gcsV2Settings: GoogleChronicleFeedDetailsGcsV2Settings;
 
 gcs_v2_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#gcs_v2_settings GoogleChronicleFeed#gcs_v2_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#gcs_v2_settings GoogleChronicleFeed#gcs_v2_settings}
 
 ---
 
@@ -1940,7 +1940,7 @@ public readonly googleCloudIdentityDevicesSettings: GoogleChronicleFeedDetailsGo
 
 google_cloud_identity_devices_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#google_cloud_identity_devices_settings GoogleChronicleFeed#google_cloud_identity_devices_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#google_cloud_identity_devices_settings GoogleChronicleFeed#google_cloud_identity_devices_settings}
 
 ---
 
@@ -1954,7 +1954,7 @@ public readonly googleCloudIdentityDeviceUsersSettings: GoogleChronicleFeedDetai
 
 google_cloud_identity_device_users_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#google_cloud_identity_device_users_settings GoogleChronicleFeed#google_cloud_identity_device_users_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#google_cloud_identity_device_users_settings GoogleChronicleFeed#google_cloud_identity_device_users_settings}
 
 ---
 
@@ -1968,7 +1968,7 @@ public readonly googleCloudStorageEventDrivenSettings: GoogleChronicleFeedDetail
 
 google_cloud_storage_event_driven_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#google_cloud_storage_event_driven_settings GoogleChronicleFeed#google_cloud_storage_event_driven_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#google_cloud_storage_event_driven_settings GoogleChronicleFeed#google_cloud_storage_event_driven_settings}
 
 ---
 
@@ -1982,7 +1982,7 @@ public readonly httpSettings: GoogleChronicleFeedDetailsHttpSettings;
 
 http_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#http_settings GoogleChronicleFeed#http_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#http_settings GoogleChronicleFeed#http_settings}
 
 ---
 
@@ -1996,7 +1996,7 @@ public readonly httpsPushAmazonKinesisFirehoseSettings: GoogleChronicleFeedDetai
 
 https_push_amazon_kinesis_firehose_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#https_push_amazon_kinesis_firehose_settings GoogleChronicleFeed#https_push_amazon_kinesis_firehose_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#https_push_amazon_kinesis_firehose_settings GoogleChronicleFeed#https_push_amazon_kinesis_firehose_settings}
 
 ---
 
@@ -2010,7 +2010,7 @@ public readonly httpsPushGoogleCloudPubsubSettings: GoogleChronicleFeedDetailsHt
 
 https_push_google_cloud_pubsub_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#https_push_google_cloud_pubsub_settings GoogleChronicleFeed#https_push_google_cloud_pubsub_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#https_push_google_cloud_pubsub_settings GoogleChronicleFeed#https_push_google_cloud_pubsub_settings}
 
 ---
 
@@ -2024,7 +2024,7 @@ public readonly httpsPushWebhookSettings: GoogleChronicleFeedDetailsHttpsPushWeb
 
 https_push_webhook_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#https_push_webhook_settings GoogleChronicleFeed#https_push_webhook_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#https_push_webhook_settings GoogleChronicleFeed#https_push_webhook_settings}
 
 ---
 
@@ -2038,7 +2038,7 @@ public readonly impervaWafSettings: GoogleChronicleFeedDetailsImpervaWafSettings
 
 imperva_waf_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#imperva_waf_settings GoogleChronicleFeed#imperva_waf_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#imperva_waf_settings GoogleChronicleFeed#imperva_waf_settings}
 
 ---
 
@@ -2052,7 +2052,7 @@ public readonly labels: {[ key: string ]: string};
 
 The ingestion metadata labels to apply to all logs ingested through this feed, and the resulting normalized data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#labels GoogleChronicleFeed#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#labels GoogleChronicleFeed#labels}
 
 ---
 
@@ -2066,7 +2066,7 @@ public readonly mandiantIocSettings: GoogleChronicleFeedDetailsMandiantIocSettin
 
 mandiant_ioc_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#mandiant_ioc_settings GoogleChronicleFeed#mandiant_ioc_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#mandiant_ioc_settings GoogleChronicleFeed#mandiant_ioc_settings}
 
 ---
 
@@ -2080,7 +2080,7 @@ public readonly microsoftGraphAlertSettings: GoogleChronicleFeedDetailsMicrosoft
 
 microsoft_graph_alert_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#microsoft_graph_alert_settings GoogleChronicleFeed#microsoft_graph_alert_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#microsoft_graph_alert_settings GoogleChronicleFeed#microsoft_graph_alert_settings}
 
 ---
 
@@ -2094,7 +2094,7 @@ public readonly microsoftSecurityCenterAlertSettings: GoogleChronicleFeedDetails
 
 microsoft_security_center_alert_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#microsoft_security_center_alert_settings GoogleChronicleFeed#microsoft_security_center_alert_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#microsoft_security_center_alert_settings GoogleChronicleFeed#microsoft_security_center_alert_settings}
 
 ---
 
@@ -2108,7 +2108,7 @@ public readonly mimecastMailSettings: GoogleChronicleFeedDetailsMimecastMailSett
 
 mimecast_mail_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#mimecast_mail_settings GoogleChronicleFeed#mimecast_mail_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#mimecast_mail_settings GoogleChronicleFeed#mimecast_mail_settings}
 
 ---
 
@@ -2122,7 +2122,7 @@ public readonly mimecastMailV2Settings: GoogleChronicleFeedDetailsMimecastMailV2
 
 mimecast_mail_v2_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#mimecast_mail_v2_settings GoogleChronicleFeed#mimecast_mail_v2_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#mimecast_mail_v2_settings GoogleChronicleFeed#mimecast_mail_v2_settings}
 
 ---
 
@@ -2136,7 +2136,7 @@ public readonly netskopeAlertSettings: GoogleChronicleFeedDetailsNetskopeAlertSe
 
 netskope_alert_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#netskope_alert_settings GoogleChronicleFeed#netskope_alert_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#netskope_alert_settings GoogleChronicleFeed#netskope_alert_settings}
 
 ---
 
@@ -2150,7 +2150,7 @@ public readonly netskopeAlertV2Settings: GoogleChronicleFeedDetailsNetskopeAlert
 
 netskope_alert_v2_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#netskope_alert_v2_settings GoogleChronicleFeed#netskope_alert_v2_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#netskope_alert_v2_settings GoogleChronicleFeed#netskope_alert_v2_settings}
 
 ---
 
@@ -2164,7 +2164,7 @@ public readonly office365Settings: GoogleChronicleFeedDetailsOffice365Settings;
 
 office365_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#office365_settings GoogleChronicleFeed#office365_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#office365_settings GoogleChronicleFeed#office365_settings}
 
 ---
 
@@ -2178,7 +2178,7 @@ public readonly oktaSettings: GoogleChronicleFeedDetailsOktaSettings;
 
 okta_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#okta_settings GoogleChronicleFeed#okta_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#okta_settings GoogleChronicleFeed#okta_settings}
 
 ---
 
@@ -2192,7 +2192,7 @@ public readonly oktaUserContextSettings: GoogleChronicleFeedDetailsOktaUserConte
 
 okta_user_context_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#okta_user_context_settings GoogleChronicleFeed#okta_user_context_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#okta_user_context_settings GoogleChronicleFeed#okta_user_context_settings}
 
 ---
 
@@ -2206,7 +2206,7 @@ public readonly panIocSettings: GoogleChronicleFeedDetailsPanIocSettings;
 
 pan_ioc_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#pan_ioc_settings GoogleChronicleFeed#pan_ioc_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#pan_ioc_settings GoogleChronicleFeed#pan_ioc_settings}
 
 ---
 
@@ -2220,7 +2220,7 @@ public readonly panPrismaCloudSettings: GoogleChronicleFeedDetailsPanPrismaCloud
 
 pan_prisma_cloud_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#pan_prisma_cloud_settings GoogleChronicleFeed#pan_prisma_cloud_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#pan_prisma_cloud_settings GoogleChronicleFeed#pan_prisma_cloud_settings}
 
 ---
 
@@ -2234,7 +2234,7 @@ public readonly proofpointMailSettings: GoogleChronicleFeedDetailsProofpointMail
 
 proofpoint_mail_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#proofpoint_mail_settings GoogleChronicleFeed#proofpoint_mail_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#proofpoint_mail_settings GoogleChronicleFeed#proofpoint_mail_settings}
 
 ---
 
@@ -2248,7 +2248,7 @@ public readonly proofpointOnDemandSettings: GoogleChronicleFeedDetailsProofpoint
 
 proofpoint_on_demand_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#proofpoint_on_demand_settings GoogleChronicleFeed#proofpoint_on_demand_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#proofpoint_on_demand_settings GoogleChronicleFeed#proofpoint_on_demand_settings}
 
 ---
 
@@ -2262,7 +2262,7 @@ public readonly pubsubSettings: GoogleChronicleFeedDetailsPubsubSettings;
 
 pubsub_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#pubsub_settings GoogleChronicleFeed#pubsub_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#pubsub_settings GoogleChronicleFeed#pubsub_settings}
 
 ---
 
@@ -2276,7 +2276,7 @@ public readonly qualysScanSettings: GoogleChronicleFeedDetailsQualysScanSettings
 
 qualys_scan_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#qualys_scan_settings GoogleChronicleFeed#qualys_scan_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#qualys_scan_settings GoogleChronicleFeed#qualys_scan_settings}
 
 ---
 
@@ -2290,7 +2290,7 @@ public readonly qualysVmSettings: GoogleChronicleFeedDetailsQualysVmSettings;
 
 qualys_vm_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#qualys_vm_settings GoogleChronicleFeed#qualys_vm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#qualys_vm_settings GoogleChronicleFeed#qualys_vm_settings}
 
 ---
 
@@ -2304,7 +2304,7 @@ public readonly rapid7InsightSettings: GoogleChronicleFeedDetailsRapid7InsightSe
 
 rapid7_insight_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rapid7_insight_settings GoogleChronicleFeed#rapid7_insight_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rapid7_insight_settings GoogleChronicleFeed#rapid7_insight_settings}
 
 ---
 
@@ -2318,7 +2318,7 @@ public readonly recordedFutureIocSettings: GoogleChronicleFeedDetailsRecordedFut
 
 recorded_future_ioc_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#recorded_future_ioc_settings GoogleChronicleFeed#recorded_future_ioc_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#recorded_future_ioc_settings GoogleChronicleFeed#recorded_future_ioc_settings}
 
 ---
 
@@ -2332,7 +2332,7 @@ public readonly rhIsacIocSettings: GoogleChronicleFeedDetailsRhIsacIocSettings;
 
 rh_isac_ioc_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rh_isac_ioc_settings GoogleChronicleFeed#rh_isac_ioc_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rh_isac_ioc_settings GoogleChronicleFeed#rh_isac_ioc_settings}
 
 ---
 
@@ -2346,7 +2346,7 @@ public readonly salesforceSettings: GoogleChronicleFeedDetailsSalesforceSettings
 
 salesforce_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#salesforce_settings GoogleChronicleFeed#salesforce_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#salesforce_settings GoogleChronicleFeed#salesforce_settings}
 
 ---
 
@@ -2360,7 +2360,7 @@ public readonly sentineloneAlertSettings: GoogleChronicleFeedDetailsSentineloneA
 
 sentinelone_alert_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#sentinelone_alert_settings GoogleChronicleFeed#sentinelone_alert_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#sentinelone_alert_settings GoogleChronicleFeed#sentinelone_alert_settings}
 
 ---
 
@@ -2374,7 +2374,7 @@ public readonly serviceNowCmdbSettings: GoogleChronicleFeedDetailsServiceNowCmdb
 
 service_now_cmdb_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#service_now_cmdb_settings GoogleChronicleFeed#service_now_cmdb_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#service_now_cmdb_settings GoogleChronicleFeed#service_now_cmdb_settings}
 
 ---
 
@@ -2388,7 +2388,7 @@ public readonly sftpSettings: GoogleChronicleFeedDetailsSftpSettings;
 
 sftp_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#sftp_settings GoogleChronicleFeed#sftp_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#sftp_settings GoogleChronicleFeed#sftp_settings}
 
 ---
 
@@ -2402,7 +2402,7 @@ public readonly symantecEventExportSettings: GoogleChronicleFeedDetailsSymantecE
 
 symantec_event_export_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#symantec_event_export_settings GoogleChronicleFeed#symantec_event_export_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#symantec_event_export_settings GoogleChronicleFeed#symantec_event_export_settings}
 
 ---
 
@@ -2416,7 +2416,7 @@ public readonly thinkstCanarySettings: GoogleChronicleFeedDetailsThinkstCanarySe
 
 thinkst_canary_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#thinkst_canary_settings GoogleChronicleFeed#thinkst_canary_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#thinkst_canary_settings GoogleChronicleFeed#thinkst_canary_settings}
 
 ---
 
@@ -2430,7 +2430,7 @@ public readonly threatConnectIocSettings: GoogleChronicleFeedDetailsThreatConnec
 
 threat_connect_ioc_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#threat_connect_ioc_settings GoogleChronicleFeed#threat_connect_ioc_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#threat_connect_ioc_settings GoogleChronicleFeed#threat_connect_ioc_settings}
 
 ---
 
@@ -2444,7 +2444,7 @@ public readonly threatConnectIocV3Settings: GoogleChronicleFeedDetailsThreatConn
 
 threat_connect_ioc_v3_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#threat_connect_ioc_v3_settings GoogleChronicleFeed#threat_connect_ioc_v3_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#threat_connect_ioc_v3_settings GoogleChronicleFeed#threat_connect_ioc_v3_settings}
 
 ---
 
@@ -2458,7 +2458,7 @@ public readonly trellixHxAlertsSettings: GoogleChronicleFeedDetailsTrellixHxAler
 
 trellix_hx_alerts_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#trellix_hx_alerts_settings GoogleChronicleFeed#trellix_hx_alerts_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#trellix_hx_alerts_settings GoogleChronicleFeed#trellix_hx_alerts_settings}
 
 ---
 
@@ -2472,7 +2472,7 @@ public readonly trellixHxBulkAcqsSettings: GoogleChronicleFeedDetailsTrellixHxBu
 
 trellix_hx_bulk_acqs_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#trellix_hx_bulk_acqs_settings GoogleChronicleFeed#trellix_hx_bulk_acqs_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#trellix_hx_bulk_acqs_settings GoogleChronicleFeed#trellix_hx_bulk_acqs_settings}
 
 ---
 
@@ -2486,7 +2486,7 @@ public readonly trellixHxHostsSettings: GoogleChronicleFeedDetailsTrellixHxHosts
 
 trellix_hx_hosts_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#trellix_hx_hosts_settings GoogleChronicleFeed#trellix_hx_hosts_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#trellix_hx_hosts_settings GoogleChronicleFeed#trellix_hx_hosts_settings}
 
 ---
 
@@ -2500,7 +2500,7 @@ public readonly webhookSettings: GoogleChronicleFeedDetailsWebhookSettings;
 
 webhook_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#webhook_settings GoogleChronicleFeed#webhook_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#webhook_settings GoogleChronicleFeed#webhook_settings}
 
 ---
 
@@ -2514,7 +2514,7 @@ public readonly workdaySettings: GoogleChronicleFeedDetailsWorkdaySettings;
 
 workday_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workday_settings GoogleChronicleFeed#workday_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workday_settings GoogleChronicleFeed#workday_settings}
 
 ---
 
@@ -2528,7 +2528,7 @@ public readonly workspaceActivitySettings: GoogleChronicleFeedDetailsWorkspaceAc
 
 workspace_activity_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_activity_settings GoogleChronicleFeed#workspace_activity_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_activity_settings GoogleChronicleFeed#workspace_activity_settings}
 
 ---
 
@@ -2542,7 +2542,7 @@ public readonly workspaceAlertsSettings: GoogleChronicleFeedDetailsWorkspaceAler
 
 workspace_alerts_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_alerts_settings GoogleChronicleFeed#workspace_alerts_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_alerts_settings GoogleChronicleFeed#workspace_alerts_settings}
 
 ---
 
@@ -2556,7 +2556,7 @@ public readonly workspaceChromeOsSettings: GoogleChronicleFeedDetailsWorkspaceCh
 
 workspace_chrome_os_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_chrome_os_settings GoogleChronicleFeed#workspace_chrome_os_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_chrome_os_settings GoogleChronicleFeed#workspace_chrome_os_settings}
 
 ---
 
@@ -2570,7 +2570,7 @@ public readonly workspaceGroupsSettings: GoogleChronicleFeedDetailsWorkspaceGrou
 
 workspace_groups_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_groups_settings GoogleChronicleFeed#workspace_groups_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_groups_settings GoogleChronicleFeed#workspace_groups_settings}
 
 ---
 
@@ -2584,7 +2584,7 @@ public readonly workspaceMobileSettings: GoogleChronicleFeedDetailsWorkspaceMobi
 
 workspace_mobile_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_mobile_settings GoogleChronicleFeed#workspace_mobile_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_mobile_settings GoogleChronicleFeed#workspace_mobile_settings}
 
 ---
 
@@ -2598,7 +2598,7 @@ public readonly workspacePrivilegesSettings: GoogleChronicleFeedDetailsWorkspace
 
 workspace_privileges_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_privileges_settings GoogleChronicleFeed#workspace_privileges_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_privileges_settings GoogleChronicleFeed#workspace_privileges_settings}
 
 ---
 
@@ -2612,7 +2612,7 @@ public readonly workspaceUsersSettings: GoogleChronicleFeedDetailsWorkspaceUsers
 
 workspace_users_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_users_settings GoogleChronicleFeed#workspace_users_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_users_settings GoogleChronicleFeed#workspace_users_settings}
 
 ---
 
@@ -2658,7 +2658,7 @@ public readonly s3Uri: string;
 
 S3 URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#s3_uri GoogleChronicleFeed#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#s3_uri GoogleChronicleFeed#s3_uri}
 
 ---
 
@@ -2672,7 +2672,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: SOURCE_DELETION_NEVER SOURCE_DELETION_ON_SUCCESS SOURCE_DELETION_ON_SUCCESS_FILES_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -2686,7 +2686,7 @@ public readonly sourceType: string;
 
 Possible values: FILES FOLDERS FOLDERS_RECURSIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
 
 ---
 
@@ -2700,7 +2700,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAmazonS3SettingsAuthen
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -2737,7 +2737,7 @@ public readonly region: string;
 
 Possible values: US_EAST_1 US_EAST_2 US_WEST_1 US_WEST_2 US_GOV_CLOUD US_GOV_EAST_1 EU_WEST_1 EU_WEST_2 EU_WEST_3 EU_CENTRAL_1 EU_NORTH_1 EU_SOUTH_1 AP_SOUTH_1 AP_SOUTHEAST_1 AP_SOUTHEAST_2 AP_SOUTHEAST_3 AP_NORTHEAST_1 AP_NORTHEAST_2 AP_NORTHEAST_3 AP_EAST_1 SA_EAST_1 CN_NORTH_1 CN_NORTHWEST_1 CA_CENTRAL_1 AF_SOUTH_1 ME_SOUTH_1 AP_SOUTH_2 AP_SOUTHEAST_4 CA_WEST_1 EU_SOUTH_2 EU_CENTRAL_2 IL_CENTRAL_1 ME_CENTRAL_1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#region GoogleChronicleFeed#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#region GoogleChronicleFeed#region}
 
 ---
 
@@ -2751,7 +2751,7 @@ public readonly accessKeyId: string;
 
 Access key ID. Used when using access key auth.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
 
 ---
 
@@ -2765,7 +2765,7 @@ public readonly clientId: string;
 
 Client ID. Used when using OAuth auth.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -2779,7 +2779,7 @@ public readonly clientSecret: string;
 
 Client secret. Used when using OAuth auth.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -2793,7 +2793,7 @@ public readonly refreshUri: string;
 
 Refresh URI. Used when using OAuth auth.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#refresh_uri GoogleChronicleFeed#refresh_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#refresh_uri GoogleChronicleFeed#refresh_uri}
 
 ---
 
@@ -2807,7 +2807,7 @@ public readonly secretAccessKey: string;
 
 Secret access key. Used when using access key auth.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
 
 ---
 
@@ -2842,7 +2842,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAmazonS3V2SettingsAuth
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -2856,7 +2856,7 @@ public readonly s3Uri: string;
 
 S3 URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#s3_uri GoogleChronicleFeed#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#s3_uri GoogleChronicleFeed#s3_uri}
 
 ---
 
@@ -2870,7 +2870,7 @@ public readonly maxLookbackDays: number;
 
 Maximum File Age to ingest in days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
 
 ---
 
@@ -2884,7 +2884,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: NEVER ON_SUCCESS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -2917,7 +2917,7 @@ public readonly accessKeySecretAuth: GoogleChronicleFeedDetailsAmazonS3V2Setting
 
 access_key_secret_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#access_key_secret_auth GoogleChronicleFeed#access_key_secret_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#access_key_secret_auth GoogleChronicleFeed#access_key_secret_auth}
 
 ---
 
@@ -2931,7 +2931,7 @@ public readonly awsIamRoleAuth: GoogleChronicleFeedDetailsAmazonS3V2SettingsAuth
 
 aws_iam_role_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_iam_role_auth GoogleChronicleFeed#aws_iam_role_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_iam_role_auth GoogleChronicleFeed#aws_iam_role_auth}
 
 ---
 
@@ -2964,7 +2964,7 @@ public readonly accessKeyId: string;
 
 Access Key ID for an AWS account (a 20-character, alphanumeric string).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
 
 ---
 
@@ -2978,7 +2978,7 @@ public readonly secretAccessKey: string;
 
 Secret Access Key for an AWS account (a 40-character string).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
 
 ---
 
@@ -3011,7 +3011,7 @@ public readonly awsIamRoleArn: string;
 
 AWS IAM Role for Identity Federation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_iam_role_arn GoogleChronicleFeed#aws_iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_iam_role_arn GoogleChronicleFeed#aws_iam_role_arn}
 
 ---
 
@@ -3025,7 +3025,7 @@ public readonly subjectId: string;
 
 Subject ID to use for S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject_id GoogleChronicleFeed#subject_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject_id GoogleChronicleFeed#subject_id}
 
 ---
 
@@ -3061,7 +3061,7 @@ public readonly accountNumber: string;
 
 Account number of the owner of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#account_number GoogleChronicleFeed#account_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#account_number GoogleChronicleFeed#account_number}
 
 ---
 
@@ -3075,7 +3075,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAmazonSqsSettingsAuthe
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3089,7 +3089,7 @@ public readonly queue: string;
 
 Name of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#queue GoogleChronicleFeed#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#queue GoogleChronicleFeed#queue}
 
 ---
 
@@ -3103,7 +3103,7 @@ public readonly region: string;
 
 Possible values: US_EAST_1 US_EAST_2 US_WEST_1 US_WEST_2 US_GOV_CLOUD US_GOV_EAST_1 EU_WEST_1 EU_WEST_2 EU_WEST_3 EU_CENTRAL_1 EU_NORTH_1 EU_SOUTH_1 AP_SOUTH_1 AP_SOUTHEAST_1 AP_SOUTHEAST_2 AP_SOUTHEAST_3 AP_NORTHEAST_1 AP_NORTHEAST_2 AP_NORTHEAST_3 AP_EAST_1 SA_EAST_1 CN_NORTH_1 CN_NORTHWEST_1 CA_CENTRAL_1 AF_SOUTH_1 ME_SOUTH_1 AP_SOUTH_2 AP_SOUTHEAST_4 CA_WEST_1 EU_SOUTH_2 EU_CENTRAL_2 IL_CENTRAL_1 ME_CENTRAL_1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#region GoogleChronicleFeed#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#region GoogleChronicleFeed#region}
 
 ---
 
@@ -3117,7 +3117,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: SOURCE_DELETION_NEVER SOURCE_DELETION_ON_SUCCESS SOURCE_DELETION_ON_SUCCESS_FILES_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -3150,7 +3150,7 @@ public readonly additionalS3AccessKeySecretAuth: GoogleChronicleFeedDetailsAmazo
 
 additional_s3_access_key_secret_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#additional_s3_access_key_secret_auth GoogleChronicleFeed#additional_s3_access_key_secret_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#additional_s3_access_key_secret_auth GoogleChronicleFeed#additional_s3_access_key_secret_auth}
 
 ---
 
@@ -3164,7 +3164,7 @@ public readonly sqsAccessKeySecretAuth: GoogleChronicleFeedDetailsAmazonSqsSetti
 
 sqs_access_key_secret_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#sqs_access_key_secret_auth GoogleChronicleFeed#sqs_access_key_secret_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#sqs_access_key_secret_auth GoogleChronicleFeed#sqs_access_key_secret_auth}
 
 ---
 
@@ -3197,7 +3197,7 @@ public readonly accessKeyId: string;
 
 Access key ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
 
 ---
 
@@ -3211,7 +3211,7 @@ public readonly secretAccessKey: string;
 
 Secret access key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
 
 ---
 
@@ -3244,7 +3244,7 @@ public readonly accessKeyId: string;
 
 Access key ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
 
 ---
 
@@ -3258,7 +3258,7 @@ public readonly secretAccessKey: string;
 
 Secret access key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
 
 ---
 
@@ -3294,7 +3294,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAmazonSqsV2SettingsAut
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3308,7 +3308,7 @@ public readonly queue: string;
 
 Amazon Resource Name(ARN) of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#queue GoogleChronicleFeed#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#queue GoogleChronicleFeed#queue}
 
 ---
 
@@ -3322,7 +3322,7 @@ public readonly s3Uri: string;
 
 S3 URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#s3_uri GoogleChronicleFeed#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#s3_uri GoogleChronicleFeed#s3_uri}
 
 ---
 
@@ -3336,7 +3336,7 @@ public readonly maxLookbackDays: number;
 
 Maximum File Age to ingest in days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
 
 ---
 
@@ -3350,7 +3350,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: NEVER ON_SUCCESS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -3383,7 +3383,7 @@ public readonly awsIamRoleAuth: GoogleChronicleFeedDetailsAmazonSqsV2SettingsAut
 
 aws_iam_role_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_iam_role_auth GoogleChronicleFeed#aws_iam_role_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_iam_role_auth GoogleChronicleFeed#aws_iam_role_auth}
 
 ---
 
@@ -3397,7 +3397,7 @@ public readonly sqsV2AccessKeySecretAuth: GoogleChronicleFeedDetailsAmazonSqsV2S
 
 sqs_v2_access_key_secret_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#sqs_v2_access_key_secret_auth GoogleChronicleFeed#sqs_v2_access_key_secret_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#sqs_v2_access_key_secret_auth GoogleChronicleFeed#sqs_v2_access_key_secret_auth}
 
 ---
 
@@ -3430,7 +3430,7 @@ public readonly awsIamRoleArn: string;
 
 AWS IAM Role for Identity Federation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#aws_iam_role_arn GoogleChronicleFeed#aws_iam_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#aws_iam_role_arn GoogleChronicleFeed#aws_iam_role_arn}
 
 ---
 
@@ -3444,7 +3444,7 @@ public readonly subjectId: string;
 
 Subject ID to use for SQS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject_id GoogleChronicleFeed#subject_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject_id GoogleChronicleFeed#subject_id}
 
 ---
 
@@ -3477,7 +3477,7 @@ public readonly accessKeyId: string;
 
 Access key ID of the S3 bucket.  Ex: AKIABCDEFGHIJKL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#access_key_id GoogleChronicleFeed#access_key_id}
 
 ---
 
@@ -3491,7 +3491,7 @@ public readonly secretAccessKey: string;
 
 Secret access key to access the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret_access_key GoogleChronicleFeed#secret_access_key}
 
 ---
 
@@ -3523,7 +3523,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAnomaliSettingsAuthent
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3556,7 +3556,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -3570,7 +3570,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -3602,7 +3602,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAwsEc2HostsSettingsAut
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3635,7 +3635,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -3649,7 +3649,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -3681,7 +3681,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAwsEc2InstancesSetting
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3714,7 +3714,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -3728,7 +3728,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -3760,7 +3760,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAwsEc2VpcsSettingsAuth
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3793,7 +3793,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -3807,7 +3807,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -3840,7 +3840,7 @@ public readonly apiType: string;
 
 Supported AWS IAM api type. Possible values: USERS ROLES GROUPS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#api_type GoogleChronicleFeed#api_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#api_type GoogleChronicleFeed#api_type}
 
 ---
 
@@ -3854,7 +3854,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAwsIamSettingsAuthenti
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3887,7 +3887,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -3901,7 +3901,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -3936,7 +3936,7 @@ public readonly authEndpoint: string;
 
 API Auth Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
 
 ---
 
@@ -3950,7 +3950,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAzureAdAuditSettingsAu
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -3964,7 +3964,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -3978,7 +3978,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -4011,7 +4011,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -4025,7 +4025,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -4062,7 +4062,7 @@ public readonly authEndpoint: string;
 
 API Auth Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
 
 ---
 
@@ -4076,7 +4076,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAzureAdContextSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -4090,7 +4090,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -4104,7 +4104,7 @@ public readonly retrieveDevices: boolean | IResolvable;
 
 Whether to retrieve device information in user context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#retrieve_devices GoogleChronicleFeed#retrieve_devices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#retrieve_devices GoogleChronicleFeed#retrieve_devices}
 
 ---
 
@@ -4118,7 +4118,7 @@ public readonly retrieveGroups: boolean | IResolvable;
 
 Whether to retrieve group information in user context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#retrieve_groups GoogleChronicleFeed#retrieve_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#retrieve_groups GoogleChronicleFeed#retrieve_groups}
 
 ---
 
@@ -4132,7 +4132,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -4165,7 +4165,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -4179,7 +4179,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -4214,7 +4214,7 @@ public readonly authEndpoint: string;
 
 API Auth Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
 
 ---
 
@@ -4228,7 +4228,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAzureAdSettingsAuthent
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -4242,7 +4242,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -4256,7 +4256,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -4289,7 +4289,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -4303,7 +4303,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -4338,7 +4338,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAzureBlobStoreSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -4352,7 +4352,7 @@ public readonly azureUri: string;
 
 Azure URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_uri GoogleChronicleFeed#azure_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_uri GoogleChronicleFeed#azure_uri}
 
 ---
 
@@ -4366,7 +4366,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: SOURCE_DELETION_NEVER SOURCE_DELETION_ON_SUCCESS SOURCE_DELETION_ON_SUCCESS_FILES_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -4380,7 +4380,7 @@ public readonly sourceType: string;
 
 Possible values: FILES FOLDERS FOLDERS_RECURSIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
 
 ---
 
@@ -4413,7 +4413,7 @@ public readonly sasToken: string;
 
 SAS Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#sas_token GoogleChronicleFeed#sas_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#sas_token GoogleChronicleFeed#sas_token}
 
 ---
 
@@ -4427,7 +4427,7 @@ public readonly sharedKey: string;
 
 Shared Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#shared_key GoogleChronicleFeed#shared_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#shared_key GoogleChronicleFeed#shared_key}
 
 ---
 
@@ -4462,7 +4462,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAzureBlobStoreV2Settin
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -4476,7 +4476,7 @@ public readonly azureUri: string;
 
 Azure URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_uri GoogleChronicleFeed#azure_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_uri GoogleChronicleFeed#azure_uri}
 
 ---
 
@@ -4490,7 +4490,7 @@ public readonly maxLookbackDays: number;
 
 Maximum File Age to ingest in days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
 
 ---
 
@@ -4504,7 +4504,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: NEVER ON_SUCCESS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -4538,7 +4538,7 @@ public readonly accessKey: string;
 
 Access Key also known as shared key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#access_key GoogleChronicleFeed#access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#access_key GoogleChronicleFeed#access_key}
 
 ---
 
@@ -4552,7 +4552,7 @@ public readonly azureV2WorkloadIdentityFederation: GoogleChronicleFeedDetailsAzu
 
 azure_v2_workload_identity_federation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_v2_workload_identity_federation GoogleChronicleFeed#azure_v2_workload_identity_federation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_v2_workload_identity_federation GoogleChronicleFeed#azure_v2_workload_identity_federation}
 
 ---
 
@@ -4566,7 +4566,7 @@ public readonly sasToken: string;
 
 SAS Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#sas_token GoogleChronicleFeed#sas_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#sas_token GoogleChronicleFeed#sas_token}
 
 ---
 
@@ -4600,7 +4600,7 @@ public readonly clientId: string;
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -4614,7 +4614,7 @@ public readonly subjectId: string;
 
 Subject ID of the Azure subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject_id GoogleChronicleFeed#subject_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject_id GoogleChronicleFeed#subject_id}
 
 ---
 
@@ -4628,7 +4628,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -4665,7 +4665,7 @@ public readonly consumerGroup: string;
 
 Event hub consumer group to read from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#consumer_group GoogleChronicleFeed#consumer_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#consumer_group GoogleChronicleFeed#consumer_group}
 
 ---
 
@@ -4679,7 +4679,7 @@ public readonly eventHubConnectionString: string;
 
 Event hub connection string for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#event_hub_connection_string GoogleChronicleFeed#event_hub_connection_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#event_hub_connection_string GoogleChronicleFeed#event_hub_connection_string}
 
 ---
 
@@ -4693,7 +4693,7 @@ public readonly name: string;
 
 Event hub to read from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#name GoogleChronicleFeed#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#name GoogleChronicleFeed#name}
 
 ---
 
@@ -4707,7 +4707,7 @@ public readonly azureSasToken: string;
 
 SAS token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_sas_token GoogleChronicleFeed#azure_sas_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_sas_token GoogleChronicleFeed#azure_sas_token}
 
 ---
 
@@ -4721,7 +4721,7 @@ public readonly azureStorageConnectionString: string;
 
 Blob store connection string for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_storage_connection_string GoogleChronicleFeed#azure_storage_connection_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_storage_connection_string GoogleChronicleFeed#azure_storage_connection_string}
 
 ---
 
@@ -4735,7 +4735,7 @@ public readonly azureStorageContainer: string;
 
 Blob storage container name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#azure_storage_container GoogleChronicleFeed#azure_storage_container}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#azure_storage_container GoogleChronicleFeed#azure_storage_container}
 
 ---
 
@@ -4770,7 +4770,7 @@ public readonly authEndpoint: string;
 
 API Auth Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
 
 ---
 
@@ -4784,7 +4784,7 @@ public readonly authentication: GoogleChronicleFeedDetailsAzureMdmIntuneSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -4798,7 +4798,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -4812,7 +4812,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -4845,7 +4845,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -4859,7 +4859,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -4892,7 +4892,7 @@ public readonly authentication: GoogleChronicleFeedDetailsCloudPassageSettingsAu
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -4906,7 +4906,7 @@ public readonly eventTypes: string[];
 
 Event types filter for the events API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#event_types GoogleChronicleFeed#event_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#event_types GoogleChronicleFeed#event_types}
 
 ---
 
@@ -4939,7 +4939,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -4953,7 +4953,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -4987,7 +4987,7 @@ public readonly authentication: GoogleChronicleFeedDetailsCortexXdrSettingsAuthe
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -5001,7 +5001,7 @@ public readonly endpoint: string;
 
 API Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
 
 ---
 
@@ -5015,7 +5015,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -5047,7 +5047,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsCortexX
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -5080,7 +5080,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -5094,7 +5094,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -5128,7 +5128,7 @@ public readonly authentication: GoogleChronicleFeedDetailsCrowdstrikeAlertsSetti
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -5142,7 +5142,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -5156,7 +5156,7 @@ public readonly ingestionType: string;
 
 Ingestion Type. Possible values: BRING_ALL_ALERTS BRING_ONLY_NEW_ALERTS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#ingestion_type GoogleChronicleFeed#ingestion_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#ingestion_type GoogleChronicleFeed#ingestion_type}
 
 ---
 
@@ -5190,7 +5190,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -5204,7 +5204,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -5218,7 +5218,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -5252,7 +5252,7 @@ public readonly authentication: GoogleChronicleFeedDetailsCrowdstrikeDetectsSett
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -5266,7 +5266,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -5280,7 +5280,7 @@ public readonly ingestionType: string;
 
 Ingestion Type. Possible values: BRING_ONLY_NEW_DETECTIONS BRING_ALL_DETECTIONS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#ingestion_type GoogleChronicleFeed#ingestion_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#ingestion_type GoogleChronicleFeed#ingestion_type}
 
 ---
 
@@ -5314,7 +5314,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -5328,7 +5328,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -5342,7 +5342,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -5375,7 +5375,7 @@ public readonly apiEndpoint: string;
 
 Full API Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
 
 ---
 
@@ -5389,7 +5389,7 @@ public readonly authentication: GoogleChronicleFeedDetailsDummyLogTypeSettingsAu
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -5421,7 +5421,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsDummyLo
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -5454,7 +5454,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -5468,7 +5468,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -5501,7 +5501,7 @@ public readonly authentication: GoogleChronicleFeedDetailsDuoAuthSettingsAuthent
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -5515,7 +5515,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -5548,7 +5548,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -5562,7 +5562,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -5595,7 +5595,7 @@ public readonly authentication: GoogleChronicleFeedDetailsDuoUserContextSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -5609,7 +5609,7 @@ public readonly hostname: string;
 
 API hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -5642,7 +5642,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -5656,7 +5656,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -5691,7 +5691,7 @@ public readonly authentication: GoogleChronicleFeedDetailsFoxItStixSettingsAuthe
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -5705,7 +5705,7 @@ public readonly collection: string;
 
 Collection available at the poll service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#collection GoogleChronicleFeed#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#collection GoogleChronicleFeed#collection}
 
 ---
 
@@ -5719,7 +5719,7 @@ public readonly pollServiceUri: string;
 
 TAXII poll service URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#poll_service_uri GoogleChronicleFeed#poll_service_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#poll_service_uri GoogleChronicleFeed#poll_service_uri}
 
 ---
 
@@ -5733,7 +5733,7 @@ public readonly ssl: GoogleChronicleFeedDetailsFoxItStixSettingsSsl;
 
 ssl block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#ssl GoogleChronicleFeed#ssl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#ssl GoogleChronicleFeed#ssl}
 
 ---
 
@@ -5766,7 +5766,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -5780,7 +5780,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -5824,7 +5824,7 @@ DEK-Info: DES-EDE3-CBC,F23074E02CF47304
 
 -----END RSA PRIVATE KEY-----
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#encoded_private_key GoogleChronicleFeed#encoded_private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#encoded_private_key GoogleChronicleFeed#encoded_private_key}
 
 ---
 
@@ -5847,7 +5847,7 @@ Example:
 
 -----END CERTIFICATE-----
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#ssl_certificate GoogleChronicleFeed#ssl_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#ssl_certificate GoogleChronicleFeed#ssl_certificate}
 
 ---
 
@@ -5881,7 +5881,7 @@ public readonly bucketUri: string;
 
 Bucket URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#bucket_uri GoogleChronicleFeed#bucket_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#bucket_uri GoogleChronicleFeed#bucket_uri}
 
 ---
 
@@ -5895,7 +5895,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: SOURCE_DELETION_NEVER SOURCE_DELETION_ON_SUCCESS SOURCE_DELETION_ON_SUCCESS_FILES_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -5909,7 +5909,7 @@ public readonly sourceType: string;
 
 Possible values: FILES FOLDERS FOLDERS_RECURSIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
 
 ---
 
@@ -5943,7 +5943,7 @@ public readonly bucketUri: string;
 
 Google Cloud Storage Bucket URI for the feed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#bucket_uri GoogleChronicleFeed#bucket_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#bucket_uri GoogleChronicleFeed#bucket_uri}
 
 ---
 
@@ -5957,7 +5957,7 @@ public readonly maxLookbackDays: number;
 
 Maximum File Age to ingest in days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
 
 ---
 
@@ -5971,7 +5971,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: NEVER ON_SUCCESS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -6004,7 +6004,7 @@ public readonly apiVersion: string;
 
 API Version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#api_version GoogleChronicleFeed#api_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#api_version GoogleChronicleFeed#api_version}
 
 ---
 
@@ -6018,7 +6018,7 @@ public readonly authentication: GoogleChronicleFeedDetailsGoogleCloudIdentityDev
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -6052,7 +6052,7 @@ public readonly claims: GoogleChronicleFeedDetailsGoogleCloudIdentityDevicesSett
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -6066,7 +6066,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsGoogleCloudIdentityDevi
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -6080,7 +6080,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -6114,7 +6114,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -6128,7 +6128,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -6142,7 +6142,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -6174,7 +6174,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -6206,7 +6206,7 @@ public readonly authentication: GoogleChronicleFeedDetailsGoogleCloudIdentityDev
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -6240,7 +6240,7 @@ public readonly claims: GoogleChronicleFeedDetailsGoogleCloudIdentityDeviceUsers
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -6254,7 +6254,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsGoogleCloudIdentityDevi
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -6268,7 +6268,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -6302,7 +6302,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -6316,7 +6316,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -6330,7 +6330,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -6362,7 +6362,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -6397,7 +6397,7 @@ public readonly bucketUri: string;
 
 Google Cloud Storage Bucket URI for the feed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#bucket_uri GoogleChronicleFeed#bucket_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#bucket_uri GoogleChronicleFeed#bucket_uri}
 
 ---
 
@@ -6411,7 +6411,7 @@ public readonly pubsubSubscription: string;
 
 Subscription name for pubsub topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#pubsub_subscription GoogleChronicleFeed#pubsub_subscription}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#pubsub_subscription GoogleChronicleFeed#pubsub_subscription}
 
 ---
 
@@ -6425,7 +6425,7 @@ public readonly maxLookbackDays: number;
 
 Maximum File Age to ingest in days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#max_lookback_days GoogleChronicleFeed#max_lookback_days}
 
 ---
 
@@ -6439,7 +6439,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: NEVER ON_SUCCESS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -6473,7 +6473,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: SOURCE_DELETION_NEVER SOURCE_DELETION_ON_SUCCESS SOURCE_DELETION_ON_SUCCESS_FILES_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -6487,7 +6487,7 @@ public readonly sourceType: string;
 
 Possible values: FILES FOLDERS FOLDERS_RECURSIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
 
 ---
 
@@ -6501,7 +6501,7 @@ public readonly uri: string;
 
 HTTP URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#uri GoogleChronicleFeed#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#uri GoogleChronicleFeed#uri}
 
 ---
 
@@ -6533,7 +6533,7 @@ public readonly splitDelimiter: string;
 
 Delimiter to split on for the feed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#split_delimiter GoogleChronicleFeed#split_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#split_delimiter GoogleChronicleFeed#split_delimiter}
 
 ---
 
@@ -6565,7 +6565,7 @@ public readonly splitDelimiter: string;
 
 Delimiter to split on for the feed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#split_delimiter GoogleChronicleFeed#split_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#split_delimiter GoogleChronicleFeed#split_delimiter}
 
 ---
 
@@ -6597,7 +6597,7 @@ public readonly splitDelimiter: string;
 
 Delimiter to split on for the feed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#split_delimiter GoogleChronicleFeed#split_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#split_delimiter GoogleChronicleFeed#split_delimiter}
 
 ---
 
@@ -6629,7 +6629,7 @@ public readonly authentication: GoogleChronicleFeedDetailsImpervaWafSettingsAuth
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -6661,7 +6661,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsImperva
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -6694,7 +6694,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -6708,7 +6708,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -6741,7 +6741,7 @@ public readonly authentication: GoogleChronicleFeedDetailsMandiantIocSettingsAut
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -6755,7 +6755,7 @@ public readonly startTime: string;
 
 time since when to start fetching the IOCs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#start_time GoogleChronicleFeed#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#start_time GoogleChronicleFeed#start_time}
 
 ---
 
@@ -6787,7 +6787,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsMandian
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -6820,7 +6820,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -6834,7 +6834,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -6869,7 +6869,7 @@ public readonly authEndpoint: string;
 
 API Auth Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
 
 ---
 
@@ -6883,7 +6883,7 @@ public readonly authentication: GoogleChronicleFeedDetailsMicrosoftGraphAlertSet
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -6897,7 +6897,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -6911,7 +6911,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -6944,7 +6944,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -6958,7 +6958,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -6994,7 +6994,7 @@ public readonly authEndpoint: string;
 
 API Auth Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
 
 ---
 
@@ -7008,7 +7008,7 @@ public readonly authentication: GoogleChronicleFeedDetailsMicrosoftSecurityCente
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -7022,7 +7022,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -7036,7 +7036,7 @@ public readonly subscriptionId: string;
 
 Subscription ID of the Microsoft security center alert settings alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subscription_id GoogleChronicleFeed#subscription_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subscription_id GoogleChronicleFeed#subscription_id}
 
 ---
 
@@ -7050,7 +7050,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -7083,7 +7083,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -7097,7 +7097,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -7130,7 +7130,7 @@ public readonly authentication: GoogleChronicleFeedDetailsMimecastMailSettingsAu
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -7144,7 +7144,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -7176,7 +7176,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsMimecas
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -7209,7 +7209,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -7223,7 +7223,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -7255,7 +7255,7 @@ public readonly authCredentials: GoogleChronicleFeedDetailsMimecastMailV2Setting
 
 auth_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_credentials GoogleChronicleFeed#auth_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_credentials GoogleChronicleFeed#auth_credentials}
 
 ---
 
@@ -7288,7 +7288,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -7302,7 +7302,7 @@ public readonly clientSecret: string;
 
 Client Secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -7337,7 +7337,7 @@ public readonly authentication: GoogleChronicleFeedDetailsNetskopeAlertSettingsA
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -7351,7 +7351,7 @@ public readonly contentType: string;
 
 Content type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#content_type GoogleChronicleFeed#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#content_type GoogleChronicleFeed#content_type}
 
 ---
 
@@ -7365,7 +7365,7 @@ public readonly feedname: string;
 
 Feedname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#feedname GoogleChronicleFeed#feedname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#feedname GoogleChronicleFeed#feedname}
 
 ---
 
@@ -7379,7 +7379,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -7411,7 +7411,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsNetskop
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -7444,7 +7444,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -7458,7 +7458,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -7493,7 +7493,7 @@ public readonly authentication: GoogleChronicleFeedDetailsNetskopeAlertV2Setting
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -7507,7 +7507,7 @@ public readonly contentCategory: string;
 
 Content Category.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#content_category GoogleChronicleFeed#content_category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#content_category GoogleChronicleFeed#content_category}
 
 ---
 
@@ -7521,7 +7521,7 @@ public readonly contentTypes: string[];
 
 Content type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#content_types GoogleChronicleFeed#content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#content_types GoogleChronicleFeed#content_types}
 
 ---
 
@@ -7535,7 +7535,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -7567,7 +7567,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsNetskop
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -7600,7 +7600,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -7614,7 +7614,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -7650,7 +7650,7 @@ public readonly authEndpoint: string;
 
 API Auth Endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#auth_endpoint GoogleChronicleFeed#auth_endpoint}
 
 ---
 
@@ -7664,7 +7664,7 @@ public readonly authentication: GoogleChronicleFeedDetailsOffice365SettingsAuthe
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -7678,7 +7678,7 @@ public readonly contentType: string;
 
 Supported office 365 content type. Possible values: AUDIT_AZURE_ACTIVE_DIRECTORY AUDIT_EXCHANGE AUDIT_SHARE_POINT AUDIT_GENERAL DLP_ALL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#content_type GoogleChronicleFeed#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#content_type GoogleChronicleFeed#content_type}
 
 ---
 
@@ -7692,7 +7692,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -7706,7 +7706,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -7739,7 +7739,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -7753,7 +7753,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -7786,7 +7786,7 @@ public readonly authentication: GoogleChronicleFeedDetailsOktaSettingsAuthentica
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -7800,7 +7800,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -7832,7 +7832,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsOktaSet
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -7865,7 +7865,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -7879,7 +7879,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -7913,7 +7913,7 @@ public readonly authentication: GoogleChronicleFeedDetailsOktaUserContextSetting
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -7927,7 +7927,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -7941,7 +7941,7 @@ public readonly managerIdReferenceField: string;
 
 Manager id reference field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#manager_id_reference_field GoogleChronicleFeed#manager_id_reference_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#manager_id_reference_field GoogleChronicleFeed#manager_id_reference_field}
 
 ---
 
@@ -7973,7 +7973,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsOktaUse
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -8006,7 +8006,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -8020,7 +8020,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -8054,7 +8054,7 @@ public readonly authentication: GoogleChronicleFeedDetailsPanIocSettingsAuthenti
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8068,7 +8068,7 @@ public readonly feed: string;
 
 PAN IOC feed name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#feed GoogleChronicleFeed#feed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#feed GoogleChronicleFeed#feed}
 
 ---
 
@@ -8082,7 +8082,7 @@ public readonly feedId: string;
 
 PAN IOC feed ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#feed_id GoogleChronicleFeed#feed_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#feed_id GoogleChronicleFeed#feed_id}
 
 ---
 
@@ -8114,7 +8114,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsPanIocS
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -8147,7 +8147,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -8161,7 +8161,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -8194,7 +8194,7 @@ public readonly authentication: GoogleChronicleFeedDetailsPanPrismaCloudSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8208,7 +8208,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -8241,7 +8241,7 @@ public readonly password: string;
 
 Password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
 
 ---
 
@@ -8255,7 +8255,7 @@ public readonly user: string;
 
 Username.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -8287,7 +8287,7 @@ public readonly authentication: GoogleChronicleFeedDetailsProofpointMailSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8320,7 +8320,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -8334,7 +8334,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -8367,7 +8367,7 @@ public readonly authentication: GoogleChronicleFeedDetailsProofpointOnDemandSett
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8381,7 +8381,7 @@ public readonly clusterId: string;
 
 Cluster ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#cluster_id GoogleChronicleFeed#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#cluster_id GoogleChronicleFeed#cluster_id}
 
 ---
 
@@ -8413,7 +8413,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsProofpo
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -8446,7 +8446,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -8460,7 +8460,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -8492,7 +8492,7 @@ public readonly googleServiceAccountEmail: string;
 
 Google Service Account Email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#google_service_account_email GoogleChronicleFeed#google_service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#google_service_account_email GoogleChronicleFeed#google_service_account_email}
 
 ---
 
@@ -8526,7 +8526,7 @@ public readonly apiType: string;
 
 Supported Qualys Scan api type. Possible values: SCAN_SUMMARY_OUTPUT SCAN_COMPLIANCE_OUTPUT SCAN_COMPLIANCE_CONTROL_OUTPUT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#api_type GoogleChronicleFeed#api_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#api_type GoogleChronicleFeed#api_type}
 
 ---
 
@@ -8540,7 +8540,7 @@ public readonly authentication: GoogleChronicleFeedDetailsQualysScanSettingsAuth
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8554,7 +8554,7 @@ public readonly hostname: string;
 
 Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -8587,7 +8587,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -8601,7 +8601,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -8634,7 +8634,7 @@ public readonly authentication: GoogleChronicleFeedDetailsQualysVmSettingsAuthen
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8648,7 +8648,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -8681,7 +8681,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -8695,7 +8695,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -8729,7 +8729,7 @@ public readonly authentication: GoogleChronicleFeedDetailsRapid7InsightSettingsA
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8743,7 +8743,7 @@ public readonly endpoint: string;
 
 Rapid7 API endpoint. Should be "vulnerabilities" or "assets".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
 
 ---
 
@@ -8757,7 +8757,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -8789,7 +8789,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsRapid7I
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -8822,7 +8822,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -8836,7 +8836,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -8868,7 +8868,7 @@ public readonly authentication: GoogleChronicleFeedDetailsRecordedFutureIocSetti
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -8900,7 +8900,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsRecorde
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -8933,7 +8933,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -8947,7 +8947,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -8979,7 +8979,7 @@ public readonly authentication: GoogleChronicleFeedDetailsRhIsacIocSettingsAuthe
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -9013,7 +9013,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -9027,7 +9027,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -9041,7 +9041,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -9075,7 +9075,7 @@ public readonly hostname: string;
 
 API hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -9089,7 +9089,7 @@ public readonly oauthJwtCredentials: GoogleChronicleFeedDetailsSalesforceSetting
 
 oauth_jwt_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#oauth_jwt_credentials GoogleChronicleFeed#oauth_jwt_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#oauth_jwt_credentials GoogleChronicleFeed#oauth_jwt_credentials}
 
 ---
 
@@ -9103,7 +9103,7 @@ public readonly oauthPasswordGrantAuth: GoogleChronicleFeedDetailsSalesforceSett
 
 oauth_password_grant_auth block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#oauth_password_grant_auth GoogleChronicleFeed#oauth_password_grant_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#oauth_password_grant_auth GoogleChronicleFeed#oauth_password_grant_auth}
 
 ---
 
@@ -9137,7 +9137,7 @@ public readonly claims: GoogleChronicleFeedDetailsSalesforceSettingsOauthJwtCred
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -9151,7 +9151,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsSalesforceSettingsOauth
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -9165,7 +9165,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -9199,7 +9199,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -9213,7 +9213,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -9227,7 +9227,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -9259,7 +9259,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -9295,7 +9295,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -9309,7 +9309,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -9323,7 +9323,7 @@ public readonly password: string;
 
 Password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
 
 ---
 
@@ -9337,7 +9337,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -9351,7 +9351,7 @@ public readonly user: string;
 
 Username.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -9386,7 +9386,7 @@ public readonly authentication: GoogleChronicleFeedDetailsSentineloneAlertSettin
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -9400,7 +9400,7 @@ public readonly hostname: string;
 
 Hostname of SentinelOne alert settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -9414,7 +9414,7 @@ public readonly initialStartTime: string;
 
 initialStartTime from when to fetch the alerts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#initial_start_time GoogleChronicleFeed#initial_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#initial_start_time GoogleChronicleFeed#initial_start_time}
 
 ---
 
@@ -9428,7 +9428,7 @@ public readonly isAlertApiSubscribed: boolean | IResolvable;
 
 Is the customer subscribed to Alerts Api.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#is_alert_api_subscribed GoogleChronicleFeed#is_alert_api_subscribed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#is_alert_api_subscribed GoogleChronicleFeed#is_alert_api_subscribed}
 
 ---
 
@@ -9460,7 +9460,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsSentine
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -9493,7 +9493,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -9507,7 +9507,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -9541,7 +9541,7 @@ public readonly authentication: GoogleChronicleFeedDetailsServiceNowCmdbSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -9555,7 +9555,7 @@ public readonly feedname: string;
 
 Feedname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#feedname GoogleChronicleFeed#feedname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#feedname GoogleChronicleFeed#feedname}
 
 ---
 
@@ -9569,7 +9569,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -9602,7 +9602,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -9616,7 +9616,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -9651,7 +9651,7 @@ public readonly authentication: GoogleChronicleFeedDetailsSftpSettingsAuthentica
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -9665,7 +9665,7 @@ public readonly sourceDeletionOption: string;
 
 Possible values: SOURCE_DELETION_NEVER SOURCE_DELETION_ON_SUCCESS SOURCE_DELETION_ON_SUCCESS_FILES_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_deletion_option GoogleChronicleFeed#source_deletion_option}
 
 ---
 
@@ -9679,7 +9679,7 @@ public readonly sourceType: string;
 
 Possible values: FILES FOLDERS FOLDERS_RECURSIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#source_type GoogleChronicleFeed#source_type}
 
 ---
 
@@ -9693,7 +9693,7 @@ public readonly uri: string;
 
 SFTP URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#uri GoogleChronicleFeed#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#uri GoogleChronicleFeed#uri}
 
 ---
 
@@ -9728,7 +9728,7 @@ public readonly password: string;
 
 Password. Used for username and password authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
 
 ---
 
@@ -9742,7 +9742,7 @@ public readonly privateKey: string;
 
 Private key. Used for private key authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -9756,7 +9756,7 @@ public readonly privateKeyPassphrase: string;
 
 Private key passphrase. Used for private key authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key_passphrase GoogleChronicleFeed#private_key_passphrase}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key_passphrase GoogleChronicleFeed#private_key_passphrase}
 
 ---
 
@@ -9770,7 +9770,7 @@ public readonly username: string;
 
 Username. Used for username and password authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
 
 ---
 
@@ -9802,7 +9802,7 @@ public readonly authentication: GoogleChronicleFeedDetailsSymantecEventExportSet
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -9837,7 +9837,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -9851,7 +9851,7 @@ public readonly clientSecret: string;
 
 Client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -9865,7 +9865,7 @@ public readonly refreshToken: string;
 
 Refresh token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
 
 ---
 
@@ -9879,7 +9879,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -9912,7 +9912,7 @@ public readonly authentication: GoogleChronicleFeedDetailsThinkstCanarySettingsA
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -9926,7 +9926,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -9958,7 +9958,7 @@ public readonly headerKeyValues: IResolvable | GoogleChronicleFeedDetailsThinkst
 
 header_key_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#header_key_values GoogleChronicleFeed#header_key_values}
 
 ---
 
@@ -9991,7 +9991,7 @@ public readonly key: string;
 
 Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#key GoogleChronicleFeed#key}
 
 ---
 
@@ -10005,7 +10005,7 @@ public readonly value: string;
 
 Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#value GoogleChronicleFeed#value}
 
 ---
 
@@ -10039,7 +10039,7 @@ public readonly authentication: GoogleChronicleFeedDetailsThreatConnectIocSettin
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -10053,7 +10053,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -10067,7 +10067,7 @@ public readonly owners: string[];
 
 Owners.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
 
 ---
 
@@ -10100,7 +10100,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -10114,7 +10114,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -10151,7 +10151,7 @@ public readonly authentication: GoogleChronicleFeedDetailsThreatConnectIocV3Sett
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -10165,7 +10165,7 @@ public readonly fields: string[];
 
 Fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#fields GoogleChronicleFeed#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#fields GoogleChronicleFeed#fields}
 
 ---
 
@@ -10179,7 +10179,7 @@ public readonly hostname: string;
 
 hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -10193,7 +10193,7 @@ public readonly owners: string[];
 
 Owners.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#owners GoogleChronicleFeed#owners}
 
 ---
 
@@ -10207,7 +10207,7 @@ public readonly schedule: number;
 
 Schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#schedule GoogleChronicleFeed#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#schedule GoogleChronicleFeed#schedule}
 
 ---
 
@@ -10221,7 +10221,7 @@ public readonly tqlQuery: string;
 
 ThreatConnect Query Language filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tql_query GoogleChronicleFeed#tql_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tql_query GoogleChronicleFeed#tql_query}
 
 ---
 
@@ -10254,7 +10254,7 @@ public readonly secret: string;
 
 Secret of the account identified by user_name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -10268,7 +10268,7 @@ public readonly user: string;
 
 Username of an identity used for authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -10301,7 +10301,7 @@ public readonly authentication: GoogleChronicleFeedDetailsTrellixHxAlertsSetting
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -10321,7 +10321,7 @@ https://xxx.trellix.com/hx/id//
 - or -
 https://htapdeviceproxy.md.mandiant.net/dphb/hx//
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
 
 ---
 
@@ -10354,7 +10354,7 @@ public readonly msso: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAuthentic
 
 msso block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
 
 ---
 
@@ -10368,7 +10368,7 @@ public readonly trellixIam: GoogleChronicleFeedDetailsTrellixHxAlertsSettingsAut
 
 trellix_iam block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
 
 ---
 
@@ -10404,7 +10404,7 @@ The login api endpoint url.
 
 This must be a valid URL with an http or https scheme. It has no default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
 
 ---
 
@@ -10424,7 +10424,7 @@ will have been provided by an MSSO administrator and it is assumed that
 they have provided a password that is internally consistent with MSSO
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
 
 ---
 
@@ -10444,7 +10444,7 @@ will have been provided by an MSSO administrator and it is assumed that
 they have provided a username that is internally consistent with MSSO
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
 
 ---
 
@@ -10483,7 +10483,7 @@ It has no default, specifically enforced min / max length or character set.
 It is assumed that the Client ID generated in Trellix IAM is internally
 consistent with Trellix IAM authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -10502,7 +10502,7 @@ default, specifically enforced min / max length or character set. It is
 assumed that the secret generated in Trellix IAM is internally
 consistent with Trellix IAM authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -10521,7 +10521,7 @@ no default, specifically enforced min / max length or character set. It is
 assumed that the scope provided is internally consistent with Trellix IAM
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
 
 ---
 
@@ -10560,7 +10560,7 @@ https://xxx.trellix.com/hx/id//
 - or -
 https://htapdeviceproxy.md.mandiant.net/dphb/hx//
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
 
 ---
 
@@ -10574,7 +10574,7 @@ public readonly authentication: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSetti
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -10607,7 +10607,7 @@ public readonly msso: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthent
 
 msso block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
 
 ---
 
@@ -10621,7 +10621,7 @@ public readonly trellixIam: GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsA
 
 trellix_iam block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
 
 ---
 
@@ -10657,7 +10657,7 @@ The login api endpoint url.
 
 This must be a valid URL with an http or https scheme. It has no default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
 
 ---
 
@@ -10677,7 +10677,7 @@ will have been provided by an MSSO administrator and it is assumed that
 they have provided a password that is internally consistent with MSSO
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
 
 ---
 
@@ -10697,7 +10697,7 @@ will have been provided by an MSSO administrator and it is assumed that
 they have provided a username that is internally consistent with MSSO
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
 
 ---
 
@@ -10736,7 +10736,7 @@ It has no default, specifically enforced min / max length or character set.
 It is assumed that the Client ID generated in Trellix IAM is internally
 consistent with Trellix IAM authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -10755,7 +10755,7 @@ default, specifically enforced min / max length or character set. It is
 assumed that the secret generated in Trellix IAM is internally
 consistent with Trellix IAM authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -10774,7 +10774,7 @@ no default, specifically enforced min / max length or character set. It is
 assumed that the scope provided is internally consistent with Trellix IAM
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
 
 ---
 
@@ -10813,7 +10813,7 @@ https://xxx.trellix.com/hx/id//
 - or -
 https://htapdeviceproxy.md.mandiant.net/dphb/hx//
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#endpoint GoogleChronicleFeed#endpoint}
 
 ---
 
@@ -10827,7 +10827,7 @@ public readonly authentication: GoogleChronicleFeedDetailsTrellixHxHostsSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -10860,7 +10860,7 @@ public readonly msso: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuthentica
 
 msso block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#msso GoogleChronicleFeed#msso}
 
 ---
 
@@ -10874,7 +10874,7 @@ public readonly trellixIam: GoogleChronicleFeedDetailsTrellixHxHostsSettingsAuth
 
 trellix_iam block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#trellix_iam GoogleChronicleFeed#trellix_iam}
 
 ---
 
@@ -10910,7 +10910,7 @@ The login api endpoint url.
 
 This must be a valid URL with an http or https scheme. It has no default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#api_endpoint GoogleChronicleFeed#api_endpoint}
 
 ---
 
@@ -10930,7 +10930,7 @@ will have been provided by an MSSO administrator and it is assumed that
 they have provided a password that is internally consistent with MSSO
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#password GoogleChronicleFeed#password}
 
 ---
 
@@ -10950,7 +10950,7 @@ will have been provided by an MSSO administrator and it is assumed that
 they have provided a username that is internally consistent with MSSO
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#username GoogleChronicleFeed#username}
 
 ---
 
@@ -10989,7 +10989,7 @@ It has no default, specifically enforced min / max length or character set.
 It is assumed that the Client ID generated in Trellix IAM is internally
 consistent with Trellix IAM authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -11008,7 +11008,7 @@ default, specifically enforced min / max length or character set. It is
 assumed that the secret generated in Trellix IAM is internally
 consistent with Trellix IAM authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -11027,7 +11027,7 @@ no default, specifically enforced min / max length or character set. It is
 assumed that the scope provided is internally consistent with Trellix IAM
 authentication requirements / validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
 
 ---
 
@@ -11072,7 +11072,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkdaySettingsAuthent
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -11086,7 +11086,7 @@ public readonly hostname: string;
 
 API Hostname.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#hostname GoogleChronicleFeed#hostname}
 
 ---
 
@@ -11100,7 +11100,7 @@ public readonly tenantId: string;
 
 Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#tenant_id GoogleChronicleFeed#tenant_id}
 
 ---
 
@@ -11137,7 +11137,7 @@ public readonly clientId: string;
 
 Client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 
 ---
 
@@ -11151,7 +11151,7 @@ public readonly clientSecret: string;
 
 Client Secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 
 ---
 
@@ -11165,7 +11165,7 @@ public readonly refreshToken: string;
 
 Refresh Token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#refresh_token GoogleChronicleFeed#refresh_token}
 
 ---
 
@@ -11185,7 +11185,7 @@ using username (which was unused) and secret (which is used as the access
 token). Either this field or all of the other OAuth fields below must be
 specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#secret GoogleChronicleFeed#secret}
 
 ---
 
@@ -11199,7 +11199,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -11217,7 +11217,7 @@ This is unused: Workday feeds were originally configured using a
 username and secret authentication method, but only the secret field was
 used, and it was used to supply the OAuth access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#user GoogleChronicleFeed#user}
 
 ---
 
@@ -11251,7 +11251,7 @@ public readonly applications: string[];
 
 Applications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#applications GoogleChronicleFeed#applications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#applications GoogleChronicleFeed#applications}
 
 ---
 
@@ -11265,7 +11265,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkspaceActivitySetti
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -11279,7 +11279,7 @@ public readonly workspaceCustomerId: string;
 
 Customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
 
 ---
 
@@ -11313,7 +11313,7 @@ public readonly claims: GoogleChronicleFeedDetailsWorkspaceActivitySettingsAuthe
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -11327,7 +11327,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsWorkspaceActivitySettin
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -11341,7 +11341,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -11375,7 +11375,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -11389,7 +11389,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -11403,7 +11403,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -11435,7 +11435,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -11468,7 +11468,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkspaceAlertsSetting
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -11482,7 +11482,7 @@ public readonly workspaceCustomerId: string;
 
 Customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
 
 ---
 
@@ -11516,7 +11516,7 @@ public readonly claims: GoogleChronicleFeedDetailsWorkspaceAlertsSettingsAuthent
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -11530,7 +11530,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsWorkspaceAlertsSettings
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -11544,7 +11544,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -11578,7 +11578,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -11592,7 +11592,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -11606,7 +11606,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -11638,7 +11638,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -11671,7 +11671,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkspaceChromeOsSetti
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -11685,7 +11685,7 @@ public readonly workspaceCustomerId: string;
 
 Customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
 
 ---
 
@@ -11719,7 +11719,7 @@ public readonly claims: GoogleChronicleFeedDetailsWorkspaceChromeOsSettingsAuthe
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -11733,7 +11733,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsWorkspaceChromeOsSettin
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -11747,7 +11747,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -11781,7 +11781,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -11795,7 +11795,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -11809,7 +11809,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -11841,7 +11841,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -11874,7 +11874,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkspaceGroupsSetting
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -11888,7 +11888,7 @@ public readonly workspaceCustomerId: string;
 
 Customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
 
 ---
 
@@ -11922,7 +11922,7 @@ public readonly claims: GoogleChronicleFeedDetailsWorkspaceGroupsSettingsAuthent
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -11936,7 +11936,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsWorkspaceGroupsSettings
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -11950,7 +11950,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -11984,7 +11984,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -11998,7 +11998,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -12012,7 +12012,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -12044,7 +12044,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -12077,7 +12077,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkspaceMobileSetting
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -12091,7 +12091,7 @@ public readonly workspaceCustomerId: string;
 
 Customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
 
 ---
 
@@ -12125,7 +12125,7 @@ public readonly claims: GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthent
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -12139,7 +12139,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsWorkspaceMobileSettings
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -12153,7 +12153,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -12187,7 +12187,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -12201,7 +12201,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -12215,7 +12215,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -12247,7 +12247,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -12280,7 +12280,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkspacePrivilegesSet
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -12294,7 +12294,7 @@ public readonly workspaceCustomerId: string;
 
 Customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
 
 ---
 
@@ -12328,7 +12328,7 @@ public readonly claims: GoogleChronicleFeedDetailsWorkspacePrivilegesSettingsAut
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -12342,7 +12342,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsWorkspacePrivilegesSett
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -12356,7 +12356,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -12390,7 +12390,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -12404,7 +12404,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -12418,7 +12418,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -12450,7 +12450,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -12484,7 +12484,7 @@ public readonly authentication: GoogleChronicleFeedDetailsWorkspaceUsersSettings
 
 authentication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#authentication GoogleChronicleFeed#authentication}
 
 ---
 
@@ -12498,7 +12498,7 @@ public readonly projectionType: string;
 
 Projection Type. Possible values: BASIC_PROJECTION FULL_PROJECTION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#projection_type GoogleChronicleFeed#projection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#projection_type GoogleChronicleFeed#projection_type}
 
 ---
 
@@ -12512,7 +12512,7 @@ public readonly workspaceCustomerId: string;
 
 Customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#workspace_customer_id GoogleChronicleFeed#workspace_customer_id}
 
 ---
 
@@ -12546,7 +12546,7 @@ public readonly claims: GoogleChronicleFeedDetailsWorkspaceUsersSettingsAuthenti
 
 claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#claims GoogleChronicleFeed#claims}
 
 ---
 
@@ -12560,7 +12560,7 @@ public readonly rsCredentials: GoogleChronicleFeedDetailsWorkspaceUsersSettingsA
 
 rs_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#rs_credentials GoogleChronicleFeed#rs_credentials}
 
 ---
 
@@ -12574,7 +12574,7 @@ public readonly tokenEndpoint: string;
 
 Token endpoint to get the OAuth token from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#token_endpoint GoogleChronicleFeed#token_endpoint}
 
 ---
 
@@ -12608,7 +12608,7 @@ public readonly audience: string;
 
 Audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#audience GoogleChronicleFeed#audience}
 
 ---
 
@@ -12622,7 +12622,7 @@ public readonly issuer: string;
 
 Issuer. Usually the client_id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#issuer GoogleChronicleFeed#issuer}
 
 ---
 
@@ -12636,7 +12636,7 @@ public readonly subject: string;
 
 Subject. Usually the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#subject GoogleChronicleFeed#subject}
 
 ---
 
@@ -12668,7 +12668,7 @@ public readonly privateKey: string;
 
 Private key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#private_key GoogleChronicleFeed#private_key}
 
 ---
 
@@ -12697,9 +12697,9 @@ const googleChronicleFeedTimeouts: googleChronicleFeed.GoogleChronicleFeedTimeou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#create GoogleChronicleFeed#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#delete GoogleChronicleFeed#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#update GoogleChronicleFeed#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#create GoogleChronicleFeed#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#delete GoogleChronicleFeed#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleFeed.GoogleChronicleFeedTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#update GoogleChronicleFeed#update}. |
 
 ---
 
@@ -12711,7 +12711,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#create GoogleChronicleFeed#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#create GoogleChronicleFeed#create}.
 
 ---
 
@@ -12723,7 +12723,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#delete GoogleChronicleFeed#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#delete GoogleChronicleFeed#delete}.
 
 ---
 
@@ -12735,7 +12735,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_feed#update GoogleChronicleFeed#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_feed#update GoogleChronicleFeed#update}.
 
 ---
 
