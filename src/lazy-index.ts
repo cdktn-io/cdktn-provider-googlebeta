@@ -140,6 +140,10 @@ Object.defineProperty(exports, 'googleBiglakeHiveDatabase', { get: function () {
 Object.defineProperty(exports, 'googleBiglakeHiveDatabaseIamBinding', { get: function () { return require('./google-biglake-hive-database-iam-binding'); } });
 Object.defineProperty(exports, 'googleBiglakeHiveDatabaseIamMember', { get: function () { return require('./google-biglake-hive-database-iam-member'); } });
 Object.defineProperty(exports, 'googleBiglakeHiveDatabaseIamPolicy', { get: function () { return require('./google-biglake-hive-database-iam-policy'); } });
+Object.defineProperty(exports, 'googleBiglakeHiveTable', { get: function () { return require('./google-biglake-hive-table'); } });
+Object.defineProperty(exports, 'googleBiglakeHiveTableIamBinding', { get: function () { return require('./google-biglake-hive-table-iam-binding'); } });
+Object.defineProperty(exports, 'googleBiglakeHiveTableIamMember', { get: function () { return require('./google-biglake-hive-table-iam-member'); } });
+Object.defineProperty(exports, 'googleBiglakeHiveTableIamPolicy', { get: function () { return require('./google-biglake-hive-table-iam-policy'); } });
 Object.defineProperty(exports, 'googleBiglakeIcebergCatalog', { get: function () { return require('./google-biglake-iceberg-catalog'); } });
 Object.defineProperty(exports, 'googleBiglakeIcebergCatalogIamBinding', { get: function () { return require('./google-biglake-iceberg-catalog-iam-binding'); } });
 Object.defineProperty(exports, 'googleBiglakeIcebergCatalogIamMember', { get: function () { return require('./google-biglake-iceberg-catalog-iam-member'); } });
@@ -373,6 +377,7 @@ Object.defineProperty(exports, 'googleComputeGlobalAddress', { get: function () 
 Object.defineProperty(exports, 'googleComputeGlobalForwardingRule', { get: function () { return require('./google-compute-global-forwarding-rule'); } });
 Object.defineProperty(exports, 'googleComputeGlobalNetworkEndpoint', { get: function () { return require('./google-compute-global-network-endpoint'); } });
 Object.defineProperty(exports, 'googleComputeGlobalNetworkEndpointGroup', { get: function () { return require('./google-compute-global-network-endpoint-group'); } });
+Object.defineProperty(exports, 'googleComputeGlobalVmExtensionPolicy', { get: function () { return require('./google-compute-global-vm-extension-policy'); } });
 Object.defineProperty(exports, 'googleComputeHaVpnGateway', { get: function () { return require('./google-compute-ha-vpn-gateway'); } });
 Object.defineProperty(exports, 'googleComputeHealthCheck', { get: function () { return require('./google-compute-health-check'); } });
 Object.defineProperty(exports, 'googleComputeHttpHealthCheck', { get: function () { return require('./google-compute-http-health-check'); } });
@@ -1522,6 +1527,7 @@ Object.defineProperty(exports, 'dataGoogleBeyondcorpSecurityGatewayApplicationIa
 Object.defineProperty(exports, 'dataGoogleBeyondcorpSecurityGatewayIamPolicy', { get: function () { return require('./data-google-beyondcorp-security-gateway-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleBiglakeHiveCatalogIamPolicy', { get: function () { return require('./data-google-biglake-hive-catalog-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleBiglakeHiveDatabaseIamPolicy', { get: function () { return require('./data-google-biglake-hive-database-iam-policy'); } });
+Object.defineProperty(exports, 'dataGoogleBiglakeHiveTableIamPolicy', { get: function () { return require('./data-google-biglake-hive-table-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleBiglakeIcebergCatalogIamPolicy', { get: function () { return require('./data-google-biglake-iceberg-catalog-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleBiglakeIcebergNamespaceIamPolicy', { get: function () { return require('./data-google-biglake-iceberg-namespace-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleBiglakeIcebergTableIamPolicy', { get: function () { return require('./data-google-biglake-iceberg-table-iam-policy'); } });
