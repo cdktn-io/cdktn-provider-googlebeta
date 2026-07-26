@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 googlebigquerydatapolicyv2datapolicyiammember.NewGoogleBigqueryDatapolicyv2DataPolicyIamMember(scope Construct, id *string, config GoogleBigqueryDatapolicyv2DataPolicyIamMemberConfig) GoogleBigqueryDatapolicyv2DataPolicyIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPolicyIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPolicyIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPoli
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPolicyIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPoli
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPolicyIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 &googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPolicyIamMemberCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 &googlebigquerydatapolicyv2datapolicyiammember.GoogleBigqueryDatapolicyv2DataPolicyIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebi
 	DataPolicyId: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryDatapolicyv2DataPolicyIamMember.GoogleBigqueryDatapolicyv2DataPolicyIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatapolicyv2datapolicyiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember"
 
 googlebigquerydatapolicyv2datapolicyiammember.NewGoogleBigqueryDatapolicyv2DataPolicyIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryDatapolicyv2DataPolicyIamMemberConditionOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.NewGoogleComputeMachineImage(scope Construct, id *string, config GoogleComputeMachineImageConfig) GoogleComputeMachineImage
 ```
@@ -495,7 +495,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.GoogleComputeMachineImage_IsConstruct(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.GoogleComputeMachineImage_IsTerraformElement(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googlecomputemachineimage.GoogleComputeMachineImage_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.GoogleComputeMachineImage_IsTerraformResource(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googlecomputemachineimage.GoogleComputeMachineImage_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.GoogleComputeMachineImage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1026,7 +1026,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 &googlecomputemachineimage.GoogleComputeMachineImageConfig {
 	Connection: interface{},
@@ -1042,10 +1042,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Description: *string,
 	GuestFlush: interface{},
 	Id: *string,
-	MachineImageEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKey,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeMachineImage.GoogleComputeMachineImageParams,
+	MachineImageEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKey,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeMachineImage.GoogleComputeMachineImageParams,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeMachineImage.GoogleComputeMachineImageTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeMachineImage.GoogleComputeMachineImageTimeouts,
 }
 ```
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 &googlecomputemachineimage.GoogleComputeMachineImageMachineImageEncryptionKey {
 	KmsKeyName: *string,
@@ -1366,7 +1366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 &googlecomputemachineimage.GoogleComputeMachineImageParams {
 	ResourceManagerTags: *map[string]*string,
@@ -1404,7 +1404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 &googlecomputemachineimage.GoogleComputeMachineImageTimeouts {
 	Create: *string,
@@ -1452,7 +1452,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.NewGoogleComputeMachineImageMachineImageEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeMachineImageMachineImageEncryptionKeyOutputReference
 ```
@@ -1799,7 +1799,7 @@ func InternalValue() GoogleComputeMachineImageMachineImageEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.NewGoogleComputeMachineImageParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeMachineImageParamsOutputReference
 ```
@@ -2077,7 +2077,7 @@ func InternalValue() GoogleComputeMachineImageParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeMachineImage.GoogleComputeMachineImageTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputemachineimage"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputemachineimage"
 
 googlecomputemachineimage.NewGoogleComputeMachineImageTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeMachineImageTimeoutsOutputReference
 ```

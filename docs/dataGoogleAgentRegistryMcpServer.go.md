@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.NewDataGoogleAgentRegistryMcpServer(scope Construct, id *string, config DataGoogleAgentRegistryMcpServerConfig) DataGoogleAgentRegistryMcpServer
 ```
@@ -326,7 +326,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServer.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServer_IsConstruct(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServer_IsTerraformElement(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServer_IsTerraformEle
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServer.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServer_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -386,7 +386,7 @@ datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServer_IsTerraformDat
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -791,7 +791,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 &datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServerConfig {
 	Connection: interface{},
@@ -972,7 +972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 &datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServerInterfaces {
 
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerTools.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 &datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServerTools {
 
@@ -998,7 +998,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerToolsAnnotations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 &datagoogleagentregistrymcpserver.DataGoogleAgentRegistryMcpServerToolsAnnotations {
 
@@ -1013,7 +1013,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.NewDataGoogleAgentRegistryMcpServerInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleAgentRegistryMcpServerInterfacesList
 ```
@@ -1162,7 +1162,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.NewDataGoogleAgentRegistryMcpServerInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleAgentRegistryMcpServerInterfacesOutputReference
 ```
@@ -1451,7 +1451,7 @@ func InternalValue() DataGoogleAgentRegistryMcpServerInterfaces
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerToolsAnnotationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.NewDataGoogleAgentRegistryMcpServerToolsAnnotationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleAgentRegistryMcpServerToolsAnnotationsList
 ```
@@ -1600,7 +1600,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerToolsAnnotationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.NewDataGoogleAgentRegistryMcpServerToolsAnnotationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleAgentRegistryMcpServerToolsAnnotationsOutputReference
 ```
@@ -1922,7 +1922,7 @@ func InternalValue() DataGoogleAgentRegistryMcpServerToolsAnnotations
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerToolsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.NewDataGoogleAgentRegistryMcpServerToolsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleAgentRegistryMcpServerToolsList
 ```
@@ -2071,7 +2071,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAgentRegistryMcpServer.DataGoogleAgentRegistryMcpServerToolsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleagentregistrymcpserver"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleagentregistrymcpserver"
 
 datagoogleagentregistrymcpserver.NewDataGoogleAgentRegistryMcpServerToolsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleAgentRegistryMcpServerToolsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 datagoogleoracledatabasegoldengateconnectiontypes.NewDataGoogleOracleDatabaseGoldengateConnectionTypes(scope Construct, id *string, config DataGoogleOracleDatabaseGoldengateConnectionTypesConfig) DataGoogleOracleDatabaseGoldengateConnectionTypes
 ```
@@ -312,7 +312,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGoldengateConnectionTypes_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGoldengateConnectionTypes_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGolden
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypes.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGoldengateConnectionTypes_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGolden
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGoldengateConnectionTypes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -656,7 +656,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 &datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGoldengateConnectionTypesConfig {
 	Connection: interface{},
@@ -809,7 +809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 &datagoogleoracledatabasegoldengateconnectiontypes.DataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypes {
 
@@ -824,7 +824,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 datagoogleoracledatabasegoldengateconnectiontypes.NewDataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypesList
 ```
@@ -973,7 +973,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleOracleDatabaseGoldengateConnectionTypes.DataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabasegoldengateconnectiontypes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes"
 
 datagoogleoracledatabasegoldengateconnectiontypes.NewDataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleOracleDatabaseGoldengateConnectionTypesGoldengateConnectionTypesOutputReference
 ```

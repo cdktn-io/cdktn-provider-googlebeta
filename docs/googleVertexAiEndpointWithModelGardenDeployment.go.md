@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeployment(scope Construct, id *string, config GoogleVertexAiEndpointWithModelGardenDeploymentConfig) GoogleVertexAiEndpointWithModelGardenDeployment
 ```
@@ -515,7 +515,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelG
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelG
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1057,7 +1057,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentConfig {
 	Connection: interface{},
@@ -1069,14 +1069,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 	Provisioners: *[]interface{},
 	Location: *string,
 	DeletionPolicy: *string,
-	DeployConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig,
-	EndpointConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig,
+	DeployConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig,
+	EndpointConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig,
 	HuggingFaceModelId: *string,
 	Id: *string,
-	ModelConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfig,
+	ModelConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfig,
 	Project: *string,
 	PublisherModelName: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentTimeouts,
 }
 ```
 
@@ -1325,10 +1325,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig {
-	DedicatedResources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResources,
+	DedicatedResources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResources,
 	FastTryoutEnabled: interface{},
 	SystemLabels: *map[string]*string,
 }
@@ -1391,10 +1391,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResources {
-	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpec,
+	MachineSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpec,
 	MinReplicaCount: *f64,
 	AutoscalingMetricSpecs: interface{},
 	MaxReplicaCount: *f64,
@@ -1528,7 +1528,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecs {
 	MetricName: *string,
@@ -1586,14 +1586,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpec {
 	AcceleratorCount: *f64,
 	AcceleratorType: *string,
 	MachineType: *string,
 	MultihostGpuNodeCount: *f64,
-	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecReservationAffinity,
+	ReservationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecReservationAffinity,
 	TpuTopology: *string,
 }
 ```
@@ -1710,7 +1710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecReservationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecReservationAffinity {
 	ReservationAffinityType: *string,
@@ -1783,12 +1783,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig {
 	DedicatedEndpointEnabled: interface{},
 	EndpointDisplayName: *string,
-	PrivateServiceConnectConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig,
+	PrivateServiceConnectConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig,
 }
 ```
 
@@ -1849,12 +1849,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig {
 	EnablePrivateServiceConnect: interface{},
 	ProjectAllowlist: *[]*string,
-	PscAutomationConfigs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigPscAutomationConfigs,
+	PscAutomationConfigs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigPscAutomationConfigs,
 }
 ```
 
@@ -1915,7 +1915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigPscAutomationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigPscAutomationConfigs {
 	Network: *string,
@@ -1965,11 +1965,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfig {
 	AcceptEula: interface{},
-	ContainerSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpec,
+	ContainerSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpec,
 	HuggingFaceAccessToken: *string,
 	HuggingFaceCacheEnabled: interface{},
 	ModelDisplayName: *string,
@@ -2066,7 +2066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpec {
 	ImageUri: *string,
@@ -2075,13 +2075,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 	DeploymentTimeout: *string,
 	Env: interface{},
 	GrpcPorts: interface{},
-	HealthProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbe,
+	HealthProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbe,
 	HealthRoute: *string,
-	LivenessProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbe,
+	LivenessProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbe,
 	Ports: interface{},
 	PredictRoute: *string,
 	SharedMemorySizeMb: *string,
-	StartupProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbe,
+	StartupProbe: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbe,
 }
 ```
 
@@ -2428,7 +2428,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnv.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnv {
 	Name: *string,
@@ -2484,7 +2484,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPorts {
 	ContainerPort: *f64,
@@ -2520,17 +2520,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbe {
-	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExec,
+	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExec,
 	FailureThreshold: *f64,
-	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeGrpc,
-	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGet,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGet,
 	InitialDelaySeconds: *f64,
 	PeriodSeconds: *f64,
 	SuccessThreshold: *f64,
-	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeTcpSocket,
+	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeTcpSocket,
 	TimeoutSeconds: *f64,
 }
 ```
@@ -2698,7 +2698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExec {
 	Command: *[]*string,
@@ -2737,7 +2737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeGrpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeGrpc {
 	Port: *f64,
@@ -2789,7 +2789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGet {
 	Host: *string,
@@ -2889,7 +2889,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeaders {
 	Name: *string,
@@ -2939,7 +2939,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeTcpSocket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeTcpSocket {
 	Host: *string,
@@ -2989,17 +2989,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbe {
-	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeExec,
+	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeExec,
 	FailureThreshold: *f64,
-	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeGrpc,
-	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGet,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGet,
 	InitialDelaySeconds: *f64,
 	PeriodSeconds: *f64,
 	SuccessThreshold: *f64,
-	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeTcpSocket,
+	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeTcpSocket,
 	TimeoutSeconds: *f64,
 }
 ```
@@ -3167,7 +3167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeExec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeExec {
 	Command: *[]*string,
@@ -3206,7 +3206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeGrpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeGrpc {
 	Port: *f64,
@@ -3258,7 +3258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGet {
 	Host: *string,
@@ -3358,7 +3358,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeaders {
 	Name: *string,
@@ -3408,7 +3408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeTcpSocket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeTcpSocket {
 	Host: *string,
@@ -3458,7 +3458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPorts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPorts {
 	ContainerPort: *f64,
@@ -3494,17 +3494,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbe.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbe {
-	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeExec,
+	Exec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeExec,
 	FailureThreshold: *f64,
-	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeGrpc,
-	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGet,
+	Grpc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeGrpc,
+	HttpGet: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGet,
 	InitialDelaySeconds: *f64,
 	PeriodSeconds: *f64,
 	SuccessThreshold: *f64,
-	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeTcpSocket,
+	TcpSocket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeTcpSocket,
 	TimeoutSeconds: *f64,
 }
 ```
@@ -3672,7 +3672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeExec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeExec {
 	Command: *[]*string,
@@ -3711,7 +3711,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeGrpc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeGrpc {
 	Port: *f64,
@@ -3763,7 +3763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGet {
 	Host: *string,
@@ -3863,7 +3863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeaders {
 	Name: *string,
@@ -3913,7 +3913,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeTcpSocket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeTcpSocket {
 	Host: *string,
@@ -3963,7 +3963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 &googlevertexaiendpointwithmodelgardendeployment.GoogleVertexAiEndpointWithModelGardenDeploymentTimeouts {
 	Create: *string,
@@ -4011,7 +4011,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsList
 ```
@@ -4171,7 +4171,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesAutoscalingMetricSpecsOutputReference
 ```
@@ -4489,7 +4489,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecOutputReference
 ```
@@ -4925,7 +4925,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecReservationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecReservationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesMachineSpecReservationAffinityOutputReference
 ```
@@ -5254,7 +5254,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResourcesOutputReference
 ```
@@ -5689,7 +5689,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference
 ```
@@ -6038,7 +6038,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference
 ```
@@ -6387,7 +6387,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigOutputReference
 ```
@@ -6740,7 +6740,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigPscAutomationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigPscAutomationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigPscAutomationConfigsOutputReference
 ```
@@ -7077,7 +7077,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnvList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnvList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnvList
 ```
@@ -7237,7 +7237,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnvOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnvOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecEnvOutputReference
 ```
@@ -7548,7 +7548,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPortsList
 ```
@@ -7708,7 +7708,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecGrpcPortsOutputReference
 ```
@@ -8004,7 +8004,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeExecOutputReference
 ```
@@ -8282,7 +8282,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeGrpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeGrpcOutputReference
 ```
@@ -8589,7 +8589,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeadersList
 ```
@@ -8749,7 +8749,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetHttpHeadersOutputReference
 ```
@@ -9074,7 +9074,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeHttpGetOutputReference
 ```
@@ -9481,7 +9481,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeOutputReference
 ```
@@ -10043,7 +10043,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeTcpSocketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeTcpSocketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecHealthProbeTcpSocketOutputReference
 ```
@@ -10350,7 +10350,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeExecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeExecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeExecOutputReference
 ```
@@ -10628,7 +10628,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeGrpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeGrpcOutputReference
 ```
@@ -10935,7 +10935,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeadersList
 ```
@@ -11095,7 +11095,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetHttpHeadersOutputReference
 ```
@@ -11420,7 +11420,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeHttpGetOutputReference
 ```
@@ -11827,7 +11827,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeOutputReference
 ```
@@ -12389,7 +12389,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeTcpSocketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeTcpSocketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecLivenessProbeTcpSocketOutputReference
 ```
@@ -12696,7 +12696,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecOutputReference
 ```
@@ -13393,7 +13393,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPortsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPortsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPortsList
 ```
@@ -13553,7 +13553,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPortsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPortsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecPortsOutputReference
 ```
@@ -13849,7 +13849,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeExecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeExecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeExecOutputReference
 ```
@@ -14127,7 +14127,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeGrpcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeGrpcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeGrpcOutputReference
 ```
@@ -14434,7 +14434,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeadersList
 ```
@@ -14594,7 +14594,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetHttpHeadersOutputReference
 ```
@@ -14919,7 +14919,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeHttpGetOutputReference
 ```
@@ -15326,7 +15326,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeOutputReference
 ```
@@ -15888,7 +15888,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeTcpSocketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeTcpSocketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigContainerSpecStartupProbeTcpSocketOutputReference
 ```
@@ -16195,7 +16195,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentModelConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentModelConfigOutputReference
 ```
@@ -16602,7 +16602,7 @@ func InternalValue() GoogleVertexAiEndpointWithModelGardenDeploymentModelConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiendpointwithmodelgardendeployment"
 
 googlevertexaiendpointwithmodelgardendeployment.NewGoogleVertexAiEndpointWithModelGardenDeploymentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiEndpointWithModelGardenDeploymentTimeoutsOutputReference
 ```

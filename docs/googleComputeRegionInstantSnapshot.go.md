@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.NewGoogleComputeRegionInstantSnapshot(scope Construct, id *string, config GoogleComputeRegionInstantSnapshotConfig) GoogleComputeRegionInstantSnapshot
 ```
@@ -482,7 +482,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshot_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshot_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1123,7 +1123,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 &googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshotConfig {
 	Connection: interface{},
@@ -1139,10 +1139,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotParams,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotParams,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts,
 }
 ```
 
@@ -1404,7 +1404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 &googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshotParams {
 	ResourceManagerTags: *map[string]*string,
@@ -1442,7 +1442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotResourceStatus.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 &googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshotResourceStatus {
 
@@ -1455,7 +1455,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 &googlecomputeregioninstantsnapshot.GoogleComputeRegionInstantSnapshotTimeouts {
 	Create: *string,
@@ -1517,7 +1517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.NewGoogleComputeRegionInstantSnapshotParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstantSnapshotParamsOutputReference
 ```
@@ -1795,7 +1795,7 @@ func InternalValue() GoogleComputeRegionInstantSnapshotParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotResourceStatusList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.NewGoogleComputeRegionInstantSnapshotResourceStatusList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRegionInstantSnapshotResourceStatusList
 ```
@@ -1944,7 +1944,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotResourceStatusOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.NewGoogleComputeRegionInstantSnapshotResourceStatusOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRegionInstantSnapshotResourceStatusOutputReference
 ```
@@ -2222,7 +2222,7 @@ func InternalValue() GoogleComputeRegionInstantSnapshotResourceStatus
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstantsnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregioninstantsnapshot"
 
 googlecomputeregioninstantsnapshot.NewGoogleComputeRegionInstantSnapshotTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionInstantSnapshotTimeoutsOutputReference
 ```

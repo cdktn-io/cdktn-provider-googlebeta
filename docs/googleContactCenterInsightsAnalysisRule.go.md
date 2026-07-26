@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.NewGoogleContactCenterInsightsAnalysisRule(scope Construct, id *string, config GoogleContactCenterInsightsAnalysisRuleConfig) GoogleContactCenterInsightsAnalysisRule
 ```
@@ -489,7 +489,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRule_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRule_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRule_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1031,12 +1031,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelector.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 &googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelector {
 	IssueModels: *[]*string,
 	PhraseMatchers: *[]*string,
-	QaConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfig,
+	QaConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfig,
 	RunEntityAnnotator: interface{},
 	RunIntentAnnotator: interface{},
 	RunInterruptionAnnotator: interface{},
@@ -1046,7 +1046,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	RunSentimentAnnotator: interface{},
 	RunSilenceAnnotator: interface{},
 	RunSummarizationAnnotator: interface{},
-	SummarizationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSummarizationConfig,
+	SummarizationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSummarizationConfig,
 }
 ```
 
@@ -1269,10 +1269,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 &googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfig {
-	ScorecardList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStruct,
+	ScorecardList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStruct,
 }
 ```
 
@@ -1303,7 +1303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 &googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStruct {
 	QaScorecardRevisions: *[]*string,
@@ -1337,7 +1337,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSummarizationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 &googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSummarizationConfig {
 	ConversationProfile: *string,
@@ -1387,7 +1387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 &googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRuleConfig {
 	Connection: interface{},
@@ -1400,13 +1400,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Location: *string,
 	Active: interface{},
 	AnalysisPercentage: *f64,
-	AnnotatorSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelector,
+	AnnotatorSelector: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelector,
 	ConversationFilter: *string,
 	DeletionPolicy: *string,
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleTimeouts,
 }
 ```
 
@@ -1664,7 +1664,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 &googlecontactcenterinsightsanalysisrule.GoogleContactCenterInsightsAnalysisRuleTimeouts {
 	Create: *string,
@@ -1726,7 +1726,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.NewGoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorOutputReference
 ```
@@ -2378,7 +2378,7 @@ func InternalValue() GoogleContactCenterInsightsAnalysisRuleAnnotatorSelector
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.NewGoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigOutputReference
 ```
@@ -2669,7 +2669,7 @@ func InternalValue() GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.NewGoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaConfigScorecardListStructOutputReference
 ```
@@ -2947,7 +2947,7 @@ func InternalValue() GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorQaC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSummarizationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.NewGoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSummarizationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSummarizationConfigOutputReference
 ```
@@ -3254,7 +3254,7 @@ func InternalValue() GoogleContactCenterInsightsAnalysisRuleAnnotatorSelectorSum
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsAnalysisRule.GoogleContactCenterInsightsAnalysisRuleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsanalysisrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsanalysisrule"
 
 googlecontactcenterinsightsanalysisrule.NewGoogleContactCenterInsightsAnalysisRuleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContactCenterInsightsAnalysisRuleTimeoutsOutputReference
 ```

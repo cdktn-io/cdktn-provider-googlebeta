@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 googleiapagentregistrymcpserveriammember.NewGoogleIapAgentRegistryMcpServerIamMember(scope Construct, id *string, config GoogleIapAgentRegistryMcpServerIamMemberConfig) GoogleIapAgentRegistryMcpServerIamMember
 ```
@@ -441,7 +441,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMembe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMembe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,7 +895,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 &googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMemberCondition {
 	Expression: *string,
@@ -955,7 +955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 &googleiapagentregistrymcpserveriammember.GoogleIapAgentRegistryMcpServerIamMemberConfig {
 	Connection: interface{},
@@ -968,7 +968,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleia
 	McpServerId: *string,
 	Member: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMemberCondition,
 	Id: *string,
 	Location: *string,
 	Project: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamMember.GoogleIapAgentRegistryMcpServerIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapagentregistrymcpserveriammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriammember"
 
 googleiapagentregistrymcpserveriammember.NewGoogleIapAgentRegistryMcpServerIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapAgentRegistryMcpServerIamMemberConditionOutputReference
 ```

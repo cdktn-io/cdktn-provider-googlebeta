@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 googlesccv2organizationnotificationconfig.NewGoogleSccV2OrganizationNotificationConfig(scope Construct, id *string, config GoogleSccV2OrganizationNotificationConfigConfig) GoogleSccV2OrganizationNotificationConfig
 ```
@@ -461,7 +461,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationConfig_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationCon
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationCon
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -970,7 +970,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 &googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationConfigConfig {
 	Connection: interface{},
@@ -983,12 +983,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesc
 	ConfigId: *string,
 	Organization: *string,
 	PubsubTopic: *string,
-	StreamingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig,
+	StreamingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Location: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts,
 }
 ```
 
@@ -1224,7 +1224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 &googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig {
 	Filter: *string,
@@ -1283,7 +1283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 &googlesccv2organizationnotificationconfig.GoogleSccV2OrganizationNotificationConfigTimeouts {
 	Create: *string,
@@ -1345,7 +1345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 googlesccv2organizationnotificationconfig.NewGoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference
 ```
@@ -1616,7 +1616,7 @@ func InternalValue() GoogleSccV2OrganizationNotificationConfigStreamingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationnotificationconfig"
 
 googlesccv2organizationnotificationconfig.NewGoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference
 ```

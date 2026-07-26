@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 googleidentityplatformtenantdefaultsupportedidpconfig.NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfig(scope Construct, id *string, config GoogleIdentityPlatformTenantDefaultSupportedIdpConfigConfig) GoogleIdentityPlatformTenantDefaultSupportedIdpConfig
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTena
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTena
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -946,7 +946,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 &googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfigConfig {
 	Connection: interface{},
@@ -964,7 +964,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleid
 	Enabled: interface{},
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts,
 }
 ```
 
@@ -1209,7 +1209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 &googleidentityplatformtenantdefaultsupportedidpconfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts {
 	Create: *string,
@@ -1271,7 +1271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIdentityPlatformTenantDefaultSupportedIdpConfig.GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleidentityplatformtenantdefaultsupportedidpconfig"
 
 googleidentityplatformtenantdefaultsupportedidpconfig.NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReference
 ```

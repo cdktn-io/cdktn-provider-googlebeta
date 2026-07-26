@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.NewGoogleComputeSnapshot(scope Construct, id *string, config GoogleComputeSnapshotConfig) GoogleComputeSnapshot
 ```
@@ -564,7 +564,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.GoogleComputeSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -596,7 +596,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.GoogleComputeSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -610,7 +610,7 @@ googlecomputesnapshot.GoogleComputeSnapshot_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.GoogleComputeSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -624,7 +624,7 @@ googlecomputesnapshot.GoogleComputeSnapshot_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.GoogleComputeSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1326,7 +1326,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 &googlecomputesnapshot.GoogleComputeSnapshotConfig {
 	Connection: interface{},
@@ -1343,15 +1343,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	GuestFlush: interface{},
 	Id: *string,
 	Labels: *map[string]*string,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeSnapshot.GoogleComputeSnapshotParams,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeSnapshot.GoogleComputeSnapshotParams,
 	Project: *string,
-	SnapshotEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeSnapshot.GoogleComputeSnapshotSnapshotEncryptionKey,
+	SnapshotEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeSnapshot.GoogleComputeSnapshotSnapshotEncryptionKey,
 	SnapshotType: *string,
 	SourceDisk: *string,
-	SourceDiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeSnapshot.GoogleComputeSnapshotSourceDiskEncryptionKey,
+	SourceDiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeSnapshot.GoogleComputeSnapshotSourceDiskEncryptionKey,
 	SourceInstantSnapshot: *string,
 	StorageLocations: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeSnapshot.GoogleComputeSnapshotTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeSnapshot.GoogleComputeSnapshotTimeouts,
 	Zone: *string,
 }
 ```
@@ -1723,7 +1723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 &googlecomputesnapshot.GoogleComputeSnapshotParams {
 	ResourceManagerTags: *map[string]*string,
@@ -1761,7 +1761,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotSnapshotEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 &googlecomputesnapshot.GoogleComputeSnapshotSnapshotEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -1845,7 +1845,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotSourceDiskEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 &googlecomputesnapshot.GoogleComputeSnapshotSourceDiskEncryptionKey {
 	KmsKeySelfLink: *string,
@@ -1929,7 +1929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 &googlecomputesnapshot.GoogleComputeSnapshotTimeouts {
 	Create: *string,
@@ -1991,7 +1991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.NewGoogleComputeSnapshotParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeSnapshotParamsOutputReference
 ```
@@ -2269,7 +2269,7 @@ func InternalValue() GoogleComputeSnapshotParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotSnapshotEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.NewGoogleComputeSnapshotSnapshotEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeSnapshotSnapshotEncryptionKeyOutputReference
 ```
@@ -2645,7 +2645,7 @@ func InternalValue() GoogleComputeSnapshotSnapshotEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotSourceDiskEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.NewGoogleComputeSnapshotSourceDiskEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeSnapshotSourceDiskEncryptionKeyOutputReference
 ```
@@ -3010,7 +3010,7 @@ func InternalValue() GoogleComputeSnapshotSourceDiskEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSnapshot.GoogleComputeSnapshotTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputesnapshot"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesnapshot"
 
 googlecomputesnapshot.NewGoogleComputeSnapshotTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeSnapshotTimeoutsOutputReference
 ```

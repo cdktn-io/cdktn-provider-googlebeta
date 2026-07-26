@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 googlemigrationcentersource.NewGoogleMigrationCenterSource(scope Construct, id *string, config GoogleMigrationCenterSourceConfig) GoogleMigrationCenterSource
 ```
@@ -476,7 +476,7 @@ func ResetType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 googlemigrationcentersource.GoogleMigrationCenterSource_IsConstruct(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 googlemigrationcentersource.GoogleMigrationCenterSource_IsTerraformElement(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlemigrationcentersource.GoogleMigrationCenterSource_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSource.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 googlemigrationcentersource.GoogleMigrationCenterSource_IsTerraformResource(x interface{}) *bool
 ```
@@ -536,7 +536,7 @@ googlemigrationcentersource.GoogleMigrationCenterSource_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 googlemigrationcentersource.GoogleMigrationCenterSource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1073,7 +1073,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 &googlemigrationcentersource.GoogleMigrationCenterSourceConfig {
 	Connection: interface{},
@@ -1092,7 +1092,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemi
 	Managed: interface{},
 	Priority: *f64,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts,
 	Type: *string,
 }
 ```
@@ -1363,7 +1363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 &googlemigrationcentersource.GoogleMigrationCenterSourceTimeouts {
 	Create: *string,
@@ -1425,7 +1425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMigrationCenterSource.GoogleMigrationCenterSourceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentersource"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcentersource"
 
 googlemigrationcentersource.NewGoogleMigrationCenterSourceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMigrationCenterSourceTimeoutsOutputReference
 ```

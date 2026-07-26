@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRules(scope Construct, id *string, config GoogleComputeNetworkFirewallPolicyWithRulesConfig) GoogleComputeNetworkFirewallPolicyWithRules
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRules.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRules_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRules.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRules_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWi
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRules.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRules_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWi
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRules.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRules_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1010,7 +1010,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesConfig {
 	Connection: interface{},
@@ -1027,7 +1027,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Id: *string,
 	PolicyType: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesTimeouts,
 }
 ```
 
@@ -1255,7 +1255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRules {
 
@@ -1268,7 +1268,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatch {
 
@@ -1281,7 +1281,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4Config {
 
@@ -1294,7 +1294,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTag {
 
@@ -1307,7 +1307,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTag {
 
@@ -1320,11 +1320,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesRule {
 	Action: *string,
-	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch,
+	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch,
 	Priority: *f64,
 	Description: *string,
 	Direction: *string,
@@ -1544,7 +1544,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch {
 	Layer4Config: interface{},
@@ -1810,7 +1810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config {
 	IpProtocol: *string,
@@ -1873,7 +1873,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTag {
 	Name: *string,
@@ -1905,7 +1905,7 @@ Name of the secure tag, created with TagManager's TagValue API.
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTag {
 	Name: *string,
@@ -1937,7 +1937,7 @@ Name of the secure tag, created with TagManager's TagValue API.
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 &googlecomputenetworkfirewallpolicywithrules.GoogleComputeNetworkFirewallPolicyWithRulesTimeouts {
 	Create: *string,
@@ -1999,7 +1999,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesList
 ```
@@ -2148,7 +2148,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigList
 ```
@@ -2297,7 +2297,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchLayer4ConfigOutputReference
 ```
@@ -2586,7 +2586,7 @@ func InternalValue() GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesM
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchList
 ```
@@ -2735,7 +2735,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchOutputReference
 ```
@@ -3134,7 +3134,7 @@ func InternalValue() GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesM
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagList
 ```
@@ -3283,7 +3283,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesMatchSrcSecureTagOutputReference
 ```
@@ -3572,7 +3572,7 @@ func InternalValue() GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesM
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesOutputReference
 ```
@@ -3971,7 +3971,7 @@ func InternalValue() GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRules
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagList
 ```
@@ -4120,7 +4120,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesTargetSecureTagOutputReference
 ```
@@ -4409,7 +4409,7 @@ func InternalValue() GoogleComputeNetworkFirewallPolicyWithRulesPredefinedRulesT
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleList
 ```
@@ -4569,7 +4569,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList
 ```
@@ -4729,7 +4729,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigOutputReference
 ```
@@ -5047,7 +5047,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchOutputReference
 ```
@@ -5750,7 +5750,7 @@ func InternalValue() GoogleComputeNetworkFirewallPolicyWithRulesRuleMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagList
 ```
@@ -5910,7 +5910,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchSrcSecureTagOutputReference
 ```
@@ -6217,7 +6217,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleOutputReference
 ```
@@ -6837,7 +6837,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagList
 ```
@@ -6997,7 +6997,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyWithRulesRuleTargetSecureTagOutputReference
 ```
@@ -7304,7 +7304,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyWithRules.GoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicywithrules"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicywithrules"
 
 googlecomputenetworkfirewallpolicywithrules.NewGoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNetworkFirewallPolicyWithRulesTimeoutsOutputReference
 ```

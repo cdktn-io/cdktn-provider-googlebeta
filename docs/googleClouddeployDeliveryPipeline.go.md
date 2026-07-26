@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipeline(scope Construct, id *string, config GoogleClouddeployDeliveryPipelineConfig) GoogleClouddeployDeliveryPipeline
 ```
@@ -489,7 +489,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipeline_IsConstruct(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipeline_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipeline.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipeline_IsTerraformResource(x interface{}) *bool
 ```
@@ -549,7 +549,7 @@ googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipeline_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1108,7 +1108,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineCondition {
 
@@ -1121,7 +1121,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionPipelineReadyCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineConditionPipelineReadyCondition {
 
@@ -1134,7 +1134,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionTargetsPresentCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineConditionTargetsPresentCondition {
 
@@ -1147,7 +1147,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionTargetsTypeCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineConditionTargetsTypeCondition {
 
@@ -1160,7 +1160,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineConfig {
 	Connection: interface{},
@@ -1178,9 +1178,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecl
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	SerialPipeline: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipeline,
+	SerialPipeline: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipeline,
 	Suspended: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineTimeouts,
 }
 ```
 
@@ -1456,7 +1456,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipeline {
 	Stages: interface{},
@@ -1490,12 +1490,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStages {
 	DeployParameters: interface{},
 	Profiles: *[]*string,
-	Strategy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy,
+	Strategy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy,
 	TargetId: *string,
 }
 ```
@@ -1574,7 +1574,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParameters {
 	Values: *map[string]*string,
@@ -1626,11 +1626,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy {
-	Canary: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanary,
-	Standard: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandard,
+	Canary: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanary,
+	Standard: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandard,
 }
 ```
 
@@ -1676,12 +1676,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanary.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanary {
-	CanaryDeployment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeployment,
-	CustomCanaryDeployment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeployment,
-	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfig,
+	CanaryDeployment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeployment,
+	CustomCanaryDeployment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeployment,
+	RuntimeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfig,
 }
 ```
 
@@ -1742,15 +1742,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeployment {
 	Percentages: *[]*f64,
-	Analysis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysis,
-	Postdeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeploy,
-	Predeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeploy,
+	Analysis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysis,
+	Postdeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeploy,
+	Predeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeploy,
 	Verify: interface{},
-	VerifyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfig,
+	VerifyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfig,
 }
 ```
 
@@ -1858,12 +1858,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysis {
 	Duration: *string,
 	CustomChecks: interface{},
-	GoogleCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloud,
+	GoogleCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloud,
 }
 ```
 
@@ -1924,12 +1924,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecks {
 	Id: *string,
 	Frequency: *string,
-	Task: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTask,
+	Task: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTask,
 }
 ```
 
@@ -1993,10 +1993,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTask {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskContainer,
 }
 ```
 
@@ -2027,7 +2027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskContainer {
 	Image: *string,
@@ -2109,7 +2109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloud.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloud {
 	AlertPolicyChecks: interface{},
@@ -2143,7 +2143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecks {
 	AlertPolicies: *[]*string,
@@ -2212,7 +2212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeploy {
 	Actions: *[]*string,
@@ -2246,7 +2246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeploy {
 	Actions: *[]*string,
@@ -2280,7 +2280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfig {
 	Tasks: interface{},
@@ -2314,10 +2314,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasks {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksContainer,
 }
 ```
 
@@ -2348,7 +2348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksContainer {
 	Image: *string,
@@ -2430,7 +2430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeployment {
 	PhaseConfigs: interface{},
@@ -2464,17 +2464,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigs {
 	Percentage: *f64,
 	PhaseId: *string,
-	Analysis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysis,
-	Postdeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeploy,
-	Predeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeploy,
+	Analysis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysis,
+	Postdeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeploy,
+	Predeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeploy,
 	Profiles: *[]*string,
 	Verify: interface{},
-	VerifyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfig,
+	VerifyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfig,
 }
 ```
 
@@ -2614,12 +2614,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysis {
 	Duration: *string,
 	CustomChecks: interface{},
-	GoogleCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloud,
+	GoogleCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloud,
 }
 ```
 
@@ -2680,12 +2680,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecks {
 	Id: *string,
 	Frequency: *string,
-	Task: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTask,
+	Task: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTask,
 }
 ```
 
@@ -2749,10 +2749,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTask {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskContainer,
 }
 ```
 
@@ -2783,7 +2783,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskContainer {
 	Image: *string,
@@ -2865,7 +2865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloud.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloud {
 	AlertPolicyChecks: interface{},
@@ -2899,7 +2899,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecks {
 	AlertPolicies: *[]*string,
@@ -2968,7 +2968,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeploy {
 	Actions: *[]*string,
@@ -3002,7 +3002,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeploy {
 	Actions: *[]*string,
@@ -3036,7 +3036,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfig {
 	Tasks: interface{},
@@ -3070,10 +3070,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasks {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksContainer,
 }
 ```
 
@@ -3104,7 +3104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksContainer {
 	Image: *string,
@@ -3186,11 +3186,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfig {
-	CloudRun: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRun,
-	Kubernetes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetes,
+	CloudRun: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRun,
+	Kubernetes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetes,
 }
 ```
 
@@ -3236,7 +3236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRun.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRun {
 	AutomaticTrafficControl: interface{},
@@ -3320,11 +3320,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetes {
-	GatewayServiceMesh: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMesh,
-	ServiceNetworking: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworking,
+	GatewayServiceMesh: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMesh,
+	ServiceNetworking: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworking,
 }
 ```
 
@@ -3370,14 +3370,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMesh.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMesh {
 	Deployment: *string,
 	HttpRoute: *string,
 	Service: *string,
 	PodSelectorLabel: *string,
-	RouteDestinations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinations,
+	RouteDestinations: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinations,
 	RouteUpdateWaitTime: *string,
 	StableCutbackDuration: *string,
 }
@@ -3506,7 +3506,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinations {
 	DestinationIds: *[]*string,
@@ -3560,7 +3560,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworking.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworking {
 	Deployment: *string,
@@ -3646,14 +3646,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandard {
-	Analysis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis,
-	Postdeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeploy,
-	Predeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy,
+	Analysis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis,
+	Postdeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeploy,
+	Predeploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy,
 	Verify: interface{},
-	VerifyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig,
+	VerifyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig,
 }
 ```
 
@@ -3744,12 +3744,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis {
 	Duration: *string,
 	CustomChecks: interface{},
-	GoogleCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloud,
+	GoogleCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloud,
 }
 ```
 
@@ -3810,12 +3810,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecks {
 	Id: *string,
 	Frequency: *string,
-	Task: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTask,
+	Task: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTask,
 }
 ```
 
@@ -3879,10 +3879,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTask.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTask {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskContainer,
 }
 ```
 
@@ -3913,7 +3913,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskContainer {
 	Image: *string,
@@ -3995,7 +3995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloud.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloud {
 	AlertPolicyChecks: interface{},
@@ -4029,7 +4029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecks {
 	AlertPolicies: *[]*string,
@@ -4098,7 +4098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeploy {
 	Actions: *[]*string,
@@ -4148,10 +4148,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasks {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksContainer,
 }
 ```
 
@@ -4182,7 +4182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksContainer {
 	Image: *string,
@@ -4264,7 +4264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy {
 	Actions: *[]*string,
@@ -4314,10 +4314,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasks {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksContainer,
 }
 ```
 
@@ -4348,7 +4348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksContainer {
 	Image: *string,
@@ -4430,7 +4430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig {
 	Tasks: interface{},
@@ -4464,10 +4464,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasks {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksContainer,
 }
 ```
 
@@ -4498,7 +4498,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksContainer {
 	Image: *string,
@@ -4580,7 +4580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 &googleclouddeploydeliverypipeline.GoogleClouddeployDeliveryPipelineTimeouts {
 	Create: *string,
@@ -4642,7 +4642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineConditionList
 ```
@@ -4791,7 +4791,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineConditionOutputReference
 ```
@@ -5091,7 +5091,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionList
 ```
@@ -5240,7 +5240,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference
 ```
@@ -5529,7 +5529,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineConditionPipelineReadyCond
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionTargetsPresentConditionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionTargetsPresentConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineConditionTargetsPresentConditionList
 ```
@@ -5678,7 +5678,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineConditionTargetsPresentConditionOutputReference
 ```
@@ -5978,7 +5978,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineConditionTargetsPresentCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionTargetsTypeConditionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionTargetsTypeConditionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineConditionTargetsTypeConditionList
 ```
@@ -6127,7 +6127,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineConditionTargetsTypeConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineConditionTargetsTypeConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineConditionTargetsTypeConditionOutputReference
 ```
@@ -6416,7 +6416,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineConditionTargetsTypeCondit
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineOutputReference
 ```
@@ -6707,7 +6707,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipeline
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersList
 ```
@@ -6867,7 +6867,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesDeployParametersOutputReference
 ```
@@ -7185,7 +7185,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesList
 ```
@@ -7345,7 +7345,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesOutputReference
 ```
@@ -7754,7 +7754,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksList
 ```
@@ -7914,7 +7914,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksOutputReference
 ```
@@ -8274,7 +8274,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskContainerOutputReference
 ```
@@ -8632,7 +8632,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisCustomChecksTaskOutputReference
 ```
@@ -8923,7 +8923,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecksList
 ```
@@ -9083,7 +9083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudAlertPolicyChecksOutputReference
 ```
@@ -9423,7 +9423,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisGoogleCloudOutputReference
 ```
@@ -9714,7 +9714,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentAnalysisOutputReference
 ```
@@ -10069,7 +10069,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentOutputReference
 ```
@@ -10537,7 +10537,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPostdeployOutputReference
 ```
@@ -10815,7 +10815,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentPredeployOutputReference
 ```
@@ -11093,7 +11093,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigOutputReference
 ```
@@ -11384,7 +11384,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksContainerOutputReference
 ```
@@ -11742,7 +11742,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksList
 ```
@@ -11902,7 +11902,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCanaryDeploymentVerifyConfigTasksOutputReference
 ```
@@ -12211,7 +12211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentOutputReference
 ```
@@ -12495,7 +12495,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksList
 ```
@@ -12655,7 +12655,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksOutputReference
 ```
@@ -13015,7 +13015,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskContainerOutputReference
 ```
@@ -13373,7 +13373,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisCustomChecksTaskOutputReference
 ```
@@ -13664,7 +13664,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecksList
 ```
@@ -13824,7 +13824,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudAlertPolicyChecksOutputReference
 ```
@@ -14164,7 +14164,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisGoogleCloudOutputReference
 ```
@@ -14455,7 +14455,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsAnalysisOutputReference
 ```
@@ -14810,7 +14810,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsList
 ```
@@ -14970,7 +14970,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsOutputReference
 ```
@@ -15507,7 +15507,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPostdeployOutputReference
 ```
@@ -15785,7 +15785,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsPredeployOutputReference
 ```
@@ -16063,7 +16063,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigOutputReference
 ```
@@ -16354,7 +16354,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksContainerOutputReference
 ```
@@ -16712,7 +16712,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksList
 ```
@@ -16872,7 +16872,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfigTasksOutputReference
 ```
@@ -17181,7 +17181,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryOutputReference
 ```
@@ -17556,7 +17556,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRunOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRunOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigCloudRunOutputReference
 ```
@@ -17921,7 +17921,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshOutputReference
 ```
@@ -18365,7 +18365,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesGatewayServiceMeshRouteDestinationsOutputReference
 ```
@@ -18665,7 +18665,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesOutputReference
 ```
@@ -18998,7 +18998,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworkingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworkingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigKubernetesServiceNetworkingOutputReference
 ```
@@ -19349,7 +19349,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryRuntimeConfigOutputReference
 ```
@@ -19682,7 +19682,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyOutputReference
 ```
@@ -20015,7 +20015,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksList
 ```
@@ -20175,7 +20175,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksOutputReference
 ```
@@ -20535,7 +20535,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskContainerOutputReference
 ```
@@ -20893,7 +20893,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisCustomChecksTaskOutputReference
 ```
@@ -21184,7 +21184,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecksList
 ```
@@ -21344,7 +21344,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudAlertPolicyChecksOutputReference
 ```
@@ -21684,7 +21684,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisGoogleCloudOutputReference
 ```
@@ -21975,7 +21975,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisOutputReference
 ```
@@ -22330,7 +22330,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference
 ```
@@ -22776,7 +22776,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployOutputReference
 ```
@@ -23096,7 +23096,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksContainerOutputReference
 ```
@@ -23454,7 +23454,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksList
 ```
@@ -23614,7 +23614,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeployTasksOutputReference
 ```
@@ -23923,7 +23923,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference
 ```
@@ -24243,7 +24243,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksContainerOutputReference
 ```
@@ -24601,7 +24601,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList
 ```
@@ -24761,7 +24761,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksOutputReference
 ```
@@ -25070,7 +25070,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigOutputReference
 ```
@@ -25361,7 +25361,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksContainerOutputReference
 ```
@@ -25719,7 +25719,7 @@ func InternalValue() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrate
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksList
 ```
@@ -25879,7 +25879,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigTasksOutputReference
 ```
@@ -26188,7 +26188,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployDeliveryPipeline.GoogleClouddeployDeliveryPipelineTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploydeliverypipeline"
 
 googleclouddeploydeliverypipeline.NewGoogleClouddeployDeliveryPipelineTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployDeliveryPipelineTimeoutsOutputReference
 ```

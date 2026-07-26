@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.NewGoogleComputeNetworkFirewallPolicyPacketMirroringRule(scope Construct, id *string, config GoogleComputeNetworkFirewallPolicyPacketMirroringRuleConfig) GoogleComputeNetworkFirewallPolicyPacketMirroringRule
 ```
@@ -509,7 +509,7 @@ func ResetTlsInspect()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule_IsConstruct(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewa
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1161,7 +1161,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 &googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleConfig {
 	Connection: interface{},
@@ -1174,7 +1174,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Action: *string,
 	Direction: *string,
 	FirewallPolicy: *string,
-	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatch,
+	Match: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatch,
 	Priority: *f64,
 	DeletionPolicy: *string,
 	Description: *string,
@@ -1184,7 +1184,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	RuleName: *string,
 	SecurityProfileGroup: *string,
 	TargetSecureTags: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeouts,
 	TlsInspect: interface{},
 }
 ```
@@ -1520,7 +1520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatch.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 &googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatch {
 	Layer4Configs: interface{},
@@ -1586,7 +1586,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4Configs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 &googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4Configs {
 	IpProtocol: *string,
@@ -1642,7 +1642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 &googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTags {
 	Name: *string,
@@ -1676,7 +1676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 &googlecomputenetworkfirewallpolicypacketmirroringrule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeouts {
 	Create: *string,
@@ -1738,7 +1738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4ConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.NewGoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4ConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4ConfigsList
 ```
@@ -1898,7 +1898,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4ConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.NewGoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4ConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchLayer4ConfigsOutputReference
 ```
@@ -2216,7 +2216,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.NewGoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatchOutputReference
 ```
@@ -2558,7 +2558,7 @@ func InternalValue() GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatch
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.NewGoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTagsList
 ```
@@ -2718,7 +2718,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.NewGoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTargetSecureTagsOutputReference
 ```
@@ -3025,7 +3025,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyPacketMirroringRule.GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicypacketmirroringrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicypacketmirroringrule"
 
 googlecomputenetworkfirewallpolicypacketmirroringrule.NewGoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeoutsOutputReference
 ```

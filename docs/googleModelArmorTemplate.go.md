@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplate(scope Construct, id *string, config GoogleModelArmorTemplateConfig) GoogleModelArmorTemplate
 ```
@@ -481,7 +481,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.GoogleModelArmorTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.GoogleModelArmorTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googlemodelarmortemplate.GoogleModelArmorTemplate_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.GoogleModelArmorTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googlemodelarmortemplate.GoogleModelArmorTemplate_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.GoogleModelArmorTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1023,7 +1023,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateConfig {
 	Connection: interface{},
@@ -1033,15 +1033,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemo
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	FilterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfig,
+	FilterConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfig,
 	Location: *string,
 	TemplateId: *string,
 	DeletionPolicy: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	TemplateMetadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadata,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateTimeouts,
+	TemplateMetadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadata,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateTimeouts,
 }
 ```
 
@@ -1278,13 +1278,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfig {
-	MaliciousUriFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettings,
-	PiAndJailbreakFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettings,
-	RaiSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigRaiSettings,
-	SdpSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettings,
+	MaliciousUriFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettings,
+	PiAndJailbreakFilterSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettings,
+	RaiSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigRaiSettings,
+	SdpSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettings,
 }
 ```
 
@@ -1360,7 +1360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettings {
 	FilterEnforcement: *string,
@@ -1394,7 +1394,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettings {
 	ConfidenceLevel: *string,
@@ -1444,7 +1444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigRaiSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfigRaiSettings {
 	RaiFilters: interface{},
@@ -1478,7 +1478,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFilters {
 	FilterType: *string,
@@ -1528,11 +1528,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfigSdpSettings {
-	AdvancedConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfig,
-	BasicConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfig,
+	AdvancedConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfig,
+	BasicConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfig,
 }
 ```
 
@@ -1578,7 +1578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfig {
 	DeidentifyTemplate: *string,
@@ -1641,7 +1641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfig {
 	FilterEnforcement: *string,
@@ -1675,7 +1675,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateTemplateMetadata {
 	CustomLlmResponseSafetyErrorCode: *f64,
@@ -1686,7 +1686,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemo
 	IgnorePartialInvocationFailures: interface{},
 	LogSanitizeOperations: interface{},
 	LogTemplateOperations: interface{},
-	MultiLanguageDetection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection,
+	MultiLanguageDetection: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection,
 }
 ```
 
@@ -1837,7 +1837,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection {
 	EnableMultiLanguageDetection: interface{},
@@ -1871,7 +1871,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 &googlemodelarmortemplate.GoogleModelArmorTemplateTimeouts {
 	Create: *string,
@@ -1933,7 +1933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSettingsOutputReference
 ```
@@ -2211,7 +2211,7 @@ func InternalValue() GoogleModelArmorTemplateFilterConfigMaliciousUriFilterSetti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateFilterConfigOutputReference
 ```
@@ -2628,7 +2628,7 @@ func InternalValue() GoogleModelArmorTemplateFilterConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSettingsOutputReference
 ```
@@ -2935,7 +2935,7 @@ func InternalValue() GoogleModelArmorTemplateFilterConfigPiAndJailbreakFilterSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigRaiSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigRaiSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateFilterConfigRaiSettingsOutputReference
 ```
@@ -3219,7 +3219,7 @@ func InternalValue() GoogleModelArmorTemplateFilterConfigRaiSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigRaiSettingsRaiFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFiltersList
 ```
@@ -3379,7 +3379,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigRaiSettingsRaiFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleModelArmorTemplateFilterConfigRaiSettingsRaiFiltersOutputReference
 ```
@@ -3697,7 +3697,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConfigOutputReference
 ```
@@ -4004,7 +4004,7 @@ func InternalValue() GoogleModelArmorTemplateFilterConfigSdpSettingsAdvancedConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfigOutputReference
 ```
@@ -4282,7 +4282,7 @@ func InternalValue() GoogleModelArmorTemplateFilterConfigSdpSettingsBasicConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateFilterConfigSdpSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateFilterConfigSdpSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateFilterConfigSdpSettingsOutputReference
 ```
@@ -4615,7 +4615,7 @@ func InternalValue() GoogleModelArmorTemplateFilterConfigSdpSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference
 ```
@@ -4886,7 +4886,7 @@ func InternalValue() GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateTemplateMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateTemplateMetadataOutputReference
 ```
@@ -5409,7 +5409,7 @@ func InternalValue() GoogleModelArmorTemplateTemplateMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemodelarmortemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemodelarmortemplate"
 
 googlemodelarmortemplate.NewGoogleModelArmorTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleModelArmorTemplateTimeoutsOutputReference
 ```

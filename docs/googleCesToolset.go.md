@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolset(scope Construct, id *string, config GoogleCesToolsetConfig) GoogleCesToolset
 ```
@@ -522,7 +522,7 @@ func ResetToolFakeConfig()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.GoogleCesToolset_IsConstruct(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.GoogleCesToolset_IsTerraformElement(x interface{}) *bool
 ```
@@ -568,7 +568,7 @@ googlecestoolset.GoogleCesToolset_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.GoogleCesToolset_IsTerraformResource(x interface{}) *bool
 ```
@@ -582,7 +582,7 @@ googlecestoolset.GoogleCesToolset_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.GoogleCesToolset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1141,7 +1141,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetConfig {
 	Connection: interface{},
@@ -1159,11 +1159,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	DisplayName: *string,
 	ExecutionType: *string,
 	Id: *string,
-	McpToolset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolset,
-	OpenApiToolset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolset,
+	McpToolset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolset,
+	OpenApiToolset: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolset,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetTimeouts,
-	ToolFakeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetToolFakeConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetTimeouts,
+	ToolFakeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetToolFakeConfig,
 }
 ```
 
@@ -1460,14 +1460,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolset {
 	ServerAddress: *string,
-	ApiAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthentication,
+	ApiAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthentication,
 	CustomHeaders: *map[string]*string,
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfig,
-	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfig,
+	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfig,
 }
 ```
 
@@ -1564,14 +1564,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetApiAuthentication {
-	ApiKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfig,
-	BearerTokenConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig,
-	OauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfig,
-	ServiceAccountAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfig,
-	ServiceAgentIdTokenAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfig,
+	ApiKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfig,
+	BearerTokenConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig,
+	OauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfig,
+	ServiceAccountAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfig,
+	ServiceAgentIdTokenAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfig,
 }
 ```
 
@@ -1662,7 +1662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfig {
 	ApiKeySecretVersion: *string,
@@ -1740,7 +1740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfig {
 	Token: *string,
@@ -1772,7 +1772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfig {
 	ClientId: *string,
@@ -1874,7 +1874,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfig {
 	ServiceAccount: *string,
@@ -1933,7 +1933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -1946,7 +1946,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfig {
 	Service: *string,
@@ -1980,7 +1980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetTlsConfig {
 	CaCerts: interface{},
@@ -2014,7 +2014,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetMcpToolsetTlsConfigCaCerts {
 	Cert: *string,
@@ -2074,14 +2074,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolset {
 	OpenApiSchema: *string,
-	ApiAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthentication,
+	ApiAuthentication: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthentication,
 	IgnoreUnknownFields: interface{},
-	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetServiceDirectoryConfig,
-	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetTlsConfig,
+	ServiceDirectoryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetServiceDirectoryConfig,
+	TlsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetTlsConfig,
 }
 ```
 
@@ -2172,14 +2172,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthentication.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetApiAuthentication {
-	ApiKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfig,
-	BearerTokenConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig,
-	OauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfig,
-	ServiceAccountAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfig,
-	ServiceAgentIdTokenAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig,
+	ApiKeyConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfig,
+	BearerTokenConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig,
+	OauthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfig,
+	ServiceAccountAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfig,
+	ServiceAgentIdTokenAuthConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig,
 }
 ```
 
@@ -2270,7 +2270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfig {
 	ApiKeySecretVersion: *string,
@@ -2343,7 +2343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfig {
 	Token: *string,
@@ -2375,7 +2375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfig {
 	ClientId: *string,
@@ -2477,7 +2477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfig {
 	ServiceAccount: *string,
@@ -2536,7 +2536,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfig {
 
@@ -2549,7 +2549,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetServiceDirectoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetServiceDirectoryConfig {
 	Service: *string,
@@ -2583,7 +2583,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetTlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetTlsConfig {
 	CaCerts: interface{},
@@ -2617,7 +2617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetTlsConfigCaCerts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetOpenApiToolsetTlsConfigCaCerts {
 	Cert: *string,
@@ -2677,7 +2677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetTimeouts {
 	Create: *string,
@@ -2737,10 +2737,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetToolFakeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetToolFakeConfig {
-	CodeBlock: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesToolset.GoogleCesToolsetToolFakeConfigCodeBlock,
+	CodeBlock: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesToolset.GoogleCesToolsetToolFakeConfigCodeBlock,
 	EnableFakeMode: interface{},
 }
 ```
@@ -2787,7 +2787,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetToolFakeConfigCodeBlock.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 &googlecestoolset.GoogleCesToolsetToolFakeConfigCodeBlock {
 	PythonCode: *string,
@@ -2823,7 +2823,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -3138,7 +3138,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetApiAuthenticationApiKeyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfigOutputReference
 ```
@@ -3416,7 +3416,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetApiAuthenticationBearerTokenConfi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfigOutputReference
 ```
@@ -3782,7 +3782,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetApiAuthenticationOauthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetApiAuthenticationOutputReference
 ```
@@ -4241,7 +4241,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetApiAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -4541,7 +4541,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetApiAuthenticationServiceAccountAu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -4790,7 +4790,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetApiAuthenticationServiceAgentIdTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetOutputReference
 ```
@@ -5216,7 +5216,7 @@ func InternalValue() GoogleCesToolsetMcpToolset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetServiceDirectoryConfigOutputReference
 ```
@@ -5487,7 +5487,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetServiceDirectoryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolsetMcpToolsetTlsConfigCaCertsList
 ```
@@ -5647,7 +5647,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolsetMcpToolsetTlsConfigCaCertsOutputReference
 ```
@@ -5958,7 +5958,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetMcpToolsetTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetMcpToolsetTlsConfigOutputReference
 ```
@@ -6242,7 +6242,7 @@ func InternalValue() GoogleCesToolsetMcpToolsetTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfigOutputReference
 ```
@@ -6557,7 +6557,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetApiAuthenticationApiKeyConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenConfigOutputReference
 ```
@@ -6835,7 +6835,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetApiAuthenticationBearerTokenC
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfigOutputReference
 ```
@@ -7201,7 +7201,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetApiAuthenticationOauthConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetApiAuthenticationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetApiAuthenticationOutputReference
 ```
@@ -7660,7 +7660,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetApiAuthentication
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference
 ```
@@ -7960,7 +7960,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAccou
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgentIdTokenAuthConfigOutputReference
 ```
@@ -8209,7 +8209,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetApiAuthenticationServiceAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetOutputReference
 ```
@@ -8646,7 +8646,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolset
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetServiceDirectoryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetServiceDirectoryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetServiceDirectoryConfigOutputReference
 ```
@@ -8917,7 +8917,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetServiceDirectoryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetTlsConfigCaCertsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetTlsConfigCaCertsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesToolsetOpenApiToolsetTlsConfigCaCertsList
 ```
@@ -9077,7 +9077,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetTlsConfigCaCertsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetTlsConfigCaCertsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesToolsetOpenApiToolsetTlsConfigCaCertsOutputReference
 ```
@@ -9388,7 +9388,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetOpenApiToolsetTlsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetOpenApiToolsetTlsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetOpenApiToolsetTlsConfigOutputReference
 ```
@@ -9672,7 +9672,7 @@ func InternalValue() GoogleCesToolsetOpenApiToolsetTlsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetTimeoutsOutputReference
 ```
@@ -10008,7 +10008,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetToolFakeConfigCodeBlockOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetToolFakeConfigCodeBlockOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetToolFakeConfigCodeBlockOutputReference
 ```
@@ -10279,7 +10279,7 @@ func InternalValue() GoogleCesToolsetToolFakeConfigCodeBlock
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetToolFakeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecestoolset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset"
 
 googlecestoolset.NewGoogleCesToolsetToolFakeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesToolsetToolFakeConfigOutputReference
 ```

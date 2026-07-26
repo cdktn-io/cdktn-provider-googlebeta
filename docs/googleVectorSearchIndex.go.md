@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndex.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.NewGoogleVectorSearchIndex(scope Construct, id *string, config GoogleVectorSearchIndexConfig) GoogleVectorSearchIndex
 ```
@@ -523,7 +523,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndex.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.GoogleVectorSearchIndex_IsConstruct(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndex.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.GoogleVectorSearchIndex_IsTerraformElement(x interface{}) *bool
 ```
@@ -569,7 +569,7 @@ googlevectorsearchindex.GoogleVectorSearchIndex_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndex.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.GoogleVectorSearchIndex_IsTerraformResource(x interface{}) *bool
 ```
@@ -583,7 +583,7 @@ googlevectorsearchindex.GoogleVectorSearchIndex_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndex.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.GoogleVectorSearchIndex_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1219,7 +1219,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 &googlevectorsearchindex.GoogleVectorSearchIndexConfig {
 	Connection: interface{},
@@ -1233,9 +1233,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 	IndexField: *string,
 	IndexId: *string,
 	Location: *string,
-	DedicatedInfrastructure: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructure,
+	DedicatedInfrastructure: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructure,
 	DeletionPolicy: *string,
-	DenseScann: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVectorSearchIndex.GoogleVectorSearchIndexDenseScann,
+	DenseScann: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVectorSearchIndex.GoogleVectorSearchIndexDenseScann,
 	Description: *string,
 	DisplayName: *string,
 	DistanceMetric: *string,
@@ -1244,7 +1244,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleve
 	Labels: *map[string]*string,
 	Project: *string,
 	StoreFields: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVectorSearchIndex.GoogleVectorSearchIndexTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVectorSearchIndex.GoogleVectorSearchIndexTimeouts,
 }
 ```
 
@@ -1591,10 +1591,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructure.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 &googlevectorsearchindex.GoogleVectorSearchIndexDedicatedInfrastructure {
-	AutoscalingSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSpec,
+	AutoscalingSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSpec,
 	Mode: *string,
 }
 ```
@@ -1641,7 +1641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 &googlevectorsearchindex.GoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSpec {
 	MaxReplicaCount: *f64,
@@ -1698,7 +1698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexDenseScann.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 &googlevectorsearchindex.GoogleVectorSearchIndexDenseScann {
 	FeatureNormType: *string,
@@ -1732,7 +1732,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 &googlevectorsearchindex.GoogleVectorSearchIndexTimeouts {
 	Create: *string,
@@ -1794,7 +1794,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.NewGoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSpecOutputReference
 ```
@@ -2101,7 +2101,7 @@ func InternalValue() GoogleVectorSearchIndexDedicatedInfrastructureAutoscalingSp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexDedicatedInfrastructureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.NewGoogleVectorSearchIndexDedicatedInfrastructureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVectorSearchIndexDedicatedInfrastructureOutputReference
 ```
@@ -2421,7 +2421,7 @@ func InternalValue() GoogleVectorSearchIndexDedicatedInfrastructure
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexDenseScannOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.NewGoogleVectorSearchIndexDenseScannOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVectorSearchIndexDenseScannOutputReference
 ```
@@ -2699,7 +2699,7 @@ func InternalValue() GoogleVectorSearchIndexDenseScann
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVectorSearchIndex.GoogleVectorSearchIndexTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevectorsearchindex"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex"
 
 googlevectorsearchindex.NewGoogleVectorSearchIndexTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVectorSearchIndexTimeoutsOutputReference
 ```

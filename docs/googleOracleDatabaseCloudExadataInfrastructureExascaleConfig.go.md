@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 googleoracledatabasecloudexadatainfrastructureexascaleconfig.NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig(scope Construct, id *string, config GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabas
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabas
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -884,7 +884,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 &googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig {
 	Connection: interface{},
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleor
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts,
 }
 ```
 
@@ -1102,7 +1102,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 &googleoracledatabasecloudexadatainfrastructureexascaleconfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts {
 	Create: *string,
@@ -1150,7 +1150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOracleDatabaseCloudExadataInfrastructureExascaleConfig.GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig"
 
 googleoracledatabasecloudexadatainfrastructureexascaleconfig.NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeoutsOutputReference
 ```

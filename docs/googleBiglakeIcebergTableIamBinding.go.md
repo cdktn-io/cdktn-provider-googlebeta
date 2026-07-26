@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 googlebiglakeicebergtableiambinding.NewGoogleBiglakeIcebergTableIamBinding(scope Construct, id *string, config GoogleBiglakeIcebergTableIamBindingConfig) GoogleBiglakeIcebergTableIamBinding
 ```
@@ -434,7 +434,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBinding_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBinding_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -910,7 +910,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 &googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBindingCondition {
 	Expression: *string,
@@ -970,7 +970,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 &googlebiglakeicebergtableiambinding.GoogleBiglakeIcebergTableIamBindingConfig {
 	Connection: interface{},
@@ -985,7 +985,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebi
 	Name: *string,
 	Namespace: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBindingCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeIcebergTableIamBinding.GoogleBiglakeIcebergTableIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergtableiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtableiambinding"
 
 googlebiglakeicebergtableiambinding.NewGoogleBiglakeIcebergTableIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeIcebergTableIamBindingConditionOutputReference
 ```

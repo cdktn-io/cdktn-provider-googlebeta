@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplate.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 googlefirebaseailogicprompttemplate.NewGoogleFirebaseAiLogicPromptTemplate(scope Construct, id *string, config GoogleFirebaseAiLogicPromptTemplateConfig) GoogleFirebaseAiLogicPromptTemplate
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplate.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplate_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplate_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplate_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplate_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplate_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1008,7 +1008,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 &googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplateConfig {
 	Connection: interface{},
@@ -1026,7 +1026,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefi
 	Id: *string,
 	Project: *string,
 	RegionalPropagationDisabled: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts,
 }
 ```
 
@@ -1264,7 +1264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 &googlefirebaseailogicprompttemplate.GoogleFirebaseAiLogicPromptTemplateTimeouts {
 	Create: *string,
@@ -1326,7 +1326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicPromptTemplate.GoogleFirebaseAiLogicPromptTemplateTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicprompttemplate"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate"
 
 googlefirebaseailogicprompttemplate.NewGoogleFirebaseAiLogicPromptTemplateTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAiLogicPromptTemplateTimeoutsOutputReference
 ```

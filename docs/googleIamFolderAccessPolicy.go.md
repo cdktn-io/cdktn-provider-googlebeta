@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicy(scope Construct, id *string, config GoogleIamFolderAccessPolicyConfig) GoogleIamFolderAccessPolicy
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1021,7 +1021,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyConfig {
 	Connection: interface{},
@@ -1036,10 +1036,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleia
 	Location: *string,
 	Annotations: *map[string]*string,
 	DeletionPolicy: *string,
-	Details: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetails,
+	Details: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetails,
 	DisplayName: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts,
 }
 ```
 
@@ -1283,7 +1283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetails {
 	Rules: interface{},
@@ -1317,11 +1317,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetailsRules {
 	Effect: *string,
-	Operation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation,
+	Operation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation,
 	Principals: *[]*string,
 	Conditions: interface{},
 	Description: *string,
@@ -1469,7 +1469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetailsRulesConditions {
 	Service: *string,
@@ -1517,7 +1517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyDetailsRulesOperation {
 	Permissions: *[]*string,
@@ -1580,7 +1580,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 &googleiamfolderaccesspolicy.GoogleIamFolderAccessPolicyTimeouts {
 	Create: *string,
@@ -1642,7 +1642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFolderAccessPolicyDetailsOutputReference
 ```
@@ -1926,7 +1926,7 @@ func InternalValue() GoogleIamFolderAccessPolicyDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesConditionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleIamFolderAccessPolicyDetailsRulesConditionsList
 ```
@@ -2086,7 +2086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesConditionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesConditionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleIamFolderAccessPolicyDetailsRulesConditionsOutputReference
 ```
@@ -2404,7 +2404,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleIamFolderAccessPolicyDetailsRulesList
 ```
@@ -2564,7 +2564,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFolderAccessPolicyDetailsRulesOperationOutputReference
 ```
@@ -2864,7 +2864,7 @@ func InternalValue() GoogleIamFolderAccessPolicyDetailsRulesOperation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyDetailsRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyDetailsRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleIamFolderAccessPolicyDetailsRulesOutputReference
 ```
@@ -3310,7 +3310,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamFolderAccessPolicy.GoogleIamFolderAccessPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderaccesspolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy"
 
 googleiamfolderaccesspolicy.NewGoogleIamFolderAccessPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamFolderAccessPolicyTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.NewGoogleDiscoveryEngineAclConfig(scope Construct, id *string, config GoogleDiscoveryEngineAclConfigConfig) GoogleDiscoveryEngineAclConfig
 ```
@@ -454,7 +454,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfig_IsConstruct(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfig_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfig_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -864,7 +864,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 &googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfigConfig {
 	Connection: interface{},
@@ -876,9 +876,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledi
 	Provisioners: *[]interface{},
 	Location: *string,
 	Id: *string,
-	IdpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfig,
+	IdpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfig,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts,
 }
 ```
 
@@ -1045,10 +1045,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 &googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfigIdpConfig {
-	ExternalIdpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfig,
+	ExternalIdpConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfig,
 	IdpType: *string,
 }
 ```
@@ -1095,7 +1095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 &googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfig {
 	WorkforcePoolName: *string,
@@ -1129,7 +1129,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 &googlediscoveryengineaclconfig.GoogleDiscoveryEngineAclConfigTimeouts {
 	Create: *string,
@@ -1191,7 +1191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.NewGoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfigOutputReference
 ```
@@ -1469,7 +1469,7 @@ func InternalValue() GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.NewGoogleDiscoveryEngineAclConfigIdpConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDiscoveryEngineAclConfigIdpConfigOutputReference
 ```
@@ -1789,7 +1789,7 @@ func InternalValue() GoogleDiscoveryEngineAclConfigIdpConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryengineaclconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig"
 
 googlediscoveryengineaclconfig.NewGoogleDiscoveryEngineAclConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDiscoveryEngineAclConfigTimeoutsOutputReference
 ```
