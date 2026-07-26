@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettings(scope Construct, id *string, config GoogleIapSettingsConfig) GoogleIapSettings
 ```
@@ -474,7 +474,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.GoogleIapSettings_IsConstruct(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.GoogleIapSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ googleiapsettings.GoogleIapSettings_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.GoogleIapSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googleiapsettings.GoogleIapSettings_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.GoogleIapSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -895,16 +895,16 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettings {
-	AllowedDomainsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettings,
-	CorsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettings,
-	GcipSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettings,
+	AllowedDomainsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettings,
+	CorsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettings,
+	GcipSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettings,
 	IdentitySources: *[]*string,
-	OauthSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings,
-	ReauthSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettings,
-	WorkforceIdentitySettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettings,
+	OauthSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings,
+	ReauthSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettings,
+	WorkforceIdentitySettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettings,
 }
 ```
 
@@ -1031,7 +1031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettings {
 	Domains: *[]*string,
@@ -1081,7 +1081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettingsCorsSettings {
 	AllowHttpOptions: interface{},
@@ -1117,7 +1117,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettingsGcipSettings {
 	LoginPageUri: *string,
@@ -1177,7 +1177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettingsOauthSettings {
 	ClientId: *string,
@@ -1267,7 +1267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettingsReauthSettings {
 	MaxAge: *string,
@@ -1347,10 +1347,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettings {
-	Oauth2: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2,
+	Oauth2: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2,
 	WorkforcePools: *[]*string,
 }
 ```
@@ -1397,7 +1397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2 {
 	ClientId: *string,
@@ -1447,13 +1447,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsApplicationSettings {
-	AccessDeniedPageSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettings,
-	AttributePropagationSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettings,
+	AccessDeniedPageSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettings,
+	AttributePropagationSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettings,
 	CookieDomain: *string,
-	CsmSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettings,
+	CsmSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettings,
 }
 ```
 
@@ -1532,7 +1532,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettings {
 	AccessDeniedPageUri: *string,
@@ -1598,7 +1598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettings {
 	Enable: interface{},
@@ -1679,7 +1679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsApplicationSettingsCsmSettings {
 	RctokenAud: *string,
@@ -1713,7 +1713,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsConfig {
 	Connection: interface{},
@@ -1724,11 +1724,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleia
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	AccessSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsAccessSettings,
-	ApplicationSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsApplicationSettings,
+	AccessSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsAccessSettings,
+	ApplicationSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsApplicationSettings,
 	DeletionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIapSettings.GoogleIapSettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIapSettings.GoogleIapSettingsTimeouts,
 }
 ```
 
@@ -1933,7 +1933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 &googleiapsettings.GoogleIapSettingsTimeouts {
 	Create: *string,
@@ -1995,7 +1995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsAllowedDomainsSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsAllowedDomainsSettingsOutputReference
 ```
@@ -2302,7 +2302,7 @@ func InternalValue() GoogleIapSettingsAccessSettingsAllowedDomainsSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsCorsSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsCorsSettingsOutputReference
 ```
@@ -2580,7 +2580,7 @@ func InternalValue() GoogleIapSettingsAccessSettingsCorsSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsGcipSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsGcipSettingsOutputReference
 ```
@@ -2887,7 +2887,7 @@ func InternalValue() GoogleIapSettingsAccessSettingsGcipSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsOauthSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsOauthSettingsOutputReference
 ```
@@ -3263,7 +3263,7 @@ func InternalValue() GoogleIapSettingsAccessSettingsOauthSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsOutputReference
 ```
@@ -3793,7 +3793,7 @@ func InternalValue() GoogleIapSettingsAccessSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsReauthSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsReauthSettingsOutputReference
 ```
@@ -4108,7 +4108,7 @@ func InternalValue() GoogleIapSettingsAccessSettingsReauthSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2OutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2OutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2OutputReference
 ```
@@ -4426,7 +4426,7 @@ func InternalValue() GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOau
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference
 ```
@@ -4746,7 +4746,7 @@ func InternalValue() GoogleIapSettingsAccessSettingsWorkforceIdentitySettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsApplicationSettingsAccessDeniedPageSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsApplicationSettingsAccessDeniedPageSettingsOutputReference
 ```
@@ -5082,7 +5082,7 @@ func InternalValue() GoogleIapSettingsApplicationSettingsAccessDeniedPageSetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsApplicationSettingsAttributePropagationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsApplicationSettingsAttributePropagationSettingsOutputReference
 ```
@@ -5418,7 +5418,7 @@ func InternalValue() GoogleIapSettingsApplicationSettingsAttributePropagationSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsApplicationSettingsCsmSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsApplicationSettingsCsmSettingsOutputReference
 ```
@@ -5696,7 +5696,7 @@ func InternalValue() GoogleIapSettingsApplicationSettingsCsmSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsApplicationSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsApplicationSettingsOutputReference
 ```
@@ -6100,7 +6100,7 @@ func InternalValue() GoogleIapSettingsApplicationSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapsettings"
 
 googleiapsettings.NewGoogleIapSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapSettingsTimeoutsOutputReference
 ```

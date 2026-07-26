@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 googlecesapprootagentassociation.NewGoogleCesAppRootAgentAssociation(scope Construct, id *string, config GoogleCesAppRootAgentAssociationConfig) GoogleCesAppRootAgentAssociation
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 googlecesapprootagentassociation.GoogleCesAppRootAgentAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 googlecesapprootagentassociation.GoogleCesAppRootAgentAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlecesapprootagentassociation.GoogleCesAppRootAgentAssociation_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 googlecesapprootagentassociation.GoogleCesAppRootAgentAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlecesapprootagentassociation.GoogleCesAppRootAgentAssociation_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 googlecesapprootagentassociation.GoogleCesAppRootAgentAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -884,7 +884,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 &googlecesapprootagentassociation.GoogleCesAppRootAgentAssociationConfig {
 	Connection: interface{},
@@ -900,7 +900,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts,
 }
 ```
 
@@ -1104,7 +1104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 &googlecesapprootagentassociation.GoogleCesAppRootAgentAssociationTimeouts {
 	Create: *string,
@@ -1166,7 +1166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesapprootagentassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation"
 
 googlecesapprootagentassociation.NewGoogleCesAppRootAgentAssociationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAppRootAgentAssociationTimeoutsOutputReference
 ```

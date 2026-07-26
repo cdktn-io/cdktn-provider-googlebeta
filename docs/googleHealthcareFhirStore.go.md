@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStore(scope Construct, id *string, config GoogleHealthcareFhirStoreConfig) GoogleHealthcareFhirStore
 ```
@@ -597,7 +597,7 @@ func ResetVersion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.GoogleHealthcareFhirStore_IsConstruct(x interface{}) *bool
 ```
@@ -629,7 +629,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.GoogleHealthcareFhirStore_IsTerraformElement(x interface{}) *bool
 ```
@@ -643,7 +643,7 @@ googlehealthcarefhirstore.GoogleHealthcareFhirStore_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.GoogleHealthcareFhirStore_IsTerraformResource(x interface{}) *bool
 ```
@@ -657,7 +657,7 @@ googlehealthcarefhirstore.GoogleHealthcareFhirStore_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.GoogleHealthcareFhirStore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1337,7 +1337,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreConfig {
 	Connection: interface{},
@@ -1350,7 +1350,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehe
 	Dataset: *string,
 	Name: *string,
 	ComplexDataTypeReferenceParsing: *string,
-	ConsentConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig,
+	ConsentConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig,
 	DefaultSearchHandlingStrict: interface{},
 	DeletionPolicy: *string,
 	DisableReferentialIntegrity: interface{},
@@ -1360,11 +1360,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehe
 	EnableUpdateCreate: interface{},
 	Id: *string,
 	Labels: *map[string]*string,
-	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfig,
+	NotificationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfig,
 	NotificationConfigs: interface{},
 	StreamConfigs: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts,
-	ValidationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts,
+	ValidationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig,
 	Version: *string,
 }
 ```
@@ -1805,13 +1805,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreConsentConfig {
 	Version: *string,
-	AccessDeterminationLogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig,
+	AccessDeterminationLogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig,
 	AccessEnforced: interface{},
-	ConsentHeaderHandling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling,
+	ConsentHeaderHandling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling,
 }
 ```
 
@@ -1891,7 +1891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfig {
 	LogLevel: *string,
@@ -1927,7 +1927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling {
 	Profile: *string,
@@ -1963,7 +1963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreNotificationConfig {
 	PubsubTopic: *string,
@@ -2004,7 +2004,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreNotificationConfigs {
 	PubsubTopic: *string,
@@ -2088,10 +2088,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreStreamConfigs {
-	BigqueryDestination: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestination,
+	BigqueryDestination: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestination,
 	ResourceTypes: *[]*string,
 }
 ```
@@ -2142,11 +2142,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestination.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestination {
 	DatasetUri: *string,
-	SchemaConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfig,
+	SchemaConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfig,
 }
 ```
 
@@ -2192,11 +2192,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfig {
 	RecursiveStructureDepth: *f64,
-	LastUpdatedPartitionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfig,
+	LastUpdatedPartitionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfig,
 	SchemaType: *string,
 }
 ```
@@ -2268,7 +2268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfig {
 	Type: *string,
@@ -2318,7 +2318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreTimeouts {
 	Create: *string,
@@ -2378,7 +2378,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 &googlehealthcarefhirstore.GoogleHealthcareFhirStoreValidationConfig {
 	DisableFhirpathValidation: interface{},
@@ -2498,7 +2498,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLogConfigOutputReference
 ```
@@ -2776,7 +2776,7 @@ func InternalValue() GoogleHealthcareFhirStoreConsentConfigAccessDeterminationLo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandlingOutputReference
 ```
@@ -3054,7 +3054,7 @@ func InternalValue() GoogleHealthcareFhirStoreConsentConfigConsentHeaderHandling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreConsentConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreConsentConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreConsentConfigOutputReference
 ```
@@ -3449,7 +3449,7 @@ func InternalValue() GoogleHealthcareFhirStoreConsentConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreNotificationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreNotificationConfigOutputReference
 ```
@@ -3720,7 +3720,7 @@ func InternalValue() GoogleHealthcareFhirStoreNotificationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreNotificationConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHealthcareFhirStoreNotificationConfigsList
 ```
@@ -3880,7 +3880,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreNotificationConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHealthcareFhirStoreNotificationConfigsOutputReference
 ```
@@ -4227,7 +4227,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationOutputReference
 ```
@@ -4533,7 +4533,7 @@ func InternalValue() GoogleHealthcareFhirStoreStreamConfigsBigqueryDestination
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigLastUpdatedPartitionConfigOutputReference
 ```
@@ -4833,7 +4833,7 @@ func InternalValue() GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSchemaConfigOutputReference
 ```
@@ -5175,7 +5175,7 @@ func InternalValue() GoogleHealthcareFhirStoreStreamConfigsBigqueryDestinationSc
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreStreamConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHealthcareFhirStoreStreamConfigsList
 ```
@@ -5335,7 +5335,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreStreamConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreStreamConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHealthcareFhirStoreStreamConfigsOutputReference
 ```
@@ -5666,7 +5666,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreTimeoutsOutputReference
 ```
@@ -6002,7 +6002,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreValidationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehealthcarefhirstore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcarefhirstore"
 
 googlehealthcarefhirstore.NewGoogleHealthcareFhirStoreValidationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHealthcareFhirStoreValidationConfigOutputReference
 ```

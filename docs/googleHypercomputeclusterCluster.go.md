@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterCluster(scope Construct, id *string, config GoogleHypercomputeclusterClusterConfig) GoogleHypercomputeclusterCluster
 ```
@@ -528,7 +528,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsConstruct(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformElement(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterCluster.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.GoogleHypercomputeclusterCluster_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1147,10 +1147,10 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResources {
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig,
 	Id: *string,
 }
 ```
@@ -1198,13 +1198,13 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfig {
-	NewFlexStartInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances,
-	NewOnDemandInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances,
-	NewReservedInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances,
-	NewSpotInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances,
+	NewFlexStartInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances,
+	NewOnDemandInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances,
+	NewReservedInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances,
+	NewSpotInstances: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances,
 }
 ```
 
@@ -1280,7 +1280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstances {
 	MachineType: *string,
@@ -1346,7 +1346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstances {
 	MachineType: *string,
@@ -1396,7 +1396,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstances {
 	Reservation: *string,
@@ -1430,7 +1430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstances {
 	MachineType: *string,
@@ -1496,7 +1496,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterConfig {
 	Connection: interface{},
@@ -1514,10 +1514,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehy
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	Orchestrator: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator,
+	Orchestrator: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator,
 	Project: *string,
 	StorageResources: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts,
 }
 ```
 
@@ -1802,11 +1802,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResources {
 	Id: *string,
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig,
 }
 ```
 
@@ -1853,11 +1853,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesConfig {
-	ExistingNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork,
-	NewNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork,
+	ExistingNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork,
+	NewNetwork: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork,
 }
 ```
 
@@ -1903,7 +1903,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetwork {
 	Network: *string,
@@ -1953,7 +1953,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetwork {
 	Network: *string,
@@ -2003,7 +2003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterNetworkResourcesNetwork {
 
@@ -2016,10 +2016,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestrator.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestrator {
-	Slurm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurm,
+	Slurm: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurm,
 }
 ```
 
@@ -2050,10 +2050,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurm.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurm {
-	LoginNodes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes,
+	LoginNodes: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes,
 	NodeSets: interface{},
 	Partitions: interface{},
 	DefaultPartition: *string,
@@ -2167,13 +2167,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes {
 	Count: *string,
 	MachineType: *string,
 	Zone: *string,
-	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk,
+	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk,
 	EnableOsLogin: interface{},
 	EnablePublicIps: interface{},
 	Labels: *map[string]*string,
@@ -2329,7 +2329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDisk {
 	SizeGb: *string,
@@ -2379,7 +2379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstances {
 
@@ -2392,7 +2392,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigs {
 	Id: *string,
@@ -2445,12 +2445,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSets {
 	Id: *string,
 	ComputeId: *string,
-	ComputeInstance: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance,
+	ComputeInstance: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance,
 	MaxDynamicNodeCount: *string,
 	StaticNodeCount: *string,
 	StorageConfigs: interface{},
@@ -2574,10 +2574,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstance {
-	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk,
+	BootDisk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk,
 	Labels: *map[string]*string,
 	StartupScript: *string,
 }
@@ -2640,7 +2640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDisk {
 	SizeGb: *string,
@@ -2690,7 +2690,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigs {
 	Id: *string,
@@ -2743,7 +2743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitions {
 	Id: *string,
@@ -2800,10 +2800,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResources {
-	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig,
+	Config: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig,
 	Id: *string,
 }
 ```
@@ -2851,7 +2851,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesBucket {
 
@@ -2864,15 +2864,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfig {
-	ExistingBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket,
-	ExistingFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore,
-	ExistingLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre,
-	NewBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket,
-	NewFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore,
-	NewLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre,
+	ExistingBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket,
+	ExistingFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore,
+	ExistingLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre,
+	NewBucket: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket,
+	NewFilestore: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore,
+	NewLustre: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre,
 }
 ```
 
@@ -2978,7 +2978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucket {
 	Bucket: *string,
@@ -3012,7 +3012,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestore {
 	Filestore: *string,
@@ -3046,7 +3046,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustre {
 	Lustre: *string,
@@ -3080,12 +3080,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucket {
 	Bucket: *string,
-	Autoclass: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass,
-	HierarchicalNamespace: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace,
+	Autoclass: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass,
+	HierarchicalNamespace: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace,
 	StorageClass: *string,
 }
 ```
@@ -3162,7 +3162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass {
 	Enabled: interface{},
@@ -3212,7 +3212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace {
 	Enabled: interface{},
@@ -3246,7 +3246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestore {
 	FileShares: interface{},
@@ -3350,7 +3350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileShares.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileShares {
 	CapacityGb: *string,
@@ -3400,7 +3400,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustre {
 	CapacityGb: *string,
@@ -3507,7 +3507,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesFilestore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesFilestore {
 
@@ -3520,7 +3520,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesLustre.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterStorageResourcesLustre {
 
@@ -3533,7 +3533,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehy
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 &googlehypercomputeclustercluster.GoogleHypercomputeclusterClusterTimeouts {
 	Create: *string,
@@ -3595,7 +3595,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewFlexStartInstancesOutputReference
 ```
@@ -3910,7 +3910,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewFl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewOnDemandInstancesOutputReference
 ```
@@ -4203,7 +4203,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewOn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewReservedInstancesOutputReference
 ```
@@ -4481,7 +4481,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewRe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigNewSpotInstancesOutputReference
 ```
@@ -4803,7 +4803,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfigNewSp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterComputeResourcesConfigOutputReference
 ```
@@ -5220,7 +5220,7 @@ func InternalValue() GoogleHypercomputeclusterClusterComputeResourcesConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterComputeResourcesList
 ```
@@ -5380,7 +5380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterComputeResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterComputeResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterComputeResourcesOutputReference
 ```
@@ -5704,7 +5704,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterNetworkResourcesConfigExistingNetworkOutputReference
 ```
@@ -5997,7 +5997,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesConfigExist
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNetworkOutputReference
 ```
@@ -6297,7 +6297,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesConfigNewNe
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterNetworkResourcesConfigOutputReference
 ```
@@ -6630,7 +6630,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesList
 ```
@@ -6790,7 +6790,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesNetworkList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesNetworkList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesNetworkList
 ```
@@ -6939,7 +6939,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesNetworkOutputReference
 ```
@@ -7228,7 +7228,7 @@ func InternalValue() GoogleHypercomputeclusterClusterNetworkResourcesNetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterNetworkResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterNetworkResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterNetworkResourcesOutputReference
 ```
@@ -7570,7 +7570,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorOutputReference
 ```
@@ -7861,7 +7861,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestrator
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesBootDiskOutputReference
 ```
@@ -8154,7 +8154,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesList
 ```
@@ -8303,7 +8303,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesInstancesOutputReference
 ```
@@ -8581,7 +8581,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesOutputReference
 ```
@@ -9107,7 +9107,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodes
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsList
 ```
@@ -9267,7 +9267,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmLoginNodesStorageConfigsOutputReference
 ```
@@ -9578,7 +9578,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceBootDiskOutputReference
 ```
@@ -9871,7 +9871,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsComputeInstanceOutputReference
 ```
@@ -10220,7 +10220,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsCo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsList
 ```
@@ -10380,7 +10380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsOutputReference
 ```
@@ -10840,7 +10840,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsList
 ```
@@ -11000,7 +11000,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmNodeSetsStorageConfigsOutputReference
 ```
@@ -11311,7 +11311,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterOrchestratorSlurmOutputReference
 ```
@@ -11752,7 +11752,7 @@ func InternalValue() GoogleHypercomputeclusterClusterOrchestratorSlurm
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsList
 ```
@@ -11912,7 +11912,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterOrchestratorSlurmPartitionsOutputReference
 ```
@@ -12223,7 +12223,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesBucketList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesBucketList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesBucketList
 ```
@@ -12372,7 +12372,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesBucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesBucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesBucketOutputReference
 ```
@@ -12650,7 +12650,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesBucket
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigExistingBucketOutputReference
 ```
@@ -12921,7 +12921,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigExist
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigExistingFilestoreOutputReference
 ```
@@ -13192,7 +13192,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigExist
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigExistingLustreOutputReference
 ```
@@ -13463,7 +13463,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigExist
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference
 ```
@@ -13763,7 +13763,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewBu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference
 ```
@@ -14041,7 +14041,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewBu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketOutputReference
 ```
@@ -14425,7 +14425,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewBu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesList
 ```
@@ -14585,7 +14585,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreFileSharesOutputReference
 ```
@@ -14896,7 +14896,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewFilestoreOutputReference
 ```
@@ -15282,7 +15282,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewFi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference
 ```
@@ -15655,7 +15655,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfigNewLu
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterStorageResourcesConfigOutputReference
 ```
@@ -16156,7 +16156,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesFilestoreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesFilestoreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesFilestoreList
 ```
@@ -16305,7 +16305,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesFilestoreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesFilestoreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesFilestoreOutputReference
 ```
@@ -16583,7 +16583,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesFilestore
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesList
 ```
@@ -16743,7 +16743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesLustreList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesLustreList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleHypercomputeclusterClusterStorageResourcesLustreList
 ```
@@ -16892,7 +16892,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesLustreOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesLustreOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesLustreOutputReference
 ```
@@ -17170,7 +17170,7 @@ func InternalValue() GoogleHypercomputeclusterClusterStorageResourcesLustre
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterStorageResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterStorageResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleHypercomputeclusterClusterStorageResourcesOutputReference
 ```
@@ -17527,7 +17527,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHypercomputeclusterCluster.GoogleHypercomputeclusterClusterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlehypercomputeclustercluster"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehypercomputeclustercluster"
 
 googlehypercomputeclustercluster.NewGoogleHypercomputeclusterClusterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleHypercomputeclusterClusterTimeoutsOutputReference
 ```

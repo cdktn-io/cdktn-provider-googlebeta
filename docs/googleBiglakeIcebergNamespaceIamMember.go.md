@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 googlebiglakeicebergnamespaceiammember.NewGoogleBiglakeIcebergNamespaceIamMember(scope Construct, id *string, config GoogleBiglakeIcebergNamespaceIamMemberConfig) GoogleBiglakeIcebergNamespaceIamMember
 ```
@@ -434,7 +434,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMember_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMember_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -888,7 +888,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 &googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMemberCondition {
 	Expression: *string,
@@ -948,7 +948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 &googlebiglakeicebergnamespaceiammember.GoogleBiglakeIcebergNamespaceIamMemberConfig {
 	Connection: interface{},
@@ -962,7 +962,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebi
 	Member: *string,
 	NamespaceId: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMemberCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -1155,7 +1155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespaceIamMember.GoogleBiglakeIcebergNamespaceIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakeicebergnamespaceiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergnamespaceiammember"
 
 googlebiglakeicebergnamespaceiammember.NewGoogleBiglakeIcebergNamespaceIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeIcebergNamespaceIamMemberConditionOutputReference
 ```

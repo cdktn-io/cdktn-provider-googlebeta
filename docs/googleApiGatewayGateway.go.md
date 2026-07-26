@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 googleapigatewaygateway.NewGoogleApiGatewayGateway(scope Construct, id *string, config GoogleApiGatewayGatewayConfig) GoogleApiGatewayGateway
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 googleapigatewaygateway.GoogleApiGatewayGateway_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 googleapigatewaygateway.GoogleApiGatewayGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleapigatewaygateway.GoogleApiGatewayGateway_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGateway.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 googleapigatewaygateway.GoogleApiGatewayGateway_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googleapigatewaygateway.GoogleApiGatewayGateway_IsTerraformResource(x interface{
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 googleapigatewaygateway.GoogleApiGatewayGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -993,7 +993,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 &googleapigatewaygateway.GoogleApiGatewayGatewayConfig {
 	Connection: interface{},
@@ -1011,7 +1011,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 	Labels: *map[string]*string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeouts,
 }
 ```
 
@@ -1252,7 +1252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 &googleapigatewaygateway.GoogleApiGatewayGatewayTimeouts {
 	Create: *string,
@@ -1314,7 +1314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigatewaygateway"
 
 googleapigatewaygateway.NewGoogleApiGatewayGatewayTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApiGatewayGatewayTimeoutsOutputReference
 ```

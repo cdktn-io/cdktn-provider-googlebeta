@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivation(scope Construct, id *string, config GoogleNetworkServicesMulticastGroupConsumerActivationConfig) GoogleNetworkServicesMulticastGroupConsumerActivation
 ```
@@ -475,7 +475,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulti
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulti
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1083,7 +1083,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationConfig {
 	Connection: interface{},
@@ -1101,9 +1101,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	LogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig,
+	LogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts,
 }
 ```
 
@@ -1385,7 +1385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfig {
 	Enabled: interface{},
@@ -1419,7 +1419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationState {
 
@@ -1432,7 +1432,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 &googlenetworkservicesmulticastgroupconsumeractivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeouts {
 	Create: *string,
@@ -1494,7 +1494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationLogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationLogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesMulticastGroupConsumerActivationLogConfigOutputReference
 ```
@@ -1772,7 +1772,7 @@ func InternalValue() GoogleNetworkServicesMulticastGroupConsumerActivationLogCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkServicesMulticastGroupConsumerActivationStateList
 ```
@@ -1921,7 +1921,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkServicesMulticastGroupConsumerActivationStateOutputReference
 ```
@@ -2199,7 +2199,7 @@ func InternalValue() GoogleNetworkServicesMulticastGroupConsumerActivationState
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupConsumerActivation.GoogleNetworkServicesMulticastGroupConsumerActivationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastgroupconsumeractivation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgroupconsumeractivation"
 
 googlenetworkservicesmulticastgroupconsumeractivation.NewGoogleNetworkServicesMulticastGroupConsumerActivationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesMulticastGroupConsumerActivationTimeoutsOutputReference
 ```

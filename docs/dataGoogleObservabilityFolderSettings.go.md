@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleObservabilityFolderSettings.DataGoogleObservabilityFolderSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityfoldersettings"
 
 datagoogleobservabilityfoldersettings.NewDataGoogleObservabilityFolderSettings(scope Construct, id *string, config DataGoogleObservabilityFolderSettingsConfig) DataGoogleObservabilityFolderSettings
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleObservabilityFolderSettings.DataGoogleObservabilityFolderSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityfoldersettings"
 
 datagoogleobservabilityfoldersettings.DataGoogleObservabilityFolderSettings_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleObservabilityFolderSettings.DataGoogleObservabilityFolderSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityfoldersettings"
 
 datagoogleobservabilityfoldersettings.DataGoogleObservabilityFolderSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagoogleobservabilityfoldersettings.DataGoogleObservabilityFolderSettings_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleObservabilityFolderSettings.DataGoogleObservabilityFolderSettings.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityfoldersettings"
 
 datagoogleobservabilityfoldersettings.DataGoogleObservabilityFolderSettings_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagoogleobservabilityfoldersettings.DataGoogleObservabilityFolderSettings_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleObservabilityFolderSettings.DataGoogleObservabilityFolderSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityfoldersettings"
 
 datagoogleobservabilityfoldersettings.DataGoogleObservabilityFolderSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -682,7 +682,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleObservabilityFolderSettings.DataGoogleObservabilityFolderSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityfoldersettings"
 
 &datagoogleobservabilityfoldersettings.DataGoogleObservabilityFolderSettingsConfig {
 	Connection: interface{},

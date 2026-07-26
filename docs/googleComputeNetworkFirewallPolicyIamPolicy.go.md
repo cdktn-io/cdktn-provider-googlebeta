@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamPolicy.GoogleComputeNetworkFirewallPolicyIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicyiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiampolicy"
 
 googlecomputenetworkfirewallpolicyiampolicy.NewGoogleComputeNetworkFirewallPolicyIamPolicy(scope Construct, id *string, config GoogleComputeNetworkFirewallPolicyIamPolicyConfig) GoogleComputeNetworkFirewallPolicyIamPolicy
 ```
@@ -414,7 +414,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamPolicy.GoogleComputeNetworkFirewallPolicyIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicyiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiampolicy"
 
 googlecomputenetworkfirewallpolicyiampolicy.GoogleComputeNetworkFirewallPolicyIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -446,7 +446,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamPolicy.GoogleComputeNetworkFirewallPolicyIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicyiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiampolicy"
 
 googlecomputenetworkfirewallpolicyiampolicy.GoogleComputeNetworkFirewallPolicyIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ googlecomputenetworkfirewallpolicyiampolicy.GoogleComputeNetworkFirewallPolicyIa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamPolicy.GoogleComputeNetworkFirewallPolicyIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicyiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiampolicy"
 
 googlecomputenetworkfirewallpolicyiampolicy.GoogleComputeNetworkFirewallPolicyIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ googlecomputenetworkfirewallpolicyiampolicy.GoogleComputeNetworkFirewallPolicyIa
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamPolicy.GoogleComputeNetworkFirewallPolicyIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicyiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiampolicy"
 
 googlecomputenetworkfirewallpolicyiampolicy.GoogleComputeNetworkFirewallPolicyIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeNetworkFirewallPolicyIamPolicy.GoogleComputeNetworkFirewallPolicyIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkfirewallpolicyiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputenetworkfirewallpolicyiampolicy"
 
 &googlecomputenetworkfirewallpolicyiampolicy.GoogleComputeNetworkFirewallPolicyIamPolicyConfig {
 	Connection: interface{},

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewall(scope Construct, id *string, config GoogleComputeFirewallConfig) GoogleComputeFirewall
 ```
@@ -598,7 +598,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewall.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.GoogleComputeFirewall_IsConstruct(x interface{}) *bool
 ```
@@ -630,7 +630,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewall.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.GoogleComputeFirewall_IsTerraformElement(x interface{}) *bool
 ```
@@ -644,7 +644,7 @@ googlecomputefirewall.GoogleComputeFirewall_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewall.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.GoogleComputeFirewall_IsTerraformResource(x interface{}) *bool
 ```
@@ -658,7 +658,7 @@ googlecomputefirewall.GoogleComputeFirewall_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewall.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.GoogleComputeFirewall_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1371,7 +1371,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 &googlecomputefirewall.GoogleComputeFirewallAllow {
 	Protocol: *string,
@@ -1434,7 +1434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 &googlecomputefirewall.GoogleComputeFirewallConfig {
 	Connection: interface{},
@@ -1455,8 +1455,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Disabled: interface{},
 	EnableLogging: interface{},
 	Id: *string,
-	LogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeFirewall.GoogleComputeFirewallLogConfig,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeFirewall.GoogleComputeFirewallParams,
+	LogConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeFirewall.GoogleComputeFirewallLogConfig,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeFirewall.GoogleComputeFirewallParams,
 	Priority: *f64,
 	Project: *string,
 	SourceRanges: *[]*string,
@@ -1464,7 +1464,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	SourceTags: *[]*string,
 	TargetServiceAccounts: *[]*string,
 	TargetTags: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeFirewall.GoogleComputeFirewallTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputeFirewall.GoogleComputeFirewallTimeouts,
 }
 ```
 
@@ -1940,7 +1940,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDeny.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 &googlecomputefirewall.GoogleComputeFirewallDeny {
 	Protocol: *string,
@@ -2003,7 +2003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallLogConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 &googlecomputefirewall.GoogleComputeFirewallLogConfig {
 	Metadata: *string,
@@ -2037,7 +2037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 &googlecomputefirewall.GoogleComputeFirewallParams {
 	ResourceManagerTags: *map[string]*string,
@@ -2078,7 +2078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 &googlecomputefirewall.GoogleComputeFirewallTimeouts {
 	Create: *string,
@@ -2140,7 +2140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllowList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewallAllowList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallAllowList
 ```
@@ -2300,7 +2300,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewallAllowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallAllowOutputReference
 ```
@@ -2618,7 +2618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDenyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewallDenyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallDenyList
 ```
@@ -2778,7 +2778,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDenyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewallDenyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeFirewallDenyOutputReference
 ```
@@ -3096,7 +3096,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallLogConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewallLogConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeFirewallLogConfigOutputReference
 ```
@@ -3367,7 +3367,7 @@ func InternalValue() GoogleComputeFirewallLogConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewallParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeFirewallParamsOutputReference
 ```
@@ -3645,7 +3645,7 @@ func InternalValue() GoogleComputeFirewallParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputefirewall"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewall"
 
 googlecomputefirewall.NewGoogleComputeFirewallTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeFirewallTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutine(scope Construct, id *string, config GoogleBigqueryRoutineConfig) GoogleBigqueryRoutine
 ```
@@ -597,7 +597,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.GoogleBigqueryRoutine_IsConstruct(x interface{}) *bool
 ```
@@ -629,7 +629,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.GoogleBigqueryRoutine_IsTerraformElement(x interface{}) *bool
 ```
@@ -643,7 +643,7 @@ googlebigqueryroutine.GoogleBigqueryRoutine_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.GoogleBigqueryRoutine_IsTerraformResource(x interface{}) *bool
 ```
@@ -657,7 +657,7 @@ googlebigqueryroutine.GoogleBigqueryRoutine_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutine.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.GoogleBigqueryRoutine_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1370,7 +1370,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineArguments.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 &googlebigqueryroutine.GoogleBigqueryRoutineArguments {
 	ArgumentKind: *string,
@@ -1460,7 +1460,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 &googlebigqueryroutine.GoogleBigqueryRoutineConfig {
 	Connection: interface{},
@@ -1479,18 +1479,18 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebi
 	DeletionPolicy: *string,
 	Description: *string,
 	DeterminismLevel: *string,
-	ExternalRuntimeOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions,
+	ExternalRuntimeOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions,
 	Id: *string,
 	ImportedLibraries: *[]*string,
 	Language: *string,
 	Project: *string,
-	PythonOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions,
-	RemoteFunctionOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptions,
+	PythonOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions,
+	RemoteFunctionOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptions,
 	ReturnTableType: *string,
 	ReturnType: *string,
 	SecurityMode: *string,
-	SparkOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBigqueryRoutine.GoogleBigqueryRoutineSparkOptions,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts,
+	SparkOptions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryRoutine.GoogleBigqueryRoutineSparkOptions,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts,
 }
 ```
 
@@ -1927,7 +1927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 &googlebigqueryroutine.GoogleBigqueryRoutineExternalRuntimeOptions {
 	ContainerCpu: *f64,
@@ -2050,7 +2050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 &googlebigqueryroutine.GoogleBigqueryRoutinePythonOptions {
 	EntryPoint: *string,
@@ -2100,7 +2100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 &googlebigqueryroutine.GoogleBigqueryRoutineRemoteFunctionOptions {
 	Connection: *string,
@@ -2192,7 +2192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineSparkOptions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 &googlebigqueryroutine.GoogleBigqueryRoutineSparkOptions {
 	ArchiveUris: *[]*string,
@@ -2382,7 +2382,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 &googlebigqueryroutine.GoogleBigqueryRoutineTimeouts {
 	Create: *string,
@@ -2444,7 +2444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineArgumentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutineArgumentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBigqueryRoutineArgumentsList
 ```
@@ -2604,7 +2604,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineArgumentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutineArgumentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBigqueryRoutineArgumentsOutputReference
 ```
@@ -2987,7 +2987,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutineExternalRuntimeOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference
 ```
@@ -3410,7 +3410,7 @@ func InternalValue() GoogleBigqueryRoutineExternalRuntimeOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutinePythonOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutinePythonOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryRoutinePythonOptionsOutputReference
 ```
@@ -3710,7 +3710,7 @@ func InternalValue() GoogleBigqueryRoutinePythonOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineRemoteFunctionOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutineRemoteFunctionOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryRoutineRemoteFunctionOptionsOutputReference
 ```
@@ -4075,7 +4075,7 @@ func InternalValue() GoogleBigqueryRoutineRemoteFunctionOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineSparkOptionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutineSparkOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryRoutineSparkOptionsOutputReference
 ```
@@ -4614,7 +4614,7 @@ func InternalValue() GoogleBigqueryRoutineSparkOptions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryRoutine.GoogleBigqueryRoutineTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine"
 
 googlebigqueryroutine.NewGoogleBigqueryRoutineTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryRoutineTimeoutsOutputReference
 ```

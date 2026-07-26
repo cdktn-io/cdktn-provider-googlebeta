@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 googlenetworkconnectivitygatewayadvertisedroute.NewGoogleNetworkConnectivityGatewayAdvertisedRoute(scope Construct, id *string, config GoogleNetworkConnectivityGatewayAdvertisedRouteConfig) GoogleNetworkConnectivityGatewayAdvertisedRoute
 ```
@@ -476,7 +476,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGatewayAdvertisedRoute_IsConstruct(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGatewayAdvertisedRoute_IsTerraformElement(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGateway
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGatewayAdvertisedRoute_IsTerraformResource(x interface{}) *bool
 ```
@@ -536,7 +536,7 @@ googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGateway
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGatewayAdvertisedRoute_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1095,7 +1095,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 &googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig {
 	Connection: interface{},
@@ -1116,7 +1116,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 	Priority: *f64,
 	Project: *string,
 	Recipient: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts,
 }
 ```
 
@@ -1404,7 +1404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 &googlenetworkconnectivitygatewayadvertisedroute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts {
 	Create: *string,
@@ -1466,7 +1466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitygatewayadvertisedroute"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygatewayadvertisedroute"
 
 googlenetworkconnectivitygatewayadvertisedroute.NewGoogleNetworkConnectivityGatewayAdvertisedRouteTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkConnectivityGatewayAdvertisedRouteTimeoutsOutputReference
 ```

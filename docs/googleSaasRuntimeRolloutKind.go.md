@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKind.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 googlesaasruntimerolloutkind.NewGoogleSaasRuntimeRolloutKind(scope Construct, id *string, config GoogleSaasRuntimeRolloutKindConfig) GoogleSaasRuntimeRolloutKind
 ```
@@ -496,7 +496,7 @@ func ResetUpdateUnitKindStrategy()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKind.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKind_IsConstruct(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKind.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKind_IsTerraformElement(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKind_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKind.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKind_IsTerraformResource(x interface{}) *bool
 ```
@@ -556,7 +556,7 @@ googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKind_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKind.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKind_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1148,7 +1148,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 &googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKindConfig {
 	Connection: interface{},
@@ -1163,12 +1163,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesa
 	UnitKind: *string,
 	Annotations: *map[string]*string,
 	DeletionPolicy: *string,
-	ErrorBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindErrorBudget,
+	ErrorBudget: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindErrorBudget,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
 	RolloutOrchestrationStrategy: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindTimeouts,
 	UnitFilter: *string,
 	UpdateUnitKindStrategy: *string,
 }
@@ -1492,7 +1492,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindErrorBudget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 &googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKindErrorBudget {
 	AllowedCount: *f64,
@@ -1542,7 +1542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 &googlesaasruntimerolloutkind.GoogleSaasRuntimeRolloutKindTimeouts {
 	Create: *string,
@@ -1604,7 +1604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindErrorBudgetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 googlesaasruntimerolloutkind.NewGoogleSaasRuntimeRolloutKindErrorBudgetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSaasRuntimeRolloutKindErrorBudgetOutputReference
 ```
@@ -1911,7 +1911,7 @@ func InternalValue() GoogleSaasRuntimeRolloutKindErrorBudget
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSaasRuntimeRolloutKind.GoogleSaasRuntimeRolloutKindTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesaasruntimerolloutkind"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerolloutkind"
 
 googlesaasruntimerolloutkind.NewGoogleSaasRuntimeRolloutKindTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSaasRuntimeRolloutKindTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopic(scope Construct, id *string, config GooglePubsubTopicConfig) GooglePubsubTopic
 ```
@@ -549,7 +549,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopic.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.GooglePubsubTopic_IsConstruct(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.GooglePubsubTopic_IsTerraformElement(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ googlepubsubtopic.GooglePubsubTopic_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopic.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.GooglePubsubTopic_IsTerraformResource(x interface{}) *bool
 ```
@@ -609,7 +609,7 @@ googlepubsubtopic.GooglePubsubTopic_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopic.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.GooglePubsubTopic_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1146,7 +1146,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicConfig {
 	Connection: interface{},
@@ -1159,16 +1159,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepu
 	Name: *string,
 	DeletionPolicy: *string,
 	Id: *string,
-	IngestionDataSourceSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettings,
+	IngestionDataSourceSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettings,
 	KmsKeyName: *string,
 	Labels: *map[string]*string,
 	MessageRetentionDuration: *string,
-	MessageStoragePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicMessageStoragePolicy,
+	MessageStoragePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicMessageStoragePolicy,
 	MessageTransforms: interface{},
 	Project: *string,
-	SchemaSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicSchemaSettings,
+	SchemaSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicSchemaSettings,
 	Tags: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicTimeouts,
 }
 ```
 
@@ -1489,15 +1489,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettings {
-	AwsKinesis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsKinesis,
-	AwsMsk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsMsk,
-	AzureEventHubs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubs,
-	CloudStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorage,
-	ConfluentCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsConfluentCloud,
-	PlatformLogsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSettings,
+	AwsKinesis: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsKinesis,
+	AwsMsk: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsMsk,
+	AzureEventHubs: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubs,
+	CloudStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorage,
+	ConfluentCloud: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsConfluentCloud,
+	PlatformLogsSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSettings,
 }
 ```
 
@@ -1603,7 +1603,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsKinesis.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsAwsKinesis {
 	AwsRoleArn: *string,
@@ -1694,7 +1694,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsMsk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsAwsMsk {
 	AwsRoleArn: *string,
@@ -1782,7 +1782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubs {
 	ClientId: *string,
@@ -1912,15 +1912,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorage {
 	Bucket: *string,
-	AvroFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormat,
+	AvroFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormat,
 	MatchGlob: *string,
 	MinimumObjectCreateTime: *string,
-	PubsubAvroFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStoragePubsubAvroFormat,
-	TextFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageTextFormat,
+	PubsubAvroFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStoragePubsubAvroFormat,
+	TextFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageTextFormat,
 }
 ```
 
@@ -2034,7 +2034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormat {
 
@@ -2047,7 +2047,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepu
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStoragePubsubAvroFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStoragePubsubAvroFormat {
 
@@ -2060,7 +2060,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepu
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageTextFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageTextFormat {
 	Delimiter: *string,
@@ -2098,7 +2098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsConfluentCloud.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsConfluentCloud {
 	BootstrapServer: *string,
@@ -2196,7 +2196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSettings {
 	Severity: *string,
@@ -2233,7 +2233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageStoragePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicMessageStoragePolicy {
 	AllowedPersistenceRegions: *[]*string,
@@ -2293,12 +2293,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransforms.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicMessageTransforms {
-	AiInference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInference,
+	AiInference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInference,
 	Disabled: interface{},
-	JavascriptUdf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicMessageTransformsJavascriptUdf,
+	JavascriptUdf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicMessageTransformsJavascriptUdf,
 }
 ```
 
@@ -2362,12 +2362,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicMessageTransformsAiInference {
 	Endpoint: *string,
 	ServiceAccountEmail: *string,
-	UnstructuredInference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference,
+	UnstructuredInference: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference,
 }
 ```
 
@@ -2430,7 +2430,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicMessageTransformsAiInferenceUnstructuredInference {
 	Parameters: *map[string]*string,
@@ -2467,7 +2467,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsJavascriptUdf.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicMessageTransformsJavascriptUdf {
 	Code: *string,
@@ -2517,7 +2517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicSchemaSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicSchemaSettings {
 	Schema: *string,
@@ -2607,7 +2607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 &googlepubsubtopic.GooglePubsubTopicTimeouts {
 	Create: *string,
@@ -2669,7 +2669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsKinesisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsAwsKinesisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsAwsKinesisOutputReference
 ```
@@ -3006,7 +3006,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsAwsKinesis
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAwsMskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsAwsMskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsAwsMskOutputReference
 ```
@@ -3343,7 +3343,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsAwsMsk
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubsOutputReference
 ```
@@ -3795,7 +3795,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubs
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReference
 ```
@@ -4044,7 +4044,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvr
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReference
 ```
@@ -4499,7 +4499,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsCloudStorage
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStoragePubsubAvroFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsCloudStoragePubsubAvroFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsCloudStoragePubsubAvroFormatOutputReference
 ```
@@ -4748,7 +4748,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsCloudStoragePub
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsCloudStorageTextFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsCloudStorageTextFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsCloudStorageTextFormatOutputReference
 ```
@@ -5026,7 +5026,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsCloudStorageTex
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsConfluentCloudOutputReference
 ```
@@ -5392,7 +5392,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsConfluentCloud
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsOutputReference
 ```
@@ -5893,7 +5893,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSettingsOutputReference
 ```
@@ -6171,7 +6171,7 @@ func InternalValue() GooglePubsubTopicIngestionDataSourceSettingsPlatformLogsSet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageStoragePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicMessageStoragePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicMessageStoragePolicyOutputReference
 ```
@@ -6471,7 +6471,7 @@ func InternalValue() GooglePubsubTopicMessageStoragePolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicMessageTransformsAiInferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicMessageTransformsAiInferenceOutputReference
 ```
@@ -6813,7 +6813,7 @@ func InternalValue() GooglePubsubTopicMessageTransformsAiInference
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicMessageTransformsAiInferenceUnstructuredInferenceOutputReference
 ```
@@ -7091,7 +7091,7 @@ func InternalValue() GooglePubsubTopicMessageTransformsAiInferenceUnstructuredIn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsJavascriptUdfOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicMessageTransformsJavascriptUdfOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicMessageTransformsJavascriptUdfOutputReference
 ```
@@ -7384,7 +7384,7 @@ func InternalValue() GooglePubsubTopicMessageTransformsJavascriptUdf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicMessageTransformsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GooglePubsubTopicMessageTransformsList
 ```
@@ -7544,7 +7544,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicMessageTransformsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicMessageTransformsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GooglePubsubTopicMessageTransformsOutputReference
 ```
@@ -7924,7 +7924,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicSchemaSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicSchemaSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicSchemaSettingsOutputReference
 ```
@@ -8282,7 +8282,7 @@ func InternalValue() GooglePubsubTopicSchemaSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubTopic.GooglePubsubTopicTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubtopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsubtopic"
 
 googlepubsubtopic.NewGooglePubsubTopicTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicTimeoutsOutputReference
 ```

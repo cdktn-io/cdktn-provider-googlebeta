@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgent(scope Construct, id *string, config GoogleCesAgentConfig) GoogleCesAgent
 ```
@@ -683,7 +683,7 @@ func ResetToolsets()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.GoogleCesAgent_IsConstruct(x interface{}) *bool
 ```
@@ -715,7 +715,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.GoogleCesAgent_IsTerraformElement(x interface{}) *bool
 ```
@@ -729,7 +729,7 @@ googlecesagent.GoogleCesAgent_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.GoogleCesAgent_IsTerraformResource(x interface{}) *bool
 ```
@@ -743,7 +743,7 @@ googlecesagent.GoogleCesAgent_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.GoogleCesAgent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1533,7 +1533,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterAgentCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentAfterAgentCallbacks {
 	PythonCode: *string,
@@ -1599,7 +1599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterModelCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentAfterModelCallbacks {
 	PythonCode: *string,
@@ -1665,7 +1665,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterToolCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentAfterToolCallbacks {
 	PythonCode: *string,
@@ -1731,7 +1731,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeAgentCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentBeforeAgentCallbacks {
 	PythonCode: *string,
@@ -1797,7 +1797,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeModelCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentBeforeModelCallbacks {
 	PythonCode: *string,
@@ -1863,7 +1863,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeToolCallbacks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentBeforeToolCallbacks {
 	PythonCode: *string,
@@ -1929,7 +1929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentConfig {
 	Connection: interface{},
@@ -1955,11 +1955,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	Guardrails: *[]*string,
 	Id: *string,
 	Instruction: *string,
-	LlmAgent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesAgent.GoogleCesAgentLlmAgent,
-	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesAgent.GoogleCesAgentModelSettings,
+	LlmAgent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesAgent.GoogleCesAgentLlmAgent,
+	ModelSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesAgent.GoogleCesAgentModelSettings,
 	Project: *string,
-	RemoteDialogflowAgent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesAgent.GoogleCesAgentRemoteDialogflowAgent,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesAgent.GoogleCesAgentTimeouts,
+	RemoteDialogflowAgent: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesAgent.GoogleCesAgentRemoteDialogflowAgent,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesAgent.GoogleCesAgentTimeouts,
 	Tools: *[]*string,
 	Toolsets: interface{},
 }
@@ -2408,7 +2408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentLlmAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentLlmAgent {
 
@@ -2421,7 +2421,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentModelSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentModelSettings {
 	Model: *string,
@@ -2478,7 +2478,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentRemoteDialogflowAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentRemoteDialogflowAgent {
 	Agent: *string,
@@ -2596,7 +2596,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentTimeouts {
 	Create: *string,
@@ -2656,7 +2656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentToolsets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 &googlecesagent.GoogleCesAgentToolsets {
 	Toolset: *string,
@@ -2708,7 +2708,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterAgentCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentAfterAgentCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAgentAfterAgentCallbacksList
 ```
@@ -2868,7 +2868,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterAgentCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentAfterAgentCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAgentAfterAgentCallbacksOutputReference
 ```
@@ -3215,7 +3215,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterModelCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentAfterModelCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAgentAfterModelCallbacksList
 ```
@@ -3375,7 +3375,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterModelCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentAfterModelCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAgentAfterModelCallbacksOutputReference
 ```
@@ -3722,7 +3722,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterToolCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentAfterToolCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAgentAfterToolCallbacksList
 ```
@@ -3882,7 +3882,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentAfterToolCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentAfterToolCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAgentAfterToolCallbacksOutputReference
 ```
@@ -4229,7 +4229,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeAgentCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentBeforeAgentCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAgentBeforeAgentCallbacksList
 ```
@@ -4389,7 +4389,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeAgentCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentBeforeAgentCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAgentBeforeAgentCallbacksOutputReference
 ```
@@ -4736,7 +4736,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeModelCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentBeforeModelCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAgentBeforeModelCallbacksList
 ```
@@ -4896,7 +4896,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeModelCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentBeforeModelCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAgentBeforeModelCallbacksOutputReference
 ```
@@ -5243,7 +5243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeToolCallbacksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentBeforeToolCallbacksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAgentBeforeToolCallbacksList
 ```
@@ -5403,7 +5403,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentBeforeToolCallbacksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentBeforeToolCallbacksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAgentBeforeToolCallbacksOutputReference
 ```
@@ -5750,7 +5750,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentLlmAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentLlmAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAgentLlmAgentOutputReference
 ```
@@ -5999,7 +5999,7 @@ func InternalValue() GoogleCesAgentLlmAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentModelSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentModelSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAgentModelSettingsOutputReference
 ```
@@ -6306,7 +6306,7 @@ func InternalValue() GoogleCesAgentModelSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentRemoteDialogflowAgentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentRemoteDialogflowAgentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAgentRemoteDialogflowAgentOutputReference
 ```
@@ -6715,7 +6715,7 @@ func InternalValue() GoogleCesAgentRemoteDialogflowAgent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesAgentTimeoutsOutputReference
 ```
@@ -7051,7 +7051,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentToolsetsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentToolsetsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesAgentToolsetsList
 ```
@@ -7211,7 +7211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentToolsetsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent"
 
 googlecesagent.NewGoogleCesAgentToolsetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesAgentToolsetsOutputReference
 ```

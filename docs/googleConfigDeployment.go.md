@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeployment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.NewGoogleConfigDeployment(scope Construct, id *string, config GoogleConfigDeploymentConfig) GoogleConfigDeployment
 ```
@@ -510,7 +510,7 @@ func ResetWorkerPool()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeployment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.GoogleConfigDeployment_IsConstruct(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeployment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.GoogleConfigDeployment_IsTerraformElement(x interface{}) *bool
 ```
@@ -556,7 +556,7 @@ googleconfigdeployment.GoogleConfigDeployment_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeployment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.GoogleConfigDeployment_IsTerraformResource(x interface{}) *bool
 ```
@@ -570,7 +570,7 @@ googleconfigdeployment.GoogleConfigDeployment_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeployment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.GoogleConfigDeployment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1206,7 +1206,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 &googleconfigdeployment.GoogleConfigDeploymentConfig {
 	Connection: interface{},
@@ -1219,7 +1219,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Location: *string,
 	Name: *string,
 	ServiceAccount: *string,
-	TerraformBlueprint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprint,
+	TerraformBlueprint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprint,
 	Annotations: *map[string]*string,
 	ArtifactsGcsBucket: *string,
 	DeletionPolicy: *string,
@@ -1230,7 +1230,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Project: *string,
 	QuotaValidation: *string,
 	TfVersionConstraint: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleConfigDeployment.GoogleConfigDeploymentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleConfigDeployment.GoogleConfigDeploymentTimeouts,
 	WorkerPool: *string,
 }
 ```
@@ -1576,11 +1576,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 &googleconfigdeployment.GoogleConfigDeploymentTerraformBlueprint {
 	GcsSource: *string,
-	GitSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintGitSource,
+	GitSource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintGitSource,
 	InputValues: interface{},
 }
 ```
@@ -1642,7 +1642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintGitSource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 &googleconfigdeployment.GoogleConfigDeploymentTerraformBlueprintGitSource {
 	Repo: *string,
@@ -1708,7 +1708,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintInputValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 &googleconfigdeployment.GoogleConfigDeploymentTerraformBlueprintInputValues {
 	InputValue: *string,
@@ -1756,7 +1756,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 &googleconfigdeployment.GoogleConfigDeploymentTimeouts {
 	Create: *string,
@@ -1818,7 +1818,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintGitSourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.NewGoogleConfigDeploymentTerraformBlueprintGitSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleConfigDeploymentTerraformBlueprintGitSourceOutputReference
 ```
@@ -2147,7 +2147,7 @@ func InternalValue() GoogleConfigDeploymentTerraformBlueprintGitSource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintInputValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.NewGoogleConfigDeploymentTerraformBlueprintInputValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleConfigDeploymentTerraformBlueprintInputValuesList
 ```
@@ -2307,7 +2307,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintInputValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.NewGoogleConfigDeploymentTerraformBlueprintInputValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleConfigDeploymentTerraformBlueprintInputValuesOutputReference
 ```
@@ -2618,7 +2618,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTerraformBlueprintOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.NewGoogleConfigDeploymentTerraformBlueprintOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleConfigDeploymentTerraformBlueprintOutputReference
 ```
@@ -2980,7 +2980,7 @@ func InternalValue() GoogleConfigDeploymentTerraformBlueprint
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleConfigDeployment.GoogleConfigDeploymentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleconfigdeployment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleconfigdeployment"
 
 googleconfigdeployment.NewGoogleConfigDeploymentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleConfigDeploymentTimeoutsOutputReference
 ```

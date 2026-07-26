@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTable(scope Construct, id *string, config GoogleBiglakeHiveTableConfig) GoogleBiglakeHiveTable
 ```
@@ -502,7 +502,7 @@ func ResetViewOriginalText()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.GoogleBiglakeHiveTable_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.GoogleBiglakeHiveTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlebiglakehivetable.GoogleBiglakeHiveTable_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.GoogleBiglakeHiveTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googlebiglakehivetable.GoogleBiglakeHiveTable_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.GoogleBiglakeHiveTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1121,7 +1121,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableConfig {
 	Connection: interface{},
@@ -1134,14 +1134,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebi
 	Catalog: *string,
 	Database: *string,
 	Name: *string,
-	StorageDescriptor: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptor,
+	StorageDescriptor: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptor,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Parameters: *map[string]*string,
 	PartitionKeys: interface{},
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBiglakeHiveTable.GoogleBiglakeHiveTableTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeHiveTable.GoogleBiglakeHiveTableTimeouts,
 	ViewExpandedText: *string,
 	ViewOriginalText: *string,
 }
@@ -1437,7 +1437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTablePartitionKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTablePartitionKeys {
 	Name: *string,
@@ -1503,7 +1503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptor.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableStorageDescriptor {
 	Columns: interface{},
@@ -1514,8 +1514,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebi
 	NumBuckets: *f64,
 	OutputFormat: *string,
 	Parameters: *map[string]*string,
-	SerdeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSerdeInfo,
-	SkewedInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfo,
+	SerdeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSerdeInfo,
+	SkewedInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfo,
 	SortCols: interface{},
 	StoredAsSubDirs: interface{},
 }
@@ -1713,7 +1713,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorColumns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableStorageDescriptorColumns {
 	Name: *string,
@@ -1779,7 +1779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSerdeInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableStorageDescriptorSerdeInfo {
 	Name: *string,
@@ -1909,7 +1909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfo {
 	SkewedColNames: *[]*string,
@@ -1975,7 +1975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValues {
 	Values: *[]*string,
@@ -2007,7 +2007,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocations {
 	Location: *string,
@@ -2053,7 +2053,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSortCols.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableStorageDescriptorSortCols {
 	Col: *string,
@@ -2103,7 +2103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 &googlebiglakehivetable.GoogleBiglakeHiveTableTimeouts {
 	Create: *string,
@@ -2165,7 +2165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTablePartitionKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTablePartitionKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBiglakeHiveTablePartitionKeysList
 ```
@@ -2325,7 +2325,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTablePartitionKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTablePartitionKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBiglakeHiveTablePartitionKeysOutputReference
 ```
@@ -2665,7 +2665,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorColumnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorColumnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBiglakeHiveTableStorageDescriptorColumnsList
 ```
@@ -2825,7 +2825,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorColumnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorColumnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBiglakeHiveTableStorageDescriptorColumnsOutputReference
 ```
@@ -3165,7 +3165,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeHiveTableStorageDescriptorOutputReference
 ```
@@ -3807,7 +3807,7 @@ func InternalValue() GoogleBiglakeHiveTableStorageDescriptor
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSerdeInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSerdeInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeHiveTableStorageDescriptorSerdeInfoOutputReference
 ```
@@ -4245,7 +4245,7 @@ func InternalValue() GoogleBiglakeHiveTableStorageDescriptorSerdeInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSkewedInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeHiveTableStorageDescriptorSkewedInfoOutputReference
 ```
@@ -4586,7 +4586,7 @@ func InternalValue() GoogleBiglakeHiveTableStorageDescriptorSkewedInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValuesList
 ```
@@ -4746,7 +4746,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValuesOutputReference
 ```
@@ -5035,7 +5035,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocationsList
 ```
@@ -5195,7 +5195,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocationsOutputReference
 ```
@@ -5506,7 +5506,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSortColsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSortColsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBiglakeHiveTableStorageDescriptorSortColsList
 ```
@@ -5666,7 +5666,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableStorageDescriptorSortColsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableStorageDescriptorSortColsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBiglakeHiveTableStorageDescriptorSortColsOutputReference
 ```
@@ -5977,7 +5977,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveTable.GoogleBiglakeHiveTableTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivetable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable"
 
 googlebiglakehivetable.NewGoogleBiglakeHiveTableTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeHiveTableTimeoutsOutputReference
 ```
