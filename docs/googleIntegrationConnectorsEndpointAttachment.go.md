@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 googleintegrationconnectorsendpointattachment.NewGoogleIntegrationConnectorsEndpointAttachment(scope Construct, id *string, config GoogleIntegrationConnectorsEndpointAttachmentConfig) GoogleIntegrationConnectorsEndpointAttachment
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpointAttachment_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpointAttachment_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpoin
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpointAttachment_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpoin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpointAttachment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1026,7 +1026,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 &googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpointAttachmentConfig {
 	Connection: interface{},
@@ -1045,7 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlein
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachmentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachmentTimeouts,
 }
 ```
 
@@ -1297,7 +1297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachmentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 &googleintegrationconnectorsendpointattachment.GoogleIntegrationConnectorsEndpointAttachmentTimeouts {
 	Create: *string,
@@ -1359,7 +1359,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationConnectorsEndpointAttachment.GoogleIntegrationConnectorsEndpointAttachmentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationconnectorsendpointattachment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleintegrationconnectorsendpointattachment"
 
 googleintegrationconnectorsendpointattachment.NewGoogleIntegrationConnectorsEndpointAttachmentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIntegrationConnectorsEndpointAttachmentTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeInterconnectLocation.DataGoogleComputeInterconnectLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeinterconnectlocation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeinterconnectlocation"
 
 datagooglecomputeinterconnectlocation.NewDataGoogleComputeInterconnectLocation(scope Construct, id *string, config DataGoogleComputeInterconnectLocationConfig) DataGoogleComputeInterconnectLocation
 ```
@@ -312,7 +312,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeInterconnectLocation.DataGoogleComputeInterconnectLocation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeinterconnectlocation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeinterconnectlocation"
 
 datagooglecomputeinterconnectlocation.DataGoogleComputeInterconnectLocation_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeInterconnectLocation.DataGoogleComputeInterconnectLocation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeinterconnectlocation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeinterconnectlocation"
 
 datagooglecomputeinterconnectlocation.DataGoogleComputeInterconnectLocation_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagooglecomputeinterconnectlocation.DataGoogleComputeInterconnectLocation_IsTe
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeInterconnectLocation.DataGoogleComputeInterconnectLocation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeinterconnectlocation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeinterconnectlocation"
 
 datagooglecomputeinterconnectlocation.DataGoogleComputeInterconnectLocation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagooglecomputeinterconnectlocation.DataGoogleComputeInterconnectLocation_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeInterconnectLocation.DataGoogleComputeInterconnectLocation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeinterconnectlocation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeinterconnectlocation"
 
 datagooglecomputeinterconnectlocation.DataGoogleComputeInterconnectLocation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -755,7 +755,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeInterconnectLocation.DataGoogleComputeInterconnectLocationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeinterconnectlocation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeinterconnectlocation"
 
 &datagooglecomputeinterconnectlocation.DataGoogleComputeInterconnectLocationConfig {
 	Connection: interface{},

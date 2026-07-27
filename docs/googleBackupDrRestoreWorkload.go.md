@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkload.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkload(scope Construct, id *string, config GoogleBackupDrRestoreWorkloadConfig) GoogleBackupDrRestoreWorkload
 ```
@@ -562,7 +562,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkload.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkload_IsConstruct(x interface{}) *bool
 ```
@@ -594,7 +594,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkload.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkload_IsTerraformElement(x interface{}) *bool
 ```
@@ -608,7 +608,7 @@ googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkload_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkload.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkload_IsTerraformResource(x interface{}) *bool
 ```
@@ -622,7 +622,7 @@ googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkload_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkload.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkload_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1214,35 +1214,35 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperties {
 	Name: *string,
-	AdvancedMachineFeatures: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAdvancedMachineFeatures,
-	AllocationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity,
+	AdvancedMachineFeatures: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAdvancedMachineFeatures,
+	AllocationAffinity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity,
 	CanIpForward: interface{},
-	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesConfidentialInstanceConfig,
+	ConfidentialInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesConfidentialInstanceConfig,
 	DeletionProtection: interface{},
 	Description: *string,
 	Disks: interface{},
-	DisplayDevice: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisplayDevice,
+	DisplayDevice: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisplayDevice,
 	GuestAccelerators: interface{},
 	Hostname: *string,
-	InstanceEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey,
+	InstanceEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey,
 	KeyRevocationActionType: *string,
 	Labels: interface{},
 	MachineType: *string,
-	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadata,
+	Metadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadata,
 	MinCpuPlatform: *string,
 	NetworkInterfaces: interface{},
-	NetworkPerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkPerformanceConfig,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParams,
+	NetworkPerformanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkPerformanceConfig,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParams,
 	PrivateIpv6GoogleAccess: *string,
 	ResourcePolicies: *[]*string,
-	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling,
+	Scheduling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling,
 	ServiceAccounts: interface{},
-	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig,
-	Tags: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags,
+	ShieldedInstanceConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig,
+	Tags: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags,
 }
 ```
 
@@ -1648,7 +1648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAdvancedMachineFeatures.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAdvancedMachineFeatures {
 	EnableNestedVirtualization: interface{},
@@ -1730,7 +1730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinity {
 	ConsumeAllocationType: *string,
@@ -1792,7 +1792,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesConfidentialInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesConfidentialInstanceConfig {
 	EnableConfidentialCompute: interface{},
@@ -1826,19 +1826,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisks {
 	AutoDelete: interface{},
 	Boot: interface{},
 	DeviceName: *string,
-	DiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksDiskEncryptionKey,
+	DiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksDiskEncryptionKey,
 	DiskInterface: *string,
 	DiskSizeGb: *f64,
 	DiskType: *string,
 	GuestOsFeature: interface{},
 	Index: *f64,
-	InitializeParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksInitializeParams,
+	InitializeParams: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksInitializeParams,
 	Kind: *string,
 	License: *[]*string,
 	Mode: *string,
@@ -2100,7 +2100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksDiskEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksDiskEncryptionKey {
 	KmsKeyName: *string,
@@ -2182,7 +2182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeature.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeature {
 	Type: *string,
@@ -2218,7 +2218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksInitializeParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksInitializeParams {
 	DiskName: *string,
@@ -2268,7 +2268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisplayDevice.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisplayDevice {
 	EnableDisplay: interface{},
@@ -2302,7 +2302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAccelerators.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAccelerators {
 	AcceleratorCount: *f64,
@@ -2352,7 +2352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKey {
 	KmsKeyName: *string,
@@ -2426,7 +2426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabels {
 	Key: *string,
@@ -2472,7 +2472,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadata {
 	Items: interface{},
@@ -2506,7 +2506,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItems.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItems {
 	Key: *string,
@@ -2552,7 +2552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfaces {
 	AccessConfigs: interface{},
@@ -2774,7 +2774,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigs {
 	ExternalIp: *string,
@@ -2910,7 +2910,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRanges {
 	IpCidrRange: *string,
@@ -2956,7 +2956,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigs {
 	ExternalIp: *string,
@@ -3092,7 +3092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkPerformanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkPerformanceConfig {
 	TotalEgressBandwidthTier: *string,
@@ -3126,7 +3126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParams {
 	ResourceManagerTags: interface{},
@@ -3160,7 +3160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTags {
 	Key: *string,
@@ -3206,13 +3206,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesScheduling {
 	AutomaticRestart: interface{},
 	InstanceTerminationAction: *string,
-	LocalSsdRecoveryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout,
-	MaxRunDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration,
+	LocalSsdRecoveryTimeout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout,
+	MaxRunDuration: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration,
 	MinNodeCpus: *f64,
 	NodeAffinities: interface{},
 	OnHostMaintenance: *string,
@@ -3376,7 +3376,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeout {
 	Nanos: *f64,
@@ -3422,7 +3422,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDuration {
 	Nanos: *f64,
@@ -3468,7 +3468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinities.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinities {
 	Key: *string,
@@ -3530,7 +3530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccounts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccounts {
 	Email: *string,
@@ -3576,7 +3576,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfig {
 	EnableIntegrityMonitoring: interface{},
@@ -3636,7 +3636,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTags {
 	Items: *[]*string,
@@ -3668,7 +3668,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironment {
 	Project: *string,
@@ -3734,7 +3734,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadConfig {
 	Connection: interface{},
@@ -3749,17 +3749,17 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleba
 	DataSourceId: *string,
 	Location: *string,
 	ClearOverridesFieldMask: *string,
-	ComputeInstanceRestoreProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperties,
-	ComputeInstanceTargetEnvironment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironment,
+	ComputeInstanceRestoreProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperties,
+	ComputeInstanceTargetEnvironment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironment,
 	DeleteRestoredInstance: interface{},
 	DeletionPolicy: *string,
-	DiskRestoreProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestoreProperties,
-	DiskTargetEnvironment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskTargetEnvironment,
+	DiskRestoreProperties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestoreProperties,
+	DiskTargetEnvironment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskTargetEnvironment,
 	Id: *string,
 	Name: *string,
-	RegionDiskTargetEnvironment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironment,
+	RegionDiskTargetEnvironment: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironment,
 	RequestId: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeouts,
 }
 ```
 
@@ -4107,7 +4107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestoreProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadDiskRestoreProperties {
 	Name: *string,
@@ -4116,7 +4116,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleba
 	AccessMode: *string,
 	Architecture: *string,
 	Description: *string,
-	DiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey,
+	DiskEncryptionKey: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey,
 	EnableConfidentialCompute: interface{},
 	GuestOsFeature: interface{},
 	Labels: interface{},
@@ -4397,7 +4397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKey {
 	KmsKeyName: *string,
@@ -4471,7 +4471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeature.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeature {
 	Type: *string,
@@ -4505,7 +4505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabels.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabels {
 	Key: *string,
@@ -4551,7 +4551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTags.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTags {
 	Key: *string,
@@ -4597,7 +4597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskTargetEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadDiskTargetEnvironment {
 	Project: *string,
@@ -4663,7 +4663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironment {
 	Project: *string,
@@ -4745,7 +4745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTargetResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadTargetResource {
 
@@ -4758,7 +4758,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleba
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTargetResourceGcpResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadTargetResourceGcpResource {
 
@@ -4771,7 +4771,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleba
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 &googlebackupdrrestoreworkload.GoogleBackupDrRestoreWorkloadTimeouts {
 	Create: *string,
@@ -4819,7 +4819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAdvancedMachineFeaturesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAdvancedMachineFeaturesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAdvancedMachineFeaturesOutputReference
 ```
@@ -5184,7 +5184,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesAllocationAffinityOutputReference
 ```
@@ -5520,7 +5520,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesConfidentialInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesConfidentialInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesConfidentialInstanceConfigOutputReference
 ```
@@ -5798,7 +5798,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksDiskEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksDiskEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksDiskEncryptionKeyOutputReference
 ```
@@ -6163,7 +6163,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeatureList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeatureList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeatureList
 ```
@@ -6323,7 +6323,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeatureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeatureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksGuestOsFeatureOutputReference
 ```
@@ -6619,7 +6619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksInitializeParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksInitializeParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksInitializeParamsOutputReference
 ```
@@ -6926,7 +6926,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksList
 ```
@@ -7086,7 +7086,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisksOutputReference
 ```
@@ -7856,7 +7856,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisplayDeviceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisplayDeviceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesDisplayDeviceOutputReference
 ```
@@ -8134,7 +8134,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAcceleratorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAcceleratorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAcceleratorsList
 ```
@@ -8294,7 +8294,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAcceleratorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAcceleratorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesGuestAcceleratorsOutputReference
 ```
@@ -8619,7 +8619,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesInstanceEncryptionKeyOutputReference
 ```
@@ -8984,7 +8984,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabelsList
 ```
@@ -9144,7 +9144,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesLabelsOutputReference
 ```
@@ -9462,7 +9462,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItemsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItemsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItemsList
 ```
@@ -9622,7 +9622,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItemsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItemsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataItemsOutputReference
 ```
@@ -9947,7 +9947,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesMetadataOutputReference
 ```
@@ -10238,7 +10238,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigsList
 ```
@@ -10398,7 +10398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAccessConfigsOutputReference
 ```
@@ -10897,7 +10897,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRangesList
 ```
@@ -11057,7 +11057,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesAliasIpRangesOutputReference
 ```
@@ -11382,7 +11382,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigsList
 ```
@@ -11542,7 +11542,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesIpv6AccessConfigsOutputReference
 ```
@@ -12041,7 +12041,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesList
 ```
@@ -12201,7 +12201,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkInterfacesOutputReference
 ```
@@ -12884,7 +12884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkPerformanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkPerformanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesNetworkPerformanceConfigOutputReference
 ```
@@ -13162,7 +13162,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesOutputReference
 ```
@@ -14366,7 +14366,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsOutputReference
 ```
@@ -14657,7 +14657,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTagsList
 ```
@@ -14817,7 +14817,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesParamsResourceManagerTagsOutputReference
 ```
@@ -15135,7 +15135,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingLocalSsdRecoveryTimeoutOutputReference
 ```
@@ -15442,7 +15442,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingMaxRunDurationOutputReference
 ```
@@ -15749,7 +15749,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinitiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinitiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinitiesList
 ```
@@ -15909,7 +15909,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinitiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinitiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingNodeAffinitiesOutputReference
 ```
@@ -16263,7 +16263,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesSchedulingOutputReference
 ```
@@ -16841,7 +16841,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccountsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccountsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccountsList
 ```
@@ -17001,7 +17001,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccountsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccountsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesServiceAccountsOutputReference
 ```
@@ -17326,7 +17326,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesShieldedInstanceConfigOutputReference
 ```
@@ -17662,7 +17662,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceRestorePropertiesTagsOutputReference
 ```
@@ -17940,7 +17940,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceRestoreProperti
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironmentOutputReference
 ```
@@ -18262,7 +18262,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironme
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncryptionKeyOutputReference
 ```
@@ -18627,7 +18627,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadDiskRestorePropertiesDiskEncry
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeatureList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeatureList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeatureList
 ```
@@ -18787,7 +18787,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeatureOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeatureOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesGuestOsFeatureOutputReference
 ```
@@ -19083,7 +19083,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabelsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabelsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabelsList
 ```
@@ -19243,7 +19243,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabelsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabelsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesLabelsOutputReference
 ```
@@ -19561,7 +19561,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesOutputReference
 ```
@@ -20334,7 +20334,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadDiskRestoreProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTagsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTagsList
 ```
@@ -20494,7 +20494,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTagsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadDiskRestorePropertiesResourceManagerTagsOutputReference
 ```
@@ -20812,7 +20812,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference
 ```
@@ -21134,7 +21134,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadDiskTargetEnvironment
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironmentOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironmentOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironmentOutputReference
 ```
@@ -21478,7 +21478,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironment
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTargetResourceGcpResourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadTargetResourceGcpResourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadTargetResourceGcpResourceList
 ```
@@ -21627,7 +21627,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTargetResourceGcpResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadTargetResourceGcpResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadTargetResourceGcpResourceOutputReference
 ```
@@ -21927,7 +21927,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadTargetResourceGcpResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTargetResourceList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadTargetResourceList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrRestoreWorkloadTargetResourceList
 ```
@@ -22076,7 +22076,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTargetResourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadTargetResourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrRestoreWorkloadTargetResourceOutputReference
 ```
@@ -22354,7 +22354,7 @@ func InternalValue() GoogleBackupDrRestoreWorkloadTargetResource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrRestoreWorkload.GoogleBackupDrRestoreWorkloadTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebackupdrrestoreworkload"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebackupdrrestoreworkload"
 
 googlebackupdrrestoreworkload.NewGoogleBackupDrRestoreWorkloadTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrRestoreWorkloadTimeoutsOutputReference
 ```

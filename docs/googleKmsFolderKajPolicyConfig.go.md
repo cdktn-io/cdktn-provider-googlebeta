@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 googlekmsfolderkajpolicyconfig.NewGoogleKmsFolderKajPolicyConfig(scope Construct, id *string, config GoogleKmsFolderKajPolicyConfigConfig) GoogleKmsFolderKajPolicyConfig
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfig_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfig_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfig_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -824,7 +824,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 &googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfigConfig {
 	Connection: interface{},
@@ -835,9 +835,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekm
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Folder: *string,
-	DefaultKeyAccessJustificationPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustificationPolicy,
+	DefaultKeyAccessJustificationPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustificationPolicy,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigTimeouts,
 }
 ```
 
@@ -991,7 +991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustificationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 &googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustificationPolicy {
 	AllowedAccessReasons: *[]*string,
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 &googlekmsfolderkajpolicyconfig.GoogleKmsFolderKajPolicyConfigTimeouts {
 	Create: *string,
@@ -1089,7 +1089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustificationPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 googlekmsfolderkajpolicyconfig.NewGoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustificationPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustificationPolicyOutputReference
 ```
@@ -1367,7 +1367,7 @@ func InternalValue() GoogleKmsFolderKajPolicyConfigDefaultKeyAccessJustification
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsFolderKajPolicyConfig.GoogleKmsFolderKajPolicyConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsfolderkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsfolderkajpolicyconfig"
 
 googlekmsfolderkajpolicyconfig.NewGoogleKmsFolderKajPolicyConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleKmsFolderKajPolicyConfigTimeoutsOutputReference
 ```

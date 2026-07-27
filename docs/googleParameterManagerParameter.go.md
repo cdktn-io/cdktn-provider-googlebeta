@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.NewGoogleParameterManagerParameter(scope Construct, id *string, config GoogleParameterManagerParameterConfig) GoogleParameterManagerParameter
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.GoogleParameterManagerParameter_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.GoogleParameterManagerParameter_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleparametermanagerparameter.GoogleParameterManagerParameter_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.GoogleParameterManagerParameter_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googleparametermanagerparameter.GoogleParameterManagerParameter_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.GoogleParameterManagerParameter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -993,7 +993,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 &googleparametermanagerparameter.GoogleParameterManagerParameterConfig {
 	Connection: interface{},
@@ -1010,7 +1010,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepa
 	KmsKey: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts,
 }
 ```
 
@@ -1243,7 +1243,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterPolicyMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 &googleparametermanagerparameter.GoogleParameterManagerParameterPolicyMember {
 
@@ -1256,7 +1256,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepa
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 &googleparametermanagerparameter.GoogleParameterManagerParameterTimeouts {
 	Create: *string,
@@ -1318,7 +1318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterPolicyMemberList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.NewGoogleParameterManagerParameterPolicyMemberList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleParameterManagerParameterPolicyMemberList
 ```
@@ -1467,7 +1467,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterPolicyMemberOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.NewGoogleParameterManagerParameterPolicyMemberOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleParameterManagerParameterPolicyMemberOutputReference
 ```
@@ -1756,7 +1756,7 @@ func InternalValue() GoogleParameterManagerParameterPolicyMember
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleParameterManagerParameter.GoogleParameterManagerParameterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleparametermanagerparameter"
 
 googleparametermanagerparameter.NewGoogleParameterManagerParameterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleParameterManagerParameterTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 googleobservabilityorganizationsettings.NewGoogleObservabilityOrganizationSettings(scope Construct, id *string, config GoogleObservabilityOrganizationSettingsConfig) GoogleObservabilityOrganizationSettings
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettings_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettings_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettings_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -884,7 +884,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 &googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettingsConfig {
 	Connection: interface{},
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleob
 	DefaultStorageLocation: *string,
 	Id: *string,
 	KmsKeyName: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts,
 }
 ```
 
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 &googleobservabilityorganizationsettings.GoogleObservabilityOrganizationSettingsTimeouts {
 	Create: *string,
@@ -1145,7 +1145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityOrganizationSettings.GoogleObservabilityOrganizationSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityorganizationsettings"
 
 googleobservabilityorganizationsettings.NewGoogleObservabilityOrganizationSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleObservabilityOrganizationSettingsTimeoutsOutputReference
 ```

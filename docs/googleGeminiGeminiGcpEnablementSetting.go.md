@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 googlegeminigeminigcpenablementsetting.NewGoogleGeminiGeminiGcpEnablementSetting(scope Construct, id *string, config GoogleGeminiGeminiGcpEnablementSettingConfig) GoogleGeminiGeminiGcpEnablementSetting
 ```
@@ -469,7 +469,7 @@ func ResetWebGroundingType()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSetting.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSetting_IsConstruct(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSetting.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSetting_IsTerraformElement(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSetting_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSetting.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSetting_IsTerraformResource(x interface{}) *bool
 ```
@@ -529,7 +529,7 @@ googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSetting_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSetting.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSetting_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1033,7 +1033,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSettingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 &googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSettingConfig {
 	Connection: interface{},
@@ -1051,7 +1051,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlege
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSettingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSettingTimeouts,
 	WebGroundingType: *string,
 }
 ```
@@ -1304,7 +1304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSettingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 &googlegeminigeminigcpenablementsetting.GoogleGeminiGeminiGcpEnablementSettingTimeouts {
 	Create: *string,
@@ -1366,7 +1366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiGeminiGcpEnablementSetting.GoogleGeminiGeminiGcpEnablementSettingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminigeminigcpenablementsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting"
 
 googlegeminigeminigcpenablementsetting.NewGoogleGeminiGeminiGcpEnablementSettingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGeminiGeminiGcpEnablementSettingTimeoutsOutputReference
 ```

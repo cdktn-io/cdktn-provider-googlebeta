@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 googlekmsorganizationkajpolicyconfig.NewGoogleKmsOrganizationKajPolicyConfig(scope Construct, id *string, config GoogleKmsOrganizationKajPolicyConfigConfig) GoogleKmsOrganizationKajPolicyConfig
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfig_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfig_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfig_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -824,7 +824,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 &googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfigConfig {
 	Connection: interface{},
@@ -835,9 +835,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekm
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Organization: *string,
-	DefaultKeyAccessJustificationPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustificationPolicy,
+	DefaultKeyAccessJustificationPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustificationPolicy,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigTimeouts,
 }
 ```
 
@@ -991,7 +991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustificationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 &googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustificationPolicy {
 	AllowedAccessReasons: *[]*string,
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 &googlekmsorganizationkajpolicyconfig.GoogleKmsOrganizationKajPolicyConfigTimeouts {
 	Create: *string,
@@ -1089,7 +1089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustificationPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 googlekmsorganizationkajpolicyconfig.NewGoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustificationPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustificationPolicyOutputReference
 ```
@@ -1367,7 +1367,7 @@ func InternalValue() GoogleKmsOrganizationKajPolicyConfigDefaultKeyAccessJustifi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsOrganizationKajPolicyConfig.GoogleKmsOrganizationKajPolicyConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmsorganizationkajpolicyconfig"
 
 googlekmsorganizationkajpolicyconfig.NewGoogleKmsOrganizationKajPolicyConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleKmsOrganizationKajPolicyConfigTimeoutsOutputReference
 ```

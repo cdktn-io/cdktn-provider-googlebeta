@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 googleeventarcchannel.NewGoogleEventarcChannel(scope Construct, id *string, config GoogleEventarcChannelConfig) GoogleEventarcChannel
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 googleeventarcchannel.GoogleEventarcChannel_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 googleeventarcchannel.GoogleEventarcChannel_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googleeventarcchannel.GoogleEventarcChannel_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 googleeventarcchannel.GoogleEventarcChannel_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googleeventarcchannel.GoogleEventarcChannel_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 googleeventarcchannel.GoogleEventarcChannel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1037,7 +1037,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 &googleeventarcchannel.GoogleEventarcChannelConfig {
 	Connection: interface{},
@@ -1055,7 +1055,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleev
 	Labels: *map[string]*string,
 	Project: *string,
 	ThirdPartyProvider: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleEventarcChannel.GoogleEventarcChannelTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleEventarcChannel.GoogleEventarcChannelTimeouts,
 }
 ```
 
@@ -1296,7 +1296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 &googleeventarcchannel.GoogleEventarcChannelTimeouts {
 	Create: *string,
@@ -1358,7 +1358,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannelTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleeventarcchannel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel"
 
 googleeventarcchannel.NewGoogleEventarcChannelTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcChannelTimeoutsOutputReference
 ```

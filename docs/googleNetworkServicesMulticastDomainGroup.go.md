@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.NewGoogleNetworkServicesMulticastDomainGroup(scope Construct, id *string, config GoogleNetworkServicesMulticastDomainGroupConfig) GoogleNetworkServicesMulticastDomainGroup
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGroup_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGroup_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGroup_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGroup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1008,7 +1008,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 &googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGroupConfig {
 	Connection: interface{},
@@ -1025,7 +1025,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts,
 }
 ```
 
@@ -1251,7 +1251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 &googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGroupState {
 
@@ -1264,7 +1264,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 &googlenetworkservicesmulticastdomaingroup.GoogleNetworkServicesMulticastDomainGroupTimeouts {
 	Create: *string,
@@ -1326,7 +1326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.NewGoogleNetworkServicesMulticastDomainGroupStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkServicesMulticastDomainGroupStateList
 ```
@@ -1475,7 +1475,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.NewGoogleNetworkServicesMulticastDomainGroupStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkServicesMulticastDomainGroupStateOutputReference
 ```
@@ -1753,7 +1753,7 @@ func InternalValue() GoogleNetworkServicesMulticastDomainGroupState
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomaingroup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmulticastdomaingroup"
 
 googlenetworkservicesmulticastdomaingroup.NewGoogleNetworkServicesMulticastDomainGroupTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesMulticastDomainGroupTimeoutsOutputReference
 ```

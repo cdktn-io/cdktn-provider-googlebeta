@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeed.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.NewGoogleDataplexMetadataFeed(scope Construct, id *string, config GoogleDataplexMetadataFeedConfig) GoogleDataplexMetadataFeed
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeed.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.GoogleDataplexMetadataFeed_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeed.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.GoogleDataplexMetadataFeed_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googledataplexmetadatafeed.GoogleDataplexMetadataFeed_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeed.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.GoogleDataplexMetadataFeed_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googledataplexmetadatafeed.GoogleDataplexMetadataFeed_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeed.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.GoogleDataplexMetadataFeed_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1063,7 +1063,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 &googledataplexmetadatafeed.GoogleDataplexMetadataFeedConfig {
 	Connection: interface{},
@@ -1075,14 +1075,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Provisioners: *[]interface{},
 	Location: *string,
 	MetadataFeedId: *string,
-	Scope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedScope,
+	Scope: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedScope,
 	DeletionPolicy: *string,
-	Filters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedFilters,
+	Filters: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedFilters,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
 	PubsubTopic: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts,
 }
 ```
 
@@ -1336,7 +1336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 &googledataplexmetadatafeed.GoogleDataplexMetadataFeedFilters {
 	AspectTypes: *[]*string,
@@ -1406,7 +1406,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedScope.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 &googledataplexmetadatafeed.GoogleDataplexMetadataFeedScope {
 	EntryGroups: *[]*string,
@@ -1477,7 +1477,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 &googledataplexmetadatafeed.GoogleDataplexMetadataFeedTimeouts {
 	Create: *string,
@@ -1539,7 +1539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.NewGoogleDataplexMetadataFeedFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexMetadataFeedFiltersOutputReference
 ```
@@ -1875,7 +1875,7 @@ func InternalValue() GoogleDataplexMetadataFeedFilters
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedScopeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.NewGoogleDataplexMetadataFeedScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexMetadataFeedScopeOutputReference
 ```
@@ -2211,7 +2211,7 @@ func InternalValue() GoogleDataplexMetadataFeedScope
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexMetadataFeed.GoogleDataplexMetadataFeedTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexmetadatafeed"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexmetadatafeed"
 
 googledataplexmetadatafeed.NewGoogleDataplexMetadataFeedTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexMetadataFeedTimeoutsOutputReference
 ```

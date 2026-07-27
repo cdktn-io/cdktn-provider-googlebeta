@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabase.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 googlebiglakehivedatabase.NewGoogleBiglakeHiveDatabase(scope Construct, id *string, config GoogleBiglakeHiveDatabaseConfig) GoogleBiglakeHiveDatabase
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabase.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 googlebiglakehivedatabase.GoogleBiglakeHiveDatabase_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabase.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 googlebiglakehivedatabase.GoogleBiglakeHiveDatabase_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlebiglakehivedatabase.GoogleBiglakeHiveDatabase_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabase.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 googlebiglakehivedatabase.GoogleBiglakeHiveDatabase_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlebiglakehivedatabase.GoogleBiglakeHiveDatabase_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabase.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 googlebiglakehivedatabase.GoogleBiglakeHiveDatabase_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -971,7 +971,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabaseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 &googlebiglakehivedatabase.GoogleBiglakeHiveDatabaseConfig {
 	Connection: interface{},
@@ -989,7 +989,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebi
 	LocationUri: *string,
 	Parameters: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabaseTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabaseTimeouts,
 }
 ```
 
@@ -1226,7 +1226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabaseTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 &googlebiglakehivedatabase.GoogleBiglakeHiveDatabaseTimeouts {
 	Create: *string,
@@ -1288,7 +1288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeHiveDatabase.GoogleBiglakeHiveDatabaseTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivedatabase"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakehivedatabase"
 
 googlebiglakehivedatabase.NewGoogleBiglakeHiveDatabaseTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBiglakeHiveDatabaseTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollection.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 googletagstagbindingcollection.NewGoogleTagsTagBindingCollection(scope Construct, id *string, config GoogleTagsTagBindingCollectionConfig) GoogleTagsTagBindingCollection
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollection.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 googletagstagbindingcollection.GoogleTagsTagBindingCollection_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollection.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 googletagstagbindingcollection.GoogleTagsTagBindingCollection_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googletagstagbindingcollection.GoogleTagsTagBindingCollection_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollection.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 googletagstagbindingcollection.GoogleTagsTagBindingCollection_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googletagstagbindingcollection.GoogleTagsTagBindingCollection_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollection.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 googletagstagbindingcollection.GoogleTagsTagBindingCollection_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -855,7 +855,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 &googletagstagbindingcollection.GoogleTagsTagBindingCollectionConfig {
 	Connection: interface{},
@@ -869,7 +869,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleta
 	Tags: *map[string]*string,
 	Id: *string,
 	Location: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts,
 }
 ```
 
@@ -1043,7 +1043,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 &googletagstagbindingcollection.GoogleTagsTagBindingCollectionTimeouts {
 	Create: *string,
@@ -1105,7 +1105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagbindingcollection"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletagstagbindingcollection"
 
 googletagstagbindingcollection.NewGoogleTagsTagBindingCollectionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTagsTagBindingCollectionTimeoutsOutputReference
 ```

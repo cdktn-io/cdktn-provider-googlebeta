@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.NewGooglePubsubLiteTopic(scope Construct, id *string, config GooglePubsubLiteTopicConfig) GooglePubsubLiteTopic
 ```
@@ -515,7 +515,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.GooglePubsubLiteTopic_IsConstruct(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.GooglePubsubLiteTopic_IsTerraformElement(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlepubsublitetopic.GooglePubsubLiteTopic_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.GooglePubsubLiteTopic_IsTerraformResource(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ googlepubsublitetopic.GooglePubsubLiteTopic_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.GooglePubsubLiteTopic_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1024,7 +1024,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 &googlepubsublitetopic.GooglePubsubLiteTopicConfig {
 	Connection: interface{},
@@ -1037,12 +1037,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepu
 	Name: *string,
 	DeletionPolicy: *string,
 	Id: *string,
-	PartitionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfig,
+	PartitionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfig,
 	Project: *string,
 	Region: *string,
-	ReservationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubLiteTopic.GooglePubsubLiteTopicReservationConfig,
-	RetentionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubLiteTopic.GooglePubsubLiteTopicRetentionConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubLiteTopic.GooglePubsubLiteTopicTimeouts,
+	ReservationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubLiteTopic.GooglePubsubLiteTopicReservationConfig,
+	RetentionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubLiteTopic.GooglePubsubLiteTopicRetentionConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubLiteTopic.GooglePubsubLiteTopicTimeouts,
 	Zone: *string,
 }
 ```
@@ -1292,11 +1292,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 &googlepubsublitetopic.GooglePubsubLiteTopicPartitionConfig {
 	Count: *f64,
-	Capacity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfigCapacity,
+	Capacity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfigCapacity,
 }
 ```
 
@@ -1342,7 +1342,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfigCapacity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 &googlepubsublitetopic.GooglePubsubLiteTopicPartitionConfigCapacity {
 	PublishMibPerSec: *f64,
@@ -1392,7 +1392,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 &googlepubsublitetopic.GooglePubsubLiteTopicReservationConfig {
 	ThroughputReservation: *string,
@@ -1426,7 +1426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicRetentionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 &googlepubsublitetopic.GooglePubsubLiteTopicRetentionConfig {
 	PerPartitionBytes: *string,
@@ -1485,7 +1485,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 &googlepubsublitetopic.GooglePubsubLiteTopicTimeouts {
 	Create: *string,
@@ -1547,7 +1547,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfigCapacityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.NewGooglePubsubLiteTopicPartitionConfigCapacityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubLiteTopicPartitionConfigCapacityOutputReference
 ```
@@ -1840,7 +1840,7 @@ func InternalValue() GooglePubsubLiteTopicPartitionConfigCapacity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicPartitionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.NewGooglePubsubLiteTopicPartitionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubLiteTopicPartitionConfigOutputReference
 ```
@@ -2153,7 +2153,7 @@ func InternalValue() GooglePubsubLiteTopicPartitionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicReservationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.NewGooglePubsubLiteTopicReservationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubLiteTopicReservationConfigOutputReference
 ```
@@ -2431,7 +2431,7 @@ func InternalValue() GooglePubsubLiteTopicReservationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicRetentionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.NewGooglePubsubLiteTopicRetentionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubLiteTopicRetentionConfigOutputReference
 ```
@@ -2731,7 +2731,7 @@ func InternalValue() GooglePubsubLiteTopicRetentionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopicTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepubsublitetopic"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsublitetopic"
 
 googlepubsublitetopic.NewGooglePubsubLiteTopicTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GooglePubsubLiteTopicTimeoutsOutputReference
 ```

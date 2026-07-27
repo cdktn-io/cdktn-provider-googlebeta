@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackup.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.NewDataGoogleBackupDrBackup(scope Construct, id *string, config DataGoogleBackupDrBackupConfig) DataGoogleBackupDrBackup
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackup.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.DataGoogleBackupDrBackup_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackup.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.DataGoogleBackupDrBackup_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagooglebackupdrbackup.DataGoogleBackupDrBackup_IsTerraformElement(x interface
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackup.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.DataGoogleBackupDrBackup_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglebackupdrbackup.DataGoogleBackupDrBackup_IsTerraformDataSource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackup.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.DataGoogleBackupDrBackup_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -715,7 +715,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackups.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 &datagooglebackupdrbackup.DataGoogleBackupDrBackupBackups {
 
@@ -728,7 +728,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsComputeInstanceBackupProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 &datagooglebackupdrbackup.DataGoogleBackupDrBackupBackupsComputeInstanceBackupProperties {
 
@@ -741,7 +741,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsDiskBackupProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 &datagooglebackupdrbackup.DataGoogleBackupDrBackupBackupsDiskBackupProperties {
 
@@ -754,7 +754,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 &datagooglebackupdrbackup.DataGoogleBackupDrBackupConfig {
 	Connection: interface{},
@@ -931,7 +931,7 @@ If you experience problems setting this value it might not be settable. Please t
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.NewDataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesList
 ```
@@ -1080,7 +1080,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.NewDataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesOutputReference
 ```
@@ -1358,7 +1358,7 @@ func InternalValue() DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropert
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsDiskBackupPropertiesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.NewDataGoogleBackupDrBackupBackupsDiskBackupPropertiesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleBackupDrBackupBackupsDiskBackupPropertiesList
 ```
@@ -1507,7 +1507,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsDiskBackupPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.NewDataGoogleBackupDrBackupBackupsDiskBackupPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleBackupDrBackupBackupsDiskBackupPropertiesOutputReference
 ```
@@ -1785,7 +1785,7 @@ func InternalValue() DataGoogleBackupDrBackupBackupsDiskBackupProperties
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.NewDataGoogleBackupDrBackupBackupsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleBackupDrBackupBackupsList
 ```
@@ -1934,7 +1934,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrbackup"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackup"
 
 datagooglebackupdrbackup.NewDataGoogleBackupDrBackupBackupsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleBackupDrBackupBackupsOutputReference
 ```

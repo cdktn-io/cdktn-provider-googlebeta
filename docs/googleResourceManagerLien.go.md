@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 googleresourcemanagerlien.NewGoogleResourceManagerLien(scope Construct, id *string, config GoogleResourceManagerLienConfig) GoogleResourceManagerLien
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 googleresourcemanagerlien.GoogleResourceManagerLien_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 googleresourcemanagerlien.GoogleResourceManagerLien_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googleresourcemanagerlien.GoogleResourceManagerLien_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 googleresourcemanagerlien.GoogleResourceManagerLien_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googleresourcemanagerlien.GoogleResourceManagerLien_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 googleresourcemanagerlien.GoogleResourceManagerLien_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -899,7 +899,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 &googleresourcemanagerlien.GoogleResourceManagerLienConfig {
 	Connection: interface{},
@@ -915,7 +915,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlere
 	Restrictions: *[]*string,
 	DeletionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleResourceManagerLien.GoogleResourceManagerLienTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleResourceManagerLien.GoogleResourceManagerLienTimeouts,
 }
 ```
 
@@ -1130,7 +1130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 &googleresourcemanagerlien.GoogleResourceManagerLienTimeouts {
 	Create: *string,
@@ -1178,7 +1178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleresourcemanagerlien"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien"
 
 googleresourcemanagerlien.NewGoogleResourceManagerLienTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleResourceManagerLienTimeoutsOutputReference
 ```

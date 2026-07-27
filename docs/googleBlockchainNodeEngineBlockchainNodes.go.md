@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodes(scope Construct, id *string, config GoogleBlockchainNodeEngineBlockchainNodesConfig) GoogleBlockchainNodeEngineBlockchainNodes
 ```
@@ -475,7 +475,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodes_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodes_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodes.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodes_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1028,7 +1028,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesConfig {
 	Connection: interface{},
@@ -1042,11 +1042,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebl
 	Location: *string,
 	BlockchainType: *string,
 	DeletionPolicy: *string,
-	EthereumDetails: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetails,
+	EthereumDetails: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetails,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesTimeouts,
 }
 ```
 
@@ -1283,7 +1283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfo {
 
@@ -1296,7 +1296,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfo {
 
@@ -1309,17 +1309,17 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetails {
 	ApiEnableAdmin: interface{},
 	ApiEnableDebug: interface{},
 	ConsensusClient: *string,
 	ExecutionClient: *string,
-	FetchhDetails: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGethDetails,
+	FetchhDetails: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGethDetails,
 	Network: *string,
 	NodeType: *string,
-	ValidatorConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfig,
+	ValidatorConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfig,
 }
 ```
 
@@ -1455,7 +1455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpoints {
 
@@ -1468,7 +1468,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebl
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGethDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGethDetails {
 	GarbageCollectionMode: *string,
@@ -1502,7 +1502,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfig {
 	BeaconFeeRecipient: *string,
@@ -1556,7 +1556,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 &googleblockchainnodeengineblockchainnodes.GoogleBlockchainNodeEngineBlockchainNodesTimeouts {
 	Create: *string,
@@ -1618,7 +1618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfoList
 ```
@@ -1767,7 +1767,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndpointInfoOutputReference
 ```
@@ -2056,7 +2056,7 @@ func InternalValue() GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoEndp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesConnectionInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoList
 ```
@@ -2205,7 +2205,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesConnectionInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBlockchainNodeEngineBlockchainNodesConnectionInfoOutputReference
 ```
@@ -2494,7 +2494,7 @@ func InternalValue() GoogleBlockchainNodeEngineBlockchainNodesConnectionInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsList
 ```
@@ -2643,7 +2643,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdditionalEndpointsOutputReference
 ```
@@ -2943,7 +2943,7 @@ func InternalValue() GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsAdd
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGethDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGethDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGethDetailsOutputReference
 ```
@@ -3221,7 +3221,7 @@ func InternalValue() GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsGet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsOutputReference
 ```
@@ -3739,7 +3739,7 @@ func InternalValue() GoogleBlockchainNodeEngineBlockchainNodesEthereumDetails
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference
 ```
@@ -4046,7 +4046,7 @@ func InternalValue() GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsVal
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBlockchainNodeEngineBlockchainNodes.GoogleBlockchainNodeEngineBlockchainNodesTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleblockchainnodeengineblockchainnodes"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleblockchainnodeengineblockchainnodes"
 
 googleblockchainnodeengineblockchainnodes.NewGoogleBlockchainNodeEngineBlockchainNodesTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBlockchainNodeEngineBlockchainNodesTimeoutsOutputReference
 ```

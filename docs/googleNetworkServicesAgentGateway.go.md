@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGateway.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGateway(scope Construct, id *string, config GoogleNetworkServicesAgentGatewayConfig) GoogleNetworkServicesAgentGateway
 ```
@@ -529,7 +529,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGateway.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGateway_IsConstruct(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGateway.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGateway_IsTerraformElement(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGateway_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGateway.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGateway_IsTerraformResource(x interface{}) *bool
 ```
@@ -589,7 +589,7 @@ googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGateway_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGateway.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1170,7 +1170,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayAgentGatewayCard.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewayAgentGatewayCard {
 
@@ -1183,7 +1183,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewayConfig {
 	Connection: interface{},
@@ -1197,15 +1197,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlene
 	Name: *string,
 	DeletionPolicy: *string,
 	Description: *string,
-	GoogleManaged: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayGoogleManaged,
+	GoogleManaged: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayGoogleManaged,
 	Id: *string,
 	Labels: *map[string]*string,
-	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfig,
+	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfig,
 	Project: *string,
 	Protocols: *[]*string,
 	Registries: *[]*string,
-	SelfManaged: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewaySelfManaged,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayTimeouts,
+	SelfManaged: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewaySelfManaged,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayTimeouts,
 }
 ```
 
@@ -1505,7 +1505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayGoogleManaged.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewayGoogleManaged {
 	GovernedAccessPath: *string,
@@ -1539,11 +1539,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewayNetworkConfig {
-	Egress: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigEgress,
-	DnsPeeringConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig,
+	Egress: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigEgress,
+	DnsPeeringConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig,
 }
 ```
 
@@ -1589,7 +1589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig {
 	Domains: *[]*string,
@@ -1659,7 +1659,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigEgress.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewayNetworkConfigEgress {
 	NetworkAttachment: *string,
@@ -1693,7 +1693,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewaySelfManaged.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewaySelfManaged {
 	ResourceUri: *string,
@@ -1727,7 +1727,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 &googlenetworkservicesagentgateway.GoogleNetworkServicesAgentGatewayTimeouts {
 	Create: *string,
@@ -1789,7 +1789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayAgentGatewayCardList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewayAgentGatewayCardList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleNetworkServicesAgentGatewayAgentGatewayCardList
 ```
@@ -1938,7 +1938,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayAgentGatewayCardOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewayAgentGatewayCardOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleNetworkServicesAgentGatewayAgentGatewayCardOutputReference
 ```
@@ -2238,7 +2238,7 @@ func InternalValue() GoogleNetworkServicesAgentGatewayAgentGatewayCard
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayGoogleManagedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewayGoogleManagedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesAgentGatewayGoogleManagedOutputReference
 ```
@@ -2509,7 +2509,7 @@ func InternalValue() GoogleNetworkServicesAgentGatewayGoogleManaged
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference
 ```
@@ -2824,7 +2824,7 @@ func InternalValue() GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringCon
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigEgressOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewayNetworkConfigEgressOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesAgentGatewayNetworkConfigEgressOutputReference
 ```
@@ -3095,7 +3095,7 @@ func InternalValue() GoogleNetworkServicesAgentGatewayNetworkConfigEgress
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewayNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference
 ```
@@ -3421,7 +3421,7 @@ func InternalValue() GoogleNetworkServicesAgentGatewayNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewaySelfManagedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewaySelfManagedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesAgentGatewaySelfManagedOutputReference
 ```
@@ -3692,7 +3692,7 @@ func InternalValue() GoogleNetworkServicesAgentGatewaySelfManaged
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesAgentGateway.GoogleNetworkServicesAgentGatewayTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesagentgateway"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesagentgateway"
 
 googlenetworkservicesagentgateway.NewGoogleNetworkServicesAgentGatewayTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleNetworkServicesAgentGatewayTimeoutsOutputReference
 ```
