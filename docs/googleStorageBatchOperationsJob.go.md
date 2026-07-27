@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJob(scope Construct, id *string, config GoogleStorageBatchOperationsJobConfig) GoogleStorageBatchOperationsJob
 ```
@@ -562,7 +562,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJob_IsConstruct(x interface{}) *bool
 ```
@@ -594,7 +594,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJob_IsTerraformElement(x interface{}) *bool
 ```
@@ -608,7 +608,7 @@ googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJob_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJob_IsTerraformResource(x interface{}) *bool
 ```
@@ -622,7 +622,7 @@ googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJob_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJob_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1170,12 +1170,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBuckets.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobBucketListBuckets {
 	Bucket: *string,
-	Manifest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsManifest,
-	PrefixList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStruct,
+	Manifest: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsManifest,
+	PrefixList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStruct,
 }
 ```
 
@@ -1236,7 +1236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsManifest.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobBucketListBucketsManifest {
 	ManifestLocation: *string,
@@ -1270,7 +1270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStruct {
 	IncludedObjectPrefixes: *[]*string,
@@ -1302,10 +1302,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListStruct.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobBucketListStruct {
-	Buckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBuckets,
+	Buckets: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBuckets,
 }
 ```
 
@@ -1336,7 +1336,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobConfig {
 	Connection: interface{},
@@ -1346,18 +1346,18 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlest
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	BucketList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListStruct,
-	DeleteObject: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobDeleteObject,
+	BucketList: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListStruct,
+	DeleteObject: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobDeleteObject,
 	DeleteProtection: interface{},
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	JobId: *string,
 	Project: *string,
-	PutMetadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutMetadata,
-	PutObjectHold: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutObjectHold,
-	RewriteObject: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobRewriteObject,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobTimeouts,
+	PutMetadata: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutMetadata,
+	PutObjectHold: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutObjectHold,
+	RewriteObject: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobRewriteObject,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobTimeouts,
 }
 ```
 
@@ -1636,7 +1636,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobDeleteObject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobDeleteObject {
 	PermanentObjectDeletionEnabled: interface{},
@@ -1670,7 +1670,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutMetadata.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobPutMetadata {
 	CacheControl: *string,
@@ -1802,7 +1802,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutObjectHold.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobPutObjectHold {
 	EventBasedHold: *string,
@@ -1852,7 +1852,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobRewriteObject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobRewriteObject {
 	KmsKey: *string,
@@ -1886,7 +1886,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 &googlestoragebatchoperationsjob.GoogleStorageBatchOperationsJobTimeouts {
 	Create: *string,
@@ -1948,7 +1948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsManifestOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobBucketListBucketsManifestOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobBucketListBucketsManifestOutputReference
 ```
@@ -2226,7 +2226,7 @@ func InternalValue() GoogleStorageBatchOperationsJobBucketListBucketsManifest
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobBucketListBucketsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobBucketListBucketsOutputReference
 ```
@@ -2581,7 +2581,7 @@ func InternalValue() GoogleStorageBatchOperationsJobBucketListBuckets
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference
 ```
@@ -2859,7 +2859,7 @@ func InternalValue() GoogleStorageBatchOperationsJobBucketListBucketsPrefixListS
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobBucketListStructOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobBucketListStructOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobBucketListStructOutputReference
 ```
@@ -3143,7 +3143,7 @@ func InternalValue() GoogleStorageBatchOperationsJobBucketListStruct
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobDeleteObjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobDeleteObjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobDeleteObjectOutputReference
 ```
@@ -3414,7 +3414,7 @@ func InternalValue() GoogleStorageBatchOperationsJobDeleteObject
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutMetadataOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobPutMetadataOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobPutMetadataOutputReference
 ```
@@ -3866,7 +3866,7 @@ func InternalValue() GoogleStorageBatchOperationsJobPutMetadata
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobPutObjectHoldOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobPutObjectHoldOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobPutObjectHoldOutputReference
 ```
@@ -4173,7 +4173,7 @@ func InternalValue() GoogleStorageBatchOperationsJobPutObjectHold
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobRewriteObjectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobRewriteObjectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobRewriteObjectOutputReference
 ```
@@ -4444,7 +4444,7 @@ func InternalValue() GoogleStorageBatchOperationsJobRewriteObject
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJobTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragebatchoperationsjob"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob"
 
 googlestoragebatchoperationsjob.NewGoogleStorageBatchOperationsJobTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleStorageBatchOperationsJobTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChart.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChart(scope Construct, id *string, config GoogleChronicleDashboardChartConfig) GoogleChronicleDashboardChart
 ```
@@ -501,7 +501,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChart.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.GoogleChronicleDashboardChart_IsConstruct(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChart.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.GoogleChronicleDashboardChart_IsTerraformElement(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ googlechronicledashboardchart.GoogleChronicleDashboardChart_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChart.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.GoogleChronicleDashboardChart_IsTerraformResource(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlechronicledashboardchart.GoogleChronicleDashboardChart_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChart.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.GoogleChronicleDashboardChart_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1032,7 +1032,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartChartLayout {
 	SpanX: *f64,
@@ -1106,7 +1106,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartConfig {
 	Connection: interface{},
@@ -1116,16 +1116,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlech
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	DashboardChart: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChart,
+	DashboardChart: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChart,
 	Instance: *string,
 	Location: *string,
-	ChartLayout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout,
-	DashboardQuery: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQuery,
+	ChartLayout: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout,
+	DashboardQuery: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQuery,
 	DeletionPolicy: *string,
 	Id: *string,
 	NativeDashboard: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts,
 }
 ```
 
@@ -1374,14 +1374,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChart.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChart {
 	DisplayName: *string,
-	Visualization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization,
-	ChartDatasource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartChartDatasource,
+	Visualization: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization,
+	ChartDatasource: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartChartDatasource,
 	Description: *string,
-	DrillDownConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfig,
+	DrillDownConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfig,
 	TileType: *string,
 }
 ```
@@ -1488,7 +1488,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartChartDatasource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartChartDatasource {
 	DataSources: *[]*string,
@@ -1527,7 +1527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfig {
 	LeftDrillDowns: interface{},
@@ -1577,13 +1577,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns {
 	DisplayName: *string,
 	Id: *string,
-	CustomSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings,
-	DefaultSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings,
+	CustomSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings,
+	DefaultSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings,
 }
 ```
 
@@ -1658,14 +1658,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings {
 	NewTab: interface{},
-	ExternalLink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink,
-	Filter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter,
+	ExternalLink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink,
+	Filter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter,
 	LeftClickColumn: *string,
-	Query: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery,
+	Query: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery,
 }
 ```
 
@@ -1752,7 +1752,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink {
 	Link: *string,
@@ -1798,7 +1798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter {
 	DashboardFilters: interface{},
@@ -1832,7 +1832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters {
 	DashboardFilterId: *string,
@@ -1880,7 +1880,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues {
 	FieldValues: *[]*string,
@@ -1928,7 +1928,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery {
 	Query: *string,
@@ -1960,7 +1960,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings {
 	Enabled: interface{},
@@ -1992,13 +1992,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns {
 	DisplayName: *string,
 	Id: *string,
-	CustomSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings,
-	DefaultSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings,
+	CustomSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings,
+	DefaultSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings,
 }
 ```
 
@@ -2073,13 +2073,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings {
 	NewTab: interface{},
-	ExternalLink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink,
-	Filter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter,
-	Query: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery,
+	ExternalLink: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink,
+	Filter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter,
+	Query: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery,
 }
 ```
 
@@ -2153,7 +2153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink {
 	Link: *string,
@@ -2199,7 +2199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter {
 	DashboardFilters: interface{},
@@ -2233,7 +2233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters {
 	DashboardFilterId: *string,
@@ -2281,7 +2281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues {
 	FieldValues: *[]*string,
@@ -2329,7 +2329,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery {
 	Query: *string,
@@ -2361,7 +2361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings {
 	Enabled: interface{},
@@ -2393,20 +2393,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualization {
-	Button: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton,
+	Button: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton,
 	ColumnDefs: interface{},
-	GoogleMapsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig,
+	GoogleMapsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig,
 	GroupingType: *string,
 	Legends: interface{},
-	Markdown: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown,
+	Markdown: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown,
 	Series: interface{},
 	SeriesColumn: *[]*string,
-	TableConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig,
+	TableConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig,
 	ThresholdColoringEnabled: interface{},
-	Tooltip: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip,
+	Tooltip: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip,
 	VisualMaps: interface{},
 	XAxes: interface{},
 	YAxes: interface{},
@@ -2629,14 +2629,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationButton {
 	Hyperlink: *string,
 	Label: *string,
 	Description: *string,
 	NewTab: interface{},
-	Properties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties,
+	Properties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties,
 }
 ```
 
@@ -2719,7 +2719,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties {
 	ButtonStyle: *string,
@@ -2767,7 +2767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs {
 	Field: *string,
@@ -2813,13 +2813,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig {
-	DataSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings,
-	MapPosition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition,
+	DataSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings,
+	MapPosition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition,
 	PlotMode: *string,
-	PointSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings,
+	PointSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings,
 }
 ```
 
@@ -2895,7 +2895,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings {
 	CountColumn: *string,
@@ -2955,7 +2955,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition {
 	FitData: interface{},
@@ -3029,7 +3029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings {
 	Color: *string,
@@ -3077,7 +3077,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends {
 	Bottom: *f64,
@@ -3256,11 +3256,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown {
 	Content: *string,
-	Properties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties,
+	Properties: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties,
 }
 ```
 
@@ -3304,7 +3304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties {
 	BackgroundColor: *string,
@@ -3336,18 +3336,18 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries {
-	AreaStyle: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle,
-	DataLabel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel,
-	Encode: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode,
+	AreaStyle: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle,
+	DataLabel: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel,
+	Encode: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode,
 	Field: *string,
-	GaugeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig,
-	ItemColors: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors,
-	ItemStyle: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle,
+	GaugeConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig,
+	ItemColors: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors,
+	ItemStyle: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle,
 	Label: *string,
-	MetricTrendConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig,
+	MetricTrendConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig,
 	Radius: *[]*string,
 	SeriesName: *string,
 	SeriesStackStrategy: *string,
@@ -3612,7 +3612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle {
 	Color: *string,
@@ -3728,7 +3728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel {
 	Show: interface{},
@@ -3762,7 +3762,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode {
 	ItemName: *string,
@@ -3836,11 +3836,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig {
-	BaseValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue,
-	LimitValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue,
+	BaseValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue,
+	LimitValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue,
 	ThresholdValues: interface{},
 }
 ```
@@ -3902,7 +3902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue {
 	Color: *string,
@@ -3948,7 +3948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue {
 	Color: *string,
@@ -3994,7 +3994,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues {
 	Color: *string,
@@ -4040,7 +4040,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors {
 	Colors: interface{},
@@ -4074,11 +4074,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors {
 	Key: *string,
-	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue,
+	Value: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue,
 }
 ```
 
@@ -4122,7 +4122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue {
 	Color: *string,
@@ -4168,7 +4168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle {
 	BorderColor: *string,
@@ -4228,7 +4228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig {
 	MetricDisplayTrend: *string,
@@ -4308,7 +4308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig {
 	ColumnRenderTypeSettings: interface{},
@@ -4372,7 +4372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings {
 	ColumnRenderType: *string,
@@ -4420,7 +4420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings {
 	Field: *string,
@@ -4480,7 +4480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip {
 	Show: interface{},
@@ -4528,7 +4528,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMaps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMaps {
 	Pieces: interface{},
@@ -4578,7 +4578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces {
 	Color: *string,
@@ -4652,7 +4652,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes {
 	AxisType: *string,
@@ -4728,7 +4728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes {
 	AxisType: *string,
@@ -4804,11 +4804,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardQuery {
 	Query: *string,
-	Input: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInput,
+	Input: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInput,
 }
 ```
 
@@ -4854,11 +4854,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardQueryInput {
-	RelativeTime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTime,
-	TimeWindow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow,
+	RelativeTime: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTime,
+	TimeWindow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow,
 }
 ```
 
@@ -4904,7 +4904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTime.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTime {
 	StartTimeVal: *string,
@@ -4952,7 +4952,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow {
 	EndTime: *string,
@@ -4998,7 +4998,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 &googlechronicledashboardchart.GoogleChronicleDashboardChartTimeouts {
 	Create: *string,
@@ -5060,7 +5060,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayoutOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartChartLayoutOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartChartLayoutOutputReference
 ```
@@ -5411,7 +5411,7 @@ func InternalValue() GoogleChronicleDashboardChartChartLayout
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartChartDatasourceOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartChartDatasourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartChartDatasourceOutputReference
 ```
@@ -5700,7 +5700,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartChartDatasource
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLinkOutputReference
 ```
@@ -6000,7 +6000,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesList
 ```
@@ -6160,7 +6160,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesOutputReference
 ```
@@ -6485,7 +6485,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersList
 ```
@@ -6645,7 +6645,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersOutputReference
 ```
@@ -6969,7 +6969,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterOutputReference
 ```
@@ -7253,7 +7253,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsOutputReference
 ```
@@ -7679,7 +7679,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQueryOutputReference
 ```
@@ -7950,7 +7950,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettingsOutputReference
 ```
@@ -8221,7 +8221,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigL
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsList
 ```
@@ -8381,7 +8381,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsOutputReference
 ```
@@ -8776,7 +8776,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigOutputReference
 ```
@@ -9109,7 +9109,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLinkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLinkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLinkOutputReference
 ```
@@ -9409,7 +9409,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigR
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesList
 ```
@@ -9569,7 +9569,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValuesOutputReference
 ```
@@ -9894,7 +9894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersList
 ```
@@ -10054,7 +10054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersOutputReference
 ```
@@ -10378,7 +10378,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterOutputReference
 ```
@@ -10662,7 +10662,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigR
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsOutputReference
 ```
@@ -11059,7 +11059,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigR
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQueryOutputReference
 ```
@@ -11330,7 +11330,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigR
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettingsOutputReference
 ```
@@ -11601,7 +11601,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartDrillDownConfigR
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsList
 ```
@@ -11761,7 +11761,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsOutputReference
 ```
@@ -12156,7 +12156,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartOutputReference
 ```
@@ -12626,7 +12626,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChart
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationButtonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationButtonOutputReference
 ```
@@ -13019,7 +13019,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationBut
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationButtonPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationButtonPropertiesOutputReference
 ```
@@ -13326,7 +13326,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationBut
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationColumnDefsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefsList
 ```
@@ -13486,7 +13486,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationColumnDefsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefsOutputReference
 ```
@@ -13811,7 +13811,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettingsOutputReference
 ```
@@ -14147,7 +14147,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationGoo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPositionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPositionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPositionOutputReference
 ```
@@ -14512,7 +14512,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationGoo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigOutputReference
 ```
@@ -14916,7 +14916,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationGoo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettingsOutputReference
 ```
@@ -15223,7 +15223,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationGoo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegendsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationLegendsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationLegendsList
 ```
@@ -15383,7 +15383,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegendsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationLegendsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationLegendsOutputReference
 ```
@@ -15969,7 +15969,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationMarkdownOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownOutputReference
 ```
@@ -16282,7 +16282,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationMar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownPropertiesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationMarkdownPropertiesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownPropertiesOutputReference
 ```
@@ -16560,7 +16560,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationMar
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationOutputReference
 ```
@@ -17358,7 +17358,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualization
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyleOutputReference
 ```
@@ -17810,7 +17810,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabelOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabelOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabelOutputReference
 ```
@@ -18088,7 +18088,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncodeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncodeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncodeOutputReference
 ```
@@ -18453,7 +18453,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValueOutputReference
 ```
@@ -18760,7 +18760,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValueOutputReference
 ```
@@ -19067,7 +19067,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigOutputReference
 ```
@@ -19442,7 +19442,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesList
 ```
@@ -19602,7 +19602,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValuesOutputReference
 ```
@@ -19927,7 +19927,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsList
 ```
@@ -20087,7 +20087,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsOutputReference
 ```
@@ -20425,7 +20425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValueOutputReference
 ```
@@ -20732,7 +20732,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsOutputReference
 ```
@@ -21023,7 +21023,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyleOutputReference
 ```
@@ -21359,7 +21359,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesList
 ```
@@ -21519,7 +21519,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfigOutputReference
 ```
@@ -21884,7 +21884,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationSer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationSeriesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationSeriesOutputReference
 ```
@@ -22735,7 +22735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsList
 ```
@@ -22895,7 +22895,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettingsOutputReference
 ```
@@ -23220,7 +23220,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsList
 ```
@@ -23380,7 +23380,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettingsOutputReference
 ```
@@ -23727,7 +23727,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationTableConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigOutputReference
 ```
@@ -24089,7 +24089,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationTab
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltipOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationTooltipOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardChartVisualizationTooltipOutputReference
 ```
@@ -24396,7 +24396,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardChartVisualizationToo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsList
 ```
@@ -24556,7 +24556,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsOutputReference
 ```
@@ -24894,7 +24894,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesList
 ```
@@ -25054,7 +25054,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPiecesOutputReference
 ```
@@ -25437,7 +25437,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationXAxesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationXAxesList
 ```
@@ -25597,7 +25597,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationXAxesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationXAxesOutputReference
 ```
@@ -25980,7 +25980,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationYAxesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationYAxesList
 ```
@@ -26140,7 +26140,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardChartVisualizationYAxesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDashboardChartDashboardChartVisualizationYAxesOutputReference
 ```
@@ -26523,7 +26523,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardQueryInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardQueryInputOutputReference
 ```
@@ -26856,7 +26856,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardQueryInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTimeOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardQueryInputRelativeTimeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardQueryInputRelativeTimeOutputReference
 ```
@@ -27149,7 +27149,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardQueryInputRelativeTim
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardQueryInputTimeWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardQueryInputTimeWindowOutputReference
 ```
@@ -27456,7 +27456,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardQueryInputTimeWindow
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartDashboardQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartDashboardQueryOutputReference
 ```
@@ -27791,7 +27791,7 @@ func InternalValue() GoogleChronicleDashboardChartDashboardQuery
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledashboardchart"
 
 googlechronicledashboardchart.NewGoogleChronicleDashboardChartTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDashboardChartTimeoutsOutputReference
 ```

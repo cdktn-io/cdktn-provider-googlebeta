@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroring(scope Construct, id *string, config GoogleComputePacketMirroringConfig) GoogleComputePacketMirroring
 ```
@@ -528,7 +528,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.GoogleComputePacketMirroring_IsConstruct(x interface{}) *bool
 ```
@@ -560,7 +560,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.GoogleComputePacketMirroring_IsTerraformElement(x interface{}) *bool
 ```
@@ -574,7 +574,7 @@ googlecomputepacketmirroring.GoogleComputePacketMirroring_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.GoogleComputePacketMirroring_IsTerraformResource(x interface{}) *bool
 ```
@@ -588,7 +588,7 @@ googlecomputepacketmirroring.GoogleComputePacketMirroring_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.GoogleComputePacketMirroring_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1103,7 +1103,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringCollectorIlb.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringCollectorIlb {
 	Url: *string,
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringConfig {
 	Connection: interface{},
@@ -1147,19 +1147,19 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleco
 	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
-	CollectorIlb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputePacketMirroring.GoogleComputePacketMirroringCollectorIlb,
-	MirroredResources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResources,
+	CollectorIlb: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputePacketMirroring.GoogleComputePacketMirroringCollectorIlb,
+	MirroredResources: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResources,
 	Name: *string,
-	Network: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputePacketMirroring.GoogleComputePacketMirroringNetwork,
+	Network: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputePacketMirroring.GoogleComputePacketMirroringNetwork,
 	DeletionPolicy: *string,
 	Description: *string,
 	Enable: *string,
-	Filter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputePacketMirroring.GoogleComputePacketMirroringFilter,
+	Filter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputePacketMirroring.GoogleComputePacketMirroringFilter,
 	Id: *string,
 	Priority: *f64,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts,
 }
 ```
 
@@ -1456,7 +1456,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringFilter {
 	CidrRanges: *[]*string,
@@ -1524,7 +1524,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResources.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringMirroredResources {
 	Instances: interface{},
@@ -1590,7 +1590,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResourcesInstances.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringMirroredResourcesInstances {
 	Url: *string,
@@ -1624,7 +1624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResourcesSubnetworks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringMirroredResourcesSubnetworks {
 	Url: *string,
@@ -1658,7 +1658,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringNetwork {
 	Url: *string,
@@ -1692,7 +1692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 &googlecomputepacketmirroring.GoogleComputePacketMirroringTimeouts {
 	Create: *string,
@@ -1754,7 +1754,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringCollectorIlbOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringCollectorIlbOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputePacketMirroringCollectorIlbOutputReference
 ```
@@ -2025,7 +2025,7 @@ func InternalValue() GoogleComputePacketMirroringCollectorIlb
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputePacketMirroringFilterOutputReference
 ```
@@ -2361,7 +2361,7 @@ func InternalValue() GoogleComputePacketMirroringFilter
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResourcesInstancesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringMirroredResourcesInstancesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputePacketMirroringMirroredResourcesInstancesList
 ```
@@ -2521,7 +2521,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResourcesInstancesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringMirroredResourcesInstancesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputePacketMirroringMirroredResourcesInstancesOutputReference
 ```
@@ -2810,7 +2810,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResourcesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringMirroredResourcesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputePacketMirroringMirroredResourcesOutputReference
 ```
@@ -3172,7 +3172,7 @@ func InternalValue() GoogleComputePacketMirroringMirroredResources
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResourcesSubnetworksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringMirroredResourcesSubnetworksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputePacketMirroringMirroredResourcesSubnetworksList
 ```
@@ -3332,7 +3332,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResourcesSubnetworksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringMirroredResourcesSubnetworksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputePacketMirroringMirroredResourcesSubnetworksOutputReference
 ```
@@ -3621,7 +3621,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringNetworkOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringNetworkOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputePacketMirroringNetworkOutputReference
 ```
@@ -3892,7 +3892,7 @@ func InternalValue() GoogleComputePacketMirroringNetwork
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputepacketmirroring"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring"
 
 googlecomputepacketmirroring.NewGoogleComputePacketMirroringTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputePacketMirroringTimeoutsOutputReference
 ```

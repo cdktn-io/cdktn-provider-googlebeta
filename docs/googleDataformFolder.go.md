@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolder.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 googledataformfolder.NewGoogleDataformFolder(scope Construct, id *string, config GoogleDataformFolderConfig) GoogleDataformFolder
 ```
@@ -448,7 +448,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolder.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 googledataformfolder.GoogleDataformFolder_IsConstruct(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolder.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 googledataformfolder.GoogleDataformFolder_IsTerraformElement(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googledataformfolder.GoogleDataformFolder_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolder.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 googledataformfolder.GoogleDataformFolder_IsTerraformResource(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googledataformfolder.GoogleDataformFolder_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolder.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 googledataformfolder.GoogleDataformFolder_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -913,7 +913,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 &googledataformfolder.GoogleDataformFolderConfig {
 	Connection: interface{},
@@ -929,7 +929,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDataformFolder.GoogleDataformFolderTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDataformFolder.GoogleDataformFolderTimeouts,
 }
 ```
 
@@ -1135,7 +1135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 &googledataformfolder.GoogleDataformFolderTimeouts {
 	Create: *string,
@@ -1197,7 +1197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformfolder"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataformfolder"
 
 googledataformfolder.NewGoogleDataformFolderTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataformFolderTimeoutsOutputReference
 ```

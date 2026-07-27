@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluation(scope Construct, id *string, config GoogleCesEvaluationConfig) GoogleCesEvaluation
 ```
@@ -495,7 +495,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.GoogleCesEvaluation_IsConstruct(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.GoogleCesEvaluation_IsTerraformElement(x interface{}) *bool
 ```
@@ -541,7 +541,7 @@ googlecesevaluation.GoogleCesEvaluation_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.GoogleCesEvaluation_IsTerraformResource(x interface{}) *bool
 ```
@@ -555,7 +555,7 @@ googlecesevaluation.GoogleCesEvaluation_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.GoogleCesEvaluation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1147,7 +1147,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationConfig {
 	Connection: interface{},
@@ -1163,12 +1163,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 	Location: *string,
 	DeletionPolicy: *string,
 	Description: *string,
-	Golden: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGolden,
+	Golden: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGolden,
 	Id: *string,
 	Project: *string,
-	Scenario: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenario,
+	Scenario: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenario,
 	Tags: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationTimeouts,
 }
 ```
 
@@ -1446,7 +1446,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGolden.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGolden {
 	Turns: interface{},
@@ -1496,7 +1496,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurns.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurns {
 	Steps: interface{},
@@ -1530,7 +1530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsRootSpan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsRootSpan {
 
@@ -1543,12 +1543,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlece
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsSteps.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsSteps {
-	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsAgentTransfer,
-	Expectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectation,
-	UserInput: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInput,
+	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsAgentTransfer,
+	Expectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectation,
+	UserInput: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInput,
 }
 ```
 
@@ -1609,7 +1609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsAgentTransfer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsAgentTransfer {
 	TargetAgent: *string,
@@ -1643,16 +1643,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectation {
-	AgentResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse,
-	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer,
-	MockToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse,
+	AgentResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse,
+	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer,
+	MockToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse,
 	Note: *string,
-	ToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall,
-	ToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse,
-	UpdatedVariables: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables,
+	ToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall,
+	ToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse,
+	UpdatedVariables: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables,
 }
 ```
 
@@ -1773,7 +1773,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse {
 	Chunks: interface{},
@@ -1823,15 +1823,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunks {
-	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransfer,
-	Blob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlob,
-	Image: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImage,
+	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransfer,
+	Blob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlob,
+	Image: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImage,
 	Text: *string,
-	ToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCall,
-	ToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponse,
+	ToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCall,
+	ToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponse,
 	UpdatedVariables: *map[string]*string,
 }
 ```
@@ -1953,7 +1953,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransfer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransfer {
 	TargetAgent: *string,
@@ -1987,7 +1987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlob {
 	Data: *string,
@@ -2037,7 +2037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImage {
 	Data: *string,
@@ -2087,13 +2087,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCall {
 	Args: *map[string]*string,
 	Id: *string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetTool,
 }
 ```
 
@@ -2172,7 +2172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetTool {
 	Toolset: *string,
@@ -2222,13 +2222,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponse {
 	Id: *string,
 	Response: *map[string]*string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetTool,
 }
 ```
 
@@ -2307,7 +2307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetTool {
 	Toolset: *string,
@@ -2357,7 +2357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer {
 	DisplayName: *string,
@@ -2407,13 +2407,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse {
 	Id: *string,
 	Response: *map[string]*string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetTool,
 }
 ```
 
@@ -2492,7 +2492,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetTool {
 	Toolset: *string,
@@ -2542,13 +2542,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall {
 	Args: *map[string]*string,
 	Id: *string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTool,
 }
 ```
 
@@ -2627,7 +2627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTool {
 	Toolset: *string,
@@ -2677,13 +2677,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse {
 	Id: *string,
 	Response: *map[string]*string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetTool,
 }
 ```
 
@@ -2762,7 +2762,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetTool {
 	Toolset: *string,
@@ -2812,7 +2812,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables {
 	Notes: *string,
@@ -2846,16 +2846,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInput.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsUserInput {
 	Audio: *string,
-	Blob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputBlob,
+	Blob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputBlob,
 	Dtmf: *string,
-	Event: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputEvent,
-	Image: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputImage,
+	Event: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputEvent,
+	Image: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputImage,
 	Text: *string,
-	ToolResponses: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses,
+	ToolResponses: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses,
 	Variables: *map[string]*string,
 	WillContinue: interface{},
 }
@@ -3008,7 +3008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputBlob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputBlob {
 	Data: *string,
@@ -3058,7 +3058,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputEvent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputEvent {
 	Event: *string,
@@ -3092,7 +3092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputImage {
 	Data: *string,
@@ -3142,7 +3142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses {
 	ToolResponses: interface{},
@@ -3176,13 +3176,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponses {
 	Response: *map[string]*string,
 	Id: *string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool,
 }
 ```
 
@@ -3261,7 +3261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool {
 	Toolset: *string,
@@ -3311,7 +3311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenario {
 	Rubrics: *[]*string,
@@ -3475,11 +3475,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectations {
-	AgentResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse,
-	ToolExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation,
+	AgentResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse,
+	ToolExpectation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation,
 }
 ```
 
@@ -3525,7 +3525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse {
 	Chunks: interface{},
@@ -3575,15 +3575,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks {
-	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer,
-	Blob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob,
-	Image: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage,
+	AgentTransfer: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer,
+	Blob: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob,
+	Image: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage,
 	Text: *string,
-	ToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall,
-	ToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse,
+	ToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall,
+	ToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse,
 	UpdatedVariables: *map[string]*string,
 }
 ```
@@ -3705,7 +3705,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer {
 	TargetAgent: *string,
@@ -3739,7 +3739,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob {
 	Data: *string,
@@ -3789,7 +3789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage {
 	Data: *string,
@@ -3839,13 +3839,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall {
 	Args: *map[string]*string,
 	Id: *string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool,
 }
 ```
 
@@ -3924,7 +3924,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool {
 	Toolset: *string,
@@ -3974,13 +3974,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse {
 	Id: *string,
 	Response: *map[string]*string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool,
 }
 ```
 
@@ -4059,7 +4059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool {
 	Toolset: *string,
@@ -4109,11 +4109,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation {
-	ExpectedToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall,
-	MockToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse,
+	ExpectedToolCall: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall,
+	MockToolResponse: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse,
 }
 ```
 
@@ -4159,13 +4159,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall {
 	Args: *map[string]*string,
 	Id: *string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool,
 }
 ```
 
@@ -4244,7 +4244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool {
 	ToolId: *string,
@@ -4294,13 +4294,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse {
 	Id: *string,
 	Response: *map[string]*string,
 	Tool: *string,
-	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool,
+	ToolsetTool: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool,
 }
 ```
 
@@ -4379,7 +4379,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool {
 	ToolId: *string,
@@ -4429,7 +4429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationScenarioUserFacts {
 	Name: *string,
@@ -4479,7 +4479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 &googlecesevaluation.GoogleCesEvaluationTimeouts {
 	Create: *string,
@@ -4541,7 +4541,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenOutputReference
 ```
@@ -4854,7 +4854,7 @@ func InternalValue() GoogleCesEvaluationGolden
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationGoldenTurnsList
 ```
@@ -5014,7 +5014,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationGoldenTurnsOutputReference
 ```
@@ -5327,7 +5327,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsRootSpanList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsRootSpanList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationGoldenTurnsRootSpanList
 ```
@@ -5476,7 +5476,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsRootSpanOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsRootSpanOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationGoldenTurnsRootSpanOutputReference
 ```
@@ -5809,7 +5809,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsRootSpan
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsAgentTransferOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsAgentTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsAgentTransferOutputReference
 ```
@@ -6091,7 +6091,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsAgentTransfer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransferOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransferOutputReference
 ```
@@ -6373,7 +6373,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlobOutputReference
 ```
@@ -6666,7 +6666,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImageOutputReference
 ```
@@ -6959,7 +6959,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksList
 ```
@@ -7119,7 +7119,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksOutputReference
 ```
@@ -7654,7 +7654,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallOutputReference
 ```
@@ -8043,7 +8043,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetToolOutputReference
 ```
@@ -8343,7 +8343,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseOutputReference
 ```
@@ -8732,7 +8732,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetToolOutputReference
 ```
@@ -9032,7 +9032,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseOutputReference
 ```
@@ -9352,7 +9352,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransferOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransferOutputReference
 ```
@@ -9659,7 +9659,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseOutputReference
 ```
@@ -10048,7 +10048,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolRespo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetToolOutputReference
 ```
@@ -10348,7 +10348,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolRespo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationOutputReference
 ```
@@ -10878,7 +10878,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationToolCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallOutputReference
 ```
@@ -11267,7 +11267,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetToolOutputReference
 ```
@@ -11567,7 +11567,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallTools
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseOutputReference
 ```
@@ -11956,7 +11956,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetToolOutputReference
 ```
@@ -12256,7 +12256,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseT
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariablesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariablesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariablesOutputReference
 ```
@@ -12534,7 +12534,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariab
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationGoldenTurnsStepsList
 ```
@@ -12694,7 +12694,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationGoldenTurnsStepsOutputReference
 ```
@@ -13087,7 +13087,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputBlobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputBlobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsUserInputBlobOutputReference
 ```
@@ -13380,7 +13380,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsUserInputBlob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference
 ```
@@ -13651,7 +13651,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsUserInputEvent
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsUserInputImageOutputReference
 ```
@@ -13944,7 +13944,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsUserInputImage
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsUserInputOutputReference
 ```
@@ -14506,7 +14506,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsUserInput
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesOutputReference
 ```
@@ -14797,7 +14797,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesList
 ```
@@ -14957,7 +14957,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesOutputReference
 ```
@@ -15357,7 +15357,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetToolOutputReference
 ```
@@ -15657,7 +15657,7 @@ func InternalValue() GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesTo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioOutputReference
 ```
@@ -16172,7 +16172,7 @@ func InternalValue() GoogleCesEvaluationScenario
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference
 ```
@@ -16454,7 +16454,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference
 ```
@@ -16747,7 +16747,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference
 ```
@@ -17040,7 +17040,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList
 ```
@@ -17200,7 +17200,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference
 ```
@@ -17735,7 +17735,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference
 ```
@@ -18124,7 +18124,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference
 ```
@@ -18424,7 +18424,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference
 ```
@@ -18813,7 +18813,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference
 ```
@@ -19113,7 +19113,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference
 ```
@@ -19433,7 +19433,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsAgentRespons
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationScenarioScenarioExpectationsList
 ```
@@ -19593,7 +19593,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationScenarioScenarioExpectationsOutputReference
 ```
@@ -19944,7 +19944,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference
 ```
@@ -20333,7 +20333,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsToolExpectat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference
 ```
@@ -20640,7 +20640,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsToolExpectat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference
 ```
@@ -21029,7 +21029,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsToolExpectat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference
 ```
@@ -21336,7 +21336,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsToolExpectat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference
 ```
@@ -21669,7 +21669,7 @@ func InternalValue() GoogleCesEvaluationScenarioScenarioExpectationsToolExpectat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioUserFactsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCesEvaluationScenarioUserFactsList
 ```
@@ -21829,7 +21829,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationScenarioUserFactsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCesEvaluationScenarioUserFactsOutputReference
 ```
@@ -22140,7 +22140,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesevaluation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecesevaluation"
 
 googlecesevaluation.NewGoogleCesEvaluationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCesEvaluationTimeoutsOutputReference
 ```

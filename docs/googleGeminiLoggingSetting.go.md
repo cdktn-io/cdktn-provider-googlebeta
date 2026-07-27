@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 googlegeminiloggingsetting.NewGoogleGeminiLoggingSetting(scope Construct, id *string, config GoogleGeminiLoggingSettingConfig) GoogleGeminiLoggingSetting
 ```
@@ -462,7 +462,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSetting.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 googlegeminiloggingsetting.GoogleGeminiLoggingSetting_IsConstruct(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSetting.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 googlegeminiloggingsetting.GoogleGeminiLoggingSetting_IsTerraformElement(x interface{}) *bool
 ```
@@ -508,7 +508,7 @@ googlegeminiloggingsetting.GoogleGeminiLoggingSetting_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSetting.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 googlegeminiloggingsetting.GoogleGeminiLoggingSetting_IsTerraformResource(x interface{}) *bool
 ```
@@ -522,7 +522,7 @@ googlegeminiloggingsetting.GoogleGeminiLoggingSetting_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSetting.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 googlegeminiloggingsetting.GoogleGeminiLoggingSetting_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1004,7 +1004,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSettingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 &googlegeminiloggingsetting.GoogleGeminiLoggingSettingConfig {
 	Connection: interface{},
@@ -1022,7 +1022,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlege
 	LogMetadata: interface{},
 	LogPromptsAndResponses: interface{},
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleGeminiLoggingSetting.GoogleGeminiLoggingSettingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleGeminiLoggingSetting.GoogleGeminiLoggingSettingTimeouts,
 }
 ```
 
@@ -1259,7 +1259,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSettingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 &googlegeminiloggingsetting.GoogleGeminiLoggingSettingTimeouts {
 	Create: *string,
@@ -1321,7 +1321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiLoggingSetting.GoogleGeminiLoggingSettingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminiloggingsetting"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsetting"
 
 googlegeminiloggingsetting.NewGoogleGeminiLoggingSettingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGeminiLoggingSettingTimeoutsOutputReference
 ```

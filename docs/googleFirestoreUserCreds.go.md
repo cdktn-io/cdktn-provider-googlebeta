@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCreds.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.NewGoogleFirestoreUserCreds(scope Construct, id *string, config GoogleFirestoreUserCredsConfig) GoogleFirestoreUserCreds
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCreds.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.GoogleFirestoreUserCreds_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCreds.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.GoogleFirestoreUserCreds_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlefirestoreusercreds.GoogleFirestoreUserCreds_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCreds.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.GoogleFirestoreUserCreds_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlefirestoreusercreds.GoogleFirestoreUserCreds_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCreds.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.GoogleFirestoreUserCreds_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -917,7 +917,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCredsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 &googlefirestoreusercreds.GoogleFirestoreUserCredsConfig {
 	Connection: interface{},
@@ -932,7 +932,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirestoreUserCreds.GoogleFirestoreUserCredsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirestoreUserCreds.GoogleFirestoreUserCredsTimeouts,
 }
 ```
 
@@ -1125,7 +1125,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCredsResourceIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 &googlefirestoreusercreds.GoogleFirestoreUserCredsResourceIdentity {
 
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCredsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 &googlefirestoreusercreds.GoogleFirestoreUserCredsTimeouts {
 	Create: *string,
@@ -1186,7 +1186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCredsResourceIdentityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.NewGoogleFirestoreUserCredsResourceIdentityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleFirestoreUserCredsResourceIdentityList
 ```
@@ -1335,7 +1335,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCredsResourceIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.NewGoogleFirestoreUserCredsResourceIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleFirestoreUserCredsResourceIdentityOutputReference
 ```
@@ -1613,7 +1613,7 @@ func InternalValue() GoogleFirestoreUserCredsResourceIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirestoreUserCreds.GoogleFirestoreUserCredsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirestoreusercreds"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreusercreds"
 
 googlefirestoreusercreds.NewGoogleFirestoreUserCredsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirestoreUserCredsTimeoutsOutputReference
 ```

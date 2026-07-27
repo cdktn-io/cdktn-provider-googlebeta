@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetType(scope Construct, id *string, config GoogleClouddeployCustomTargetTypeConfig) GoogleClouddeployCustomTargetType
 ```
@@ -502,7 +502,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetType_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetType_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetType_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetType_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetType_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetType.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetType_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1121,7 +1121,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeConfig {
 	Connection: interface{},
@@ -1134,14 +1134,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 	Location: *string,
 	Name: *string,
 	Annotations: *map[string]*string,
-	CustomActions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActions,
+	CustomActions: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActions,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Tasks: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts,
+	Tasks: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts,
 }
 ```
 
@@ -1415,7 +1415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeCustomActions {
 	DeployAction: *string,
@@ -1483,13 +1483,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModules {
 	Configs: *[]*string,
-	Git: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGit,
-	GoogleCloudBuildRepo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepo,
-	GoogleCloudStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorage,
+	Git: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGit,
+	GoogleCloudBuildRepo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepo,
+	GoogleCloudStorage: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorage,
 }
 ```
 
@@ -1565,7 +1565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGit.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGit {
 	Repo: *string,
@@ -1631,7 +1631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepo {
 	Repository: *string,
@@ -1697,7 +1697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorage {
 	Source: *string,
@@ -1749,11 +1749,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasks.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeTasks {
-	Deploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy,
-	Render: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender,
+	Deploy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy,
+	Render: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender,
 }
 ```
 
@@ -1799,10 +1799,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeploy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeTasksDeploy {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer,
 }
 ```
 
@@ -1833,7 +1833,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeTasksDeployContainer {
 	Image: *string,
@@ -1915,10 +1915,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRender.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeTasksRender {
-	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer,
+	Container: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer,
 }
 ```
 
@@ -1949,7 +1949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainer.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeTasksRenderContainer {
 	Image: *string,
@@ -2031,7 +2031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 &googleclouddeploycustomtargettype.GoogleClouddeployCustomTargetTypeTimeouts {
 	Create: *string,
@@ -2093,7 +2093,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGitOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGitOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGitOutputReference
 ```
@@ -2422,7 +2422,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudBuildRepoOutputReference
 ```
@@ -2751,7 +2751,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesGoogleCloudStorageOutputReference
 ```
@@ -3051,7 +3051,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesList
 ```
@@ -3211,7 +3211,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleClouddeployCustomTargetTypeCustomActionsIncludeSkaffoldModulesOutputReference
 ```
@@ -3633,7 +3633,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeCustomActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeCustomActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeCustomActionsOutputReference
 ```
@@ -3975,7 +3975,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeCustomActions
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeTasksDeployContainerOutputReference
 ```
@@ -4333,7 +4333,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeTasksDeployContainer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksDeployOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeTasksDeployOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeTasksDeployOutputReference
 ```
@@ -4624,7 +4624,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeTasksDeploy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeTasksOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeTasksOutputReference
 ```
@@ -4950,7 +4950,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeTasks
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeTasksRenderContainerOutputReference
 ```
@@ -5308,7 +5308,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeTasksRenderContainer
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTasksRenderOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeTasksRenderOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeTasksRenderOutputReference
 ```
@@ -5599,7 +5599,7 @@ func InternalValue() GoogleClouddeployCustomTargetTypeTasksRender
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployCustomTargetType.GoogleClouddeployCustomTargetTypeTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploycustomtargettype"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploycustomtargettype"
 
 googleclouddeploycustomtargettype.NewGoogleClouddeployCustomTargetTypeTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleClouddeployCustomTargetTypeTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgent.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.NewGoogleWorkloadIdentityServiceAgent(scope Construct, id *string, config GoogleWorkloadIdentityServiceAgentConfig) GoogleWorkloadIdentityServiceAgent
 ```
@@ -427,7 +427,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgent.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgent_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgent.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgent_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgent_IsTerrafor
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgent.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgent_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgent_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgent.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgent_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -793,7 +793,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 &googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgentConfig {
 	Connection: interface{},
@@ -805,7 +805,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlewo
 	Provisioners: *[]interface{},
 	Parent: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentTimeouts,
 }
 ```
 
@@ -944,7 +944,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentServiceAgents.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 &googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgentServiceAgents {
 
@@ -957,7 +957,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlewo
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 &googleworkloadidentityserviceagent.GoogleWorkloadIdentityServiceAgentTimeouts {
 	Create: *string,
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentServiceAgentsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.NewGoogleWorkloadIdentityServiceAgentServiceAgentsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleWorkloadIdentityServiceAgentServiceAgentsList
 ```
@@ -1154,7 +1154,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentServiceAgentsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.NewGoogleWorkloadIdentityServiceAgentServiceAgentsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleWorkloadIdentityServiceAgentServiceAgentsOutputReference
 ```
@@ -1487,7 +1487,7 @@ func InternalValue() GoogleWorkloadIdentityServiceAgentServiceAgents
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleWorkloadIdentityServiceAgent.GoogleWorkloadIdentityServiceAgentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkloadidentityserviceagent"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkloadidentityserviceagent"
 
 googleworkloadidentityserviceagent.NewGoogleWorkloadIdentityServiceAgentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleWorkloadIdentityServiceAgentTimeoutsOutputReference
 ```

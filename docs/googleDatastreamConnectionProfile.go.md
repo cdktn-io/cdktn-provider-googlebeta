@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfile(scope Construct, id *string, config GoogleDatastreamConnectionProfileConfig) GoogleDatastreamConnectionProfile
 ```
@@ -675,7 +675,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.GoogleDatastreamConnectionProfile_IsConstruct(x interface{}) *bool
 ```
@@ -707,7 +707,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.GoogleDatastreamConnectionProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -721,7 +721,7 @@ googledatastreamconnectionprofile.GoogleDatastreamConnectionProfile_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfile.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.GoogleDatastreamConnectionProfile_IsTerraformResource(x interface{}) *bool
 ```
@@ -735,7 +735,7 @@ googledatastreamconnectionprofile.GoogleDatastreamConnectionProfile_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.GoogleDatastreamConnectionProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1437,7 +1437,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileBigqueryProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileBigqueryProfile {
 
@@ -1450,7 +1450,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileConfig {
 	Connection: interface{},
@@ -1463,23 +1463,23 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	ConnectionProfileId: *string,
 	DisplayName: *string,
 	Location: *string,
-	BigqueryProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileBigqueryProfile,
+	BigqueryProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileBigqueryProfile,
 	CreateWithoutValidation: interface{},
 	DeletionPolicy: *string,
-	ForwardSshConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileForwardSshConnectivity,
-	GcsProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileGcsProfile,
+	ForwardSshConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileForwardSshConnectivity,
+	GcsProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileGcsProfile,
 	Id: *string,
 	Labels: *map[string]*string,
-	MongodbProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfile,
-	MysqlProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfile,
-	OracleProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileOracleProfile,
-	PostgresqlProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfile,
-	PrivateConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePrivateConnectivity,
+	MongodbProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfile,
+	MysqlProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfile,
+	OracleProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileOracleProfile,
+	PostgresqlProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfile,
+	PrivateConnectivity: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePrivateConnectivity,
 	Project: *string,
-	SalesforceProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfile,
-	SpannerProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSpannerProfile,
-	SqlServerProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSqlServerProfile,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileTimeouts,
+	SalesforceProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfile,
+	SpannerProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSpannerProfile,
+	SqlServerProfile: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSqlServerProfile,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileTimeouts,
 }
 ```
 
@@ -1881,7 +1881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileForwardSshConnectivity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileForwardSshConnectivity {
 	Hostname: *string,
@@ -1979,7 +1979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileGcsProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileGcsProfile {
 	Bucket: *string,
@@ -2029,7 +2029,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileMongodbProfile {
 	HostAddresses: interface{},
@@ -2038,9 +2038,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Password: *string,
 	ReplicaSet: *string,
 	SecretManagerStoredPassword: *string,
-	SrvConnectionFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormat,
-	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSslConfig,
-	StandardConnectionFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormat,
+	SrvConnectionFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormat,
+	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSslConfig,
+	StandardConnectionFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormat,
 }
 ```
 
@@ -2194,7 +2194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileHostAddresses.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileMongodbProfileHostAddresses {
 	Hostname: *string,
@@ -2244,7 +2244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormat {
 
@@ -2257,7 +2257,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSslConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileMongodbProfileSslConfig {
 	CaCertificate: *string,
@@ -2346,7 +2346,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormat {
 	DirectConnection: interface{},
@@ -2380,7 +2380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileMysqlProfile {
 	Hostname: *string,
@@ -2388,7 +2388,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Password: *string,
 	Port: *f64,
 	SecretManagerStoredPassword: *string,
-	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfileSslConfig,
+	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfileSslConfig,
 }
 ```
 
@@ -2494,7 +2494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfileSslConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileMysqlProfileSslConfig {
 	CaCertificate: *string,
@@ -2567,7 +2567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileOracleProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileOracleProfile {
 	DatabaseService: *string,
@@ -2697,7 +2697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfilePostgresqlProfile {
 	Database: *string,
@@ -2706,7 +2706,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleda
 	Password: *string,
 	Port: *f64,
 	SecretManagerStoredPassword: *string,
-	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfig,
+	SslConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfig,
 }
 ```
 
@@ -2827,11 +2827,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfig {
-	ServerAndClientVerification: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerAndClientVerification,
-	ServerVerification: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerVerification,
+	ServerAndClientVerification: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerAndClientVerification,
+	ServerVerification: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerVerification,
 }
 ```
 
@@ -2877,7 +2877,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerAndClientVerification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerAndClientVerification {
 	CaCertificate: *string,
@@ -2947,7 +2947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerVerification.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerVerification {
 	CaCertificate: *string,
@@ -2981,7 +2981,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePrivateConnectivity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfilePrivateConnectivity {
 	PrivateConnection: *string,
@@ -3015,12 +3015,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileSalesforceProfile {
 	Domain: *string,
-	Oauth2ClientCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentials,
-	UserCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentials,
+	Oauth2ClientCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentials,
+	UserCredentials: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentials,
 }
 ```
 
@@ -3081,7 +3081,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentials {
 	ClientId: *string,
@@ -3147,7 +3147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentials {
 	Password: *string,
@@ -3245,7 +3245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSpannerProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileSpannerProfile {
 	Database: *string,
@@ -3295,7 +3295,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSqlServerProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileSqlServerProfile {
 	Database: *string,
@@ -3409,7 +3409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 &googledatastreamconnectionprofile.GoogleDatastreamConnectionProfileTimeouts {
 	Create: *string,
@@ -3471,7 +3471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileBigqueryProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileBigqueryProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileBigqueryProfileOutputReference
 ```
@@ -3720,7 +3720,7 @@ func InternalValue() GoogleDatastreamConnectionProfileBigqueryProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileForwardSshConnectivityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileForwardSshConnectivityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileForwardSshConnectivityOutputReference
 ```
@@ -4100,7 +4100,7 @@ func InternalValue() GoogleDatastreamConnectionProfileForwardSshConnectivity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileGcsProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileGcsProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileGcsProfileOutputReference
 ```
@@ -4400,7 +4400,7 @@ func InternalValue() GoogleDatastreamConnectionProfileGcsProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileHostAddressesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMongodbProfileHostAddressesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDatastreamConnectionProfileMongodbProfileHostAddressesList
 ```
@@ -4560,7 +4560,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileHostAddressesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMongodbProfileHostAddressesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleDatastreamConnectionProfileMongodbProfileHostAddressesOutputReference
 ```
@@ -4878,7 +4878,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMongodbProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMongodbProfileOutputReference
 ```
@@ -5426,7 +5426,7 @@ func InternalValue() GoogleDatastreamConnectionProfileMongodbProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormatOutputReference
 ```
@@ -5675,7 +5675,7 @@ func InternalValue() GoogleDatastreamConnectionProfileMongodbProfileSrvConnectio
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileSslConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMongodbProfileSslConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMongodbProfileSslConfigOutputReference
 ```
@@ -6073,7 +6073,7 @@ func InternalValue() GoogleDatastreamConnectionProfileMongodbProfileSslConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormatOutputReference
 ```
@@ -6351,7 +6351,7 @@ func InternalValue() GoogleDatastreamConnectionProfileMongodbProfileStandardConn
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMysqlProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMysqlProfileOutputReference
 ```
@@ -6773,7 +6773,7 @@ func InternalValue() GoogleDatastreamConnectionProfileMysqlProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference
 ```
@@ -7142,7 +7142,7 @@ func InternalValue() GoogleDatastreamConnectionProfileMysqlProfileSslConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileOracleProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileOracleProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileOracleProfileOutputReference
 ```
@@ -7573,7 +7573,7 @@ func InternalValue() GoogleDatastreamConnectionProfileOracleProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfilePostgresqlProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfilePostgresqlProfileOutputReference
 ```
@@ -8017,7 +8017,7 @@ func InternalValue() GoogleDatastreamConnectionProfilePostgresqlProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfilePostgresqlProfileSslConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigOutputReference
 ```
@@ -8350,7 +8350,7 @@ func InternalValue() GoogleDatastreamConnectionProfilePostgresqlProfileSslConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerAndClientVerificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerAndClientVerificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerAndClientVerificationOutputReference
 ```
@@ -8665,7 +8665,7 @@ func InternalValue() GoogleDatastreamConnectionProfilePostgresqlProfileSslConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerVerificationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerVerificationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfilePostgresqlProfileSslConfigServerVerificationOutputReference
 ```
@@ -8936,7 +8936,7 @@ func InternalValue() GoogleDatastreamConnectionProfilePostgresqlProfileSslConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfilePrivateConnectivityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfilePrivateConnectivityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfilePrivateConnectivityOutputReference
 ```
@@ -9207,7 +9207,7 @@ func InternalValue() GoogleDatastreamConnectionProfilePrivateConnectivity
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentialsOutputReference
 ```
@@ -9543,7 +9543,7 @@ func InternalValue() GoogleDatastreamConnectionProfileSalesforceProfileOauth2Cli
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileSalesforceProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileSalesforceProfileOutputReference
 ```
@@ -9898,7 +9898,7 @@ func InternalValue() GoogleDatastreamConnectionProfileSalesforceProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference
 ```
@@ -10292,7 +10292,7 @@ func InternalValue() GoogleDatastreamConnectionProfileSalesforceProfileUserCrede
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSpannerProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileSpannerProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileSpannerProfileOutputReference
 ```
@@ -10592,7 +10592,7 @@ func InternalValue() GoogleDatastreamConnectionProfileSpannerProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSqlServerProfileOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileSqlServerProfileOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileSqlServerProfileOutputReference
 ```
@@ -10994,7 +10994,7 @@ func InternalValue() GoogleDatastreamConnectionProfileSqlServerProfile
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatastreamconnectionprofile"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamconnectionprofile"
 
 googledatastreamconnectionprofile.NewGoogleDatastreamConnectionProfileTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileTimeoutsOutputReference
 ```

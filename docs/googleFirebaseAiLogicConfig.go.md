@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.NewGoogleFirebaseAiLogicConfig(scope Construct, id *string, config GoogleFirebaseAiLogicConfigConfig) GoogleFirebaseAiLogicConfig
 ```
@@ -508,7 +508,7 @@ func ResetTrafficFilter()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfig_IsConstruct(x interface{}) *bool
 ```
@@ -540,7 +540,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -554,7 +554,7 @@ googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfig_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -568,7 +568,7 @@ googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfig_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -984,7 +984,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 &googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfigConfig {
 	Connection: interface{},
@@ -995,13 +995,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefi
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	DeletionPolicy: *string,
-	GenerativeLanguageConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigGenerativeLanguageConfig,
+	GenerativeLanguageConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigGenerativeLanguageConfig,
 	Id: *string,
 	Location: *string,
 	Project: *string,
-	TelemetryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTelemetryConfig,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTimeouts,
-	TrafficFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTrafficFilter,
+	TelemetryConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTelemetryConfig,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTimeouts,
+	TrafficFilter: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTrafficFilter,
 }
 ```
 
@@ -1220,7 +1220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigGenerativeLanguageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 &googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfigGenerativeLanguageConfig {
 	ApiKey: *string,
@@ -1302,7 +1302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTelemetryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 &googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfigTelemetryConfig {
 	Mode: *string,
@@ -1355,7 +1355,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 &googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfigTimeouts {
 	Create: *string,
@@ -1415,7 +1415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTrafficFilter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 &googlefirebaseailogicconfig.GoogleFirebaseAiLogicConfigTrafficFilter {
 	TemplateOnly: interface{},
@@ -1453,7 +1453,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigGenerativeLanguageConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.NewGoogleFirebaseAiLogicConfigGenerativeLanguageConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAiLogicConfigGenerativeLanguageConfigOutputReference
 ```
@@ -1789,7 +1789,7 @@ func InternalValue() GoogleFirebaseAiLogicConfigGenerativeLanguageConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTelemetryConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.NewGoogleFirebaseAiLogicConfigTelemetryConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAiLogicConfigTelemetryConfigOutputReference
 ```
@@ -2096,7 +2096,7 @@ func InternalValue() GoogleFirebaseAiLogicConfigTelemetryConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.NewGoogleFirebaseAiLogicConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAiLogicConfigTimeoutsOutputReference
 ```
@@ -2432,7 +2432,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAiLogicConfig.GoogleFirebaseAiLogicConfigTrafficFilterOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig"
 
 googlefirebaseailogicconfig.NewGoogleFirebaseAiLogicConfigTrafficFilterOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseAiLogicConfigTrafficFilterOutputReference
 ```

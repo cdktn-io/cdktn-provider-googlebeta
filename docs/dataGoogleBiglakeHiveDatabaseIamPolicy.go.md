@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleBiglakeHiveDatabaseIamPolicy.DataGoogleBiglakeHiveDatabaseIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebiglakehivedatabaseiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebiglakehivedatabaseiampolicy"
 
 datagooglebiglakehivedatabaseiampolicy.NewDataGoogleBiglakeHiveDatabaseIamPolicy(scope Construct, id *string, config DataGoogleBiglakeHiveDatabaseIamPolicyConfig) DataGoogleBiglakeHiveDatabaseIamPolicy
 ```
@@ -312,7 +312,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleBiglakeHiveDatabaseIamPolicy.DataGoogleBiglakeHiveDatabaseIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebiglakehivedatabaseiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebiglakehivedatabaseiampolicy"
 
 datagooglebiglakehivedatabaseiampolicy.DataGoogleBiglakeHiveDatabaseIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleBiglakeHiveDatabaseIamPolicy.DataGoogleBiglakeHiveDatabaseIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebiglakehivedatabaseiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebiglakehivedatabaseiampolicy"
 
 datagooglebiglakehivedatabaseiampolicy.DataGoogleBiglakeHiveDatabaseIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ datagooglebiglakehivedatabaseiampolicy.DataGoogleBiglakeHiveDatabaseIamPolicy_Is
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleBiglakeHiveDatabaseIamPolicy.DataGoogleBiglakeHiveDatabaseIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebiglakehivedatabaseiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebiglakehivedatabaseiampolicy"
 
 datagooglebiglakehivedatabaseiampolicy.DataGoogleBiglakeHiveDatabaseIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -372,7 +372,7 @@ datagooglebiglakehivedatabaseiampolicy.DataGoogleBiglakeHiveDatabaseIamPolicy_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleBiglakeHiveDatabaseIamPolicy.DataGoogleBiglakeHiveDatabaseIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebiglakehivedatabaseiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebiglakehivedatabaseiampolicy"
 
 datagooglebiglakehivedatabaseiampolicy.DataGoogleBiglakeHiveDatabaseIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -689,7 +689,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleBiglakeHiveDatabaseIamPolicy.DataGoogleBiglakeHiveDatabaseIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebiglakehivedatabaseiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebiglakehivedatabaseiampolicy"
 
 &datagooglebiglakehivedatabaseiampolicy.DataGoogleBiglakeHiveDatabaseIamPolicyConfig {
 	Connection: interface{},

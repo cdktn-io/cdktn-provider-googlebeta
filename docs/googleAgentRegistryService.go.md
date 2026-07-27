@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryService.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.NewGoogleAgentRegistryService(scope Construct, id *string, config GoogleAgentRegistryServiceConfig) GoogleAgentRegistryService
 ```
@@ -535,7 +535,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryService.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.GoogleAgentRegistryService_IsConstruct(x interface{}) *bool
 ```
@@ -567,7 +567,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryService.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.GoogleAgentRegistryService_IsTerraformElement(x interface{}) *bool
 ```
@@ -581,7 +581,7 @@ googleagentregistryservice.GoogleAgentRegistryService_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryService.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.GoogleAgentRegistryService_IsTerraformResource(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ googleagentregistryservice.GoogleAgentRegistryService_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryService.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.GoogleAgentRegistryService_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1132,7 +1132,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceAgentSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 &googleagentregistryservice.GoogleAgentRegistryServiceAgentSpec {
 	Type: *string,
@@ -1184,7 +1184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 &googleagentregistryservice.GoogleAgentRegistryServiceConfig {
 	Connection: interface{},
@@ -1196,16 +1196,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleag
 	Provisioners: *[]interface{},
 	Location: *string,
 	ServiceId: *string,
-	AgentSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgentRegistryService.GoogleAgentRegistryServiceAgentSpec,
+	AgentSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAgentRegistryService.GoogleAgentRegistryServiceAgentSpec,
 	DeletionPolicy: *string,
 	Description: *string,
 	DisplayName: *string,
-	EndpointSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgentRegistryService.GoogleAgentRegistryServiceEndpointSpec,
+	EndpointSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAgentRegistryService.GoogleAgentRegistryServiceEndpointSpec,
 	Id: *string,
 	Interfaces: interface{},
-	McpServerSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgentRegistryService.GoogleAgentRegistryServiceMcpServerSpec,
+	McpServerSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAgentRegistryService.GoogleAgentRegistryServiceMcpServerSpec,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAgentRegistryService.GoogleAgentRegistryServiceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAgentRegistryService.GoogleAgentRegistryServiceTimeouts,
 }
 ```
 
@@ -1484,7 +1484,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceEndpointSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 &googleagentregistryservice.GoogleAgentRegistryServiceEndpointSpec {
 	Type: *string,
@@ -1518,7 +1518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceInterfaces.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 &googleagentregistryservice.GoogleAgentRegistryServiceInterfaces {
 	ProtocolBinding: *string,
@@ -1568,7 +1568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceMcpServerSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 &googleagentregistryservice.GoogleAgentRegistryServiceMcpServerSpec {
 	Type: *string,
@@ -1618,7 +1618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 &googleagentregistryservice.GoogleAgentRegistryServiceTimeouts {
 	Create: *string,
@@ -1680,7 +1680,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceAgentSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.NewGoogleAgentRegistryServiceAgentSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgentRegistryServiceAgentSpecOutputReference
 ```
@@ -1980,7 +1980,7 @@ func InternalValue() GoogleAgentRegistryServiceAgentSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceEndpointSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.NewGoogleAgentRegistryServiceEndpointSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgentRegistryServiceEndpointSpecOutputReference
 ```
@@ -2251,7 +2251,7 @@ func InternalValue() GoogleAgentRegistryServiceEndpointSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceInterfacesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.NewGoogleAgentRegistryServiceInterfacesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAgentRegistryServiceInterfacesList
 ```
@@ -2411,7 +2411,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceInterfacesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.NewGoogleAgentRegistryServiceInterfacesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAgentRegistryServiceInterfacesOutputReference
 ```
@@ -2722,7 +2722,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceMcpServerSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.NewGoogleAgentRegistryServiceMcpServerSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgentRegistryServiceMcpServerSpecOutputReference
 ```
@@ -3022,7 +3022,7 @@ func InternalValue() GoogleAgentRegistryServiceMcpServerSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAgentRegistryService.GoogleAgentRegistryServiceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagentregistryservice"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleagentregistryservice"
 
 googleagentregistryservice.NewGoogleAgentRegistryServiceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAgentRegistryServiceTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleObservabilityOrganizationSettings.DataGoogleObservabilityOrganizationSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityorganizationsettings"
 
 datagoogleobservabilityorganizationsettings.NewDataGoogleObservabilityOrganizationSettings(scope Construct, id *string, config DataGoogleObservabilityOrganizationSettingsConfig) DataGoogleObservabilityOrganizationSettings
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleObservabilityOrganizationSettings.DataGoogleObservabilityOrganizationSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityorganizationsettings"
 
 datagoogleobservabilityorganizationsettings.DataGoogleObservabilityOrganizationSettings_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleObservabilityOrganizationSettings.DataGoogleObservabilityOrganizationSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityorganizationsettings"
 
 datagoogleobservabilityorganizationsettings.DataGoogleObservabilityOrganizationSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datagoogleobservabilityorganizationsettings.DataGoogleObservabilityOrganizationS
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleObservabilityOrganizationSettings.DataGoogleObservabilityOrganizationSettings.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityorganizationsettings"
 
 datagoogleobservabilityorganizationsettings.DataGoogleObservabilityOrganizationSettings_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagoogleobservabilityorganizationsettings.DataGoogleObservabilityOrganizationS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleObservabilityOrganizationSettings.DataGoogleObservabilityOrganizationSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityorganizationsettings"
 
 datagoogleobservabilityorganizationsettings.DataGoogleObservabilityOrganizationSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -682,7 +682,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleObservabilityOrganizationSettings.DataGoogleObservabilityOrganizationSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleobservabilityorganizationsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleobservabilityorganizationsettings"
 
 &datagoogleobservabilityorganizationsettings.DataGoogleObservabilityOrganizationSettingsConfig {
 	Connection: interface{},

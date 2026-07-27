@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomain.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 googlechroniclesoardomain.NewGoogleChronicleSoarDomain(scope Construct, id *string, config GoogleChronicleSoarDomainConfig) GoogleChronicleSoarDomain
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomain.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 googlechroniclesoardomain.GoogleChronicleSoarDomain_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomain.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 googlechroniclesoardomain.GoogleChronicleSoarDomain_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googlechroniclesoardomain.GoogleChronicleSoarDomain_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomain.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 googlechroniclesoardomain.GoogleChronicleSoarDomain_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googlechroniclesoardomain.GoogleChronicleSoarDomain_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomain.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 googlechroniclesoardomain.GoogleChronicleSoarDomain_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 &googlechroniclesoardomain.GoogleChronicleSoarDomainConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlech
 	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts,
 }
 ```
 
@@ -1164,7 +1164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 &googlechroniclesoardomain.GoogleChronicleSoarDomainTimeouts {
 	Create: *string,
@@ -1226,7 +1226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoardomain"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclesoardomain"
 
 googlechroniclesoardomain.NewGoogleChronicleSoarDomainTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleSoarDomainTimeoutsOutputReference
 ```

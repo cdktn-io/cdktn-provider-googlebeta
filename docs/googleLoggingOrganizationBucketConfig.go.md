@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.NewGoogleLoggingOrganizationBucketConfig(scope Construct, id *string, config GoogleLoggingOrganizationBucketConfigConfig) GoogleLoggingOrganizationBucketConfig
 ```
@@ -468,7 +468,7 @@ func ResetRetentionDays()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfig_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfig_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfig_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -977,7 +977,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigCmekSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 &googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfigCmekSettings {
 	KmsKeyName: *string,
@@ -1017,7 +1017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 &googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfigConfig {
 	Connection: interface{},
@@ -1030,7 +1030,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelo
 	BucketId: *string,
 	Location: *string,
 	Organization: *string,
-	CmekSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigCmekSettings,
+	CmekSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigCmekSettings,
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
@@ -1273,7 +1273,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigIndexConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 &googleloggingorganizationbucketconfig.GoogleLoggingOrganizationBucketConfigIndexConfigs {
 	FieldPath: *string,
@@ -1328,7 +1328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigCmekSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.NewGoogleLoggingOrganizationBucketConfigCmekSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingOrganizationBucketConfigCmekSettingsOutputReference
 ```
@@ -1632,7 +1632,7 @@ func InternalValue() GoogleLoggingOrganizationBucketConfigCmekSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigIndexConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.NewGoogleLoggingOrganizationBucketConfigIndexConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleLoggingOrganizationBucketConfigIndexConfigsList
 ```
@@ -1792,7 +1792,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingOrganizationBucketConfig.GoogleLoggingOrganizationBucketConfigIndexConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingorganizationbucketconfig"
 
 googleloggingorganizationbucketconfig.NewGoogleLoggingOrganizationBucketConfigIndexConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleLoggingOrganizationBucketConfigIndexConfigsOutputReference
 ```

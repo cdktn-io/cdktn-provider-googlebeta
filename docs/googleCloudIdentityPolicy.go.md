@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.NewGoogleCloudIdentityPolicy(scope Construct, id *string, config GoogleCloudIdentityPolicyConfig) GoogleCloudIdentityPolicy
 ```
@@ -460,7 +460,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.GoogleCloudIdentityPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.GoogleCloudIdentityPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ googlecloudidentitypolicy.GoogleCloudIdentityPolicy_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.GoogleCloudIdentityPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ googlecloudidentitypolicy.GoogleCloudIdentityPolicy_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.GoogleCloudIdentityPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -892,7 +892,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 &googlecloudidentitypolicy.GoogleCloudIdentityPolicyConfig {
 	Connection: interface{},
@@ -903,11 +903,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecl
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Customer: *string,
-	PolicyQuery: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyPolicyQuery,
-	Setting: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudIdentityPolicy.GoogleCloudIdentityPolicySetting,
+	PolicyQuery: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyPolicyQuery,
+	Setting: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudIdentityPolicy.GoogleCloudIdentityPolicySetting,
 	DeletionPolicy: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts,
 }
 ```
 
@@ -1098,7 +1098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyPolicyQuery.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 &googlecloudidentitypolicy.GoogleCloudIdentityPolicyPolicyQuery {
 	OrgUnit: *string,
@@ -1164,7 +1164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicySetting.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 &googlecloudidentitypolicy.GoogleCloudIdentityPolicySetting {
 	Type: *string,
@@ -1214,7 +1214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 &googlecloudidentitypolicy.GoogleCloudIdentityPolicyTimeouts {
 	Create: *string,
@@ -1276,7 +1276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyPolicyQueryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.NewGoogleCloudIdentityPolicyPolicyQueryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudIdentityPolicyPolicyQueryOutputReference
 ```
@@ -1616,7 +1616,7 @@ func InternalValue() GoogleCloudIdentityPolicyPolicyQuery
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicySettingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.NewGoogleCloudIdentityPolicySettingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudIdentityPolicySettingOutputReference
 ```
@@ -1909,7 +1909,7 @@ func InternalValue() GoogleCloudIdentityPolicySetting
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdentityPolicy.GoogleCloudIdentityPolicyTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidentitypolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitypolicy"
 
 googlecloudidentitypolicy.NewGoogleCloudIdentityPolicyTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudIdentityPolicyTimeoutsOutputReference
 ```

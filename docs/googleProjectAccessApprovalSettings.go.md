@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.NewGoogleProjectAccessApprovalSettings(scope Construct, id *string, config GoogleProjectAccessApprovalSettingsConfig) GoogleProjectAccessApprovalSettings
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettings_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettings_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettings_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -977,7 +977,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 &googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettingsConfig {
 	Connection: interface{},
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlepr
 	Id: *string,
 	NotificationEmails: *[]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsTimeouts,
 }
 ```
 
@@ -1221,7 +1221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsEnrolledServices.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 &googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettingsEnrolledServices {
 	CloudProduct: *string,
@@ -1283,7 +1283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 &googleprojectaccessapprovalsettings.GoogleProjectAccessApprovalSettingsTimeouts {
 	Create: *string,
@@ -1345,7 +1345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsEnrolledServicesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.NewGoogleProjectAccessApprovalSettingsEnrolledServicesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleProjectAccessApprovalSettingsEnrolledServicesList
 ```
@@ -1505,7 +1505,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsEnrolledServicesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.NewGoogleProjectAccessApprovalSettingsEnrolledServicesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleProjectAccessApprovalSettingsEnrolledServicesOutputReference
 ```
@@ -1823,7 +1823,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectaccessapprovalsettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectaccessapprovalsettings"
 
 googleprojectaccessapprovalsettings.NewGoogleProjectAccessApprovalSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleProjectAccessApprovalSettingsTimeoutsOutputReference
 ```

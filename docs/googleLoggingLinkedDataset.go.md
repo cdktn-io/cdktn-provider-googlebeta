@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.NewGoogleLoggingLinkedDataset(scope Construct, id *string, config GoogleLoggingLinkedDatasetConfig) GoogleLoggingLinkedDataset
 ```
@@ -475,7 +475,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.GoogleLoggingLinkedDataset_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.GoogleLoggingLinkedDataset_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlelogginglinkeddataset.GoogleLoggingLinkedDataset_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.GoogleLoggingLinkedDataset_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlelogginglinkeddataset.GoogleLoggingLinkedDataset_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.GoogleLoggingLinkedDataset_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -995,7 +995,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetBigqueryDataset.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 &googlelogginglinkeddataset.GoogleLoggingLinkedDatasetBigqueryDataset {
 
@@ -1008,7 +1008,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelo
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 &googlelogginglinkeddataset.GoogleLoggingLinkedDatasetConfig {
 	Connection: interface{},
@@ -1026,7 +1026,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelo
 	Id: *string,
 	Location: *string,
 	Parent: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts,
 }
 ```
 
@@ -1262,7 +1262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 &googlelogginglinkeddataset.GoogleLoggingLinkedDatasetTimeouts {
 	Create: *string,
@@ -1310,7 +1310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetBigqueryDatasetList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.NewGoogleLoggingLinkedDatasetBigqueryDatasetList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleLoggingLinkedDatasetBigqueryDatasetList
 ```
@@ -1470,7 +1470,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetBigqueryDatasetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.NewGoogleLoggingLinkedDatasetBigqueryDatasetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleLoggingLinkedDatasetBigqueryDatasetOutputReference
 ```
@@ -1748,7 +1748,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelogginglinkeddataset"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelogginglinkeddataset"
 
 googlelogginglinkeddataset.NewGoogleLoggingLinkedDatasetTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingLinkedDatasetTimeoutsOutputReference
 ```

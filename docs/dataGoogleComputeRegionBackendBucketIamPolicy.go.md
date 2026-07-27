@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.NewDataGoogleComputeRegionBackendBucketIamPolicy(scope Construct, id *string, config DataGoogleComputeRegionBackendBucketIamPolicyConfig) DataGoogleComputeRegionBackendBucketIamPolicy
 ```
@@ -319,7 +319,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBuck
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -379,7 +379,7 @@ datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBuck
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregionbackendbucketiampolicy"
 
 datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -696,7 +696,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRegionBackendBucketIamPolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionbackendbucketiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregionbackendbucketiampolicy"
 
 &datagooglecomputeregionbackendbucketiampolicy.DataGoogleComputeRegionBackendBucketIamPolicyConfig {
 	Connection: interface{},

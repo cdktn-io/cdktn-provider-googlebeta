@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 googledocumentaischema.NewGoogleDocumentAiSchema(scope Construct, id *string, config GoogleDocumentAiSchemaConfig) GoogleDocumentAiSchema
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 googledocumentaischema.GoogleDocumentAiSchema_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 googledocumentaischema.GoogleDocumentAiSchema_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googledocumentaischema.GoogleDocumentAiSchema_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 googledocumentaischema.GoogleDocumentAiSchema_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googledocumentaischema.GoogleDocumentAiSchema_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchema.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 googledocumentaischema.GoogleDocumentAiSchema_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -953,7 +953,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 &googledocumentaischema.GoogleDocumentAiSchemaConfig {
 	Connection: interface{},
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledo
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts,
 }
 ```
 
@@ -1176,7 +1176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 &googledocumentaischema.GoogleDocumentAiSchemaTimeouts {
 	Create: *string,
@@ -1238,7 +1238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDocumentAiSchema.GoogleDocumentAiSchemaTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaischema"
 
 googledocumentaischema.NewGoogleDocumentAiSchemaTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDocumentAiSchemaTimeoutsOutputReference
 ```
