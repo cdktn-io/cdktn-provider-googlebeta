@@ -26,6 +26,7 @@ Object.defineProperty(exports, 'googleAccessContextManagerServicePerimeters', { 
 Object.defineProperty(exports, 'googleActiveDirectoryDomain', { get: function () { return require('./google-active-directory-domain'); } });
 Object.defineProperty(exports, 'googleActiveDirectoryDomainTrust', { get: function () { return require('./google-active-directory-domain-trust'); } });
 Object.defineProperty(exports, 'googleActiveDirectoryPeering', { get: function () { return require('./google-active-directory-peering'); } });
+Object.defineProperty(exports, 'googleAgentIdentityAuthProvider', { get: function () { return require('./google-agent-identity-auth-provider'); } });
 Object.defineProperty(exports, 'googleAgentRegistryBinding', { get: function () { return require('./google-agent-registry-binding'); } });
 Object.defineProperty(exports, 'googleAgentRegistryService', { get: function () { return require('./google-agent-registry-service'); } });
 Object.defineProperty(exports, 'googleAlloydbBackup', { get: function () { return require('./google-alloydb-backup'); } });
@@ -91,6 +92,7 @@ Object.defineProperty(exports, 'googleApihubCuration', { get: function () { retu
 Object.defineProperty(exports, 'googleApihubHostProjectRegistration', { get: function () { return require('./google-apihub-host-project-registration'); } });
 Object.defineProperty(exports, 'googleApihubPlugin', { get: function () { return require('./google-apihub-plugin'); } });
 Object.defineProperty(exports, 'googleApihubPluginInstance', { get: function () { return require('./google-apihub-plugin-instance'); } });
+Object.defineProperty(exports, 'googleApihubRuntimeProjectAttachment', { get: function () { return require('./google-apihub-runtime-project-attachment'); } });
 Object.defineProperty(exports, 'googleApikeysKey', { get: function () { return require('./google-apikeys-key'); } });
 Object.defineProperty(exports, 'googleAppEngineApplication', { get: function () { return require('./google-app-engine-application'); } });
 Object.defineProperty(exports, 'googleAppEngineApplicationUrlDispatchRules', { get: function () { return require('./google-app-engine-application-url-dispatch-rules'); } });
@@ -244,6 +246,7 @@ Object.defineProperty(exports, 'googleCesGuardrail', { get: function () { return
 Object.defineProperty(exports, 'googleCesSecuritySettings', { get: function () { return require('./google-ces-security-settings'); } });
 Object.defineProperty(exports, 'googleCesTool', { get: function () { return require('./google-ces-tool'); } });
 Object.defineProperty(exports, 'googleCesToolset', { get: function () { return require('./google-ces-toolset'); } });
+Object.defineProperty(exports, 'googleChronicleBigQueryExport', { get: function () { return require('./google-chronicle-big-query-export'); } });
 Object.defineProperty(exports, 'googleChronicleCustomList', { get: function () { return require('./google-chronicle-custom-list'); } });
 Object.defineProperty(exports, 'googleChronicleDashboardChart', { get: function () { return require('./google-chronicle-dashboard-chart'); } });
 Object.defineProperty(exports, 'googleChronicleDataAccessLabel', { get: function () { return require('./google-chronicle-data-access-label'); } });
@@ -1395,6 +1398,7 @@ Object.defineProperty(exports, 'googleTpuV2Vm', { get: function () { return requ
 Object.defineProperty(exports, 'googleTranscoderJob', { get: function () { return require('./google-transcoder-job'); } });
 Object.defineProperty(exports, 'googleTranscoderJobTemplate', { get: function () { return require('./google-transcoder-job-template'); } });
 Object.defineProperty(exports, 'googleVectorSearchCollection', { get: function () { return require('./google-vector-search-collection'); } });
+Object.defineProperty(exports, 'googleVectorSearchDataObject', { get: function () { return require('./google-vector-search-data-object'); } });
 Object.defineProperty(exports, 'googleVectorSearchIndex', { get: function () { return require('./google-vector-search-index'); } });
 Object.defineProperty(exports, 'googleVertexAiCacheConfig', { get: function () { return require('./google-vertex-ai-cache-config'); } });
 Object.defineProperty(exports, 'googleVertexAiDataset', { get: function () { return require('./google-vertex-ai-dataset'); } });
@@ -1431,6 +1435,7 @@ Object.defineProperty(exports, 'googleVertexAiIndexEndpoint', { get: function ()
 Object.defineProperty(exports, 'googleVertexAiIndexEndpointDeployedIndex', { get: function () { return require('./google-vertex-ai-index-endpoint-deployed-index'); } });
 Object.defineProperty(exports, 'googleVertexAiMetadataStore', { get: function () { return require('./google-vertex-ai-metadata-store'); } });
 Object.defineProperty(exports, 'googleVertexAiModelGardenEnableModel', { get: function () { return require('./google-vertex-ai-model-garden-enable-model'); } });
+Object.defineProperty(exports, 'googleVertexAiPersistentResource', { get: function () { return require('./google-vertex-ai-persistent-resource'); } });
 Object.defineProperty(exports, 'googleVertexAiRagEngineConfig', { get: function () { return require('./google-vertex-ai-rag-engine-config'); } });
 Object.defineProperty(exports, 'googleVertexAiReasoningEngine', { get: function () { return require('./google-vertex-ai-reasoning-engine'); } });
 Object.defineProperty(exports, 'googleVertexAiReasoningEngineIamBinding', { get: function () { return require('./google-vertex-ai-reasoning-engine-iam-binding'); } });
