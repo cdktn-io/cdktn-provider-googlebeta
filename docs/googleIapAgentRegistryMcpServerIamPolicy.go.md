@@ -4,7 +4,7 @@
 
 ### GoogleIapAgentRegistryMcpServerIamPolicy <a name="GoogleIapAgentRegistryMcpServerIamPolicy" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicy.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleIapAgentRegistryMcpS
 
 The id of the existing GoogleIapAgentRegistryMcpServerIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -860,11 +860,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleia
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.mcpServerId">McpServerId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#mcp_server_id GoogleIapAgentRegistryMcpServerIamPolicy#mcp_server_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#policy_data GoogleIapAgentRegistryMcpServerIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#id GoogleIapAgentRegistryMcpServerIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#location GoogleIapAgentRegistryMcpServerIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#project GoogleIapAgentRegistryMcpServerIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.mcpServerId">McpServerId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#mcp_server_id GoogleIapAgentRegistryMcpServerIamPolicy#mcp_server_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#policy_data GoogleIapAgentRegistryMcpServerIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#id GoogleIapAgentRegistryMcpServerIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.location">Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#location GoogleIapAgentRegistryMcpServerIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryMcpServerIamPolicy.GoogleIapAgentRegistryMcpServerIamPolicyConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#project GoogleIapAgentRegistryMcpServerIamPolicy#project}. |
 
 ---
 
@@ -946,7 +946,7 @@ McpServerId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#mcp_server_id GoogleIapAgentRegistryMcpServerIamPolicy#mcp_server_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#mcp_server_id GoogleIapAgentRegistryMcpServerIamPolicy#mcp_server_id}.
 
 ---
 
@@ -958,7 +958,7 @@ PolicyData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#policy_data GoogleIapAgentRegistryMcpServerIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#policy_data GoogleIapAgentRegistryMcpServerIamPolicy#policy_data}.
 
 ---
 
@@ -970,7 +970,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#id GoogleIapAgentRegistryMcpServerIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#id GoogleIapAgentRegistryMcpServerIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#location GoogleIapAgentRegistryMcpServerIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#location GoogleIapAgentRegistryMcpServerIamPolicy#location}.
 
 ---
 
@@ -997,7 +997,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#project GoogleIapAgentRegistryMcpServerIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy#project GoogleIapAgentRegistryMcpServerIamPolicy#project}.
 
 ---
 

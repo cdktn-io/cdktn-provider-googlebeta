@@ -4,7 +4,7 @@
 
 ### GoogleChronicleSoarDomain <a name="GoogleChronicleSoarDomain" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain google_chronicle_soar_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain google_chronicle_soar_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomain.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleChronicleSoarDomain 
 
 The id of the existing GoogleChronicleSoarDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,8 +965,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.instance">Instance</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.location">Location</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#id GoogleChronicleSoarDomain#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#project GoogleChronicleSoarDomain#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#id GoogleChronicleSoarDomain#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#project GoogleChronicleSoarDomain#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts">GoogleChronicleSoarDomainTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1051,7 +1051,7 @@ DisplayName *string
 
 SoarDomain display name, limited to 4096 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#display_name GoogleChronicleSoarDomain#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#display_name GoogleChronicleSoarDomain#display_name}
 
 ---
 
@@ -1065,7 +1065,7 @@ EnvironmentsJson *string
 
 SoarDomain associated logical environments (json).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#environments_json GoogleChronicleSoarDomain#environments_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#environments_json GoogleChronicleSoarDomain#environments_json}
 
 ---
 
@@ -1079,7 +1079,7 @@ Instance *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#instance GoogleChronicleSoarDomain#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#instance GoogleChronicleSoarDomain#instance}
 
 ---
 
@@ -1093,7 +1093,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#location GoogleChronicleSoarDomain#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#location GoogleChronicleSoarDomain#location}
 
 ---
 
@@ -1114,7 +1114,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#deletion_policy GoogleChronicleSoarDomain#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#deletion_policy GoogleChronicleSoarDomain#deletion_policy}
 
 ---
 
@@ -1126,7 +1126,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#id GoogleChronicleSoarDomain#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#id GoogleChronicleSoarDomain#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1141,7 +1141,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#project GoogleChronicleSoarDomain#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#project GoogleChronicleSoarDomain#project}.
 
 ---
 
@@ -1155,7 +1155,7 @@ Timeouts GoogleChronicleSoarDomainTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#timeouts GoogleChronicleSoarDomain#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#timeouts GoogleChronicleSoarDomain#timeouts}
 
 ---
 
@@ -1177,9 +1177,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#create GoogleChronicleSoarDomain#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#delete GoogleChronicleSoarDomain#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#update GoogleChronicleSoarDomain#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#create GoogleChronicleSoarDomain#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#delete GoogleChronicleSoarDomain#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleSoarDomain.GoogleChronicleSoarDomainTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#update GoogleChronicleSoarDomain#update}. |
 
 ---
 
@@ -1191,7 +1191,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#create GoogleChronicleSoarDomain#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#create GoogleChronicleSoarDomain#create}.
 
 ---
 
@@ -1203,7 +1203,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#delete GoogleChronicleSoarDomain#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#delete GoogleChronicleSoarDomain#delete}.
 
 ---
 
@@ -1215,7 +1215,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_domain#update GoogleChronicleSoarDomain#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_chronicle_soar_domain#update GoogleChronicleSoarDomain#update}.
 
 ---
 
