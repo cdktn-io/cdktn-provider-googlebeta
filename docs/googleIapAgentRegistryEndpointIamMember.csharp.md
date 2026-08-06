@@ -4,7 +4,7 @@
 
 ### GoogleIapAgentRegistryEndpointIamMember <a name="GoogleIapAgentRegistryEndpointIamMember" id="@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member google_iap_agent_registry_endpoint_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member google_iap_agent_registry_endpoint_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleIapAgentRegistryEndp
 
 The id of the existing GoogleIapAgentRegistryEndpointIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ new GoogleIapAgentRegistryEndpointIamMemberCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#expression GoogleIapAgentRegistryEndpointIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#title GoogleIapAgentRegistryEndpointIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#description GoogleIapAgentRegistryEndpointIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#expression GoogleIapAgentRegistryEndpointIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#title GoogleIapAgentRegistryEndpointIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#description GoogleIapAgentRegistryEndpointIamMember#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#expression GoogleIapAgentRegistryEndpointIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#expression GoogleIapAgentRegistryEndpointIamMember#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#title GoogleIapAgentRegistryEndpointIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#title GoogleIapAgentRegistryEndpointIamMember#title}.
 
 ---
 
@@ -946,7 +946,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#description GoogleIapAgentRegistryEndpointIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#description GoogleIapAgentRegistryEndpointIamMember#description}.
 
 ---
 
@@ -986,13 +986,13 @@ new GoogleIapAgentRegistryEndpointIamMemberConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.endpointId">EndpointId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#endpoint_id GoogleIapAgentRegistryEndpointIamMember#endpoint_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#member GoogleIapAgentRegistryEndpointIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#role GoogleIapAgentRegistryEndpointIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.endpointId">EndpointId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#endpoint_id GoogleIapAgentRegistryEndpointIamMember#endpoint_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.member">Member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#member GoogleIapAgentRegistryEndpointIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#role GoogleIapAgentRegistryEndpointIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberCondition">GoogleIapAgentRegistryEndpointIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#id GoogleIapAgentRegistryEndpointIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#location GoogleIapAgentRegistryEndpointIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#project GoogleIapAgentRegistryEndpointIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#id GoogleIapAgentRegistryEndpointIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#location GoogleIapAgentRegistryEndpointIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapAgentRegistryEndpointIamMember.GoogleIapAgentRegistryEndpointIamMemberConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#project GoogleIapAgentRegistryEndpointIamMember#project}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public string EndpointId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#endpoint_id GoogleIapAgentRegistryEndpointIamMember#endpoint_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#endpoint_id GoogleIapAgentRegistryEndpointIamMember#endpoint_id}.
 
 ---
 
@@ -1086,7 +1086,7 @@ public string Member { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#member GoogleIapAgentRegistryEndpointIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#member GoogleIapAgentRegistryEndpointIamMember#member}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#role GoogleIapAgentRegistryEndpointIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#role GoogleIapAgentRegistryEndpointIamMember#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ public GoogleIapAgentRegistryEndpointIamMemberCondition Condition { get; set; }
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#condition GoogleIapAgentRegistryEndpointIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#condition GoogleIapAgentRegistryEndpointIamMember#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#id GoogleIapAgentRegistryEndpointIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#id GoogleIapAgentRegistryEndpointIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ public string Location { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#location GoogleIapAgentRegistryEndpointIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#location GoogleIapAgentRegistryEndpointIamMember#location}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#project GoogleIapAgentRegistryEndpointIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_member#project GoogleIapAgentRegistryEndpointIamMember#project}.
 
 ---
 
