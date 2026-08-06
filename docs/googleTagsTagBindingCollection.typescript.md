@@ -4,7 +4,7 @@
 
 ### GoogleTagsTagBindingCollection <a name="GoogleTagsTagBindingCollection" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection google_tags_tag_binding_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection google_tags_tag_binding_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollection.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleTagsTagBindingCollec
 
 The id of the existing GoogleTagsTagBindingCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ const googleTagsTagBindingCollectionConfig: googleTagsTagBindingCollection.Googl
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.property.fullResourceName">fullResourceName</a></code> | <code>string</code> | The full resource name of the resource to which the tags are bound. E.g. //cloudresourcemanager.googleapis.com/projects/123. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | A map of tag keys to values directly bound to this resource, specified in namespaced format. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#id GoogleTagsTagBindingCollection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#id GoogleTagsTagBindingCollection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.property.location">location</a></code> | <code>string</code> | The location of the TagBindingCollection. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts">GoogleTagsTagBindingCollectionTimeouts</a></code> | timeouts block. |
 
@@ -959,7 +959,7 @@ public readonly fullResourceName: string;
 
 The full resource name of the resource to which the tags are bound. E.g. //cloudresourcemanager.googleapis.com/projects/123.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#full_resource_name GoogleTagsTagBindingCollection#full_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#full_resource_name GoogleTagsTagBindingCollection#full_resource_name}
 
 ---
 
@@ -978,7 +978,7 @@ For example:
 Keys must be namespaced names of TagKeys, and values must be short names of TagValues.
 This field is non-authoritative. Terraform will only manage the precise tags present in this map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#tags GoogleTagsTagBindingCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#tags GoogleTagsTagBindingCollection#tags}
 
 ---
 
@@ -990,7 +990,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#id GoogleTagsTagBindingCollection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#id GoogleTagsTagBindingCollection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1007,7 +1007,7 @@ public readonly location: string;
 
 The location of the TagBindingCollection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#location GoogleTagsTagBindingCollection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#location GoogleTagsTagBindingCollection#location}
 
 ---
 
@@ -1021,7 +1021,7 @@ public readonly timeouts: GoogleTagsTagBindingCollectionTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#timeouts GoogleTagsTagBindingCollection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#timeouts GoogleTagsTagBindingCollection#timeouts}
 
 ---
 
@@ -1039,9 +1039,9 @@ const googleTagsTagBindingCollectionTimeouts: googleTagsTagBindingCollection.Goo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#create GoogleTagsTagBindingCollection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#delete GoogleTagsTagBindingCollection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#update GoogleTagsTagBindingCollection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#create GoogleTagsTagBindingCollection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#delete GoogleTagsTagBindingCollection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBindingCollection.GoogleTagsTagBindingCollectionTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#update GoogleTagsTagBindingCollection#update}. |
 
 ---
 
@@ -1053,7 +1053,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#create GoogleTagsTagBindingCollection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#create GoogleTagsTagBindingCollection#create}.
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#delete GoogleTagsTagBindingCollection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#delete GoogleTagsTagBindingCollection#delete}.
 
 ---
 
@@ -1077,7 +1077,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.42.0/docs/resources/google_tags_tag_binding_collection#update GoogleTagsTagBindingCollection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#update GoogleTagsTagBindingCollection#update}.
 
 ---
 

@@ -299,6 +299,7 @@ Object.defineProperty(exports, 'googleCloudSchedulerJob', { get: function () { r
 Object.defineProperty(exports, 'googleCloudSecurityComplianceCloudControl', { get: function () { return require('./google-cloud-security-compliance-cloud-control'); } });
 Object.defineProperty(exports, 'googleCloudSecurityComplianceFramework', { get: function () { return require('./google-cloud-security-compliance-framework'); } });
 Object.defineProperty(exports, 'googleCloudSecurityComplianceFrameworkDeployment', { get: function () { return require('./google-cloud-security-compliance-framework-deployment'); } });
+Object.defineProperty(exports, 'googleCloudSupportSupportEventSubscription', { get: function () { return require('./google-cloud-support-support-event-subscription'); } });
 Object.defineProperty(exports, 'googleCloudTasksQueue', { get: function () { return require('./google-cloud-tasks-queue'); } });
 Object.defineProperty(exports, 'googleCloudTasksQueueIamBinding', { get: function () { return require('./google-cloud-tasks-queue-iam-binding'); } });
 Object.defineProperty(exports, 'googleCloudTasksQueueIamMember', { get: function () { return require('./google-cloud-tasks-queue-iam-member'); } });
@@ -482,6 +483,7 @@ Object.defineProperty(exports, 'googleComputeRegionNetworkFirewallPolicyIamPolic
 Object.defineProperty(exports, 'googleComputeRegionNetworkFirewallPolicyRule', { get: function () { return require('./google-compute-region-network-firewall-policy-rule'); } });
 Object.defineProperty(exports, 'googleComputeRegionNetworkFirewallPolicyWithRules', { get: function () { return require('./google-compute-region-network-firewall-policy-with-rules'); } });
 Object.defineProperty(exports, 'googleComputeRegionNetworkPolicy', { get: function () { return require('./google-compute-region-network-policy'); } });
+Object.defineProperty(exports, 'googleComputeRegionNetworkPolicyTrafficClassificationRule', { get: function () { return require('./google-compute-region-network-policy-traffic-classification-rule'); } });
 Object.defineProperty(exports, 'googleComputeRegionPerInstanceConfig', { get: function () { return require('./google-compute-region-per-instance-config'); } });
 Object.defineProperty(exports, 'googleComputeRegionResizeRequest', { get: function () { return require('./google-compute-region-resize-request'); } });
 Object.defineProperty(exports, 'googleComputeRegionSecurityPolicy', { get: function () { return require('./google-compute-region-security-policy'); } });

@@ -299,6 +299,7 @@ export * as googleCloudSchedulerJob from './google-cloud-scheduler-job/index';
 export * as googleCloudSecurityComplianceCloudControl from './google-cloud-security-compliance-cloud-control/index';
 export * as googleCloudSecurityComplianceFramework from './google-cloud-security-compliance-framework/index';
 export * as googleCloudSecurityComplianceFrameworkDeployment from './google-cloud-security-compliance-framework-deployment/index';
+export * as googleCloudSupportSupportEventSubscription from './google-cloud-support-support-event-subscription/index';
 export * as googleCloudTasksQueue from './google-cloud-tasks-queue/index';
 export * as googleCloudTasksQueueIamBinding from './google-cloud-tasks-queue-iam-binding/index';
 export * as googleCloudTasksQueueIamMember from './google-cloud-tasks-queue-iam-member/index';
@@ -482,6 +483,7 @@ export * as googleComputeRegionNetworkFirewallPolicyIamPolicy from './google-com
 export * as googleComputeRegionNetworkFirewallPolicyRule from './google-compute-region-network-firewall-policy-rule/index';
 export * as googleComputeRegionNetworkFirewallPolicyWithRules from './google-compute-region-network-firewall-policy-with-rules/index';
 export * as googleComputeRegionNetworkPolicy from './google-compute-region-network-policy/index';
+export * as googleComputeRegionNetworkPolicyTrafficClassificationRule from './google-compute-region-network-policy-traffic-classification-rule/index';
 export * as googleComputeRegionPerInstanceConfig from './google-compute-region-per-instance-config/index';
 export * as googleComputeRegionResizeRequest from './google-compute-region-resize-request/index';
 export * as googleComputeRegionSecurityPolicy from './google-compute-region-security-policy/index';
