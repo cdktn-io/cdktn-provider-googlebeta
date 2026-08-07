@@ -3972,6 +3972,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource">terraform_provider_source</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alias">alias</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions">functions</a></code> | <code>cdktn_provider_google_beta.providerFunctions.GoogleBetaProviderFunctions</code> | Provider-defined functions of the google-beta provider. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput">access_approval_custom_endpoint_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput">access_context_manager_custom_endpoint_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput">access_token_input</a></code> | <code>str</code> | *No description.* |
@@ -4495,6 +4496,18 @@ alias: str
 ```
 
 - *Type:* str
+
+---
+
+##### `functions`<sup>Required</sup> <a name="functions" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions"></a>
+
+```python
+functions: GoogleBetaProviderFunctions
+```
+
+- *Type:* cdktn_provider_google_beta.providerFunctions.GoogleBetaProviderFunctions
+
+Provider-defined functions of the google-beta provider.
 
 ---
 

@@ -3952,6 +3952,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>io.cdktn.cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alias">alias</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions">functions</a></code> | <code>io.cdktn.providers.google_beta.provider_functions.GoogleBetaProviderFunctions</code> | Provider-defined functions of the google-beta provider. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput">accessApprovalCustomEndpointInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput">accessContextManagerCustomEndpointInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput">accessTokenInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -4475,6 +4476,18 @@ public java.lang.String getAlias();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `functions`<sup>Required</sup> <a name="functions" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions"></a>
+
+```java
+public GoogleBetaProviderFunctions getFunctions();
+```
+
+- *Type:* io.cdktn.providers.google_beta.provider_functions.GoogleBetaProviderFunctions
+
+Provider-defined functions of the google-beta provider.
 
 ---
 

@@ -1792,6 +1792,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>Io.Cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alias">Alias</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions">Functions</a></code> | <code>Io.Cdktn.Providers.GoogleBeta.providerFunctions.GoogleBetaProviderFunctions</code> | Provider-defined functions of the google-beta provider. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput">AccessApprovalCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput">AccessContextManagerCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput">AccessTokenInput</a></code> | <code>string</code> | *No description.* |
@@ -2315,6 +2316,18 @@ public string Alias { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `Functions`<sup>Required</sup> <a name="Functions" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions"></a>
+
+```csharp
+public GoogleBetaProviderFunctions Functions { get; }
+```
+
+- *Type:* Io.Cdktn.Providers.GoogleBeta.providerFunctions.GoogleBetaProviderFunctions
+
+Provider-defined functions of the google-beta provider.
 
 ---
 

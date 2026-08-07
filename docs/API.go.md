@@ -500,6 +500,12 @@ The following submodules are available:
 - [dataGoogleWorkbenchInstanceIamPolicy](./dataGoogleWorkbenchInstanceIamPolicy.go.md)
 - [dataGoogleWorkstationsWorkstationConfigIamPolicy](./dataGoogleWorkstationsWorkstationConfigIamPolicy.go.md)
 - [dataGoogleWorkstationsWorkstationIamPolicy](./dataGoogleWorkstationsWorkstationIamPolicy.go.md)
+- [ephemeralGoogleClientConfig](./ephemeralGoogleClientConfig.go.md)
+- [ephemeralGoogleSecretManagerSecretVersion](./ephemeralGoogleSecretManagerSecretVersion.go.md)
+- [ephemeralGoogleServiceAccountAccessToken](./ephemeralGoogleServiceAccountAccessToken.go.md)
+- [ephemeralGoogleServiceAccountIdToken](./ephemeralGoogleServiceAccountIdToken.go.md)
+- [ephemeralGoogleServiceAccountJwt](./ephemeralGoogleServiceAccountJwt.go.md)
+- [ephemeralGoogleServiceAccountKey](./ephemeralGoogleServiceAccountKey.go.md)
 - [googleAccessContextManagerAccessLevel](./googleAccessContextManagerAccessLevel.go.md)
 - [googleAccessContextManagerAccessLevelCondition](./googleAccessContextManagerAccessLevelCondition.go.md)
 - [googleAccessContextManagerAccessLevels](./googleAccessContextManagerAccessLevels.go.md)
@@ -1970,6 +1976,7 @@ The following submodules are available:
 - [googleWorkstationsWorkstationIamMember](./googleWorkstationsWorkstationIamMember.go.md)
 - [googleWorkstationsWorkstationIamPolicy](./googleWorkstationsWorkstationIamPolicy.go.md)
 - [provider](./provider.go.md)
+- [providerFunctions](./providerFunctions.go.md)
 
 
 

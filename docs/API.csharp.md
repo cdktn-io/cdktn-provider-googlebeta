@@ -500,6 +500,12 @@ The following submodules are available:
 - [dataGoogleWorkbenchInstanceIamPolicy](./dataGoogleWorkbenchInstanceIamPolicy.csharp.md)
 - [dataGoogleWorkstationsWorkstationConfigIamPolicy](./dataGoogleWorkstationsWorkstationConfigIamPolicy.csharp.md)
 - [dataGoogleWorkstationsWorkstationIamPolicy](./dataGoogleWorkstationsWorkstationIamPolicy.csharp.md)
+- [ephemeralGoogleClientConfig](./ephemeralGoogleClientConfig.csharp.md)
+- [ephemeralGoogleSecretManagerSecretVersion](./ephemeralGoogleSecretManagerSecretVersion.csharp.md)
+- [ephemeralGoogleServiceAccountAccessToken](./ephemeralGoogleServiceAccountAccessToken.csharp.md)
+- [ephemeralGoogleServiceAccountIdToken](./ephemeralGoogleServiceAccountIdToken.csharp.md)
+- [ephemeralGoogleServiceAccountJwt](./ephemeralGoogleServiceAccountJwt.csharp.md)
+- [ephemeralGoogleServiceAccountKey](./ephemeralGoogleServiceAccountKey.csharp.md)
 - [googleAccessContextManagerAccessLevel](./googleAccessContextManagerAccessLevel.csharp.md)
 - [googleAccessContextManagerAccessLevelCondition](./googleAccessContextManagerAccessLevelCondition.csharp.md)
 - [googleAccessContextManagerAccessLevels](./googleAccessContextManagerAccessLevels.csharp.md)
@@ -1970,6 +1976,7 @@ The following submodules are available:
 - [googleWorkstationsWorkstationIamMember](./googleWorkstationsWorkstationIamMember.csharp.md)
 - [googleWorkstationsWorkstationIamPolicy](./googleWorkstationsWorkstationIamPolicy.csharp.md)
 - [provider](./provider.csharp.md)
+- [providerFunctions](./providerFunctions.csharp.md)
 
 
 
