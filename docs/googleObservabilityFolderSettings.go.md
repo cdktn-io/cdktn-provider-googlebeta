@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 googleobservabilityfoldersettings.NewGoogleObservabilityFolderSettings(scope Construct, id *string, config GoogleObservabilityFolderSettingsConfig) GoogleObservabilityFolderSettings
 ```
@@ -441,7 +441,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 googleobservabilityfoldersettings.GoogleObservabilityFolderSettings_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 googleobservabilityfoldersettings.GoogleObservabilityFolderSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ googleobservabilityfoldersettings.GoogleObservabilityFolderSettings_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 googleobservabilityfoldersettings.GoogleObservabilityFolderSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleobservabilityfoldersettings.GoogleObservabilityFolderSettings_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 googleobservabilityfoldersettings.GoogleObservabilityFolderSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -884,7 +884,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 &googleobservabilityfoldersettings.GoogleObservabilityFolderSettingsConfig {
 	Connection: interface{},
@@ -899,7 +899,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleob
 	DefaultStorageLocation: *string,
 	Id: *string,
 	KmsKeyName: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts,
 }
 ```
 
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 &googleobservabilityfoldersettings.GoogleObservabilityFolderSettingsTimeouts {
 	Create: *string,
@@ -1145,7 +1145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleobservabilityfoldersettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleobservabilityfoldersettings"
 
 googleobservabilityfoldersettings.NewGoogleObservabilityFolderSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleObservabilityFolderSettingsTimeoutsOutputReference
 ```

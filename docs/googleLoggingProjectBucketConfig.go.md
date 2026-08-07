@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.NewGoogleLoggingProjectBucketConfig(scope Construct, id *string, config GoogleLoggingProjectBucketConfigConfig) GoogleLoggingProjectBucketConfig
 ```
@@ -482,7 +482,7 @@ func ResetRetentionDays()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfig_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfig_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfig_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1035,7 +1035,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigCmekSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 &googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfigCmekSettings {
 	KmsKeyName: *string,
@@ -1075,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 &googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfigConfig {
 	Connection: interface{},
@@ -1088,7 +1088,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelo
 	BucketId: *string,
 	Location: *string,
 	Project: *string,
-	CmekSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigCmekSettings,
+	CmekSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigCmekSettings,
 	DeletionPolicy: *string,
 	Description: *string,
 	EnableAnalytics: interface{},
@@ -1365,7 +1365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigIndexConfigs.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 &googleloggingprojectbucketconfig.GoogleLoggingProjectBucketConfigIndexConfigs {
 	FieldPath: *string,
@@ -1420,7 +1420,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigCmekSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.NewGoogleLoggingProjectBucketConfigCmekSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleLoggingProjectBucketConfigCmekSettingsOutputReference
 ```
@@ -1724,7 +1724,7 @@ func InternalValue() GoogleLoggingProjectBucketConfigCmekSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigIndexConfigsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.NewGoogleLoggingProjectBucketConfigIndexConfigsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleLoggingProjectBucketConfigIndexConfigsList
 ```
@@ -1884,7 +1884,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingProjectBucketConfig.GoogleLoggingProjectBucketConfigIndexConfigsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingprojectbucketconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectbucketconfig"
 
 googleloggingprojectbucketconfig.NewGoogleLoggingProjectBucketConfigIndexConfigsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleLoggingProjectBucketConfigIndexConfigsOutputReference
 ```

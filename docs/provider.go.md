@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 provider.NewGoogleBetaProvider(scope Construct, id *string, config GoogleBetaProviderConfig) GoogleBetaProvider
 ```
@@ -1678,7 +1678,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 provider.GoogleBetaProvider_IsConstruct(x interface{}) *bool
 ```
@@ -1710,7 +1710,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 provider.GoogleBetaProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -1724,7 +1724,7 @@ provider.GoogleBetaProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 provider.GoogleBetaProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -1738,7 +1738,7 @@ provider.GoogleBetaProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 provider.GoogleBetaProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1792,7 +1792,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.providerFunctions.GoogleBetaProviderFunctions</code> | Provider-defined functions of the google-beta provider. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.providerFunctions.GoogleBetaProviderFunctions</code> | Provider-defined functions of the google-beta provider. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput">AccessApprovalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput">AccessContextManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput">AccessTokenInput</a></code> | <code>*string</code> | *No description.* |
@@ -2325,7 +2325,7 @@ func Alias() *string
 func Functions() GoogleBetaProviderFunctions
 ```
 
-- *Type:* github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.providerFunctions.GoogleBetaProviderFunctions
+- *Type:* github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.providerFunctions.GoogleBetaProviderFunctions
 
 Provider-defined functions of the google-beta provider.
 
@@ -6666,7 +6666,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 &provider.GoogleBetaProviderBatching {
 	EnableBatching: interface{},
@@ -6712,7 +6712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 &provider.GoogleBetaProviderConfig {
 	AccessApprovalCustomEndpoint: *string,
@@ -9760,7 +9760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider"
 
 &provider.GoogleBetaProviderExternalCredentials {
 	Audience: *string,

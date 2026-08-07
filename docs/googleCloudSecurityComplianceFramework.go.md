@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFramework.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFramework(scope Construct, id *string, config GoogleCloudSecurityComplianceFrameworkConfig) GoogleCloudSecurityComplianceFramework
 ```
@@ -482,7 +482,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFramework.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFramework_IsConstruct(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFramework.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFramework_IsTerraformElement(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFramework_Is
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFramework.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFramework_IsTerraformResource(x interface{}) *bool
 ```
@@ -542,7 +542,7 @@ googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFramework_Is
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFramework.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFramework_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1068,7 +1068,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetails.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkCloudControlDetails {
 	MajorRevisionId: *string,
@@ -1134,11 +1134,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParameters.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParameters {
 	Name: *string,
-	ParameterValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValue,
+	ParameterValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValue,
 }
 ```
 
@@ -1184,13 +1184,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValue {
 	BoolValue: interface{},
 	NumberValue: *f64,
-	OneofValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValue,
-	StringListValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueStringListValue,
+	OneofValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValue,
+	StringListValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueStringListValue,
 	StringValue: *string,
 }
 ```
@@ -1282,11 +1282,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValue {
 	Name: *string,
-	ParameterValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValue,
+	ParameterValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValue,
 }
 ```
 
@@ -1332,12 +1332,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValue {
 	BoolValue: interface{},
 	NumberValue: *f64,
-	StringListValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueStringListValue,
+	StringListValue: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueStringListValue,
 	StringValue: *string,
 }
 ```
@@ -1414,7 +1414,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueStringListValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueStringListValue {
 	Values: *[]*string,
@@ -1448,7 +1448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueStringListValue.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueStringListValue {
 	Values: *[]*string,
@@ -1482,7 +1482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkConfig {
 	Connection: interface{},
@@ -1501,7 +1501,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecl
 	Id: *string,
 	Organization: *string,
 	Parent: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkTimeouts,
 }
 ```
 
@@ -1755,7 +1755,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 &googlecloudsecuritycomplianceframework.GoogleCloudSecurityComplianceFrameworkTimeouts {
 	Create: *string,
@@ -1817,7 +1817,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsList
 ```
@@ -1977,7 +1977,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsOutputReference
 ```
@@ -2330,7 +2330,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersList
 ```
@@ -2490,7 +2490,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersOutputReference
 ```
@@ -2814,7 +2814,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueOutputReference
 ```
@@ -3134,7 +3134,7 @@ func InternalValue() GoogleCloudSecurityComplianceFrameworkCloudControlDetailsPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueOutputReference
 ```
@@ -3512,7 +3512,7 @@ func InternalValue() GoogleCloudSecurityComplianceFrameworkCloudControlDetailsPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueStringListValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueStringListValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOneofValueParameterValueStringListValueOutputReference
 ```
@@ -3783,7 +3783,7 @@ func InternalValue() GoogleCloudSecurityComplianceFrameworkCloudControlDetailsPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueOutputReference
 ```
@@ -4203,7 +4203,7 @@ func InternalValue() GoogleCloudSecurityComplianceFrameworkCloudControlDetailsPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueStringListValueOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueStringListValueOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudSecurityComplianceFrameworkCloudControlDetailsParametersParameterValueStringListValueOutputReference
 ```
@@ -4474,7 +4474,7 @@ func InternalValue() GoogleCloudSecurityComplianceFrameworkCloudControlDetailsPa
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudSecurityComplianceFramework.GoogleCloudSecurityComplianceFrameworkTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudsecuritycomplianceframework"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycomplianceframework"
 
 googlecloudsecuritycomplianceframework.NewGoogleCloudSecurityComplianceFrameworkTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleCloudSecurityComplianceFrameworkTimeoutsOutputReference
 ```

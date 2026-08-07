@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 googlecontactcenterinsightsencryptionspec.NewGoogleContactCenterInsightsEncryptionSpec(scope Construct, id *string, config GoogleContactCenterInsightsEncryptionSpecConfig) GoogleContactCenterInsightsEncryptionSpec
 ```
@@ -434,7 +434,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpec.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionSpec_IsConstruct(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpec.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionSpec_IsTerraformElement(x interface{}) *bool
 ```
@@ -480,7 +480,7 @@ googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionS
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpec.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionSpec_IsTerraformResource(x interface{}) *bool
 ```
@@ -494,7 +494,7 @@ googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionS
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpec.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionSpec_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -833,7 +833,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 &googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionSpecConfig {
 	Connection: interface{},
@@ -847,7 +847,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Location: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts,
 }
 ```
 
@@ -1018,7 +1018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 &googlecontactcenterinsightsencryptionspec.GoogleContactCenterInsightsEncryptionSpecTimeouts {
 	Create: *string,
@@ -1066,7 +1066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsEncryptionSpec.GoogleContactCenterInsightsEncryptionSpecTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontactcenterinsightsencryptionspec"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsencryptionspec"
 
 googlecontactcenterinsightsencryptionspec.NewGoogleContactCenterInsightsEncryptionSpecTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContactCenterInsightsEncryptionSpecTimeoutsOutputReference
 ```

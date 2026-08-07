@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverride.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 googleserviceusageconsumerquotaoverride.NewGoogleServiceUsageConsumerQuotaOverride(scope Construct, id *string, config GoogleServiceUsageConsumerQuotaOverrideConfig) GoogleServiceUsageConsumerQuotaOverride
 ```
@@ -455,7 +455,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverride.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverride_IsConstruct(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverride.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverride_IsTerraformElement(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverride_
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverride.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverride_IsTerraformResource(x interface{}) *bool
 ```
@@ -515,7 +515,7 @@ googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverride_
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverride.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverride_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -975,7 +975,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverrideConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 &googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverrideConfig {
 	Connection: interface{},
@@ -994,7 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlese
 	Force: interface{},
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverrideTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverrideTimeouts,
 }
 ```
 
@@ -1248,7 +1248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverrideTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 &googleserviceusageconsumerquotaoverride.GoogleServiceUsageConsumerQuotaOverrideTimeouts {
 	Create: *string,
@@ -1310,7 +1310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceUsageConsumerQuotaOverride.GoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceusageconsumerquotaoverride"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleserviceusageconsumerquotaoverride"
 
 googleserviceusageconsumerquotaoverride.NewGoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference
 ```

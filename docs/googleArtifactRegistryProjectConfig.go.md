@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 googleartifactregistryprojectconfig.NewGoogleArtifactRegistryProjectConfig(scope Construct, id *string, config GoogleArtifactRegistryProjectConfigConfig) GoogleArtifactRegistryProjectConfig
 ```
@@ -461,7 +461,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfig_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfig_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfig_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -871,7 +871,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 &googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfigConfig {
 	Connection: interface{},
@@ -883,9 +883,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlear
 	Provisioners: *[]interface{},
 	Id: *string,
 	Location: *string,
-	PlatformLogsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigPlatformLogsConfig,
+	PlatformLogsConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigPlatformLogsConfig,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigTimeouts,
 }
 ```
 
@@ -1052,7 +1052,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigPlatformLogsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 &googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfigPlatformLogsConfig {
 	LoggingState: *string,
@@ -1105,7 +1105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 &googleartifactregistryprojectconfig.GoogleArtifactRegistryProjectConfigTimeouts {
 	Create: *string,
@@ -1167,7 +1167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigPlatformLogsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 googleartifactregistryprojectconfig.NewGoogleArtifactRegistryProjectConfigPlatformLogsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleArtifactRegistryProjectConfigPlatformLogsConfigOutputReference
 ```
@@ -1474,7 +1474,7 @@ func InternalValue() GoogleArtifactRegistryProjectConfigPlatformLogsConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleArtifactRegistryProjectConfig.GoogleArtifactRegistryProjectConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryprojectconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryprojectconfig"
 
 googleartifactregistryprojectconfig.NewGoogleArtifactRegistryProjectConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleArtifactRegistryProjectConfigTimeoutsOutputReference
 ```

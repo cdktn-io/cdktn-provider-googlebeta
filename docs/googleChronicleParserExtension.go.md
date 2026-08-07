@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtension.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtension(scope Construct, id *string, config GoogleChronicleParserExtensionConfig) GoogleChronicleParserExtension
 ```
@@ -502,7 +502,7 @@ func ResetValidationSkipped()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtension.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.GoogleChronicleParserExtension_IsConstruct(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtension.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.GoogleChronicleParserExtension_IsTerraformElement(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlechronicleparserextension.GoogleChronicleParserExtension_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtension.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.GoogleChronicleParserExtension_IsTerraformResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ googlechronicleparserextension.GoogleChronicleParserExtension_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtension.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.GoogleChronicleParserExtension_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1143,7 +1143,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 &googlechronicleparserextension.GoogleChronicleParserExtensionConfig {
 	Connection: interface{},
@@ -1158,12 +1158,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 	LogType: *string,
 	CbnSnippet: *string,
 	DeletionPolicy: *string,
-	DynamicParsing: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleParserExtension.GoogleChronicleParserExtensionDynamicParsing,
-	FieldExtractors: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractors,
+	DynamicParsing: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleParserExtension.GoogleChronicleParserExtensionDynamicParsing,
+	FieldExtractors: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractors,
 	Id: *string,
 	Log: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleParserExtension.GoogleChronicleParserExtensionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleParserExtension.GoogleChronicleParserExtensionTimeouts,
 	ValidationSkipped: interface{},
 }
 ```
@@ -1446,7 +1446,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionDynamicParsing.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 &googlechronicleparserextension.GoogleChronicleParserExtensionDynamicParsing {
 	OptedFields: interface{},
@@ -1480,7 +1480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionDynamicParsingOptedFields.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 &googlechronicleparserextension.GoogleChronicleParserExtensionDynamicParsingOptedFields {
 	Path: *string,
@@ -1530,13 +1530,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 &googlechronicleparserextension.GoogleChronicleParserExtensionFieldExtractors {
 	AppendRepeatedFields: interface{},
 	Extractors: interface{},
 	LogFormat: *string,
-	PreprocessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsPreprocessConfig,
+	PreprocessConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsPreprocessConfig,
 }
 ```
 
@@ -1612,7 +1612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsExtractors.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 &googlechronicleparserextension.GoogleChronicleParserExtensionFieldExtractorsExtractors {
 	DestinationPath: *string,
@@ -1735,7 +1735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsPreprocessConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 &googlechronicleparserextension.GoogleChronicleParserExtensionFieldExtractorsPreprocessConfig {
 	GrokRegex: *string,
@@ -1785,7 +1785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 &googlechronicleparserextension.GoogleChronicleParserExtensionTimeouts {
 	Create: *string,
@@ -1833,7 +1833,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionDynamicParsingOptedFieldsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionDynamicParsingOptedFieldsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleParserExtensionDynamicParsingOptedFieldsList
 ```
@@ -1993,7 +1993,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionDynamicParsingOptedFieldsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionDynamicParsingOptedFieldsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleParserExtensionDynamicParsingOptedFieldsOutputReference
 ```
@@ -2318,7 +2318,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionDynamicParsingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionDynamicParsingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleParserExtensionDynamicParsingOutputReference
 ```
@@ -2609,7 +2609,7 @@ func InternalValue() GoogleChronicleParserExtensionDynamicParsing
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsExtractorsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionFieldExtractorsExtractorsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleParserExtensionFieldExtractorsExtractorsList
 ```
@@ -2769,7 +2769,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsExtractorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionFieldExtractorsExtractorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleParserExtensionFieldExtractorsExtractorsOutputReference
 ```
@@ -3210,7 +3210,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionFieldExtractorsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleParserExtensionFieldExtractorsOutputReference
 ```
@@ -3612,7 +3612,7 @@ func InternalValue() GoogleChronicleParserExtensionFieldExtractors
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionFieldExtractorsPreprocessConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionFieldExtractorsPreprocessConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleParserExtensionFieldExtractorsPreprocessConfigOutputReference
 ```
@@ -3919,7 +3919,7 @@ func InternalValue() GoogleChronicleParserExtensionFieldExtractorsPreprocessConf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleParserExtension.GoogleChronicleParserExtensionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleparserextension"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicleparserextension"
 
 googlechronicleparserextension.NewGoogleChronicleParserExtensionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleParserExtensionTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.NewGoogleSpannerInstanceConfigA(scope Construct, id *string, config GoogleSpannerInstanceConfigAConfig) GoogleSpannerInstanceConfigA
 ```
@@ -475,7 +475,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.GoogleSpannerInstanceConfigA_IsConstruct(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.GoogleSpannerInstanceConfigA_IsTerraformElement(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlespannerinstanceconfig.GoogleSpannerInstanceConfigA_IsTerraformElement(x in
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.GoogleSpannerInstanceConfigA_IsTerraformResource(x interface{}) *bool
 ```
@@ -535,7 +535,7 @@ googlespannerinstanceconfig.GoogleSpannerInstanceConfigA_IsTerraformResource(x i
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.GoogleSpannerInstanceConfigA_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -995,7 +995,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 &googlespannerinstanceconfig.GoogleSpannerInstanceConfigAConfig {
 	Connection: interface{},
@@ -1013,7 +1013,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesp
 	Labels: *map[string]*string,
 	Name: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts,
 }
 ```
 
@@ -1250,7 +1250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicas.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 &googlespannerinstanceconfig.GoogleSpannerInstanceConfigReplicas {
 	DefaultLeaderLocation: interface{},
@@ -1316,7 +1316,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 &googlespannerinstanceconfig.GoogleSpannerInstanceConfigTimeouts {
 	Create: *string,
@@ -1378,7 +1378,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicasList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.NewGoogleSpannerInstanceConfigReplicasList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleSpannerInstanceConfigReplicasList
 ```
@@ -1538,7 +1538,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicasOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.NewGoogleSpannerInstanceConfigReplicasOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleSpannerInstanceConfigReplicasOutputReference
 ```
@@ -1892,7 +1892,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstanceconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlespannerinstanceconfig"
 
 googlespannerinstanceconfig.NewGoogleSpannerInstanceConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSpannerInstanceConfigTimeoutsOutputReference
 ```

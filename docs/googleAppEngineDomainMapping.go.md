@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMapping.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.NewGoogleAppEngineDomainMapping(scope Construct, id *string, config GoogleAppEngineDomainMappingConfig) GoogleAppEngineDomainMapping
 ```
@@ -468,7 +468,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMapping.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.GoogleAppEngineDomainMapping_IsConstruct(x interface{}) *bool
 ```
@@ -500,7 +500,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMapping.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.GoogleAppEngineDomainMapping_IsTerraformElement(x interface{}) *bool
 ```
@@ -514,7 +514,7 @@ googleappenginedomainmapping.GoogleAppEngineDomainMapping_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMapping.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.GoogleAppEngineDomainMapping_IsTerraformResource(x interface{}) *bool
 ```
@@ -528,7 +528,7 @@ googleappenginedomainmapping.GoogleAppEngineDomainMapping_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMapping.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.GoogleAppEngineDomainMapping_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -933,7 +933,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 &googleappenginedomainmapping.GoogleAppEngineDomainMappingConfig {
 	Connection: interface{},
@@ -948,8 +948,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 	Id: *string,
 	OverrideStrategy: *string,
 	Project: *string,
-	SslSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingSslSettings,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingTimeouts,
+	SslSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingSslSettings,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingTimeouts,
 }
 ```
 
@@ -1155,7 +1155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingResourceRecords.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 &googleappenginedomainmapping.GoogleAppEngineDomainMappingResourceRecords {
 
@@ -1168,7 +1168,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingSslSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 &googleappenginedomainmapping.GoogleAppEngineDomainMappingSslSettings {
 	SslManagementType: *string,
@@ -1228,7 +1228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 &googleappenginedomainmapping.GoogleAppEngineDomainMappingTimeouts {
 	Create: *string,
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingResourceRecordsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.NewGoogleAppEngineDomainMappingResourceRecordsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleAppEngineDomainMappingResourceRecordsList
 ```
@@ -1439,7 +1439,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingResourceRecordsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.NewGoogleAppEngineDomainMappingResourceRecordsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleAppEngineDomainMappingResourceRecordsOutputReference
 ```
@@ -1739,7 +1739,7 @@ func InternalValue() GoogleAppEngineDomainMappingResourceRecords
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingSslSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.NewGoogleAppEngineDomainMappingSslSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAppEngineDomainMappingSslSettingsOutputReference
 ```
@@ -2050,7 +2050,7 @@ func InternalValue() GoogleAppEngineDomainMappingSslSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineDomainMapping.GoogleAppEngineDomainMappingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleappenginedomainmapping"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping"
 
 googleappenginedomainmapping.NewGoogleAppEngineDomainMappingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAppEngineDomainMappingTimeoutsOutputReference
 ```

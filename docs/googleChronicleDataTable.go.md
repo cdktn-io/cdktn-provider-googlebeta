@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTable.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.NewGoogleChronicleDataTable(scope Construct, id *string, config GoogleChronicleDataTableConfig) GoogleChronicleDataTable
 ```
@@ -488,7 +488,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTable.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.GoogleChronicleDataTable_IsConstruct(x interface{}) *bool
 ```
@@ -520,7 +520,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTable.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.GoogleChronicleDataTable_IsTerraformElement(x interface{}) *bool
 ```
@@ -534,7 +534,7 @@ googlechronicledatatable.GoogleChronicleDataTable_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTable.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.GoogleChronicleDataTable_IsTerraformResource(x interface{}) *bool
 ```
@@ -548,7 +548,7 @@ googlechronicledatatable.GoogleChronicleDataTable_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTable.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.GoogleChronicleDataTable_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1129,7 +1129,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableColumnInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 &googlechronicledatatable.GoogleChronicleDataTableColumnInfo {
 	ColumnIndex: *f64,
@@ -1253,7 +1253,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 &googlechronicledatatable.GoogleChronicleDataTableConfig {
 	Connection: interface{},
@@ -1272,8 +1272,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlech
 	Id: *string,
 	Project: *string,
 	RowTimeToLive: *string,
-	ScopeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDataTable.GoogleChronicleDataTableScopeInfo,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleChronicleDataTable.GoogleChronicleDataTableTimeouts,
+	ScopeInfo: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDataTable.GoogleChronicleDataTableScopeInfo,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20.googleChronicleDataTable.GoogleChronicleDataTableTimeouts,
 }
 ```
 
@@ -1537,7 +1537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableScopeInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 &googlechronicledatatable.GoogleChronicleDataTableScopeInfo {
 	DataAccessScopes: *[]*string,
@@ -1576,7 +1576,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 &googlechronicledatatable.GoogleChronicleDataTableTimeouts {
 	Create: *string,
@@ -1638,7 +1638,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableColumnInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.NewGoogleChronicleDataTableColumnInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleChronicleDataTableColumnInfoList
 ```
@@ -1798,7 +1798,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableColumnInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.NewGoogleChronicleDataTableColumnInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleChronicleDataTableColumnInfoOutputReference
 ```
@@ -2225,7 +2225,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableScopeInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.NewGoogleChronicleDataTableScopeInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDataTableScopeInfoOutputReference
 ```
@@ -2496,7 +2496,7 @@ func InternalValue() GoogleChronicleDataTableScopeInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataTable.GoogleChronicleDataTableTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledatatable"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledatatable"
 
 googlechronicledatatable.NewGoogleChronicleDataTableTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleChronicleDataTableTimeoutsOutputReference
 ```
