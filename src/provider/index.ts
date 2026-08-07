@@ -989,6 +989,7 @@ export function googleBetaProviderExternalCredentialsToHclTerraform(struct?: Goo
 }
 
 
+import { GoogleBetaProviderFunctions } from '../provider-functions/index';
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs google-beta}
 */
@@ -4710,6 +4711,21 @@ export class GoogleBetaProvider extends cdktn.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get externalCredentialsInput() {
     return this._externalCredentials;
+  }
+
+  // ==========================
+  // PROVIDER-DEFINED FUNCTIONS
+  // ==========================
+  private _functions?: GoogleBetaProviderFunctions;
+
+  /**
+  * Provider-defined functions of the google-beta provider.
+  */
+  public get functions(): GoogleBetaProviderFunctions {
+    if (!this._functions) {
+      this._functions = new GoogleBetaProviderFunctions(this.terraformResourceType);
+    }
+    return this._functions;
   }
 
   // =========
